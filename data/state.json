@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "ready",
-  "checkedAt": "2026-10-08T04:49:09.417Z",
+  "checkedAt": "2026-10-08T05:11:39.573Z",
   "currentDate": "2026-10-08",
   "days": {
     "2026-10-08": {
@@ -707,7 +707,240 @@
           ]
         },
         {
-          "checkedAt": "2026-10-08T03:49:44.677Z",
+          "checkedAt": "2026-10-08T03:33:37.702Z",
+          "matches": [
+            {
+              "id": 3085211,
+              "number": "周四001",
+              "league": "芬超",
+              "kickoff": "2026-10-08T23:00:00",
+              "home": "赫尔辛基",
+              "away": "瓦萨",
+              "homeRank": "3",
+              "awayRank": "6",
+              "saleDate": "2026-10-08",
+              "spf": {
+                "win": 1.41,
+                "draw": 4.25,
+                "lose": 5.4
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 2.38,
+                "draw": 3.28,
+                "lose": 2.47
+              },
+              "goals": {
+                "0": 17,
+                "1": 5.75,
+                "2": 3.75,
+                "3": 3.6,
+                "4": 5,
+                "5": 8.35,
+                "6": 16,
+                "7+": 22
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true
+              }
+            },
+            {
+              "id": 3085212,
+              "number": "周四002",
+              "league": "芬超",
+              "kickoff": "2026-10-09T00:00:00",
+              "home": "库奥皮奥",
+              "away": "AC奥卢",
+              "homeRank": "1",
+              "awayRank": "5",
+              "saleDate": "2026-10-08",
+              "spf": {
+                "win": 1.39,
+                "draw": 4.02,
+                "lose": 6.2
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 2.43,
+                "draw": 3.18,
+                "lose": 2.48
+              },
+              "goals": {
+                "0": 13,
+                "1": 5.1,
+                "2": 3.5,
+                "3": 3.65,
+                "4": 5.45,
+                "5": 9.5,
+                "6": 20,
+                "7+": 30
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true
+              }
+            },
+            {
+              "id": 2910915,
+              "number": "周四003",
+              "league": "巴甲",
+              "kickoff": "2026-10-09T06:30:00",
+              "home": "桑托斯",
+              "away": "弗拉门戈",
+              "homeRank": "8",
+              "awayRank": "1",
+              "saleDate": "2026-10-08",
+              "spf": {
+                "win": 4.08,
+                "draw": 3.6,
+                "lose": 1.65
+              },
+              "handicap": 1,
+              "rqspf": {
+                "win": 1.98,
+                "draw": 3.3,
+                "lose": 3.11
+              },
+              "goals": {
+                "0": 14,
+                "1": 5.3,
+                "2": 3.7,
+                "3": 3.6,
+                "4": 5.25,
+                "5": 9,
+                "6": 18,
+                "7+": 26
+              },
+              "single": {
+                "spf": true,
+                "rqspf": false,
+                "score": true,
+                "goals": true
+              }
+            },
+            {
+              "id": 2910907,
+              "number": "周四004",
+              "league": "巴甲",
+              "kickoff": "2026-10-09T07:00:00",
+              "home": "巴竞技",
+              "away": "米竞技",
+              "homeRank": "3",
+              "awayRank": "7",
+              "saleDate": "2026-10-08",
+              "spf": {
+                "win": 1.95,
+                "draw": 3.05,
+                "lose": 3.46
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 4.3,
+                "draw": 3.45,
+                "lose": 1.65
+              },
+              "goals": {
+                "0": 11,
+                "1": 4.5,
+                "2": 3.3,
+                "3": 3.4,
+                "4": 6.25,
+                "5": 13,
+                "6": 27,
+                "7+": 50
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true
+              }
+            },
+            {
+              "id": 2910911,
+              "number": "周四005",
+              "league": "巴甲",
+              "kickoff": "2026-10-09T08:30:00",
+              "home": "弗鲁米嫩",
+              "away": "科里蒂巴",
+              "homeRank": "4",
+              "awayRank": "9",
+              "saleDate": "2026-10-08",
+              "spf": {
+                "win": 1.33,
+                "draw": 4.25,
+                "lose": 7.05
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 2.15,
+                "draw": 3.33,
+                "lose": 2.75
+              },
+              "goals": {
+                "0": 14,
+                "1": 5.25,
+                "2": 3.7,
+                "3": 3.6,
+                "4": 5.3,
+                "5": 9.5,
+                "6": 17,
+                "7+": 24
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true
+              }
+            },
+            {
+              "id": 2910913,
+              "number": "周四006",
+              "league": "巴甲",
+              "kickoff": "2026-10-09T08:30:00",
+              "home": "帕梅拉斯",
+              "away": "巴伊亚",
+              "homeRank": "2",
+              "awayRank": "5",
+              "saleDate": "2026-10-08",
+              "spf": {
+                "win": 1.44,
+                "draw": 4,
+                "lose": 5.4
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 2.47,
+                "draw": 3.28,
+                "lose": 2.38
+              },
+              "goals": {
+                "0": 15,
+                "1": 5.5,
+                "2": 3.65,
+                "3": 3.55,
+                "4": 5.1,
+                "5": 8.75,
+                "6": 18.5,
+                "7+": 28
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true
+              }
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-10-08T04:01:03.007Z",
           "matches": [
             {
               "id": 3085211,
@@ -940,7 +1173,7 @@
           ]
         },
         {
-          "checkedAt": "2026-10-08T04:19:16.235Z",
+          "checkedAt": "2026-10-08T05:11:39.573Z",
           "matches": [
             {
               "id": 3085211,
@@ -965,246 +1198,13 @@
               },
               "goals": {
                 "0": 17,
-                "1": 5.75,
-                "2": 3.75,
-                "3": 3.6,
-                "4": 5,
-                "5": 8.35,
-                "6": 16,
-                "7+": 22
-              },
-              "single": {
-                "spf": false,
-                "rqspf": false,
-                "score": true,
-                "goals": true
-              }
-            },
-            {
-              "id": 3085212,
-              "number": "周四002",
-              "league": "芬超",
-              "kickoff": "2026-10-09T00:00:00",
-              "home": "库奥皮奥",
-              "away": "AC奥卢",
-              "homeRank": "1",
-              "awayRank": "5",
-              "saleDate": "2026-10-08",
-              "spf": {
-                "win": 1.39,
-                "draw": 4.02,
-                "lose": 6.2
-              },
-              "handicap": -1,
-              "rqspf": {
-                "win": 2.43,
-                "draw": 3.18,
-                "lose": 2.48
-              },
-              "goals": {
-                "0": 13,
-                "1": 5.1,
-                "2": 3.5,
-                "3": 3.65,
-                "4": 5.45,
-                "5": 9.5,
-                "6": 20,
-                "7+": 30
-              },
-              "single": {
-                "spf": false,
-                "rqspf": false,
-                "score": true,
-                "goals": true
-              }
-            },
-            {
-              "id": 2910915,
-              "number": "周四003",
-              "league": "巴甲",
-              "kickoff": "2026-10-09T06:30:00",
-              "home": "桑托斯",
-              "away": "弗拉门戈",
-              "homeRank": "8",
-              "awayRank": "1",
-              "saleDate": "2026-10-08",
-              "spf": {
-                "win": 4.08,
-                "draw": 3.6,
-                "lose": 1.65
-              },
-              "handicap": 1,
-              "rqspf": {
-                "win": 1.98,
-                "draw": 3.3,
-                "lose": 3.11
-              },
-              "goals": {
-                "0": 14,
-                "1": 5.3,
+                "1": 6,
                 "2": 3.7,
-                "3": 3.6,
-                "4": 5.25,
-                "5": 9,
-                "6": 18,
-                "7+": 26
-              },
-              "single": {
-                "spf": true,
-                "rqspf": false,
-                "score": true,
-                "goals": true
-              }
-            },
-            {
-              "id": 2910907,
-              "number": "周四004",
-              "league": "巴甲",
-              "kickoff": "2026-10-09T07:00:00",
-              "home": "巴竞技",
-              "away": "米竞技",
-              "homeRank": "3",
-              "awayRank": "7",
-              "saleDate": "2026-10-08",
-              "spf": {
-                "win": 1.95,
-                "draw": 3.05,
-                "lose": 3.46
-              },
-              "handicap": -1,
-              "rqspf": {
-                "win": 4.3,
-                "draw": 3.45,
-                "lose": 1.65
-              },
-              "goals": {
-                "0": 11,
-                "1": 4.5,
-                "2": 3.3,
-                "3": 3.4,
-                "4": 6.25,
-                "5": 13,
-                "6": 27,
-                "7+": 50
-              },
-              "single": {
-                "spf": false,
-                "rqspf": false,
-                "score": true,
-                "goals": true
-              }
-            },
-            {
-              "id": 2910911,
-              "number": "周四005",
-              "league": "巴甲",
-              "kickoff": "2026-10-09T08:30:00",
-              "home": "弗鲁米嫩",
-              "away": "科里蒂巴",
-              "homeRank": "4",
-              "awayRank": "9",
-              "saleDate": "2026-10-08",
-              "spf": {
-                "win": 1.31,
-                "draw": 4.3,
-                "lose": 7.5
-              },
-              "handicap": -1,
-              "rqspf": {
-                "win": 2.12,
-                "draw": 3.33,
-                "lose": 2.8
-              },
-              "goals": {
-                "0": 14,
-                "1": 5.25,
-                "2": 3.7,
-                "3": 3.6,
-                "4": 5.3,
-                "5": 9.5,
-                "6": 17,
-                "7+": 24
-              },
-              "single": {
-                "spf": false,
-                "rqspf": false,
-                "score": true,
-                "goals": true
-              }
-            },
-            {
-              "id": 2910913,
-              "number": "周四006",
-              "league": "巴甲",
-              "kickoff": "2026-10-09T08:30:00",
-              "home": "帕梅拉斯",
-              "away": "巴伊亚",
-              "homeRank": "2",
-              "awayRank": "5",
-              "saleDate": "2026-10-08",
-              "spf": {
-                "win": 1.44,
-                "draw": 4,
-                "lose": 5.4
-              },
-              "handicap": -1,
-              "rqspf": {
-                "win": 2.47,
-                "draw": 3.28,
-                "lose": 2.38
-              },
-              "goals": {
-                "0": 15,
-                "1": 5.5,
-                "2": 3.65,
-                "3": 3.55,
-                "4": 5.1,
-                "5": 8.75,
-                "6": 18.5,
-                "7+": 28
-              },
-              "single": {
-                "spf": false,
-                "rqspf": false,
-                "score": true,
-                "goals": true
-              }
-            }
-          ]
-        },
-        {
-          "checkedAt": "2026-10-08T04:49:09.417Z",
-          "matches": [
-            {
-              "id": 3085211,
-              "number": "周四001",
-              "league": "芬超",
-              "kickoff": "2026-10-08T23:00:00",
-              "home": "赫尔辛基",
-              "away": "瓦萨",
-              "homeRank": "3",
-              "awayRank": "6",
-              "saleDate": "2026-10-08",
-              "spf": {
-                "win": 1.39,
-                "draw": 4.3,
-                "lose": 5.65
-              },
-              "handicap": -1,
-              "rqspf": {
-                "win": 2.35,
-                "draw": 3.26,
-                "lose": 2.52
-              },
-              "goals": {
-                "0": 17,
-                "1": 5.75,
-                "2": 3.75,
-                "3": 3.6,
+                "3": 3.5,
                 "4": 5,
-                "5": 8.35,
+                "5": 8.55,
                 "6": 16,
-                "7+": 22
+                "7+": 23
               },
               "single": {
                 "spf": false,
@@ -1407,7 +1407,7 @@
         }
       ],
       "latest": {
-        "checkedAt": "2026-10-08T04:49:09.417Z",
+        "checkedAt": "2026-10-08T05:11:39.573Z",
         "matches": [
           {
             "id": 3085211,
@@ -1432,13 +1432,13 @@
             },
             "goals": {
               "0": 17,
-              "1": 5.75,
-              "2": 3.75,
-              "3": 3.6,
+              "1": 6,
+              "2": 3.7,
+              "3": 3.5,
               "4": 5,
-              "5": 8.35,
+              "5": 8.55,
               "6": 16,
-              "7+": 22
+              "7+": 23
             },
             "single": {
               "spf": false,
