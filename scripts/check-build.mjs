@@ -5,4 +5,5 @@ const script=html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
 if(!script)throw Error('Page script missing');
 new Function(script);
 if(!html.includes('raw.githubusercontent.com/zdongdong8219-jpg/football-monitor/main/data/'))throw Error('Data integration missing');
+if(!html.includes('强烈建议 · 2.50–2.79倍'))throw Error('Strong recommendation column missing');
 console.log('Football mobile build verified');
