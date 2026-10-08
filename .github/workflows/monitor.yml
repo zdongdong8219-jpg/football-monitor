@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add data/state.json
+          git add data/state.json data/research
           git diff --cached --quiet || git commit -m "Update football monitoring snapshot"
           git push
       - run: mkdir -p _site/data && cp public/index.html _site/index.html && cp data/state.json data/latest.json _site/data/

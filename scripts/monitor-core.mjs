@@ -41,6 +41,48 @@ function appendDay(state, date, checkedAt, matches) {
   state.days[date] = day;
 }
 
+function oddsDelta(opening, current) {
+  return Object.fromEntries(Object.keys(current || {}).map(key => [
+    key,
+    opening?.[key] == null || current?.[key] == null
+      ? null
+      : Number((current[key] - opening[key]).toFixed(2))
+  ]));
+}
+
+export function buildResearchSnapshot(state, date=state.currentDate) {
+  const day=state.days?.[date];
+  if (!day?.latest?.matches?.length) throw new Error(`No matches available for ${date}`);
+  const opening=day.snapshots?.[0]?.matches || day.latest.matches;
+  const openingById=new Map(opening.map(match=>[match.id,match]));
+  return {
+    saleDate:date,
+    capturedAt:state.checkedAt,
+    beijingTime:new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai',dateStyle:'short',timeStyle:'short'}).format(new Date(state.checkedAt)),
+    source:'haoyun999 accessible lottery JSON mirror',
+    sourceScope:'竞彩胜平负、竞彩让球、总进球数',
+    snapshotCount:day.snapshots?.length || 1,
+    asianMarket:{status:'not-verified-this-run',note:'自动快照仅记录可核对的竞彩数据；同公司亚洲盘、阵容和伤停由综合研究任务另行核验。'},
+    matches:day.latest.matches.map(current=>{
+      const first=openingById.get(current.id) || current;
+      return {
+        number:current.number,
+        home:current.home,
+        away:current.away,
+        kickoff:current.kickoff,
+        spfOpen:first.spf,
+        spfNow:current.spf,
+        spfDelta:oddsDelta(first.spf,current.spf),
+        handicap:current.handicap,
+        rqspfOpen:first.rqspf,
+        rqspfNow:current.rqspf,
+        rqspfDelta:oddsDelta(first.rqspf,current.rqspf),
+        goals:current.goals
+      };
+    })
+  };
+}
+
 export async function collect(previous, { fetchImpl=fetch, now=new Date() }={}) {
   const payload = await readJson(fetchImpl, LIST_URL);
   if (payload?.code !== 0) throw new Error(payload?.message || 'Match list unavailable');
