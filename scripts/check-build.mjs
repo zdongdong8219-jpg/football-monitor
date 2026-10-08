@@ -9,4 +9,5 @@ if(!html.includes('强烈建议 · 2.50–2.79倍'))throw Error('Strong recommen
 if(!html.includes('predictedScore'))throw Error('Score prediction rendering missing');
 if(!html.includes('combinationCount'))throw Error('Combination structure rendering missing');
 if(!html.includes("market('半全场'"))throw Error('Half-full-time market rendering missing');
+if(!html.includes('halfTimePrediction')||!html.includes('upgradeFrom')||!html.includes('selectionReason'))throw Error('Half-full-time rationale rendering missing');
 console.log('Football mobile build verified');
