@@ -26,7 +26,12 @@ function normalize(match, detail) {
     handicap: Number(more.rfspf_goal ?? match.goalFoot ?? match.handicap ?? 0),
     rqspf: { win:num(more.rfspf_win ?? match.rspfWinFoot ?? match.rqspf?.win), draw:num(more.rfspf_draw ?? match.rspfEqualFoot ?? match.rqspf?.draw), lose:num(more.rfspf_lost ?? match.rspfLoseFoot ?? match.rqspf?.lose) },
     goals: Object.fromEntries(Array.from({length:8},(_,i)=>[i===7?'7+':String(i),num(more[`t${i}`] ?? match.goals?.[i===7?'7+':String(i)])])),
-    single: match.single || { spf:Boolean(match.singleSpfFoot), rqspf:Boolean(match.singleRqspfFoot), score:Boolean(match.singleBfFoot), goals:Boolean(match.singleJqFoot) }
+    halfFull: {
+      winWin:num(more.ht33 ?? match.halfFull?.winWin), winDraw:num(more.ht31 ?? match.halfFull?.winDraw), winLose:num(more.ht30 ?? match.halfFull?.winLose),
+      drawWin:num(more.ht13 ?? match.halfFull?.drawWin), drawDraw:num(more.ht11 ?? match.halfFull?.drawDraw), drawLose:num(more.ht10 ?? match.halfFull?.drawLose),
+      loseWin:num(more.ht03 ?? match.halfFull?.loseWin), loseDraw:num(more.ht01 ?? match.halfFull?.loseDraw), loseLose:num(more.ht00 ?? match.halfFull?.loseLose)
+    },
+    single: match.single || { spf:Boolean(match.singleSpfFoot), rqspf:Boolean(match.singleRqspfFoot), score:Boolean(match.singleBfFoot), goals:Boolean(match.singleJqFoot), halfFull:Boolean(more.singlebqc ?? match.singleBqcFoot) }
   };
 }
 
@@ -60,7 +65,7 @@ export function buildResearchSnapshot(state, date=state.currentDate) {
     capturedAt:state.checkedAt,
     beijingTime:new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai',dateStyle:'short',timeStyle:'short'}).format(new Date(state.checkedAt)),
     source:'haoyun999 accessible lottery JSON mirror',
-    sourceScope:'竞彩胜平负、竞彩让球、总进球数',
+    sourceScope:'竞彩胜平负、竞彩让球、总进球数、半全场',
     snapshotCount:day.snapshots?.length || 1,
     asianMarket:{status:'not-verified-this-run',note:'自动快照仅记录可核对的竞彩数据；同公司亚洲盘、阵容和伤停由综合研究任务另行核验。'},
     matches:day.latest.matches.map(current=>{
@@ -77,7 +82,10 @@ export function buildResearchSnapshot(state, date=state.currentDate) {
         rqspfOpen:first.rqspf,
         rqspfNow:current.rqspf,
         rqspfDelta:oddsDelta(first.rqspf,current.rqspf),
-        goals:current.goals
+        goals:current.goals,
+        halfFullOpen:first.halfFull,
+        halfFullNow:current.halfFull,
+        halfFullDelta:oddsDelta(first.halfFull,current.halfFull)
       };
     })
   };

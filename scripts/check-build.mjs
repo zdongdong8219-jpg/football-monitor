@@ -8,4 +8,5 @@ if(!html.includes('raw.githubusercontent.com/zdongdong8219-jpg/football-monitor/
 if(!html.includes('强烈建议 · 2.50–2.79倍'))throw Error('Strong recommendation column missing');
 if(!html.includes('predictedScore'))throw Error('Score prediction rendering missing');
 if(!html.includes('combinationCount'))throw Error('Combination structure rendering missing');
+if(!html.includes("market('半全场'"))throw Error('Half-full-time market rendering missing');
 console.log('Football mobile build verified');
