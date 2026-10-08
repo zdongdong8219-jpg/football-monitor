@@ -1,7 +1,8 @@
 param([string]$Commit='local-snapshot')
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent
-$destination='D:\AAA项目文件\项目文件存档6666666666666666666666666666666666\模型备份包'
+$config=Get-Content (Join-Path $PSScriptRoot 'backup-config.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$destination=[IO.Path]::GetFullPath($config.destination)
 $null=[IO.Directory]::CreateDirectory($destination)
 Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem

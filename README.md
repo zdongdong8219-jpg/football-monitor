@@ -6,4 +6,5 @@
 - 数据：`data/state.json`
 - 每日方案：`data/latest.json`和`data/reports/`
 - 本地备份：`work/backup-football.ps1`
+- 方案发布：`work/publish-report.ps1`（发布后自动备份）
 - 不读取、修改或发布FT模型目录

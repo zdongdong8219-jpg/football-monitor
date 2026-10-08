@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: '0,30 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/latest.json'
+      - 'data/reports/**'
+      - 'public/**'
 permissions:
   contents: write
   pages: write
@@ -21,9 +27,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/collect.mjs
+      - if: github.event_name != 'push'
+        run: node scripts/collect.mjs
       - run: node scripts/check-build.mjs
-      - name: Save monitoring snapshot
+      - if: github.event_name != 'push'
+        name: Save monitoring snapshot
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
