@@ -1,0 +1,11 @@
+{
+  "name": "football-monitor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "build": "node scripts/check-build.mjs",
+    "test": "node tests/monitor.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
