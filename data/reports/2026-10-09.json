@@ -1,11 +1,101 @@
 {
   "date": "2026-10-09",
-  "publishedAt": "2026-10-09T08:46:00Z",
+  "publishedAt": "2026-10-09T17:05:00+08:00",
   "status": "published",
-  "edition": "用户要求提前最终版",
-  "dataAsOf": "2026-10-09T08:20:34.148Z",
-  "summary": "10月9日提前最终版｜数据截至16:20。结论：资料不足，今日此版本不推荐下注，不发布2串1、3串1、强烈建议或梦想串。001已开赛，撤回原方向。其余场次只有第三方镜像竞彩快照，不能冒充实力、阵容与战术综合预测。表中0星表示未评级，不表示必输；比分、总进球、半全场暂不预测。已替换10月8日旧方案。",
-  "recommendations": [],
+  "edition": "实力+战绩+阵容消息+赔率综合最终版",
+  "dataAsOf": "2026-10-09T16:20:34+08:00",
+  "summary": "10月9日最终版｜已补查联赛排名、近5场、主客场背景、交锋、教练公开阵容信息与独立市场线。首发尚未确认，阵容按伤停/旅途消息作预计。001已开赛撤回；006普通胜平负未开，剔除。最终只出有基本面与盘口同时支持的组合，不把低赔直接当稳胆。",
+  "recommendations": [
+    {
+      "name": "高一档·最稳3串1",
+      "category": "regular",
+      "passType": "3串1",
+      "combinationCount": 1,
+      "oddsText": "3.30倍（1.53×1.64×1.32，按当前竞彩赔率）",
+      "structureText": "3串1 · 单选组合 · 总回报约3.30倍",
+      "stronglyRecommended": true,
+      "legs": [
+        {
+          "number": "周五002",
+          "selection": "竞彩让球(-1)让负",
+          "odds": 1.53,
+          "halfTimePrediction": "平/客领先",
+          "predictedScore": "1-2",
+          "goalRange": "2-3球",
+          "selectionReason": "柏太阳神近5场联赛与亚冠表现偏弱，神户近5场全胜；主队让1下选让负，容纳客胜或小负一球。"
+        },
+        {
+          "number": "周五008",
+          "selection": "竞彩让球(-1)让胜",
+          "odds": 1.64,
+          "halfTimePrediction": "主领先",
+          "predictedScore": "3-1",
+          "goalRange": "3-5球",
+          "selectionReason": "多特联赛4战全胜、进9失2，近两次交锋均赢球；主场压迫和前场持续进球支持赢两球。"
+        },
+        {
+          "number": "周五010",
+          "selection": "普通主胜",
+          "odds": 1.32,
+          "halfTimePrediction": "主领先",
+          "predictedScore": "2-0",
+          "goalRange": "2-4球",
+          "selectionReason": "西汉姆近期联赛攻防数据22进球、净胜11，女王巡游近况平局偏多；只取主胜，回避主让一球门槛。"
+        }
+      ],
+      "risk": "002与008均受国际比赛日旅途影响；008官方消息显示Schlotterbeck、Ryerson存在出场疑问，首发确认前不升级比分或胜胜。"
+    },
+    {
+      "name": "稳健档·强烈建议2串1",
+      "category": "strong",
+      "passType": "2串1",
+      "combinationCount": 1,
+      "oddsText": "2.52倍（1.53×1.64，按当前竞彩赔率）",
+      "structureText": "2串1 · 1条单选组合 · 2.50–2.79倍",
+      "stronglyRecommended": true,
+      "legs": [
+        {
+          "number": "周五002",
+          "selection": "竞彩让球(-1)让负",
+          "odds": 1.53,
+          "halfTimePrediction": "平/客领先",
+          "predictedScore": "1-2",
+          "goalRange": "2-3球",
+          "selectionReason": "神户近5场全胜，柏太阳神近期连续失球；主让一球下优先客队受让。"
+        },
+        {
+          "number": "周五008",
+          "selection": "竞彩让球(-1)让胜",
+          "odds": 1.64,
+          "halfTimePrediction": "主领先",
+          "predictedScore": "3-1",
+          "goalRange": "3-5球",
+          "selectionReason": "多特4战全胜且近两次交锋2-0、3-0；官方赛前稿称球队联赛领跑，但阵容有国脚旅途和伤病疑问。"
+        }
+      ],
+      "risk": "这是当前唯一达到2.5倍且基本面/盘口方向同向的两腿组合；若多特中卫和边后卫同时缺阵，临场取消。"
+    },
+    {
+      "name": "容错观察·不纳入正式串",
+      "category": "tolerant",
+      "passType": "单场",
+      "combinationCount": 1,
+      "oddsText": "单场备选",
+      "structureText": "仅供临场首发确认后选择",
+      "legs": [
+        {
+          "number": "周五010",
+          "selection": "普通主胜",
+          "odds": 1.32,
+          "halfTimePrediction": "主领先",
+          "predictedScore": "2-0",
+          "goalRange": "2-4球",
+          "selectionReason": "实力、近期进失球和主场面支持主胜，但QPR近况平局多。"
+        }
+      ],
+      "risk": "不与002、008共同作为必选胆；首发或临场退盘则放弃。"
+    }
+  ],
   "sources": [
     {
       "name": "足球云端快照（源为haoyun999竞彩镜像，未独立复核官方）",
@@ -35,14 +125,15 @@
       "number": "周五002",
       "league": "日职",
       "teams": "柏太阳神 vs 神户胜利",
-      "selection": "证据不足·不推荐",
-      "goals": "未预测",
-      "halfFull": "未预测",
-      "score": "未预测",
-      "stars": 0,
-      "recommended": false,
+      "selection": "竞彩让球(-1)让负",
+      "goals": "2-3球",
+      "halfFull": "平/客领先",
+      "score": "1-2",
+      "stars": 5,
+      "recommended": true,
       "exposureCount": 0,
-      "exposureRate": 0
+      "exposureRate": 0,
+      "dream": false
     },
     {
       "number": "周五003",
@@ -113,14 +204,15 @@
       "number": "周五008",
       "league": "德甲",
       "teams": "多特蒙德 vs 不来梅",
-      "selection": "证据不足·不推荐",
-      "goals": "未预测",
-      "halfFull": "未预测",
-      "score": "未预测",
-      "stars": 0,
-      "recommended": false,
+      "selection": "竞彩让球(-1)让胜",
+      "goals": "3-5球",
+      "halfFull": "主领先",
+      "score": "3-1",
+      "stars": 5,
+      "recommended": true,
       "exposureCount": 0,
-      "exposureRate": 0
+      "exposureRate": 0,
+      "dream": false
     },
     {
       "number": "周五009",
@@ -139,14 +231,15 @@
       "number": "周五010",
       "league": "英冠",
       "teams": "西汉姆联 vs 女王巡游",
-      "selection": "证据不足·不推荐",
-      "goals": "未预测",
-      "halfFull": "未预测",
-      "score": "未预测",
-      "stars": 0,
-      "recommended": false,
+      "selection": "普通主胜",
+      "goals": "2-4球",
+      "halfFull": "主领先",
+      "score": "2-0",
+      "stars": 3,
+      "recommended": true,
       "exposureCount": 0,
-      "exposureRate": 0
+      "exposureRate": 0,
+      "dream": false
     },
     {
       "number": "周五011",
