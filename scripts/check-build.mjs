@@ -10,4 +10,6 @@ if(!html.includes('predictedScore'))throw Error('Score prediction rendering miss
 if(!html.includes('combinationCount'))throw Error('Combination structure rendering missing');
 if(!html.includes("market('半全场'"))throw Error('Half-full-time market rendering missing');
 if(!html.includes('halfTimePrediction')||!html.includes('upgradeFrom')||!html.includes('selectionReason'))throw Error('Half-full-time rationale rendering missing');
+if(!html.includes('掏空主任的裤衩子'))throw Error('Requested page title missing');
+if(!html.includes('renderScanTable')||!html.includes('confidenceStars'))throw Error('Scan summary table missing');
 console.log('Football mobile build verified');
