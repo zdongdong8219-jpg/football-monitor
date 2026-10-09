@@ -12,4 +12,5 @@ if(!html.includes("market('半全场'"))throw Error('Half-full-time market rende
 if(!html.includes('halfTimePrediction')||!html.includes('upgradeFrom')||!html.includes('selectionReason'))throw Error('Half-full-time rationale rendering missing');
 if(!html.includes('掏空主任的裤衩子'))throw Error('Requested page title missing');
 if(!html.includes('renderScanTable')||!html.includes('confidenceStars'))throw Error('Scan summary table missing');
+if(!html.includes('copyScanTable')||!html.includes('navigator.clipboard'))throw Error('Mobile scan table copy control missing');
 console.log('Football mobile build verified');
