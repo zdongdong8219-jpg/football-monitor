@@ -13,6 +13,6 @@ if(!html.includes('halfTimePrediction')||!html.includes('upgradeFrom')||!html.in
 if(!html.includes('掏空主任的裤衩子'))throw Error('Requested page title missing');
 if(!html.includes('renderScanTable')||!html.includes('confidenceStars'))throw Error('Scan summary table missing');
 if(!html.includes('copyScanTable')||!html.includes('ClipboardItem')||!html.includes('image/png'))throw Error('Mobile scan image copy control missing');
-if(!html.includes('renderReview')||!html.includes('review-latest.json')||!html.includes('红框为命中项'))throw Error('Post-match review table missing');
+if(!html.includes('renderReview')||!html.includes('review-latest.json')||!html.includes('markedPick')||!html.includes('hit-mark'))throw Error('Post-match review table missing');
 if(!html.includes("category==='tolerant'")||!html.includes('方案暴露')||!html.includes('集中风险'))throw Error('Risk diversification UI missing');
 console.log('Football mobile build verified');

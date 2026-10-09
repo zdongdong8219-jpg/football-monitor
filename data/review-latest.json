@@ -16,6 +16,7 @@
       "actualScore": "6-0",
       "halfScore": "3-0",
       "hits": { "result": true, "goals": false, "halfFull": true, "score": false },
+      "hitLabels": { "result": ["主胜"], "halfFull": ["胜胜"] },
       "recommended": false,
       "review": "胜负方向正确，但明显低估主队进攻上限；大胜场景没有进入比分和进球区间。"
     },
@@ -31,6 +32,7 @@
       "actualScore": "0-1",
       "halfScore": "0-1",
       "hits": { "result": false, "goals": false, "halfFull": false, "score": false },
+      "hitLabels": {},
       "recommended": false,
       "review": "强弱排名被高估，缺少阵容和独立亚洲盘交叉验证；赛前已因证据不完整剔除，避免进入正式串关。"
     },
@@ -46,6 +48,7 @@
       "actualScore": "2-2",
       "halfScore": "0-2",
       "hits": { "result": false, "goals": true, "halfFull": false, "score": false },
+      "hitLabels": { "goals": ["2-4球"] },
       "recommended": true,
       "review": "最大错误场。赛前已识别桑托斯近况和主场抗性，却仍把客胜作为所有组合共同胆。弗拉门戈半场2球领先后未守住，说明领先后的控制力和主队反扑能力权重不足。"
     },
@@ -61,6 +64,7 @@
       "actualScore": "2-2",
       "halfScore": "1-1",
       "hits": { "result": true, "goals": false, "halfFull": true, "score": false },
+      "hitLabels": { "result": ["让负"], "halfFull": ["平平"] },
       "recommended": true,
       "review": "欧亚同步削弱主队的判断正确，让负与平平命中；但低估了比赛后段的进球数量。"
     },
@@ -76,6 +80,7 @@
       "actualScore": "4-0",
       "halfScore": "1-0",
       "hits": { "result": true, "goals": true, "halfFull": true, "score": false },
+      "hitLabels": { "result": ["普通主胜", "让胜"], "goals": ["2-4球"], "halfFull": ["胜胜"] },
       "recommended": true,
       "review": "昨日最完整的一场：普通主胜、让胜、2-4球和胜胜均命中；比分方向接近但未覆盖4-0。"
     },
@@ -91,6 +96,7 @@
       "actualScore": "1-0",
       "halfScore": "1-0",
       "hits": { "result": true, "goals": false, "halfFull": false, "score": false },
+      "hitLabels": { "result": ["让平"] },
       "recommended": false,
       "review": "阻主方向正确，主队仅赢1球对应让平；总进球和半全场节奏判断偏高。"
     }
