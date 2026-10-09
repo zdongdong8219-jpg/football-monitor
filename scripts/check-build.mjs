@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-for(const file of ['data/state.json','data/latest.json']) JSON.parse(fs.readFileSync(file,'utf8'));
+for(const file of ['data/state.json','data/latest.json','data/review-latest.json']) JSON.parse(fs.readFileSync(file,'utf8'));
 const html=fs.readFileSync('public/index.html','utf8');
 const script=html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
 if(!script)throw Error('Page script missing');
@@ -13,4 +13,6 @@ if(!html.includes('halfTimePrediction')||!html.includes('upgradeFrom')||!html.in
 if(!html.includes('掏空主任的裤衩子'))throw Error('Requested page title missing');
 if(!html.includes('renderScanTable')||!html.includes('confidenceStars'))throw Error('Scan summary table missing');
 if(!html.includes('copyScanTable')||!html.includes('ClipboardItem')||!html.includes('image/png'))throw Error('Mobile scan image copy control missing');
+if(!html.includes('renderReview')||!html.includes('review-latest.json')||!html.includes('红框为命中项'))throw Error('Post-match review table missing');
+if(!html.includes("category==='tolerant'")||!html.includes('方案暴露')||!html.includes('集中风险'))throw Error('Risk diversification UI missing');
 console.log('Football mobile build verified');

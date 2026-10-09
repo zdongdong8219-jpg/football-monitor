@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - 'data/latest.json'
+      - 'data/review-latest.json'
       - 'data/reports/**'
       - 'public/**'
 permissions:
@@ -38,7 +39,7 @@ jobs:
           git add data/state.json data/research
           git diff --cached --quiet || git commit -m "Update football monitoring snapshot"
           git push
-      - run: mkdir -p _site/data && cp public/index.html _site/index.html && cp data/state.json data/latest.json _site/data/
+      - run: mkdir -p _site/data && cp public/index.html _site/index.html && cp data/state.json data/latest.json data/review-latest.json _site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
