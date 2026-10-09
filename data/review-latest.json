@@ -1,8 +1,31 @@
 {
   "date": "2026-10-08",
   "title": "掏空主任的裤衩子",
-  "publishedAt": "2026-10-09T02:20:00.000Z",
-  "summary": "昨日6场复盘：004让负、005主胜/让胜命中，003弗拉门戈客胜未中。致命错误是003出现在4/4张正式推荐票中，形成100%共同暴露，导致常规2串1、常规3串1、强烈建议和梦想串同时失效。",
+  "publishedAt": "2026-10-09T03:10:08.115Z",
+  "summary": "昨日6场均经FotMob与365Scores核为完赛，且全场、半场比分一致。单场预测上，003客胜未中；组合管理上，003被4/4张已发布票共同采用，100%暴露属于组合结构错误，004与005各3/4张、75%暴露属于集中风险。4张已发布组合均未中，正式方案未发布容错组，不作赛后补算。",
+  "verification": {
+    "verifiedAt": "2026-10-09T03:10:08.115Z",
+    "status": "consistent",
+    "sources": [
+      {
+        "name": "FotMob",
+        "urls": [
+          "https://www.fotmob.com/api/data/matches?date=20261008&ccode3=CHN&timezone=Asia%2FShanghai",
+          "https://www.fotmob.com/api/data/matches?date=20261009&ccode3=CHN&timezone=Asia%2FShanghai"
+        ],
+        "matchIds": [6145876, 6145877, 5103646, 5103651, 5103644, 5103647]
+      },
+      {
+        "name": "365Scores",
+        "urls": [
+          "https://webws.365scores.com/web/games/results/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&competitions=126&startDate=2026-10-01&endDate=2026-10-09",
+          "https://webws.365scores.com/web/games/allscores/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&sports=1&startDate=2026-10-08&endDate=2026-10-09"
+        ],
+        "matchIds": [4844722, 4844721, 4632664, 4632659, 4632665, 4632663]
+      }
+    ],
+    "note": "两源逐场确认完赛状态，并以FotMob进球时间线和365Scores半场阶段比分交叉核对半场比分。"
+  },
   "rows": [
     {
       "number": "周四001",
@@ -16,8 +39,11 @@
       "actualScore": "6-0",
       "halfScore": "3-0",
       "hits": { "result": true, "goals": false, "halfFull": true, "score": false },
-      "hitLabels": { "result": ["主胜"], "halfFull": ["胜胜"] },
+      "hitLabels": { "result": ["主胜"], "goals": [], "halfFull": ["胜胜"], "score": [] },
       "recommended": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
       "review": "胜负方向正确，但明显低估主队进攻上限；大胜场景没有进入比分和进球区间。"
     },
     {
@@ -32,8 +58,11 @@
       "actualScore": "0-1",
       "halfScore": "0-1",
       "hits": { "result": false, "goals": false, "halfFull": false, "score": false },
-      "hitLabels": {},
+      "hitLabels": { "result": [], "goals": [], "halfFull": [], "score": [] },
       "recommended": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
       "review": "强弱排名被高估，缺少阵容和独立亚洲盘交叉验证；赛前已因证据不完整剔除，避免进入正式串关。"
     },
     {
@@ -48,9 +77,12 @@
       "actualScore": "2-2",
       "halfScore": "0-2",
       "hits": { "result": false, "goals": true, "halfFull": false, "score": false },
-      "hitLabels": { "goals": ["2-4球"] },
+      "hitLabels": { "result": [], "goals": ["2-4球"], "halfFull": [], "score": [] },
       "recommended": true,
-      "review": "最大错误场。赛前已识别桑托斯近况和主场抗性，却仍把客胜作为所有组合共同胆。弗拉门戈半场2球领先后未守住，说明领先后的控制力和主队反扑能力权重不足。"
+      "exposureCount": 4,
+      "exposureRate": 1,
+      "exposureRisk": "组合结构错误",
+      "review": "单场预测错误：客胜未中；赛前已识别桑托斯近况和主场抗性，仍选择客胜。组合管理错误另计：该场被4/4张已发布票共同采用。"
     },
     {
       "number": "周四004",
@@ -64,9 +96,12 @@
       "actualScore": "2-2",
       "halfScore": "1-1",
       "hits": { "result": true, "goals": false, "halfFull": true, "score": false },
-      "hitLabels": { "result": ["让负"], "halfFull": ["平平"] },
+      "hitLabels": { "result": ["让负"], "goals": [], "halfFull": ["平平"], "score": [] },
       "recommended": true,
-      "review": "欧亚同步削弱主队的判断正确，让负与平平命中；但低估了比赛后段的进球数量。"
+      "exposureCount": 3,
+      "exposureRate": 0.75,
+      "exposureRisk": "集中风险",
+      "review": "让负与平平命中；总进球和比分未中，各玩法独立结算。该场出现在3/4张票中，形成75%集中暴露。"
     },
     {
       "number": "周四005",
@@ -80,9 +115,12 @@
       "actualScore": "4-0",
       "halfScore": "1-0",
       "hits": { "result": true, "goals": true, "halfFull": true, "score": false },
-      "hitLabels": { "result": ["普通主胜", "让胜"], "goals": ["2-4球"], "halfFull": ["胜胜"] },
+      "hitLabels": { "result": ["普通主胜", "让胜"], "goals": ["2-4球"], "halfFull": ["胜胜"], "score": [] },
       "recommended": true,
-      "review": "昨日最完整的一场：普通主胜、让胜、2-4球和胜胜均命中；比分方向接近但未覆盖4-0。"
+      "exposureCount": 3,
+      "exposureRate": 0.75,
+      "exposureRisk": "集中风险",
+      "review": "普通主胜、让胜、2-4球和胜胜分别命中；比分必须完全一致，因此2-0/3-1不计命中。该场出现在3/4张票中，形成75%集中暴露。"
     },
     {
       "number": "周四006",
@@ -96,8 +134,11 @@
       "actualScore": "1-0",
       "halfScore": "1-0",
       "hits": { "result": true, "goals": false, "halfFull": false, "score": false },
-      "hitLabels": { "result": ["让平"] },
+      "hitLabels": { "result": ["让平"], "goals": [], "halfFull": [], "score": [] },
       "recommended": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
       "review": "阻主方向正确，主队仅赢1球对应让平；总进球和半全场节奏判断偏高。"
     }
   ],
@@ -105,12 +146,13 @@
     { "name": "常规2串1", "result": "未中", "detail": "003客胜未中；005让胜命中。" },
     { "name": "常规3串1", "result": "未中", "detail": "003客胜未中；004让负、005主胜命中。" },
     { "name": "强烈建议2串1", "result": "未中", "detail": "003客胜未中；004让负命中。" },
+    { "name": "容错组", "result": "未发布", "detail": "2026-10-08正式方案未包含容错组，不作赛后补组或补算。" },
     { "name": "梦想3串1", "result": "未中", "detail": "003客胜未中；004让负、005让胜命中。" }
   ],
   "lessons": [
     "同一场有明确反方风险时，不得同时作为常规、强烈建议和梦想串的共同胆；003昨日为4/4张票、100%暴露。",
     "串关要做风险隔离：2串1与3串1至少保留一套不同核心结构，避免单场判断拖垮全部方案。",
-    "强队客场领先后的控场能力、对手主场反扑和换人影响需要单独评分，不能只看赛前欧亚同向。",
+    "不为003客胜未中补写赛前没有记录的原因；只保留赛前已识别的桑托斯近况、主场抗性和实际共同暴露。",
     "比分只作为参考；总进球区间要增加极端大胜和强队守成两种尾部场景。"
   ]
 }
