@@ -5,7 +5,7 @@ const script=html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
 if(!script)throw Error('Page script missing');
 new Function(script);
 if(!html.includes('raw.githubusercontent.com/zdongdong8219-jpg/football-monitor/main/data/'))throw Error('Data integration missing');
-if(!html.includes('强烈建议 · 2.50–2.79倍'))throw Error('Strong recommendation column missing');
+if(!html.includes('稳健档 · 2.50–2.79倍')||!html.includes('stronglyRecommended'))throw Error('Return tiers and independent recommendation badge missing');
 if(!html.includes('predictedScore'))throw Error('Score prediction rendering missing');
 if(!html.includes('combinationCount'))throw Error('Combination structure rendering missing');
 if(!html.includes("market('半全场'"))throw Error('Half-full-time market rendering missing');
