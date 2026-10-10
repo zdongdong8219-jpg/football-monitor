@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "title": "掏空主任的裤衩子",
   "publishedAt": "2026-10-10T08:35:00+08:00",
-  "summary": "按17:05实际发布版复盘：正式2张串关0中；002让负、008让胜、010普通主胜三个方向均未中。两张票共用002和008，均100%暴露。010只是单场备选，不计作第三套串或容错。晚间空方案不得抹掉实际发过的推荐。",
+  "summary": "按17:05实际发布版复盘：2张正式串关均未中。002、008各出现在2/2张正式票中，100%共同暴露，属于组合结构错误；010为1/2、50%，未超过集中风险阈值。逐玩法仅008和010的总进球区间命中，推荐方向、半全场和比分均未中。001目前只有FotMob单源，标记待定、不结算。金额仅按每张1倍2元示例，不能代表用户实际盈亏。",
   "verification": {
     "originalCommit": "779fdcff2f4d1fd355fa727ee65a7fd6af979574",
     "sources": [
@@ -59,35 +59,74 @@
         "url": "https://www.fotmob.com/api/data/matches?date=20261010&ccode3=CHN&timezone=Asia%2FShanghai"
       }
     ],
-    "note": "002、008、010全场双源一致；半场来自ESPN。001全场单源，半场待核。用户示例图片可能不是同一赛事/出票时间，不能据图补算实际投注。"
+    "note": "002至012均由ESPN与FotMob逐场确认完赛状态、全场比分和半场比分一致。001的FotMob比赛ID 5140044显示完赛3-0、半场3-0，但未取得官方或第二个可核查来源，因此标记待定、不结算。用户示例图片不计作原推荐或实际投注。",
+    "verifiedAt": "2026-10-10T11:06:09+08:00",
+    "status": "partial",
+    "espnMatchIds": [
+      401877609,
+      401885100,
+      401874089,
+      401843455,
+      401875592,
+      401875901,
+      401884781,
+      401876447,
+      401880233,
+      401882851,
+      401885427
+    ],
+    "fotmobMatchIds": [
+      5140044,
+      5803603,
+      5881684,
+      5107615,
+      5105018,
+      5781762,
+      5832899,
+      5881180,
+      5802947,
+      5836861,
+      5868086,
+      5887647
+    ]
   },
   "rows": [
     {
       "number": "周五001",
       "league": "韩职",
       "teams": "仁川联 vs 浦项制铁",
-      "time": "10月9日销售场次",
+      "time": "10-09 15:30",
       "recommended": false,
       "resultPick": "已开赛撤回；早前客不败",
       "goalsPick": "--",
       "halfFullPick": "--",
       "scorePick": "--",
-      "actualScore": "3-0",
-      "halfScore": "待核",
+      "actualScore": "待定（FotMob单源3-0）",
+      "halfScore": "待定（FotMob单源3-0）",
       "hitLabels": {
         "result": [],
         "goals": [],
         "halfFull": [],
         "score": []
       },
-      "review": "不作赛后补选",
-      "verification": "FotMob单源；半场未复核"
+      "review": "已开赛后撤回，不作赛后补选；现有赛果仅单源，按规则待定、不结算。",
+      "verification": "FotMob显示完赛3-0、半场3-0；缺少官方或第二来源。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "待定",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无"
     },
     {
       "number": "周五002",
       "league": "日职",
       "teams": "柏太阳神 vs 神户胜利",
-      "time": "10月9日销售场次",
+      "time": "10-09 18:00",
       "recommended": true,
       "resultPick": "竞彩让球(-1)让负",
       "goalsPick": "2-3球",
@@ -101,14 +140,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "方向未中；进球范围命中单独统计，不等于下注命中。",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "单场预测错误：让负、2-3球、半全场倾向和1-2比分均未中。组合管理错误另计：该场被2/2张正式票共同采用。",
+      "verification": "ESPN与FotMob均显示完赛，全场4-2、半场1-0。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 2,
+      "exposureRate": 1,
+      "exposureRisk": "组合结构错误"
     },
     {
       "number": "周五003",
       "league": "德乙",
       "teams": "海登海姆 vs 凯泽",
-      "time": "10月9日销售场次",
+      "time": "10-10 00:30",
       "recommended": false,
       "resultPick": "未正式推荐",
       "goalsPick": "--",
@@ -122,14 +171,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "不作赛后补选",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "未正式推荐，不进行赛后补选；结果仅作赛果记录。",
+      "verification": "ESPN与FotMob均显示完赛，全场0-0、半场0-0。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无"
     },
     {
       "number": "周五004",
       "league": "瑞超",
       "teams": "哥德堡 vs 韦斯特罗",
-      "time": "10月9日销售场次",
+      "time": "10-10 01:00",
       "recommended": false,
       "resultPick": "未正式推荐",
       "goalsPick": "--",
@@ -143,14 +202,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "不作赛后补选",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "未正式推荐，不进行赛后补选；结果仅作赛果记录。",
+      "verification": "ESPN与FotMob均显示完赛，全场1-0、半场1-0。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无"
     },
     {
       "number": "周五005",
       "league": "挪超",
       "teams": "布兰 vs 维京",
-      "time": "10月9日销售场次",
+      "time": "10-10 01:00",
       "recommended": false,
       "resultPick": "未正式推荐",
       "goalsPick": "--",
@@ -164,14 +233,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "不作赛后补选",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "未正式推荐，不进行赛后补选；结果仅作赛果记录。",
+      "verification": "ESPN与FotMob均显示完赛，全场0-2、半场0-2。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无"
     },
     {
       "number": "周五006",
       "league": "荷甲",
       "teams": "埃因霍温 vs 海伦芬",
-      "time": "10月9日销售场次",
+      "time": "10-10 02:00",
       "recommended": false,
       "resultPick": "未正式推荐",
       "goalsPick": "--",
@@ -185,14 +264,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "不作赛后补选",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "未正式推荐，不进行赛后补选；结果仅作赛果记录。",
+      "verification": "ESPN与FotMob均显示完赛，全场2-0、半场1-0。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无"
     },
     {
       "number": "周五007",
       "league": "荷乙",
       "teams": "赫拉克勒 vs 瓦尔韦克",
-      "time": "10月9日销售场次",
+      "time": "10-10 02:00",
       "recommended": false,
       "resultPick": "未正式推荐",
       "goalsPick": "--",
@@ -206,14 +295,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "不作赛后补选",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "未正式推荐，不进行赛后补选；结果仅作赛果记录。",
+      "verification": "ESPN与FotMob均显示完赛，全场3-0、半场0-0。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无"
     },
     {
       "number": "周五008",
       "league": "德甲",
       "teams": "多特蒙德 vs 不来梅",
-      "time": "10月9日销售场次",
+      "time": "10-10 02:30",
       "recommended": true,
       "resultPick": "竞彩让球(-1)让胜",
       "goalsPick": "3-5球",
@@ -229,14 +328,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "方向未中；进球范围命中单独统计，不等于下注命中。",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "单场预测错误：让胜、半全场倾向和3-1比分未中；仅3-5球命中，不能算方向或串关命中。组合管理错误另计：该场被2/2张正式票共同采用。",
+      "verification": "ESPN与FotMob均显示完赛，全场2-2、半场0-0。",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 2,
+      "exposureRate": 1,
+      "exposureRisk": "组合结构错误"
     },
     {
       "number": "周五009",
       "league": "法甲",
       "teams": "朗斯 vs 里昂",
-      "time": "10月9日销售场次",
+      "time": "10-10 02:45",
       "recommended": false,
       "resultPick": "未正式推荐",
       "goalsPick": "--",
@@ -250,14 +359,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "不作赛后补选",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "未正式推荐，不进行赛后补选；结果仅作赛果记录。",
+      "verification": "ESPN与FotMob均显示完赛，全场2-1、半场1-0。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无"
     },
     {
       "number": "周五010",
       "league": "英冠",
       "teams": "西汉姆联 vs 女王巡游",
-      "time": "10月9日销售场次",
+      "time": "10-10 03:00",
       "recommended": true,
       "resultPick": "普通主胜",
       "goalsPick": "2-4球",
@@ -273,14 +392,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "方向未中；进球范围命中单独统计，不等于下注命中。",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "单场预测错误：主胜、半全场倾向和2-0比分未中；仅2-4球命中，不能算方向或串关命中。该场进入1/2张正式票，50%不属于集中风险；单场备选不增加正式票分母。",
+      "verification": "ESPN与FotMob均显示完赛，全场1-1、半场0-1。",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 1,
+      "exposureRate": 0.5,
+      "exposureRisk": "无（50%，未超过阈值）"
     },
     {
       "number": "周五011",
       "league": "西甲",
       "teams": "马拉加 vs 西班牙人",
-      "time": "10月9日销售场次",
+      "time": "10-10 03:00",
       "recommended": false,
       "resultPick": "未正式推荐",
       "goalsPick": "--",
@@ -294,14 +423,24 @@
         "halfFull": [],
         "score": []
       },
-      "review": "不作赛后补选",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "未正式推荐，不进行赛后补选；结果仅作赛果记录。",
+      "verification": "ESPN与FotMob均显示完赛，全场1-1、半场0-1。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无"
     },
     {
       "number": "周五012",
       "league": "葡超",
       "teams": "布拉加 vs 里斯本",
-      "time": "10月9日销售场次",
+      "time": "10-10 03:15",
       "recommended": false,
       "resultPick": "未正式推荐",
       "goalsPick": "--",
@@ -315,39 +454,55 @@
         "halfFull": [],
         "score": []
       },
-      "review": "不作赛后补选",
-      "verification": "ESPN完赛数据；002/008/010全场经FotMob交叉核对"
+      "review": "未正式推荐，不进行赛后补选；结果仅作赛果记录。",
+      "verification": "ESPN与FotMob均显示完赛，全场1-3、半场1-0。",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无"
     }
   ],
   "combinations": [
     {
-      "name": "强烈建议2串1",
+      "name": "常规2串1",
+      "result": "未发布",
+      "detail": "17:05实际发布版没有常规2串1，不作赛后补组或补算。"
+    },
+    {
+      "name": "常规3串1｜高一档·最稳3串1",
       "result": "未中",
-      "detail": "002主−1让负 × 008主−1让胜，两腿均未中。原标2.52倍有误，1.53×1.64=2.5092，约2.51倍。每1倍2元假设投入，返还0，净亏2元；用户实际投入未知。"
+      "detail": "002让负 × 008让胜 × 010普通主胜，三腿均未中。原票赔率乘积1.53×1.64×1.32=3.312144，约3.31倍。仅按1倍2元示例：投入2元、返还0、示例净额-2元；不是用户实际盈亏。"
     },
     {
-      "name": "高一档3串1",
+      "name": "强烈建议｜稳健档2串1",
       "result": "未中",
-      "detail": "002主−1让负 × 008主−1让胜 × 010普通主胜，三腿均未中。1.53×1.64×1.32=3.312144，约3.31倍，原标3.30不准确。每1倍2元假设投入，返还0。"
+      "detail": "002让负 × 008让胜，两腿均未中。原票赔率乘积1.53×1.64=2.5092，约2.51倍。仅按1倍2元示例：投入2元、返还0、示例净额-2元；不是用户实际盈亏。"
     },
     {
-      "name": "010单场备选",
-      "result": "方向未中／未核准单关",
-      "detail": "1-1，普通主胜未中；原快照single.spf=false，不能作为实际可买普通单关推荐。此备选不是容错组。"
+      "name": "容错组",
+      "result": "未发布",
+      "detail": "原稿只有“容错观察·不纳入正式串”的010单场备选，且未核准普通胜平负单关资格；它不是容错组，不作出票结算。"
     },
     {
-      "name": "梦想单与半全场示例",
-      "result": "未发布，不计成绩",
-      "detail": "不把用户提供的示例票或赛后挑中的场次补记为原推荐。"
+      "name": "梦想串",
+      "result": "未发布",
+      "detail": "17:05实际发布版没有梦想串；不把用户示例票或赛后结果补记为原推荐。"
     }
   ],
   "lessons": [
-    "002柏太阳神4-2神户，半场1-0。主−1实际为让胜，原让负失误。原文错误写可容纳主队小负一球，正确条件是主队平或负；不能因对手连胜或降赔就给五星。",
-    "008多特2-2不来梅，半场0-0；ESPN事件显示80分钟1-0、85分钟2-0，88分钟与90+2失球。赛前已知后防出场疑问与旅途因素仍推净胜2球，并标强烈建议，风险没有落实到选项和评级。Schlotterbeck实际首发，不能赛后说他缺阵导致失利；定位球失球与临场事件不证明赛前必可预测。",
-    "010西汉姆1-1女王巡游，半场0-1，18分钟失点球、70分钟扳平、90+1点球被扑。点球不进是临场事件，不能用来掩盖赛前平局风险未处理、阵容研究不足。补时若进也不改变事前证据质量。",
-    "两套正式串完全嵌套，002与008各2/2张票，100%暴露；表格却填0，属于数据错误。以后自动按正式票计算，不拿备用单场稀释分母。",
-    "原稿新增推荐却残留逐场“不推荐”旧文，来源未同步，五星不是经校准胜率。以后明确区分倾向、入选、把握与缺项，保持表格和详情一致。",
-    "用户已要求提前最终版，晚间仍被空版覆写。保留原发布版本并设置finalLocked；后续任务发现同日锁定应退出，不改历史。",
-    "本次复盘修正的是结算、风险分配和证据流程，不把单场失败直接解释成某战术必然无效。以后按用户最新要求以实力、盘口、伤停与预计阵容为核心，不再要求历史战绩栏目。"
-  ]
+    "单场预测错误：002柏太阳神4-2神户，半场1-0。主-1实际为让胜，原让负未中；原文把让负错误解释为可容纳主队小负一球，正确条件应是主队平或负。",
+    "单场预测错误：008多特2-2不来梅，半场0-0。原让胜、主领先和3-1均未中，只有3-5球区间命中；不能用进球区间命中代替方向或串关命中。",
+    "单场预测错误：010西汉姆1-1女王巡游，半场0-1。点球不进属于临场事件，不能掩盖赛前平局风险和阵容研究不足；只有2-4球区间命中。",
+    "组合风险管理错误：两张正式串完全嵌套，002与008均为2/2、100%共同暴露，属于组合结构错误；010为1/2、50%，不虚报为集中风险。",
+    "原稿新增推荐后仍残留逐场“不推荐”旧文，表格、详情与来源未同步。以后发布前校验推荐方向、推荐状态、暴露率和详情一致。",
+    "晚间空方案不得覆盖17:05实际发布版。历史结算始终以不可变原票为准；未发布的常规2串1、容错组和梦想串均不补算。",
+    "来源不足必须保守处理：001即使FotMob显示完赛3-0、半场3-0，也因缺少官方或第二来源而保持待定。"
+  ],
+  "revisedAt": "2026-10-10T11:06:09+08:00"
 }
