@@ -1,0 +1,214 @@
+{
+  "results": [
+    {
+      "n": "002",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/jpn.1/summary?event=401877609",
+      "completed": true,
+      "teams": [
+        {
+          "name": "Kashiwa Reysol",
+          "side": "home",
+          "score": "4",
+          "half": "1"
+        },
+        {
+          "name": "Vissel Kobe",
+          "side": "away",
+          "score": "2",
+          "half": "0"
+        }
+      ]
+    },
+    {
+      "n": "003",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/summary?event=401885100",
+      "completed": true,
+      "teams": [
+        {
+          "name": "1. FC Heidenheim 1846",
+          "side": "home",
+          "score": "0",
+          "half": "0"
+        },
+        {
+          "name": "Kaiserslautern",
+          "side": "away",
+          "score": "0",
+          "half": "0"
+        }
+      ]
+    },
+    {
+      "n": "004",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401874089",
+      "completed": true,
+      "teams": [
+        {
+          "name": "IFK Göteborg",
+          "side": "home",
+          "score": "1",
+          "half": "1"
+        },
+        {
+          "name": "Västerås SK",
+          "side": "away",
+          "score": "0",
+          "half": "0"
+        }
+      ]
+    },
+    {
+      "n": "005",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/summary?event=401843455",
+      "completed": true,
+      "teams": [
+        {
+          "name": "SK Brann",
+          "side": "home",
+          "score": "0",
+          "half": "0"
+        },
+        {
+          "name": "Viking FK",
+          "side": "away",
+          "score": "2",
+          "half": "2"
+        }
+      ]
+    },
+    {
+      "n": "006",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=401875592",
+      "completed": true,
+      "teams": [
+        {
+          "name": "PSV Eindhoven",
+          "side": "home",
+          "score": "2",
+          "half": "1"
+        },
+        {
+          "name": "Heerenveen",
+          "side": "away",
+          "score": "0",
+          "half": "0"
+        }
+      ]
+    },
+    {
+      "n": "007",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/summary?event=401875901",
+      "completed": true,
+      "teams": [
+        {
+          "name": "Heracles Almelo",
+          "side": "home",
+          "score": "3",
+          "half": "0"
+        },
+        {
+          "name": "RKC Waalwijk",
+          "side": "away",
+          "score": "0",
+          "half": "0"
+        }
+      ]
+    },
+    {
+      "n": "008",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884781",
+      "completed": true,
+      "teams": [
+        {
+          "name": "Borussia Dortmund",
+          "side": "home",
+          "score": "2",
+          "half": "0"
+        },
+        {
+          "name": "Werder Bremen",
+          "side": "away",
+          "score": "2",
+          "half": "0"
+        }
+      ]
+    },
+    {
+      "n": "009",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876447",
+      "completed": true,
+      "teams": [
+        {
+          "name": "Lens",
+          "side": "home",
+          "score": "2",
+          "half": "1"
+        },
+        {
+          "name": "Lyon",
+          "side": "away",
+          "score": "1",
+          "half": "0"
+        }
+      ]
+    },
+    {
+      "n": "010",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/summary?event=401880233",
+      "completed": true,
+      "teams": [
+        {
+          "name": "West Ham United",
+          "side": "home",
+          "score": "1",
+          "half": "0"
+        },
+        {
+          "name": "Queens Park Rangers",
+          "side": "away",
+          "score": "1",
+          "half": "1"
+        }
+      ]
+    },
+    {
+      "n": "011",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882851",
+      "completed": true,
+      "teams": [
+        {
+          "name": "Málaga",
+          "side": "home",
+          "score": "1",
+          "half": "0"
+        },
+        {
+          "name": "Espanyol",
+          "side": "away",
+          "score": "1",
+          "half": "1"
+        }
+      ]
+    },
+    {
+      "n": "012",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/summary?event=401885427",
+      "completed": true,
+      "teams": [
+        {
+          "name": "Braga",
+          "side": "home",
+          "score": "1",
+          "half": "1"
+        },
+        {
+          "name": "Sporting CP",
+          "side": "away",
+          "score": "3",
+          "half": "0"
+        }
+      ]
+    }
+  ],
+  "originalCommit": "779fdcff2f4d1fd355fa727ee65a7fd6af979574"
+}

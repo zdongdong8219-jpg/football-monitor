@@ -6,6 +6,12 @@ $repo='repos/zdongdong8219-jpg/football-monitor'
 $latest=Join-Path $root 'data/latest.json'
 $report=Get-Content $latest -Raw -Encoding UTF8 | ConvertFrom-Json
 if(-not $report.date){throw 'Report date is required'}
+$remotePayload=& $gh api "$repo/contents/data/latest.json?ref=main" | ConvertFrom-Json
+if($LASTEXITCODE -ne 0){throw 'Cannot verify existing final report; publication stopped'}
+$existing=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String(($remotePayload.content -replace '\s',''))) | ConvertFrom-Json
+if($existing.date -eq $report.date -and $existing.finalLocked -eq $true){
+  throw 'This sales date already has a locked final report. Preserve it; publish any user-authorized correction as a new audited version.'
+}
 $reports=Join-Path $root 'data/reports'
 $null=[IO.Directory]::CreateDirectory($reports)
 $archive=Join-Path $reports "$($report.date).json"
