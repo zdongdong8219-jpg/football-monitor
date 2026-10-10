@@ -149,29 +149,33 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     let scanPreviewUrl;
     function showScanPreview(blob,reviewMode=false){
       let panel=$('scanPreview');
-      if(!panel){panel=document.createElement('section');panel.id='scanPreview';panel.innerHTML='<p role="status">浏览器未允许直接复制。手机长按下方图片保存或发送；电脑右键选择“复制图片”。</p><button type="button" id="shareScanImage" class="copy-button">分享图片</button><button type="button" id="closeScanPreview" class="copy-button">关闭预览</button><img alt="扫盘表，可长按保存或右键复制" style="display:block;width:100%;height:auto;margin-top:12px">';$('scanTable').after(panel);}
+      if(!panel){panel=document.createElement('section');panel.id='scanPreview';panel.innerHTML='<p role="status">浏览器未允许直接复制，图片已经生成。手机可长按图片保存或发送，电脑可右键复制图片。</p><button type="button" id="shareScanImage" class="copy-button">分享图片</button><button type="button" id="downloadScanImage" class="copy-button">下载图片</button><button type="button" id="closeScanPreview" class="copy-button">关闭预览</button><img alt="扫盘表，可长按保存或右键复制" style="display:block;width:100%;height:auto;margin-top:12px">';$('scanTable').after(panel);}
       $(reviewMode?'reviewTable':'scanTable').after(panel);if(scanPreviewUrl)URL.revokeObjectURL(scanPreviewUrl);
       scanPreviewUrl=URL.createObjectURL(blob);panel.querySelector('img').src=scanPreviewUrl;panel.hidden=false;
       $('closeScanPreview').onclick=()=>{panel.hidden=true;};
       const file=new File([blob],(reviewMode?'赛果复盘.png':'扫盘表.png'),{type:'image/png'});
-      const share=$('shareScanImage');share.hidden=!(navigator.share&&navigator.canShare?.({files:[file]}));
+      const share=$('shareScanImage');share.hidden=!(navigator.share&&(!navigator.canShare||navigator.canShare({files:[file]})));
+      $('downloadScanImage').onclick=()=>downloadScanImage(blob);
       share.onclick=async()=>{try{await navigator.share({files:[file],title:'掏空主任的裤衩子'});}catch(e){if(e.name!=='AbortError')panel.querySelector('p').textContent='分享未完成，请长按图片保存后发送。';}};
       panel.scrollIntoView({behavior:'smooth',block:'start'});
     }
     async function copyScanTable(reviewMode=false){
       if(reviewMode?!currentReview?.rows?.length:!currentScanRows.length)return;
       const button=$(reviewMode?'copyReview':'copyScan');button.disabled=true;button.textContent='正在生成图片';
-      let pending;
       try{
-        pending=reviewMode?reviewImageBlob():scanImageBlob();
+        // Resolve the blob before constructing ClipboardItem. Android browsers
+        // commonly reject a promise-valued ClipboardItem even though they can
+        // copy a completed PNG blob.
+        const blob=await (reviewMode?reviewImageBlob():scanImageBlob());
         if(navigator.clipboard?.write&&window.ClipboardItem){
-          // Start clipboard write inside the click gesture; Safari accepts the PNG promise.
-          await navigator.clipboard.write([new ClipboardItem({'image/png':pending})]);
+          await navigator.clipboard.write([new ClipboardItem({'image/png':blob})]);
           button.textContent='✓ 图片已复制';button.classList.add('copied');
-        }else{showScanPreview(await pending,reviewMode);button.textContent='已打开图片';}
+        }else{showScanPreview(blob,reviewMode);button.textContent='已打开图片';}
       }catch(e){
-        try{if(!pending)throw e;showScanPreview(await pending,reviewMode);button.textContent='长按图片保存';}
-        catch{button.textContent='图片生成失败，请刷新重试';}
+        try{
+          const blob=await (reviewMode?reviewImageBlob():scanImageBlob());
+          showScanPreview(blob,reviewMode);button.textContent='长按图片保存';
+        }catch{button.textContent='图片生成失败，请刷新重试';}
       }finally{setTimeout(()=>{button.textContent='⧉ 复制图片';button.classList.remove('copied');button.disabled=false;},2200);}
     }
     function markedPick(value,labels=[]){let parts=[{text:String(value??'--'),hit:false}];for(const label of labels||[]){const next=[];for(const part of parts){if(part.hit){next.push(part);continue}const i=part.text.indexOf(label);if(i<0){next.push(part);continue}if(i)next.push({text:part.text.slice(0,i),hit:false});next.push({text:label,hit:true});if(i+label.length<part.text.length)next.push({text:part.text.slice(i+label.length),hit:false})}parts=next}return parts.map(x=>x.hit?`<span class="hit-mark">${esc(x.text)}</span>`:esc(x.text)).join('')}
