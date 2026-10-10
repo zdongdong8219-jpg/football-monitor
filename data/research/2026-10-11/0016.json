@@ -1,0 +1,2174 @@
+{
+  "saleDate": "2026-10-10",
+  "capturedAt": "2026-10-10T16:16:02.837Z",
+  "beijingTime": "2026-10-11 00:16",
+  "source": "haoyun999 accessible lottery JSON mirror",
+  "sourceScope": "竞彩胜平负、竞彩让球、总进球数、半全场",
+  "snapshotCount": 36,
+  "asianMarket": {
+    "status": "not-verified-this-run",
+    "note": "自动快照仅记录可核对的竞彩数据；同公司亚洲盘、阵容和伤停由综合研究任务另行核验。"
+  },
+  "matches": [
+    {
+      "number": "周六004",
+      "home": "京都",
+      "away": "町田泽维",
+      "kickoff": "2026-10-10T18:00:00",
+      "spfOpen": {
+        "win": 3.9,
+        "draw": 3.45,
+        "lose": 1.72
+      },
+      "spfNow": {
+        "win": 3.58,
+        "draw": 3.4,
+        "lose": 1.8
+      },
+      "spfDelta": {
+        "win": -0.32,
+        "draw": -0.05,
+        "lose": 0.08
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 1.87,
+        "draw": 3.4,
+        "lose": 3.35
+      },
+      "rqspfNow": {
+        "win": 1.78,
+        "draw": 3.45,
+        "lose": 3.6
+      },
+      "rqspfDelta": {
+        "win": -0.09,
+        "draw": 0.05,
+        "lose": 0.25
+      },
+      "goals": {
+        "0": 12.5,
+        "1": 5,
+        "2": 3.75,
+        "3": 3.8,
+        "4": 5.55,
+        "5": 10,
+        "6": 14,
+        "7+": 23
+      },
+      "halfFullOpen": {
+        "winWin": 7.25,
+        "winDraw": 15.5,
+        "winLose": 22,
+        "drawWin": 9.5,
+        "drawDraw": 5.8,
+        "drawLose": 4.4,
+        "loseWin": 35,
+        "loseDraw": 15.5,
+        "loseLose": 2.8
+      },
+      "halfFullNow": {
+        "winWin": 6.5,
+        "winDraw": 15.5,
+        "winLose": 24,
+        "drawWin": 9,
+        "drawDraw": 5,
+        "drawLose": 4.4,
+        "loseWin": 35,
+        "loseDraw": 15.5,
+        "loseLose": 3.2
+      },
+      "halfFullDelta": {
+        "winWin": -0.75,
+        "winDraw": 0,
+        "winLose": 2,
+        "drawWin": -0.5,
+        "drawDraw": -0.8,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0.4
+      }
+    },
+    {
+      "number": "周六005",
+      "home": "阿森纳",
+      "away": "利兹联",
+      "kickoff": "2026-10-10T19:30:00",
+      "spfOpen": {
+        "win": 1.28,
+        "draw": 4.5,
+        "lose": 8
+      },
+      "spfNow": {
+        "win": 1.29,
+        "draw": 4.5,
+        "lose": 7.6
+      },
+      "spfDelta": {
+        "win": 0.01,
+        "draw": 0,
+        "lose": -0.4
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 1.98,
+        "draw": 3.45,
+        "lose": 3
+      },
+      "rqspfNow": {
+        "win": 2.02,
+        "draw": 3.5,
+        "lose": 2.87
+      },
+      "rqspfDelta": {
+        "win": 0.04,
+        "draw": 0.05,
+        "lose": -0.13
+      },
+      "goals": {
+        "0": 14,
+        "1": 5.5,
+        "2": 3.65,
+        "3": 3.65,
+        "4": 5.35,
+        "5": 9.5,
+        "6": 15,
+        "7+": 23
+      },
+      "halfFullOpen": {
+        "winWin": 1.88,
+        "winDraw": 21,
+        "winLose": 60,
+        "drawWin": 3.85,
+        "drawDraw": 7,
+        "drawLose": 18,
+        "loseWin": 28,
+        "loseDraw": 21,
+        "loseLose": 15.5
+      },
+      "halfFullNow": {
+        "winWin": 1.85,
+        "winDraw": 22,
+        "winLose": 55,
+        "drawWin": 4,
+        "drawDraw": 7.1,
+        "drawLose": 18,
+        "loseWin": 28,
+        "loseDraw": 22,
+        "loseLose": 14
+      },
+      "halfFullDelta": {
+        "winWin": -0.03,
+        "winDraw": 1,
+        "winLose": -5,
+        "drawWin": 0.15,
+        "drawDraw": 0.1,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 1,
+        "loseLose": -1.5
+      }
+    },
+    {
+      "number": "周六006",
+      "home": "巴列卡诺",
+      "away": "毕尔巴鄂",
+      "kickoff": "2026-10-10T20:00:00",
+      "spfOpen": {
+        "win": 2.7,
+        "draw": 3.1,
+        "lose": 2.3
+      },
+      "spfNow": {
+        "win": 2.98,
+        "draw": 2.91,
+        "lose": 2.22
+      },
+      "spfDelta": {
+        "win": 0.28,
+        "draw": -0.19,
+        "lose": -0.08
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 1.46,
+        "draw": 4,
+        "lose": 5.15
+      },
+      "rqspfNow": {
+        "win": 1.49,
+        "draw": 3.85,
+        "lose": 5.05
+      },
+      "rqspfDelta": {
+        "win": 0.03,
+        "draw": -0.15,
+        "lose": -0.1
+      },
+      "goals": {
+        "0": 10.5,
+        "1": 4.5,
+        "2": 3.2,
+        "3": 3.8,
+        "4": 6.25,
+        "5": 12.5,
+        "6": 23,
+        "7+": 36
+      },
+      "halfFullOpen": {
+        "winWin": 4.75,
+        "winDraw": 15,
+        "winLose": 28,
+        "drawWin": 6.4,
+        "drawDraw": 4.85,
+        "drawLose": 5.6,
+        "loseWin": 30,
+        "loseDraw": 15,
+        "loseLose": 4
+      },
+      "halfFullNow": {
+        "winWin": 4.9,
+        "winDraw": 14,
+        "winLose": 29,
+        "drawWin": 7,
+        "drawDraw": 4.6,
+        "drawLose": 5.4,
+        "loseWin": 36,
+        "loseDraw": 14,
+        "loseLose": 4
+      },
+      "halfFullDelta": {
+        "winWin": 0.15,
+        "winDraw": -1,
+        "winLose": 1,
+        "drawWin": 0.6,
+        "drawDraw": -0.25,
+        "drawLose": -0.2,
+        "loseWin": 6,
+        "loseDraw": -1,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周六007",
+      "home": "热那亚",
+      "away": "佛罗伦萨",
+      "kickoff": "2026-10-10T21:00:00",
+      "spfOpen": {
+        "win": 2.82,
+        "draw": 3.1,
+        "lose": 2.21
+      },
+      "spfNow": {
+        "win": 3.34,
+        "draw": 3.1,
+        "lose": 1.97
+      },
+      "spfDelta": {
+        "win": 0.52,
+        "draw": 0,
+        "lose": -0.24
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 1.5,
+        "draw": 3.8,
+        "lose": 5
+      },
+      "rqspfNow": {
+        "win": 1.63,
+        "draw": 3.45,
+        "lose": 4.45
+      },
+      "rqspfDelta": {
+        "win": 0.13,
+        "draw": -0.35,
+        "lose": -0.55
+      },
+      "goals": {
+        "0": 10,
+        "1": 4.6,
+        "2": 3.45,
+        "3": 3.8,
+        "4": 6.2,
+        "5": 11,
+        "6": 21,
+        "7+": 30
+      },
+      "halfFullOpen": {
+        "winWin": 4.75,
+        "winDraw": 15,
+        "winLose": 28,
+        "drawWin": 7,
+        "drawDraw": 5.25,
+        "drawLose": 5.5,
+        "loseWin": 32,
+        "loseDraw": 15,
+        "loseLose": 3.6
+      },
+      "halfFullNow": {
+        "winWin": 6,
+        "winDraw": 16,
+        "winLose": 31,
+        "drawWin": 6.6,
+        "drawDraw": 4.65,
+        "drawLose": 4.7,
+        "loseWin": 38,
+        "loseDraw": 16,
+        "loseLose": 3.65
+      },
+      "halfFullDelta": {
+        "winWin": 1.25,
+        "winDraw": 1,
+        "winLose": 3,
+        "drawWin": -0.4,
+        "drawDraw": -0.6,
+        "drawLose": -0.8,
+        "loseWin": 6,
+        "loseDraw": 1,
+        "loseLose": 0.05
+      }
+    },
+    {
+      "number": "周六008",
+      "home": "柏林联合",
+      "away": "埃沃斯堡",
+      "kickoff": "2026-10-10T21:30:00",
+      "spfOpen": {
+        "win": 2.06,
+        "draw": 3.6,
+        "lose": 2.73
+      },
+      "spfNow": {
+        "win": 2.35,
+        "draw": 3.58,
+        "lose": 2.36
+      },
+      "spfDelta": {
+        "win": 0.29,
+        "draw": -0.02,
+        "lose": -0.37
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 4,
+        "draw": 4.05,
+        "lose": 1.58
+      },
+      "rqspfNow": {
+        "win": 4.8,
+        "draw": 4.5,
+        "lose": 1.43
+      },
+      "rqspfDelta": {
+        "win": 0.8,
+        "draw": 0.45,
+        "lose": -0.15
+      },
+      "goals": {
+        "0": 19,
+        "1": 6.75,
+        "2": 4.2,
+        "3": 3.75,
+        "4": 4.75,
+        "5": 7.5,
+        "6": 12,
+        "7+": 14
+      },
+      "halfFullOpen": {
+        "winWin": 3.4,
+        "winDraw": 14,
+        "winLose": 25,
+        "drawWin": 5.75,
+        "drawDraw": 6.75,
+        "drawLose": 7,
+        "loseWin": 20,
+        "loseDraw": 14,
+        "loseLose": 4.7
+      },
+      "halfFullNow": {
+        "winWin": 3.7,
+        "winDraw": 14,
+        "winLose": 23,
+        "drawWin": 6.25,
+        "drawDraw": 6.75,
+        "drawLose": 6.5,
+        "loseWin": 20,
+        "loseDraw": 14,
+        "loseLose": 4.25
+      },
+      "halfFullDelta": {
+        "winWin": 0.3,
+        "winDraw": 0,
+        "winLose": -2,
+        "drawWin": 0.5,
+        "drawDraw": 0,
+        "drawLose": -0.5,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": -0.45
+      }
+    },
+    {
+      "number": "周六009",
+      "home": "奥格斯堡",
+      "away": "拜仁",
+      "kickoff": "2026-10-10T21:30:00",
+      "spfOpen": {
+        "win": null,
+        "draw": null,
+        "lose": null
+      },
+      "spfNow": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "spfDelta": {
+        "win": null,
+        "draw": null,
+        "lose": null
+      },
+      "handicap": 2,
+      "rqspfOpen": {
+        "win": 2.65,
+        "draw": 4.6,
+        "lose": 1.87
+      },
+      "rqspfNow": {
+        "win": 3,
+        "draw": 4.65,
+        "lose": 1.72
+      },
+      "rqspfDelta": {
+        "win": 0.35,
+        "draw": 0.05,
+        "lose": -0.15
+      },
+      "goals": {
+        "0": 60,
+        "1": 21,
+        "2": 8.9,
+        "3": 5.45,
+        "4": 4.4,
+        "5": 4.85,
+        "6": 6,
+        "7+": 4.1
+      },
+      "halfFullOpen": {
+        "winWin": 22,
+        "winDraw": 26,
+        "winLose": 18,
+        "drawWin": 32,
+        "drawDraw": 18,
+        "drawLose": 5,
+        "loseWin": 65,
+        "loseDraw": 26,
+        "loseLose": 1.38
+      },
+      "halfFullNow": {
+        "winWin": 29,
+        "winDraw": 26,
+        "winLose": 18,
+        "drawWin": 44,
+        "drawDraw": 22,
+        "drawLose": 5.1,
+        "loseWin": 65,
+        "loseDraw": 26,
+        "loseLose": 1.32
+      },
+      "halfFullDelta": {
+        "winWin": 7,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 12,
+        "drawDraw": 4,
+        "drawLose": 0.1,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": -0.06
+      }
+    },
+    {
+      "number": "周六010",
+      "home": "美因茨",
+      "away": "勒沃库森",
+      "kickoff": "2026-10-10T21:30:00",
+      "spfOpen": {
+        "win": 2.7,
+        "draw": 3.65,
+        "lose": 2.06
+      },
+      "spfNow": {
+        "win": 3,
+        "draw": 3.56,
+        "lose": 1.94
+      },
+      "spfDelta": {
+        "win": 0.3,
+        "draw": -0.09,
+        "lose": -0.12
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 1.59,
+        "draw": 4.1,
+        "lose": 3.9
+      },
+      "rqspfNow": {
+        "win": 1.65,
+        "draw": 3.85,
+        "lose": 3.8
+      },
+      "rqspfDelta": {
+        "win": 0.06,
+        "draw": -0.25,
+        "lose": -0.1
+      },
+      "goals": {
+        "0": 18.5,
+        "1": 7.4,
+        "2": 4.5,
+        "3": 3.85,
+        "4": 4.55,
+        "5": 6.75,
+        "6": 11,
+        "7+": 13.5
+      },
+      "halfFullOpen": {
+        "winWin": 4.6,
+        "winDraw": 14,
+        "winLose": 20,
+        "drawWin": 7.15,
+        "drawDraw": 6.9,
+        "drawLose": 5.9,
+        "loseWin": 24,
+        "loseDraw": 14,
+        "loseLose": 3.35
+      },
+      "halfFullNow": {
+        "winWin": 4.85,
+        "winDraw": 14,
+        "winLose": 20,
+        "drawWin": 7.5,
+        "drawDraw": 7,
+        "drawLose": 5.75,
+        "loseWin": 24,
+        "loseDraw": 14,
+        "loseLose": 3.2
+      },
+      "halfFullDelta": {
+        "winWin": 0.25,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0.35,
+        "drawDraw": 0.1,
+        "drawLose": -0.15,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": -0.15
+      }
+    },
+    {
+      "number": "周六011",
+      "home": "帕德博恩",
+      "away": "斯图加特",
+      "kickoff": "2026-10-10T21:30:00",
+      "spfOpen": {
+        "win": 4.6,
+        "draw": 4.5,
+        "lose": 1.45
+      },
+      "spfNow": {
+        "win": 4.93,
+        "draw": 4.7,
+        "lose": 1.4
+      },
+      "spfDelta": {
+        "win": 0.33,
+        "draw": 0.2,
+        "lose": -0.05
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 2.35,
+        "draw": 3.77,
+        "lose": 2.28
+      },
+      "rqspfNow": {
+        "win": 2.44,
+        "draw": 3.77,
+        "lose": 2.2
+      },
+      "rqspfDelta": {
+        "win": 0.09,
+        "draw": 0,
+        "lose": -0.08
+      },
+      "goals": {
+        "0": 32,
+        "1": 10,
+        "2": 5.7,
+        "3": 4.05,
+        "4": 4.35,
+        "5": 5.4,
+        "6": 8.4,
+        "7+": 8.6
+      },
+      "halfFullOpen": {
+        "winWin": 8,
+        "winDraw": 16,
+        "winLose": 18,
+        "drawWin": 12,
+        "drawDraw": 8.65,
+        "drawLose": 4.9,
+        "loseWin": 32,
+        "loseDraw": 16,
+        "loseLose": 2.15
+      },
+      "halfFullNow": {
+        "winWin": 8.25,
+        "winDraw": 16,
+        "winLose": 18,
+        "drawWin": 13,
+        "drawDraw": 9.25,
+        "drawLose": 4.8,
+        "loseWin": 32,
+        "loseDraw": 16,
+        "loseLose": 2.1
+      },
+      "halfFullDelta": {
+        "winWin": 0.25,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 1,
+        "drawDraw": 0.6,
+        "drawLose": -0.1,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": -0.05
+      }
+    },
+    {
+      "number": "周六012",
+      "home": "霍芬海姆",
+      "away": "汉堡",
+      "kickoff": "2026-10-10T21:30:00",
+      "spfOpen": {
+        "win": 1.29,
+        "draw": 4.95,
+        "lose": 6.55
+      },
+      "spfNow": {
+        "win": 1.27,
+        "draw": 5.15,
+        "lose": 6.8
+      },
+      "spfDelta": {
+        "win": -0.02,
+        "draw": 0.2,
+        "lose": 0.25
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 1.88,
+        "draw": 3.95,
+        "lose": 2.9
+      },
+      "rqspfNow": {
+        "win": 1.83,
+        "draw": 4,
+        "lose": 3
+      },
+      "rqspfDelta": {
+        "win": -0.05,
+        "draw": 0.05,
+        "lose": 0.1
+      },
+      "goals": {
+        "0": 31,
+        "1": 9.25,
+        "2": 5.4,
+        "3": 3.85,
+        "4": 4.3,
+        "5": 5.75,
+        "6": 9.1,
+        "7+": 9.75
+      },
+      "halfFullOpen": {
+        "winWin": 1.85,
+        "winDraw": 18,
+        "winLose": 48,
+        "drawWin": 4.45,
+        "drawDraw": 9.25,
+        "drawLose": 16,
+        "loseWin": 20,
+        "loseDraw": 18,
+        "loseLose": 11.5
+      },
+      "halfFullNow": {
+        "winWin": 1.82,
+        "winDraw": 18,
+        "winLose": 48,
+        "drawWin": 4.45,
+        "drawDraw": 9.55,
+        "drawLose": 16.5,
+        "loseWin": 20,
+        "loseDraw": 18,
+        "loseLose": 12
+      },
+      "halfFullDelta": {
+        "winWin": -0.03,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0.3,
+        "drawLose": 0.5,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0.5
+      }
+    },
+    {
+      "number": "周六013",
+      "home": "伊普斯",
+      "away": "富勒姆",
+      "kickoff": "2026-10-10T22:00:00",
+      "spfOpen": {
+        "win": 2.6,
+        "draw": 3.3,
+        "lose": 2.27
+      },
+      "spfNow": {
+        "win": 2.87,
+        "draw": 3.1,
+        "lose": 2.18
+      },
+      "spfDelta": {
+        "win": 0.27,
+        "draw": -0.2,
+        "lose": -0.09
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 1.48,
+        "draw": 4.1,
+        "lose": 4.8
+      },
+      "rqspfNow": {
+        "win": 1.52,
+        "draw": 3.95,
+        "lose": 4.6
+      },
+      "rqspfDelta": {
+        "win": 0.04,
+        "draw": -0.15,
+        "lose": -0.2
+      },
+      "goals": {
+        "0": 14,
+        "1": 5.55,
+        "2": 3.55,
+        "3": 3.6,
+        "4": 5.25,
+        "5": 9.3,
+        "6": 17.5,
+        "7+": 26
+      },
+      "halfFullOpen": {
+        "winWin": 4.6,
+        "winDraw": 15,
+        "winLose": 23,
+        "drawWin": 6.5,
+        "drawDraw": 5.75,
+        "drawLose": 5.6,
+        "loseWin": 25,
+        "loseDraw": 15,
+        "loseLose": 3.8
+      },
+      "halfFullNow": {
+        "winWin": 4.8,
+        "winDraw": 14.5,
+        "winLose": 24,
+        "drawWin": 7.2,
+        "drawDraw": 5.2,
+        "drawLose": 5.4,
+        "loseWin": 27,
+        "loseDraw": 14.5,
+        "loseLose": 3.8
+      },
+      "halfFullDelta": {
+        "winWin": 0.2,
+        "winDraw": -0.5,
+        "winLose": 1,
+        "drawWin": 0.7,
+        "drawDraw": -0.55,
+        "drawLose": -0.2,
+        "loseWin": 2,
+        "loseDraw": -0.5,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周六014",
+      "home": "切尔西",
+      "away": "伯恩茅斯",
+      "kickoff": "2026-10-10T22:00:00",
+      "spfOpen": {
+        "win": 1.61,
+        "draw": 3.85,
+        "lose": 4.05
+      },
+      "spfNow": {
+        "win": 1.57,
+        "draw": 3.9,
+        "lose": 4.25
+      },
+      "spfDelta": {
+        "win": -0.04,
+        "draw": 0.05,
+        "lose": 0.2
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.78,
+        "draw": 3.65,
+        "lose": 2.02
+      },
+      "rqspfNow": {
+        "win": 2.85,
+        "draw": 3.45,
+        "lose": 2.05
+      },
+      "rqspfDelta": {
+        "win": 0.07,
+        "draw": -0.2,
+        "lose": 0.03
+      },
+      "goals": {
+        "0": 20,
+        "1": 7,
+        "2": 4.4,
+        "3": 3.5,
+        "4": 4.3,
+        "5": 7.85,
+        "6": 12.5,
+        "7+": 17
+      },
+      "halfFullOpen": {
+        "winWin": 2.53,
+        "winDraw": 16,
+        "winLose": 32,
+        "drawWin": 4.6,
+        "drawDraw": 7,
+        "drawLose": 10,
+        "loseWin": 20,
+        "loseDraw": 16,
+        "loseLose": 7
+      },
+      "halfFullNow": {
+        "winWin": 2.5,
+        "winDraw": 16,
+        "winLose": 34,
+        "drawWin": 4.6,
+        "drawDraw": 7.15,
+        "drawLose": 10,
+        "loseWin": 20,
+        "loseDraw": 16,
+        "loseLose": 7
+      },
+      "halfFullDelta": {
+        "winWin": -0.03,
+        "winDraw": 0,
+        "winLose": 2,
+        "drawWin": 0,
+        "drawDraw": 0.15,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周六015",
+      "home": "维拉",
+      "away": "布伦特",
+      "kickoff": "2026-10-10T22:00:00",
+      "spfOpen": {
+        "win": 2.53,
+        "draw": 3.35,
+        "lose": 2.3
+      },
+      "spfNow": {
+        "win": 2.5,
+        "draw": 3.25,
+        "lose": 2.37
+      },
+      "spfDelta": {
+        "win": -0.03,
+        "draw": -0.1,
+        "lose": 0.07
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 1.46,
+        "draw": 4.2,
+        "lose": 4.85
+      },
+      "rqspfNow": {
+        "win": 1.44,
+        "draw": 4.2,
+        "lose": 5.1
+      },
+      "rqspfDelta": {
+        "win": -0.02,
+        "draw": 0,
+        "lose": 0.25
+      },
+      "goals": {
+        "0": 17,
+        "1": 6.1,
+        "2": 4,
+        "3": 3.6,
+        "4": 4.9,
+        "5": 7.75,
+        "6": 14,
+        "7+": 20.5
+      },
+      "halfFullOpen": {
+        "winWin": 4.25,
+        "winDraw": 14.5,
+        "winLose": 23,
+        "drawWin": 6.5,
+        "drawDraw": 5.8,
+        "drawLose": 6,
+        "loseWin": 24,
+        "loseDraw": 14.5,
+        "loseLose": 3.95
+      },
+      "halfFullNow": {
+        "winWin": 4.25,
+        "winDraw": 14.5,
+        "winLose": 23,
+        "drawWin": 6.5,
+        "drawDraw": 5.8,
+        "drawLose": 6,
+        "loseWin": 24,
+        "loseDraw": 14.5,
+        "loseLose": 3.95
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周六016",
+      "home": "阿拉维斯",
+      "away": "马竞",
+      "kickoff": "2026-10-10T22:15:00",
+      "spfOpen": {
+        "win": 4.25,
+        "draw": 3.45,
+        "lose": 1.66
+      },
+      "spfNow": {
+        "win": 4.4,
+        "draw": 3.52,
+        "lose": 1.62
+      },
+      "spfDelta": {
+        "win": 0.15,
+        "draw": 0.07,
+        "lose": -0.04
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 1.94,
+        "draw": 3.45,
+        "lose": 3.1
+      },
+      "rqspfNow": {
+        "win": 2,
+        "draw": 3.25,
+        "lose": 3.11
+      },
+      "rqspfDelta": {
+        "win": 0.06,
+        "draw": -0.2,
+        "lose": 0.01
+      },
+      "goals": {
+        "0": 12,
+        "1": 5.25,
+        "2": 3.3,
+        "3": 3.55,
+        "4": 6,
+        "5": 10.5,
+        "6": 20,
+        "7+": 30
+      },
+      "halfFullOpen": {
+        "winWin": 7.6,
+        "winDraw": 16,
+        "winLose": 25,
+        "drawWin": 9.5,
+        "drawDraw": 5.5,
+        "drawLose": 4.5,
+        "loseWin": 35,
+        "loseDraw": 16,
+        "loseLose": 2.7
+      },
+      "halfFullNow": {
+        "winWin": 8.1,
+        "winDraw": 19,
+        "winLose": 27,
+        "drawWin": 10,
+        "drawDraw": 5,
+        "drawLose": 3.8,
+        "loseWin": 40,
+        "loseDraw": 19,
+        "loseLose": 2.85
+      },
+      "halfFullDelta": {
+        "winWin": 0.5,
+        "winDraw": 3,
+        "winLose": 2,
+        "drawWin": 0.5,
+        "drawDraw": -0.5,
+        "drawLose": -0.7,
+        "loseWin": 5,
+        "loseDraw": 3,
+        "loseLose": 0.15
+      }
+    },
+    {
+      "number": "周六017",
+      "home": "里尔",
+      "away": "勒阿弗尔",
+      "kickoff": "2026-10-10T23:15:00",
+      "spfOpen": {
+        "win": 1.33,
+        "draw": 4.5,
+        "lose": 6.45
+      },
+      "spfNow": {
+        "win": 1.36,
+        "draw": 4.45,
+        "lose": 5.9
+      },
+      "spfDelta": {
+        "win": 0.03,
+        "draw": -0.05,
+        "lose": -0.55
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.02,
+        "draw": 3.65,
+        "lose": 2.78
+      },
+      "rqspfNow": {
+        "win": 2.15,
+        "draw": 3.62,
+        "lose": 2.58
+      },
+      "rqspfDelta": {
+        "win": 0.13,
+        "draw": -0.03,
+        "lose": -0.2
+      },
+      "goals": {
+        "0": 17,
+        "1": 6.2,
+        "2": 4,
+        "3": 3.7,
+        "4": 4.8,
+        "5": 7.75,
+        "6": 13.5,
+        "7+": 19
+      },
+      "halfFullOpen": {
+        "winWin": 1.95,
+        "winDraw": 20,
+        "winLose": 50,
+        "drawWin": 4.15,
+        "drawDraw": 7.5,
+        "drawLose": 15,
+        "loseWin": 23,
+        "loseDraw": 20,
+        "loseLose": 11.5
+      },
+      "halfFullNow": {
+        "winWin": 1.92,
+        "winDraw": 20,
+        "winLose": 50,
+        "drawWin": 4.3,
+        "drawDraw": 7.8,
+        "drawLose": 14.5,
+        "loseWin": 26,
+        "loseDraw": 20,
+        "loseLose": 10.5
+      },
+      "halfFullDelta": {
+        "winWin": -0.03,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0.15,
+        "drawDraw": 0.3,
+        "drawLose": -0.5,
+        "loseWin": 3,
+        "loseDraw": 0,
+        "loseLose": -1
+      }
+    },
+    {
+      "number": "周六018",
+      "home": "米亚尔比",
+      "away": "代格福什",
+      "kickoff": "2026-10-10T23:30:00",
+      "spfOpen": {
+        "win": 1.62,
+        "draw": 3.6,
+        "lose": 4.3
+      },
+      "spfNow": {
+        "win": 1.62,
+        "draw": 3.6,
+        "lose": 4.3
+      },
+      "spfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 3.1,
+        "draw": 3.3,
+        "lose": 1.99
+      },
+      "rqspfNow": {
+        "win": 3.1,
+        "draw": 3.3,
+        "lose": 1.99
+      },
+      "rqspfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "goals": {
+        "0": 12,
+        "1": 5,
+        "2": 3.45,
+        "3": 3.7,
+        "4": 5.7,
+        "5": 10,
+        "6": 20,
+        "7+": 28
+      },
+      "halfFullOpen": {
+        "winWin": 2.75,
+        "winDraw": 16,
+        "winLose": 42,
+        "drawWin": 4.4,
+        "drawDraw": 5.5,
+        "drawLose": 9.5,
+        "loseWin": 25,
+        "loseDraw": 16,
+        "loseLose": 7.25
+      },
+      "halfFullNow": {
+        "winWin": 2.75,
+        "winDraw": 16,
+        "winLose": 42,
+        "drawWin": 4.4,
+        "drawDraw": 5.5,
+        "drawLose": 9.5,
+        "loseWin": 25,
+        "loseDraw": 16,
+        "loseLose": 7.25
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周六019",
+      "home": "国际米兰",
+      "away": "帕尔马",
+      "kickoff": "2026-10-11T00:00:00",
+      "spfOpen": {
+        "win": null,
+        "draw": null,
+        "lose": null
+      },
+      "spfNow": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "spfDelta": {
+        "win": null,
+        "draw": null,
+        "lose": null
+      },
+      "handicap": -2,
+      "rqspfOpen": {
+        "win": 1.97,
+        "draw": 4.1,
+        "lose": 2.65
+      },
+      "rqspfNow": {
+        "win": 2.08,
+        "draw": 3.8,
+        "lose": 2.6
+      },
+      "rqspfDelta": {
+        "win": 0.11,
+        "draw": -0.3,
+        "lose": -0.05
+      },
+      "goals": {
+        "0": 31,
+        "1": 9,
+        "2": 5.3,
+        "3": 3.8,
+        "4": 4.25,
+        "5": 6,
+        "6": 9,
+        "7+": 10.5
+      },
+      "halfFullOpen": {
+        "winWin": 1.4,
+        "winDraw": 32,
+        "winLose": 100,
+        "drawWin": 4.1,
+        "drawDraw": 13.5,
+        "drawLose": 35,
+        "loseWin": 28,
+        "loseDraw": 32,
+        "loseLose": 30
+      },
+      "halfFullNow": {
+        "winWin": 1.4,
+        "winDraw": 32,
+        "winLose": 100,
+        "drawWin": 4.1,
+        "drawDraw": 13.5,
+        "drawLose": 35,
+        "loseWin": 28,
+        "loseDraw": 32,
+        "loseLose": 30
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周六020",
+      "home": "曼联",
+      "away": "热刺",
+      "kickoff": "2026-10-11T00:30:00",
+      "spfOpen": {
+        "win": 1.6,
+        "draw": 3.95,
+        "lose": 4
+      },
+      "spfNow": {
+        "win": 1.63,
+        "draw": 3.9,
+        "lose": 3.85
+      },
+      "spfDelta": {
+        "win": 0.03,
+        "draw": -0.05,
+        "lose": -0.15
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.67,
+        "draw": 3.75,
+        "lose": 2.05
+      },
+      "rqspfNow": {
+        "win": 2.75,
+        "draw": 3.75,
+        "lose": 2.01
+      },
+      "rqspfDelta": {
+        "win": 0.08,
+        "draw": 0,
+        "lose": -0.04
+      },
+      "goals": {
+        "0": 24,
+        "1": 7.8,
+        "2": 4.4,
+        "3": 3.7,
+        "4": 4.5,
+        "5": 6.8,
+        "6": 11,
+        "7+": 13
+      },
+      "halfFullOpen": {
+        "winWin": 2.5,
+        "winDraw": 15,
+        "winLose": 30,
+        "drawWin": 4.75,
+        "drawDraw": 7.25,
+        "drawLose": 10.5,
+        "loseWin": 18,
+        "loseDraw": 15,
+        "loseLose": 7.25
+      },
+      "halfFullNow": {
+        "winWin": 2.5,
+        "winDraw": 15,
+        "winLose": 30,
+        "drawWin": 4.6,
+        "drawDraw": 7.35,
+        "drawLose": 10.5,
+        "loseWin": 18,
+        "loseDraw": 15,
+        "loseLose": 7.5
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": -0.15,
+        "drawDraw": 0.1,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0.25
+      }
+    },
+    {
+      "number": "周六021",
+      "home": "莱红牛",
+      "away": "法兰克福",
+      "kickoff": "2026-10-11T00:30:00",
+      "spfOpen": {
+        "win": 1.49,
+        "draw": 4.48,
+        "lose": 4.25
+      },
+      "spfNow": {
+        "win": 1.4,
+        "draw": 4.8,
+        "lose": 4.85
+      },
+      "spfDelta": {
+        "win": -0.09,
+        "draw": 0.32,
+        "lose": 0.6
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.33,
+        "draw": 3.85,
+        "lose": 2.27
+      },
+      "rqspfNow": {
+        "win": 2.1,
+        "draw": 4.1,
+        "lose": 2.45
+      },
+      "rqspfDelta": {
+        "win": -0.23,
+        "draw": 0.25,
+        "lose": 0.18
+      },
+      "goals": {
+        "0": 38,
+        "1": 12,
+        "2": 6.05,
+        "3": 3.9,
+        "4": 4,
+        "5": 5.8,
+        "6": 8,
+        "7+": 8
+      },
+      "halfFullOpen": {
+        "winWin": 2.2,
+        "winDraw": 16,
+        "winLose": 29,
+        "drawWin": 5.15,
+        "drawDraw": 9.25,
+        "drawLose": 11,
+        "loseWin": 17,
+        "loseDraw": 16,
+        "loseLose": 7.25
+      },
+      "halfFullNow": {
+        "winWin": 2.05,
+        "winDraw": 16,
+        "winLose": 29,
+        "drawWin": 4.7,
+        "drawDraw": 10,
+        "drawLose": 14,
+        "loseWin": 17,
+        "loseDraw": 16,
+        "loseLose": 8.75
+      },
+      "halfFullDelta": {
+        "winWin": -0.15,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": -0.45,
+        "drawDraw": 0.75,
+        "drawLose": 3,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 1.5
+      }
+    },
+    {
+      "number": "周六022",
+      "home": "巴萨",
+      "away": "赫塔费",
+      "kickoff": "2026-10-11T00:30:00",
+      "spfOpen": {
+        "win": null,
+        "draw": null,
+        "lose": null
+      },
+      "spfNow": {
+        "win": null,
+        "draw": null,
+        "lose": null
+      },
+      "spfDelta": {
+        "win": null,
+        "draw": null,
+        "lose": null
+      },
+      "handicap": -3,
+      "rqspfOpen": {
+        "win": 2.5,
+        "draw": 4.75,
+        "lose": 1.93
+      },
+      "rqspfNow": {
+        "win": 2.65,
+        "draw": 4.75,
+        "lose": 1.85
+      },
+      "rqspfDelta": {
+        "win": 0.15,
+        "draw": 0,
+        "lose": -0.08
+      },
+      "goals": {
+        "0": 42,
+        "1": 11.5,
+        "2": 6.2,
+        "3": 4.4,
+        "4": 4.3,
+        "5": 5.3,
+        "6": 7.5,
+        "7+": 6.65
+      },
+      "halfFullOpen": {
+        "winWin": 1.25,
+        "winDraw": 45,
+        "winLose": 150,
+        "drawWin": 4.5,
+        "drawDraw": 19,
+        "drawLose": 60,
+        "loseWin": 27,
+        "loseDraw": 45,
+        "loseLose": 45
+      },
+      "halfFullNow": {
+        "winWin": 1.27,
+        "winDraw": 45,
+        "winLose": 150,
+        "drawWin": 4.5,
+        "drawDraw": 17,
+        "drawLose": 50,
+        "loseWin": 27,
+        "loseDraw": 45,
+        "loseLose": 40
+      },
+      "halfFullDelta": {
+        "winWin": 0.02,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": -2,
+        "drawLose": -10,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": -5
+      }
+    },
+    {
+      "number": "周六023",
+      "home": "费耶诺德",
+      "away": "阿尔克马",
+      "kickoff": "2026-10-11T00:45:00",
+      "spfOpen": {
+        "win": 1.6,
+        "draw": 4.05,
+        "lose": 3.88
+      },
+      "spfNow": {
+        "win": 1.53,
+        "draw": 4.25,
+        "lose": 4.15
+      },
+      "spfDelta": {
+        "win": -0.07,
+        "draw": 0.2,
+        "lose": 0.27
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.67,
+        "draw": 3.9,
+        "lose": 2.01
+      },
+      "rqspfNow": {
+        "win": 2.62,
+        "draw": 3.6,
+        "lose": 2.13
+      },
+      "rqspfDelta": {
+        "win": -0.05,
+        "draw": -0.3,
+        "lose": 0.12
+      },
+      "goals": {
+        "0": 30,
+        "1": 9.25,
+        "2": 5.1,
+        "3": 3.85,
+        "4": 4.35,
+        "5": 6,
+        "6": 9,
+        "7+": 10
+      },
+      "halfFullOpen": {
+        "winWin": 2.45,
+        "winDraw": 14.5,
+        "winLose": 30,
+        "drawWin": 5.2,
+        "drawDraw": 7.8,
+        "drawLose": 10,
+        "loseWin": 20,
+        "loseDraw": 14.5,
+        "loseLose": 6.5
+      },
+      "halfFullNow": {
+        "winWin": 2.38,
+        "winDraw": 14.5,
+        "winLose": 32,
+        "drawWin": 4.8,
+        "drawDraw": 8.25,
+        "drawLose": 11,
+        "loseWin": 20,
+        "loseDraw": 14.5,
+        "loseLose": 7
+      },
+      "halfFullDelta": {
+        "winWin": -0.07,
+        "winDraw": 0,
+        "winLose": 2,
+        "drawWin": -0.4,
+        "drawDraw": 0.45,
+        "drawLose": 1,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0.5
+      }
+    },
+    {
+      "number": "周六024",
+      "home": "马里迪莫",
+      "away": "波尔图",
+      "kickoff": "2026-10-11T01:00:00",
+      "spfOpen": {
+        "win": 9.25,
+        "draw": 4.95,
+        "lose": 1.22
+      },
+      "spfNow": {
+        "win": 10.75,
+        "draw": 5.3,
+        "lose": 1.18
+      },
+      "spfDelta": {
+        "win": 1.5,
+        "draw": 0.35,
+        "lose": -0.04
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 3.35,
+        "draw": 3.55,
+        "lose": 1.82
+      },
+      "rqspfNow": {
+        "win": 3.7,
+        "draw": 3.65,
+        "lose": 1.71
+      },
+      "rqspfDelta": {
+        "win": 0.35,
+        "draw": 0.1,
+        "lose": -0.11
+      },
+      "goals": {
+        "0": 14,
+        "1": 5.3,
+        "2": 3.55,
+        "3": 3.45,
+        "4": 5.4,
+        "5": 9.5,
+        "6": 20,
+        "7+": 31
+      },
+      "halfFullOpen": {
+        "winWin": 16,
+        "winDraw": 23,
+        "winLose": 28,
+        "drawWin": 20,
+        "drawDraw": 7.25,
+        "drawLose": 3.8,
+        "loseWin": 90,
+        "loseDraw": 23,
+        "loseLose": 1.8
+      },
+      "halfFullNow": {
+        "winWin": 20,
+        "winDraw": 24,
+        "winLose": 28,
+        "drawWin": 24,
+        "drawDraw": 7.8,
+        "drawLose": 3.75,
+        "loseWin": 100,
+        "loseDraw": 24,
+        "loseLose": 1.7
+      },
+      "halfFullDelta": {
+        "winWin": 4,
+        "winDraw": 1,
+        "winLose": 0,
+        "drawWin": 4,
+        "drawDraw": 0.55,
+        "drawLose": -0.05,
+        "loseWin": 10,
+        "loseDraw": 1,
+        "loseLose": -0.1
+      }
+    },
+    {
+      "number": "周六025",
+      "home": "利雅新月",
+      "away": "吉达联合",
+      "kickoff": "2026-10-11T02:00:00",
+      "spfOpen": {
+        "win": 1.18,
+        "draw": 5.9,
+        "lose": 8.9
+      },
+      "spfNow": {
+        "win": 1.18,
+        "draw": 5.9,
+        "lose": 8.9
+      },
+      "spfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "handicap": -2,
+      "rqspfOpen": {
+        "win": 2.68,
+        "draw": 4.15,
+        "lose": 1.94
+      },
+      "rqspfNow": {
+        "win": 2.68,
+        "draw": 4.15,
+        "lose": 1.94
+      },
+      "rqspfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "goals": {
+        "0": 31,
+        "1": 9,
+        "2": 5.3,
+        "3": 3.9,
+        "4": 4.25,
+        "5": 5.8,
+        "6": 9.5,
+        "7+": 9.75
+      },
+      "halfFullOpen": {
+        "winWin": 1.6,
+        "winDraw": 23,
+        "winLose": 75,
+        "drawWin": 4.35,
+        "drawDraw": 11.5,
+        "drawLose": 21,
+        "loseWin": 22,
+        "loseDraw": 23,
+        "loseLose": 14.5
+      },
+      "halfFullNow": {
+        "winWin": 1.6,
+        "winDraw": 23,
+        "winLose": 75,
+        "drawWin": 4.35,
+        "drawDraw": 11.5,
+        "drawLose": 21,
+        "loseWin": 22,
+        "loseDraw": 23,
+        "loseLose": 14.5
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周六026",
+      "home": "福图纳",
+      "away": "特温特",
+      "kickoff": "2026-10-11T02:00:00",
+      "spfOpen": {
+        "win": 5.8,
+        "draw": 4.75,
+        "lose": 1.34
+      },
+      "spfNow": {
+        "win": 6.25,
+        "draw": 5.15,
+        "lose": 1.29
+      },
+      "spfDelta": {
+        "win": 0.45,
+        "draw": 0.4,
+        "lose": -0.05
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 2.68,
+        "draw": 3.9,
+        "lose": 2
+      },
+      "rqspfNow": {
+        "win": 2.95,
+        "draw": 3.6,
+        "lose": 1.95
+      },
+      "rqspfDelta": {
+        "win": 0.27,
+        "draw": -0.3,
+        "lose": -0.05
+      },
+      "goals": {
+        "0": 30,
+        "1": 8.8,
+        "2": 5.1,
+        "3": 3.8,
+        "4": 4.3,
+        "5": 6,
+        "6": 9.6,
+        "7+": 10.5
+      },
+      "halfFullOpen": {
+        "winWin": 9.5,
+        "winDraw": 18,
+        "winLose": 20,
+        "drawWin": 14,
+        "drawDraw": 8.5,
+        "drawLose": 4.5,
+        "loseWin": 42,
+        "loseDraw": 18,
+        "loseLose": 1.99
+      },
+      "halfFullNow": {
+        "winWin": 11,
+        "winDraw": 18,
+        "winLose": 20,
+        "drawWin": 15,
+        "drawDraw": 8.8,
+        "drawLose": 4.5,
+        "loseWin": 42,
+        "loseDraw": 18,
+        "loseLose": 1.9
+      },
+      "halfFullDelta": {
+        "winWin": 1.5,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 1,
+        "drawDraw": 0.3,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": -0.09
+      }
+    },
+    {
+      "number": "周六027",
+      "home": "那不勒斯",
+      "away": "弗洛西诺",
+      "kickoff": "2026-10-11T02:45:00",
+      "spfOpen": {
+        "win": 1.35,
+        "draw": 4.5,
+        "lose": 6
+      },
+      "spfNow": {
+        "win": 1.32,
+        "draw": 4.7,
+        "lose": 6.3
+      },
+      "spfDelta": {
+        "win": -0.03,
+        "draw": 0.2,
+        "lose": 0.3
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.1,
+        "draw": 3.65,
+        "lose": 2.65
+      },
+      "rqspfNow": {
+        "win": 2.05,
+        "draw": 3.6,
+        "lose": 2.75
+      },
+      "rqspfDelta": {
+        "win": -0.05,
+        "draw": -0.05,
+        "lose": 0.1
+      },
+      "goals": {
+        "0": 24,
+        "1": 7.75,
+        "2": 4.6,
+        "3": 3.45,
+        "4": 4.3,
+        "5": 7,
+        "6": 12,
+        "7+": 15
+      },
+      "halfFullOpen": {
+        "winWin": 2.05,
+        "winDraw": 18,
+        "winLose": 45,
+        "drawWin": 4.25,
+        "drawDraw": 7.75,
+        "drawLose": 14,
+        "loseWin": 22,
+        "loseDraw": 18,
+        "loseLose": 10
+      },
+      "halfFullNow": {
+        "winWin": 1.97,
+        "winDraw": 18,
+        "winLose": 45,
+        "drawWin": 4.25,
+        "drawDraw": 8,
+        "drawLose": 15,
+        "loseWin": 22,
+        "loseDraw": 18,
+        "loseLose": 11
+      },
+      "halfFullDelta": {
+        "winWin": -0.08,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0.25,
+        "drawLose": 1,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 1
+      }
+    },
+    {
+      "number": "周六028",
+      "home": "摩纳哥",
+      "away": "图卢兹",
+      "kickoff": "2026-10-11T02:45:00",
+      "spfOpen": {
+        "win": 1.47,
+        "draw": 4.2,
+        "lose": 4.75
+      },
+      "spfNow": {
+        "win": 1.43,
+        "draw": 4.35,
+        "lose": 5
+      },
+      "spfDelta": {
+        "win": -0.04,
+        "draw": 0.15,
+        "lose": 0.25
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.34,
+        "draw": 3.7,
+        "lose": 2.32
+      },
+      "rqspfNow": {
+        "win": 2.37,
+        "draw": 3.55,
+        "lose": 2.35
+      },
+      "rqspfDelta": {
+        "win": 0.03,
+        "draw": -0.15,
+        "lose": 0.03
+      },
+      "goals": {
+        "0": 19,
+        "1": 6.75,
+        "2": 4.2,
+        "3": 3.55,
+        "4": 4.5,
+        "5": 7.75,
+        "6": 13.5,
+        "7+": 17
+      },
+      "halfFullOpen": {
+        "winWin": 2.2,
+        "winDraw": 17,
+        "winLose": 40,
+        "drawWin": 4.55,
+        "drawDraw": 7.75,
+        "drawLose": 11.5,
+        "loseWin": 20,
+        "loseDraw": 17,
+        "loseLose": 8.25
+      },
+      "halfFullNow": {
+        "winWin": 2.15,
+        "winDraw": 17,
+        "winLose": 40,
+        "drawWin": 4.55,
+        "drawDraw": 8,
+        "drawLose": 12,
+        "loseWin": 20,
+        "loseDraw": 17,
+        "loseLose": 8.5
+      },
+      "halfFullDelta": {
+        "winWin": -0.05,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0.25,
+        "drawLose": 0.5,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0.25
+      }
+    },
+    {
+      "number": "周六029",
+      "home": "皇马",
+      "away": "比利亚雷",
+      "kickoff": "2026-10-11T03:00:00",
+      "spfOpen": {
+        "win": 1.23,
+        "draw": 5.6,
+        "lose": 7.25
+      },
+      "spfNow": {
+        "win": 1.23,
+        "draw": 5.6,
+        "lose": 7.25
+      },
+      "spfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 1.68,
+        "draw": 4.35,
+        "lose": 3.3
+      },
+      "rqspfNow": {
+        "win": 1.66,
+        "draw": 4.46,
+        "lose": 3.3
+      },
+      "rqspfDelta": {
+        "win": -0.02,
+        "draw": 0.11,
+        "lose": 0
+      },
+      "goals": {
+        "0": 40,
+        "1": 11.5,
+        "2": 5.95,
+        "3": 4.2,
+        "4": 4.1,
+        "5": 5.45,
+        "6": 8,
+        "7+": 7.5
+      },
+      "halfFullOpen": {
+        "winWin": 1.69,
+        "winDraw": 20,
+        "winLose": 55,
+        "drawWin": 4.55,
+        "drawDraw": 11,
+        "drawLose": 19,
+        "loseWin": 19,
+        "loseDraw": 20,
+        "loseLose": 13
+      },
+      "halfFullNow": {
+        "winWin": 1.69,
+        "winDraw": 20,
+        "winLose": 55,
+        "drawWin": 4.55,
+        "drawDraw": 11,
+        "drawLose": 19,
+        "loseWin": 19,
+        "loseDraw": 20,
+        "loseLose": 13
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周六030",
+      "home": "圣保罗",
+      "away": "维多利亚",
+      "kickoff": "2026-10-11T08:00:00",
+      "spfOpen": {
+        "win": 1.52,
+        "draw": 3.6,
+        "lose": 5.15
+      },
+      "spfNow": {
+        "win": 1.52,
+        "draw": 3.6,
+        "lose": 5.15
+      },
+      "spfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.88,
+        "draw": 3.05,
+        "lose": 2.2
+      },
+      "rqspfNow": {
+        "win": 2.88,
+        "draw": 3.05,
+        "lose": 2.2
+      },
+      "rqspfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "goals": {
+        "0": 11,
+        "1": 4.8,
+        "2": 3.05,
+        "3": 3.75,
+        "4": 6.35,
+        "5": 11.5,
+        "6": 25,
+        "7+": 38
+      },
+      "halfFullOpen": {
+        "winWin": 2.52,
+        "winDraw": 17,
+        "winLose": 55,
+        "drawWin": 3.85,
+        "drawDraw": 5.15,
+        "drawLose": 12.5,
+        "loseWin": 27,
+        "loseDraw": 17,
+        "loseLose": 10
+      },
+      "halfFullNow": {
+        "winWin": 2.52,
+        "winDraw": 17,
+        "winLose": 55,
+        "drawWin": 3.85,
+        "drawDraw": 5.15,
+        "drawLose": 12.5,
+        "loseWin": 27,
+        "loseDraw": 17,
+        "loseLose": 10
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    }
+  ]
+}
