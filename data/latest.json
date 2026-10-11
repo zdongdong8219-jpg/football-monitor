@@ -1,1166 +1,1590 @@
 {
-    "date":  "2026-10-10",
-    "publishedAt":  "2026-10-10T15:58:06+08:00",
-    "status":  "published",
-    "edition":  "全日在售完整扫盘·B/C提前版",
-    "dataAsOf":  "2026-10-10T15:17:29+08:00",
-    "summary":  "001–030全部列入扫盘；001–003赛前记录保留且不进入新票，004–030已综合实力、竞彩赔率、预计阵容与伤停。新增跨B/C组合及C批梦想串。",
-    "recommendations":  [
-                            {
-                                "name":  "高一档·B批2串1",
-                                "category":  "regular",
-                                "passType":  "2串1",
-                                "combinationCount":  1,
-                                "oddsText":  "约2.93倍",
-                                "stronglyRecommended":  false,
-                                "legs":  [
-                                             {
-                                                 "number":  "周六007",
-                                                 "selection":  "普通负",
-                                                 "odds":  2.05,
-                                                 "predictedScore":  "0-1/1-1",
-                                                 "goalRange":  "1–3球",
-                                                 "selectionReason":  "实力占优且赔率强化"
-                                             },
-                                             {
-                                                 "number":  "周六011",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.43,
-                                                 "predictedScore":  "1-2/0-2",
-                                                 "goalRange":  "2–5球",
-                                                 "selectionReason":  "实力差距明显"
-                                             }
-                                         ],
-                                "risk":  "007两队近况均不稳。"
-                            },
-                            {
-                                "name":  "高一档·B批3串1",
-                                "category":  "regular",
-                                "passType":  "3串1",
-                                "combinationCount":  1,
-                                "oddsText":  "约3.19倍",
-                                "stronglyRecommended":  true,
-                                "legs":  [
-                                             {
-                                                 "number":  "周六004",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.73,
-                                                 "predictedScore":  "0-1/1-2",
-                                                 "goalRange":  "1–3球",
-                                                 "selectionReason":  "町田实力与盘口一致"
-                                             },
-                                             {
-                                                 "number":  "周六011",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.43,
-                                                 "predictedScore":  "1-2/0-2",
-                                                 "goalRange":  "2–5球",
-                                                 "selectionReason":  "斯图加特实力优势"
-                                             },
-                                             {
-                                                 "number":  "周六012",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.29,
-                                                 "predictedScore":  "2-0/3-1",
-                                                 "goalRange":  "2–5球",
-                                                 "selectionReason":  "汉堡伤停较重"
-                                             }
-                                         ],
-                                "risk":  "004阵容仅按上轮首发预测。"
-                            },
-                            {
-                                "name":  "稳健档·B批2串1 A",
-                                "category":  "strong",
-                                "passType":  "2串1",
-                                "combinationCount":  1,
-                                "oddsText":  "约2.61倍",
-                                "stronglyRecommended":  true,
-                                "legs":  [
-                                             {
-                                                 "number":  "周六010",
-                                                 "selection":  "普通负",
-                                                 "odds":  2.02,
-                                                 "predictedScore":  "1-2/1-1",
-                                                 "goalRange":  "2–4球",
-                                                 "selectionReason":  "实力占优且主队关键伤停"
-                                             },
-                                             {
-                                                 "number":  "周六012",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.29,
-                                                 "predictedScore":  "2-0/3-1",
-                                                 "goalRange":  "2–5球",
-                                                 "selectionReason":  "阵容和盘口共同支持"
-                                             }
-                                         ],
-                                "risk":  "010平局风险明显。"
-                            },
-                            {
-                                "name":  "稳健档·B批2串1 B",
-                                "category":  "strong",
-                                "passType":  "2串1",
-                                "combinationCount":  1,
-                                "oddsText":  "约2.68倍",
-                                "stronglyRecommended":  false,
-                                "legs":  [
-                                             {
-                                                 "number":  "周六004",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.73,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六014",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.55,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             }
-                                         ],
-                                "risk":  "切尔西多名核心存疑，首发不利则撤。"
-                            },
-                            {
-                                "name":  "进取梦想串·3关",
-                                "category":  "dream_single",
-                                "passType":  "3串1",
-                                "combinationCount":  1,
-                                "structureText":  "3关单选·1注·2元",
-                                "oddsText":  "约6.64倍",
-                                "legs":  [
-                                             {
-                                                 "number":  "周六005",
-                                                 "selection":  "竞彩让球(-1)让胜",
-                                                 "odds":  1.92,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六009",
-                                                 "selection":  "竞彩让球(+2)让负",
-                                                 "odds":  1.87,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六012",
-                                                 "selection":  "竞彩让球(-1)让胜",
-                                                 "odds":  1.85,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             }
-                                         ],
-                                "risk":  "三腿均要求大胜，属于进取票。"
-                            },
-                            {
-                                "name":  "进取梦想串·4关",
-                                "category":  "dream_single",
-                                "passType":  "4串1",
-                                "combinationCount":  1,
-                                "structureText":  "4关单选·1注·2元",
-                                "oddsText":  "约9.50倍",
-                                "legs":  [
-                                             {
-                                                 "number":  "周六005",
-                                                 "selection":  "竞彩让球(-1)让胜",
-                                                 "odds":  1.92,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六009",
-                                                 "selection":  "竞彩让球(+2)让负",
-                                                 "odds":  1.87,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六011",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.43,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六012",
-                                                 "selection":  "竞彩让球(-1)让胜",
-                                                 "odds":  1.85,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             }
-                                         ],
-                                "risk":  "集中度高，仅作梦想票。"
-                            },
-                            {
-                                "name":  "进取梦想串·5关",
-                                "category":  "dream_single",
-                                "passType":  "5串1",
-                                "combinationCount":  1,
-                                "structureText":  "5关单选·1注·2元",
-                                "oddsText":  "约14.73倍",
-                                "legs":  [
-                                             {
-                                                 "number":  "周六005",
-                                                 "selection":  "竞彩让球(-1)让胜",
-                                                 "odds":  1.92,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六009",
-                                                 "selection":  "竞彩让球(+2)让负",
-                                                 "odds":  1.87,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六011",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.43,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六012",
-                                                 "selection":  "竞彩让球(-1)让胜",
-                                                 "odds":  1.85,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六014",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.55,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             }
-                                         ],
-                                "risk":  "五腿全中才兑奖；切尔西阵容存疑。"
-                            },
-                            {
-                                "name":  "常规稳健梦想串·6关",
-                                "category":  "dream_cover",
-                                "passType":  "6串1",
-                                "combinationCount":  4,
-                                "structureText":  "6关·2场双选·4注·每注2元·总投入8元",
-                                "oddsText":  "最低分支约12.74倍；按总投入最低有效回报约3.19倍",
-                                "legs":  [
-                                             {
-                                                 "number":  "周六004",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.73,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六005",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.27,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六010",
-                                                 "selection":  "普通平/负",
-                                                 "odds":  "3.65/2.02",
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六011",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.43,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六012",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.29,
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             },
-                                             {
-                                                 "number":  "周六014",
-                                                 "selection":  "普通胜/平",
-                                                 "odds":  "1.55/3.93",
-                                                 "predictedScore":  "",
-                                                 "goalRange":  "",
-                                                 "selectionReason":  ""
-                                             }
-                                         ],
-                                "risk":  "010与014双选，4个分支总成本8元。"
-                            },
-                            {
-                                "name":  "全日交叉·2串1",
-                                "category":  "regular",
-                                "passType":  "2串1",
-                                "combinationCount":  1,
-                                "oddsText":  "约3.23倍",
-                                "stronglyRecommended":  true,
-                                "legs":  [
-                                             {
-                                                 "number":  "周六010",
-                                                 "selection":  "普通负",
-                                                 "odds":  2.02
-                                             },
-                                             {
-                                                 "number":  "周六016",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.6
-                                             }
-                                         ],
-                                "risk":  "010防平。"
-                            },
-                            {
-                                "name":  "全日交叉·3串1",
-                                "category":  "regular",
-                                "passType":  "3串1",
-                                "combinationCount":  1,
-                                "oddsText":  "约2.91倍",
-                                "stronglyRecommended":  true,
-                                "legs":  [
-                                             {
-                                                 "number":  "周六005",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.27
-                                             },
-                                             {
-                                                 "number":  "周六011",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.43
-                                             },
-                                             {
-                                                 "number":  "周六016",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.6
-                                             }
-                                         ],
-                                "risk":  "跨B/C批，三场全中。"
-                            },
-                            {
-                                "name":  "C批·3串1",
-                                "category":  "regular",
-                                "passType":  "3串1",
-                                "combinationCount":  1,
-                                "oddsText":  "约3.20倍",
-                                "stronglyRecommended":  true,
-                                "legs":  [
-                                             {
-                                                 "number":  "周六016",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.6
-                                             },
-                                             {
-                                                 "number":  "周六017",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.31
-                                             },
-                                             {
-                                                 "number":  "周六023",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.53
-                                             }
-                                         ],
-                                "risk":  "023对手状态好。"
-                            },
-                            {
-                                "name":  "C批·稳健2串1",
-                                "category":  "strong",
-                                "passType":  "2串1",
-                                "combinationCount":  1,
-                                "oddsText":  "约2.53倍",
-                                "stronglyRecommended":  false,
-                                "legs":  [
-                                             {
-                                                 "number":  "周六020",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.58
-                                             },
-                                             {
-                                                 "number":  "周六016",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.6
-                                             }
-                                         ],
-                                "risk":  "020阵容与盘口冲突。"
-                            },
-                            {
-                                "name":  "C批梦想·3关",
-                                "category":  "dream_single",
-                                "passType":  "3串1",
-                                "combinationCount":  1,
-                                "structureText":  "3关单选·1注·2元",
-                                "oddsText":  "约6.80倍",
-                                "legs":  [
-                                             {
-                                                 "number":  "周六017",
-                                                 "selection":  "让(-1)让胜",
-                                                 "odds":  1.97
-                                             },
-                                             {
-                                                 "number":  "周六019",
-                                                 "selection":  "让(-2)让胜",
-                                                 "odds":  1.94
-                                             },
-                                             {
-                                                 "number":  "周六024",
-                                                 "selection":  "让(+1)让负",
-                                                 "odds":  1.78
-                                             }
-                                         ],
-                                "risk":  "净胜球要求高。"
-                            },
-                            {
-                                "name":  "C批梦想·4关",
-                                "category":  "dream_single",
-                                "passType":  "4串1",
-                                "combinationCount":  1,
-                                "structureText":  "4关单选·1注·2元",
-                                "oddsText":  "约13.60倍",
-                                "legs":  [
-                                             {
-                                                 "number":  "周六017",
-                                                 "selection":  "让(-1)让胜",
-                                                 "odds":  1.97
-                                             },
-                                             {
-                                                 "number":  "周六019",
-                                                 "selection":  "让(-2)让胜",
-                                                 "odds":  1.94
-                                             },
-                                             {
-                                                 "number":  "周六024",
-                                                 "selection":  "让(+1)让负",
-                                                 "odds":  1.78
-                                             },
-                                             {
-                                                 "number":  "周六026",
-                                                 "selection":  "让(+1)让负",
-                                                 "odds":  2
-                                             }
-                                         ],
-                                "risk":  "四腿均为净胜球玩法。"
-                            },
-                            {
-                                "name":  "C批梦想·5关",
-                                "category":  "dream_single",
-                                "passType":  "5串1",
-                                "combinationCount":  1,
-                                "structureText":  "5关单选·1注·2元",
-                                "oddsText":  "约22.58倍",
-                                "legs":  [
-                                             {
-                                                 "number":  "周六017",
-                                                 "selection":  "让(-1)让胜",
-                                                 "odds":  1.97
-                                             },
-                                             {
-                                                 "number":  "周六019",
-                                                 "selection":  "让(-2)让胜",
-                                                 "odds":  1.94
-                                             },
-                                             {
-                                                 "number":  "周六024",
-                                                 "selection":  "让(+1)让负",
-                                                 "odds":  1.78
-                                             },
-                                             {
-                                                 "number":  "周六026",
-                                                 "selection":  "让(+1)让负",
-                                                 "odds":  2
-                                             },
-                                             {
-                                                 "number":  "周六029",
-                                                 "selection":  "让(-1)让胜",
-                                                 "odds":  1.66
-                                             }
-                                         ],
-                                "risk":  "仅建议小额。"
-                            },
-                            {
-                                "name":  "全日稳健梦想·6关",
-                                "category":  "dream_cover",
-                                "passType":  "6串1",
-                                "combinationCount":  4,
-                                "structureText":  "6关·2场双选·4注·每注2元·总投入8元",
-                                "oddsText":  "最低分支约10.65倍；最低有效回报约2.66倍",
-                                "legs":  [
-                                             {
-                                                 "number":  "周六016",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.6
-                                             },
-                                             {
-                                                 "number":  "周六017",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.31
-                                             },
-                                             {
-                                                 "number":  "周六020",
-                                                 "selection":  "普通胜/平",
-                                                 "odds":  "1.58/4.00"
-                                             },
-                                             {
-                                                 "number":  "周六023",
-                                                 "selection":  "普通胜",
-                                                 "odds":  1.53
-                                             },
-                                             {
-                                                 "number":  "周六026",
-                                                 "selection":  "普通负",
-                                                 "odds":  1.34
-                                             },
-                                             {
-                                                 "number":  "周六030",
-                                                 "selection":  "普通胜/平",
-                                                 "odds":  "1.57/3.55"
-                                             }
-                                         ],
-                                "risk":  "020、030为双选弱腿，总投入8元。"
-                            }
-                        ],
-    "sources":  [
-                    {
-                        "url":  "https://zdongdong8219-jpg.github.io/football-monitor/data/state.json",
-                        "name":  "足球云端竞彩状态",
-                        "checkedAt":  "2026-10-10T11:17:44+08:00"
-                    },
-                    {
-                        "name":  "FotMob比赛详情：预计阵容、伤停、教练与阵容估值",
-                        "url":  "https://www.fotmob.com/",
-                        "checkedAt":  "2026-10-10T15:48:01+08:00"
-                    }
-                ],
-    "limitations":  [
-                        "004仅以上场首发推定；005–015是第三方预计阵容，不是官方确认首发。",
-                        "竞彩初始值是当天首次快照，不等于公司最早开盘。",
-                        "本版为提前版，临场核心变化会在停售前更正。"
-                    ],
-    "scanTable":  [
-                      {
-                          "pending":  false,
-                          "dream":  false,
-                          "selection":  "普通主胜略优，次选平；竞彩让球(-1)让负；不做胆",
-                          "number":  "周六001",
-                          "recommended":  false,
-                          "league":  "日职",
-                          "halfFull":  "平胜/平平",
-                          "teams":  "大阪樱花 vs 横滨水手",
-                          "score":  "2-1或1-1",
-                          "stars":  2,
-                          "goals":  "2–3球",
-                          "buy":  "胜/平",
-                          "speculative":  "平/让平"
-                      },
-                      {
-                          "pending":  false,
-                          "dream":  false,
-                          "selection":  "普通主胜；竞彩让球(-1)让平/让负防穿盘",
-                          "number":  "周六002",
-                          "recommended":  false,
-                          "league":  "韩职",
-                          "halfFull":  "胜胜/平胜",
-                          "teams":  "首尔FC vs 济州SK",
-                          "score":  "2-0或2-1",
-                          "stars":  3,
-                          "goals":  "2–3球",
-                          "buy":  "胜",
-                          "speculative":  "让平"
-                      },
-                      {
-                          "pending":  false,
-                          "dream":  false,
-                          "selection":  "普通主胜轻倾向，次选平；竞彩让球(-1)让负；不做胆",
-                          "number":  "周六003",
-                          "recommended":  false,
-                          "league":  "韩职",
-                          "halfFull":  "平平/平胜",
-                          "teams":  "金泉尚武 vs 安养FC",
-                          "score":  "1-0或1-1",
-                          "stars":  2,
-                          "goals":  "1–3球",
-                          "buy":  "胜/平",
-                          "speculative":  "平/让平"
-                      },
-                      {
-                          "number":  "周六004",
-                          "league":  "日职",
-                          "teams":  "京都 vs 町田泽维",
-                          "buy":  "负",
-                          "speculative":  "让平",
-                          "selection":  "买：负｜博：让平",
-                          "goals":  "1–3球",
-                          "halfFull":  "平负",
-                          "score":  "0-1/1-2",
-                          "stars":  3,
-                          "recommended":  true,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六005",
-                          "league":  "英超",
-                          "teams":  "阿森纳 vs 利兹联",
-                          "buy":  "胜",
-                          "speculative":  "让胜",
-                          "selection":  "买：胜｜博：让胜",
-                          "goals":  "2–4球",
-                          "halfFull":  "胜胜",
-                          "score":  "2-0/3-1",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六006",
-                          "league":  "西甲",
-                          "teams":  "巴列卡诺 vs 毕尔巴鄂",
-                          "buy":  "让胜",
-                          "speculative":  "平",
-                          "selection":  "买：让胜｜博：平",
-                          "goals":  "1–3球",
-                          "halfFull":  "平平/平负",
-                          "score":  "1-1/1-2",
-                          "stars":  3,
-                          "recommended":  false,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六007",
-                          "league":  "意甲",
-                          "teams":  "热那亚 vs 佛罗伦萨",
-                          "buy":  "负/平",
-                          "speculative":  "让平",
-                          "selection":  "买：负/平｜博：让平",
-                          "goals":  "1–3球",
-                          "halfFull":  "平负/平平",
-                          "score":  "0-1/1-1",
-                          "stars":  3,
-                          "recommended":  true,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六008",
-                          "league":  "德甲",
-                          "teams":  "柏林联合 vs 埃沃斯堡",
-                          "buy":  "胜/平",
-                          "speculative":  "让平",
-                          "selection":  "买：胜/平｜博：让平",
-                          "goals":  "2–4球",
-                          "halfFull":  "平胜/平平",
-                          "score":  "2-1/1-1",
-                          "stars":  2,
-                          "recommended":  false,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六009",
-                          "league":  "德甲",
-                          "teams":  "奥格斯堡 vs 拜仁",
-                          "buy":  "让负",
-                          "speculative":  "总进球5/6/7+",
-                          "selection":  "买：让负｜博：总进球5/6/7+",
-                          "goals":  "4–7+球",
-                          "halfFull":  "负负",
-                          "score":  "0-3/1-4",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六010",
-                          "league":  "德甲",
-                          "teams":  "美因茨 vs 勒沃库森",
-                          "buy":  "负/平",
-                          "speculative":  "负",
-                          "selection":  "买：负/平｜博：负",
-                          "goals":  "2–4球",
-                          "halfFull":  "平负/负负",
-                          "score":  "1-2/1-1",
-                          "stars":  3,
-                          "recommended":  true,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六011",
-                          "league":  "德甲",
-                          "teams":  "帕德博恩 vs 斯图加特",
-                          "buy":  "负",
-                          "speculative":  "让平",
-                          "selection":  "买：负｜博：让平",
-                          "goals":  "2–5球",
-                          "halfFull":  "平负/负负",
-                          "score":  "1-2/0-2",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六012",
-                          "league":  "德甲",
-                          "teams":  "霍芬海姆 vs 汉堡",
-                          "buy":  "胜",
-                          "speculative":  "让胜",
-                          "selection":  "买：胜｜博：让胜",
-                          "goals":  "2–5球",
-                          "halfFull":  "胜胜",
-                          "score":  "2-0/3-1",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六013",
-                          "league":  "英超",
-                          "teams":  "伊普斯 vs 富勒姆",
-                          "buy":  "负/平",
-                          "speculative":  "平",
-                          "selection":  "买：负/平｜博：平",
-                          "goals":  "1–3球",
-                          "halfFull":  "平平/平负",
-                          "score":  "1-1/0-1",
-                          "stars":  2,
-                          "recommended":  false,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六014",
-                          "league":  "英超",
-                          "teams":  "切尔西 vs 伯恩茅斯",
-                          "buy":  "胜",
-                          "speculative":  "让平",
-                          "selection":  "买：胜｜博：让平",
-                          "goals":  "2–4球",
-                          "halfFull":  "胜胜/平胜",
-                          "score":  "2-1/2-0",
-                          "stars":  3,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六015",
-                          "league":  "英超",
-                          "teams":  "维拉 vs 布伦特",
-                          "buy":  "平/负",
-                          "speculative":  "平",
-                          "selection":  "买：平/负｜博：平",
-                          "goals":  "2–4球",
-                          "halfFull":  "平平/平负",
-                          "score":  "1-1/1-2",
-                          "stars":  2,
-                          "recommended":  false,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六016",
-                          "league":  "西甲",
-                          "teams":  "阿拉维斯 vs 马竞",
-                          "buy":  "负",
-                          "speculative":  "让平",
-                          "selection":  "买：负｜博：让平",
-                          "goals":  "1–3球",
-                          "halfFull":  "平负/负负",
-                          "score":  "0-1/0-2",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六017",
-                          "league":  "法甲",
-                          "teams":  "里尔 vs 勒阿弗尔",
-                          "buy":  "胜",
-                          "speculative":  "让胜",
-                          "selection":  "买：胜｜博：让胜",
-                          "goals":  "2–4球",
-                          "halfFull":  "胜胜",
-                          "score":  "2-0/3-0",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六018",
-                          "league":  "瑞超",
-                          "teams":  "米亚尔比 vs 代格福什",
-                          "buy":  "胜/平",
-                          "speculative":  "让平",
-                          "selection":  "买：胜/平｜博：让平",
-                          "goals":  "1–3球",
-                          "halfFull":  "平胜/平平",
-                          "score":  "1-0/1-1",
-                          "stars":  2,
-                          "recommended":  false,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六019",
-                          "league":  "意甲",
-                          "teams":  "国际米兰 vs 帕尔马",
-                          "buy":  "让胜/让平",
-                          "speculative":  "让胜",
-                          "selection":  "买：让胜/让平｜博：让胜",
-                          "goals":  "3–5球",
-                          "halfFull":  "胜胜",
-                          "score":  "3-0/3-1",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六020",
-                          "league":  "英超",
-                          "teams":  "曼联 vs 热刺",
-                          "buy":  "胜/平",
-                          "speculative":  "胜",
-                          "selection":  "买：胜/平｜博：胜",
-                          "goals":  "2–4球",
-                          "halfFull":  "平胜/平平",
-                          "score":  "2-1/1-1",
-                          "stars":  2,
-                          "recommended":  true,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六021",
-                          "league":  "德甲",
-                          "teams":  "莱红牛 vs 法兰克福",
-                          "buy":  "胜",
-                          "speculative":  "让平",
-                          "selection":  "买：胜｜博：让平",
-                          "goals":  "2–5球",
-                          "halfFull":  "胜胜/平胜",
-                          "score":  "2-1/3-1",
-                          "stars":  3,
-                          "recommended":  true,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六022",
-                          "league":  "西甲",
-                          "teams":  "巴萨 vs 赫塔费",
-                          "buy":  "让负",
-                          "speculative":  "总进球4/5",
-                          "selection":  "买：让负｜博：总进球4/5",
-                          "goals":  "3–5球",
-                          "halfFull":  "胜胜",
-                          "score":  "3-0/3-1",
-                          "stars":  3,
-                          "recommended":  false,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六023",
-                          "league":  "荷甲",
-                          "teams":  "费耶诺德 vs 阿尔克马",
-                          "buy":  "胜",
-                          "speculative":  "让平",
-                          "selection":  "买：胜｜博：让平",
-                          "goals":  "2–5球",
-                          "halfFull":  "胜胜/平胜",
-                          "score":  "2-1/3-1",
-                          "stars":  3,
-                          "recommended":  true,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六024",
-                          "league":  "葡超",
-                          "teams":  "马里迪莫 vs 波尔图",
-                          "buy":  "负",
-                          "speculative":  "让负",
-                          "selection":  "买：负｜博：让负",
-                          "goals":  "2–4球",
-                          "halfFull":  "负负",
-                          "score":  "0-2/0-3",
-                          "stars":  5,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六025",
-                          "league":  "沙职",
-                          "teams":  "利雅新月 vs 吉达联合",
-                          "buy":  "胜",
-                          "speculative":  "让平",
-                          "selection":  "买：胜｜博：让平",
-                          "goals":  "3–6球",
-                          "halfFull":  "胜胜",
-                          "score":  "3-1/2-1",
-                          "stars":  3,
-                          "recommended":  false,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六026",
-                          "league":  "荷甲",
-                          "teams":  "福图纳 vs 特温特",
-                          "buy":  "负",
-                          "speculative":  "让负",
-                          "selection":  "买：负｜博：让负",
-                          "goals":  "2–5球",
-                          "halfFull":  "平负/负负",
-                          "score":  "0-2/1-3",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六027",
-                          "league":  "意甲",
-                          "teams":  "那不勒斯 vs 弗洛西诺",
-                          "buy":  "胜",
-                          "speculative":  "让平",
-                          "selection":  "买：胜｜博：让平",
-                          "goals":  "2–4球",
-                          "halfFull":  "平胜/胜胜",
-                          "score":  "2-1/2-0",
-                          "stars":  3,
-                          "recommended":  true,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六028",
-                          "league":  "法甲",
-                          "teams":  "摩纳哥 vs 图卢兹",
-                          "buy":  "胜",
-                          "speculative":  "让平",
-                          "selection":  "买：胜｜博：让平",
-                          "goals":  "2–4球",
-                          "halfFull":  "胜胜/平胜",
-                          "score":  "2-1/2-0",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  false
-                      },
-                      {
-                          "number":  "周六029",
-                          "league":  "西甲",
-                          "teams":  "皇马 vs 比利亚雷",
-                          "buy":  "胜",
-                          "speculative":  "让胜",
-                          "selection":  "买：胜｜博：让胜",
-                          "goals":  "2–5球",
-                          "halfFull":  "胜胜",
-                          "score":  "3-1/2-0",
-                          "stars":  4,
-                          "recommended":  true,
-                          "dream":  true
-                      },
-                      {
-                          "number":  "周六030",
-                          "league":  "巴甲",
-                          "teams":  "圣保罗 vs 维多利亚",
-                          "buy":  "胜/平",
-                          "speculative":  "让平",
-                          "selection":  "买：胜/平｜博：让平",
-                          "goals":  "1–3球",
-                          "halfFull":  "平胜/平平",
-                          "score":  "1-0/1-1",
-                          "stars":  2,
-                          "recommended":  false,
-                          "dream":  false
-                      }
-                  ],
-    "matchAnalysis":  [
-                          {
-                              "text":  "大阪樱花普通胜平负2.20/3.32/2.68，市场首先支持主胜，其次客胜；排名字段横滨7、大阪11不足以推翻主胜赔率。主让一球让负1.51只说明大阪净胜两球难，不代表横滨会赢。修正为主胜略优、平局次选，不做胆。",
-                              "number":  "周六001"
-                          },
-                          {
-                              "text":  "首尔FC排名字段1、济州SK第4，普通主胜1.47，是三场中胜负方向最清楚的一场。主让一球让胜2.55、让负2.28，说明市场对净胜两球没有强共识：可选普通主胜，不能直接升级让胜。伤停和首发未独立核验，信心只给3星。",
-                              "number":  "周六002"
-                          },
-                          {
-                              "text":  "金泉尚武与安养排名字段10和9接近，但普通主胜2.01低于平3.15、客胜3.18，市场轻偏主。主让一球让负1.62表明主队即使赢也更像一球，且平局风险不低；主胜只能轻倾向，不做胆。",
-                              "number":  "周六003"
-                          },
-                          {
-                              "number":  "周六004",
-                              "text":  "买：负｜博：让平。町田预计阵容身价约640万，高于京都约481万；同为3-4-2-1。客胜1.72至1.73稳定，京都受让1球让平对应町田恰赢1球。阵容仅按上一场首发推定。"
-                          },
-                          {
-                              "number":  "周六005",
-                              "text":  "买：胜｜博：让胜。阿森纳预计首发身价约7.81亿，对利兹约2.46亿，近况WWWWL对DDLWD；利兹后卫Rodon缺阵，多名边锋存疑。主胜1.28降1.27，让胜1.98降1.92。Saliba缺阵、Havertz存疑是穿盘风险。"
-                          },
-                          {
-                              "number":  "周六006",
-                              "text":  "买：让胜｜博：平。毕尔巴鄂预计首发身价约1.11亿，高于巴列约5000万且近况更好，但Nico Williams、Sancet缺席削弱进攻。客胜2.30升2.37，主队受让1球让胜1.46降1.43，市场更防巴列不败。"
-                          },
-                          {
-                              "number":  "周六007",
-                              "text":  "买：负/平｜博：让平。佛罗伦萨预计首发身价约1.74亿，约为热那亚8260万的两倍；热那亚多名攻击手缺阵，主胜2.82升3.13、客胜2.21降2.05。双方近况均不稳，常规保留平局。"
-                          },
-                          {
-                              "number":  "周六008",
-                              "text":  "买：胜/平｜博：让平。柏林联合预计首发身价约5670万，高于埃沃斯堡3020万，但主队近况DLLLW且缺阵更多，主胜2.06升2.18、客胜2.73降2.55，属于反向变化，不作核心。"
-                          },
-                          {
-                              "number":  "周六009",
-                              "text":  "买：让负｜博：总进球5/6/7+。拜仁预计首发身价约6.87亿，对奥格斯堡约7990万，近况WDWWW；拜仁仅Musiala列缺阵。官方仅开主队受让2球，让负1.87，支持拜仁至少赢3球，但大让仍有风险。"
-                          },
-                          {
-                              "number":  "周六010",
-                              "text":  "买：负/平｜博：负。勒沃库森预计首发身价约2.45亿，对美因茨约8670万；美因茨门将Zentner、Kohr、Nebel等缺席，客胜2.06降2.02。勒沃库森也有后场伤停，双选保护平局。"
-                          },
-                          {
-                              "number":  "周六011",
-                              "text":  "买：负｜博：让平。斯图加特预计首发身价约2.68亿，对帕德博恩约2530万，实力差距明显；客胜1.45降1.43。斯图加特中卫伤停较多，所以博其恰赢1球，不强推大胜。"
-                          },
-                          {
-                              "number":  "周六012",
-                              "text":  "买：胜｜博：让胜。霍芬海姆预计首发身价约1.41亿，对汉堡8300万；汉堡锋线和边路多人缺阵，主胜1.29稳定、让胜1.88降1.85。霍村近况LLWLL是主要风险。"
-                          },
-                          {
-                              "number":  "周六013",
-                              "text":  "买：负/平｜博：平。富勒姆预计首发身价约2.37亿，高于伊普斯1.80亿，伊普斯近况LLWLL；但双方赔率接近且富勒姆近况也弱，适合客不败或观望。"
-                          },
-                          {
-                              "number":  "周六014",
-                              "text":  "买：胜｜博：让平。切尔西预计首发身价约4.97亿，对伯恩茅斯2.73亿；主胜1.61降1.55、让胜2.78降2.66。Palmer、James、Caicedo等多人存疑，净胜幅度不稳，博让平。"
-                          },
-                          {
-                              "number":  "周六015",
-                              "text":  "买：平/负｜博：平。布伦特预计首发身价约3.57亿略高于维拉2.99亿，客胜2.30略低于主胜2.53；维拉近况更好但两队伤疑较多且盘口静止，不作核心。"
-                          },
-                          {
-                              "number":  "周六016",
-                              "text":  "马竞阵容实力远高于阿拉维斯，客胜1.66降1.60；预计阵容无确认缺阵，买负，预期赢1球优先博让平。"
-                          },
-                          {
-                              "number":  "周六017",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六018",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六019",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六020",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六021",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六022",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六023",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六024",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六025",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六026",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六027",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六028",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六029",
-                              "text":  null
-                          },
-                          {
-                              "number":  "周六030",
-                              "text":  null
-                          }
-                      ],
-    "rulesVersion":  "2026-10-10",
-    "finalLocked":  false,
-    "batches":  [
-                    {
-                        "publishedAt":  "2026-10-10T11:47:00+08:00",
-                        "numbers":  [
-                                        "周六001",
-                                        "周六002",
-                                        "周六003"
-                                    ],
-                        "locked":  true,
-                        "id":  "A-2026-10-10",
-                        "deadline":  "2026-10-10T12:00:00+08:00"
-                    },
-                    {
-                        "id":  "B-2026-10-10",
-                        "numbers":  [
-                                        "周六004",
-                                        "周六005",
-                                        "周六006",
-                                        "周六007",
-                                        "周六008",
-                                        "周六009",
-                                        "周六010",
-                                        "周六011",
-                                        "周六012",
-                                        "周六013",
-                                        "周六014",
-                                        "周六015"
-                                    ],
-                        "deadline":  "2026-10-10T17:00:00+08:00",
-                        "publishedAt":  "2026-10-10T15:48:01+08:00",
-                        "locked":  false,
-                        "status":  "提前版"
-                    },
-                    {
-                        "id":  "C-2026-10-10",
-                        "numbers":  [
-                                        "周六016",
-                                        "周六017",
-                                        "周六018",
-                                        "周六019",
-                                        "周六020",
-                                        "周六021",
-                                        "周六022",
-                                        "周六023",
-                                        "周六024",
-                                        "周六025",
-                                        "周六026",
-                                        "周六027",
-                                        "周六028",
-                                        "周六029",
-                                        "周六030"
-                                    ],
-                        "deadline":  "2026-10-10T21:15:00+08:00",
-                        "publishedAt":  "2026-10-10T15:58:06+08:00",
-                        "locked":  false,
-                        "status":  "提前版"
-                    }
-                ]
+  "date": "2026-10-11",
+  "publishedAt": "2026-10-11T20:18:00+08:00",
+  "status": "published",
+  "edition": "20:00晚场补齐·B/C扫盘版",
+  "rulesVersion": "2026-10-10",
+  "finalLocked": false,
+  "dataAsOf": "2026-10-11T11:46:18.978Z",
+  "summary": "当天独立销售日2026-10-11晚场补齐：001–008已开赛或停售不再建议；009–016为B批、017–028为C批，仍在售场次仅保留扫盘与缺项，未形成合格串关。",
+  "recommendations": [],
+  "sources": [
+    {
+      "name": "足球云端竞彩实时快照",
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/data/state.json",
+      "checkedAt": "2026-10-11T11:46:18.978Z"
+    },
+    {
+      "name": "规则文件",
+      "path": "RECOMMENDATION-RULES.md",
+      "checkedAt": "2026-10-10"
+    }
+  ],
+  "limitations": [
+    "本次仅有竞彩镜像快照；同公司亚洲盘初盘/即时盘、多公司欧赔一致性、返还率、伤停停赛、预计首发替补与战术对位未完成独立核验。",
+    "赔率不能替代实力判断；证据不足时不输出方向、比分、净胜球、进球区间或串关。",
+    "已开赛或停售场次不再给投注建议，不使用赛中信息回填赛前判断。"
+  ],
+  "scanTable": [
+    {
+      "number": "周日001",
+      "league": "韩职",
+      "teams": "光州FC vs 蔚山现代",
+      "kickoff": "2026-10-11T13:00:00",
+      "buy": "不建议",
+      "speculative": "不建议",
+      "selection": "已开赛/停售·不建议",
+      "officialHandicap": "主受让1球",
+      "goals": "已开赛·不预测",
+      "halfFull": "已开赛·不预测",
+      "score": "已开赛·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "已开赛或停售",
+      "odds": {
+        "spf": {
+          "win": 5.3,
+          "draw": 4.15,
+          "lose": 1.43
+        },
+        "rqspf": {
+          "win": 2.35,
+          "draw": 3.2,
+          "lose": 2.56
+        }
+      },
+      "risk": "已开赛或停售，按规则不再给投注建议。"
+    },
+    {
+      "number": "周日002",
+      "league": "日乙",
+      "teams": "磐城FC vs 秋田闪电",
+      "kickoff": "2026-10-11T14:00:00",
+      "buy": "不建议",
+      "speculative": "不建议",
+      "selection": "已开赛/停售·不建议",
+      "officialHandicap": "主让1球",
+      "goals": "已开赛·不预测",
+      "halfFull": "已开赛·不预测",
+      "score": "已开赛·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "已开赛或停售",
+      "odds": {
+        "spf": {
+          "win": 2.2,
+          "draw": 2.95,
+          "lose": 2.98
+        },
+        "rqspf": {
+          "win": 5,
+          "draw": 3.75,
+          "lose": 1.51
+        }
+      },
+      "risk": "已开赛或停售，按规则不再给投注建议。"
+    },
+    {
+      "number": "周日003",
+      "league": "日职",
+      "teams": "川崎前锋 vs 名古屋鲸",
+      "kickoff": "2026-10-11T15:00:00",
+      "buy": "不建议",
+      "speculative": "不建议",
+      "selection": "已开赛/停售·不建议",
+      "officialHandicap": "主让1球",
+      "goals": "已开赛·不预测",
+      "halfFull": "已开赛·不预测",
+      "score": "已开赛·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "已开赛或停售",
+      "odds": {
+        "spf": {
+          "win": 1.57,
+          "draw": 3.95,
+          "lose": 4.2
+        },
+        "rqspf": {
+          "win": 2.77,
+          "draw": 3.5,
+          "lose": 2.07
+        }
+      },
+      "risk": "已开赛或停售，按规则不再给投注建议。"
+    },
+    {
+      "number": "周日004",
+      "league": "荷甲",
+      "teams": "乌德勒支 vs 威廉二世",
+      "kickoff": "2026-10-11T18:15:00",
+      "buy": "不建议",
+      "speculative": "不建议",
+      "selection": "已开赛/停售·不建议",
+      "officialHandicap": "主让1球",
+      "goals": "已开赛·不预测",
+      "halfFull": "已开赛·不预测",
+      "score": "已开赛·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "已开赛或停售",
+      "odds": {
+        "spf": {
+          "win": 1.36,
+          "draw": 4.55,
+          "lose": 5.75
+        },
+        "rqspf": {
+          "win": 2.13,
+          "draw": 3.57,
+          "lose": 2.63
+        }
+      },
+      "risk": "已开赛或停售，按规则不再给投注建议。"
+    },
+    {
+      "number": "周日005",
+      "league": "意甲",
+      "teams": "科莫 vs 罗马",
+      "kickoff": "2026-10-11T18:30:00",
+      "buy": "不建议",
+      "speculative": "不建议",
+      "selection": "已开赛/停售·不建议",
+      "officialHandicap": "主让1球",
+      "goals": "已开赛·不预测",
+      "halfFull": "已开赛·不预测",
+      "score": "已开赛·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "已开赛或停售",
+      "odds": {
+        "spf": {
+          "win": 2.18,
+          "draw": 3.3,
+          "lose": 2.72
+        },
+        "rqspf": {
+          "win": 4.65,
+          "draw": 3.9,
+          "lose": 1.52
+        }
+      },
+      "risk": "已开赛或停售，按规则不再给投注建议。"
+    },
+    {
+      "number": "周日006",
+      "league": "英冠",
+      "teams": "南安普敦 vs 朴次茅斯",
+      "kickoff": "2026-10-11T19:00:00",
+      "buy": "不建议",
+      "speculative": "不建议",
+      "selection": "已开赛/停售·不建议",
+      "officialHandicap": "主让1球",
+      "goals": "已开赛·不预测",
+      "halfFull": "已开赛·不预测",
+      "score": "已开赛·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "已开赛或停售",
+      "odds": {
+        "spf": {
+          "win": 1.35,
+          "draw": 4.55,
+          "lose": 5.95
+        },
+        "rqspf": {
+          "win": 2.1,
+          "draw": 3.53,
+          "lose": 2.7
+        }
+      },
+      "risk": "已开赛或停售，按规则不再给投注建议。"
+    },
+    {
+      "number": "周日007",
+      "league": "西甲",
+      "teams": "埃尔切 vs 塞尔塔",
+      "kickoff": "2026-10-11T20:00:00",
+      "buy": "不建议",
+      "speculative": "不建议",
+      "selection": "已开赛/停售·不建议",
+      "officialHandicap": "主受让1球",
+      "goals": "已开赛·不预测",
+      "halfFull": "已开赛·不预测",
+      "score": "已开赛·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "已开赛或停售",
+      "odds": {
+        "spf": {
+          "win": 3,
+          "draw": 2.9,
+          "lose": 2.22
+        },
+        "rqspf": {
+          "win": 1.51,
+          "draw": 3.65,
+          "lose": 5.2
+        }
+      },
+      "risk": "已开赛或停售，按规则不再给投注建议。"
+    },
+    {
+      "number": "周日008",
+      "league": "芬超",
+      "teams": "国际图尔 vs 库奥皮奥",
+      "kickoff": "2026-10-11T20:00:00",
+      "buy": "不建议",
+      "speculative": "不建议",
+      "selection": "已开赛/停售·不建议",
+      "officialHandicap": "主让1球",
+      "goals": "已开赛·不预测",
+      "halfFull": "已开赛·不预测",
+      "score": "已开赛·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "已开赛或停售",
+      "odds": {
+        "spf": {
+          "win": 2.01,
+          "draw": 2.95,
+          "lose": 3.42
+        },
+        "rqspf": {
+          "win": 4.45,
+          "draw": 3.43,
+          "lose": 1.63
+        }
+      },
+      "risk": "已开赛或停售，按规则不再给投注建议。"
+    },
+    {
+      "number": "周日009",
+      "league": "荷甲",
+      "teams": "兹沃勒 vs 坎布尔",
+      "kickoff": "2026-10-11T20:30:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 1.84,
+          "draw": 3.7,
+          "lose": 3.17
+        },
+        "rqspf": {
+          "win": 3.28,
+          "draw": 3.95,
+          "lose": 1.75
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日010",
+      "league": "挪超",
+      "teams": "腓特烈 vs 特罗姆瑟",
+      "kickoff": "2026-10-11T20:30:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主受让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 2.86,
+          "draw": 3.3,
+          "lose": 2.1
+        },
+        "rqspf": {
+          "win": 1.55,
+          "draw": 3.85,
+          "lose": 4.45
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日011",
+      "league": "英超",
+      "teams": "赫尔城 vs 埃弗顿",
+      "kickoff": "2026-10-11T21:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主受让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 3.4,
+          "draw": 3.15,
+          "lose": 1.93
+        },
+        "rqspf": {
+          "win": 1.68,
+          "draw": 3.5,
+          "lose": 4.02
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日012",
+      "league": "英超",
+      "teams": "水晶宫 vs 诺丁汉",
+      "kickoff": "2026-10-11T21:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 2.52,
+          "draw": 2.98,
+          "lose": 2.52
+        },
+        "rqspf": {
+          "win": 5.75,
+          "draw": 4.15,
+          "lose": 1.4
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日013",
+      "league": "意甲",
+      "teams": "拉齐奥 vs 蒙扎",
+      "kickoff": "2026-10-11T21:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 1.5,
+          "draw": 3.72,
+          "lose": 5.15
+        },
+        "rqspf": {
+          "win": 2.67,
+          "draw": 3.35,
+          "lose": 2.19
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日014",
+      "league": "意甲",
+      "teams": "莱切 vs 博洛尼亚",
+      "kickoff": "2026-10-11T21:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主受让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 3.85,
+          "draw": 3.2,
+          "lose": 1.8
+        },
+        "rqspf": {
+          "win": 1.8,
+          "draw": 3.2,
+          "lose": 3.85
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日015",
+      "league": "法甲",
+      "teams": "尼斯 vs 斯特拉斯",
+      "kickoff": "2026-10-11T21:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 2.07,
+          "draw": 3.45,
+          "lose": 2.81
+        },
+        "rqspf": {
+          "win": 4.05,
+          "draw": 4,
+          "lose": 1.58
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日016",
+      "league": "德甲",
+      "teams": "科隆 vs 门兴",
+      "kickoff": "2026-10-11T21:30:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 1.85,
+          "draw": 3.75,
+          "lose": 3.1
+        },
+        "rqspf": {
+          "win": 3.4,
+          "draw": 3.95,
+          "lose": 1.72
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日017",
+      "league": "西甲",
+      "teams": "皇家社会 vs 拉科",
+      "kickoff": "2026-10-11T22:15:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 1.46,
+          "draw": 3.9,
+          "lose": 5.35
+        },
+        "rqspf": {
+          "win": 2.59,
+          "draw": 3.15,
+          "lose": 2.35
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日018",
+      "league": "英超",
+      "teams": "利物浦 vs 曼城",
+      "kickoff": "2026-10-11T23:30:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主受让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 2.9,
+          "draw": 3.75,
+          "lose": 1.93
+        },
+        "rqspf": {
+          "win": 1.67,
+          "draw": 3.72,
+          "lose": 3.82
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日019",
+      "league": "德甲",
+      "teams": "弗赖堡 vs 沙尔克04",
+      "kickoff": "2026-10-11T23:30:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 1.44,
+          "draw": 4.1,
+          "lose": 5.25
+        },
+        "rqspf": {
+          "win": 2.37,
+          "draw": 3.6,
+          "lose": 2.33
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日020",
+      "league": "意甲",
+      "teams": "萨索洛 vs AC米兰",
+      "kickoff": "2026-10-12T00:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主受让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 4.02,
+          "draw": 3.65,
+          "lose": 1.65
+        },
+        "rqspf": {
+          "win": 1.94,
+          "draw": 3.3,
+          "lose": 3.22
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日021",
+      "league": "西甲",
+      "teams": "贝蒂斯 vs 奥萨苏纳",
+      "kickoff": "2026-10-12T00:30:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 1.32,
+          "draw": 4.5,
+          "lose": 6.7
+        },
+        "rqspf": {
+          "win": 2.16,
+          "draw": 3.3,
+          "lose": 2.75
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日022",
+      "league": "葡超",
+      "teams": "本菲卡 vs 吉马良斯",
+      "kickoff": "2026-10-12T01:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让2球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": null,
+          "draw": null,
+          "lose": null
+        },
+        "rqspf": {
+          "win": 2.38,
+          "draw": 4,
+          "lose": 2.18
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日023",
+      "league": "挪超",
+      "teams": "利勒斯特 vs 莫尔德",
+      "kickoff": "2026-10-12T01:15:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主受让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 2.72,
+          "draw": 3.85,
+          "lose": 1.99
+        },
+        "rqspf": {
+          "win": 1.61,
+          "draw": 4.1,
+          "lose": 3.78
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日024",
+      "league": "意甲",
+      "teams": "卡利亚里 vs 尤文图斯",
+      "kickoff": "2026-10-12T02:45:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主受让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 6.35,
+          "draw": 4.05,
+          "lose": 1.38
+        },
+        "rqspf": {
+          "win": 2.53,
+          "draw": 2.96,
+          "lose": 2.52
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日025",
+      "league": "法甲",
+      "teams": "特鲁瓦 vs 马赛",
+      "kickoff": "2026-10-12T02:45:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主受让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 3.6,
+          "draw": 3.65,
+          "lose": 1.73
+        },
+        "rqspf": {
+          "win": 1.83,
+          "draw": 3.7,
+          "lose": 3.2
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日026",
+      "league": "西甲",
+      "teams": "桑坦德 vs 巴伦西亚",
+      "kickoff": "2026-10-12T03:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 2.06,
+          "draw": 3.35,
+          "lose": 2.9
+        },
+        "rqspf": {
+          "win": 4.05,
+          "draw": 3.9,
+          "lose": 1.6
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日027",
+      "league": "巴甲",
+      "teams": "米竞技 vs 桑托斯",
+      "kickoff": "2026-10-12T03:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 1.98,
+          "draw": 3.12,
+          "lose": 3.3
+        },
+        "rqspf": {
+          "win": 4.2,
+          "draw": 3.5,
+          "lose": 1.65
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    },
+    {
+      "number": "周日028",
+      "league": "美职",
+      "teams": "圣路易城 vs 洛城银河",
+      "kickoff": "2026-10-12T07:00:00",
+      "buy": "观望",
+      "speculative": "无",
+      "selection": "买：观望｜博：无",
+      "officialHandicap": "主让1球",
+      "goals": "缺少独立进球模型·不预测",
+      "halfFull": "缺少上半场依据·不预测",
+      "score": "缺少实力/阵容交叉证据·不预测",
+      "stars": 0,
+      "confidence": "低",
+      "recommended": false,
+      "dream": false,
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "status": "在售待分析",
+      "odds": {
+        "spf": {
+          "win": 1.4,
+          "draw": 4.6,
+          "lose": 5.05
+        },
+        "rqspf": {
+          "win": 2.16,
+          "draw": 3.72,
+          "lose": 2.52
+        }
+      },
+      "risk": "未完成同公司亚洲初盘/即时盘、多公司欧赔、伤停与预计首发核验；不以赔率代替实力。"
+    }
+  ],
+  "matchAnalysis": [
+    {
+      "number": "周日001",
+      "text": "周日001 光州FC vs 蔚山现代（韩职，2026-10-11T13:00:00）已开赛或停售。官方让球：主受让1球；不再使用赛中信息回填赛前判断，也不提供投注建议。",
+      "evidence": {
+        "missing": [
+          "赛前建议已关闭"
+        ]
+      }
+    },
+    {
+      "number": "周日002",
+      "text": "周日002 磐城FC vs 秋田闪电（日乙，2026-10-11T14:00:00）已开赛或停售。官方让球：主让1球；不再使用赛中信息回填赛前判断，也不提供投注建议。",
+      "evidence": {
+        "missing": [
+          "赛前建议已关闭"
+        ]
+      }
+    },
+    {
+      "number": "周日003",
+      "text": "周日003 川崎前锋 vs 名古屋鲸（日职，2026-10-11T15:00:00）已开赛或停售。官方让球：主让1球；不再使用赛中信息回填赛前判断，也不提供投注建议。",
+      "evidence": {
+        "missing": [
+          "赛前建议已关闭"
+        ]
+      }
+    },
+    {
+      "number": "周日004",
+      "text": "周日004 乌德勒支 vs 威廉二世（荷甲，2026-10-11T18:15:00）已开赛或停售。官方让球：主让1球；不再使用赛中信息回填赛前判断，也不提供投注建议。",
+      "evidence": {
+        "missing": [
+          "赛前建议已关闭"
+        ]
+      }
+    },
+    {
+      "number": "周日005",
+      "text": "周日005 科莫 vs 罗马（意甲，2026-10-11T18:30:00）已开赛或停售。官方让球：主让1球；不再使用赛中信息回填赛前判断，也不提供投注建议。",
+      "evidence": {
+        "missing": [
+          "赛前建议已关闭"
+        ]
+      }
+    },
+    {
+      "number": "周日006",
+      "text": "周日006 南安普敦 vs 朴次茅斯（英冠，2026-10-11T19:00:00）已开赛或停售。官方让球：主让1球；不再使用赛中信息回填赛前判断，也不提供投注建议。",
+      "evidence": {
+        "missing": [
+          "赛前建议已关闭"
+        ]
+      }
+    },
+    {
+      "number": "周日007",
+      "text": "周日007 埃尔切 vs 塞尔塔（西甲，2026-10-11T20:00:00）已开赛或停售。官方让球：主受让1球；不再使用赛中信息回填赛前判断，也不提供投注建议。",
+      "evidence": {
+        "missing": [
+          "赛前建议已关闭"
+        ]
+      }
+    },
+    {
+      "number": "周日008",
+      "text": "周日008 国际图尔 vs 库奥皮奥（芬超，2026-10-11T20:00:00）已开赛或停售。官方让球：主让1球；不再使用赛中信息回填赛前判断，也不提供投注建议。",
+      "evidence": {
+        "missing": [
+          "赛前建议已关闭"
+        ]
+      }
+    },
+    {
+      "number": "周日009",
+      "text": "周日009 兹沃勒 vs 坎布尔（荷甲，2026-10-11T20:30:00）。官方让球：主让1球；当前竞彩胜平负1.84/3.7/3.17；让球3.28/3.95/1.75。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 1.84,
+          "draw": 3.7,
+          "lose": 3.17
+        },
+        "handicapOdds": {
+          "win": 3.28,
+          "draw": 3.95,
+          "lose": 1.75
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日010",
+      "text": "周日010 腓特烈 vs 特罗姆瑟（挪超，2026-10-11T20:30:00）。官方让球：主受让1球；当前竞彩胜平负2.86/3.3/2.1；让球1.55/3.85/4.45。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 2.86,
+          "draw": 3.3,
+          "lose": 2.1
+        },
+        "handicapOdds": {
+          "win": 1.55,
+          "draw": 3.85,
+          "lose": 4.45
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日011",
+      "text": "周日011 赫尔城 vs 埃弗顿（英超，2026-10-11T21:00:00）。官方让球：主受让1球；当前竞彩胜平负3.4/3.15/1.93；让球1.68/3.5/4.02。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 3.4,
+          "draw": 3.15,
+          "lose": 1.93
+        },
+        "handicapOdds": {
+          "win": 1.68,
+          "draw": 3.5,
+          "lose": 4.02
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日012",
+      "text": "周日012 水晶宫 vs 诺丁汉（英超，2026-10-11T21:00:00）。官方让球：主让1球；当前竞彩胜平负2.52/2.98/2.52；让球5.75/4.15/1.4。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 2.52,
+          "draw": 2.98,
+          "lose": 2.52
+        },
+        "handicapOdds": {
+          "win": 5.75,
+          "draw": 4.15,
+          "lose": 1.4
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日013",
+      "text": "周日013 拉齐奥 vs 蒙扎（意甲，2026-10-11T21:00:00）。官方让球：主让1球；当前竞彩胜平负1.5/3.72/5.15；让球2.67/3.35/2.19。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 1.5,
+          "draw": 3.72,
+          "lose": 5.15
+        },
+        "handicapOdds": {
+          "win": 2.67,
+          "draw": 3.35,
+          "lose": 2.19
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日014",
+      "text": "周日014 莱切 vs 博洛尼亚（意甲，2026-10-11T21:00:00）。官方让球：主受让1球；当前竞彩胜平负3.85/3.2/1.8；让球1.8/3.2/3.85。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 3.85,
+          "draw": 3.2,
+          "lose": 1.8
+        },
+        "handicapOdds": {
+          "win": 1.8,
+          "draw": 3.2,
+          "lose": 3.85
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日015",
+      "text": "周日015 尼斯 vs 斯特拉斯（法甲，2026-10-11T21:00:00）。官方让球：主让1球；当前竞彩胜平负2.07/3.45/2.81；让球4.05/4/1.58。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 2.07,
+          "draw": 3.45,
+          "lose": 2.81
+        },
+        "handicapOdds": {
+          "win": 4.05,
+          "draw": 4,
+          "lose": 1.58
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日016",
+      "text": "周日016 科隆 vs 门兴（德甲，2026-10-11T21:30:00）。官方让球：主让1球；当前竞彩胜平负1.85/3.75/3.1；让球3.4/3.95/1.72。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 1.85,
+          "draw": 3.75,
+          "lose": 3.1
+        },
+        "handicapOdds": {
+          "win": 3.4,
+          "draw": 3.95,
+          "lose": 1.72
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日017",
+      "text": "周日017 皇家社会 vs 拉科（西甲，2026-10-11T22:15:00）。官方让球：主让1球；当前竞彩胜平负1.46/3.9/5.35；让球2.59/3.15/2.35。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 1.46,
+          "draw": 3.9,
+          "lose": 5.35
+        },
+        "handicapOdds": {
+          "win": 2.59,
+          "draw": 3.15,
+          "lose": 2.35
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日018",
+      "text": "周日018 利物浦 vs 曼城（英超，2026-10-11T23:30:00）。官方让球：主受让1球；当前竞彩胜平负2.9/3.75/1.93；让球1.67/3.72/3.82。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 2.9,
+          "draw": 3.75,
+          "lose": 1.93
+        },
+        "handicapOdds": {
+          "win": 1.67,
+          "draw": 3.72,
+          "lose": 3.82
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日019",
+      "text": "周日019 弗赖堡 vs 沙尔克04（德甲，2026-10-11T23:30:00）。官方让球：主让1球；当前竞彩胜平负1.44/4.1/5.25；让球2.37/3.6/2.33。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 1.44,
+          "draw": 4.1,
+          "lose": 5.25
+        },
+        "handicapOdds": {
+          "win": 2.37,
+          "draw": 3.6,
+          "lose": 2.33
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日020",
+      "text": "周日020 萨索洛 vs AC米兰（意甲，2026-10-12T00:00:00）。官方让球：主受让1球；当前竞彩胜平负4.02/3.65/1.65；让球1.94/3.3/3.22。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 4.02,
+          "draw": 3.65,
+          "lose": 1.65
+        },
+        "handicapOdds": {
+          "win": 1.94,
+          "draw": 3.3,
+          "lose": 3.22
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日021",
+      "text": "周日021 贝蒂斯 vs 奥萨苏纳（西甲，2026-10-12T00:30:00）。官方让球：主让1球；当前竞彩胜平负1.32/4.5/6.7；让球2.16/3.3/2.75。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 1.32,
+          "draw": 4.5,
+          "lose": 6.7
+        },
+        "handicapOdds": {
+          "win": 2.16,
+          "draw": 3.3,
+          "lose": 2.75
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日022",
+      "text": "周日022 本菲卡 vs 吉马良斯（葡超，2026-10-12T01:00:00）。官方让球：主让2球；当前竞彩胜平负缺失/缺失/缺失；让球2.38/4/2.18。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": null,
+          "draw": null,
+          "lose": null
+        },
+        "handicapOdds": {
+          "win": 2.38,
+          "draw": 4,
+          "lose": 2.18
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日023",
+      "text": "周日023 利勒斯特 vs 莫尔德（挪超，2026-10-12T01:15:00）。官方让球：主受让1球；当前竞彩胜平负2.72/3.85/1.99；让球1.61/4.1/3.78。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 2.72,
+          "draw": 3.85,
+          "lose": 1.99
+        },
+        "handicapOdds": {
+          "win": 1.61,
+          "draw": 4.1,
+          "lose": 3.78
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日024",
+      "text": "周日024 卡利亚里 vs 尤文图斯（意甲，2026-10-12T02:45:00）。官方让球：主受让1球；当前竞彩胜平负6.35/4.05/1.38；让球2.53/2.96/2.52。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 6.35,
+          "draw": 4.05,
+          "lose": 1.38
+        },
+        "handicapOdds": {
+          "win": 2.53,
+          "draw": 2.96,
+          "lose": 2.52
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日025",
+      "text": "周日025 特鲁瓦 vs 马赛（法甲，2026-10-12T02:45:00）。官方让球：主受让1球；当前竞彩胜平负3.6/3.65/1.73；让球1.83/3.7/3.2。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 3.6,
+          "draw": 3.65,
+          "lose": 1.73
+        },
+        "handicapOdds": {
+          "win": 1.83,
+          "draw": 3.7,
+          "lose": 3.2
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日026",
+      "text": "周日026 桑坦德 vs 巴伦西亚（西甲，2026-10-12T03:00:00）。官方让球：主让1球；当前竞彩胜平负2.06/3.35/2.9；让球4.05/3.9/1.6。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 2.06,
+          "draw": 3.35,
+          "lose": 2.9
+        },
+        "handicapOdds": {
+          "win": 4.05,
+          "draw": 3.9,
+          "lose": 1.6
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日027",
+      "text": "周日027 米竞技 vs 桑托斯（巴甲，2026-10-12T03:00:00）。官方让球：主让1球；当前竞彩胜平负1.98/3.12/3.3；让球4.2/3.5/1.65。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 1.98,
+          "draw": 3.12,
+          "lose": 3.3
+        },
+        "handicapOdds": {
+          "win": 4.2,
+          "draw": 3.5,
+          "lose": 1.65
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    },
+    {
+      "number": "周日028",
+      "text": "周日028 圣路易城 vs 洛城银河（美职，2026-10-12T07:00:00）。官方让球：主让1球；当前竞彩胜平负1.4/4.6/5.05；让球2.16/3.72/2.52。买：观望｜博：无。当前未完成同公司亚洲初盘与即时盘、多公司欧赔/官方赔率交叉、伤停停赛、预计首发替补及战术对位核验，不能据此判断实力、比分、净胜球或进球区间；风险为临场信息不足，不凑串。",
+      "evidence": {
+        "odds": {
+          "win": 1.4,
+          "draw": 4.6,
+          "lose": 5.05
+        },
+        "handicapOdds": {
+          "win": 2.16,
+          "draw": 3.72,
+          "lose": 2.52
+        },
+        "sources": [
+          "远端state实时竞彩快照"
+        ],
+        "missing": [
+          "同公司亚洲盘初盘/即时盘",
+          "多公司欧赔一致性",
+          "伤停停赛",
+          "预计首发替补",
+          "战术对位"
+        ]
+      }
+    }
+  ],
+  "batches": [
+    {
+      "id": "B-2026-10-11",
+      "numbers": [
+        "周日009",
+        "周日010",
+        "周日011",
+        "周日012",
+        "周日013",
+        "周日014",
+        "周日015",
+        "周日016"
+      ],
+      "deadline": "2026-10-11T19:30:00+08:00",
+      "publishedAt": "2026-10-11T20:18:00+08:00",
+      "locked": true,
+      "archiveVersion": "2026-10-11-B-20261011T201800+0800",
+      "status": "late-publish-no-qualified-picks"
+    },
+    {
+      "id": "C-2026-10-11",
+      "numbers": [
+        "周日017",
+        "周日018",
+        "周日019",
+        "周日020",
+        "周日021",
+        "周日022",
+        "周日023",
+        "周日024",
+        "周日025",
+        "周日026",
+        "周日027",
+        "周日028"
+      ],
+      "deadline": "2026-10-11T21:15:00+08:00",
+      "publishedAt": "2026-10-11T20:18:00+08:00",
+      "locked": false,
+      "archiveVersion": "2026-10-11-C-20261011T201800+0800",
+      "status": "scan-only-pending-evidence"
+    }
+  ]
 }
