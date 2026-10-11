@@ -1,0 +1,1513 @@
+{
+  "date": "2026-10-10",
+  "title": "掏空主任的裤衩子｜10月10日赛果复盘",
+  "publishedAt": "2026-10-11T11:10:26+08:00",
+  "summary": "按15:58不可变完整发布版复盘：29场可结算，006腰斩待定。四类命中分别为方向21/29、总进球22/29、半全场19/29、比分7/29。16张正式票中4张命中、12张未中；若每张均按1倍示例，总投入44元、返还24.04元、示例净额-19.96元，不代表用户实际投注或盈亏。全局最高暴露6/16（37.5%），未越过50%阈值；但B批与C批梦想串内部存在3/3共同腿的嵌套结构错误。",
+  "verification": {
+    "originalReport": "data/reports/2026-10-10-full-early.json",
+    "originalCommit": "3b0695799bc21bf993708acb82b05335063002de",
+    "verifiedAt": "2026-10-11T11:10:26+08:00",
+    "status": "partial",
+    "note": "001、004至030由ESPN与FotMob逐场核对；002、003由FotMob与LiveScore核对。006两源均标记腰斩，保持待定且不结算；其余29场的完赛状态、全场与半场比分两源一致。",
+    "sources": [
+      {
+        "name": "FotMob 10月10日赛程",
+        "url": "https://www.fotmob.com/api/data/matches?date=20261010&ccode3=CHN&timezone=Asia%2FShanghai"
+      },
+      {
+        "name": "FotMob 10月11日赛程",
+        "url": "https://www.fotmob.com/api/data/matches?date=20261011&ccode3=CHN&timezone=Asia%2FShanghai"
+      },
+      {
+        "name": "LiveScore 10月10日赛程",
+        "url": "https://prod-public-api.livescore.com/v1/api/app/date/soccer/20261010/1.0?MD=1&countryCode=CN&locale=en&timezone=8&ads=false"
+      }
+    ],
+    "espnMatchIds": [
+      401877606,
+      401877607,
+      401879268,
+      401882849,
+      401874947,
+      401884775,
+      401884777,
+      401884776,
+      401884773,
+      401884779,
+      401879265,
+      401878775,
+      401878776,
+      401882856,
+      401876446,
+      401874087,
+      401875021,
+      401878773,
+      401884780,
+      401882853,
+      401875591,
+      401885424,
+      401900909,
+      401875588,
+      401874754,
+      401876444,
+      401882848,
+      401841259
+    ],
+    "fotmobMatchIds": [
+      5803599,
+      5140045,
+      5140046,
+      5803605,
+      5795465,
+      5868088,
+      5749693,
+      5881187,
+      5881179,
+      5881184,
+      5881185,
+      5881183,
+      5795471,
+      5795467,
+      5795466,
+      5868081,
+      5802948,
+      5107618,
+      5749694,
+      5795473,
+      5881186,
+      5868084,
+      5781759,
+      5887650,
+      5970149,
+      5781767,
+      5749697,
+      5802950,
+      5868089,
+      5103656
+    ],
+    "liveScoreMatchIds": [
+      1723727,
+      1723728
+    ]
+  },
+  "rows": [
+    {
+      "number": "周六001",
+      "time": "10-10 13:00",
+      "league": "日职",
+      "teams": "大阪樱花 vs 横滨水手",
+      "recommended": false,
+      "resultPick": "买：胜/平｜博：平/让平",
+      "goalsPick": "2–3球",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "2-1或1-1",
+      "actualScore": "0-0",
+      "halfScore": "0-0",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [],
+        "halfFull": [
+          "平平"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场0-0、半场0-0。",
+      "review": "单场独立结算：方向、半全场命中；总进球、比分未中。未进入正式票，不作赛后补组。",
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六002",
+      "time": "10-10 13:00",
+      "league": "韩职",
+      "teams": "首尔FC vs 济州SK",
+      "recommended": false,
+      "resultPick": "买：胜｜博：让平",
+      "goalsPick": "2–3球",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "2-0或2-1",
+      "actualScore": "2-1",
+      "halfScore": "0-0",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "让平",
+          "胜"
+        ],
+        "goals": [
+          "2–3球"
+        ],
+        "halfFull": [
+          "平胜"
+        ],
+        "score": [
+          "2-1"
+        ]
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "FotMob与LiveScore一致，均显示完赛、全场2-1、半场0-0。",
+      "review": "单场独立结算：四项均命中。未进入正式票，不作赛后补组。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": true
+      }
+    },
+    {
+      "number": "周六003",
+      "time": "10-10 15:30",
+      "league": "韩职",
+      "teams": "金泉尚武 vs 安养FC",
+      "recommended": false,
+      "resultPick": "买：胜/平｜博：平/让平",
+      "goalsPick": "1–3球",
+      "halfFullPick": "平平/平胜",
+      "scorePick": "1-0或1-1",
+      "actualScore": "0-1",
+      "halfScore": "0-1",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "1–3球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "FotMob与LiveScore一致，均显示完赛、全场0-1、半场0-1。",
+      "review": "单场独立结算：总进球命中；方向、半全场、比分未中。未进入正式票，不作赛后补组。",
+      "actualResult": "负",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六004",
+      "time": "10-10 18:00",
+      "league": "日职",
+      "teams": "京都 vs 町田泽维",
+      "recommended": true,
+      "resultPick": "买：负｜博：让平",
+      "goalsPick": "1–3球",
+      "halfFullPick": "平负",
+      "scorePick": "0-1/1-2",
+      "actualScore": "0-1",
+      "halfScore": "0-0",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "让平",
+          "负"
+        ],
+        "goals": [
+          "1–3球"
+        ],
+        "halfFull": [
+          "平负"
+        ],
+        "score": [
+          "0-1"
+        ]
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 3,
+      "exposureRate": 0.1875,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场0-1、半场0-0。",
+      "review": "单场独立结算：四项均命中。进入3/16张正式票（18.8%），未超过全局集中风险阈值。",
+      "actualResult": "负",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": true
+      }
+    },
+    {
+      "number": "周六005",
+      "time": "10-10 19:30",
+      "league": "英超",
+      "teams": "阿森纳 vs 利兹联",
+      "recommended": true,
+      "resultPick": "买：胜｜博：让胜",
+      "goalsPick": "2–4球",
+      "halfFullPick": "胜胜",
+      "scorePick": "2-0/3-1",
+      "actualScore": "2-1",
+      "halfScore": "0-0",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "2–4球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 5,
+      "exposureRate": 0.3125,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场2-1、半场0-0。",
+      "review": "单场独立结算：方向、总进球命中；半全场、比分未中。进入5/16张正式票（31.3%），未超过全局集中风险阈值。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六006",
+      "time": "10-10 20:00",
+      "league": "西甲",
+      "teams": "巴列卡诺 vs 毕尔巴鄂",
+      "recommended": false,
+      "resultPick": "买：让胜｜博：平",
+      "goalsPick": "1–3球",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1-1/1-2",
+      "actualScore": "待定（腰斩时0-0）",
+      "halfScore": "待定（腰斩时0-0）",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "待定",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob均标记腰斩，不得结算。",
+      "review": "比赛腰斩，四类预测和所有相关票据均不得结算；不把中止时比分当正式赛果。",
+      "actualResult": "待定",
+      "actualHandicapResult": "待定",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六007",
+      "time": "10-10 21:00",
+      "league": "意甲",
+      "teams": "热那亚 vs 佛罗伦萨",
+      "recommended": true,
+      "resultPick": "买：负/平｜博：让平",
+      "goalsPick": "1–3球",
+      "halfFullPick": "平负/平平",
+      "scorePick": "0-1/1-1",
+      "actualScore": "2-1",
+      "halfScore": "2-0",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "1–3球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 1,
+      "exposureRate": 0.0625,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场2-1、半场2-0。",
+      "review": "单场独立结算：总进球命中；方向、半全场、比分未中。进入1/16张正式票（6.3%），未超过全局集中风险阈值。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六008",
+      "time": "10-10 21:30",
+      "league": "德甲",
+      "teams": "柏林联合 vs 埃沃斯堡",
+      "recommended": false,
+      "resultPick": "买：胜/平｜博：让平",
+      "goalsPick": "2–4球",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "2-1/1-1",
+      "actualScore": "1-0",
+      "halfScore": "0-0",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "让平",
+          "胜"
+        ],
+        "goals": [],
+        "halfFull": [
+          "平胜"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场1-0、半场0-0。",
+      "review": "单场独立结算：方向、半全场命中；总进球、比分未中。未进入正式票，不作赛后补组。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": true
+      }
+    },
+    {
+      "number": "周六009",
+      "time": "10-10 21:30",
+      "league": "德甲",
+      "teams": "奥格斯堡 vs 拜仁",
+      "recommended": true,
+      "resultPick": "买：让负",
+      "goalsPick": "4–7+球；博：5球/6球/7+球",
+      "halfFullPick": "负负",
+      "scorePick": "0-3/1-4",
+      "actualScore": "2-2",
+      "halfScore": "1-0",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "4–7+球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 3,
+      "exposureRate": 0.1875,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场2-2、半场1-0。",
+      "review": "单场独立结算：总进球命中；方向、半全场、比分未中。进入3/16张正式票（18.8%），未超过全局集中风险阈值。",
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六010",
+      "time": "10-10 21:30",
+      "league": "德甲",
+      "teams": "美因茨 vs 勒沃库森",
+      "recommended": true,
+      "resultPick": "买：负/平｜博：负",
+      "goalsPick": "2–4球",
+      "halfFullPick": "平负/负负",
+      "scorePick": "1-2/1-1",
+      "actualScore": "3-4",
+      "halfScore": "2-2",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "负"
+        ],
+        "goals": [],
+        "halfFull": [
+          "平负"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 3,
+      "exposureRate": 0.1875,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场3-4、半场2-2。",
+      "review": "单场独立结算：方向、半全场命中；总进球、比分未中。进入3/16张正式票（18.8%），未超过全局集中风险阈值。",
+      "actualResult": "负",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六011",
+      "time": "10-10 21:30",
+      "league": "德甲",
+      "teams": "帕德博恩 vs 斯图加特",
+      "recommended": true,
+      "resultPick": "买：负｜博：让平",
+      "goalsPick": "2–5球",
+      "halfFullPick": "平负/负负",
+      "scorePick": "1-2/0-2",
+      "actualScore": "0-2",
+      "halfScore": "0-1",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "负"
+        ],
+        "goals": [
+          "2–5球"
+        ],
+        "halfFull": [
+          "负负"
+        ],
+        "score": [
+          "0-2"
+        ]
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 6,
+      "exposureRate": 0.375,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场0-2、半场0-1。",
+      "review": "单场独立结算：四项均命中。进入6/16张正式票（37.5%），未超过全局集中风险阈值。",
+      "actualResult": "负",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六012",
+      "time": "10-10 21:30",
+      "league": "德甲",
+      "teams": "霍芬海姆 vs 汉堡",
+      "recommended": true,
+      "resultPick": "买：胜｜博：让胜",
+      "goalsPick": "2–5球",
+      "halfFullPick": "胜胜",
+      "scorePick": "2-0/3-1",
+      "actualScore": "2-3",
+      "halfScore": "1-1",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "2–5球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 6,
+      "exposureRate": 0.375,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场2-3、半场1-1。",
+      "review": "单场独立结算：总进球命中；方向、半全场、比分未中。进入6/16张正式票（37.5%），未超过全局集中风险阈值。",
+      "actualResult": "负",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六013",
+      "time": "10-10 22:00",
+      "league": "英超",
+      "teams": "伊普斯 vs 富勒姆",
+      "recommended": false,
+      "resultPick": "买：负/平｜博：平",
+      "goalsPick": "1–3球",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1-1/0-1",
+      "actualScore": "2-1",
+      "halfScore": "0-0",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "1–3球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场2-1、半场0-0。",
+      "review": "单场独立结算：总进球命中；方向、半全场、比分未中。未进入正式票，不作赛后补组。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六014",
+      "time": "10-10 22:00",
+      "league": "英超",
+      "teams": "切尔西 vs 伯恩茅斯",
+      "recommended": true,
+      "resultPick": "买：胜｜博：让平",
+      "goalsPick": "2–4球",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "2-1/2-0",
+      "actualScore": "5-1",
+      "halfScore": "2-0",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 3,
+      "exposureRate": 0.1875,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场5-1、半场2-0。",
+      "review": "单场独立结算：方向、半全场命中；总进球、比分未中。进入3/16张正式票（18.8%），未超过全局集中风险阈值。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六015",
+      "time": "10-10 22:00",
+      "league": "英超",
+      "teams": "维拉 vs 布伦特",
+      "recommended": false,
+      "resultPick": "买：平/负｜博：平",
+      "goalsPick": "2–4球",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1-1/1-2",
+      "actualScore": "2-2",
+      "halfScore": "1-1",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2–4球"
+        ],
+        "halfFull": [
+          "平平"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场2-2、半场1-1。",
+      "review": "单场独立结算：方向、总进球、半全场命中；比分未中。未进入正式票，不作赛后补组。",
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六016",
+      "time": "10-10 22:15",
+      "league": "西甲",
+      "teams": "阿拉维斯 vs 马竞",
+      "recommended": true,
+      "resultPick": "买：负｜博：让平",
+      "goalsPick": "1–3球",
+      "halfFullPick": "平负/负负",
+      "scorePick": "0-1/0-2",
+      "actualScore": "1-2",
+      "halfScore": "1-1",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "让平",
+          "负"
+        ],
+        "goals": [
+          "1–3球"
+        ],
+        "halfFull": [
+          "平负"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 5,
+      "exposureRate": 0.3125,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场1-2、半场1-1。",
+      "review": "单场独立结算：方向、总进球、半全场命中；比分未中。进入5/16张正式票（31.3%），未超过全局集中风险阈值。",
+      "actualResult": "负",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": true
+      }
+    },
+    {
+      "number": "周六017",
+      "time": "10-10 23:15",
+      "league": "法甲",
+      "teams": "里尔 vs 勒阿弗尔",
+      "recommended": true,
+      "resultPick": "买：胜｜博：让胜",
+      "goalsPick": "2–4球",
+      "halfFullPick": "胜胜",
+      "scorePick": "2-0/3-0",
+      "actualScore": "1-0",
+      "halfScore": "1-0",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 5,
+      "exposureRate": 0.3125,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场1-0、半场1-0。",
+      "review": "单场独立结算：方向、半全场命中；总进球、比分未中。进入5/16张正式票（31.3%），未超过全局集中风险阈值。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六018",
+      "time": "10-10 23:30",
+      "league": "瑞超",
+      "teams": "米亚尔比 vs 代格福什",
+      "recommended": false,
+      "resultPick": "买：胜/平｜博：让平",
+      "goalsPick": "1–3球",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "1-0/1-1",
+      "actualScore": "1-1",
+      "halfScore": "0-0",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "1–3球"
+        ],
+        "halfFull": [
+          "平平"
+        ],
+        "score": [
+          "1-1"
+        ]
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场1-1、半场0-0。",
+      "review": "单场独立结算：四项均命中。未进入正式票，不作赛后补组。",
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六019",
+      "time": "10-11 00:00",
+      "league": "意甲",
+      "teams": "国际米兰 vs 帕尔马",
+      "recommended": true,
+      "resultPick": "买：让胜/让平｜博：让胜",
+      "goalsPick": "3–5球",
+      "halfFullPick": "胜胜",
+      "scorePick": "3-0/3-1",
+      "actualScore": "3-0",
+      "halfScore": "3-0",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "让胜"
+        ],
+        "goals": [
+          "3–5球"
+        ],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": [
+          "3-0"
+        ]
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 3,
+      "exposureRate": 0.1875,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场3-0、半场3-0。",
+      "review": "单场独立结算：四项均命中。进入3/16张正式票（18.8%），未超过全局集中风险阈值。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": true
+      }
+    },
+    {
+      "number": "周六020",
+      "time": "10-11 00:30",
+      "league": "英超",
+      "teams": "曼联 vs 热刺",
+      "recommended": true,
+      "resultPick": "买：胜/平｜博：胜",
+      "goalsPick": "2–4球",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "2-1/1-1",
+      "actualScore": "1-1",
+      "halfScore": "0-0",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2–4球"
+        ],
+        "halfFull": [
+          "平平"
+        ],
+        "score": [
+          "1-1"
+        ]
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 2,
+      "exposureRate": 0.125,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场1-1、半场0-0。",
+      "review": "单场独立结算：四项均命中。进入2/16张正式票（12.5%），未超过全局集中风险阈值。",
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六021",
+      "time": "10-11 00:30",
+      "league": "德甲",
+      "teams": "莱红牛 vs 法兰克福",
+      "recommended": true,
+      "resultPick": "买：胜｜博：让平",
+      "goalsPick": "2–5球",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "2-1/3-1",
+      "actualScore": "6-0",
+      "halfScore": "4-0",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场6-0、半场4-0。",
+      "review": "单场独立结算：方向、半全场命中；总进球、比分未中。未进入正式票，不作赛后补组。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六022",
+      "time": "10-11 00:30",
+      "league": "西甲",
+      "teams": "巴萨 vs 赫塔费",
+      "recommended": false,
+      "resultPick": "买：让负",
+      "goalsPick": "3–5球；博：4球/5球",
+      "halfFullPick": "胜胜",
+      "scorePick": "3-0/3-1",
+      "actualScore": "3-0",
+      "halfScore": "2-0",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "3–5球"
+        ],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": [
+          "3-0"
+        ]
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场3-0、半场2-0。",
+      "review": "单场独立结算：总进球、半全场、比分命中；方向未中。未进入正式票，不作赛后补组。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六023",
+      "time": "10-11 00:45",
+      "league": "荷甲",
+      "teams": "费耶诺德 vs 阿尔克马",
+      "recommended": true,
+      "resultPick": "买：胜｜博：让平",
+      "goalsPick": "2–5球",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "2-1/3-1",
+      "actualScore": "2-0",
+      "halfScore": "1-0",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "2–5球"
+        ],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 2,
+      "exposureRate": 0.125,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场2-0、半场1-0。",
+      "review": "单场独立结算：方向、总进球、半全场命中；比分未中。进入2/16张正式票（12.5%），未超过全局集中风险阈值。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六024",
+      "time": "10-11 01:00",
+      "league": "葡超",
+      "teams": "马里迪莫 vs 波尔图",
+      "recommended": true,
+      "resultPick": "买：负｜博：让负",
+      "goalsPick": "2–4球",
+      "halfFullPick": "负负",
+      "scorePick": "0-2/0-3",
+      "actualScore": "1-2",
+      "halfScore": "1-1",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "负"
+        ],
+        "goals": [
+          "2–4球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 3,
+      "exposureRate": 0.1875,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场1-2、半场1-1。",
+      "review": "单场独立结算：方向、总进球命中；半全场、比分未中。进入3/16张正式票（18.8%），未超过全局集中风险阈值。",
+      "actualResult": "负",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六025",
+      "time": "10-11 02:00",
+      "league": "沙职",
+      "teams": "利雅新月 vs 吉达联合",
+      "recommended": false,
+      "resultPick": "买：胜｜博：让平",
+      "goalsPick": "3–6球",
+      "halfFullPick": "胜胜",
+      "scorePick": "3-1/2-1",
+      "actualScore": "3-2",
+      "halfScore": "2-1",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "3–6球"
+        ],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场3-2、半场2-1。",
+      "review": "单场独立结算：方向、总进球、半全场命中；比分未中。未进入正式票，不作赛后补组。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六026",
+      "time": "10-11 02:00",
+      "league": "荷甲",
+      "teams": "福图纳 vs 特温特",
+      "recommended": true,
+      "resultPick": "买：负｜博：让负",
+      "goalsPick": "2–5球",
+      "halfFullPick": "平负/负负",
+      "scorePick": "0-2/1-3",
+      "actualScore": "1-1",
+      "halfScore": "1-1",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "2–5球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 3,
+      "exposureRate": 0.1875,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场1-1、半场1-1。",
+      "review": "单场独立结算：总进球命中；方向、半全场、比分未中。进入3/16张正式票（18.8%），未超过全局集中风险阈值。",
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六027",
+      "time": "10-11 02:45",
+      "league": "意甲",
+      "teams": "那不勒斯 vs 弗洛西诺",
+      "recommended": true,
+      "resultPick": "买：胜｜博：让平",
+      "goalsPick": "2–4球",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2-1/2-0",
+      "actualScore": "3-0",
+      "halfScore": "2-0",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "2–4球"
+        ],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场3-0、半场2-0。",
+      "review": "单场独立结算：方向、总进球、半全场命中；比分未中。未进入正式票，不作赛后补组。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六028",
+      "time": "10-11 02:45",
+      "league": "法甲",
+      "teams": "摩纳哥 vs 图卢兹",
+      "recommended": true,
+      "resultPick": "买：胜｜博：让平",
+      "goalsPick": "2–4球",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "2-1/2-0",
+      "actualScore": "2-2",
+      "halfScore": "2-0",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "2–4球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 0,
+      "exposureRate": 0,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场2-2、半场2-0。",
+      "review": "单场独立结算：总进球命中；方向、半全场、比分未中。未进入正式票，不作赛后补组。",
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": false,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六029",
+      "time": "10-11 03:00",
+      "league": "西甲",
+      "teams": "皇马 vs 比利亚雷",
+      "recommended": true,
+      "resultPick": "买：胜｜博：让胜",
+      "goalsPick": "2–5球",
+      "halfFullPick": "胜胜",
+      "scorePick": "3-1/2-0",
+      "actualScore": "1-0",
+      "halfScore": "0-0",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 1,
+      "exposureRate": 0.0625,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场1-0、半场0-0。",
+      "review": "单场独立结算：方向命中；总进球、半全场、比分未中。进入1/16张正式票（6.3%），未超过全局集中风险阈值。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": false
+      }
+    },
+    {
+      "number": "周六030",
+      "time": "10-11 08:00",
+      "league": "巴甲",
+      "teams": "圣保罗 vs 维多利亚",
+      "recommended": true,
+      "resultPick": "买：胜/平｜博：让平",
+      "goalsPick": "1–3球",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "1-0/1-1",
+      "actualScore": "2-1",
+      "halfScore": "1-1",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "让平",
+          "胜"
+        ],
+        "goals": [
+          "1–3球"
+        ],
+        "halfFull": [
+          "平胜"
+        ],
+        "score": []
+      },
+      "settlementStatus": "已结算",
+      "exposureCount": 1,
+      "exposureRate": 0.0625,
+      "exposureRisk": "无",
+      "verification": "ESPN与FotMob一致，均显示完赛、全场2-1、半场1-1。",
+      "review": "单场独立结算：方向、总进球、半全场命中；比分未中。进入1/16张正式票（6.3%），未超过全局集中风险阈值。",
+      "actualResult": "胜",
+      "actualHandicapResult": "让平",
+      "resultHits": {
+        "ordinary": true,
+        "handicap": true
+      }
+    }
+  ],
+  "combinations": [
+    {
+      "name": "高一档·B批2串1",
+      "category": "regular",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六007普通负✗ × 周六011普通负✓。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "高一档·B批3串1｜强烈建议",
+      "category": "regular",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六004普通负✓ × 周六011普通负✓ × 周六012普通胜✗。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "稳健档·B批2串1 A｜强烈建议",
+      "category": "strong",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六010普通负✓ × 周六012普通胜✗。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "稳健档·B批2串1 B",
+      "category": "strong",
+      "result": "命中",
+      "exampleStake": 2,
+      "exampleReturn": 5.36,
+      "exampleNet": 3.36,
+      "detail": "周六004普通负✓ × 周六014普通胜✓。仅按每张1倍、每注2元示例：投入2元、返还5.36元、示例净额3.36元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "进取梦想串·3关",
+      "category": "dream_single",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六005竞彩让球(-1)让胜✗ × 周六009竞彩让球(+2)让负✗ × 周六012竞彩让球(-1)让胜✗。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "进取梦想串·4关",
+      "category": "dream_single",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六005竞彩让球(-1)让胜✗ × 周六009竞彩让球(+2)让负✗ × 周六011普通负✓ × 周六012竞彩让球(-1)让胜✗。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "进取梦想串·5关",
+      "category": "dream_single",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六005竞彩让球(-1)让胜✗ × 周六009竞彩让球(+2)让负✗ × 周六011普通负✓ × 周六012竞彩让球(-1)让胜✗ × 周六014普通胜✓。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "常规稳健梦想串·6关",
+      "category": "dream_cover",
+      "result": "未中",
+      "exampleStake": 8,
+      "exampleReturn": 0,
+      "exampleNet": -8,
+      "detail": "周六004普通负✓ × 周六005普通胜✓ × 周六010普通平/负✓ × 周六011普通负✓ × 周六012普通胜✗ × 周六014普通胜/平✓。仅按每张1倍、每注2元示例：投入8元、返还0.00元、示例净额-8.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "全日交叉·2串1｜强烈建议",
+      "category": "regular",
+      "result": "命中",
+      "exampleStake": 2,
+      "exampleReturn": 6.46,
+      "exampleNet": 4.46,
+      "detail": "周六010普通负✓ × 周六016普通负✓。仅按每张1倍、每注2元示例：投入2元、返还6.46元、示例净额4.46元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "全日交叉·3串1｜强烈建议",
+      "category": "regular",
+      "result": "命中",
+      "exampleStake": 2,
+      "exampleReturn": 5.81,
+      "exampleNet": 3.81,
+      "detail": "周六005普通胜✓ × 周六011普通负✓ × 周六016普通负✓。仅按每张1倍、每注2元示例：投入2元、返还5.81元、示例净额3.81元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "C批·3串1｜强烈建议",
+      "category": "regular",
+      "result": "命中",
+      "exampleStake": 2,
+      "exampleReturn": 6.41,
+      "exampleNet": 4.41,
+      "detail": "周六016普通负✓ × 周六017普通胜✓ × 周六023普通胜✓。仅按每张1倍、每注2元示例：投入2元、返还6.41元、示例净额4.41元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "C批·稳健2串1",
+      "category": "strong",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六020普通胜✗ × 周六016普通负✓。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "C批梦想·3关",
+      "category": "dream_single",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六017让(-1)让胜✗ × 周六019让(-2)让胜✓ × 周六024让(+1)让负✗。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "C批梦想·4关",
+      "category": "dream_single",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六017让(-1)让胜✗ × 周六019让(-2)让胜✓ × 周六024让(+1)让负✗ × 周六026让(+1)让负✗。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "C批梦想·5关",
+      "category": "dream_single",
+      "result": "未中",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "周六017让(-1)让胜✗ × 周六019让(-2)让胜✓ × 周六024让(+1)让负✗ × 周六026让(+1)让负✗ × 周六029让(-1)让胜✗。仅按每张1倍、每注2元示例：投入2元、返还0.00元、示例净额-2.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "全日稳健梦想·6关",
+      "category": "dream_cover",
+      "result": "未中",
+      "exampleStake": 8,
+      "exampleReturn": 0,
+      "exampleNet": -8,
+      "detail": "周六016普通负✓ × 周六017普通胜✓ × 周六020普通胜/平✓ × 周六023普通胜✓ × 周六026普通负✗ × 周六030普通胜/平✓。仅按每张1倍、每注2元示例：投入8元、返还0.00元、示例净额-8.00元；不是用户实际投注或盈亏。"
+    },
+    {
+      "name": "容错组",
+      "result": "未发布",
+      "detail": "10月10日不可变正式版没有tolerant类别容错票，不作赛后补组或补算。"
+    },
+    {
+      "name": "半全场专项",
+      "result": "未发布",
+      "detail": "10月10日不可变正式版没有half_full类别专项票，不作赛后补组或补算。"
+    }
+  ],
+  "lessons": [
+    "单场预测与组合结算必须分开：方向21/29、总进球22/29、半全场19/29、比分7/29；任何一项命中都不能替代同场其他玩法或整串命中。",
+    "006巴列卡诺对毕尔巴鄂被两源标记腰斩；即使中止时为0-0，也不得把它当正式赛果，相关预测保持待定。",
+    "主要单场错误集中在穿盘幅度与强弱兑现：009拜仁未胜、012霍芬海姆主胜失败、026特温特未胜、028摩纳哥被追平；这些是赛前判断错误，不用赛后事件倒推借口。",
+    "全局暴露率最高为011与012的6/16（37.5%），没有场次超过50%，更没有100%共同暴露；因此全局不虚报集中风险。",
+    "组合管理仍有子组结构错误：B批梦想3/4/5关共同包含005、009、012（3/3），C批梦想3/4/5关共同包含017、019、024（3/3）。多张嵌套票没有真正分散核心腿。",
+    "梦想串8张全部未中，错误主要来自让球净胜幅度过激；常规2串1命中1/2、常规3串1命中2/3、strong类别命中1/3。",
+    "金额只按每张1倍、每注2元演示；没有实际投注金额，不能声称用户实际盈亏。"
+  ]
+}
