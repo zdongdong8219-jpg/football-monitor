@@ -91,8 +91,7 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
         const eligible=rows.filter(x=>settled(x)&&typeof x.hits?.[key]==='boolean');
         return `${label}：${rate(eligible.filter(x=>x.hits[key]).length,eligible.length)}`;
       });
-      const tickets=(review?.combinations||[]).filter(x=>['命中','未中'].includes(x.result));
-      return ['复盘总结 · 扫盘各玩法命中率',metrics.slice(0,2).join('    '),metrics.slice(2).join('    '),`已结算组合：${rate(tickets.filter(x=>x.result==='命中').length,tickets.length)}`,`统计已结算原记录；未结算/待核 ${rows.filter(x=>!settled(x)).length} 场不计。区间或多选命中不等于串关命中。`];
+      return ['复盘总结 · 本次扫盘数据',metrics.slice(0,2).join('    '),metrics.slice(2).join('    '),`统计已结算原记录；未结算/待核 ${rows.filter(x=>!settled(x)).length} 场不计。`];
     }
     function tableImageBlob(reviewMode=false){
       const table=document.querySelector(reviewMode?'.review-table':'#scanTable .scan-table');
