@@ -150,16 +150,16 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       const height=titleH+headH+heights.reduce((a,b)=>a+b,0)+footH;
       const scale=Math.min(2,4096/width,8192/height,Math.sqrt(8000000/(width*height)));
       canvas.width=Math.floor(width*scale);canvas.height=Math.floor(height*scale);ctx.scale(scale,scale);
-      ctx.fillStyle='#111315';ctx.fillRect(0,0,width,height);ctx.textBaseline='middle';
-      ctx.textAlign='center';ctx.fillStyle='#f4f5f6';ctx.font='800 46px system-ui,sans-serif';ctx.fillText('掏空主任的裤衩子',width/2,48);
-      ctx.fillStyle='#aeb5bc';ctx.font='24px system-ui,sans-serif';
+      ctx.fillStyle='#e8f5fc';ctx.fillRect(0,0,width,height);ctx.textBaseline='middle';
+      ctx.textAlign='center';ctx.fillStyle='#246950';ctx.font='800 46px system-ui,sans-serif';ctx.fillText('掏空主任的裤衩子',width/2,48);
+      ctx.fillStyle='#64746e';ctx.font='24px system-ui,sans-serif';
       ctx.fillText((reviewMode?currentReview.date:currentScanDate)+' · '+(reviewMode?'赛果复盘':'逐场扫盘'),width/2,94);
-      ctx.fillStyle='#292d30';ctx.fillRect(0,titleH,width,headH);
-      let left=0;ctx.font='bold 25px system-ui,sans-serif';ctx.fillStyle='#e9c779';
+      ctx.fillStyle='#197751';ctx.fillRect(0,titleH,width,headH);
+      let left=0;ctx.font='bold 25px system-ui,sans-serif';ctx.fillStyle='#ffffff';
       headers.forEach((cell,i)=>{ctx.fillText(cell.textContent,left+widths[i]/2,titleH+headH/2);left+=widths[i];});
       let top=titleH+headH;
       rows.forEach((row,index)=>{
-        const rowH=heights[index];ctx.fillStyle=index%2?'#171a1d':'#111315';ctx.fillRect(0,top,width,rowH);
+        const rowH=heights[index];ctx.fillStyle=index%2?'#d9edf6':'#f8fcfb';ctx.fillRect(0,top,width,rowH);
         ctx.strokeStyle='#34393e';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(0,top);ctx.lineTo(width,top);ctx.stroke();left=0;
         Array.from(row.cells).forEach((cell,i)=>{
           const lines=layouts[index][i],color=getComputedStyle(cell).color;
@@ -178,11 +178,11 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
           });left+=widths[i];
         });top+=rowH;
       });
-      ctx.textAlign='center';ctx.font='21px system-ui,sans-serif';ctx.fillStyle='#aeb5bc';
+      ctx.textAlign='center';ctx.font='21px system-ui,sans-serif';ctx.fillStyle='#64746e';
       if(reviewMode){
         reviewAccuracyLines(currentReview).forEach((line,i)=>{
           ctx.font=i===0?'bold 28px system-ui,sans-serif':'24px system-ui,sans-serif';
-          ctx.fillStyle=i===0?'#e9c779':'#d9dcdf';
+          ctx.fillStyle=i===0?'#197751':'#344f42';
           ctx.fillText(line,width/2,height-footH+36+i*41,width-48);
         });
       }else ctx.fillText('推荐方向与星级仅供参考 · 理性购彩',width/2,height-footH/2);
@@ -363,7 +363,54 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       showPublicationHealth(report);
       $('refresh').disabled=false;
     }
+    // reference-poster-v1: live report, shared screen/image presentation.
+    let posterReport={};
+    const originalRenderReport=renderReport;
+    function compactLeg(l){return String(l.number||'').slice(-3)+String(l.selection||'').replace('胜；另一张子票为主让1让平','[胜＋让平]');}
+    function posterTickets(){return (posterReport.recommendations||[]).map((r,i)=>({r,i})).sort((a,b)=>{
+      const ranks={two:0,half_full:1,three:2,dream:3,other:4};
+      return (ranks[recommendationGroup(a.r)]-ranks[recommendationGroup(b.r)])||Number(!!b.r.stronglyRecommended)-Number(!!a.r.stronglyRecommended)||a.i-b.i;
+    }).map(x=>x.r);}
+    function ticketLabel(r){return r.passType?.includes('重叠')?'双选2串1':({two:'普通2串1',half_full:'半全场2串1',three:'精选3串1',dream:'梦想单'}[recommendationGroup(r)]||'推荐');}
+    function ticketLines(r){return [(r.legs||[]).map(compactLeg).join(' × '),r.oddsText||String(r.totalOdds||''),...recommendationDetails(r)];}
+    renderReport=function(report){posterReport=report;originalRenderReport(report);
+      $('recommendations').innerHTML='<div class="poster-heading"><small>掏空主任的裤衩子</small><h2>✦ 今日推荐 ✦</h2><p>'+esc(report.date||'')+' · 栏目内优先展示看好的方案</p></div><div class="poster-list">'+posterTickets().map((r,i)=>'<details class="poster-ticket"><summary><span class="poster-rank">'+(i+1)+'</span><span class="poster-type">'+esc(ticketLabel(r))+'</span><div><strong>'+esc(ticketLines(r)[0])+'</strong>'+(r.stronglyRecommended?'<span class="strong-badge">★ 强烈建议</span>':r.betSingleRecommended?'<span class="strong-badge">☆ 博单建议</span>':'')+'<p>'+esc(ticketLines(r)[1])+' · 总投入 '+esc(r.totalCost??'待核')+'元</p></div></summary>'+recommendationCard(r)+'</details>').join('')+'</div><p class="scan-note">点击方案查看子票、条件返还与风险。★为已标记的相对信心。</p>';
+    };
+    const originalScan=renderScanTable;
+    renderScanTable=function(state,report){originalScan(state,report);
+      const table=$('scanTable').querySelector('table');if(!table)return;
+      Array.from(table.tBodies[0].rows).forEach((tr,i)=>{const row=currentScanRows[i],cell=tr.cells[3];
+        const primary=row.primaryPick||row.buy||row.selection||'待分析';
+        const secondary=row.secondaryPick||'';
+        const stars=row.stronglyRecommended?'★★':Number(row.stars)>=3?'★':'';
+        cell.innerHTML='<strong>'+esc(primary)+'</strong><span class="direction-star">'+stars+'</span>'+(secondary?'<small>次选：'+esc(secondary)+'</small>':'')+(row.speculative&&row.speculative!=='无'?'<small>博：'+esc(row.speculative)+'</small>':'');
+      });
+    };
+    const originalTableImage=tableImageBlob;
+    tableImageBlob=async function(reviewMode=false){
+      const blob=await originalTableImage(reviewMode);if(reviewMode)return blob;
+      const bmp=await createImageBitmap(blob),width=1200,scale=width/bmp.width;
+      const probe=document.createElement('canvas').getContext('2d');probe.font='25px "Microsoft YaHei",sans-serif';
+      const wrap=(s,max=1020)=>{const lines=[];let line='';for(const c of String(s)){if(probe.measureText(line+c).width>max){lines.push(line);line='';}line+=c;}if(line)lines.push(line);return lines;};
+      const blocks=posterTickets().map((r,i)=>({r,i,lines:[ticketLines(r)[0],ticketLines(r)[1],'总投入：'+(r.totalCost??'待核')+'元',r.effectiveReturnText||'',r.coverageText||'',...(r.subTickets?.length<=4?recommendationDetails(r).slice(4):['完整子票明细见手机页面，点击此方案展开。'])].filter(Boolean).flatMap(x=>wrap(x))}));
+      const topHeight=230+blocks.reduce((s,b)=>s+86+b.lines.length*34,0)+70;
+      const height=topHeight+bmp.height*scale,canvas=document.createElement('canvas');
+      const ratio=Math.min(1,8192/height,Math.sqrt(8000000/(width*height)));
+      canvas.width=Math.ceil(width*ratio);canvas.height=Math.ceil(height*ratio);const ctx=canvas.getContext('2d');ctx.scale(ratio,ratio);
+      ctx.fillStyle='#ece8f8';ctx.fillRect(0,0,width,topHeight);ctx.textAlign='center';ctx.fillStyle='#246950';ctx.font='bold 27px "Microsoft YaHei",sans-serif';ctx.fillText('掏空主任的裤衩子',600,55);
+      ctx.fillStyle='#223b32';ctx.font='bold 60px serif';ctx.fillText('✦ 今日推荐 ✦',600,130);ctx.font='25px "Microsoft YaHei",sans-serif';ctx.fillStyle='#66736e';ctx.fillText((posterReport.date||'')+' · 栏目内按信心优先展示',600,182);
+      let y=230;for(const b of blocks){ctx.textAlign='left';ctx.fillStyle='#197451';ctx.font='bold 28px "Microsoft YaHei",sans-serif';ctx.fillText((b.i+1)+'  '+ticketLabel(b.r)+(b.r.stronglyRecommended?'  ★ 强烈建议':b.r.betSingleRecommended?'  ☆ 博单建议':''),55,y+30);y+=72;
+        b.lines.forEach((line,j)=>{ctx.font=(j===0?'bold ':'')+'25px "Microsoft YaHei",sans-serif';ctx.fillStyle=j===0?'#203b32':'#626a69';ctx.fillText(line,70,y);y+=34;});y+=14;}
+      ctx.textAlign='center';ctx.font='23px "Microsoft YaHei",sans-serif';ctx.fillText('⚽ 仅供参考 · 理性购彩',600,topHeight-25);ctx.drawImage(bmp,0,topHeight,width,bmp.height*scale);bmp.close();
+      return new Promise((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(Error('image failed')),'image/png'));
+    };
     $('refresh').addEventListener('click',load);$('copyScan').addEventListener('click',()=>copyScanTable(false));$('copyReview').addEventListener('click',()=>copyScanTable(true));load();setInterval(load,5*60*1000);
   </script>
+<style>
+body{--bg:#e8f5fc;--panel:#fff;--line:#b9d7d1;--text:#263d34;--muted:#64746e;--amber:#946222;--red:#c45b24;--green:#187650;--blue:#237ba0;background:var(--bg);color:var(--text)}
+header{background:#f7fcfa}.odd,button{background:#eef7f4;color:#254e3e}.analysis,.review-lessons{color:#40564c}.table-banner{background:#e8f5fc!important;color:#22674e!important}.table-banner strong{font-family:Georgia,"Songti SC",serif;font-size:30px}.table-banner small{color:#687b70!important}.comic-bubble{display:none}
+#recommendations{background:#ece8f8;padding:28px 20px;border-radius:14px}.poster-heading{text-align:center;color:#28634e}.poster-heading h2{font:700 42px Georgia,"Songti SC",serif;margin:12px 0}.poster-heading p{color:#78817a}.poster-ticket{padding:20px 0;border-bottom:1px solid #d8d2e5}.poster-ticket summary{display:flex;align-items:center;gap:14px;cursor:pointer;list-style:none}.poster-ticket strong{font-size:20px}.poster-ticket p{margin:6px 0;color:#737970}.poster-rank{border-radius:50%;background:#cfb260;color:white;min-width:36px;height:36px;display:grid;place-items:center;font-weight:bold}.poster-type{background:#268967;color:white;padding:5px 10px;border-radius:22px;white-space:nowrap;font-size:13px}.poster-ticket .recommendation{margin-top:16px}.strong-badge{margin:5px 8px;color:#a26512}.direction-star{color:#d68a2b}.scan-table{color:#244538;background:#f8fcfb}.scan-table th{background:#197751;color:white}.scan-table tbody tr:nth-child(even){background:#d9edf6}.scan-table td small{display:block;color:#66776e;font-size:11px}.scan-table .confidence{color:#b07125}.scan-table .muted-pick{color:#345349}.scan-table .pick{color:#aa5b1c}.scan-wrap{border:2px solid #377d63}.review-summary{color:#344f42}.review-combo{color:#344f42}.recommendation-column>h3{color:#385849}
+@media(max-width:620px){#recommendations{padding:20px 12px}.poster-ticket summary{gap:8px;flex-wrap:wrap}.poster-ticket summary>div{flex-basis:100%;padding-left:8px}.poster-ticket strong{font-size:18px}.poster-heading h2{font-size:34px}}
+</style>
 </body>
 </html>
