@@ -1,14 +1,114 @@
 {
   "date": "2026-10-12",
-  "publishedAt": "2026-10-12T06:02:07.617Z",
+  "publishedAt": "2026-10-12T06:36:31.099Z",
   "status": "published",
-  "edition": "2026-10-12全日最终方案",
+  "edition": "2026-10-12全日最终方案·更正版",
   "rulesVersion": "2026-10-12",
   "finalLocked": true,
   "lockedDate": "2026-10-12",
   "dataAsOf": "2026-10-12T02:50:36.189Z",
   "summary": "今日10场全日研究完成。普通2串1优先，其次半全场2串1、精选3串1和梦想单；缺少完整首发或官方伤停的场次保留观望，不硬凑。手机最终版截止16:00，发布后需线上核验。",
   "recommendations": [
+    {
+      "category": "two",
+      "name": "【强烈建议】普通胜＋让平重叠①｜亚特兰大 × 法马利康",
+      "passType": "2串1重叠拆票",
+      "stronglyRecommended": true,
+      "legs": [
+        {
+          "number": "周一002",
+          "market": "spf",
+          "selection": "胜；另一张子票为主让1让平",
+          "odds": 1.42,
+          "selectionReason": "亚特兰大训练与主胜证据较完整；让平只覆盖恰赢1球。",
+          "predictedScore": "2-0/1-0",
+          "halfTimePrediction": "平/平"
+        },
+        {
+          "number": "周一010",
+          "market": "spf",
+          "selection": "胜",
+          "odds": 1.73,
+          "selectionReason": "法马利康普通主胜盘口与官方资料一致，作为配对腿不升级让胜。",
+          "predictedScore": "1-0",
+          "halfTimePrediction": "平"
+        }
+      ],
+      "totalOdds": 2.46,
+      "oddsText": "两张子票：2.46倍 / 5.97倍",
+      "totalCost": 4,
+      "subTickets": [
+        {
+          "name": "普通胜子票",
+          "selectionText": "周一002胜 × 周一010胜",
+          "stake": 2,
+          "odds": 2.46,
+          "returnText": "全中返还4.92元"
+        },
+        {
+          "name": "让平重叠子票",
+          "selectionText": "周一002让平 × 周一010胜",
+          "stake": 2,
+          "odds": 5.97,
+          "returnText": "全中返还11.94元"
+        }
+      ],
+      "effectiveReturnText": "两腿配对：亚特兰大恰赢1球且法马利康胜时两票都中，合计返还16.86元；亚特兰大赢2球以上且法马利康胜时仅普通胜子票返还4.92元；配对场次未中则两票均返还0元。",
+      "coverageText": "总投入4元。主队恰赢1球时“普通胜”和“让平”两张子票同时命中；赢2球以上只中普通胜子票。不是同场自串，另一场必须同时命中。",
+      "passSizes": [
+        2
+      ]
+    },
+    {
+      "category": "two",
+      "name": "普通胜＋让平重叠②｜马尔默 × 纽卡斯尔",
+      "passType": "2串1重叠拆票",
+      "stronglyRecommended": false,
+      "legs": [
+        {
+          "number": "周一003",
+          "market": "spf",
+          "selection": "胜；另一张子票为主让1让平",
+          "odds": 1.6,
+          "selectionReason": "马尔默普通胜有盘口支持，但官方伤情限制让胜；让平仅覆盖恰赢1球。",
+          "predictedScore": "2-0/1-0",
+          "halfTimePrediction": "平/平"
+        },
+        {
+          "number": "周一007",
+          "market": "spf",
+          "selection": "负",
+          "odds": 1.96,
+          "selectionReason": "纽卡整体实力支持客胜，但官方已确认门将伤缺和中场负荷管理。",
+          "predictedScore": "1-2",
+          "halfTimePrediction": "平"
+        }
+      ],
+      "totalOdds": 3.14,
+      "oddsText": "两张子票：3.14倍 / 6.76倍",
+      "totalCost": 4,
+      "subTickets": [
+        {
+          "name": "普通胜子票",
+          "selectionText": "周一003胜 × 周一007胜",
+          "stake": 2,
+          "odds": 3.14,
+          "returnText": "全中返还6.28元"
+        },
+        {
+          "name": "让平重叠子票",
+          "selectionText": "周一003让平 × 周一007胜",
+          "stake": 2,
+          "odds": 6.76,
+          "returnText": "全中返还13.52元"
+        }
+      ],
+      "effectiveReturnText": "两腿配对：马尔默恰赢1球且纽卡斯尔负时两票都中，合计返还19.80元；马尔默赢2球以上且纽卡斯尔负时仅普通胜子票返还6.28元；配对场次未中则两票均返还0元。",
+      "coverageText": "总投入4元。主队恰赢1球时“普通胜”和“让平”两张子票同时命中；赢2球以上只中普通胜子票。不是同场自串，另一场必须同时命中。",
+      "passSizes": [
+        2
+      ]
+    },
     {
       "category": "two",
       "name": "普通2串1①｜马尔默胜 × 纽卡斯尔负",
@@ -396,17 +496,17 @@
       "league": "亚冠精英",
       "teams": "迪拜连接 vs 吉达国民",
       "kickoff": "2026-10-13T00:00:00",
-      "buy": "观望",
-      "speculative": "无",
-      "selection": "买：观望｜博：无",
+      "buy": "客胜（低暴露）",
+      "speculative": "让负",
+      "selection": "买：客胜（低暴露）｜博：让负",
       "officialHandicap": "主队受让1球",
       "goals": "2-3球",
       "halfFull": "平平/平负",
       "score": "1-1",
       "stars": 0,
-      "confidence": "未评级",
+      "confidence": "1/5（资料不完整）",
       "recommended": false,
-      "status": "已研究·赛前结论",
+      "status": "已研究·方向明确但不入正式串",
       "odds": {
         "spf": {
           "win": 2.91,
@@ -437,7 +537,7 @@
           "halfFull": true
         }
       },
-      "risk": "缺完整伤停、预计首发替补及教练对位；不入正式串。"
+      "risk": "缺完整伤停、预计首发替补及教练对位；不入正式串。 已补充扫盘方向：买客胜（低暴露），博让负；因官方伤停/预计首发资料不完整，维持低暴露，不纳入正式串。"
     },
     {
       "number": "周一002",
@@ -540,17 +640,17 @@
       "league": "挪超",
       "teams": "奥斯KFUM vs 瓦勒伦加",
       "kickoff": "2026-10-13T01:00:00",
-      "buy": "观望",
-      "speculative": "无",
-      "selection": "买：观望｜博：无",
+      "buy": "客胜（低暴露）",
+      "speculative": "平",
+      "selection": "买：客胜（低暴露）｜博：平",
       "officialHandicap": "主队受让1球",
       "goals": "2-3球",
       "halfFull": "平平/平负",
       "score": "1-1",
       "stars": 0,
-      "confidence": "未评级",
+      "confidence": "1/5（资料不完整）",
       "recommended": false,
-      "status": "已研究·赛前结论",
+      "status": "已研究·方向明确但不入正式串",
       "odds": {
         "spf": {
           "win": 2.66,
@@ -581,7 +681,7 @@
           "halfFull": true
         }
       },
-      "risk": "缺本场可靠伤停、预计首发替补与战术细节；不入正式串。"
+      "risk": "缺本场可靠伤停、预计首发替补与战术细节；不入正式串。 已补充扫盘方向：买客胜（低暴露），博平；因官方伤停/预计首发资料不完整，维持低暴露，不纳入正式串。"
     },
     {
       "number": "周一005",
@@ -636,17 +736,17 @@
       "league": "法乙",
       "teams": "第戎 vs 梅斯",
       "kickoff": "2026-10-13T02:45:00",
-      "buy": "观望",
-      "speculative": "无",
-      "selection": "买：观望｜博：无",
+      "buy": "客胜（低暴露）",
+      "speculative": "平",
+      "selection": "买：客胜（低暴露）｜博：平",
       "officialHandicap": "主队受让1球",
       "goals": "1-3球",
       "halfFull": "平平/平负",
       "score": "1-1",
       "stars": 0,
-      "confidence": "未评级",
+      "confidence": "1/5（资料不完整）",
       "recommended": false,
-      "status": "已研究·赛前结论",
+      "status": "已研究·方向明确但不入正式串",
       "odds": {
         "spf": {
           "win": 2.7,
@@ -677,7 +777,7 @@
           "halfFull": true
         }
       },
-      "risk": "缺完整出征名单、预计首发替补和伤停核验；不入正式串。"
+      "risk": "缺完整出征名单、预计首发替补和伤停核验；不入正式串。 已补充扫盘方向：买客胜（低暴露），博平；因官方伤停/预计首发资料不完整，维持低暴露，不纳入正式串。"
     },
     {
       "number": "周一007",
@@ -780,17 +880,17 @@
       "league": "巴甲",
       "teams": "科里蒂巴 vs 博塔弗戈",
       "kickoff": "2026-10-13T03:00:00",
-      "buy": "观望",
-      "speculative": "无",
-      "selection": "买：观望｜博：无",
+      "buy": "客胜（低暴露）",
+      "speculative": "平",
+      "selection": "买：客胜（低暴露）｜博：平",
       "officialHandicap": "主队受让1球",
       "goals": "1-3球",
       "halfFull": "平平/平负",
       "score": "1-1",
       "stars": 0,
-      "confidence": "未评级",
+      "confidence": "1/5（资料不完整）",
       "recommended": false,
-      "status": "已研究·赛前结论",
+      "status": "已研究·方向明确但不入正式串",
       "odds": {
         "spf": {
           "win": 2.7,
@@ -821,7 +921,7 @@
           "halfFull": true
         }
       },
-      "risk": "博塔弗戈伤停、首发、教练打法资料缺失；不入正式串。"
+      "risk": "博塔弗戈伤停、首发、教练打法资料缺失；不入正式串。 已补充扫盘方向：买客胜（低暴露），博平；因官方伤停/预计首发资料不完整，维持低暴露，不纳入正式串。"
     },
     {
       "number": "周一010",
@@ -875,7 +975,7 @@
   "matchAnalysis": [
     {
       "number": "周一001",
-      "text": "当前可核验资料未给出双方本场可靠伤停、停赛和预计首发；竞彩镜像为主队受让1球，胜平负主胜2.91、平3.50、客胜2.00，客队仅是盘口倾向，证据不足以形成可买串。",
+      "text": "当前可核验资料未给出双方本场可靠伤停、停赛和预计首发；竞彩镜像为主队受让1球，胜平负主胜2.91、平3.50、客胜2.00，客队仅是盘口倾向，证据不足以形成可买串。 扫盘方向补充：买客胜（低暴露），博让负；该方向仅供低暴露参考，不代表入选串关。",
       "predictedLineup": "预计首发：未官宣；仅参考最新可用阵容/阵型，不冒充正式首发。替补：待官方名单。",
       "evidence": {
         "scheduleVerified": true,
@@ -911,7 +1011,7 @@
     },
     {
       "number": "周一004",
-      "text": "KFUM与瓦勒伦加官方新闻可核验到赛前采访和德比背景，但本场人员名单与完整战术正文尚未确认。双方近况及盘口接近，胜平负主胜2.66、平3.50、客胜2.14，不能只凭德比或赔率选边。",
+      "text": "KFUM与瓦勒伦加官方新闻可核验到赛前采访和德比背景，但本场人员名单与完整战术正文尚未确认。双方近况及盘口接近，胜平负主胜2.66、平3.50、客胜2.14，不能只凭德比或赔率选边。 扫盘方向补充：买客胜（低暴露），博平；该方向仅供低暴露参考，不代表入选串关。",
       "predictedLineup": "预计首发：未官宣；仅参考最新可用阵容/阵型，不冒充正式首发。替补：待官方名单。",
       "evidence": {
         "scheduleVerified": true,
@@ -935,7 +1035,7 @@
     },
     {
       "number": "周一006",
-      "text": "梅斯与第戎当前实力和盘口接近，胜平负主胜2.70、平3.22、客胜2.23；第戎官网存在出征名单入口但正文未核，梅斯官方人员状态也未补齐，暂不以客队低赔代替阵容分析。",
+      "text": "梅斯与第戎当前实力和盘口接近，胜平负主胜2.70、平3.22、客胜2.23；第戎官网存在出征名单入口但正文未核，梅斯官方人员状态也未补齐，暂不以客队低赔代替阵容分析。 扫盘方向补充：买客胜（低暴露），博平；该方向仅供低暴露参考，不代表入选串关。",
       "predictedLineup": "预计首发：未官宣；仅参考最新可用阵容/阵型，不冒充正式首发。替补：待官方名单。",
       "evidence": {
         "scheduleVerified": true,
@@ -971,7 +1071,7 @@
     },
     {
       "number": "周一009",
-      "text": "科里蒂巴与博塔弗戈积分和净胜球接近，胜平负主胜2.70、平3.01、客胜2.34；博塔弗戈官方页面本次返回访问限制，不能把缺失页面解释成无伤停或确定阵容，暂不推荐。",
+      "text": "科里蒂巴与博塔弗戈积分和净胜球接近，胜平负主胜2.70、平3.01、客胜2.34；博塔弗戈官方页面本次返回访问限制，不能把缺失页面解释成无伤停或确定阵容，暂不推荐。 扫盘方向补充：买客胜（低暴露），博平；该方向仅供低暴露参考，不代表入选串关。",
       "predictedLineup": "预计首发：未官宣；仅参考最新可用阵容/阵型，不冒充正式首发。替补：待官方名单。",
       "evidence": {
         "scheduleVerified": true,
@@ -1084,6 +1184,11 @@
       "name": "今日最终方案使用的官方/同公司资料",
       "url": "https://en.atalanta.it/news/the-zingonia-report-october-11",
       "checkedAt": "2026-10-12T06:02:07.617Z"
+    },
+    {
+      "name": "更正版校验",
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/data/latest.json",
+      "checkedAt": "2026-10-12T06:36:31.099Z"
     }
   ],
   "limitations": [
@@ -1110,7 +1215,9 @@
       "publishedAt": "2026-10-12T06:02:07.617Z",
       "locked": true,
       "archiveVersion": "2026-10-12-C-20261012060207",
-      "status": "final-published"
+      "status": "corrected-final-published"
     }
-  ]
+  ],
+  "correctionOf": "2026-10-12原最终版",
+  "correctionReason": "补充普通胜与让平的重叠拆票；补齐全部扫盘买/博方向；为独立证据最强票补充stronglyRecommended标记。原最终版已归档，不覆盖历史原票。"
 }
