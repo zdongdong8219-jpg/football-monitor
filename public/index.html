@@ -338,7 +338,11 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     }).map(x=>x.r);}
     function ticketLabel(r){return r.passType?.includes('重叠')?'双选2串1':({two:'普通2串1',half_full:'半全场2串1',three:'精选3串1',dream:'梦想单'}[recommendationGroup(r)]||'推荐');}
     function ticketLines(r){return [(r.legs||[]).map(compactLeg).join(' × '),r.oddsText||String(r.totalOdds||''),...recommendationDetails(r)];}
-    function completeTicketLines(r){return [ticketLines(r)[0],r.name||r.type||'',ticketLines(r)[1],r.structureText||r.passType||'',...(r.legs||[]).map(l=>[l.number,l.selection,l.odds?'@'+l.odds:'',l.halfTimePrediction?'半场 '+l.halfTimePrediction:'',l.predictedScore?'比分 '+l.predictedScore:'',l.goalRange?'进球 '+l.goalRange:'',l.selectionReason||''].filter(Boolean).join(' · ')),...recommendationDetails(r),r.risk?'风险：'+r.risk:''].filter(Boolean);}
+    function completeTicketLines(r){
+      // Dreams stay compact in the image; original accounting remains in the report.
+      if(recommendationGroup(r)==='dream')return [ticketLines(r)[0],r.passSizes?.length?'可选 '+r.passSizes.join('/')+'关':'',r.totalCost!=null?'所列方案全买总成本：'+r.totalCost+'元（按实际所选关数投入）':'','高风险梦想单，拆关容错不保证回本。'].filter(Boolean);
+      return [ticketLines(r)[0],r.name||r.type||'',ticketLines(r)[1],r.structureText||r.passType||'',...(r.legs||[]).map(l=>[l.number,l.selection,l.odds?'@'+l.odds:'',l.halfTimePrediction?'半场 '+l.halfTimePrediction:'',l.predictedScore?'比分 '+l.predictedScore:'',l.goalRange?'进球 '+l.goalRange:'',l.selectionReason||''].filter(Boolean).join(' · ')),...recommendationDetails(r),r.risk?'风险：'+r.risk:''].filter(Boolean);
+    }
     renderReport=function(report){posterReport=report;originalRenderReport(report);
       $('recommendations').innerHTML='<div class="poster-heading"><small>掏空主任的裤衩子</small><h2>✦ 今日推荐 ✦</h2><p>'+esc(report.date||'')+' · 栏目内优先展示看好的方案</p></div><div class="poster-list">'+posterTickets().map((r,i)=>'<details class="poster-ticket"><summary><span class="poster-rank">'+(i+1)+'</span><span class="poster-type">'+esc(ticketLabel(r))+'</span><div><strong>'+esc(ticketLines(r)[0])+'</strong>'+(r.stronglyRecommended?'<span class="strong-badge">★ 强烈建议</span>':r.betSingleRecommended?'<span class="strong-badge">☆ 博单建议</span>':'')+'<p>'+esc(ticketLines(r)[1])+' · 总投入 '+esc(r.totalCost??'待核')+'元</p></div></summary>'+recommendationCard(r)+'</details>').join('')+'</div><p class="scan-note">点击方案查看子票、条件返还与风险。★为已标记的相对信心。</p>';
     };
