@@ -25,6 +25,7 @@
     .comic-bubble::before{content:"";position:absolute;left:-6px;top:50%;width:9px;height:9px;border-left:1px solid #80514d;border-bottom:1px solid #80514d;background:#2b1e1f;transform:translateY(-50%) rotate(45deg)}
     @media(max-width:620px){.table-banner{grid-template-columns:42px minmax(0,1fr)}.comic-bubble{grid-column:1/-1;justify-self:start;margin-left:12px}.table-banner+.scan-wrap{margin-top:0}.cartoon-ball{width:38px;height:38px;font-size:22px}}
   </style>
+<!-- publication-health-v1 -->
 </head>
 <body>
   <header><div class="bar"><div><h1>掏空主任的裤衩子</h1><div class="subtitle">盘口快照 · 综合分析 · 串关方案</div></div><button id="refresh" title="刷新" aria-label="刷新">↻</button></div></header>
@@ -195,6 +196,21 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       }
       throw Error('数据连接超时，请点击右上角刷新');
     }
+
+    function publicationHealth(report,today){
+      if(!report||report.date!==today)return '今日推荐未发布，以下为旧方案，请勿作为今日投注依据。';
+      if(!report.recommendations?.length)return '今日暂无推荐组合；扫盘待补齐或未筛出合格方案，请查看缺项说明。';
+      return '';
+    }
+    function showPublicationHealth(report){
+      const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+      const message=publicationHealth(report,today);
+      let notice=document.getElementById('publicationHealth');
+      if(!notice){notice=document.createElement('div');notice.id='publicationHealth';notice.className='notice error';notice.setAttribute('role','status');document.getElementById('summary').before(notice);}
+      notice.textContent=message;notice.hidden=!message;
+      document.getElementById('recommendations').querySelectorAll('button').forEach(button=>{button.disabled=!report||report.date!==today;});
+    }
+
     async function load(){
       $('refresh').disabled=true;
       let state=null,report=null;
@@ -204,6 +220,7 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
         fetchData('latest.json').then(r=>{report=r;renderReport(r);if(state)renderMatches(state,r);scan()}).catch(e=>{$('summary').textContent=e.message;$('scanTable').textContent='方案读取失败，可点击右上角重试。'}),
         fetchData('review-latest.json').then(renderReview).catch(e=>{$('reviewTable').textContent=e.message})
       ]);
+      showPublicationHealth(report);
       $('refresh').disabled=false;
     }
     $('refresh').addEventListener('click',load);$('copyScan').addEventListener('click',()=>copyScanTable(false));$('copyReview').addEventListener('click',()=>copyScanTable(true));load();setInterval(load,5*60*1000);
