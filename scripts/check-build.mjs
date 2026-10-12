@@ -5,7 +5,10 @@ const script=html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
 if(!script)throw Error('Page script missing');
 new Function(script);
 if(!html.includes('raw.githubusercontent.com/zdongdong8219-jpg/football-monitor/main/data/'))throw Error('Data integration missing');
-if(!html.includes('稳健档 · 2.50–2.79倍')||!html.includes('stronglyRecommended'))throw Error('Return tiers and independent recommendation badge missing');
+if(!html.includes('function recommendationGroup(r)')||!html.includes('stronglyRecommended')||!html.includes('strong-badge'))throw Error('Priority grouping and independent recommendation badge missing');
+if(!html.includes('.recommendation-groups{display:grid;grid-template-columns:minmax(0,1fr)')||html.includes('左右两列'))throw Error('Single-column recommendation layout missing');
+const priorities=["['two','普通2串1", "['half_full','半全场2串1", "['three','3串1", "['dream','梦想单"].map(label=>html.indexOf(label));
+if(priorities.some((p,i)=>p<0||(i>0&&p<=priorities[i-1])))throw Error('Recommendation priority order incorrect');
 if(!html.includes('predictedScore'))throw Error('Score prediction rendering missing');
 if(!html.includes('combinationCount'))throw Error('Combination structure rendering missing');
 if(!html.includes("market('半全场'"))throw Error('Half-full-time market rendering missing');
@@ -14,5 +17,5 @@ if(!html.includes('掏空主任的裤衩子'))throw Error('Requested page title 
 if(!html.includes('renderScanTable')||!html.includes('confidenceStars'))throw Error('Scan summary table missing');
 if(!html.includes('copyScanTable')||!html.includes('ClipboardItem')||!html.includes('image/png'))throw Error('Mobile scan image copy control missing');
 if(!html.includes('renderReview')||!html.includes('review-latest.json')||!html.includes('markedPick')||!html.includes('hit-mark'))throw Error('Post-match review table missing');
-if(!html.includes("category==='tolerant'")||!html.includes('方案暴露')||!html.includes('集中风险'))throw Error('Risk diversification UI missing');
+if(!html.includes('recommendationDetails')||!html.includes('coverageText')||!html.includes('方案暴露')||!html.includes('集中风险'))throw Error('Costs and risk diversification UI missing');
 console.log('Football mobile build verified');
