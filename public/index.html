@@ -31,7 +31,8 @@
   <header><div class="bar"><div><h1>掏空主任的裤衩子</h1><div class="subtitle">盘口快照 · 综合分析 · 串关方案</div></div><button id="refresh" title="刷新" aria-label="刷新">↻</button></div></header>
   <main>
     <section class="status" aria-label="监测状态"><div><small>在售日期</small><strong id="saleDate">读取中</strong></div><div><small>比赛数量</small><strong id="matchCount">--</strong></div><div><small>最近监测</small><strong id="checkedAt">--</strong></div></section>
-    <h2>今日方案</h2><div id="summary" class="notice">正在读取综合扫盘结果。</div><div id="recommendations"></div>
+    <div class="notice"><a href="?demo=2026-10-11" style="color:var(--amber)">查看10月11日模拟测试与原始发布记录</a> · <a href="?" style="color:var(--blue)">返回今日正式页面</a></div>
+    <h2 id="reportHeading">今日方案</h2><div id="summary" class="notice">正在读取综合扫盘结果。</div><div id="recommendations"></div>
     <section class="notice" id="dreamRules"><h2>梦想单 · 两种结构</h2><p><strong>单选进取型</strong>：每场单选，按净胜球判断选普通胜、让平或让胜，再按需拆3／4／5关。主−1恰赢1球为让平，赢2球以上为让胜。</p><p><strong>覆盖型</strong>：4—6场为主，证据充分才考虑7—8场。少量胜／平或让胜／让平，先删薄弱腿再考虑双选。长串并不稳。</p><p>普通串有合格候选可多出，强烈建议独立标注；不能所有票共用一个胆。分析以实力、盘口、伤停停赛和预计阵容为主，不要求历史战绩栏目。</p><details><summary>计算梦想单成本（不生成推荐）</summary><p><label>场数 <input id="costN" type="number" min="2" max="8" value="5" style="width:55px"></label> <label>双选场数 <input id="costD" type="number" min="0" max="8" value="0" style="width:55px"></label> <label>倍数 <input id="costM" type="number" min="1" max="10000" value="1" style="width:65px"></label></p><p>关数（可多选）：<label><input type="checkbox" name="costK" value="3" checked>3关</label> <label><input type="checkbox" name="costK" value="4">4关</label> <label><input type="checkbox" name="costK" value="5">5关</label> <label><input type="checkbox" name="costK" value="all">全串</label></p><p id="costOutput" role="status"></p><p>每注2元。双选是同玩法互斥选项；跨玩法重叠需另行拆票。费用不代表最低奖金，部分命中不保证回本。</p></details><p>半全场专项：两张单关＋一张2串1与纯2串1不同。必须支持单关；三票等额时，两张单关赔率均大于3，才满足任意一场单关独中也有利润。</p></section>
     <div class="section-head"><h2>逐场扫盘表</h2><button id="copyScan" class="copy-button" type="button" title="复制扫盘表图片" disabled>⧉ 复制图片</button></div><div id="scanTable"><div class="empty">正在整理逐场方向。</div></div>
     <div class="section-head"><h2>赛果复盘</h2><button id="copyReview" class="copy-button" type="button" disabled>⧉ 复制图片</button></div><div id="reviewTable"><div class="empty">正在读取最近一期复盘。</div></div>
@@ -106,6 +107,7 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     function renderScanTable(state,report){const rows=inferredScanRows(state,report);currentScanRows=rows;currentScanDate=state.currentDate||'';$('copyScan').disabled=!rows.length;if(!rows.length){$('scanTable').innerHTML='<div class="empty">当天赛程尚未更新。</div>';return}$('scanTable').innerHTML=`<div class="table-banner"><span class="cartoon-ball">⚽</span><div><strong>掏空主任的裤衩子</strong><small>${esc(currentScanDate)} · 当天场次与逐场方向</small></div><span class="comic-bubble">主任：轻点薅，裤衩要凉</span></div><div class="scan-wrap"><table class="scan-table"><thead><tr><th>编号</th><th>赛事</th><th>对阵</th><th>推荐买法</th><th>总进球</th><th>半全场</th><th>比分</th><th>稳健度</th><th>方案暴露</th></tr></thead><tbody>${rows.map(x=>{const stars=Math.max(0,Math.min(5,Number(x.stars)||0)),pickClass=x.recommended?(x.dream?'pick dream':'pick'):'muted-pick',rate=Number(x.exposureRate)||0,exposure=x.exposureCount==null?'--':`${x.exposureCount}张 · ${Math.round(rate*100)}%`,pick=x.pending?'待分析':(x.buy?`买：${x.buy}｜博：${x.speculative||'无'}`:(x.selection||'观察'));return `<tr><td>${esc(x.number)}</td><td>${esc(x.league||'--')}</td><td class="teams">${esc(x.teams||[x.home,x.away].filter(Boolean).join(' vs '))}<small style="display:block">${esc((x.kickoff||'').replace('T',' ').slice(5,16))} 北京时间</small></td><td class="${pickClass}">${esc(pick)}</td><td>${esc(x.goals||x.goalRange||'--')}</td><td>${esc(x.halfFull||x.halfTimePrediction||'--')}</td><td>${esc(x.score||x.predictedScore||'--')}</td><td class="confidence" aria-label="${stars}星">${x.pending?'待分析':'★'.repeat(stars)+'☆'.repeat(5-stars)}</td><td class="${rate>.5?'pick':''}">${esc(exposure)}${rate>.5?' 集中风险':''}</td></tr>`}).join('')}</tbody></table></div><div class="scan-note">“买”是常规方向，“博”是高赔率进取方向；让球玩法明确写让胜/让平/让负。场次先行展示，待分析不代表推荐。</div>`}
     function canvasText(ctx,text,x,y,width,lineHeight,maxLines=2){const value=String(text??'--'),chars=[...value];let line='',lines=[];for(const char of chars){const test=line+char;if(ctx.measureText(test).width>width&&line){lines.push(line);line=char;if(lines.length===maxLines-1)break}else line=test}if(line&&lines.length<maxLines)lines.push(line);if(lines.join('').length<chars.length)lines[lines.length-1]=`${lines[lines.length-1].slice(0,-1)}…`;lines.forEach((part,i)=>ctx.fillText(part,x,y+i*lineHeight))}
     function reviewAccuracyLines(review){
+      if(review?.auditOnly)return ['昨日真实发布记录总结','正式预测未发布，无可计算的准确率。','上方模拟测试单不计入真实战绩。','未核验赛果不补填，不事后补组推荐。'];
       const rows=review?.rows||[];
       const settled=x=>x.settlementStatus==='已结算';
       const rate=(hits,total)=>total?`${hits}/${total}（${(hits/total*100).toFixed(1)}%）`:'暂无已结算记录';
@@ -274,7 +276,46 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       document.getElementById('recommendations').querySelectorAll('button').forEach(button=>{button.disabled=!report||report.date!==today;});
     }
 
+    function isYesterdayDemo(){return new URLSearchParams(location.search).get('demo')==='2026-10-11'}
+    function makeYesterdayDemo(original){
+      if(original.date!=='2026-10-11')throw Error('测试原始报告日期不匹配，停止展示');
+      const rows=original.scanTable||[];
+      if(rows.length<6)throw Error('昨日记录不足，无法构造展示样例');
+      const risk='仅为界面测试：选项、赔率和强烈建议标记均为模拟，不是昨日真实推荐，不可投注、不参与正式复盘。';
+      const leg=(i,selection,odds,market='spf')=>({number:rows[i].number,selection:rows[i].teams+' · '+selection,odds,market,selectionReason:'模拟选项，仅检查手机排版及复制'});
+      return {
+        date:original.date,isSimulation:true,
+        summary:'【模拟测试 · 非真实推荐】使用10月11日存档对阵，选项和赔率均为测试值。下方复盘只列昨日真实发布记录；真实正式推荐'+(original.recommendations||[]).length+'套。模拟数据不计准确率，不覆盖今天方案。',
+        recommendations:[
+          {category:'two',name:'【模拟测试】普通2串1 · 约3倍',passType:'2串1',stronglyRecommended:true,legs:[leg(0,'胜',1.7),leg(1,'胜',1.8)],totalOdds:'模拟3.06倍',totalCost:2,effectiveReturnText:'示例两腿都中返还6.12元；一腿未中返还0元',risk},
+          {category:'two',name:'【模拟测试】胜＋让平重叠拆票',passType:'2串1拆票',legs:[leg(2,'胜／主让1让平（两张票）',null),leg(3,'胜',1.8)],oddsText:'模拟：普通胜分支3.06倍，让平分支5.40倍',totalCost:4,subTickets:[{name:'子票一',selectionText:rows[2].number+'胜 × '+rows[3].number+'胜',stake:2,odds:3.06,returnText:'全中返还6.12元'},{name:'子票二',selectionText:rows[2].number+'主让1让平 × '+rows[3].number+'胜',stake:2,odds:5.4,returnText:'全中返还10.80元'}],coverageText:'模拟主队恰赢1球且另一场胜时两票都中，合计返还16.92元；另一场未中则两票均不兑付。让球设定仅用于示例。',risk},
+          {category:'half_full',name:'【模拟测试】半全场单关＋2串1',passType:'单关A＋单关B＋2串1',stronglyRecommended:true,legs:[leg(4,'平胜',3.5,'half_full'),leg(5,'平平',4,'half_full')],oddsText:'模拟单关3.50／4.00倍，2串1为14.00倍',totalCost:6,subTickets:[{name:'单关A',stake:2,odds:3.5},{name:'单关B',stake:2,odds:4},{name:'A×B 2串1',stake:2,odds:14}],coverageText:'模拟两场均可售单关：仅A中返还7元，净+1元；仅B中返还8元，净+2元；全中返还43元，净+37元；全失亏6元。非真实单关资格或赔率。',risk},
+          {category:'three',name:'【模拟测试】精选3串1',passType:'3串1',legs:[leg(0,'胜',1.5),leg(2,'平',1.6),leg(4,'胜',1.7)],totalOdds:'模拟4.08倍',totalCost:2,effectiveReturnText:'全部命中返还8.16元，否则返还0元',risk},
+          {category:'dream_single',name:'【模拟测试】5场混合梦想单',passType:'可选3／4／5关',passSizes:[3,4,5],legs:[leg(0,'主让1让平',3,'rqspf'),leg(1,'平',3.2),leg(2,'平胜',4,'half_full'),leg(3,'总进球3球',3.5,'goals'),leg(4,'胜',1.8)],oddsText:'模拟5关241.92倍；不同拆关分别核算',structureText:'全单选：3关10注20元，4关5注10元，5关1注2元；全买16注32元',totalCost:32,effectiveReturnText:'仅示例5腿全中且3/4/5关全买：返还1894.28元（结算舍入前）；部分命中须逐子票核算，不保证回本',risk}
+        ]
+      };
+    }
+    function yesterdayOriginalReview(original){
+      return {date:original.date,auditOnly:true,title:'10月11日真实发布记录 · 非模拟战绩',
+        summary:'昨日存档正式推荐'+(original.recommendations||[]).length+'套；本存档没有可结算的赛前预测。不能补组昨日推荐或计算命中率。赛果尚未独立核验，下表不填造赛果。上方模拟单不属于昨天真实发布内容。',
+        rows:(original.scanTable||[]).map(x=>({number:x.number,time:x.kickoff,league:x.league,teams:x.teams,resultPick:x.selection||x.buy||'未预测',goalsPick:x.goals||'未预测',halfFullPick:x.halfFull||'未预测',scorePick:x.score||'未预测',actualScore:'待核验',halfScore:'待核验',settlementStatus:'无可结算预测',hits:{},hitLabels:{}})),
+        combinations:[],lessons:['仅按真实原始发布记录复盘，不能用赛后模拟方案作为历史成绩。','可返回正式页面查看目前已发布的10月10日复盘。']};
+    }
+    async function loadYesterdayDemo(){
+      const original=await fetchData('reports/2026-10-11.json');
+      const demo=makeYesterdayDemo(original);
+      $('reportHeading').textContent='10月11日模拟测试 · 非真实推荐';
+      renderReport(demo);renderReview(yesterdayOriginalReview(original));
+      $('saleDate').textContent='2026-10-11（测试）';$('matchCount').textContent=(original.scanTable||[]).length+' 场历史记录';$('checkedAt').textContent='模拟展示，非实时盘口';
+      $('scanTable').textContent='本页仅测试方案展示。昨天真实扫盘记录见下方复盘表；今天扫盘请返回正式页面。';
+      $('matches').textContent='模拟模式不显示实时盘口，不提供当前投注建议。';$('copyScan').disabled=true;
+      let notice=$('publicationHealth');
+      if(!notice){notice=document.createElement('div');notice.id='publicationHealth';notice.className='notice error';$('summary').before(notice);}
+      notice.textContent='【仅测试】这里的方案不是昨天发布的原票，模拟赔率不能用于投注，不计入复盘准确率。';notice.hidden=false;
+    }
+
     async function load(){
+      if(isYesterdayDemo()){ $('refresh').disabled=true;try{await loadYesterdayDemo()}catch(e){$('summary').textContent='模拟数据读取失败：'+e.message}finally{$('refresh').disabled=false}return; }
       $('refresh').disabled=true;
       let state=null,report=null;
       const scan=()=>{if(state)renderScanTable(state,report||{})};
