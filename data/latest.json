@@ -1,6 +1,6 @@
 {
   "date": "2026-10-12",
-  "publishedAt": "2026-10-12T06:44:26.692Z",
+  "publishedAt": "2026-10-12T07:02:24.666Z",
   "status": "published",
   "edition": "2026-10-12全日最终方案·更正版",
   "rulesVersion": "2026-10-12",
@@ -244,6 +244,8 @@
       "category": "half_full",
       "name": "半全场2串1②｜马尔默平胜 × 法马利康平胜",
       "passType": "单关A＋单关B＋A×B 2串1",
+      "betSingleRecommended": true,
+      "betSingleLabel": "半全场博单建议",
       "legs": [
         {
           "matchId": 2912289,
@@ -303,6 +305,8 @@
       "category": "three",
       "name": "精选3串1①｜亚特兰大胜 × 法马利康胜 × 纽卡斯尔负",
       "passType": "3串1",
+      "betSingleRecommended": true,
+      "betSingleLabel": "3串1博单建议",
       "legs": [
         {
           "matchId": 2993805,
@@ -1188,7 +1192,7 @@
     {
       "name": "更正版校验",
       "url": "https://zdongdong8219-jpg.github.io/football-monitor/data/latest.json",
-      "checkedAt": "2026-10-12T06:44:26.692Z"
+      "checkedAt": "2026-10-12T07:02:24.666Z"
     }
   ],
   "limitations": [
@@ -1219,5 +1223,5 @@
     }
   ],
   "correctionOf": "2026-10-12原最终版",
-  "correctionReason": "补充普通胜与让平的重叠拆票；补齐全部扫盘买/博方向；为独立证据最强票补充stronglyRecommended标记；修正梦想单3/4/5关组合注数与总成本显示。原最终版已归档，不覆盖历史原票。"
+  "correctionReason": "补充普通胜与让平的重叠拆票；补齐全部扫盘买/博方向；为独立证据最强票补充stronglyRecommended标记；修正梦想单3/4/5关组合注数与总成本显示；在没有强烈建议的半全场和精选3串1栏目中各标1张博单建议，明确其为同类优先而非强烈建议。原最终版已归档，不覆盖历史原票。"
 }
