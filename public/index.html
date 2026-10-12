@@ -83,12 +83,23 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     let currentScanRows=[],currentScanDate='';
     function renderScanTable(state,report){const rows=inferredScanRows(state,report);currentScanRows=rows;currentScanDate=state.currentDate||'';$('copyScan').disabled=!rows.length;if(!rows.length){$('scanTable').innerHTML='<div class="empty">当天赛程尚未更新。</div>';return}$('scanTable').innerHTML=`<div class="table-banner"><span class="cartoon-ball">⚽</span><div><strong>掏空主任的裤衩子</strong><small>${esc(currentScanDate)} · 当天场次与逐场方向</small></div><span class="comic-bubble">主任：轻点薅，裤衩要凉</span></div><div class="scan-wrap"><table class="scan-table"><thead><tr><th>编号</th><th>赛事</th><th>对阵</th><th>推荐买法</th><th>总进球</th><th>半全场</th><th>比分</th><th>稳健度</th><th>方案暴露</th></tr></thead><tbody>${rows.map(x=>{const stars=Math.max(0,Math.min(5,Number(x.stars)||0)),pickClass=x.recommended?(x.dream?'pick dream':'pick'):'muted-pick',rate=Number(x.exposureRate)||0,exposure=x.exposureCount==null?'--':`${x.exposureCount}张 · ${Math.round(rate*100)}%`,pick=x.pending?'待分析':(x.buy?`买：${x.buy}｜博：${x.speculative||'无'}`:(x.selection||'观察'));return `<tr><td>${esc(x.number)}</td><td>${esc(x.league||'--')}</td><td class="teams">${esc(x.teams||[x.home,x.away].filter(Boolean).join(' vs '))}<small style="display:block">${esc((x.kickoff||'').replace('T',' ').slice(5,16))} 北京时间</small></td><td class="${pickClass}">${esc(pick)}</td><td>${esc(x.goals||x.goalRange||'--')}</td><td>${esc(x.halfFull||x.halfTimePrediction||'--')}</td><td>${esc(x.score||x.predictedScore||'--')}</td><td class="confidence" aria-label="${stars}星">${x.pending?'待分析':'★'.repeat(stars)+'☆'.repeat(5-stars)}</td><td class="${rate>.5?'pick':''}">${esc(exposure)}${rate>.5?' 集中风险':''}</td></tr>`}).join('')}</tbody></table></div><div class="scan-note">“买”是常规方向，“博”是高赔率进取方向；让球玩法明确写让胜/让平/让负。场次先行展示，待分析不代表推荐。</div>`}
     function canvasText(ctx,text,x,y,width,lineHeight,maxLines=2){const value=String(text??'--'),chars=[...value];let line='',lines=[];for(const char of chars){const test=line+char;if(ctx.measureText(test).width>width&&line){lines.push(line);line=char;if(lines.length===maxLines-1)break}else line=test}if(line&&lines.length<maxLines)lines.push(line);if(lines.join('').length<chars.length)lines[lines.length-1]=`${lines[lines.length-1].slice(0,-1)}…`;lines.forEach((part,i)=>ctx.fillText(part,x,y+i*lineHeight))}
+    function reviewAccuracyLines(review){
+      const rows=review?.rows||[];
+      const settled=x=>x.settlementStatus==='已结算';
+      const rate=(hits,total)=>total?`${hits}/${total}（${(hits/total*100).toFixed(1)}%）`:'暂无已结算记录';
+      const metrics=[['result','方向'],['goals','总进球'],['halfFull','半全场'],['score','比分']].map(([key,label])=>{
+        const eligible=rows.filter(x=>settled(x)&&typeof x.hits?.[key]==='boolean');
+        return `${label}：${rate(eligible.filter(x=>x.hits[key]).length,eligible.length)}`;
+      });
+      const tickets=(review?.combinations||[]).filter(x=>['命中','未中'].includes(x.result));
+      return ['复盘总结 · 扫盘各玩法命中率',metrics.slice(0,2).join('    '),metrics.slice(2).join('    '),`已结算组合：${rate(tickets.filter(x=>x.result==='命中').length,tickets.length)}`,`统计已结算原记录；未结算/待核 ${rows.filter(x=>!settled(x)).length} 场不计。区间或多选命中不等于串关命中。`];
+    }
     function tableImageBlob(reviewMode=false){
       const table=document.querySelector(reviewMode?'.review-table':'#scanTable .scan-table');
       if(!table)throw Error('Table missing');
       const rows=Array.from(table.tBodies[0].rows),headers=Array.from(table.tHead.rows[0].cells);
       const widths=reviewMode?[140,160,110,310,280,150,170,180,180]:[140,110,310,280,150,170,180,180,200];
-      const width=widths.reduce((a,b)=>a+b,0),titleH=126,headH=64,footH=66,font='24px system-ui,"Microsoft YaHei",sans-serif';
+      const width=widths.reduce((a,b)=>a+b,0),titleH=126,headH=64,footH=reviewMode?240:66,font='24px system-ui,"Microsoft YaHei",sans-serif';
       const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
       function tokens(cell){
         if(!cell)return [{text:'--',hit:false}];
@@ -144,7 +155,13 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
         });top+=rowH;
       });
       ctx.textAlign='center';ctx.font='21px system-ui,sans-serif';ctx.fillStyle='#aeb5bc';
-      ctx.fillText(reviewMode?'红字为推荐方向 · 圈内为实际命中项':'推荐方向与星级仅供参考 · 理性购彩',width/2,height-footH/2);
+      if(reviewMode){
+        reviewAccuracyLines(currentReview).forEach((line,i)=>{
+          ctx.font=i===0?'bold 28px system-ui,sans-serif':'24px system-ui,sans-serif';
+          ctx.fillStyle=i===0?'#e9c779':'#d9dcdf';
+          ctx.fillText(line,width/2,height-footH+36+i*41,width-48);
+        });
+      }else ctx.fillText('推荐方向与星级仅供参考 · 理性购彩',width/2,height-footH/2);
       return new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(Error('image failed')),'image/png'));
     }
     function scanImageBlob(){return tableImageBlob(false);}
