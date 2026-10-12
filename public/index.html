@@ -112,8 +112,10 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       }
       const layouts=rows.map(row=>Array.from(row.cells).map((cell,i)=>layout(cell,widths[i]-30)));
       const heights=layouts.map(row=>Math.max(96,Math.max(...row.map(lines=>lines.length))*36+28));
-      canvas.width=width*2;canvas.height=(titleH+headH+heights.reduce((a,b)=>a+b,0)+footH)*2;ctx.scale(2,2);
-      const height=canvas.height/2;ctx.fillStyle='#111315';ctx.fillRect(0,0,width,height);ctx.textBaseline='middle';
+      const height=titleH+headH+heights.reduce((a,b)=>a+b,0)+footH;
+      const scale=Math.min(2,4096/width,8192/height,Math.sqrt(8000000/(width*height)));
+      canvas.width=Math.floor(width*scale);canvas.height=Math.floor(height*scale);ctx.scale(scale,scale);
+      ctx.fillStyle='#111315';ctx.fillRect(0,0,width,height);ctx.textBaseline='middle';
       ctx.textAlign='center';ctx.fillStyle='#f4f5f6';ctx.font='800 46px system-ui,sans-serif';ctx.fillText('掏空主任的裤衩子',width/2,48);
       ctx.fillStyle='#aeb5bc';ctx.font='24px system-ui,sans-serif';
       ctx.fillText((reviewMode?currentReview.date:currentScanDate)+' · '+(reviewMode?'赛果复盘':'逐场扫盘'),width/2,94);
@@ -154,8 +156,16 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       $(reviewMode?'reviewTable':'scanTable').after(panel);if(scanPreviewUrl)URL.revokeObjectURL(scanPreviewUrl);
       scanPreviewUrl=URL.createObjectURL(blob);panel.querySelector('img').src=scanPreviewUrl;panel.hidden=false;
       $('closeScanPreview').onclick=()=>{panel.hidden=true;};
+      let retry=panel.querySelector('[data-copy-ready]');
+      if(!retry){retry=document.createElement('button');retry.type='button';retry.className='copy-button';retry.dataset.copyReady='true';panel.querySelector('p').after(retry);}
+      retry.textContent='复制已生成图片';retry.disabled=!(navigator.clipboard?.write&&window.ClipboardItem);
+      retry.onclick=async()=>{
+        try{await navigator.clipboard.write([new ClipboardItem({'image/png':blob})]);retry.textContent='✓ 图片已复制';}
+        catch{panel.querySelector('p').textContent='浏览器禁止图片剪贴板访问。请长按图片保存或使用分享图片；电脑可右键复制图片。';}
+      };
       const file=new File([blob],(reviewMode?'赛果复盘.png':'扫盘表.png'),{type:'image/png'});
-      const share=$('shareScanImage');share.hidden=!(navigator.share&&(!navigator.canShare||navigator.canShare({files:[file]})));
+      const share=$('shareScanImage');share.hidden=true;
+      try{share.hidden=!(navigator.share&&(!navigator.canShare||navigator.canShare({files:[file]})));}catch{}
       $('downloadScanImage').onclick=()=>downloadScanImage(blob);
       share.onclick=async()=>{try{await navigator.share({files:[file],title:'掏空主任的裤衩子'});}catch(e){if(e.name!=='AbortError')panel.querySelector('p').textContent='分享未完成，请长按图片保存后发送。';}};
       panel.scrollIntoView({behavior:'smooth',block:'start'});
@@ -163,18 +173,18 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     async function copyScanTable(reviewMode=false){
       if(reviewMode?!currentReview?.rows?.length:!currentScanRows.length)return;
       const button=$(reviewMode?'copyReview':'copyScan');button.disabled=true;button.textContent='正在生成图片';
+      let pending;
       try{
-        // Resolve the blob before constructing ClipboardItem. Android browsers
-        // commonly reject a promise-valued ClipboardItem even though they can
-        // copy a completed PNG blob.
-        const blob=await (reviewMode?reviewImageBlob():scanImageBlob());
+        // Start clipboard writing inside the click, before asynchronous encoding.
+        pending=Promise.resolve().then(()=>reviewMode?reviewImageBlob():scanImageBlob());
+        pending.catch(()=>{});
         if(navigator.clipboard?.write&&window.ClipboardItem){
-          await navigator.clipboard.write([new ClipboardItem({'image/png':blob})]);
+          await navigator.clipboard.write([new ClipboardItem({'image/png':pending})]);
           button.textContent='✓ 图片已复制';button.classList.add('copied');
-        }else{showScanPreview(blob,reviewMode);button.textContent='已打开图片';}
+        }else{showScanPreview(await pending,reviewMode);button.textContent='已打开图片';}
       }catch(e){
         try{
-          const blob=await (reviewMode?reviewImageBlob():scanImageBlob());
+          const blob=await pending;
           showScanPreview(blob,reviewMode);button.textContent='长按图片保存';
         }catch{button.textContent='图片生成失败，请刷新重试';}
       }finally{setTimeout(()=>{button.textContent='⧉ 复制图片';button.classList.remove('copied');button.disabled=false;},2200);}
