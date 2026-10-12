@@ -188,7 +188,42 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       }else ctx.fillText('推荐方向与星级仅供参考 · 理性购彩',width/2,height-footH/2);
       return new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(Error('image failed')),'image/png'));
     }
-    function scanImageBlob(){return tableImageBlob(false);}
+    function scanImageBlob(){
+      if(!currentScanRows.length)throw Error('Scan rows missing');
+      const width=900,titleH=142,cardH=194,gap=12,footH=76,pad=24;
+      const height=titleH+currentScanRows.length*cardH+Math.max(0,currentScanRows.length-1)*gap+footH;
+      const scale=Math.min(2.2,4096/width,8192/height,Math.sqrt(8000000/(width*height)));
+      const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
+      canvas.width=Math.floor(width*scale);canvas.height=Math.floor(height*scale);ctx.scale(scale,scale);
+      ctx.fillStyle='#111315';ctx.fillRect(0,0,width,height);ctx.textBaseline='middle';
+      ctx.textAlign='center';ctx.fillStyle='#f4f5f6';ctx.font='800 44px system-ui,"Microsoft YaHei",sans-serif';
+      ctx.fillText('掏空主任的裤衩子',width/2,45);
+      ctx.fillStyle='#aeb5bc';ctx.font='24px system-ui,"Microsoft YaHei",sans-serif';
+      ctx.fillText(`${currentScanDate} · 当天场次与逐场方向 · 单张高清长图`,width/2,92);
+      ctx.fillStyle='#e4b85c';ctx.font='bold 21px system-ui,"Microsoft YaHei",sans-serif';
+      ctx.fillText('买＝常规方向　｜　博＝高赔率进取方向',width/2,123);
+      currentScanRows.forEach((row,index)=>{
+        const top=titleH+index*(cardH+gap),stars=Math.max(0,Math.min(5,Number(row.stars)||0));
+        const rate=Number(row.exposureRate)||0,exposure=row.exposureCount==null?'方案暴露：--':`方案暴露：${row.exposureCount}张 · ${Math.round(rate*100)}%${rate>.5?' 集中风险':''}`;
+        const pick=row.pending?'待分析':(row.buy?`买：${row.buy}　｜　博：${row.speculative||'无'}`:(row.selection||'观察'));
+        const teams=row.teams||[row.home,row.away].filter(Boolean).join(' vs '),kickoff=(row.kickoff||'').replace('T',' ').slice(5,16);
+        ctx.fillStyle=index%2?'#1a1d20':'#171a1d';ctx.strokeStyle=rate>.5?'#8f5f4a':'#34393e';ctx.lineWidth=2;ctx.beginPath();
+        if(ctx.roundRect)ctx.roundRect(pad,top,width-pad*2,cardH,12);else ctx.rect(pad,top,width-pad*2,cardH);ctx.fill();ctx.stroke();
+        ctx.textAlign='left';ctx.fillStyle='#e9c779';ctx.font='800 27px system-ui,"Microsoft YaHei",sans-serif';ctx.fillText(row.number||'--',pad+20,top+28);
+        ctx.fillStyle='#75b9e8';ctx.font='bold 23px system-ui,"Microsoft YaHei",sans-serif';ctx.fillText(row.league||'--',pad+170,top+28);
+        ctx.textAlign='right';ctx.fillStyle='#aeb5bc';ctx.font='21px system-ui,"Microsoft YaHei",sans-serif';ctx.fillText(`${kickoff} 北京时间`,width-pad-20,top+28);
+        ctx.textAlign='left';ctx.fillStyle='#f4f5f6';ctx.font='800 30px system-ui,"Microsoft YaHei",sans-serif';canvasText(ctx,teams,pad+20,top+67,width-pad*2-40,32,1);
+        ctx.fillStyle=row.pending?'#aeb5bc':(row.recommended?'#ef7777':'#d9dcdf');ctx.font='800 27px system-ui,"Microsoft YaHei",sans-serif';canvasText(ctx,pick,pad+20,top+108,width-pad*2-40,30,1);
+        ctx.fillStyle='#d9dcdf';ctx.font='22px system-ui,"Microsoft YaHei",sans-serif';
+        const metrics=`进球 ${row.goals||row.goalRange||'--'}　｜　半全场 ${row.halfFull||row.halfTimePrediction||'--'}　｜　比分 ${row.score||row.predictedScore||'--'}`;
+        ctx.fillText(metrics,pad+20,top+149);
+        ctx.fillStyle='#ffd45c';ctx.font='21px system-ui,"Microsoft YaHei",sans-serif';ctx.fillText(row.pending?'稳健度：待分析':`稳健度：${'★'.repeat(stars)}${'☆'.repeat(5-stars)}`,pad+20,top+178);
+        ctx.textAlign='right';ctx.fillStyle=rate>.5?'#ef7777':'#aeb5bc';ctx.fillText(exposure,width-pad-20,top+178);
+      });
+      ctx.textAlign='center';ctx.fillStyle='#aeb5bc';ctx.font='21px system-ui,"Microsoft YaHei",sans-serif';
+      ctx.fillText('完整单张图片 · 推荐方向仅供参考 · 理性购彩',width/2,height-footH/2);
+      return new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(Error('image failed')),'image/png'));
+    }
     function downloadScanImage(blob){const link=document.createElement('a');link.href=URL.createObjectURL(blob);link.download=`掏空主任的裤衩子-${currentScanDate||'扫盘'}.png`;document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(link.href),1000)}
     let scanPreviewUrl;
     function showScanPreview(blob,reviewMode=false){
