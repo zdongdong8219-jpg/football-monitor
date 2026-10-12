@@ -59,6 +59,7 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       button.textContent=copied?'✓ 已复制':'请长按文字复制';button.classList.toggle('copied',copied);
       setTimeout(()=>{button.textContent='⧉ 复制串子';button.classList.remove('copied')},2200);
     }
+    // Recommendation priority layout v1: two, half_full, three, dream.
     function isStrongRecommendation(r){return r.stronglyRecommended===true||/强烈建议/.test(r.name||r.type||'')}
     function recommendationDetails(r){
       const out=[];
