@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
   "title": "掏空主任的裤衩子｜10月12日赛果复盘",
-  "publishedAt": "2026-10-13T00:14:12.435Z",
+  "publishedAt": "2026-10-13T01:29:48.404Z",
   "summary": "10月12日原扫盘10场均已完赛：主方向4/10（40%），总进球4/10（40%），半全场4/10（40%），比分1/10（10%）。方向仅统计原“买”首选，“博”不补算主方向命中；半全场按原列选项覆盖统计。全场比分经ESPN与FotMob一致核验，半场采用ESPN分节记录。",
   "rows": [
     {
@@ -379,14 +379,130 @@
       "total": 10
     }
   },
+  "ticketReview": [
+    {
+      "index": 1,
+      "name": "【强烈建议】普通胜＋让平重叠①｜亚特兰大 × 法马利康",
+      "category": "two",
+      "stronglyRecommended": true,
+      "selectionText": "002[胜+让平] × 010胜",
+      "cost": 4,
+      "returned": 0,
+      "net": -4,
+      "status": "未中",
+      "detail": "普通胜子票未中；让平重叠子票未中"
+    },
+    {
+      "index": 2,
+      "name": "普通胜＋让平重叠②｜马尔默 × 纽卡斯尔",
+      "category": "two",
+      "stronglyRecommended": false,
+      "selectionText": "003[胜+让平] × 007负",
+      "cost": 4,
+      "returned": 0,
+      "net": -4,
+      "status": "未中",
+      "detail": "普通胜子票未中；让平重叠子票未中"
+    },
+    {
+      "index": 3,
+      "name": "普通2串1①｜马尔默胜 × 纽卡斯尔负",
+      "category": "two",
+      "stronglyRecommended": false,
+      "selectionText": "003胜 × 007负",
+      "cost": 2,
+      "returned": 0,
+      "net": -2,
+      "status": "未中",
+      "detail": "2串1未中"
+    },
+    {
+      "index": 4,
+      "name": "普通2串1②｜亚特兰大胜 × 法马利康胜",
+      "category": "two",
+      "stronglyRecommended": false,
+      "selectionText": "002胜 × 010胜",
+      "cost": 2,
+      "returned": 0,
+      "net": -2,
+      "status": "未中",
+      "detail": "2串1未中"
+    },
+    {
+      "index": 5,
+      "name": "半全场2串1①｜亚特兰大平胜 × 都灵平平",
+      "category": "half_full",
+      "stronglyRecommended": false,
+      "selectionText": "002平胜 × 005平平",
+      "cost": 6,
+      "returned": 0,
+      "net": -6,
+      "status": "未中",
+      "detail": "单关A未中；单关B未中；A×B 2串1未中"
+    },
+    {
+      "index": 6,
+      "name": "半全场2串1②｜马尔默平胜 × 法马利康平胜",
+      "category": "half_full",
+      "stronglyRecommended": false,
+      "selectionText": "003平胜 × 010平胜",
+      "cost": 6,
+      "returned": 9,
+      "net": 3,
+      "status": "正回报",
+      "detail": "单关A命中，返还9元；单关B未中；A×B 2串1未中"
+    },
+    {
+      "index": 7,
+      "name": "精选3串1①｜亚特兰大胜 × 法马利康胜 × 纽卡斯尔负",
+      "category": "three",
+      "stronglyRecommended": false,
+      "selectionText": "002胜 × 010胜 × 007负",
+      "cost": 2,
+      "returned": 0,
+      "net": -2,
+      "status": "未中",
+      "detail": "3串1未中"
+    },
+    {
+      "index": 8,
+      "name": "精选3串1②｜马尔默胜 × 都灵平 × 莱万特平",
+      "category": "three",
+      "stronglyRecommended": false,
+      "selectionText": "003胜 × 005平 × 008平",
+      "cost": 2,
+      "returned": 0,
+      "net": -2,
+      "status": "未中",
+      "detail": "3串1未中"
+    },
+    {
+      "index": 9,
+      "name": "梦想单｜6场混合单选，可拆3/4/5关",
+      "category": "dream_single",
+      "stronglyRecommended": false,
+      "selectionText": "002胜 × 003胜 × 007负 × 008平 × 010胜 × 005平",
+      "cost": 82,
+      "returned": 14.22,
+      "net": -67.78,
+      "status": "有子票命中但整套亏损",
+      "detail": "3关命中1/20，4关命中0/15，5关命中0/6"
+    }
+  ],
+  "ticketTotals": {
+    "cost": 110,
+    "returned": 23.22,
+    "net": -86.78
+  },
   "combinations": [],
   "lessons": [
     "纽卡斯尔与法马利康客观人员证据不足，却进入多套方案；原强烈建议未能成立，应提高证据门槛并限制共用腿。",
-    "半全场双选按所列覆盖统计，不等同单选票命中。比分和进球区间分别核算。"
+    "半全场双选按所列覆盖统计，不等同单选票命中。比分和进球区间分别核算。",
+    "串子返还按原报告列出的全部子票及每票2元理论结算，不代表用户实际投注或实际盈亏。"
   ],
   "verification": {
     "status": "complete",
-    "verifiedAt": "2026-10-13T00:14:12.444Z",
+    "verifiedAt": "2026-10-13T01:29:48.406Z",
     "originalPublishedAt": "2026-10-12T08:21:38.850Z",
     "originalReport": "data/research/2026-10-12/review-original.json",
     "sources": [

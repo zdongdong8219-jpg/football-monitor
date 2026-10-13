@@ -1,0 +1,398 @@
+{
+  "date": "2026-10-12",
+  "title": "掏空主任的裤衩子｜10月12日赛果复盘",
+  "publishedAt": "2026-10-13T00:14:12.435Z",
+  "summary": "10月12日原扫盘10场均已完赛：主方向4/10（40%），总进球4/10（40%），半全场4/10（40%），比分1/10（10%）。方向仅统计原“买”首选，“博”不补算主方向命中；半全场按原列选项覆盖统计。全场比分经ESPN与FotMob一致核验，半场采用ESPN分节记录。",
+  "rows": [
+    {
+      "number": "周一001",
+      "time": "10-13 00:00",
+      "league": "亚冠精英",
+      "teams": "迪拜连接 vs 吉达国民",
+      "resultPick": "客胜（低暴露）｜博：让负",
+      "goalsPick": "2-3球",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1-1",
+      "actualScore": "1-3",
+      "halfScore": "1-1",
+      "actualHalfFull": "平负",
+      "actualGoals": 4,
+      "recommended": false,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "客胜（低暴露）"
+        ],
+        "goals": [],
+        "halfFull": [
+          "平负"
+        ],
+        "score": []
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/summary?event=401912628",
+        "fotmobId": 6050073
+      },
+      "originalHandicap": "主队受让1球"
+    },
+    {
+      "number": "周一002",
+      "time": "10-13 00:30",
+      "league": "意甲",
+      "teams": "亚特兰大 vs 威尼斯",
+      "resultPick": "胜｜博：让胜",
+      "goalsPick": "2-4球",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2-0",
+      "actualScore": "3-1",
+      "halfScore": "3-1",
+      "actualHalfFull": "胜胜",
+      "actualGoals": 4,
+      "recommended": true,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "2-4球"
+        ],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": []
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875005",
+        "fotmobId": 5749690
+      },
+      "originalHandicap": "主队让1球"
+    },
+    {
+      "number": "周一003",
+      "time": "10-13 01:00",
+      "league": "瑞超",
+      "teams": "马尔默 vs 卡尔马",
+      "resultPick": "胜｜博：无",
+      "goalsPick": "2-3球",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2-0",
+      "actualScore": "1-0",
+      "halfScore": "0-0",
+      "actualHalfFull": "平胜",
+      "actualGoals": 1,
+      "recommended": true,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [],
+        "halfFull": [
+          "平胜"
+        ],
+        "score": []
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401874018",
+        "fotmobId": 5107619
+      },
+      "originalHandicap": "主队让1球"
+    },
+    {
+      "number": "周一004",
+      "time": "10-13 01:00",
+      "league": "挪超",
+      "teams": "奥斯KFUM vs 瓦勒伦加",
+      "resultPick": "客胜（低暴露）｜博：平",
+      "goalsPick": "2-3球",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1-1",
+      "actualScore": "2-1",
+      "halfScore": "1-1",
+      "actualHalfFull": "平胜",
+      "actualGoals": 3,
+      "recommended": false,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "2-3球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/summary?event=401843453",
+        "fotmobId": 5105024
+      },
+      "originalHandicap": "主队受让1球"
+    },
+    {
+      "number": "周一005",
+      "time": "10-13 02:45",
+      "league": "意甲",
+      "teams": "都灵 vs 乌迪内斯",
+      "resultPick": "平｜博：无",
+      "goalsPick": "1-3球",
+      "halfFullPick": "平平",
+      "scorePick": "1-1",
+      "actualScore": "2-1",
+      "halfScore": "1-1",
+      "actualHalfFull": "平胜",
+      "actualGoals": 3,
+      "recommended": true,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "1-3球"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874763",
+        "fotmobId": 5749699
+      },
+      "originalHandicap": "主队让1球"
+    },
+    {
+      "number": "周一006",
+      "time": "10-13 02:45",
+      "league": "法乙",
+      "teams": "第戎 vs 梅斯",
+      "resultPick": "客胜（低暴露）｜博：平",
+      "goalsPick": "1-3球",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1-1",
+      "actualScore": "4-2",
+      "halfScore": "3-1",
+      "actualHalfFull": "胜胜",
+      "actualGoals": 6,
+      "recommended": false,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876735",
+        "fotmobId": 5803273
+      },
+      "originalHandicap": "主队受让1球"
+    },
+    {
+      "number": "周一007",
+      "time": "10-13 03:00",
+      "league": "英超",
+      "teams": "考文垂 vs 纽卡斯尔",
+      "resultPick": "负｜博：无",
+      "goalsPick": "2-3球",
+      "halfFullPick": "平负/负负",
+      "scorePick": "1-2",
+      "actualScore": "4-1",
+      "halfScore": "1-0",
+      "actualHalfFull": "胜胜",
+      "actualGoals": 5,
+      "recommended": true,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879267",
+        "fotmobId": 5795468
+      },
+      "originalHandicap": "主队受让1球"
+    },
+    {
+      "number": "周一008",
+      "time": "10-13 03:00",
+      "league": "西甲",
+      "teams": "莱万特 vs 塞维利亚",
+      "resultPick": "平｜博：客胜",
+      "goalsPick": "1-3球",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1-1",
+      "actualScore": "3-3",
+      "halfScore": "0-1",
+      "actualHalfFull": "负平",
+      "actualGoals": 6,
+      "recommended": true,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882852",
+        "fotmobId": 5868085
+      },
+      "originalHandicap": "主队受让1球"
+    },
+    {
+      "number": "周一009",
+      "time": "10-13 03:00",
+      "league": "巴甲",
+      "teams": "科里蒂巴 vs 博塔弗戈",
+      "resultPick": "客胜（低暴露）｜博：平",
+      "goalsPick": "1-3球",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1-1",
+      "actualScore": "1-1",
+      "halfScore": "1-1",
+      "actualHalfFull": "平平",
+      "actualGoals": 2,
+      "recommended": false,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "1-3球"
+        ],
+        "halfFull": [
+          "平平"
+        ],
+        "score": [
+          "1-1"
+        ]
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary?event=401841264",
+        "fotmobId": 5103661
+      },
+      "originalHandicap": "主队受让1球"
+    },
+    {
+      "number": "周一010",
+      "time": "10-13 03:15",
+      "league": "葡超",
+      "teams": "法马利康 vs 阿尔维卡",
+      "resultPick": "胜｜博：无",
+      "goalsPick": "1-3球",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "1-0",
+      "actualScore": "1-4",
+      "halfScore": "1-1",
+      "actualHalfFull": "平负",
+      "actualGoals": 5,
+      "recommended": true,
+      "settlementStatus": "已结算",
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "sources": {
+        "espn": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/summary?event=401885425",
+        "fotmobId": 5887649
+      },
+      "originalHandicap": "主队让1球"
+    }
+  ],
+  "statistics": {
+    "result": {
+      "hit": 4,
+      "total": 10
+    },
+    "goals": {
+      "hit": 4,
+      "total": 10
+    },
+    "halfFull": {
+      "hit": 4,
+      "total": 10
+    },
+    "score": {
+      "hit": 1,
+      "total": 10
+    }
+  },
+  "combinations": [],
+  "lessons": [
+    "纽卡斯尔与法马利康客观人员证据不足，却进入多套方案；原强烈建议未能成立，应提高证据门槛并限制共用腿。",
+    "半全场双选按所列覆盖统计，不等同单选票命中。比分和进球区间分别核算。"
+  ],
+  "verification": {
+    "status": "complete",
+    "verifiedAt": "2026-10-13T00:14:12.444Z",
+    "originalPublishedAt": "2026-10-12T08:21:38.850Z",
+    "originalReport": "data/research/2026-10-12/review-original.json",
+    "sources": [
+      "ESPN比赛详情（全场及半场）",
+      "FotMob北京时间2026-10-13赛程（全场）"
+    ],
+    "sourceNote": "完整原始预测及比分证据保存在研究归档，不回填原预测。"
+  }
+}
