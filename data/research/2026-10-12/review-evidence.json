@@ -1,0 +1,249 @@
+{
+  "checkedAt": "2026-10-13T03:07:13.227Z",
+  "sources": [
+    "ESPN",
+    "FotMob"
+  ],
+  "results": [
+    {
+      "number": "周一001",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/afc.champions/summary?event=401912628",
+        "teams": "Al Wasl vs Al Ahli",
+        "kickoff": "2026-10-12T16:00Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "1-3",
+        "halfScore": "1-1"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=6050073",
+        "matchId": 6050073,
+        "teams": "Al-Wasl vs Al Ahli",
+        "kickoff": "2026-10-12T16:00:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "1-3",
+        "halfScore": "1-1"
+      },
+      "consistent": true
+    },
+    {
+      "number": "周一002",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401875005",
+        "teams": "Atalanta vs Venezia",
+        "kickoff": "2026-10-12T16:30Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "3-1",
+        "halfScore": "3-1"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=5749690",
+        "matchId": 5749690,
+        "teams": "Atalanta vs Venezia",
+        "kickoff": "2026-10-12T16:30:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "3-1",
+        "halfScore": "3-1"
+      },
+      "consistent": true
+    },
+    {
+      "number": "周一003",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/summary?event=401874018",
+        "teams": "Malmö FF vs Kalmar FF",
+        "kickoff": "2026-10-12T17:00Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "1-0",
+        "halfScore": "0-0"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=5107619",
+        "matchId": 5107619,
+        "teams": "Malmö FF vs Kalmar FF",
+        "kickoff": "2026-10-12T17:00:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "1-0",
+        "halfScore": "0-0"
+      },
+      "consistent": true
+    },
+    {
+      "number": "周一004",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/summary?event=401843453",
+        "teams": "KFUM Oslo vs Vålerenga",
+        "kickoff": "2026-10-12T17:00Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "2-1",
+        "halfScore": "1-1"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=5105024",
+        "matchId": 5105024,
+        "teams": "KFUM vs Vålerenga",
+        "kickoff": "2026-10-12T17:00:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "2-1",
+        "halfScore": "1-1"
+      },
+      "consistent": true
+    },
+    {
+      "number": "周一005",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/summary?event=401874763",
+        "teams": "Torino vs Udinese",
+        "kickoff": "2026-10-12T18:45Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "2-1",
+        "halfScore": "1-1"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=5749699",
+        "matchId": 5749699,
+        "teams": "Torino vs Udinese",
+        "kickoff": "2026-10-12T18:45:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "2-1",
+        "halfScore": "1-1"
+      },
+      "consistent": true
+    },
+    {
+      "number": "周一006",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/summary?event=401876735",
+        "teams": "Dijon FCO vs Metz",
+        "kickoff": "2026-10-12T18:45Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "4-2",
+        "halfScore": "3-1"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=5803273",
+        "matchId": 5803273,
+        "teams": "Dijon vs Metz",
+        "kickoff": "2026-10-12T18:45:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "4-2",
+        "halfScore": "3-1"
+      },
+      "consistent": true
+    },
+    {
+      "number": "周一007",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879267",
+        "teams": "Coventry City vs Newcastle United",
+        "kickoff": "2026-10-12T19:00Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "4-1",
+        "halfScore": "1-0"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=5795468",
+        "matchId": 5795468,
+        "teams": "Coventry City vs Newcastle United",
+        "kickoff": "2026-10-12T19:00:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "4-1",
+        "halfScore": "1-0"
+      },
+      "consistent": true
+    },
+    {
+      "number": "周一008",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event=401882852",
+        "teams": "Levante vs Sevilla",
+        "kickoff": "2026-10-12T19:00Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "3-3",
+        "halfScore": "0-1"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=5868085",
+        "matchId": 5868085,
+        "teams": "Levante vs Sevilla",
+        "kickoff": "2026-10-12T19:00:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "3-3",
+        "halfScore": "0-1"
+      },
+      "consistent": true
+    },
+    {
+      "number": "周一009",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary?event=401841264",
+        "teams": "Coritiba vs Botafogo",
+        "kickoff": "2026-10-12T19:00Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "1-1",
+        "halfScore": "1-1"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=5103661",
+        "matchId": 5103661,
+        "teams": "Coritiba vs Botafogo",
+        "kickoff": "2026-10-12T19:00:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "1-1",
+        "halfScore": "1-1"
+      },
+      "consistent": true
+    },
+    {
+      "number": "周一010",
+      "espn": {
+        "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/summary?event=401885425",
+        "teams": "FC Famalicao vs Alverca",
+        "kickoff": "2026-10-12T19:15Z",
+        "completed": true,
+        "status": "post",
+        "fullScore": "1-4",
+        "halfScore": "1-1"
+      },
+      "fotmob": {
+        "url": "https://www.fotmob.com/api/data/matchDetails?matchId=5887649",
+        "matchId": 5887649,
+        "teams": "Famalicão vs Alverca",
+        "kickoff": "2026-10-12T19:15:00.000Z",
+        "completed": true,
+        "status": "FT",
+        "cancelled": false,
+        "fullScore": "1-4",
+        "halfScore": "1-1"
+      },
+      "consistent": true
+    }
+  ]
+}
