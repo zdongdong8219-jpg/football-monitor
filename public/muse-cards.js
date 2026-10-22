@@ -8,10 +8,10 @@
   const plain=v=>String(v??'').replace(/<[^>]*>/g,'');
   function wrap(ctx,text,max){let line='',out=[];for(const c of plain(text)){if(c==='\n'||(ctx.measureText(line+c).width>max&&line)){out.push(line);line='';if(c==='\n')continue}line+=c}if(line)out.push(line);return out.length?out:['—']}
   function text(ctx,value,x,y,max,size=24,color='#fff',bold=false){ctx.font=`${bold?'700 ':''}${size}px ${FONT}`;ctx.fillStyle=color;const lines=wrap(ctx,value,max);lines.forEach((s,i)=>ctx.fillText(s,x,y+i*(size+10)));return lines.length*(size+10)}
-  function setup(height){const canvas=document.createElement('canvas');canvas.width=1376;canvas.height=height;const ctx=canvas.getContext('2d');ctx.fillStyle='#2e528a';ctx.fillRect(0,0,1376,height);ctx.textBaseline='top';return {canvas,ctx}}
-  function edge(ctx,h){ctx.strokeStyle='#f0c96c';ctx.lineWidth=9;ctx.strokeRect(7,7,1362,h-14);ctx.strokeStyle='#90b6e8';ctx.lineWidth=2;ctx.strokeRect(20,20,1336,h-40)}
+  function setup(height,width=1376){const canvas=document.createElement('canvas');canvas.width=width;canvas.height=height;const ctx=canvas.getContext('2d');ctx.fillStyle='#2e528a';ctx.fillRect(0,0,width,height);ctx.textBaseline='top';return {canvas,ctx}}
+  function edge(ctx,h){const w=ctx.canvas.width;ctx.strokeStyle='#f0c96c';ctx.lineWidth=9;ctx.strokeRect(7,7,w-14,h-14);ctx.strokeStyle='#90b6e8';ctx.lineWidth=2;ctx.strokeRect(20,20,w-40,h-40)}
   function band(ctx,y,w=1290,h=68){ctx.fillStyle='#183d79';ctx.fillRect(43,y,w,h)}
-  function centered(ctx,s,y,size=40,color='#fff'){ctx.textAlign='center';text(ctx,s,688,y,1280,size,color,true);ctx.textAlign='left'}
+  function centered(ctx,s,y,size=40,color='#fff'){ctx.textAlign='center';text(ctx,s,ctx.canvas.width/2,y,ctx.canvas.width-96,size,color,true);ctx.textAlign='left'}
   function chip(ctx,s,x,y,color='#218fbe',w=190){ctx.fillStyle=color;ctx.beginPath();ctx.roundRect(x,y,w,40,20);ctx.fill();ctx.textAlign='center';text(ctx,s,x+w/2,y+7,w-10,23,'#fff',true);ctx.textAlign='left'}
   function star(r){const n=Number(r.stars??r.confidenceStars);if(n>=3)return ['★★★ 给我干他','#ff604c'];if(n===2||r.stronglyRecommended)return ['★★ 超级看好','#ff951e'];if(n===1)return ['★ 一般看好','#c1c9d8'];return ['未评星','#a8bed8']}
   function slot(r){const s=[r.category,r.name,r.type,r.passType].filter(Boolean).join(' ');if(/dream|梦想/.test(s))return 5;if(/half_full|半全场/.test(s))return 4;if(/three|3串1/.test(s))return 3;if(/双选|重叠/.test(s))return 1;if(/3[.]0|约3倍/.test(s))return 2;if(/single|单关/.test(s))return 6;return 0}
@@ -29,18 +29,20 @@
     const rows=reviewMode?(report.rows||[]):currentScanRows;
     const probe=document.createElement('canvas').getContext('2d');
     const ticketBlocks=tickets.map(({r,label,i})=>{const title=r?selections(r)||r.name||label:'今晚不出 · 暂无合格方案';const detail=!r?'不凑单，等待有依据的候选':reviewMode?(r.detail||r.status||r.result||'待定'):[r.oddsText||r.totalOdds||'赔率待核',r.totalCost!=null?`总投入${r.totalCost}元`:'',(r.legs||[]).map(l=>l.selectionReason||'').filter(Boolean).join('；')].filter(Boolean).join(' · ');probe.font=`700 29px ${FONT}`;const a=wrap(probe,title,920);probe.font=`23px ${FONT}`;const b=wrap(probe,detail,920);return {r,label,i,a,b,h:Math.max(140,a.length*39+b.length*33+72)}});
-    const widths=[120,155,100,280,170,100,125,140,100],heads=['编号','时间','赛事','主队 : 客队','胜平负/让球','总进球','半全场','比分','赛果'];
+    const widths=[135,165,115,310,360,125,155,240,110],heads=['编号','时间','赛事','主队 : 客队','胜平负/让球','总进球','半全场','比分（3个）','赛果'];
+    const tableWidth=widths.reduce((a,b)=>a+b,0),posterWidth=tableWidth+86;
+    const threeScores=v=>{const scores=plain(Array.isArray(v)?v.join('；'):v).match(/\d+\s*[:：-]\s*\d+/g);return scores?.length?scores.slice(0,3).map(s=>s.replace(/\s/g,'').replace(/[：-]/,':')).join('；'):plain(v)||'—'};
     const league=r=>String(r.league||'—').replace('欧洲协会联赛','欧协联').replace('解放者杯','解放杯');
-    const getCells=r=>reviewMode?[r.number,r.time,league(r),r.teams,r.resultPick,r.goalsPick,r.halfFullPick,r.scorePick,r.actualScore||'待定']:[r.number,(r.kickoff||'').replace('T',' ').slice(5,16),league(r),r.teams||[r.home,r.away].join(' : '),r.primaryPick||r.buy||r.selection||'待分析',r.goals||r.goalRange||'—',r.halfFull||r.halfTimePrediction||'—',r.score||r.predictedScore||'—','待定'];
+    const getCells=r=>reviewMode?[r.number,r.time,league(r),r.teams,r.resultPick,r.goalsPick,r.halfFullPick,threeScores(r.scorePick),r.actualScore||'待定']:[r.number,(r.kickoff||'').replace('T',' ').slice(5,16),league(r),r.teams||[r.home,r.away].join(' : '),r.primaryPick||r.buy||r.selection||'待分析',r.goals||r.goalRange||'—',r.halfFull||r.halfTimePrediction||'—',threeScores(r.score||r.predictedScore),'待定'];
     probe.font=`23px ${FONT}`;const cells=rows.map(getCells),rowHeights=cells.map(a=>Math.max(83,...a.map((s,i)=>wrap(probe,s,widths[i]-18).length*33+25)));
     const recommendEnd=260+ticketBlocks.reduce((a,b)=>a+b.h,0),scanTop=recommendEnd+145,tableTop=scanTop+165,height=tableTop+68+rowHeights.reduce((a,b)=>a+b,0)+170;
-    const {canvas,ctx}=setup(height);
-    if(asset.naturalWidth){ctx.save();ctx.globalAlpha=.46;ctx.drawImage(asset,0,300,1376,920);ctx.restore()}
+    const {canvas,ctx}=setup(height,posterWidth);
+    if(asset.naturalWidth){ctx.save();ctx.globalAlpha=.46;ctx.drawImage(asset,0,300,posterWidth,920);ctx.restore()}
     centered(ctx,TITLE,48,29,'#a8ccff');centered(ctx,reviewMode?'✨ 推荐复盘 ✨':'✨ 今日推荐 ✨',103,64);centered(ctx,`${report.date||'日期待核'} · ${rows.length}场`,183,28,'#bfd2ed');
     let y=260;ticketBlocks.forEach((b,n)=>{ctx.fillStyle=n===0?'#f9bd23':'#9db0ce';ctx.beginPath();ctx.arc(77,y+29,31,0,Math.PI*2);ctx.fill();ctx.textAlign='center';text(ctx,n+1,77,y+12,60,31,'#fff',true);ctx.textAlign='left';chip(ctx,b.label,125,y+9,colors[b.i],b.label.length>10?265:195);let yy=y+46;const x=410;const st=b.r?star(b.r):['','#aaa'];const status=reviewMode?(b.r.status||b.r.result||'待定'):st[0];text(ctx,status,x,y+8,920,23,reviewMode?'#f7d675':st[1],true);text(ctx,b.a.join('\n'),x,yy,920,29,'#fff',true);yy+=b.a.length*39;text(ctx,b.b.join('\n'),x,yy,920,23,'#ffdb72',false);y+=b.h});
     centered(ctx,'★★★ 给我干他   ★★ 超级看好   ★ 一般看好',recommendEnd+20,24,'#ff9a35');centered(ctx,'⚽ 仅供参考 · 理性购彩 ⚽',recommendEnd+65,24,'#bfcee4');ctx.strokeStyle='#87a2ce';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(45,scanTop-10);ctx.lineTo(1330,scanTop-10);ctx.stroke();centered(ctx,'⚽ '+TITLE+' · 赛前预测',scanTop+22,27,'#a4ceff');centered(ctx,reviewMode?'✨ 竞彩扫盘 · 复盘 ✨':'✨ 竞彩扫盘 ✨',scanTop+69,48);centered(ctx,report.date||'',scanTop+130,24,'#bfd2ed');
-    band(ctx,tableTop,1290,68);let x=43;heads.forEach((s,i)=>{text(ctx,s,x+9,tableTop+22,widths[i]-10,24,'#fff',true);x+=widths[i]});y=tableTop+68;
-    rows.forEach((r,j)=>{ctx.fillStyle=j%2?'#173970':'#23477d';ctx.fillRect(43,y,1290,rowHeights[j]);x=43;cells[j].forEach((s,i)=>{const color=i===8?'#b4c4d9':'#fff';text(ctx,s,x+9,y+16,widths[i]-18,23,color,i===3);if(reviewMode&&[4,5,6,7].includes(i)){const key={4:'result',5:'goals',6:'halfFull',7:'score'}[i];if(r.hits?.[key]===true){ctx.strokeStyle='#62b46d';ctx.lineWidth=3;ctx.strokeRect(x+3,y+7,widths[i]-7,rowHeights[j]-14)}}x+=widths[i]});y+=rowHeights[j]});
+    band(ctx,tableTop,tableWidth,68);let x=43;heads.forEach((s,i)=>{text(ctx,s,x+9,tableTop+22,widths[i]-10,24,'#fff',true);x+=widths[i]});y=tableTop+68;
+    rows.forEach((r,j)=>{ctx.fillStyle=j%2?'#173970':'#23477d';ctx.fillRect(43,y,tableWidth,rowHeights[j]);x=43;cells[j].forEach((s,i)=>{const color=i===8?'#b4c4d9':'#fff';text(ctx,s,x+9,y+16,widths[i]-18,23,color,i===3);if(reviewMode&&[4,5,6,7].includes(i)){const key={4:'result',5:'goals',6:'halfFull',7:'score'}[i];if(r.hits?.[key]===true){ctx.strokeStyle='#62b46d';ctx.lineWidth=3;ctx.strokeRect(x+3,y+7,widths[i]-7,rowHeights[j]-14)}}x+=widths[i]});y+=rowHeights[j]});
     centered(ctx,reviewMode?'命中仅按原票与核验赛果标记 · 待定不计战绩':'当日方向与推荐同步 · 未发布场次如实标待分析',height-118,23,'#a9c0de');centered(ctx,'⚽ 仅供参考 · 理性购彩 ⚽',height-74,25,'#b8c9e1');edge(ctx,height);return png(canvas);
   }
   async function tracking(reviewMode){
