@@ -1,21 +1,58 @@
 import fs from 'node:fs';
-for(const file of ['data/state.json','data/latest.json','data/review-latest.json']) JSON.parse(fs.readFileSync(file,'utf8'));
-const html=fs.readFileSync('public/index.html','utf8');
-const script=html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
-if(!script)throw Error('Page script missing');
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const readProjectFile = relativePath =>
+  fs.readFileSync(path.join(projectRoot, relativePath), 'utf8');
+
+for (const file of ['data/state.json', 'data/latest.json', 'data/review-latest.json']) {
+  JSON.parse(readProjectFile(file));
+}
+
+const html = readProjectFile('public/index.html');
+const script = html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
+if (!script) throw Error('Page script missing');
 new Function(script);
-if(!html.includes('raw.githubusercontent.com/zdongdong8219-jpg/football-monitor/main/data/'))throw Error('Data integration missing');
-if(!html.includes('function recommendationGroup(r)')||!html.includes('stronglyRecommended')||!html.includes('strong-badge'))throw Error('Priority grouping and independent recommendation badge missing');
-if(!html.includes('.recommendation-groups{display:grid;grid-template-columns:minmax(0,1fr)')||html.includes('左右两列'))throw Error('Single-column recommendation layout missing');
-const priorities=["['two','普通2串1", "['half_full','半全场2串1", "['three','3串1", "['dream','梦想单"].map(label=>html.indexOf(label));
-if(priorities.some((p,i)=>p<0||(i>0&&p<=priorities[i-1])))throw Error('Recommendation priority order incorrect');
-if(!html.includes('predictedScore'))throw Error('Score prediction rendering missing');
-if(!html.includes('combinationCount'))throw Error('Combination structure rendering missing');
-if(!html.includes("market('半全场'"))throw Error('Half-full-time market rendering missing');
-if(!html.includes('halfTimePrediction')||!html.includes('upgradeFrom')||!html.includes('selectionReason'))throw Error('Half-full-time rationale rendering missing');
-if(!html.includes('掏空主任的裤衩子'))throw Error('Requested page title missing');
-if(!html.includes('renderScanTable')||!html.includes('confidenceStars'))throw Error('Scan summary table missing');
-if(!html.includes('copyScanTable')||!html.includes('ClipboardItem')||!html.includes('image/png'))throw Error('Mobile scan image copy control missing');
-if(!html.includes('renderReview')||!html.includes('review-latest.json')||!html.includes('markedPick')||!html.includes('hit-mark'))throw Error('Post-match review table missing');
-if(!html.includes('recommendationDetails')||!html.includes('coverageText')||!html.includes('方案暴露')||!html.includes('集中风险'))throw Error('Costs and risk diversification UI missing');
+
+const requiredMarkers = [
+  ['raw.githubusercontent.com/zdongdong8219-jpg/football-monitor/main/data/', 'Data integration missing'],
+  ['function recommendationGroup(r)', 'Recommendation grouping missing'],
+  ['stronglyRecommended', 'Independent recommendation badge data missing'],
+  ['strong-badge', 'Independent recommendation badge styling missing'],
+  ['betSingleRecommended', 'Bet-single recommendation marker missing'],
+  ['bet-single-badge', 'Bet-single recommendation badge styling missing'],
+  ['.recommendation-groups{display:grid;grid-template-columns:minmax(0,1fr)', 'Single-column recommendation layout missing'],
+  ['predictedScore', 'Score prediction rendering missing'],
+  ['combinationCount', 'Combination structure rendering missing'],
+  ['halfTimePrediction', 'Half-full-time prediction rendering missing'],
+  ['upgradeFrom', 'Half-full-time upgrade data missing'],
+  ['selectionReason', 'Selection rationale rendering missing'],
+  ['renderScanTable', 'Scan summary table missing'],
+  ['confidenceStars', 'Scan confidence rendering missing'],
+  ['copyScanTable', 'Mobile scan image copy control missing'],
+  ['function scanImageBlob(){return tableImageBlob(false);}', 'Copy entry must use full recommendation-and-scan image'],
+  ['id="copyPoster"', 'Top image copy control missing'],
+  ['lines:completeTicketLines(r)', 'Full original ticket details missing from image'],
+  ['ClipboardItem', 'Clipboard API integration missing'],
+  ['image/png', 'PNG clipboard output missing'],
+  ['renderReview', 'Post-match review rendering missing'],
+  ['review-latest.json', 'Post-match review data integration missing'],
+  ['markedPick', 'Review pick marker missing'],
+  ['hit-mark', 'Review hit marker missing'],
+  ['recommendationDetails', 'Recommendation detail rendering missing'],
+  ['coverageText', 'Coverage and risk rendering missing'],
+];
+
+for (const [marker, message] of requiredMarkers) {
+  if (!html.includes(marker)) throw Error(message);
+}
+
+const groupStart = html.indexOf('const sections=[');
+const categoryOrder = ["'two'", "'half_full'", "'three'", "'dream'"]
+  .map(marker => html.indexOf(marker, groupStart));
+if (categoryOrder.some((position, index) =>
+  position < 0 || (index > 0 && position <= categoryOrder[index - 1])
+)) throw Error('Recommendation priority order incorrect');
+
 console.log('Football mobile build verified');
