@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "ready",
-  "checkedAt": "2026-10-22T19:05:21.256Z",
+  "checkedAt": "2026-10-22T19:56:35.723Z",
   "currentDate": "2026-10-22",
   "days": {
     "2026-10-08": {
@@ -198907,7 +198907,7 @@
           ]
         },
         {
-          "checkedAt": "2026-10-22T19:05:21.256Z",
+          "checkedAt": "2026-10-22T19:56:35.723Z",
           "matches": [
             {
               "id": 3073801,
@@ -199563,7 +199563,7 @@
         }
       ],
       "latest": {
-        "checkedAt": "2026-10-22T19:05:21.256Z",
+        "checkedAt": "2026-10-22T19:56:35.723Z",
         "matches": [
           {
             "id": 3073801,
@@ -200222,7 +200222,7 @@
       "date": "2026-10-23",
       "snapshots": [
         {
-          "checkedAt": "2026-10-22T19:05:21.256Z",
+          "checkedAt": "2026-10-22T19:56:35.723Z",
           "matches": [
             {
               "id": 3041379,
@@ -200828,7 +200828,7 @@
         }
       ],
       "latest": {
-        "checkedAt": "2026-10-22T19:05:21.256Z",
+        "checkedAt": "2026-10-22T19:56:35.723Z",
         "matches": [
           {
             "id": 3041379,
@@ -202255,15 +202255,220 @@
               }
             }
           ]
+        },
+        {
+          "checkedAt": "2026-10-22T19:56:35.723Z",
+          "matches": [
+            {
+              "id": 3023509,
+              "number": "周一001",
+              "league": "葡超",
+              "kickoff": "2026-10-27T02:45:00",
+              "home": "圣克拉拉",
+              "away": "本菲卡",
+              "homeRank": "4",
+              "awayRank": "2",
+              "saleDate": "2026-10-26",
+              "spf": {
+                "win": 2.25,
+                "draw": 3.1,
+                "lose": 2.76
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 5.1,
+                "draw": 3.95,
+                "lose": 1.47
+              },
+              "goals": {
+                "0": 10,
+                "1": 4.3,
+                "2": 3,
+                "3": 3.55,
+                "4": 6.3,
+                "5": 12,
+                "6": 27,
+                "7+": 38
+              },
+              "halfFull": {
+                "winWin": 3.7,
+                "winDraw": 14,
+                "winLose": 28,
+                "drawWin": 5.25,
+                "drawDraw": 4.85,
+                "drawLose": 5.6,
+                "loseWin": 26,
+                "loseDraw": 14,
+                "loseLose": 5.25
+              },
+              "single": {
+                "spf": true,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 2997753,
+              "number": "周一002",
+              "league": "法乙",
+              "kickoff": "2026-10-27T03:45:00",
+              "home": "布洛涅",
+              "away": "兰斯",
+              "homeRank": "12",
+              "awayRank": "3",
+              "saleDate": "2026-10-26",
+              "spf": {
+                "win": 2.8,
+                "draw": 3.15,
+                "lose": 2.2
+              },
+              "handicap": 1,
+              "rqspf": {
+                "win": 1.5,
+                "draw": 3.85,
+                "lose": 4.95
+              },
+              "goals": {
+                "0": 11,
+                "1": 4.6,
+                "2": 3.35,
+                "3": 3.35,
+                "4": 5.55,
+                "5": 11.5,
+                "6": 21,
+                "7+": 30
+              },
+              "halfFull": {
+                "winWin": 4.8,
+                "winDraw": 13.5,
+                "winLose": 30,
+                "drawWin": 6.75,
+                "drawDraw": 4.4,
+                "drawLose": 4.9,
+                "loseWin": 35,
+                "loseDraw": 13.5,
+                "loseLose": 3.9
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 3013740,
+              "number": "周一003",
+              "league": "西甲",
+              "kickoff": "2026-10-27T04:00:00",
+              "home": "塞维利亚",
+              "away": "奥萨苏纳",
+              "homeRank": "6",
+              "awayRank": "10",
+              "saleDate": "2026-10-26",
+              "spf": {
+                "win": 3.52,
+                "draw": 2.8,
+                "lose": 2.05
+              },
+              "handicap": 1,
+              "rqspf": {
+                "win": 1.59,
+                "draw": 3.28,
+                "lose": 5.1
+              },
+              "goals": {
+                "0": 7.5,
+                "1": 3.9,
+                "2": 3.05,
+                "3": 3.9,
+                "4": 7,
+                "5": 14,
+                "6": 26,
+                "7+": 36
+              },
+              "halfFull": {
+                "winWin": 5.55,
+                "winDraw": 15,
+                "winLose": 34,
+                "drawWin": 7.25,
+                "drawDraw": 3.65,
+                "drawLose": 4.4,
+                "loseWin": 40,
+                "loseDraw": 15,
+                "loseLose": 4.05
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 2910940,
+              "number": "周一004",
+              "league": "巴甲",
+              "kickoff": "2026-10-27T07:00:00",
+              "home": "弗拉门戈",
+              "away": "米竞技",
+              "homeRank": "1",
+              "awayRank": "6",
+              "saleDate": "2026-10-26",
+              "spf": {
+                "win": 3.08,
+                "draw": 3.5,
+                "lose": 1.93
+              },
+              "handicap": 1,
+              "rqspf": {
+                "win": 1.65,
+                "draw": 3.6,
+                "lose": 4.07
+              },
+              "goals": {
+                "0": 17.5,
+                "1": 6.65,
+                "2": 3.5,
+                "3": 3.2,
+                "4": 4.75,
+                "5": 8,
+                "6": 15,
+                "7+": 23
+              },
+              "halfFull": {
+                "winWin": 4.7,
+                "winDraw": 16,
+                "winLose": 25,
+                "drawWin": 6.5,
+                "drawDraw": 5.1,
+                "drawLose": 4.7,
+                "loseWin": 29,
+                "loseDraw": 16,
+                "loseLose": 3.6
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            }
+          ]
         }
       ],
       "latest": {
-        "checkedAt": "2026-10-22T19:05:21.256Z",
+        "checkedAt": "2026-10-22T19:56:35.723Z",
         "matches": [
           {
             "id": 3023509,
             "number": "周一001",
-            "league": "葡萄牙超级联赛",
+            "league": "葡超",
             "kickoff": "2026-10-27T02:45:00",
             "home": "圣克拉拉",
             "away": "本菲卡",
@@ -202313,7 +202518,7 @@
           {
             "id": 2997753,
             "number": "周一002",
-            "league": "法国乙级联赛",
+            "league": "法乙",
             "kickoff": "2026-10-27T03:45:00",
             "home": "布洛涅",
             "away": "兰斯",
@@ -202363,7 +202568,7 @@
           {
             "id": 3013740,
             "number": "周一003",
-            "league": "西班牙甲级联赛",
+            "league": "西甲",
             "kickoff": "2026-10-27T04:00:00",
             "home": "塞维利亚",
             "away": "奥萨苏纳",
@@ -202413,10 +202618,10 @@
           {
             "id": 2910940,
             "number": "周一004",
-            "league": "巴西甲级联赛",
+            "league": "巴甲",
             "kickoff": "2026-10-27T07:00:00",
             "home": "弗拉门戈",
-            "away": "米内罗竞技",
+            "away": "米竞技",
             "homeRank": "1",
             "awayRank": "6",
             "saleDate": "2026-10-26",
