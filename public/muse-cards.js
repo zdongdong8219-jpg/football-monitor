@@ -70,14 +70,27 @@
   }
   async function artifactImage(reviewMode,isTracking){const r=reviewMode?currentReview:liveReport();const path=r?.artifacts?.[isTracking?'tracking':'poster'];if(path){const response=await fetch(path,{cache:'no-cache'});if(!response.ok)throw Error('图片读取失败 '+response.status);return response.blob()}return isTracking?tracking(reviewMode):poster(reviewMode)}
   scanImageBlob=()=>artifactImage(false,false);reviewImageBlob=()=>artifactImage(true,false);trackingImageBlob=reviewMode=>artifactImage(reviewMode,true);
-  let timer;let previewGeneration=0;const cache=new Map();
-  function schedule(){clearTimeout(timer);timer=setTimeout(refreshPreviews,500)}
-  async function refreshPreviews(){
-    const generation=++previewGeneration;
-    let area=document.getElementById('phoneImageCards');if(!area){area=document.createElement('section');area.id='phoneImageCards';area.innerHTML='<h2>模型图片 · 可直接复制</h2><p>点图可放大，长按可保存。推荐与跟踪卡各一张，复盘各一张。</p><div class="phone-image-grid"></div>';$('summary').before(area)}
-    const grid=area.querySelector('.phone-image-grid');grid.innerHTML='';
+  let timer;const cache=new Map();
+  function schedule(){clearTimeout(timer);timer=setTimeout(refreshPreviews,100)}
+  function refreshPreviews(){
+    let area=document.getElementById('phoneImageCards');
+    if(!area){area=document.createElement('section');area.id='phoneImageCards';area.innerHTML='<h2>今日图片</h2><p>点图打开原图，长按可保存。</p><div class="phone-image-grid"></div>';$('summary').before(area)}
+    const grid=area.querySelector('.phone-image-grid');
     const specs=[['今日推荐＋扫盘',false,false,'copyPoster','quickPoster'],['今日跟踪卡',false,true,'copyTracking','quickTracking'],['复盘推荐＋扫盘',true,false,'copyReview','quickReview'],['复盘跟踪卡',true,true,'copyReviewTracking','quickReviewTracking']];
-    for(const [title,isReview,isTracking,id,quick] of specs){const ready=isReview?Boolean(currentReview?.rows?.length):Boolean(currentScanRows.length);$(id).disabled=!ready;$(quick).disabled=!ready;if(!ready)continue;const box=document.createElement('article');box.innerHTML='<h3></h3><p></p><button type="button">⧉ 复制图片</button><a target="_blank" rel="noopener"><img loading="lazy"></a>';box.querySelector('h3').textContent=title;box.querySelector('p').textContent=(isReview?currentReview?.date:currentScanDate)+(isReview?' · 历史原票复盘':liveReport().pending?' · 今日方案待发布':liveReport().status==='audit-incomplete-no-approved-tickets'?' · 独立审计未完成，非可买票':' · 当日原票');box.querySelector('button').onclick=()=>$(id).click();grid.append(box);try{const blob=await artifactImage(isReview,isTracking);if(generation!==previewGeneration)return;const url=URL.createObjectURL(blob);const previous=cache.get(id);if(previous)URL.revokeObjectURL(previous);cache.set(id,url);const img=box.querySelector('img');img.src=url;img.alt=title;box.querySelector('a').href=url}catch(e){box.querySelector('p').textContent='图片暂未生成：'+e.message}}
+    for(const [title,isReview,isTracking,id,quick] of specs){
+      const report=isReview?currentReview:liveReport();const path=report?.artifacts?.[isTracking?'tracking':'poster'];
+      const ready=Boolean(path)||(isReview?Boolean(currentReview?.rows?.length):Boolean(currentScanRows.length));
+      $(id).disabled=!ready;$(quick).disabled=!ready;if(!ready)continue;
+      let box=grid.querySelector('[data-copy="'+id+'"]');
+      if(!box){box=document.createElement('article');box.dataset.copy=id;box.innerHTML='<h3></h3><p></p><button type="button">⧉ 复制图片</button><a class="original-image" target="_blank" rel="noopener">打开原图<img></a>';grid.append(box)}
+      box.querySelector('h3').textContent=title;box.querySelector('p').textContent=(report?.date||currentScanDate)+(isReview?' · 历史原票复盘':' · 当日原票');
+      box.querySelector('button').onclick=()=>$(id).click();
+      const img=box.querySelector('img'),link=box.querySelector('a');img.alt=title;img.loading=isReview?'lazy':'eager';img.decoding='async';
+      const setUrl=url=>{if(img.getAttribute('src')!==url)img.src=url;link.href=url;img.onerror=()=>{box.querySelector('p').textContent='图片加载未完成，可点“打开原图”重试。'}};
+      if(path){box.dataset.key=path;setUrl(path);continue}
+      const key=[report?.date,report?.edition,report?.updatedAt,isTracking].join('|');if(box.dataset.key===key)continue;box.dataset.key=key;
+      artifactImage(isReview,isTracking).then(blob=>{if(box.dataset.key!==key)return;const url=URL.createObjectURL(blob),previous=cache.get(id);cache.set(id,url);setUrl(url);if(previous)URL.revokeObjectURL(previous)}).catch(e=>{if(box.dataset.key===key){delete box.dataset.key;box.querySelector('p').textContent='图片暂未生成：'+e.message}});
+    }
   }
   for(const name of ['renderReport','renderScanTable','renderReview']){const previous=window[name];window[name]=function(...args){if(name==='renderReview'&&args[0]?.rows)args[0]={...args[0],rows:args[0].rows.map(r=>({...r,resultPick:reviewPick(r)}))};const result=previous.apply(this,args);schedule();return result}}
   [['quickPoster','copyPoster'],['quickTracking','copyTracking'],['quickReview','copyReview'],['quickReviewTracking','copyReviewTracking']].forEach(([quick,id])=>{$(quick).onclick=()=>$(id).click()});
