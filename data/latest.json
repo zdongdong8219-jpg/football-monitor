@@ -1,15 +1,15 @@
 {
   "date": "2026-10-23",
-  "publishedAt": "2026-10-23T07:55:28.654Z",
-  "generatedAt": "2026-10-23T07:53:26.539Z",
-  "status": "one-cover-core-final",
-  "edition": "2026-10-23-one-cover-20261023T075528654Z",
+  "publishedAt": "2026-10-23T08:13:37.852Z",
+  "generatedAt": "2026-10-23T08:13:31.227Z",
+  "status": "core-replacement-final",
+  "edition": "2026-10-23-core-replacement-20261023T081337852Z",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": {
     "maxDoubleLegs": 1,
     "equalStakes": true,
     "issueBothRequested": true,
-    "riskDisclosure": "本轮用户要求优先于旧两档可空缺和双防例外；不给必中/低风险保证。普通核心单选不隐去此前识别的平局风险。",
+    "riskDisclosure": "最多一场保险仍生效；007退出核心，006单胜有新增替代配置依据；风险未消失，不保证命中。",
     "display": "用户最终确认只展示按整套投入折算的返还倍率，不展示本金或利润金额；完整子票核算保存审计。"
   },
   "finalLocked": true,
@@ -17,11 +17,11 @@
   "auditLocked": true,
   "completed": true,
   "mobileVerified": false,
-  "dataAsOf": "2026-10-23T07:46:03.9089421Z",
-  "summary": "用户确认版：2.0为007胜×008胜/平，整套返还1.96/3.17倍；3.0为008胜×012主-1让平/让负，整套返还3.16/2.38倍。两档各只防一场、两分支等额，008是共同风险。保留博精准、半全场两单关＋2串1、混合梦想串及全进球数梦想串。",
+  "dataAsOf": "2026-10-23T08:09:57.5509737Z",
+  "summary": "独立复核换腿：2.0改006胜×008胜/平，整套1.25/2.03倍；3.0保留008胜×012主-1让平/让负，按新赔率整套3.11/2.48倍。007退出核心，扫盘恢复胜/平；原四种博单保留。",
   "recommendations": [
     {
-      "id": "core20-one-cover",
+      "id": "core20-replace007",
       "name": "2.0版 · 一场保险",
       "category": "two",
       "trackingTier": "2.0版",
@@ -33,9 +33,9 @@
       "stronglyRecommended": false,
       "legs": [
         {
-          "number": "周五007",
-          "matchId": 2042161,
-          "teams": "都灵 vs 蒙扎",
+          "number": "周五006",
+          "matchId": 2042160,
+          "teams": "斯图加特 vs 门兴",
           "market": "HAD",
           "handicap": 0,
           "selection": "胜",
@@ -43,26 +43,26 @@
             {
               "key": "h",
               "label": "胜",
-              "odds": 1.89
+              "odds": 1.21
             }
           ],
-          "selectionReason": "单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。",
+          "selectionReason": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。",
           "qualification": {
-            "single": true,
+            "single": false,
             "allUp": true,
             "poolStatus": "Selling",
             "closeDate": null,
             "closeTime": null,
             "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-            "capturedAt": "2026-10-23T07:46:03.9089421Z",
+            "capturedAt": "2026-10-23T08:09:57.5509737Z",
             "dailySalesClose": "2026-10-23T22:00:00+08:00",
             "closeSource": "https://www.sporttery.cn/",
             "closeCheckedAt": "2026-10-23T07:29:09.622Z"
           },
           "lossPaths": [
-            "蒙扎人盯人压缩Vlasic接球，都灵破密防低效，最终平局即整票失败。",
-            "翼卫身后被Mota/Robinson/Varela突破，蒙扎客胜。",
-            "连续赛程令领先后控制下降，被追平；本版不再防这一结果。"
+            "欧冠后三天短休使后半场压迫下降，领先被追平，普通胜失败。",
+            "Assignon接替Vagnoman后的边路配合被Bolin/Machino利用，先丢球后追不回。",
+            "延续对汉堡的终结低效，Nicolas扑救和门兴低位拖成平局；1.21不是保险。"
           ]
         },
         {
@@ -84,7 +84,7 @@
               "odds": 3.35
             }
           ],
-          "selectionReason": "胜/平保留唯一保险：Ajorque支点和Magnetti/Chotard二点保护对尼斯低位有进攻依据；尼斯Wahi/Amoura反击会冲击Tousart/Lloris转身，主胜单选不如007适合承担本票单选位置，平局分支继续保留。",
+          "selectionReason": "保留唯一防平：Ajorque支点、Doumbia二点与双中场支持主队方向；尼斯Wahi/Amoura反击冲击替代中卫，平局不能从保守票中删除。",
           "qualification": {
             "single": false,
             "allUp": true,
@@ -92,7 +92,7 @@
             "closeDate": null,
             "closeTime": null,
             "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-            "capturedAt": "2026-10-23T07:46:03.9089421Z",
+            "capturedAt": "2026-10-23T08:09:57.5509737Z",
             "dailySalesClose": "2026-10-23T22:00:00+08:00",
             "closeSource": "https://www.sporttery.cn/",
             "closeCheckedAt": "2026-10-23T07:29:09.622Z"
@@ -104,7 +104,7 @@
           ]
         }
       ],
-      "selectionText": "周五007[胜] × 周五008[胜/平]",
+      "selectionText": "周五006[胜] × 周五008[胜/平]",
       "passType": "2串1",
       "passSizes": [
         2
@@ -116,17 +116,17 @@
       "totalCost": 4,
       "subTickets": [
         {
-          "id": "core20-one-cover-0",
+          "id": "core20-replace007-0",
           "name": "子票1",
           "passType": "2串1",
           "selections": [
             {
-              "number": "周五007",
+              "number": "周五006",
               "market": "HAD",
               "handicap": 0,
               "key": "h",
               "label": "胜",
-              "odds": 1.89
+              "odds": 1.21
             },
             {
               "number": "周五008",
@@ -137,27 +137,27 @@
               "odds": 2.07
             }
           ],
-          "selectionText": "周五007 胜 × 周五008 胜",
+          "selectionText": "周五006 胜 × 周五008 胜",
           "stake": 2,
           "unitStake": 2,
           "multiplier": 1,
-          "odds": 3.9123,
-          "return": 7.82,
-          "net": 3.82,
-          "returnText": "命中返7.82元，减整套4元后净3.82元"
+          "odds": 2.5047,
+          "return": 5.01,
+          "net": 1.01,
+          "returnText": "整套返还1.25倍"
         },
         {
-          "id": "core20-one-cover-1",
+          "id": "core20-replace007-1",
           "name": "子票2",
           "passType": "2串1",
           "selections": [
             {
-              "number": "周五007",
+              "number": "周五006",
               "market": "HAD",
               "handicap": 0,
               "key": "h",
               "label": "胜",
-              "odds": 1.89
+              "odds": 1.21
             },
             {
               "number": "周五008",
@@ -168,37 +168,38 @@
               "odds": 3.35
             }
           ],
-          "selectionText": "周五007 胜 × 周五008 平",
+          "selectionText": "周五006 胜 × 周五008 平",
           "stake": 2,
           "unitStake": 2,
           "multiplier": 1,
-          "odds": 6.3315,
-          "return": 12.66,
-          "net": 8.66,
-          "returnText": "命中返12.66元，减整套4元后净8.66元"
+          "odds": 4.0535,
+          "return": 8.11,
+          "net": 4.11,
+          "returnText": "整套返还2.03倍"
         }
       ],
       "conditionalReturn": {
-        "min": 7.82,
-        "max": 12.66
+        "min": 5.01,
+        "max": 8.11
       },
       "conditionalNet": {
-        "min": 3.82,
-        "max": 8.66
+        "min": 1.01,
+        "max": 4.11
       },
       "effectiveReturnRatio": {
-        "min": 1.96,
-        "max": 3.17
+        "min": 1.25235,
+        "max": 2.02675
       },
       "uncoveredReturn": 0,
       "uncoveredNet": -4,
       "structureText": "单选×双选，两个等额分支，仅防一场",
-      "oddsText": "整套返还倍率 1.96 / 3.17倍",
-      "effectiveReturnText": "周五007 胜 × 周五008 胜：整套1.96倍；周五007 胜 × 周五008 平：整套3.17倍；任一腿出覆盖为0倍。",
+      "oddsText": "整套返还倍率 1.25 / 2.03倍",
+      "effectiveReturnText": "周五006 胜 × 周五008 胜：整套1.25倍；周五006 胜 × 周五008 平：整套2.03倍；未覆盖结果为0倍。",
       "coverageText": "两分支等额，仅防一场；倍率已按整套投入折算，不是单张子票的赔率。",
-      "risk": "中高风险：007平局不覆盖；008胜/平保留保险。",
-      "imageSummary": "整套返还倍率 1.96 / 3.17倍。007胜×008胜/平；007平/负均输。两档共享008，风险相关。",
-      "displayMultipliersOnly": true
+      "risk": "006短休、被逼平风险仍在；008已防平，尼斯客胜不覆盖。",
+      "imageSummary": "周五006[胜] × 周五008[胜/平]；整套返还倍率 1.25 / 2.03倍。006短休、被逼平风险仍在；008已防平，尼斯客胜不覆盖。 两档共用008。",
+      "displayMultipliersOnly": true,
+      "oddsAsOf": "2026-10-23T08:09:57.5509737Z"
     },
     {
       "id": "core30-one-cover",
@@ -234,7 +235,7 @@
             "closeDate": null,
             "closeTime": null,
             "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-            "capturedAt": "2026-10-23T07:46:03.9089421Z",
+            "capturedAt": "2026-10-23T08:09:57.5509737Z",
             "dailySalesClose": "2026-10-23T22:00:00+08:00",
             "closeSource": "https://www.sporttery.cn/",
             "closeCheckedAt": "2026-10-23T07:29:09.622Z"
@@ -256,12 +257,12 @@
             {
               "key": "d",
               "label": "让平",
-              "odds": 3.05
+              "odds": 3
             },
             {
               "key": "a",
               "label": "让负",
-              "odds": 2.3
+              "odds": 2.4
             }
           ],
           "selectionReason": "主-1让平/让负保留真实保险，覆盖吉马良斯净胜1球、平局或输球；8轮5球及破密防效率不足支持此边界，攻击回归与客队脆弱防线构成净胜2+失败路径。",
@@ -272,7 +273,7 @@
             "closeDate": null,
             "closeTime": null,
             "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-            "capturedAt": "2026-10-23T07:46:03.9089421Z",
+            "capturedAt": "2026-10-23T08:09:57.5509737Z",
             "dailySalesClose": "2026-10-23T22:00:00+08:00",
             "closeSource": "https://www.sporttery.cn/",
             "closeCheckedAt": "2026-10-23T07:29:09.622Z"
@@ -314,17 +315,17 @@
               "handicap": -1,
               "key": "d",
               "label": "让平",
-              "odds": 3.05
+              "odds": 3
             }
           ],
           "selectionText": "周五008 胜 × 周五012 主-1 让平",
           "stake": 2,
           "unitStake": 2,
           "multiplier": 1,
-          "odds": 6.3135,
-          "return": 12.63,
-          "net": 8.63,
-          "returnText": "命中返12.63元，减整套4元后净8.63元"
+          "odds": 6.21,
+          "return": 12.42,
+          "net": 8.42,
+          "returnText": "整套返还3.11倍"
         },
         {
           "id": "core30-one-cover-1",
@@ -345,40 +346,41 @@
               "handicap": -1,
               "key": "a",
               "label": "让负",
-              "odds": 2.3
+              "odds": 2.4
             }
           ],
           "selectionText": "周五008 胜 × 周五012 主-1 让负",
           "stake": 2,
           "unitStake": 2,
           "multiplier": 1,
-          "odds": 4.761,
-          "return": 9.52,
-          "net": 5.52,
-          "returnText": "命中返9.52元，减整套4元后净5.52元"
+          "odds": 4.968,
+          "return": 9.94,
+          "net": 5.94,
+          "returnText": "整套返还2.48倍"
         }
       ],
       "conditionalReturn": {
-        "min": 9.52,
-        "max": 12.63
+        "min": 9.94,
+        "max": 12.42
       },
       "conditionalNet": {
-        "min": 5.52,
-        "max": 8.63
+        "min": 5.94,
+        "max": 8.42
       },
       "effectiveReturnRatio": {
-        "min": 2.38,
-        "max": 3.16
+        "min": 2.484,
+        "max": 3.105
       },
       "uncoveredReturn": 0,
       "uncoveredNet": -4,
       "structureText": "单选×双选，两个等额分支，仅防一场",
-      "oddsText": "整套返还倍率 3.16 / 2.38倍",
-      "effectiveReturnText": "周五008 胜 × 周五012 主-1 让平：整套3.16倍；周五008 胜 × 周五012 主-1 让负：整套2.38倍；任一腿出覆盖为0倍。",
+      "oddsText": "整套返还倍率 3.11 / 2.48倍",
+      "effectiveReturnText": "周五008 胜 × 周五012 主-1 让平：整套3.11倍；周五008 胜 × 周五012 主-1 让负：整套2.48倍；未覆盖结果为0倍。",
       "coverageText": "两分支等额，仅防一场；倍率已按整套投入折算，不是单张子票的赔率。",
-      "risk": "中高风险进取：008必须胜，012让平/让负保留保险；两档共享008，不能当独立风险。",
-      "imageSummary": "整套返还倍率 3.16 / 2.38倍。008胜×012主-1让平/让负；008平/负或012净胜2+均输。两档共享008，风险相关。",
-      "displayMultipliersOnly": true
+      "risk": "008必须胜；012主-1让平/让负覆盖净胜1球、平或负，净胜2+失败。",
+      "imageSummary": "周五008[胜] × 周五012[主-1 让平/让负]；整套返还倍率 3.11 / 2.48倍。008必须胜；012主-1让平/让负覆盖净胜1球、平或负，净胜2+失败。 两档共用008。",
+      "displayMultipliersOnly": true,
+      "oddsAsOf": "2026-10-23T08:09:57.5509737Z"
     },
     {
       "id": "exact-equal",
@@ -602,7 +604,7 @@
       "uncoveredNet": -8,
       "oddsText": "4票×2元＝8元；011恰赢1球且007胜/平，返17.09/29.39元",
       "effectiveReturnText": "007胜且011净胜1球：返17.09元，净9.09元；007胜且011净胜2+：返5.56元，净-2.44元；007平且011净胜1球：返29.39元，净21.39元；007平且011净胜2+：返9.56元，净1.56元；007负或011不胜：返0元，净-8元",
-      "coverageText": "全部子票等额2元、统一1倍，不用差额配注补收益。理论返还以十进制定点计算四舍五入到分；以销售终端实际出票及结算为准。 011恰赢1球两张相关票同时中奖，011大胜仅普通胜中奖；不以部分中奖冒充整套盈利。",
+      "coverageText": "全部子票等额2元、统一1倍，不用差额配注补收益。理论返还以十进制定点计算四舍五入到分；以销售终端实际出票及结算为准。 011恰赢1球两张相关票同时中奖，011大胜仅普通胜中奖；不以部分中奖冒充整套盈利。 本轮保留原博单选项及原版参考赔率，非本次核心换腿。",
       "risk": "1★非胆；全场波动中，保险不保证命中，出覆盖可能全损。",
       "scenarios": [
         {
@@ -632,7 +634,8 @@
         }
       ],
       "structureText": "4张独立2串1，每张2元，共8元；同一场不自串，跨市场重叠是博精准，不是防平保险。",
-      "imageSummary": "4票各2元，共8元。011净胜1球且007胜/平，返17.09/29.39元；011净胜2+且007胜/平，返5.56/9.56元。007负或011不胜返0；部分命中仍可亏。与新3.0无共同场次。"
+      "imageSummary": "4票各2元，共8元。011净胜1球且007胜/平，返17.09/29.39元；011净胜2+且007胜/平，返5.56/9.56元。007负或011不胜返0；部分命中仍可亏。与新3.0无共同场次。",
+      "oddsAsOf": "2026-10-23T07:46:03.9089421Z"
     },
     {
       "id": "half-singles-parlay-equal",
@@ -838,14 +841,15 @@
       "structureText": "官方两场HAFU single=true、allUp=true、Selling；两张单关各2元＋2串1另2元，总成本6元。",
       "oddsText": "单关4.3/4.05；三票各2元，共6元",
       "effectiveReturnText": "仅007平胜命中：返8.6元，净2.6元；仅012平胜命中：返8.1元，净2.1元；两场平胜都中：返51.53元，净45.53元；两场均不中：返0元，净-6元",
-      "coverageText": "按用户要求，整套命中记为至少一张单关命中；2串1仍只在两场都中时记中。当前两种独中返还均超过整套6元成本，属于条件核算，不保证任一场必定命中。单关已包含在6元内，不重复购买。",
+      "coverageText": "按用户要求，整套命中记为至少一张单关命中；2串1仍只在两场都中时记中。当前两种独中返还均超过整套6元成本，属于条件核算，不保证任一场必定命中。单关已包含在6元内，不重复购买。 本轮保留原博单选项及原版参考赔率，非本次核心换腿。",
       "risk": "高波动博单，半场状态比全场方向更窄；两场都不中亏6元。",
       "imageSummary": "官方两场HAFU single=true、allUp=true、Selling；两张单关各2元＋2串1另2元，总成本6元。 仅007平胜命中：返8.6元，净2.6元；仅012平胜命中：返8.1元，净2.1元；两场平胜都中：返51.53元，净45.53元；两场均不中：返0元，净-6元 中一关记整套有单关命中，纯2串1不算中。",
       "settlementPolicy": {
         "packageHit": "singlesHit>=1",
         "parlayHit": "both legs hit",
         "net": "sum of all winning subticket returns minus 6"
-      }
+      },
+      "oddsAsOf": "2026-10-23T07:46:03.9089421Z"
     },
     {
       "id": "mixed-dream-equal",
@@ -1108,9 +1112,10 @@
       "structureText": "5场单选混合5串1，只出1注×2元＝2元；未默认拆3关或4关。",
       "oddsText": "组合赔率100.13—100.13倍",
       "effectiveReturnText": "等额整套折算返还100.13—100.13倍；任一腿出覆盖为0倍。",
-      "coverageText": "补回原本混合玩法梦想单这一产品类型；不是恢复未经复核的13:45原票。本票没有保险，不能替代核心；002客胜及两场净胜1球均属高波动。",
+      "coverageText": "补回原本混合玩法梦想单这一产品类型；不是恢复未经复核的13:45原票。本票没有保险，不能替代核心；002客胜及两场净胜1球均属高波动。 本轮保留原博单选项及原版参考赔率，非本次核心换腿。",
       "risk": "长串高波动，与其他方案相关；任何一场平局、进球数或净胜球偏离均可全损。",
-      "imageSummary": "周五002 负 × 周五007 胜 × 周五008 总进球3球 × 周五011 主-1 让平 × 周五012 主-1 让平；组合赔率100.13—100.13倍；等额整套折算返还100.13—100.13倍；任一腿出覆盖为0倍。"
+      "imageSummary": "周五002 负 × 周五007 胜 × 周五008 总进球3球 × 周五011 主-1 让平 × 周五012 主-1 让平；组合赔率100.13—100.13倍；等额整套折算返还100.13—100.13倍；任一腿出覆盖为0倍。",
+      "oddsAsOf": "2026-10-23T07:46:03.9089421Z"
     },
     {
       "id": "dream-ttg-equal",
@@ -4876,10 +4881,11 @@
       "minimumCombinationOdds": 107.83276875,
       "oddsText": "组合赔率104.71—569.52倍",
       "effectiveReturnText": "等额整套折算返还1.29—7.03倍；任一腿出覆盖为0倍。",
-      "coverageText": "全部子票等额2元、统一1倍，不用差额配注补收益。理论返还以十进制定点计算四舍五入到分；以销售终端实际出票及结算为准。 4场全部选项命中才有返还；本票162元高于核心8元，不列为必须购买。",
+      "coverageText": "全部子票等额2元、统一1倍，不用差额配注补收益。理论返还以十进制定点计算四舍五入到分；以销售终端实际出票及结算为准。 4场全部选项命中才有返还；本票162元高于核心8元，不列为必须购买。 本轮保留原博单选项及原版参考赔率，非本次核心换腿。",
       "risk": "1★非胆；全场波动中，保险不保证命中，出覆盖可能全损。",
       "structureText": "4场各3项，3^4=81注×2元×1倍＝162元，全部81子票已列出。",
-      "imageSummary": "周五007[2/3/4] × 周五008[2/3/4] × 周五011[1/2/3] × 周五012[1/2/3]；组合赔率104.71—569.52倍；等额整套折算返还1.29—7.03倍；任一腿出覆盖为0倍。"
+      "imageSummary": "周五007[2/3/4] × 周五008[2/3/4] × 周五011[1/2/3] × 周五012[1/2/3]；组合赔率104.71—569.52倍；等额整套折算返还1.29—7.03倍；任一腿出覆盖为0倍。",
+      "oddsAsOf": "2026-10-23T07:46:03.9089421Z"
     }
   ],
   "scanTable": [
@@ -6081,18 +6087,18 @@
       "away": "门兴",
       "kickoff": "2026-10-24T02:30:00",
       "handicap": -1,
-      "buy": "胜/平",
-      "primaryPick": "胜/平",
+      "buy": "胜",
+      "primaryPick": "胜",
       "speculative": "无",
-      "selection": "胜/平",
+      "selection": "胜",
       "goals": "2/3/4",
       "score": "2:1 / 2:0 / 1:1",
       "halfFull": "胜胜/平胜",
       "stars": 1,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "用户要求等额重出版",
-      "risk": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。",
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "独立复核换腿版",
+      "risk": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。",
       "odds": {
         "spf": {
           "win": 1.21,
@@ -6308,8 +6314,8 @@
           "closeCheckedAt": "2026-10-23T07:29:09.622Z"
         }
       },
-      "exposureCount": 0,
-      "exposureRate": 0
+      "exposureCount": 1,
+      "exposureRate": 0.16666666666666666
     },
     {
       "number": "周五007",
@@ -6319,18 +6325,18 @@
       "away": "蒙扎",
       "kickoff": "2026-10-24T02:45:00",
       "handicap": -1,
-      "buy": "胜",
-      "primaryPick": "胜",
+      "buy": "胜/平",
+      "primaryPick": "胜/平",
       "speculative": "半全场平胜单关＋2串1",
-      "selection": "胜",
+      "selection": "胜/平",
       "goals": "2/3/4",
       "score": "2:1 / 1:1 / 2:2",
       "halfFull": "平胜（博）；平平观察",
       "stars": 1,
-      "recommended": true,
-      "purchaseApproved": true,
-      "status": "用户要求最多一场双选重出版",
-      "risk": "单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。",
+      "recommended": false,
+      "purchaseApproved": false,
+      "status": "独立复核换腿版",
+      "risk": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。",
       "odds": {
         "spf": {
           "win": 1.89,
@@ -6546,8 +6552,8 @@
           "closeCheckedAt": "2026-10-23T07:29:09.622Z"
         }
       },
-      "exposureCount": 5,
-      "exposureRate": 0.8333333333333334
+      "exposureCount": 4,
+      "exposureRate": 0.6666666666666666
     },
     {
       "number": "周五008",
@@ -6567,8 +6573,8 @@
       "stars": 1,
       "recommended": true,
       "purchaseApproved": true,
-      "status": "用户要求最多一场双选重出版",
-      "risk": "胜/平保留唯一保险：Ajorque支点和Magnetti/Chotard二点保护对尼斯低位有进攻依据；尼斯Wahi/Amoura反击会冲击Tousart/Lloris转身，主胜单选不如007适合承担本票单选位置，平局分支继续保留。",
+      "status": "独立复核换腿版",
+      "risk": "保留唯一防平：Ajorque支点、Doumbia二点与双中场支持主队方向；尼斯Wahi/Amoura反击冲击替代中卫，平局不能从保守票中删除。",
       "odds": {
         "spf": {
           "win": 2.07,
@@ -7523,39 +7529,39 @@
       "risk": "主-1让平/让负保留真实保险，覆盖吉马良斯净胜1球、平局或输球；8轮5球及破密防效率不足支持此边界，攻击回归与客队脆弱防线构成净胜2+失败路径。",
       "odds": {
         "spf": {
-          "win": 1.47,
-          "draw": 3.7,
-          "lose": 5.6
+          "win": 1.43,
+          "draw": 3.85,
+          "lose": 5.9
         },
         "rqspf": {
-          "win": 2.73,
-          "draw": 3.05,
-          "lose": 2.3
+          "win": 2.64,
+          "draw": 3,
+          "lose": 2.4
         },
         "officialMarkets": {
           "had": {
-            "a": "5.60",
-            "af": "0",
-            "d": "3.70",
-            "df": "0",
+            "a": "5.90",
+            "af": "1",
+            "d": "3.85",
+            "df": "1",
             "goalLine": "",
             "goalLineValue": "",
-            "h": "1.47",
-            "hf": "0",
+            "h": "1.43",
+            "hf": "-1",
             "updateDate": "2026-10-23",
-            "updateTime": "13:59:54"
+            "updateTime": "15:53:12"
           },
           "hhad": {
-            "a": "2.30",
-            "af": "0",
-            "d": "3.05",
-            "df": "0",
+            "a": "2.40",
+            "af": "1",
+            "d": "3.00",
+            "df": "-1",
             "goalLine": "-1",
             "goalLineValue": "-1.00",
-            "h": "2.73",
-            "hf": "0",
+            "h": "2.64",
+            "hf": "-1",
             "updateDate": "2026-10-23",
-            "updateTime": "13:59:57"
+            "updateTime": "15:53:17"
           },
           "ttg": {
             "goalLine": "",
@@ -9144,32 +9150,32 @@
     },
     {
       "number": "周五006",
-      "text": "扫盘：胜/平；不入核心，仍保留本场方向。出战与替代：Vagnoman、Nartey、Tiago Tomas、Diehl、Zagadou确定本场不能上。恢复训练不等于可出场。Kicker预计阵容页403，未把搜索摘要的Bredlow/Assignon当已核完整阵容。门兴两场1:2均有破门，不能按排名认定哑火。 攻防：斯图加特对马竞1:1有强对手样本，但不能将欧战控制直接照搬联赛；门兴连续1:2负科隆和霍村仍每场能破门，不能当无反击。 交锋：历史交锋不抵消本轮短休和新伤，不用于升星。 赛程强度校正：主队混合校正：平马竞升权、友谊5:0及胜帕德博恩/布拉迪斯拉发降权，同时有负汉堡；客队中性：两次1:2说明能破门，过程强度待核。 战意：主队争联赛分数与恢复兼顾，客队希望止败；不以主场强队身份代替证据。 轮换：中高；主队周二欧冠到周五联赛，虽连续主场免长旅但恢复仅三天且新伤，轮换中高风险；客队取舍待核。 盘面：官方胜/平/负 1.21/5.78/7.70；主-1让胜/让平/让负 1.67/4.15/3.45；采集2026-10-23T06:45:44.853Z。 波动：中高；周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 输钱路径：胜/平：新伤替代区域被门兴反击突破，先失后追不上。；胜/平：疲劳下二点球保护下降，客队定位球得分并守住。；让胜/让平：只要平局就两项皆输，因此不能用其冒充防平。 总进球：仅列研究分布；未形成梦想串入选证明。没有用预测比分反证概率。 本次等额重审：周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 本次采集2026-10-23T07:25:54.0025580Z；胜平负1.21/5.78/7.70；主-1让球1.67/4.15/3.45。",
-      "availability": "Vagnoman、Nartey、Tiago Tomas、Diehl、Zagadou确定本场不能上。恢复训练不等于可出场。Kicker预计阵容页403，未把搜索摘要的Bredlow/Assignon当已核完整阵容。门兴两场1:2均有破门，不能按排名认定哑火。",
-      "matchup": "斯图加特对马竞1:1有强对手样本，但不能将欧战控制直接照搬联赛；门兴连续1:2负科隆和霍村仍每场能破门，不能当无反击。",
+      "text": "扫盘：胜；2.0替换腿。替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。 攻防：Assignon接替右路，Jeltsch/Chabot保护中路；Karazor/Stiller出球和四名前场攻击手预计可用，面对门兴Diks/Chiarodia防线有持续创造依据。门兴仍有Bolin/Machino与边路反击，不能当作无攻击。预计门将资料有Seimen/Bredlow分歧，不当作正式首发；两人均在官方名单，未以某一人首发构建优势。 赛程强度：主队混合校正：平马竞升权、友谊5:0及胜帕德博恩/布拉迪斯拉发降权，同时有负汉堡；客队中性：两次1:2说明能破门，过程强度待核。 战意：主队争联赛分数与恢复兼顾，客队希望止败；不以主场强队身份代替证据。 交锋：历史交锋不抵消本轮短休和新伤，不用于升星。 输钱路径：欧冠后三天短休使后半场压迫下降，领先被追平，普通胜失败。；Assignon接替Vagnoman后的边路配合被Bolin/Machino利用，先丢球后追不回。；延续对汉堡的终结低效，Nicolas扑救和门兴低位拖成平局；1.21不是保险。",
+      "availability": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。",
+      "matchup": "Assignon接替右路，Jeltsch/Chabot保护中路；Karazor/Stiller出球和四名前场攻击手预计可用，面对门兴Diks/Chiarodia防线有持续创造依据。门兴仍有Bolin/Machino与边路反击，不能当作无攻击。预计门将资料有Seimen/Bredlow分歧，不当作正式首发；两人均在官方名单，未以某一人首发构建优势。",
       "headToHead": "历史交锋不抵消本轮短休和新伤，不用于升星。",
       "scheduleStrengthCorrection": "主队混合校正：平马竞升权、友谊5:0及胜帕德博恩/布拉迪斯拉发降权，同时有负汉堡；客队中性：两次1:2说明能破门，过程强度待核。",
       "rotation": {
-        "risk": "中高",
-        "assessment": "主队周二欧冠到周五联赛，虽连续主场免长旅但恢复仅三天且新伤，轮换中高风险；客队取舍待核。"
+        "risk": "中",
+        "assessment": "欧冠至联赛三天短休真实存在；连续主场减少旅途，官方缺席名单与预计替代已补核，无大轮换实锤。首发未公布，不声称无轮换。"
       },
       "motivation": "主队争联赛分数与恢复兼顾，客队希望止败；不以主场强队身份代替证据。",
       "lossPaths": [
-        "胜/平：新伤替代区域被门兴反击突破，先失后追不上。",
-        "胜/平：疲劳下二点球保护下降，客队定位球得分并守住。",
-        "让胜/让平：只要平局就两项皆输，因此不能用其冒充防平。"
+        "欧冠后三天短休使后半场压迫下降，领先被追平，普通胜失败。",
+        "Assignon接替Vagnoman后的边路配合被Bolin/Machino利用，先丢球后追不回。",
+        "延续对汉堡的终结低效，Nicolas扑救和门兴低位拖成平局；1.21不是保险。"
       ],
       "volatility": {
-        "level": "中高",
-        "reason": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。"
+        "level": "中",
+        "reason": "比赛短休波动保留；仅选普通胜而不追净胜球，较007单胜优先，但不能认定低风险。"
       },
       "highStarGate": {
         "passed": false,
-        "status": "rejected",
-        "reason": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。"
+        "status": "not-high-star",
+        "reason": "短休及联赛状态不稳定，不升高星。"
       },
       "prediction": {
-        "buy": "胜/平",
+        "buy": "胜",
         "speculative": "无",
         "scores": [
           "2:1",
@@ -9185,7 +9191,7 @@
           "胜胜",
           "平胜"
         ],
-        "reason": "斯图加特对马竞的竞争力和创造能力支持主不败；短休及边路新伤使平局保险必要。让胜/让平只能覆盖赢球，不能替代普通胜/平。"
+        "reason": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
       },
       "goalsCrossCheck": {
         "recentFormalOnly": [
@@ -9337,6 +9343,13 @@
           "capturedAt": "2026-10-23T05:59:43.106Z",
           "status": 200,
           "archive": "fresh-clubs.json"
+        },
+        {
+          "url": "https://www.sportsmole.co.uk/football/stuttgart/preview/stuttgart-vs-borussia-mbach-prediction-team-news-lineups_607392.html",
+          "publishedAt": "2026-10-22 00:36",
+          "capturedAt": "2026-10-23T08:13:31.224Z",
+          "status": 200,
+          "archive": "replacement-evidence.json"
         }
       ],
       "oddsHistory": {
@@ -9411,16 +9424,16 @@
           }
         ]
       },
-      "currentMarket": "本次采集2026-10-23T07:25:54.0025580Z；胜平负1.21/5.78/7.70；主-1让球1.67/4.15/3.45。",
+      "currentMarket": "核心赔率复核 2026-10-23T08:09:57.5509737Z；胜平负1.21/5.78/7.70；主-1让球1.67/4.15/3.45",
       "coreDecision": {
-        "approved": false,
-        "tier": null,
-        "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。"
+        "approved": true,
+        "tier": "2.0",
+        "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
       }
     },
     {
       "number": "周五007",
-      "text": "扫盘：胜/平；本版入选主推，按本次原票承担未覆盖风险。出战与替代：Corriere预计都灵Perri门将、Coco/Ismajli/Comuzzo三中卫，Vlasic/Adams支援Simeone；Monza为Tornqvist，前场Mota/Robinson/Varela。Fantacalcio同意前场结构，但称Lucchesi解禁回到中卫，Corriere将其列替补，属预计首发分歧。Rodriguez官方伤停确认；Zeballos膝不适拟争取替补。预计阵容不等于官方首发。 补核10/22发布会全文：Fitz-Jim足跟问题已恢复、连续两周训练良好，可踢后腰或中前卫；Ismajli获主帅肯定，Belghali防守站位仍在改进；Aboukhlal是左路替代选项。 攻防：都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 交锋：主帅确认此前被蒙扎淘汰出意大利杯，说明对手的身体对抗与人盯人确有威胁；杯赛不可直接推导本轮比分。 赛程强度校正：都灵客胜佛罗伦萨、客平博洛尼亚升权，3:0帕尔马不外推每场大胜，主负罗马保留反证。蒙扎胜萨索洛、卡利亚里主要为主场，迁移到本轮客场降权；客负拉齐奥不等同对所有对手弱。样本都灵5场、蒙扎3场，只作方向证据，不估计精确胜率。 战意：双方均需联赛分数，没有可核单边战意优势。 轮换：中；都灵10/19、10/23、10/27连续比赛。主帅原话为按身体状态选择最有保障的球员，只考虑蒙扎；这不是确定大轮换，也不是保证原班首发。预计阵容差异本身不能当作整场硬淘汰理由。 盘面：官方胜/平/负 1.89/3.25/3.42；主-1让胜/让平/让负 3.80/3.60/1.70；采集2026-10-23T06:45:44.853Z。 波动：中；全场波动中；相对比较后，胜/平比主胜或主-1更能承受领先后失球与僵局。公开阵容替代、主帅只聚焦本场和对手强度校正共同支持主队方向；本版2.0单选主胜并承担平局风险，非低风险保证。 输钱路径：蒙扎以人盯人破坏都灵中场接应，先入球后守住优势；胜/平全输。；都灵翼卫压上后，Mota/Robinson/Varela冲击身后，替代防线交接失误导致客胜。；10/19、23、27连续赛程令都灵后段体能下降，平局被反击改写为失利；无平局保险可救。 总进球：选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 本次等额重审：保留方向与保险，但本版按用户新结构重新选入主推，具体票面与风险见本次方案。 本次采集2026-10-23T07:25:54.0025580Z；胜平负1.89/3.25/3.42；主-1让球3.80/3.60/1.70。 半全场专项：半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 输钱路径：都灵或蒙扎上半场领先，即使都灵最终赢球也不中平胜。；半场平但蒙扎低位与反击守成，最终平局或客胜。；伤停替代、早牌或定位球改变上下半场节奏。 本次最新取舍：单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。 本票输钱路径：蒙扎人盯人压缩Vlasic接球，都灵破密防低效，最终平局即整票失败。；翼卫身后被Mota/Robinson/Varela突破，蒙扎客胜。；连续赛程令领先后控制下降，被追平；本版不再防这一结果。",
+      "text": "扫盘：胜/平；撤销原2.0单胜。撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。 阵容：Corriere预计都灵Perri门将、Coco/Ismajli/Comuzzo三中卫，Vlasic/Adams支援Simeone；Monza为Tornqvist，前场Mota/Robinson/Varela。Fantacalcio同意前场结构，但称Lucchesi解禁回到中卫，Corriere将其列替补，属预计首发分歧。Rodriguez官方伤停确认；Zeballos膝不适拟争取替补。预计阵容不等于官方首发。 补核10/22发布会全文：Fitz-Jim足跟问题已恢复、连续两周训练良好，可踢后腰或中前卫；Ismajli获主帅肯定，Belghali防守站位仍在改进；Aboukhlal是左路替代选项。 对位：都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 赛程：都灵客胜佛罗伦萨、客平博洛尼亚升权，3:0帕尔马不外推每场大胜，主负罗马保留反证。蒙扎胜萨索洛、卡利亚里主要为主场，迁移到本轮客场降权；客负拉齐奥不等同对所有对手弱。样本都灵5场、蒙扎3场，只作方向证据，不估计精确胜率。 轮换：都灵10/19、10/23、10/27连续比赛。主帅原话为按身体状态选择最有保障的球员，只考虑蒙扎；这不是确定大轮换，也不是保证原班首发。预计阵容差异本身不能当作整场硬淘汰理由。 输钱路径：蒙扎重复杯赛人盯人限制；Varela打翼卫身后；短休末段失球。原半全场和梦想串是博单，并未因保留而获得核心认可。",
       "availability": "Corriere预计都灵Perri门将、Coco/Ismajli/Comuzzo三中卫，Vlasic/Adams支援Simeone；Monza为Tornqvist，前场Mota/Robinson/Varela。Fantacalcio同意前场结构，但称Lucchesi解禁回到中卫，Corriere将其列替补，属预计首发分歧。Rodriguez官方伤停确认；Zeballos膝不适拟争取替补。预计阵容不等于官方首发。 补核10/22发布会全文：Fitz-Jim足跟问题已恢复、连续两周训练良好，可踢后腰或中前卫；Ismajli获主帅肯定，Belghali防守站位仍在改进；Aboukhlal是左路替代选项。",
       "matchup": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。",
       "headToHead": "主帅确认此前被蒙扎淘汰出意大利杯，说明对手的身体对抗与人盯人确有威胁；杯赛不可直接推导本轮比分。",
@@ -9437,7 +9450,7 @@
       ],
       "volatility": {
         "level": "中高",
-        "reason": "全场波动中；相对比较后，胜/平比主胜或主-1更能承受领先后失球与僵局。公开阵容替代、主帅只聚焦本场和对手强度校正共同支持胜/平方向；等额配对成本审核后本次不入2.0，非低风险保证。"
+        "reason": "主队进攻支持与蒙扎高效反击并存；不再单选入2.0。"
       },
       "highStarGate": {
         "passed": false,
@@ -9445,7 +9458,7 @@
         "reason": "保留实际反向风险，未授予2★/3★或必胜标签。"
       },
       "prediction": {
-        "buy": "胜",
+        "buy": "胜/平",
         "speculative": "无",
         "scores": [
           "2:1",
@@ -9461,7 +9474,7 @@
           "平胜",
           "平平"
         ],
-        "reason": "单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。"
+        "reason": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
       },
       "goalsCrossCheck": {
         "recentFormalOnly": [
@@ -9704,9 +9717,9 @@
       },
       "currentMarket": "本次采集2026-10-23T07:25:54.0025580Z；胜平负1.89/3.25/3.42；主-1让球3.80/3.60/1.70。",
       "coreDecision": {
-        "approved": true,
-        "tier": "2.0",
-        "assessment": "单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。"
+        "approved": false,
+        "tier": null,
+        "assessment": "007退出两档核心；主队倾向仅作胜/平扫盘和已保留博单。"
       },
       "halfTimeAudit": {
         "selection": "平胜",
@@ -9721,7 +9734,7 @@
     },
     {
       "number": "周五008",
-      "text": "扫盘：胜/平；按本版单保险/单选结构重审，非胆。出战与替代：FotMob本场页与Match en Direct/243foot预计阵容交叉一致：Brest Selvik；Lala、Tousart、Lloris、Locko；Chotard、Magnetti；Balde、Doumbia、Mboup；Ajorque。Chardonnet小腿伤，Le Guen踝、Versini膝伤；Tousart/Lloris为预计中卫替代。尼斯官方出征名单核实Diouf、Abdelmonem、Ndayishimiye、Mandza、Clauss、Nkounkou、Witsel、Boudaoui、Hein、Amoura、Wahi均在列；Abdi肌肉、Mendy/Abergel前交叉韧带、Bombito腿伤由FotMob列示。首发为预测，未冒称官方11人。 攻防：Ajorque支点与Doumbia二次接球能迫使尼斯三中卫后退，Magnetti/Chotard双中场利于保护二点。尼斯教练承认低位防守下反击衔接不足，抬高阵线后进攻改善；Wahi与Amoura速度会攻击Tousart/Lloris转身，不能单选主胜。胜/平承受尼斯低位限制终结造成的平局；尼斯率先打通反击并守住才会整腿失效。 交锋：旧交锋不能证明新教练、新后防组合的结果，不升星。 赛程强度校正：Brest主场0:1巴黎、客场1:1里尔升权，5:1昂热降权；客负欧塞尔不能忽略。尼斯胜里尔、斯特拉斯堡为主场，客负欧塞尔和里昂说明客场输出不如主场，但里昂对手强度上调，不用连败断言弱。 战意：主队主场争胜与尼斯改善攻守平衡均属正常目标，无独占战意证据。 轮换：中；预计阵容有两家独立来源及FotMob交叉，尼斯官方名单与前场主力一致；缺席后的替代已明确。未发现本场确定大轮换公告，普通预计首发差异保留为中风险，不继续当成无穷待核；不得声称全员无伤。 盘面：官方胜/平/负 2.07/3.35/2.88；主-1让胜/让平/让负 4.25/3.95/1.56；采集2026-10-23T06:45:44.853Z。 波动：中；全场波动中；通过Ajorque支点、双中场保护、尼斯客场转换限制支持主不败。中卫替代存在速度弱点，保留平局并降至1★，不宣称客胜路径消失。 输钱路径：Wahi/Amoura反击突破Tousart/Lloris转身，尼斯率先进球后收缩守住；主胜/平全输。；Ajorque被三中卫限制，Doumbia二点接应被Witsel切断，Brest阵地战长期无效。；Brest追分压上导致边路留空，尼斯高位调整奏效再进一球；不能用防平覆盖客胜。 总进球：选2/3/4：Brest可辨正式总进球1/3/6/2，昂热6球降权；尼斯2/1/3/3/3，以3球为中心。Ajorque支点和Wahi/Amoura反击支持双方制造机会，Brest替代中卫上限风险留4。TTG 3球3.45、2球3.65、4球4.90均低于1球5.75，合并证据将旧1/2/3改为2/3/4。尼斯低位成功可落0/1，转换失控可5+，均是整串失败尾部。 本次等额重审：全场波动中；通过Ajorque支点、双中场保护、尼斯客场转换限制支持主不败。中卫替代存在速度弱点，保留平局并降至1★，不宣称客胜路径消失。 本次采集2026-10-23T07:25:54.0025580Z；胜平负2.07/3.35/2.88；主-1让球4.25/3.95/1.56。 本次最新取舍：胜/平保留唯一保险：Ajorque支点和Magnetti/Chotard二点保护对尼斯低位有进攻依据；尼斯Wahi/Amoura反击会冲击Tousart/Lloris转身，主胜单选不如007适合承担本票单选位置，平局分支继续保留。 本票输钱路径：Wahi/Amoura反击突破Tousart/Lloris转身，尼斯率先进球后收缩守住；主胜/平全输。；Ajorque被三中卫限制，Doumbia二点接应被Witsel切断，Brest阵地战长期无效。；Brest追分压上导致边路留空，尼斯高位调整奏效再进一球；不能用防平覆盖客胜。 本版2.0保留008胜/平；3.0仅取008胜，主动承担平局风险，保险留给012。",
+      "text": "扫盘：胜/平。FotMob本场页与Match en Direct/243foot预计阵容交叉一致：Brest Selvik；Lala、Tousart、Lloris、Locko；Chotard、Magnetti；Balde、Doumbia、Mboup；Ajorque。Chardonnet小腿伤，Le Guen踝、Versini膝伤；Tousart/Lloris为预计中卫替代。尼斯官方出征名单核实Diouf、Abdelmonem、Ndayishimiye、Mandza、Clauss、Nkounkou、Witsel、Boudaoui、Hein、Amoura、Wahi均在列；Abdi肌肉、Mendy/Abergel前交叉韧带、Bombito腿伤由FotMob列示。首发为预测，未冒称官方11人。 Ajorque支点与Doumbia二次接球能迫使尼斯三中卫后退，Magnetti/Chotard双中场利于保护二点。尼斯教练承认低位防守下反击衔接不足，抬高阵线后进攻改善；Wahi与Amoura速度会攻击Tousart/Lloris转身，不能单选主胜。胜/平承受尼斯低位限制终结造成的平局；尼斯率先打通反击并守住才会整腿失效。 2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。 输钱路径：尼斯反击客胜；低位导致平局使3.0失败；领先后被追平。",
       "availability": "FotMob本场页与Match en Direct/243foot预计阵容交叉一致：Brest Selvik；Lala、Tousart、Lloris、Locko；Chotard、Magnetti；Balde、Doumbia、Mboup；Ajorque。Chardonnet小腿伤，Le Guen踝、Versini膝伤；Tousart/Lloris为预计中卫替代。尼斯官方出征名单核实Diouf、Abdelmonem、Ndayishimiye、Mandza、Clauss、Nkounkou、Witsel、Boudaoui、Hein、Amoura、Wahi均在列；Abdi肌肉、Mendy/Abergel前交叉韧带、Bombito腿伤由FotMob列示。首发为预测，未冒称官方11人。",
       "matchup": "Ajorque支点与Doumbia二次接球能迫使尼斯三中卫后退，Magnetti/Chotard双中场利于保护二点。尼斯教练承认低位防守下反击衔接不足，抬高阵线后进攻改善；Wahi与Amoura速度会攻击Tousart/Lloris转身，不能单选主胜。胜/平承受尼斯低位限制终结造成的平局；尼斯率先打通反击并守住才会整腿失效。",
       "headToHead": "旧交锋不能证明新教练、新后防组合的结果，不升星。",
@@ -9738,7 +9751,7 @@
       ],
       "volatility": {
         "level": "中高",
-        "reason": "全场波动中；通过Ajorque支点、双中场保护、尼斯客场转换限制支持主不败。中卫替代存在速度弱点，保留平局并降至1★，不宣称客胜路径消失。 本版与007组成2.0，仅本场保留胜/平保险。"
+        "reason": "主队进攻支点支持，替代中卫防速度不足，2.0保留平局保险；3.0单胜进取，不等于更稳。"
       },
       "highStarGate": {
         "passed": false,
@@ -9762,7 +9775,7 @@
           "平胜",
           "平平"
         ],
-        "reason": "胜/平保留唯一保险：Ajorque支点和Magnetti/Chotard二点保护对尼斯低位有进攻依据；尼斯Wahi/Amoura反击会冲击Tousart/Lloris转身，主胜单选不如007适合承担本票单选位置，平局分支继续保留。"
+        "reason": "保留唯一防平：Ajorque支点、Doumbia二点与双中场支持主队方向；尼斯Wahi/Amoura反击冲击替代中卫，平局不能从保守票中删除。"
       },
       "goalsCrossCheck": {
         "recentFormalOnly": [
@@ -10011,11 +10024,11 @@
           }
         ]
       },
-      "currentMarket": "本次采集2026-10-23T07:25:54.0025580Z；胜平负2.07/3.35/2.88；主-1让球4.25/3.95/1.56。",
+      "currentMarket": "核心赔率复核 2026-10-23T08:09:57.5509737Z；胜平负2.07/3.35/2.88；主-1让球4.25/3.95/1.56",
       "coreDecision": {
         "approved": true,
         "tier": "2.0与3.0",
-        "assessment": "2.0保留胜/平，3.0进取单选胜并承担平局风险；两档共用008，暴露相关。"
+        "assessment": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
       }
     },
     {
@@ -10895,7 +10908,7 @@
     },
     {
       "number": "周五012",
-      "text": "扫盘：让平/让负；入选3.0等额双防例外，非胆。出战与替代：10/22主帅：Francisco Dias长期缺席、Thiago Balieiro存疑，其余恢复。10/21 Sports Mole补充Ndoye停赛；旧文Castillo伤缺与更新官方其余恢复有冲突，按较新官方但不把Castillo放关键首发。预计Zych门将，Strata/Borevkovic/Rivas/Mendes后防，Doucet/G.Nogueira中场，Gustavo Silva/Samu/Camara支援Jakupovic。Thiago疑问由Rivas/Borevkovic组合承接，不依赖其上场。客队Vieites门将，Juliao/Correia/Szalai/Henrique后防，Alani/Guzzo中场，Dominguez/Andrade/Tejon/Butzke攻击；Yellu Santiago未复出，Danilovic存疑，不放预计主轴。 攻防：Vitoria边后卫前压、Gustavo Silva恢复增强禁区供给，存在赢2球以上风险；但联赛8轮仅5球、近四轮0/1/1/0球，不能由恢复训练直接推净胜2+。Maritimo组织换位可缓解开局压迫，Butzke六场球荒使客队大开大合反攻依据较弱。主-1让平/让负覆盖主队恰赢1球、平或负，明确只输主队净胜至少2球，不依赖Thiago必须上场。 交锋：Sports Mole记Maritimo对Vitoria近10次不胜、其中8负，最近4次全负，最近本场地2022年为0:1。时间跨度大仅低权参考：支持主队略占优，不能证明本场必一球或必大胜。 赛程强度校正：主队杯赛1:0Lamelas降权，低级别胜利不作联赛复苏证明；客队对Benfica/Porto失球需按强对手折扣，杯赛Alcochetense同样降权。Maritimo近六轮五次失2+是反向事实，不能只因主队低产就忽略大胜尾部。 战意：主帅表达需要球迷和三分，但求胜意愿不等于实力；客队还有杯赛任务。 轮换：中；纠正：整套11人更换指上一场杯赛，非今晚联赛已确认轮换。Lucas Furtado不保证首发是普通选择；Borevkovic/Jakupovic及Gustavo Silva恢复可用。客队10/27联赛杯存在用人考虑，但未有本场大轮换公告；预计体系保留，不能编造低风险原班。 盘面：官方胜/平/负 1.47/3.70/5.60；主-1让胜/让平/让负 2.73/3.05/2.30；采集2026-10-23T06:45:44.853Z。 波动：中；全场波动中；让平/让负规避主胜无法兑现的主要风险，同时承担主队复出攻击群打穿客防的2+尾部。官方让胜2.73说明该尾部不能称极小，因此列3.0非2.0。 输钱路径：Gustavo Silva/Jakupovic恢复后把机会转成进球，Maritimo近六轮五次失2+的弱点再现，Vitoria净胜2球以上。；Maritimo早失球被迫压上，主队边路压迫扩大比分；让平/让负两项同输。；客队后腰伤缺与可能用人调整使保护不足，主队定位球或二次进攻拉开差距；不因主队近期少进球忽略。 总进球：选1/2/3：主队近四联赛总进球0/3/2/2，杯赛1球低权；客队对Benfica/Moreirense/Gil Vicente/Porto为3/4/2/3，前两项需强度校正。主队8轮5球、客Butzke六场无球限制基础节奏，但主队攻击回归保留3。官方2球3.15、3球3.55、1球4.60居前三，4球5.70；0球与4+是未覆盖边界，攻击回归不是保证进球数。 本次最终取舍：主-1让平/让负保留真实保险，覆盖吉马良斯净胜1球、平局或输球；8轮5球及破密防效率不足支持此边界，攻击回归与客队脆弱防线构成净胜2+失败路径。 本版搭档008普通胜，012仍保留让平/让负保险。",
+      "text": "扫盘：让平/让负；入选3.0等额双防例外，非胆。出战与替代：10/22主帅：Francisco Dias长期缺席、Thiago Balieiro存疑，其余恢复。10/21 Sports Mole补充Ndoye停赛；旧文Castillo伤缺与更新官方其余恢复有冲突，按较新官方但不把Castillo放关键首发。预计Zych门将，Strata/Borevkovic/Rivas/Mendes后防，Doucet/G.Nogueira中场，Gustavo Silva/Samu/Camara支援Jakupovic。Thiago疑问由Rivas/Borevkovic组合承接，不依赖其上场。客队Vieites门将，Juliao/Correia/Szalai/Henrique后防，Alani/Guzzo中场，Dominguez/Andrade/Tejon/Butzke攻击；Yellu Santiago未复出，Danilovic存疑，不放预计主轴。 攻防：Vitoria边后卫前压、Gustavo Silva恢复增强禁区供给，存在赢2球以上风险；但联赛8轮仅5球、近四轮0/1/1/0球，不能由恢复训练直接推净胜2+。Maritimo组织换位可缓解开局压迫，Butzke六场球荒使客队大开大合反攻依据较弱。主-1让平/让负覆盖主队恰赢1球、平或负，明确只输主队净胜至少2球，不依赖Thiago必须上场。 交锋：Sports Mole记Maritimo对Vitoria近10次不胜、其中8负，最近4次全负，最近本场地2022年为0:1。时间跨度大仅低权参考：支持主队略占优，不能证明本场必一球或必大胜。 赛程强度校正：主队杯赛1:0Lamelas降权，低级别胜利不作联赛复苏证明；客队对Benfica/Porto失球需按强对手折扣，杯赛Alcochetense同样降权。Maritimo近六轮五次失2+是反向事实，不能只因主队低产就忽略大胜尾部。 战意：主帅表达需要球迷和三分，但求胜意愿不等于实力；客队还有杯赛任务。 轮换：中；纠正：整套11人更换指上一场杯赛，非今晚联赛已确认轮换。Lucas Furtado不保证首发是普通选择；Borevkovic/Jakupovic及Gustavo Silva恢复可用。客队10/27联赛杯存在用人考虑，但未有本场大轮换公告；预计体系保留，不能编造低风险原班。 盘面：官方胜/平/负 1.47/3.70/5.60；主-1让胜/让平/让负 2.73/3.05/2.30；采集2026-10-23T06:45:44.853Z。 波动：中；全场波动中；让平/让负规避主胜无法兑现的主要风险，同时承担主队复出攻击群打穿客防的2+尾部。官方让胜2.73说明该尾部不能称极小，因此列3.0非2.0。 输钱路径：Gustavo Silva/Jakupovic恢复后把机会转成进球，Maritimo近六轮五次失2+的弱点再现，Vitoria净胜2球以上。；Maritimo早失球被迫压上，主队边路压迫扩大比分；让平/让负两项同输。；客队后腰伤缺与可能用人调整使保护不足，主队定位球或二次进攻拉开差距；不因主队近期少进球忽略。 总进球：选1/2/3：主队近四联赛总进球0/3/2/2，杯赛1球低权；客队对Benfica/Moreirense/Gil Vicente/Porto为3/4/2/3，前两项需强度校正。主队8轮5球、客Butzke六场无球限制基础节奏，但主队攻击回归保留3。官方2球3.15、3球3.55、1球4.60居前三，4球5.70；0球与4+是未覆盖边界，攻击回归不是保证进球数。 本次最终取舍：主-1让平/让负保留真实保险，覆盖吉马良斯净胜1球、平局或输球；8轮5球及破密防效率不足支持此边界，攻击回归与客队脆弱防线构成净胜2+失败路径。 本版搭档008普通胜，012仍保留让平/让负保险。 新盘口主胜1.43、主-1让胜2.64较之前降低，对主队净胜2+尾部不能忽略；维持让平/让负且不升星。",
       "availability": "10/22主帅：Francisco Dias长期缺席、Thiago Balieiro存疑，其余恢复。10/21 Sports Mole补充Ndoye停赛；旧文Castillo伤缺与更新官方其余恢复有冲突，按较新官方但不把Castillo放关键首发。预计Zych门将，Strata/Borevkovic/Rivas/Mendes后防，Doucet/G.Nogueira中场，Gustavo Silva/Samu/Camara支援Jakupovic。Thiago疑问由Rivas/Borevkovic组合承接，不依赖其上场。客队Vieites门将，Juliao/Correia/Szalai/Henrique后防，Alani/Guzzo中场，Dominguez/Andrade/Tejon/Butzke攻击；Yellu Santiago未复出，Danilovic存疑，不放预计主轴。",
       "matchup": "Vitoria边后卫前压、Gustavo Silva恢复增强禁区供给，存在赢2球以上风险；但联赛8轮仅5球、近四轮0/1/1/0球，不能由恢复训练直接推净胜2+。Maritimo组织换位可缓解开局压迫，Butzke六场球荒使客队大开大合反攻依据较弱。主-1让平/让负覆盖主队恰赢1球、平或负，明确只输主队净胜至少2球，不依赖Thiago必须上场。",
       "headToHead": "Sports Mole记Maritimo对Vitoria近10次不胜、其中8负，最近4次全负，最近本场地2022年为0:1。时间跨度大仅低权参考：支持主队略占优，不能证明本场必一球或必大胜。",
@@ -11192,7 +11205,7 @@
           }
         ]
       },
-      "currentMarket": "本次采集2026-10-23T07:25:54.0025580Z；胜平负1.47/3.70/5.60；主-1让球2.73/3.05/2.30。",
+      "currentMarket": "核心赔率复核 2026-10-23T08:09:57.5509737Z；胜平负1.43/3.85/5.90；主-1让球2.64/3.00/2.40",
       "coreDecision": {
         "approved": true,
         "tier": "3.0",
@@ -11415,23 +11428,22 @@
     }
   ],
   "limitations": [
-    "本轮正式赛样本来自08:04采集，蒙扎仅3场、部分队4场，不伪称完整近5；10—12时快照复用08:12数据，不伪称新采集。",
-    "预计阵容不是官方首发；概率未校准，不给保证命中或连胜承诺。",
-    "当前已知手机主站与过渡站配置为同一URL，不能声称两个独立域名部署。",
-    "本次依据官方2026-10-23 10:00公告确认当日22:00停售；单场临时停售、开赛及出票实际报价优先。",
-    "半场证据为逐场已核验的少量样本加当前阵容/战术推导，没有完整半场频率模型，不许诺命中率。",
-    "2.0单选007、3.0单选008，其平局风险真实存在；3.0没有直接单选让平，012让平/让负继续覆盖。两档共同场次008，风险相关。"
+    "2.0名称不是最低2倍承诺；本版整套1.25/2.03倍。",
+    "006三天短休与联赛状态风险仍在，不称稳胆。",
+    "3.0单选008，平局及客胜均失败；012净胜2+失败。",
+    "两档共享008，尼斯客胜会使两档同时失败。",
+    "四种博单按原选项及原参考赔率保留，007仍在博单，不等于核心认可。"
   ],
   "correctionOf": {
     "edition": "2026-10-23完整最终方案·纠错版",
     "publishedAt": "2026-10-23T05:45:39.836Z",
-    "remoteCommit": "5f922ca256d4510f022a7bde09f7a22578677245",
-    "previousAuditEdition": "2026-10-23-equal-reissue-20261023T073618432Z"
+    "remoteCommit": "40526aecc611fb17774c0c9468dc0cbe4213c3e4",
+    "previousAuditEdition": "2026-10-23-one-cover-20261023T075528654Z"
   },
-  "correctionReason": "用户要求两档均出、每套最多一场双选，并明确拒绝3.0直接单选让平。撤回未发布的011胜×012让平草案，最终3.0保留012让平/让负；新版承认单选007/008增加平局风险，没有新增证据证明风险消失。展示按用户示例只报分支组合赔率，并另列等额整套折算倍率。 用户随后以截图明确确认以上两档与整套倍率展示，按该确认发布。",
+  "correctionReason": "用户要求由模型独立判断007是否该换并立即更新。新增006完整替代配置与对手伤停核查后，以006普通胜替换007单胜；不再因倍率删007保险。2.0为产品名，不保证每一分支达到2倍；本次接受较低回报，短休风险仍明确。",
   "batches": [
     {
-      "id": "2026-10-23-one-cover-20261023T075528654Z",
+      "id": "2026-10-23-core-replacement-20261023T081337852Z",
       "numbers": [
         "周五001",
         "周五002",
@@ -11447,10 +11459,10 @@
         "周五012"
       ],
       "deadline": "2026-10-23T16:00:00+08:00",
-      "publishedAt": "2026-10-23T07:55:28.654Z",
+      "publishedAt": "2026-10-23T08:13:37.852Z",
       "locked": true,
       "session": "用户授权纠错；晚场原票",
-      "archiveVersion": "2026-10-23-one-cover-20261023T075528654Z"
+      "archiveVersion": "2026-10-23-core-replacement-20261023T081337852Z"
     }
   ],
   "decision": {
@@ -14000,8 +14012,8 @@
       "code": "HAD",
       "market": "胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "不入核心",
-      "reason": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 同市场保险可覆盖平局但不能消除真实反向胜负风险。",
+      "coreStatus": "2.0普通胜；不升让球",
+      "reason": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -14027,17 +14039,17 @@
         {
           "key": "a",
           "odds": 7.7,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 同市场保险可覆盖平局但不能消除真实反向胜负风险。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "d",
           "odds": 5.78,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 同市场保险可覆盖平局但不能消除真实反向胜负风险。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "h",
           "odds": 1.21,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 同市场保险可覆盖平局但不能消除真实反向胜负风险。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         }
       ]
     },
@@ -14046,8 +14058,8 @@
       "code": "HHAD",
       "market": "让球胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "不入核心",
-      "reason": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 让球单双选将风险转移到净胜边界，既有阵容/波动反证仍在，不能靠换市场消除。",
+      "coreStatus": "未选核心",
+      "reason": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -14073,17 +14085,17 @@
         {
           "key": "a",
           "odds": 3.45,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 让球单双选将风险转移到净胜边界，既有阵容/波动反证仍在，不能靠换市场消除。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "d",
           "odds": 4.15,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 让球单双选将风险转移到净胜边界，既有阵容/波动反证仍在，不能靠换市场消除。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "h",
           "odds": 1.67,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 让球单双选将风险转移到净胜边界，既有阵容/波动反证仍在，不能靠换市场消除。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         }
       ]
     },
@@ -14092,8 +14104,8 @@
       "code": "TTG",
       "market": "总进球",
       "candidates": "0/1/2/3/4/5/6/7+及相邻三项",
-      "coreStatus": "不入核心",
-      "reason": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。",
+      "coreStatus": "未选核心",
+      "reason": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -14129,42 +14141,42 @@
         {
           "key": "s0",
           "odds": 38,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s1",
           "odds": 11.5,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s2",
           "odds": 5.95,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s3",
           "odds": 3.8,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s4",
           "odds": 3.9,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s5",
           "odds": 5.35,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s6",
           "odds": 7.5,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s7",
           "odds": 7.5,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         }
       ]
     },
@@ -14173,8 +14185,8 @@
       "code": "CRS",
       "market": "比分",
       "candidates": "全部31项",
-      "coreStatus": "不入核心",
-      "reason": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。",
+      "coreStatus": "未选核心",
+      "reason": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -14256,157 +14268,157 @@
         {
           "key": "s00s00",
           "odds": 38,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s00s01",
           "odds": 34,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s00s02",
           "odds": 50,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s00s03",
           "odds": 120,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s00s04",
           "odds": 400,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s00s05",
           "odds": 750,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s01s00",
           "odds": 14,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s01s01",
           "odds": 12,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s01s02",
           "odds": 19,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s01s03",
           "odds": 50,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s01s04",
           "odds": 125,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s01s05",
           "odds": 450,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s02s00",
           "odds": 10,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s02s01",
           "odds": 7.25,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s02s02",
           "odds": 13,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s02s03",
           "odds": 35,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s02s04",
           "odds": 100,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s02s05",
           "odds": 350,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s03s00",
           "odds": 11.5,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s03s01",
           "odds": 8.25,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s03s02",
           "odds": 13,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s03s03",
           "odds": 31,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s04s00",
           "odds": 17,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s04s01",
           "odds": 13.5,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s04s02",
           "odds": 19,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s05s00",
           "odds": 34,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s05s01",
           "odds": 23,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s05s02",
           "odds": 35,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s1sa",
           "odds": 80,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s1sd",
           "odds": 125,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "s1sh",
           "odds": 9.75,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         }
       ]
     },
@@ -14415,8 +14427,8 @@
       "code": "HAFU",
       "market": "半全场",
       "candidates": "全部9项",
-      "coreStatus": "不入核心",
-      "reason": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。",
+      "coreStatus": "未选核心",
+      "reason": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -14455,47 +14467,47 @@
         {
           "key": "aa",
           "odds": 12,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "ad",
           "odds": 17.5,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "ah",
           "odds": 17,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "da",
           "odds": 18,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "dd",
           "odds": 10.5,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "dh",
           "odds": 4.35,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "ha",
           "odds": 45,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "hd",
           "odds": 17.5,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         },
         {
           "key": "hh",
           "odds": 1.68,
-          "assessment": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
         }
       ]
     },
@@ -14504,8 +14516,8 @@
       "code": "HAD",
       "market": "胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "2.0单选胜；平局风险未消失",
-      "reason": "单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。",
+      "coreStatus": "退出核心，仅保留扫盘及博单",
+      "reason": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -14531,17 +14543,17 @@
         {
           "key": "a",
           "odds": 3.42,
-          "assessment": "单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "d",
           "odds": 3.25,
-          "assessment": "单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "h",
           "odds": 1.89,
-          "assessment": "单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         }
       ]
     },
@@ -14550,8 +14562,8 @@
       "code": "HHAD",
       "market": "让球胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "未选核心；博单若入选以原票为准",
-      "reason": "主让1球：让胜/让平仅覆盖主胜，删掉本场有依据的平局保险；让平/让负改押主队不能净胜2+，都灵最近3:0帕尔马与多点攻击使大胜尾部真实。让胜/让负排除恰赢1球也无优势，三选全包加成本且没有方向判断，故保留HAD胜/平。",
+      "coreStatus": "退出核心，仅保留扫盘及博单",
+      "reason": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -14577,17 +14589,17 @@
         {
           "key": "a",
           "odds": 1.7,
-          "assessment": "主让1球：让胜/让平仅覆盖主胜，删掉本场有依据的平局保险；让平/让负改押主队不能净胜2+，都灵最近3:0帕尔马与多点攻击使大胜尾部真实。让胜/让负排除恰赢1球也无优势，三选全包加成本且没有方向判断，故保留HAD胜/平。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "d",
           "odds": 3.6,
-          "assessment": "主让1球：让胜/让平仅覆盖主胜，删掉本场有依据的平局保险；让平/让负改押主队不能净胜2+，都灵最近3:0帕尔马与多点攻击使大胜尾部真实。让胜/让负排除恰赢1球也无优势，三选全包加成本且没有方向判断，故保留HAD胜/平。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "h",
           "odds": 3.8,
-          "assessment": "主让1球：让胜/让平仅覆盖主胜，删掉本场有依据的平局保险；让平/让负改押主队不能净胜2+，都灵最近3:0帕尔马与多点攻击使大胜尾部真实。让胜/让负排除恰赢1球也无优势，三选全包加成本且没有方向判断，故保留HAD胜/平。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         }
       ]
     },
@@ -14596,8 +14608,8 @@
       "code": "TTG",
       "market": "总进球",
       "candidates": "0/1/2/3/4/5/6/7+及相邻三项",
-      "coreStatus": "未选核心；博单若入选以原票为准",
-      "reason": "选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 精确总进球比全场不败更窄，4场串共同尾部风险高，核心不采用。",
+      "coreStatus": "退出核心，仅保留扫盘及博单",
+      "reason": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -14633,42 +14645,42 @@
         {
           "key": "s0",
           "odds": 12,
-          "assessment": "选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 精确总进球比全场不败更窄，4场串共同尾部风险高，核心不采用。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s1",
           "odds": 5.1,
-          "assessment": "选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 精确总进球比全场不败更窄，4场串共同尾部风险高，核心不采用。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s2",
           "odds": 3.15,
-          "assessment": "选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 精确总进球比全场不败更窄，4场串共同尾部风险高，核心不采用。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s3",
           "odds": 3.5,
-          "assessment": "选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 精确总进球比全场不败更窄，4场串共同尾部风险高，核心不采用。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s4",
           "odds": 5.3,
-          "assessment": "选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 精确总进球比全场不败更窄，4场串共同尾部风险高，核心不采用。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s5",
           "odds": 10,
-          "assessment": "选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 精确总进球比全场不败更窄，4场串共同尾部风险高，核心不采用。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s6",
           "odds": 20,
-          "assessment": "选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 精确总进球比全场不败更窄，4场串共同尾部风险高，核心不采用。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s7",
           "odds": 30,
-          "assessment": "选2/3/4：都灵可辨正式总进球3/2/2/3/3，蒙扎3/4/4；弱旅大胜降权，保留2球中心。双前腰与蒙扎速度支持3球，边路防守风险留4球；最新市场2球3.15、3球3.50居低位，4球5.30高于1球5.10但近期正式双边产出支持将第三档放4。0/1及5+均不覆盖，短样本不能证明真实概率。 精确总进球比全场不败更窄，4场串共同尾部风险高，核心不采用。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         }
       ]
     },
@@ -14677,8 +14689,8 @@
       "code": "CRS",
       "market": "比分",
       "candidates": "全部31项",
-      "coreStatus": "未选核心；博单若入选以原票为准",
-      "reason": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。",
+      "coreStatus": "退出核心，仅保留扫盘及博单",
+      "reason": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -14760,157 +14772,157 @@
         {
           "key": "s00s00",
           "odds": 12,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s00s01",
           "odds": 11,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s00s02",
           "odds": 18,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s00s03",
           "odds": 50,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s00s04",
           "odds": 150,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s00s05",
           "odds": 500,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s01s00",
           "odds": 7.25,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s01s01",
           "odds": 6,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s01s02",
           "odds": 9.5,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s01s03",
           "odds": 27,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s01s04",
           "odds": 90,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s01s05",
           "odds": 350,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s02s00",
           "odds": 9,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s02s01",
           "odds": 7.25,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s02s02",
           "odds": 12,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s02s03",
           "odds": 30,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s02s04",
           "odds": 100,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s02s05",
           "odds": 500,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s03s00",
           "odds": 16,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s03s01",
           "odds": 14,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s03s02",
           "odds": 22,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s03s03",
           "odds": 55,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s04s00",
           "odds": 40,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s04s01",
           "odds": 40,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s04s02",
           "odds": 60,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s05s00",
           "odds": 120,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s05s01",
           "odds": 120,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s05s02",
           "odds": 175,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s1sa",
           "odds": 150,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s1sd",
           "odds": 350,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "s1sh",
           "odds": 60,
-          "assessment": "都灵三中卫配双前腰可通过Vlasic接应绕开蒙扎第一线人盯人，Simeone争抢与Adams二次进攻使先丢球后仍有追平路径；Fitz-Jim恢复提供中场出球替换。反面是Belghali防守身位尚在改进，Mota、Robinson、Varela可冲击翼卫身后。中卫Coco/Ismajli/Comuzzo预计可用，不把Rodriguez缺席等同无人可替。胜/平覆盖破密集效率不足和领先被追平，不覆盖被反击击败。 31项比分逐项有报价，但没有校准比分分布；所列参考比分不是独立证据，不能为收益升为精准核心。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         }
       ]
     },
@@ -14919,8 +14931,8 @@
       "code": "HAFU",
       "market": "半全场",
       "candidates": "全部9项",
-      "coreStatus": "未选核心；博单若入选以原票为准",
-      "reason": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。",
+      "coreStatus": "退出核心，仅保留扫盘及博单",
+      "reason": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -14959,47 +14971,47 @@
         {
           "key": "aa",
           "odds": 5.8,
-          "assessment": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "ad",
           "odds": 14,
-          "assessment": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "ah",
           "odds": 22,
-          "assessment": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "da",
           "odds": 7.5,
-          "assessment": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "dd",
           "odds": 5.6,
-          "assessment": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "dh",
           "odds": 4.3,
-          "assessment": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "ha",
           "odds": 32,
-          "assessment": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "hd",
           "odds": 14,
-          "assessment": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         },
         {
           "key": "hh",
           "odds": 3.15,
-          "assessment": "半场博平、全场博胜：都灵对乌迪内斯HT1-1、FT2-1，64分钟替补Kulenović67分钟破局，体现换人改变进攻的可行路径。今晚FitzJim恢复、Vlasic及锋线主轴可用；蒙扎人盯人可阻断前段出球，下半场疲劳与主队替补提供破局可能。单个半场样本只作机制支持，不当频率证明。平平保留为失手路径，平负不优先于主队前场优势。 官方单关资格与22:00停售已核验。"
+          "assessment": "撤销核心单胜，恢复胜/平方向。都灵近期进攻改善支持主队倾向，但本季杯赛0:1负蒙扎、Varela近期6场联赛6球和翼卫身后空间不适合按稳胆处理。网上意见不一致不构成反选客胜依据。"
         }
       ]
     },
@@ -15009,7 +15021,7 @@
       "market": "胜平负",
       "candidates": "全部3单选、3双选及全包",
       "coreStatus": "2.0胜/平；3.0胜",
-      "reason": "2.0保留胜/平，3.0进取单选胜并承担平局风险；两档共用008，暴露相关。",
+      "reason": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -15035,17 +15047,17 @@
         {
           "key": "a",
           "odds": 2.88,
-          "assessment": "2.0保留胜/平，3.0进取单选胜并承担平局风险；两档共用008，暴露相关。"
+          "assessment": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
         },
         {
           "key": "d",
           "odds": 3.35,
-          "assessment": "2.0保留胜/平，3.0进取单选胜并承担平局风险；两档共用008，暴露相关。"
+          "assessment": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
         },
         {
           "key": "h",
           "odds": 2.07,
-          "assessment": "2.0保留胜/平，3.0进取单选胜并承担平局风险；两档共用008，暴露相关。"
+          "assessment": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
         }
       ]
     },
@@ -17527,31 +17539,31 @@
   "costAudit": {
     "approvedTickets": [
       {
-        "id": "core20-one-cover",
+        "id": "core20-replace007",
         "totalCost": 4,
         "combinationCount": 2,
         "betCount": 2,
         "conditionalReturn": {
-          "min": 7.82,
-          "max": 12.66
+          "min": 5.01,
+          "max": 8.11
         },
         "conditionalNet": {
-          "min": 3.82,
-          "max": 8.66
+          "min": 1.01,
+          "max": 4.11
         },
         "subTickets": [
           {
-            "id": "core20-one-cover-0",
+            "id": "core20-replace007-0",
             "name": "子票1",
             "passType": "2串1",
             "selections": [
               {
-                "number": "周五007",
+                "number": "周五006",
                 "market": "HAD",
                 "handicap": 0,
                 "key": "h",
                 "label": "胜",
-                "odds": 1.89
+                "odds": 1.21
               },
               {
                 "number": "周五008",
@@ -17562,27 +17574,27 @@
                 "odds": 2.07
               }
             ],
-            "selectionText": "周五007 胜 × 周五008 胜",
+            "selectionText": "周五006 胜 × 周五008 胜",
             "stake": 2,
             "unitStake": 2,
             "multiplier": 1,
-            "odds": 3.9123,
-            "return": 7.82,
-            "net": 3.82,
-            "returnText": "命中返7.82元，减整套4元后净3.82元"
+            "odds": 2.5047,
+            "return": 5.01,
+            "net": 1.01,
+            "returnText": "整套返还1.25倍"
           },
           {
-            "id": "core20-one-cover-1",
+            "id": "core20-replace007-1",
             "name": "子票2",
             "passType": "2串1",
             "selections": [
               {
-                "number": "周五007",
+                "number": "周五006",
                 "market": "HAD",
                 "handicap": 0,
                 "key": "h",
                 "label": "胜",
-                "odds": 1.89
+                "odds": 1.21
               },
               {
                 "number": "周五008",
@@ -17593,14 +17605,14 @@
                 "odds": 3.35
               }
             ],
-            "selectionText": "周五007 胜 × 周五008 平",
+            "selectionText": "周五006 胜 × 周五008 平",
             "stake": 2,
             "unitStake": 2,
             "multiplier": 1,
-            "odds": 6.3315,
-            "return": 12.66,
-            "net": 8.66,
-            "returnText": "命中返12.66元，减整套4元后净8.66元"
+            "odds": 4.0535,
+            "return": 8.11,
+            "net": 4.11,
+            "returnText": "整套返还2.03倍"
           }
         ]
       },
@@ -17610,12 +17622,12 @@
         "combinationCount": 2,
         "betCount": 2,
         "conditionalReturn": {
-          "min": 9.52,
-          "max": 12.63
+          "min": 9.94,
+          "max": 12.42
         },
         "conditionalNet": {
-          "min": 5.52,
-          "max": 8.63
+          "min": 5.94,
+          "max": 8.42
         },
         "subTickets": [
           {
@@ -17637,17 +17649,17 @@
                 "handicap": -1,
                 "key": "d",
                 "label": "让平",
-                "odds": 3.05
+                "odds": 3
               }
             ],
             "selectionText": "周五008 胜 × 周五012 主-1 让平",
             "stake": 2,
             "unitStake": 2,
             "multiplier": 1,
-            "odds": 6.3135,
-            "return": 12.63,
-            "net": 8.63,
-            "returnText": "命中返12.63元，减整套4元后净8.63元"
+            "odds": 6.21,
+            "return": 12.42,
+            "net": 8.42,
+            "returnText": "整套返还3.11倍"
           },
           {
             "id": "core30-one-cover-1",
@@ -17668,17 +17680,17 @@
                 "handicap": -1,
                 "key": "a",
                 "label": "让负",
-                "odds": 2.3
+                "odds": 2.4
               }
             ],
             "selectionText": "周五008 胜 × 周五012 主-1 让负",
             "stake": 2,
             "unitStake": 2,
             "multiplier": 1,
-            "odds": 4.761,
-            "return": 9.52,
-            "net": 5.52,
-            "returnText": "命中返9.52元，减整套4元后净5.52元"
+            "odds": 4.968,
+            "return": 9.94,
+            "net": 5.94,
+            "returnText": "整套返还2.48倍"
           }
         ]
       },
@@ -21524,36 +21536,20 @@
     "allPlansCost": 186,
     "coreStructureAudit": [
       {
-        "pair": "周五007[胜] × 周五008[胜/平]",
-        "combinationOdds": [
-          3.9123,
-          6.3315
+        "pair": "周五006[胜] × 周五008[胜/平]",
+        "multiples": [
+          1.25235,
+          2.02675
         ],
-        "wholePlanMultiples": [
-          1.95615,
-          3.16575
-        ],
-        "decision": "2.0：仅008双选。"
+        "decision": "替换007单胜，接受较低回报。"
       },
       {
         "pair": "周五008[胜] × 周五012[主-1 让平/让负]",
-        "combinationOdds": [
-          6.3135,
-          4.761
+        "multiples": [
+          3.105,
+          2.484
         ],
-        "wholePlanMultiples": [
-          3.15675,
-          2.3805
-        ],
-        "decision": "3.0：仅012双选，不直接单选让平。"
-      },
-      {
-        "pair": "旧008胜/平×012让平/让负",
-        "decision": "两个双选，按用户要求撤下。"
-      },
-      {
-        "pair": "未发布011胜×012让平",
-        "decision": "用户拒绝精准单选，撤回且从未发布。"
+        "decision": "选项保留，赔率更新。"
       }
     ]
   },
@@ -21585,18 +21581,18 @@
     "sameSite": true,
     "evidence": "此前交付回执标sameMainAndTransitionSite=true；当前工程未发现第二独立域名，不能虚报部署两套独立站点",
     "finalLockedCheck": "true：两档及保留博单已按最新结构审核；不是保证命中。",
-    "archiveVersion": "2026-10-23-one-cover-20261023T075528654Z",
-    "submittedAt": "2026-10-23T07:55:28.654Z",
+    "archiveVersion": "2026-10-23-core-replacement-20261023T081337852Z",
+    "submittedAt": "2026-10-23T08:13:37.852Z",
     "sameMainAndTransitionSite": true
   },
-  "refinedAt": "2026-10-23T07:53:26.539Z",
+  "refinedAt": "2026-10-23T08:13:31.227Z",
   "artifacts": {
-    "poster": "audits/2026-10-23-one-cover-20261023T075528654Z-poster.png",
-    "tracking": "audits/2026-10-23-one-cover-20261023T075528654Z-tracking.png",
-    "report": "audits/2026-10-23-one-cover-20261023T075528654Z.json",
-    "text": "audits/2026-10-23-one-cover-20261023T075528654Z.md",
-    "previous1345": "audits/2026-10-23-one-cover-20261023T075528654Z-previous-1345.json",
-    "subTickets": "audits/2026-10-23-one-cover-20261023T075528654Z-subtickets.json"
+    "poster": "audits/2026-10-23-core-replacement-20261023T081337852Z-poster.png",
+    "tracking": "audits/2026-10-23-core-replacement-20261023T081337852Z-tracking.png",
+    "report": "audits/2026-10-23-core-replacement-20261023T081337852Z.json",
+    "text": "audits/2026-10-23-core-replacement-20261023T081337852Z.md",
+    "previous1345": "audits/2026-10-23-core-replacement-20261023T081337852Z-previous-1345.json",
+    "subTickets": "audits/2026-10-23-core-replacement-20261023T081337852Z-subtickets.json"
   },
   "marketChangesSincePriorAudit": {
     "capturedAt": "2026-10-23T07:25:54.0025580Z",
@@ -21606,7 +21602,7 @@
     ],
     "effect": "选择不变，使用最新赔率核算，不沿用旧图奖金。"
   },
-  "previousAuditEdition": "2026-10-23-equal-reissue-20261023T073618432Z",
+  "previousAuditEdition": "2026-10-23-one-cover-20261023T075528654Z",
   "omittedCategories": [
     {
       "category": "three",
@@ -21621,14 +21617,14 @@
   ],
   "coreRanking": {
     "first": [
-      "007 HAD胜",
+      "006 HAD胜",
       "008 HAD胜/平"
     ],
     "second": [
       "008 HAD胜",
       "012 HHAD让平/让负"
     ],
-    "decision": "按用户最终截图确认：2.0单选007胜、保险008胜/平；3.0单选008胜、保险012让平/让负。承认平局风险与共同场次相关性。",
+    "decision": "用户要求由模型独立判断007是否该换并立即更新。新增006完整替代配置与对手伤停核查后，以006普通胜替换007单胜；不再因倍率删007保险。2.0为产品名，不保证每一分支达到2倍；本次接受较低回报，短休风险仍明确。",
     "candidates": [
       {
         "number": "周五001",
@@ -21652,15 +21648,15 @@
       },
       {
         "number": "周五006",
-        "decision": "周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。"
+        "decision": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
       },
       {
         "number": "周五007",
-        "decision": "单选胜：都灵客胜佛罗伦萨、客平博洛尼亚的强度校正，以及Vlasic接应、Simeone/Adams终结和Fitz-Jim恢复后的中场替换，支持把主胜作为相对第一方向。蒙扎两场大胜主要在主场，对本轮客场降权。此前平局保险有价值，本次按用户最多一场保险、要求两档出单的结构取舍只保留主胜；没有新证据证明平局风险消失，不把本票说成低风险。"
+        "decision": "007退出两档核心；主队倾向仅作胜/平扫盘和已保留博单。"
       },
       {
         "number": "周五008",
-        "decision": "胜/平保留唯一保险：Ajorque支点和Magnetti/Chotard二点保护对尼斯低位有进攻依据；尼斯Wahi/Amoura反击会冲击Tousart/Lloris转身，主胜单选不如007适合承担本票单选位置，平局分支继续保留。"
+        "decision": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
       },
       {
         "number": "周五009",
@@ -21672,45 +21668,29 @@
       },
       {
         "number": "周五011",
-        "decision": "单选胜：Boyé支点、Angel Perez回归及Novoa边路供给，面对马拉加多名攻击手缺席及持续失球，支持进取主胜。Koski已恢复，替代并非空缺。马拉加连续强敌赛程升权、Herrero扑救和Larrubia/Niño反击仍可造成平或负；本次3.0主动承担这一风险，不声称原防平依据被推翻。"
+        "decision": "保留方向与保险，但本次无可用2.0搭档；只入博单。"
       },
       {
         "number": "周五012",
-        "decision": "主-1单选让平＝吉马良斯恰赢1球。联赛8轮仅5球、近期破密防效率低，使主胜时的一球边界有依据；Gustavo Silva/Jakupovic回归及客队持续失球支持主胜路径，Butzke六场无球抑制客队持续输出。旧交锋只低权参考。这是精准进取选择：平局、输球、净胜2+全输，风险高于原让平/让负，不冒充宽保险。"
+        "decision": "主-1让平/让负保留真实保险，覆盖吉马良斯净胜1球、平局或输球；8轮5球及破密防效率不足支持此边界，攻击回归与客队脆弱防线构成净胜2+失败路径。"
       }
     ],
     "structureComparisons": [
       {
-        "pair": "周五007[胜] × 周五008[胜/平]",
-        "combinationOdds": [
-          3.9123,
-          6.3315
+        "pair": "周五006[胜] × 周五008[胜/平]",
+        "multiples": [
+          1.25235,
+          2.02675
         ],
-        "wholePlanMultiples": [
-          1.95615,
-          3.16575
-        ],
-        "decision": "2.0：仅008双选。"
+        "decision": "替换007单胜，接受较低回报。"
       },
       {
         "pair": "周五008[胜] × 周五012[主-1 让平/让负]",
-        "combinationOdds": [
-          6.3135,
-          4.761
+        "multiples": [
+          3.105,
+          2.484
         ],
-        "wholePlanMultiples": [
-          3.15675,
-          2.3805
-        ],
-        "decision": "3.0：仅012双选，不直接单选让平。"
-      },
-      {
-        "pair": "旧008胜/平×012让平/让负",
-        "decision": "两个双选，按用户要求撤下。"
-      },
-      {
-        "pair": "未发布011胜×012让平",
-        "decision": "用户拒绝精准单选，撤回且从未发布。"
+        "decision": "选项保留，赔率更新。"
       }
     ]
   },
@@ -21723,10 +21703,17 @@
       "warning": ""
     },
     {
-      "number": "周五007",
-      "count": 5,
+      "number": "周五006",
+      "count": 1,
       "totalPlans": 6,
-      "share": 0.8333333333333334,
+      "share": 0.16666666666666666,
+      "warning": ""
+    },
+    {
+      "number": "周五007",
+      "count": 4,
+      "totalPlans": 6,
+      "share": 0.6666666666666666,
       "warning": "同场暴露超过50%"
     },
     {
@@ -21843,11 +21830,11 @@
     }
   ],
   "withdrawnRecommendations": {
-    "edition": "2026-10-23-equal-reissue-20261023T073618432Z",
+    "edition": "2026-10-23-one-cover-20261023T075528654Z",
     "ids": [
-      "core30-equal"
+      "core20-one-cover"
     ],
-    "reason": "用户禁止双防；历史留存，本版两档原票替换。"
+    "reason": "撤下007单胜核心票；旧版留档"
   },
   "halfTimeEvidence": {
     "capturedAt": "2026-10-23T07:29:09.622Z",
