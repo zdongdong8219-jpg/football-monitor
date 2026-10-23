@@ -1,12 +1,12 @@
 {
   "date": "2026-10-22",
-  "title": "FT足球竞彩模型 · 复盘初版",
-  "stage": "partial",
-  "completed": false,
-  "publishedAt": "2026-10-23T00:21:28.766Z",
+  "title": "FT足球竞彩模型 · 复盘最终版",
+  "stage": "final",
+  "completed": true,
+  "publishedAt": "2026-10-23T04:02:42.389Z",
   "originalPublishedAt": "2026-10-22T05:07:58.725Z",
-  "summary": "已核验12/13场，主推方向7/12；比分另计，不充抵方向。已完整结算4组，全部未中；013待定，含该场方案不提前盖错章。另有1张单关资格错误，不计盈亏。",
-  "verification": "Flashscore与365Scores逐场核对全场、半场；懂球帝接口不可用，竞彩官方接口拒绝访问，均不冒充核验成功。",
+  "summary": "13/13场已完赛并经365Scores与FotMob至少两源核验；主推方向8/13，比分、进球数、半全场独立统计；7组原票中1张单关资格错误不计可执行盈亏。",
+  "verification": "已完赛赛果使用365Scores与FotMob独立来源核验；013常规时间0:0、点球2:3，半场0:0。",
   "rows": [
     {
       "number": "周四001",
@@ -630,55 +630,65 @@
       "goalsPick": "1/2/3球",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0 / 1:0 / 2:1",
-      "actualScore": "未完赛·待定",
-      "halfScore": "待核",
+      "actualScore": "0:0",
+      "halfScore": "0:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": false,
+        "score": false
       },
-      "settlementStatus": "待定",
-      "verification": "尚未完赛，不计战绩",
-      "review": "待完赛后补结算",
+      "settlementStatus": "全场已核验",
+      "verification": "365Scores与FotMob全场一致0:0；点球2:3；半场0:0。",
+      "review": "主推方向中；比分、进球数和半全场独立统计。",
       "sources": {
         "number": "周四013",
         "teams": "弗拉门戈 vs 拉普大学",
-        "fullScore": null,
-        "halfScore": null,
-        "fullVerified": false,
-        "halfVerified": false,
-        "status": "Scheduled",
+        "fullScore": "0:0",
+        "halfScore": "0:0",
+        "fullVerified": true,
+        "halfVerified": true,
+        "status": "After Penalties",
+        "penaltyScore": "2:3",
         "source365": {
           "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4858848",
-          "gameId": 4858848,
-          "score": "-1:-1",
-          "halfScore": "-1:-1"
+          "score": "0:0",
+          "halfScore": "0:0",
+          "status": "After Penalties"
         },
-        "flashscore": null
-      }
+        "fotmob": {
+          "url": "https://www.fotmob.com/api/data/matches?date=20261023",
+          "score": "0 - 0",
+          "penaltyScore": "2 - 3",
+          "finished": true
+        }
+      },
+      "actualResult": "平",
+      "actualHandicapResult": "让负",
+      "actualHalfFull": "平平",
+      "actualGoals": 0
     }
   ],
   "statistics": {
     "result": {
-      "hit": 7,
-      "total": 12,
-      "pending": 1
+      "hit": 8,
+      "total": 13,
+      "pending": 0
     },
     "goals": {
       "hit": 8,
       "total": 12,
-      "pending": 1
+      "pending": 0
     },
     "halfFull": {
       "hit": 3,
       "total": 12,
-      "pending": 1
+      "pending": 0
     },
     "score": {
       "hit": 2,
       "total": 12,
-      "pending": 1
+      "pending": 0
     }
   },
   "ticketReview": [
@@ -831,10 +841,10 @@
       "stronglyRecommended": false,
       "selectionText": "004 胜 × 010 负 × 013 让胜",
       "cost": 2,
-      "settledCost": 0,
-      "returned": null,
-      "net": null,
-      "status": "待定（已有失手腿）",
+      "settledCost": 2,
+      "returned": 0,
+      "net": -2,
+      "status": "错·未中",
       "cumulativeNet": null,
       "tickets": [
         {
@@ -865,7 +875,7 @@
           "returned": null
         }
       ],
-      "detail": "仍有待定腿，不提前盖错章。原票投入2元，未结算。"
+      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
     },
     {
       "index": 5,
@@ -951,10 +961,10 @@
       "stronglyRecommended": false,
       "selectionText": "001 负 × 004 平胜 × 008 胜 × 009 让负 × 011 胜 × 013 让胜",
       "cost": 2,
-      "settledCost": 0,
-      "returned": null,
-      "net": null,
-      "status": "待定（已有失手腿）",
+      "settledCost": 2,
+      "returned": 0,
+      "net": -2,
+      "status": "错·未中",
       "cumulativeNet": null,
       "tickets": [
         {
@@ -1000,7 +1010,7 @@
           "returned": null
         }
       ],
-      "detail": "仍有待定腿，不提前盖错章。当前命中1/6关；原票投入2元，未结算。"
+      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
     },
     {
       "index": 7,
@@ -1039,10 +1049,10 @@
   ],
   "ticketTotals": {
     "cost": 20,
-    "settledCost": 14,
+    "settledCost": 18,
     "returned": 0,
-    "net": -14,
-    "pendingCost": 4,
+    "net": -18,
+    "pendingCost": 0,
     "invalidCost": 2,
     "note": "仅原票每注2元模拟结算，不代表用户实际投注；累计从10月22日起。"
   },
@@ -1077,11 +1087,11 @@
     {
       "name": "3串1｜尤文胜 × 皇家社会负 × 弗拉门戈让胜",
       "category": "three",
-      "result": "待定（已有失手腿）",
+      "result": "错·未中",
       "exampleStake": 2,
-      "exampleReturn": null,
-      "exampleNet": null,
-      "detail": "仍有待定腿，不提前盖错章。原票投入2元，未结算。"
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
     },
     {
       "name": "半全场2串1｜尤文平胜 × 皇家社会平负",
@@ -1095,11 +1105,11 @@
     {
       "name": "梦想单｜6场混合高赔",
       "category": "dream",
-      "result": "待定（已有失手腿）",
+      "result": "错·未中",
       "exampleStake": 2,
-      "exampleReturn": null,
-      "exampleNet": null,
-      "detail": "仍有待定腿，不提前盖错章。当前命中1/6关；原票投入2元，未结算。"
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
     },
     {
       "name": "单关｜弗拉门戈让胜",
