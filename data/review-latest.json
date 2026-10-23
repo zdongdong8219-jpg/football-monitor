@@ -3,9 +3,9 @@
   "title": "FT足球竞彩模型 · 复盘最终版",
   "stage": "final",
   "completed": true,
-  "publishedAt": "2026-10-23T04:02:42.389Z",
+  "publishedAt": "2026-10-23T04:58:02.749Z",
   "originalPublishedAt": "2026-10-22T05:07:58.725Z",
-  "summary": "13/13场已完赛并经365Scores与FotMob至少两源核验；主推方向8/13，比分、进球数、半全场独立统计；7组原票中1张单关资格错误不计可执行盈亏。",
+  "summary": "13/13场已完赛并经365Scores与FotMob至少两源核验；主推方向7/13，比分、进球数、半全场独立统计；7组原票中1张单关资格错误不计可执行盈亏。",
   "verification": "已完赛赛果使用365Scores与FotMob独立来源核验；013常规时间0:0、点球2:3，半场0:0。",
   "rows": [
     {
@@ -633,14 +633,14 @@
       "actualScore": "0:0",
       "halfScore": "0:0",
       "hits": {
-        "result": true,
-        "goals": true,
+        "result": false,
+        "goals": false,
         "halfFull": false,
         "score": false
       },
       "settlementStatus": "全场已核验",
       "verification": "365Scores与FotMob全场一致0:0；点球2:3；半场0:0。",
-      "review": "主推方向中；比分、进球数和半全场独立统计。",
+      "review": "主推方向错；比分、进球数和半全场均未命中，各项独立统计。",
       "sources": {
         "number": "周四013",
         "teams": "弗拉门戈 vs 拉普大学",
@@ -671,23 +671,23 @@
   ],
   "statistics": {
     "result": {
-      "hit": 8,
+      "hit": 7,
       "total": 13,
       "pending": 0
     },
     "goals": {
       "hit": 8,
-      "total": 12,
+      "total": 13,
       "pending": 0
     },
     "halfFull": {
       "hit": 3,
-      "total": 12,
+      "total": 13,
       "pending": 0
     },
     "score": {
       "hit": 2,
-      "total": 12,
+      "total": 13,
       "pending": 0
     }
   },
@@ -869,10 +869,10 @@
             }
           ],
           "odds": 3.7361250000000004,
-          "hit": null,
+          "hit": false,
           "invalid": false,
-          "settled": false,
-          "returned": null
+          "settled": true,
+          "returned": 0
         }
       ],
       "detail": "原票投入2元，返还0.00元，净额-2.00元。"
@@ -951,7 +951,7 @@
           "returned": 0
         }
       ],
-      "detail": "原票投入6元，返还0.00元，净额-6.00元。含2张单关及1张串子，全部未中。"
+      "detail": "原票投入6元，返还0.00元，净额-6.00元。"
     },
     {
       "index": 6,
@@ -1004,10 +1004,10 @@
             }
           ],
           "odds": 87.4933707648,
-          "hit": null,
+          "hit": false,
           "invalid": false,
-          "settled": false,
-          "returned": null
+          "settled": true,
+          "returned": 0
         }
       ],
       "detail": "原票投入2元，返还0.00元，净额-2.00元。"
@@ -1100,7 +1100,7 @@
       "exampleStake": 6,
       "exampleReturn": 0,
       "exampleNet": -6,
-      "detail": "原票投入6元，返还0.00元，净额-6.00元。含2张单关及1张串子，全部未中。"
+      "detail": "原票投入6元，返还0.00元，净额-6.00元。"
     },
     {
       "name": "梦想单｜6场混合高赔",
