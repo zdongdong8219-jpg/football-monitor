@@ -1,9 +1,9 @@
 {
   "date": "2026-10-23",
-  "publishedAt": "2026-10-23T06:26:08.658Z",
+  "publishedAt": "2026-10-23T06:31:18.674Z",
   "generatedAt": "2026-10-23T06:15:14.108Z",
   "status": "audit-incomplete-no-approved-tickets",
-  "edition": "2026-10-23-audit-20261023T062608658Z",
+  "edition": "2026-10-23-audit-20261023T063118674Z",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-23 用户核心优先独立纠错",
   "finalLocked": false,
@@ -11,7 +11,7 @@
   "auditLocked": true,
   "completed": false,
   "mobileVerified": false,
-  "dataAsOf": "2026-10-23T05:59:07.377Z",
+  "dataAsOf": "2026-10-23T06:30:03.725Z",
   "summary": "审计纠错·出单未完成：12场研究方向及60个玩法候选已重审；2.0/3.0尚未形成审核通过的可购买原票，博单按核心优先暂不发布。13:45版未经充分复核，已撤出当前购买区并保留原版。此页不是最终可买版。",
   "recommendations": [],
   "scanTable": [
@@ -94,18 +94,18 @@
             "updateTime": "13:31:47"
           },
           "hafu": {
-            "aa": "5.25",
-            "aaf": "0",
+            "aa": "5.35",
+            "aaf": "1",
             "ad": "14.00",
             "adf": "0",
             "ah": "25.00",
             "ahf": "0",
-            "da": "7.00",
-            "daf": "0",
-            "dd": "5.50",
-            "ddf": "0",
-            "dh": "5.00",
-            "dhf": "0",
+            "da": "7.50",
+            "daf": "1",
+            "dd": "5.35",
+            "ddf": "-1",
+            "dh": "4.80",
+            "dhf": "-1",
             "goalLine": "",
             "goalLineValue": "",
             "ha": "30.00",
@@ -115,8 +115,8 @@
             "hh": "3.10",
             "hhf": "0",
             "id": 0,
-            "updateDate": "2026-10-22",
-            "updateTime": "13:24:24"
+            "updateDate": "2026-10-23",
+            "updateTime": "14:07:11"
           },
           "crs": {
             "goalLine": "",
@@ -196,7 +196,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -205,7 +205,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -214,7 +214,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -223,7 +223,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -232,7 +232,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -258,39 +258,39 @@
       "risk": "狼堡近期正式赛4:4纽伦堡暴露失球尾部；波鸿教练明确至少一处首发变化和向禁区增员。防平可覆盖平局，不能覆盖狼堡被反击击败。",
       "odds": {
         "spf": {
-          "win": 3.27,
-          "draw": 3.92,
-          "lose": 1.76
+          "win": 3.43,
+          "draw": 4,
+          "lose": 1.7
         },
         "rqspf": {
-          "win": 1.84,
-          "draw": 3.8,
-          "lose": 3.1
+          "win": 1.89,
+          "draw": 3.74,
+          "lose": 3
         },
         "officialMarkets": {
           "had": {
-            "a": "1.76",
+            "a": "1.70",
             "af": "-1",
-            "d": "3.92",
+            "d": "4.00",
             "df": "1",
             "goalLine": "",
             "goalLineValue": "",
-            "h": "3.27",
+            "h": "3.43",
             "hf": "1",
             "updateDate": "2026-10-23",
-            "updateTime": "13:27:55"
+            "updateTime": "14:09:19"
           },
           "hhad": {
-            "a": "3.10",
+            "a": "3.00",
             "af": "-1",
-            "d": "3.80",
+            "d": "3.74",
             "df": "-1",
             "goalLine": "+1",
             "goalLineValue": "+1.00",
-            "h": "1.84",
+            "h": "1.89",
             "hf": "1",
             "updateDate": "2026-10-23",
-            "updateTime": "13:28:02"
+            "updateTime": "14:09:25"
           },
           "ttg": {
             "goalLine": "",
@@ -417,7 +417,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -426,7 +426,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -435,7 +435,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -444,7 +444,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -453,7 +453,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -638,7 +638,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -647,7 +647,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -656,7 +656,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -665,7 +665,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -674,7 +674,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -859,7 +859,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -868,7 +868,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -877,7 +877,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -886,7 +886,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -895,7 +895,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -960,22 +960,22 @@
             "goalLineValue": "",
             "s0": "23.00",
             "s0f": "0",
-            "s1": "7.50",
-            "s1f": "0",
-            "s2": "4.30",
-            "s2f": "0",
+            "s1": "8.00",
+            "s1f": "1",
+            "s2": "4.55",
+            "s2f": "1",
             "s3": "3.40",
             "s3f": "0",
-            "s4": "4.40",
-            "s4f": "0",
-            "s5": "6.50",
-            "s5f": "0",
-            "s6": "10.50",
-            "s6f": "0",
-            "s7": "13.50",
-            "s7f": "0",
-            "updateDate": "2026-10-22",
-            "updateTime": "13:24:23"
+            "s4": "4.30",
+            "s4f": "-1",
+            "s5": "6.25",
+            "s5f": "-1",
+            "s6": "10.00",
+            "s6f": "-1",
+            "s7": "12.50",
+            "s7f": "-1",
+            "updateDate": "2026-10-23",
+            "updateTime": "14:17:33"
           },
           "hafu": {
             "aa": "3.95",
@@ -1080,7 +1080,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -1089,7 +1089,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -1098,7 +1098,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -1107,7 +1107,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -1116,7 +1116,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -1301,7 +1301,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -1310,7 +1310,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -1319,7 +1319,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -1328,7 +1328,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -1337,7 +1337,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -1364,8 +1364,8 @@
       "odds": {
         "spf": {
           "win": 1.89,
-          "draw": 3.3,
-          "lose": 3.37
+          "draw": 3.25,
+          "lose": 3.42
         },
         "rqspf": {
           "win": 3.8,
@@ -1374,16 +1374,16 @@
         },
         "officialMarkets": {
           "had": {
-            "a": "3.37",
-            "af": "0",
-            "d": "3.30",
-            "df": "0",
+            "a": "3.42",
+            "af": "1",
+            "d": "3.25",
+            "df": "-1",
             "goalLine": "",
             "goalLineValue": "",
             "h": "1.89",
             "hf": "0",
             "updateDate": "2026-10-23",
-            "updateTime": "12:41:45"
+            "updateTime": "14:17:12"
           },
           "hhad": {
             "a": "1.70",
@@ -1402,26 +1402,26 @@
             "goalLineValue": "",
             "s0": "12.00",
             "s0f": "0",
-            "s1": "4.70",
-            "s1f": "0",
-            "s2": "3.45",
-            "s2f": "0",
-            "s3": "3.65",
-            "s3f": "0",
+            "s1": "4.90",
+            "s1f": "1",
+            "s2": "3.35",
+            "s2f": "-1",
+            "s3": "3.55",
+            "s3f": "-1",
             "s4": "5.30",
             "s4f": "0",
-            "s5": "9.00",
-            "s5f": "0",
+            "s5": "9.50",
+            "s5f": "1",
             "s6": "18.00",
             "s6f": "0",
-            "s7": "26.00",
-            "s7f": "0",
-            "updateDate": "2026-10-22",
-            "updateTime": "13:24:23"
+            "s7": "27.00",
+            "s7f": "1",
+            "updateDate": "2026-10-23",
+            "updateTime": "14:18:22"
           },
           "hafu": {
             "aa": "5.60",
-            "aaf": "1",
+            "aaf": "0",
             "ad": "14.00",
             "adf": "0",
             "ah": "22.00",
@@ -1431,7 +1431,7 @@
             "dd": "5.80",
             "ddf": "0",
             "dh": "4.55",
-            "dhf": "-1",
+            "dhf": "0",
             "goalLine": "",
             "goalLineValue": "",
             "ha": "30.00",
@@ -1439,7 +1439,7 @@
             "hd": "14.00",
             "hdf": "0",
             "hh": "3.05",
-            "hhf": "1",
+            "hhf": "0",
             "id": 0,
             "updateDate": "2026-10-23",
             "updateTime": "13:10:58"
@@ -1522,7 +1522,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -1531,7 +1531,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -1540,7 +1540,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -1549,7 +1549,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": true,
@@ -1558,7 +1558,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -1596,13 +1596,13 @@
         "officialMarkets": {
           "had": {
             "a": "2.88",
-            "af": "1",
+            "af": "0",
             "d": "3.35",
             "df": "0",
             "goalLine": "",
             "goalLineValue": "",
             "h": "2.07",
-            "hf": "-1",
+            "hf": "0",
             "updateDate": "2026-10-23",
             "updateTime": "12:57:13"
           },
@@ -1610,11 +1610,11 @@
             "a": "1.56",
             "af": "0",
             "d": "3.95",
-            "df": "1",
+            "df": "0",
             "goalLine": "-1",
             "goalLineValue": "-1.00",
             "h": "4.25",
-            "hf": "-1",
+            "hf": "0",
             "updateDate": "2026-10-23",
             "updateTime": "12:57:55"
           },
@@ -1743,7 +1743,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -1752,7 +1752,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -1761,7 +1761,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -1770,7 +1770,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -1779,7 +1779,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -1964,7 +1964,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -1973,7 +1973,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -1982,7 +1982,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -1991,7 +1991,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -2000,7 +2000,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -2023,42 +2023,42 @@
       "recommended": false,
       "purchaseApproved": false,
       "status": "研究倾向·未批准票",
-      "risk": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。",
+      "risk": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。",
       "odds": {
         "spf": {
-          "win": 5.15,
-          "draw": 4.35,
-          "lose": 1.42
+          "win": 5.25,
+          "draw": 4.45,
+          "lose": 1.4
         },
         "rqspf": {
-          "win": 2.4,
+          "win": 2.44,
           "draw": 3.85,
-          "lose": 2.21
+          "lose": 2.18
         },
         "officialMarkets": {
           "had": {
-            "a": "1.42",
-            "af": "0",
-            "d": "4.35",
-            "df": "0",
+            "a": "1.40",
+            "af": "-1",
+            "d": "4.45",
+            "df": "1",
             "goalLine": "",
             "goalLineValue": "",
-            "h": "5.15",
-            "hf": "0",
+            "h": "5.25",
+            "hf": "1",
             "updateDate": "2026-10-23",
-            "updateTime": "12:11:44"
+            "updateTime": "14:05:53"
           },
           "hhad": {
-            "a": "2.21",
-            "af": "0",
+            "a": "2.18",
+            "af": "-1",
             "d": "3.85",
             "df": "0",
             "goalLine": "+1",
             "goalLineValue": "+1.00",
-            "h": "2.40",
-            "hf": "0",
+            "h": "2.44",
+            "hf": "1",
             "updateDate": "2026-10-23",
-            "updateTime": "12:11:50"
+            "updateTime": "14:05:58"
           },
           "ttg": {
             "goalLine": "",
@@ -2083,29 +2083,29 @@
             "updateTime": "13:34:14"
           },
           "hafu": {
-            "aa": "2.00",
-            "aaf": "0",
-            "ad": "17.00",
-            "adf": "0",
+            "aa": "1.95",
+            "aaf": "-1",
+            "ad": "18.00",
+            "adf": "1",
             "ah": "38.00",
             "ahf": "0",
             "da": "4.30",
             "daf": "0",
-            "dd": "7.30",
-            "ddf": "0",
-            "dh": "12.50",
-            "dhf": "0",
+            "dd": "7.50",
+            "ddf": "1",
+            "dh": "13.00",
+            "dhf": "1",
             "goalLine": "",
             "goalLineValue": "",
             "ha": "19.00",
             "haf": "0",
-            "hd": "17.00",
-            "hdf": "0",
+            "hd": "18.00",
+            "hdf": "1",
             "hh": "9.25",
             "hhf": "0",
             "id": 0,
-            "updateDate": "2026-10-22",
-            "updateTime": "13:24:24"
+            "updateDate": "2026-10-23",
+            "updateTime": "14:06:02"
           },
           "crs": {
             "goalLine": "",
@@ -2185,7 +2185,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -2194,7 +2194,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -2203,7 +2203,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -2212,7 +2212,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -2221,7 +2221,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -2247,39 +2247,39 @@
       "risk": "最接近核心候选之一但仍需审核：主队5轮4负1平，主帅直言脆弱与防守陪同问题；马拉加客场强赛程需升权。防平覆盖不了反击输球，不能由客后防差直接认定主队稳定。",
       "odds": {
         "spf": {
-          "win": 1.52,
-          "draw": 3.6,
-          "lose": 5.15
+          "win": 1.47,
+          "draw": 3.75,
+          "lose": 5.5
         },
         "rqspf": {
           "win": 2.8,
-          "draw": 3.15,
-          "lose": 2.2
+          "draw": 3.05,
+          "lose": 2.25
         },
         "officialMarkets": {
           "had": {
-            "a": "5.15",
+            "a": "5.50",
             "af": "1",
-            "d": "3.60",
+            "d": "3.75",
             "df": "1",
             "goalLine": "",
             "goalLineValue": "",
-            "h": "1.52",
+            "h": "1.47",
             "hf": "-1",
             "updateDate": "2026-10-23",
-            "updateTime": "12:56:08"
+            "updateTime": "14:03:21"
           },
           "hhad": {
-            "a": "2.20",
+            "a": "2.25",
             "af": "1",
-            "d": "3.15",
+            "d": "3.05",
             "df": "-1",
             "goalLine": "-1",
             "goalLineValue": "-1.00",
             "h": "2.80",
-            "hf": "-1",
+            "hf": "0",
             "updateDate": "2026-10-23",
-            "updateTime": "12:56:16"
+            "updateTime": "14:03:26"
           },
           "ttg": {
             "goalLine": "",
@@ -2306,27 +2306,27 @@
           "hafu": {
             "aa": "9.00",
             "aaf": "0",
-            "ad": "16.00",
-            "adf": "0",
+            "ad": "17.00",
+            "adf": "1",
             "ah": "22.00",
             "ahf": "0",
             "da": "11.00",
             "daf": "0",
-            "dd": "5.00",
-            "ddf": "0",
-            "dh": "3.90",
-            "dhf": "0",
+            "dd": "5.15",
+            "ddf": "1",
+            "dh": "3.70",
+            "dhf": "-1",
             "goalLine": "",
             "goalLineValue": "",
             "ha": "40.00",
             "haf": "0",
-            "hd": "16.00",
-            "hdf": "0",
+            "hd": "17.00",
+            "hdf": "1",
             "hh": "2.50",
             "hhf": "0",
             "id": 0,
             "updateDate": "2026-10-23",
-            "updateTime": "12:06:27"
+            "updateTime": "14:03:32"
           },
           "crs": {
             "goalLine": "",
@@ -2334,9 +2334,9 @@
             "s00s00": "10.50",
             "s00s00f": "0",
             "s00s01": "12.00",
-            "s00s01f": "1",
+            "s00s01f": "0",
             "s00s02": "29.00",
-            "s00s02f": "1",
+            "s00s02f": "0",
             "s00s03": "75.00",
             "s00s03f": "0",
             "s00s04": "300.0",
@@ -2346,9 +2346,9 @@
             "s01s00": "6.00",
             "s01s00f": "0",
             "s01s01": "6.25",
-            "s01s01f": "1",
+            "s01s01f": "0",
             "s01s02": "14.00",
-            "s01s02f": "1",
+            "s01s02f": "0",
             "s01s03": "50.00",
             "s01s03f": "0",
             "s01s04": "200.0",
@@ -2356,7 +2356,7 @@
             "s01s05": "500.0",
             "s01s05f": "0",
             "s02s00": "6.50",
-            "s02s00f": "-1",
+            "s02s00f": "0",
             "s02s01": "7.00",
             "s02s01f": "0",
             "s02s02": "15.00",
@@ -2368,15 +2368,15 @@
             "s02s05": "500.0",
             "s02s05f": "0",
             "s03s00": "11.00",
-            "s03s00f": "-1",
+            "s03s00f": "0",
             "s03s01": "12.00",
-            "s03s01f": "-1",
+            "s03s01f": "0",
             "s03s02": "27.00",
             "s03s02f": "0",
             "s03s03": "80.00",
             "s03s03f": "0",
             "s04s00": "25.00",
-            "s04s00f": "-1",
+            "s04s00f": "0",
             "s04s01": "30.00",
             "s04s01f": "0",
             "s04s02": "75.00",
@@ -2386,13 +2386,13 @@
             "s05s01": "90.00",
             "s05s01f": "0",
             "s05s02": "150.0",
-            "s05s02f": "-1",
+            "s05s02f": "0",
             "s1sa": "300.0",
             "s1saf": "0",
             "s1sd": "500.0",
             "s1sdf": "0",
             "s1sh": "50.00",
-            "s1shf": "-1",
+            "s1shf": "0",
             "updateDate": "2026-10-23",
             "updateTime": "12:56:25"
           }
@@ -2406,7 +2406,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -2415,7 +2415,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -2424,7 +2424,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -2433,7 +2433,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -2442,7 +2442,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     },
@@ -2465,42 +2465,42 @@
       "recommended": false,
       "purchaseApproved": false,
       "status": "研究倾向·未批准票",
-      "risk": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。",
+      "risk": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。",
       "odds": {
         "spf": {
-          "win": 1.49,
-          "draw": 3.65,
-          "lose": 5.45
+          "win": 1.47,
+          "draw": 3.7,
+          "lose": 5.6
         },
         "rqspf": {
-          "win": 2.76,
-          "draw": 3.1,
-          "lose": 2.25
+          "win": 2.73,
+          "draw": 3.05,
+          "lose": 2.3
         },
         "officialMarkets": {
           "had": {
-            "a": "5.45",
+            "a": "5.60",
             "af": "1",
-            "d": "3.65",
+            "d": "3.70",
             "df": "1",
             "goalLine": "",
             "goalLineValue": "",
-            "h": "1.49",
+            "h": "1.47",
             "hf": "-1",
             "updateDate": "2026-10-23",
-            "updateTime": "12:53:36"
+            "updateTime": "13:59:54"
           },
           "hhad": {
-            "a": "2.25",
+            "a": "2.30",
             "af": "1",
-            "d": "3.10",
+            "d": "3.05",
             "df": "-1",
             "goalLine": "-1",
             "goalLineValue": "-1.00",
-            "h": "2.76",
+            "h": "2.73",
             "hf": "-1",
             "updateDate": "2026-10-23",
-            "updateTime": "12:53:44"
+            "updateTime": "13:59:57"
           },
           "ttg": {
             "goalLine": "",
@@ -2525,29 +2525,29 @@
             "updateTime": "11:33:42"
           },
           "hafu": {
-            "aa": "8.75",
-            "aaf": "0",
-            "ad": "18.00",
-            "adf": "0",
+            "aa": "9.50",
+            "aaf": "1",
+            "ad": "20.00",
+            "adf": "1",
             "ah": "25.00",
             "ahf": "0",
-            "da": "11.50",
-            "daf": "0",
-            "dd": "5.60",
-            "ddf": "0",
-            "dh": "4.20",
-            "dhf": "0",
+            "da": "13.00",
+            "daf": "1",
+            "dd": "5.70",
+            "ddf": "1",
+            "dh": "4.05",
+            "dhf": "-1",
             "goalLine": "",
             "goalLineValue": "",
             "ha": "50.00",
             "haf": "0",
-            "hd": "18.00",
-            "hdf": "0",
-            "hh": "2.15",
-            "hhf": "0",
+            "hd": "20.00",
+            "hdf": "1",
+            "hh": "2.05",
+            "hhf": "-1",
             "id": 0,
-            "updateDate": "2026-10-22",
-            "updateTime": "13:24:24"
+            "updateDate": "2026-10-23",
+            "updateTime": "14:00:17"
           },
           "crs": {
             "goalLine": "",
@@ -2627,7 +2627,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -2636,7 +2636,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -2645,7 +2645,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -2654,7 +2654,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -2663,7 +2663,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       }
     }
@@ -2671,7 +2671,7 @@
   "matchAnalysis": [
     {
       "number": "周五001",
-      "text": "研究方向：胜/平（非批准票）。布里斯班新增创造者和回归防线、珀斯防线多名缺席，支持主队不败倾向；主队无本季正式样本、客队首轮领先至86分钟，必须保留平局。 出战与替代：新增核实：Bouzanis/Plusnin为主队门将候选，Aldred、King、Russell在扩展名单；客队Sutton/Solsky门将、Jackson/Lebib等防守候选在名单。Hore腿筋存疑，Nieuwenhof、Dench、Shamoon、Kaltak缺席。O’Shea是新签珀斯球员，不是布里斯班本场可用球员；未列入该扩展名单，不能加为本场战力。官方专栏提示大雨及湿重场地，属预报，非已确认比赛天气。 赛程强度校正：主队降权：首轮延期，近5混入旧季与友谊赛。客队中性：首轮领先至86分钟后1:2负麦克阿瑟，仅一轮样本不足。 攻防：主队新阵容的推进与压迫配合缺本季比赛验证；客防线缺员可能受压，但客队上轮先取得领先，不能当作无反击能力。 交锋：近7次各3胜1平，新赛季大幅换血，旧交锋不升权。 战意：主队争取赛季开门红、客队争首分属合理比赛目标，无可核额外激励，不据此升星。 轮换：中；主队本季首战，磨合待核；客队从悉尼直接赴布里斯班训练，不能虚构往返珀斯旅途，替补配置待核。 盘面：官方当前胜/平/负 1.98/3.35/3.07；主-1让胜/让平/让负 4.08/3.65/1.64。赔率更新时间2026-10-23 12:25:56；采集2026-10-23T05:59:07.377Z。 波动：高。输钱路径：买胜/平：新阵容后场出球失误，珀斯Lawrence率先得分并守住。 买胜/平：湿重场地削弱主队压迫和边路推进，客队定位球或二点球取胜。 总进球1/2/3：0:0或双方换人后连续失误出现4球以上均出界。 核心结论：官方前瞻明确主队本季首战且大量新援；大雨、湿重草皮预警使磨合和节奏分布不稳定，不能以客队缺后卫作为低波动证明。",
+      "text": "研究方向：胜/平（非批准票）。布里斯班新增创造者和回归防线、珀斯防线多名缺席，支持主队不败倾向；主队无本季正式样本、客队首轮领先至86分钟，必须保留平局。 出战与替代：新增核实：Bouzanis/Plusnin为主队门将候选，Aldred、King、Russell在扩展名单；客队Sutton/Solsky门将、Jackson/Lebib等防守候选在名单。Hore腿筋存疑，Nieuwenhof、Dench、Shamoon、Kaltak缺席。O’Shea是新签珀斯球员，不是布里斯班本场可用球员；未列入该扩展名单，不能加为本场战力。官方专栏提示大雨及湿重场地，属预报，非已确认比赛天气。 赛程强度校正：主队降权：首轮延期，近5混入旧季与友谊赛。客队中性：首轮领先至86分钟后1:2负麦克阿瑟，仅一轮样本不足。 攻防：主队新阵容的推进与压迫配合缺本季比赛验证；客防线缺员可能受压，但客队上轮先取得领先，不能当作无反击能力。 交锋：近7次各3胜1平，新赛季大幅换血，旧交锋不升权。 战意：主队争取赛季开门红、客队争首分属合理比赛目标，无可核额外激励，不据此升星。 轮换：中；主队本季首战，磨合待核；客队从悉尼直接赴布里斯班训练，不能虚构往返珀斯旅途，替补配置待核。 盘面：官方本轮胜/平/负 1.98/3.35/3.07；主-1让胜/让平/让负 4.08/3.65/1.64。赔率更新时间2026-10-23 12:25:56；采集2026-10-23T06:30:03.725Z。 波动：高。输钱路径：买胜/平：新阵容后场出球失误，珀斯Lawrence率先得分并守住。 买胜/平：湿重场地削弱主队压迫和边路推进，客队定位球或二点球取胜。 总进球1/2/3：0:0或双方换人后连续失误出现4球以上均出界。 核心结论：官方前瞻明确主队本季首战且大量新援；大雨、湿重草皮预警使磨合和节奏分布不稳定，不能以客队缺后卫作为低波动证明。",
       "availability": "新增核实：Bouzanis/Plusnin为主队门将候选，Aldred、King、Russell在扩展名单；客队Sutton/Solsky门将、Jackson/Lebib等防守候选在名单。Hore腿筋存疑，Nieuwenhof、Dench、Shamoon、Kaltak缺席。O’Shea是新签珀斯球员，不是布里斯班本场可用球员；未列入该扩展名单，不能加为本场战力。官方专栏提示大雨及湿重场地，属预报，非已确认比赛天气。",
       "matchup": "主队新阵容的推进与压迫配合缺本季比赛验证；客防线缺员可能受压，但客队上轮先取得领先，不能当作无反击能力。",
       "headToHead": "近7次各3胜1平，新赛季大幅换血，旧交锋不升权。",
@@ -2795,7 +2795,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -2804,7 +2804,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -2813,7 +2813,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -2822,7 +2822,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -2831,7 +2831,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -2915,11 +2915,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 1.98/3.35/3.07；主-1让胜/让平/让负 4.08/3.65/1.64。赔率更新时间2026-10-23 12:25:56；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 1.98/3.35/3.07；主-1让胜/让平/让负 4.08/3.65/1.64。赔率更新时间2026-10-23 12:25:56；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五002",
-      "text": "研究方向：平/负（非批准票）。狼堡持续创造和终结优于近两场联赛0进球的波鸿，客不败优先；波鸿低失球与主场主动增员都支持防平，撤销旧版客胜单选。 出战与替代：新取得波鸿10/22发布会：Cokaj虽回训练仍不能上，Mbom、Drakas、Strompf、Olsen继续缺席；四后卫不变，至少一处首发更换。Klaiber已四次首发，体能逐渐恢复，可作为Olsen缺席后的右路替代依据。狼堡Glatzel回训仅为选项。波鸿官方指出失球总量较低但有重大个体失误，不宜机械将狼堡近期大比分当成这场3/4/5球证明。 赛程强度校正：主队降权：友谊4:1不算联赛回暖；客队降权：5:1达姆、友谊4:1不应压过4:4纽伦堡及负圣保利风险，过程数据待核。 攻防：狼堡8轮22球对波鸿5球，支持进攻产量差；但狼堡近期4:4及失利提示防线不稳定，不能从进攻产量推导客胜低波动。 交锋：历史交锋含不同阵容和级别背景，不能替代本季防守对位。 战意：主队需要止跌，客帅明确警告勿被波鸿排名和三连败误导；争分意愿不能消除防线漏洞。 轮换：中；波鸿主帅确认四后卫不变、至少一处首发调整；Klaiber已四次首发并恢复体能。狼堡Glatzel回训后首发取舍未定，不把回训写成确定首发。 盘面：官方当前胜/平/负 3.27/3.92/1.76；主+1让胜/让平/让负 1.84/3.80/3.10。赔率更新时间2026-10-23 13:27:55；采集2026-10-23T05:59:07.377Z。 波动：高。输钱路径：平/负：波鸿利用狼堡压上身后先得分并以四后卫守住。 平/负：狼堡前场低效、Glatzel复出取舍改变衔接，主队个体突破形成唯一进球。 2/3/4球：波鸿低位使总球仅0/1；或狼堡防守失序使总球5+。 核心结论：狼堡近期正式赛4:4纽伦堡暴露失球尾部；波鸿教练明确至少一处首发变化和向禁区增员。防平可覆盖平局，不能覆盖狼堡被反击击败。",
+      "text": "研究方向：平/负（非批准票）。狼堡持续创造和终结优于近两场联赛0进球的波鸿，客不败优先；波鸿低失球与主场主动增员都支持防平，撤销旧版客胜单选。 出战与替代：新取得波鸿10/22发布会：Cokaj虽回训练仍不能上，Mbom、Drakas、Strompf、Olsen继续缺席；四后卫不变，至少一处首发更换。Klaiber已四次首发，体能逐渐恢复，可作为Olsen缺席后的右路替代依据。狼堡Glatzel回训仅为选项。波鸿官方指出失球总量较低但有重大个体失误，不宜机械将狼堡近期大比分当成这场3/4/5球证明。 赛程强度校正：主队降权：友谊4:1不算联赛回暖；客队降权：5:1达姆、友谊4:1不应压过4:4纽伦堡及负圣保利风险，过程数据待核。 攻防：狼堡8轮22球对波鸿5球，支持进攻产量差；但狼堡近期4:4及失利提示防线不稳定，不能从进攻产量推导客胜低波动。 交锋：历史交锋含不同阵容和级别背景，不能替代本季防守对位。 战意：主队需要止跌，客帅明确警告勿被波鸿排名和三连败误导；争分意愿不能消除防线漏洞。 轮换：中；波鸿主帅确认四后卫不变、至少一处首发调整；Klaiber已四次首发并恢复体能。狼堡Glatzel回训后首发取舍未定，不把回训写成确定首发。 盘面：官方本轮胜/平/负 3.43/4.00/1.70；主+1让胜/让平/让负 1.89/3.74/3.00。赔率更新时间2026-10-23 14:09:19；采集2026-10-23T06:30:03.725Z。 波动：高。输钱路径：平/负：波鸿利用狼堡压上身后先得分并以四后卫守住。 平/负：狼堡前场低效、Glatzel复出取舍改变衔接，主队个体突破形成唯一进球。 2/3/4球：波鸿低位使总球仅0/1；或狼堡防守失序使总球5+。 核心结论：狼堡近期正式赛4:4纽伦堡暴露失球尾部；波鸿教练明确至少一处首发变化和向禁区增员。防平可覆盖平局，不能覆盖狼堡被反击击败。",
       "availability": "新取得波鸿10/22发布会：Cokaj虽回训练仍不能上，Mbom、Drakas、Strompf、Olsen继续缺席；四后卫不变，至少一处首发更换。Klaiber已四次首发，体能逐渐恢复，可作为Olsen缺席后的右路替代依据。狼堡Glatzel回训仅为选项。波鸿官方指出失球总量较低但有重大个体失误，不宜机械将狼堡近期大比分当成这场3/4/5球证明。",
       "matchup": "狼堡8轮22球对波鸿5球，支持进攻产量差；但狼堡近期4:4及失利提示防线不稳定，不能从进攻产量推导客胜低波动。",
       "headToHead": "历史交锋含不同阵容和级别背景，不能替代本季防守对位。",
@@ -3075,7 +3075,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -3084,7 +3084,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -3093,7 +3093,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -3102,7 +3102,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -3111,7 +3111,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -3217,11 +3217,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 3.27/3.92/1.76；主+1让胜/让平/让负 1.84/3.80/3.10。赔率更新时间2026-10-23 13:27:55；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 3.43/4.00/1.70；主+1让胜/让平/让负 1.89/3.74/3.00。赔率更新时间2026-10-23 14:09:19；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五003",
-      "text": "研究方向：胜/平（非批准票）。主队近期正式进攻和客后场伤停支持主不败；马尔默控球、个人攻击能力及主队领先后失球要求保留平局，不能升级为让胜。 出战与替代：埃夫斯堡近4场可辨正式赛1:0卡尔马、2:1佐加顿、4:0哈尔姆斯、2:2天狼星；剔除赫根友谊赛。马尔默正式近4为4:1奥尔格里特、0:2瓦斯特拉、1:0卡尔马、0:1赫根。双方友谊赛不得用于进球分布升权。官方伤停列Assibu、Busuladzic、Jansson、Sjöstrand、Åstrand John。 赛程强度校正：主队中性：天狼星一战暴露领先后防守问题；客队中性：新教练适应期，真实过程强度待核。双方不因排名升级。 攻防：主队上一场2:2天狼星，短时连丢两球后追回；Zeneli承认马尔默控球与个人进攻能力，客防伤停不能抵消客攻击威胁。 交锋：现有交锋资料不能证明缺员后的净胜幅度，不作为升级让球依据。 战意：双方联赛争分；公开采访强调难度和对手能力，无已核额外战意优势。 轮换：中；主队周五后周二、周日有比赛，Zeneli首发尚不确定；客队康复名单人数多，轮换及替代者配合待核。 盘面：官方当前胜/平/负 1.85/3.55/3.25；主-1让胜/让平/让负 3.62/3.55/1.75。赔率更新时间2026-10-23 12:00:46；采集2026-10-23T05:59:07.377Z。 波动：中高。输钱路径：胜/平：马尔默控球限制主队出球，主队先失球后未追回。 胜/平：密集赛程改变前场配置，客队替代防线有效并利用反击获胜。 2/3/4球：马尔默近期多场低总球使0/1球尾部现实，另有连续失误5+风险。 核心结论：埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。",
+      "text": "研究方向：胜/平（非批准票）。主队近期正式进攻和客后场伤停支持主不败；马尔默控球、个人攻击能力及主队领先后失球要求保留平局，不能升级为让胜。 出战与替代：埃夫斯堡近4场可辨正式赛1:0卡尔马、2:1佐加顿、4:0哈尔姆斯、2:2天狼星；剔除赫根友谊赛。马尔默正式近4为4:1奥尔格里特、0:2瓦斯特拉、1:0卡尔马、0:1赫根。双方友谊赛不得用于进球分布升权。官方伤停列Assibu、Busuladzic、Jansson、Sjöstrand、Åstrand John。 赛程强度校正：主队中性：天狼星一战暴露领先后防守问题；客队中性：新教练适应期，真实过程强度待核。双方不因排名升级。 攻防：主队上一场2:2天狼星，短时连丢两球后追回；Zeneli承认马尔默控球与个人进攻能力，客防伤停不能抵消客攻击威胁。 交锋：现有交锋资料不能证明缺员后的净胜幅度，不作为升级让球依据。 战意：双方联赛争分；公开采访强调难度和对手能力，无已核额外战意优势。 轮换：中；主队周五后周二、周日有比赛，Zeneli首发尚不确定；客队康复名单人数多，轮换及替代者配合待核。 盘面：官方本轮胜/平/负 1.85/3.55/3.25；主-1让胜/让平/让负 3.62/3.55/1.75。赔率更新时间2026-10-23 12:00:46；采集2026-10-23T06:30:03.725Z。 波动：中高。输钱路径：胜/平：马尔默控球限制主队出球，主队先失球后未追回。 胜/平：密集赛程改变前场配置，客队替代防线有效并利用反击获胜。 2/3/4球：马尔默近期多场低总球使0/1球尾部现实，另有连续失误5+风险。 核心结论：埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。",
       "availability": "埃夫斯堡近4场可辨正式赛1:0卡尔马、2:1佐加顿、4:0哈尔姆斯、2:2天狼星；剔除赫根友谊赛。马尔默正式近4为4:1奥尔格里特、0:2瓦斯特拉、1:0卡尔马、0:1赫根。双方友谊赛不得用于进球分布升权。官方伤停列Assibu、Busuladzic、Jansson、Sjöstrand、Åstrand John。",
       "matchup": "主队上一场2:2天狼星，短时连丢两球后追回；Zeneli承认马尔默控球与个人进攻能力，客防伤停不能抵消客攻击威胁。",
       "headToHead": "现有交锋资料不能证明缺员后的净胜幅度，不作为升级让球依据。",
@@ -3377,7 +3377,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -3386,7 +3386,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -3395,7 +3395,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -3404,7 +3404,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -3413,7 +3413,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -3491,11 +3491,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 1.85/3.55/3.25；主-1让胜/让平/让负 3.62/3.55/1.75。赔率更新时间2026-10-23 12:00:46；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 1.85/3.55/3.25；主-1让胜/让平/让负 3.62/3.55/1.75。赔率更新时间2026-10-23 12:00:46；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五004",
-      "text": "研究方向：让平/让负（非批准票）。主队失球与客队强赛程纠偏后，不支持主队大胜；用官方-1让平/让负覆盖一球边界，方向不同于旧版仅主不败。 出战与替代：让球为主队-1。让平/让负覆盖前进之鹰恰赢1球、平局或输球；不等于普通胜/平。若主队赢2球以上两项均输。球队完整伤停及门将可用性仍缺可靠正文，不写无伤。 赛程强度校正：主队降权：连续平局加惨败不支持低波动；客队升权：近期含特温特、海伦芬、AZ、费耶诺德，不能将积分弱势全归实力。 攻防：主队近6场4平2负、上轮1:4兹沃勒；客队上轮3:4费耶诺德，客队能破门而主队防守近期有漏洞。 交锋：旧交锋不代表当前低迷防线，缺少能支持本轮主胜高星的独立证据。 战意：主队急需反弹，客队赛季首胜后积分少、同样需要分数；战意没有单边优势。 轮换：待核；主队教练要求反弹但未确认首发；客队完整轮换计划和后续赛程取舍待核。 盘面：官方当前胜/平/负 1.38/4.42/5.60；主-1让胜/让平/让负 2.14/3.70/2.55。赔率更新时间2026-10-23 12:29:45；采集2026-10-23T05:59:07.377Z。 波动：高。输钱路径：让平/让负：主队改善压迫且客队后防延续对费耶诺德丢4球的漏洞，赢2球以上。 让平/让负：特尔斯达追分压上，末段再失球使一球边界被突破。 2/3/4球：两队转换防守同时失效产生5+，或客队退守形成0/1球。 核心结论：主队官方确认六场4平2负，上一场1:4；客队对费耶诺德进3球且此前连续面对强手。1.38主胜热门不足解释明显防守漏洞，核心直接剔除。",
+      "text": "研究方向：让平/让负（非批准票）。主队失球与客队强赛程纠偏后，不支持主队大胜；用官方-1让平/让负覆盖一球边界，方向不同于旧版仅主不败。 出战与替代：让球为主队-1。让平/让负覆盖前进之鹰恰赢1球、平局或输球；不等于普通胜/平。若主队赢2球以上两项均输。球队完整伤停及门将可用性仍缺可靠正文，不写无伤。 赛程强度校正：主队降权：连续平局加惨败不支持低波动；客队升权：近期含特温特、海伦芬、AZ、费耶诺德，不能将积分弱势全归实力。 攻防：主队近6场4平2负、上轮1:4兹沃勒；客队上轮3:4费耶诺德，客队能破门而主队防守近期有漏洞。 交锋：旧交锋不代表当前低迷防线，缺少能支持本轮主胜高星的独立证据。 战意：主队急需反弹，客队赛季首胜后积分少、同样需要分数；战意没有单边优势。 轮换：待核；主队教练要求反弹但未确认首发；客队完整轮换计划和后续赛程取舍待核。 盘面：官方本轮胜/平/负 1.38/4.42/5.60；主-1让胜/让平/让负 2.14/3.70/2.55。赔率更新时间2026-10-23 12:29:45；采集2026-10-23T06:30:03.725Z。 波动：高。输钱路径：让平/让负：主队改善压迫且客队后防延续对费耶诺德丢4球的漏洞，赢2球以上。 让平/让负：特尔斯达追分压上，末段再失球使一球边界被突破。 2/3/4球：两队转换防守同时失效产生5+，或客队退守形成0/1球。 核心结论：主队官方确认六场4平2负，上一场1:4；客队对费耶诺德进3球且此前连续面对强手。1.38主胜热门不足解释明显防守漏洞，核心直接剔除。",
       "availability": "让球为主队-1。让平/让负覆盖前进之鹰恰赢1球、平局或输球；不等于普通胜/平。若主队赢2球以上两项均输。球队完整伤停及门将可用性仍缺可靠正文，不写无伤。",
       "matchup": "主队近6场4平2负、上轮1:4兹沃勒；客队上轮3:4费耶诺德，客队能破门而主队防守近期有漏洞。",
       "headToHead": "旧交锋不代表当前低迷防线，缺少能支持本轮主胜高星的独立证据。",
@@ -3667,7 +3667,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -3676,7 +3676,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -3685,7 +3685,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -3694,7 +3694,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -3703,7 +3703,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -3764,11 +3764,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 1.38/4.42/5.60；主-1让胜/让平/让负 2.14/3.70/2.55。赔率更新时间2026-10-23 12:29:45；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 1.38/4.42/5.60；主-1让胜/让平/让负 2.14/3.70/2.55。赔率更新时间2026-10-23 12:29:45；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五005",
-      "text": "研究方向：胜/平（非批准票）。主场及换帅后的进攻改善支持NAC不败倾向，但相近盘面和客队替代者质量要求防平；不单买主胜。 出战与替代：客队Vicente Robles解禁，Benita此前替代表现良好；Bruns、Tomic上轮进入首发，Van Gilst/Hauswirth可改变末段跑动。不能用伤员回归推出固定战术。NAC近5四胜一平需对手强度折扣。 赛程强度校正：双方降权：近期胜场包含Helmond、MVV、Vitesse等共同对手，未有过程强度证据，不按连胜表面升星。 攻防：客队Bruns、Tomic上轮加入首发，教练可能换阵型；Van Gilst/Hauswirth跑动可改变攻防，不能沿用固定十一人对位。 交锋：人员和阵型可能变动，旧交锋不升权。 战意：客帅期待Breda比赛但兼顾密集赛程；主队主场争分，无证据支持必赢战意。 轮换：高；高：客帅明确表示将增加轮换，后续De Treffers、TOP Oss、Roda形成八天三赛；NAC完整取舍待核。 盘面：官方当前胜/平/负 2.33/3.65/2.35；主-1让胜/让平/让负 4.75/4.30/1.46。赔率更新时间2026-10-23 12:32:16；采集2026-10-23T05:59:07.377Z。 波动：高。输钱路径：胜/平：客队轮换替代质量保持，利用NAC弱对手样本夸大的优势获胜。 胜/平：主队压迫被客队新阵型打穿，领先权落在客队。 2/3/4球：变阵导致节奏和末段失球扩散，无法把5+尾部视为很小。 核心结论：赫拉克勒主帅明确将增加轮换并可能变阵，后续8天3赛；这是核心排除的公开实锤，不是一般资料不确定。",
+      "text": "研究方向：胜/平（非批准票）。主场及换帅后的进攻改善支持NAC不败倾向，但相近盘面和客队替代者质量要求防平；不单买主胜。 出战与替代：客队Vicente Robles解禁，Benita此前替代表现良好；Bruns、Tomic上轮进入首发，Van Gilst/Hauswirth可改变末段跑动。不能用伤员回归推出固定战术。NAC近5四胜一平需对手强度折扣。 赛程强度校正：双方降权：近期胜场包含Helmond、MVV、Vitesse等共同对手，未有过程强度证据，不按连胜表面升星。 攻防：客队Bruns、Tomic上轮加入首发，教练可能换阵型；Van Gilst/Hauswirth跑动可改变攻防，不能沿用固定十一人对位。 交锋：人员和阵型可能变动，旧交锋不升权。 战意：客帅期待Breda比赛但兼顾密集赛程；主队主场争分，无证据支持必赢战意。 轮换：高；高：客帅明确表示将增加轮换，后续De Treffers、TOP Oss、Roda形成八天三赛；NAC完整取舍待核。 盘面：官方本轮胜/平/负 2.33/3.65/2.35；主-1让胜/让平/让负 4.75/4.30/1.46。赔率更新时间2026-10-23 12:32:16；采集2026-10-23T06:30:03.725Z。 波动：高。输钱路径：胜/平：客队轮换替代质量保持，利用NAC弱对手样本夸大的优势获胜。 胜/平：主队压迫被客队新阵型打穿，领先权落在客队。 2/3/4球：变阵导致节奏和末段失球扩散，无法把5+尾部视为很小。 核心结论：赫拉克勒主帅明确将增加轮换并可能变阵，后续8天3赛；这是核心排除的公开实锤，不是一般资料不确定。",
       "availability": "客队Vicente Robles解禁，Benita此前替代表现良好；Bruns、Tomic上轮进入首发，Van Gilst/Hauswirth可改变末段跑动。不能用伤员回归推出固定战术。NAC近5四胜一平需对手强度折扣。",
       "matchup": "客队Bruns、Tomic上轮加入首发，教练可能换阵型；Van Gilst/Hauswirth跑动可改变攻防，不能沿用固定十一人对位。",
       "headToHead": "人员和阵型可能变动，旧交锋不升权。",
@@ -3913,22 +3913,22 @@
           "goalLineValue": "",
           "s0": "23.00",
           "s0f": "0",
-          "s1": "7.50",
-          "s1f": "0",
-          "s2": "4.30",
-          "s2f": "0",
+          "s1": "8.00",
+          "s1f": "1",
+          "s2": "4.55",
+          "s2f": "1",
           "s3": "3.40",
           "s3f": "0",
-          "s4": "4.40",
-          "s4f": "0",
-          "s5": "6.50",
-          "s5f": "0",
-          "s6": "10.50",
-          "s6f": "0",
-          "s7": "13.50",
-          "s7f": "0",
-          "updateDate": "2026-10-22",
-          "updateTime": "13:24:23"
+          "s4": "4.30",
+          "s4f": "-1",
+          "s5": "6.25",
+          "s5f": "-1",
+          "s6": "10.00",
+          "s6f": "-1",
+          "s7": "12.50",
+          "s7f": "-1",
+          "updateDate": "2026-10-23",
+          "updateTime": "14:17:33"
         },
         "conclusion": "仅列研究分布；未形成梦想串入选证明。没有用预测比分反证概率。"
       },
@@ -3940,7 +3940,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -3949,7 +3949,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -3958,7 +3958,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -3967,7 +3967,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -3976,7 +3976,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -4043,11 +4043,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 2.33/3.65/2.35；主-1让胜/让平/让负 4.75/4.30/1.46。赔率更新时间2026-10-23 12:32:16；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 2.33/3.65/2.35；主-1让胜/让平/让负 4.75/4.30/1.46。赔率更新时间2026-10-23 12:32:16；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五006",
-      "text": "研究方向：胜/平（非批准票）。斯图加特对马竞的竞争力和创造能力支持主不败；短休及边路新伤使平局保险必要。让胜/让平只能覆盖赢球，不能替代普通胜/平。 出战与替代：Vagnoman、Nartey、Tiago Tomas、Diehl、Zagadou确定本场不能上。恢复训练不等于可出场。Kicker预计阵容页403，未把搜索摘要的Bredlow/Assignon当已核完整阵容。门兴两场1:2均有破门，不能按排名认定哑火。 赛程强度校正：主队混合校正：平马竞升权、友谊5:0及胜帕德博恩/布拉迪斯拉发降权，同时有负汉堡；客队中性：两次1:2说明能破门，过程强度待核。 攻防：斯图加特对马竞1:1有强对手样本，但不能将欧战控制直接照搬联赛；门兴连续1:2负科隆和霍村仍每场能破门，不能当无反击。 交锋：历史交锋不抵消本轮短休和新伤，不用于升星。 战意：主队争联赛分数与恢复兼顾，客队希望止败；不以主场强队身份代替证据。 轮换：中高；主队周二欧冠到周五联赛，虽连续主场免长旅但恢复仅三天且新伤，轮换中高风险；客队取舍待核。 盘面：官方当前胜/平/负 1.21/5.78/7.70；主-1让胜/让平/让负 1.67/4.15/3.45。赔率更新时间2026-10-23 13:30:09；采集2026-10-23T05:59:07.377Z。 波动：中高。输钱路径：胜/平：新伤替代区域被门兴反击突破，先失后追不上。 胜/平：疲劳下二点球保护下降，客队定位球得分并守住。 让胜/让平：只要平局就两项皆输，因此不能用其冒充防平。 核心结论：周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。",
+      "text": "研究方向：胜/平（非批准票）。斯图加特对马竞的竞争力和创造能力支持主不败；短休及边路新伤使平局保险必要。让胜/让平只能覆盖赢球，不能替代普通胜/平。 出战与替代：Vagnoman、Nartey、Tiago Tomas、Diehl、Zagadou确定本场不能上。恢复训练不等于可出场。Kicker预计阵容页403，未把搜索摘要的Bredlow/Assignon当已核完整阵容。门兴两场1:2均有破门，不能按排名认定哑火。 赛程强度校正：主队混合校正：平马竞升权、友谊5:0及胜帕德博恩/布拉迪斯拉发降权，同时有负汉堡；客队中性：两次1:2说明能破门，过程强度待核。 攻防：斯图加特对马竞1:1有强对手样本，但不能将欧战控制直接照搬联赛；门兴连续1:2负科隆和霍村仍每场能破门，不能当无反击。 交锋：历史交锋不抵消本轮短休和新伤，不用于升星。 战意：主队争联赛分数与恢复兼顾，客队希望止败；不以主场强队身份代替证据。 轮换：中高；主队周二欧冠到周五联赛，虽连续主场免长旅但恢复仅三天且新伤，轮换中高风险；客队取舍待核。 盘面：官方本轮胜/平/负 1.21/5.78/7.70；主-1让胜/让平/让负 1.67/4.15/3.45。赔率更新时间2026-10-23 13:30:09；采集2026-10-23T06:30:03.725Z。 波动：中高。输钱路径：胜/平：新伤替代区域被门兴反击突破，先失后追不上。 胜/平：疲劳下二点球保护下降，客队定位球得分并守住。 让胜/让平：只要平局就两项皆输，因此不能用其冒充防平。 核心结论：周二欧冠到周五联赛仅3天，Vagnoman新增肌肉伤、Nartey等缺席；对位关键边路替代及门兴完整可用性未通过，1.21不能抵消短休风险。",
       "availability": "Vagnoman、Nartey、Tiago Tomas、Diehl、Zagadou确定本场不能上。恢复训练不等于可出场。Kicker预计阵容页403，未把搜索摘要的Bredlow/Assignon当已核完整阵容。门兴两场1:2均有破门，不能按排名认定哑火。",
       "matchup": "斯图加特对马竞1:1有强对手样本，但不能将欧战控制直接照搬联赛；门兴连续1:2负科隆和霍村仍每场能破门，不能当无反击。",
       "headToHead": "历史交锋不抵消本轮短休和新伤，不用于升星。",
@@ -4195,7 +4195,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -4204,7 +4204,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -4213,7 +4213,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -4222,7 +4222,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -4231,7 +4231,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -4314,11 +4314,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 1.21/5.78/7.70；主-1让胜/让平/让负 1.67/4.15/3.45。赔率更新时间2026-10-23 13:30:09；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 1.21/5.78/7.70；主-1让胜/让平/让负 1.67/4.15/3.45。赔率更新时间2026-10-23 13:30:09；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五007",
-      "text": "研究方向：胜/平（非批准票）。都灵对佛罗伦萨客胜、博洛尼亚客平及近期进攻连续性比单场3:0更有支持；Monza赢萨索洛/卡利亚里需折扣，但前场延续性和中卫复出使客威胁真实，保留平局。 出战与替代：Corriere预计都灵Perri门将、Coco/Ismajli/Comuzzo三中卫，Vlasic/Adams支援Simeone；Monza为Tornqvist，前场Mota/Robinson/Varela。Fantacalcio同意前场结构，但称Lucchesi解禁回到中卫，Corriere将其列替补，属预计首发分歧。Rodriguez官方伤停确认；Zeballos膝不适拟争取替补。预计阵容不等于官方首发。 补核10/22发布会全文：Fitz-Jim足跟问题已恢复、连续两周训练良好，可踢后腰或中前卫；Ismajli获主帅肯定，Belghali防守站位仍在改进；Aboukhlal是左路替代选项。 赛程强度校正：双方中性：各一场大胜不能证明持续低波动，完整过程数据和对手真实强度待核。 攻防：都灵上轮3:0帕尔马有正面结果，但蒙扎上轮4:0卡利亚里亦能制造进攻威胁；不能只看一方完胜。 交锋：主帅确认此前被蒙扎淘汰出意大利杯，说明对手的身体对抗与人盯人确有威胁；杯赛不可直接推导本轮比分。 战意：双方均需联赛分数，没有可核单边战意优势。 轮换：中；都灵10/19、10/23、10/27连续比赛。主帅原话为按身体状态选择最有保障的球员，只考虑蒙扎；这不是确定大轮换，也不是保证原班首发。预计阵容差异本身不能当作整场硬淘汰理由。 盘面：官方当前胜/平/负 1.89/3.30/3.37；主-1让胜/让平/让负 3.80/3.60/1.70。赔率更新时间2026-10-23 12:41:45；采集2026-10-23T05:59:07.377Z。 波动：中。输钱路径：胜/平：Rodriguez缺席后的防守交接遭Mota/Robinson穿插利用。 胜/平：都灵连续10/19、10/23、10/27比赛，前场恢复不足而客队守住先手。 单关胜/平等额：即使主胜命中也只返3.78元，投入4元仍亏0.22元。 核心结论：已补齐都灵轮换表态与替代人选；Lucchesi首发/替补分歧属于预计选择，不单凭此淘汰。仍未完成蒙扎对抗都灵出球、Rodriguez缺席后防守衔接及双方正式赛过程强度的核心压力评估，不能认定低波动腿已经通过。",
+      "text": "研究方向：胜/平（非批准票）。都灵对佛罗伦萨客胜、博洛尼亚客平及近期进攻连续性比单场3:0更有支持；Monza赢萨索洛/卡利亚里需折扣，但前场延续性和中卫复出使客威胁真实，保留平局。 出战与替代：Corriere预计都灵Perri门将、Coco/Ismajli/Comuzzo三中卫，Vlasic/Adams支援Simeone；Monza为Tornqvist，前场Mota/Robinson/Varela。Fantacalcio同意前场结构，但称Lucchesi解禁回到中卫，Corriere将其列替补，属预计首发分歧。Rodriguez官方伤停确认；Zeballos膝不适拟争取替补。预计阵容不等于官方首发。 补核10/22发布会全文：Fitz-Jim足跟问题已恢复、连续两周训练良好，可踢后腰或中前卫；Ismajli获主帅肯定，Belghali防守站位仍在改进；Aboukhlal是左路替代选项。 赛程强度校正：双方中性：各一场大胜不能证明持续低波动，完整过程数据和对手真实强度待核。 攻防：都灵上轮3:0帕尔马有正面结果，但蒙扎上轮4:0卡利亚里亦能制造进攻威胁；不能只看一方完胜。 交锋：主帅确认此前被蒙扎淘汰出意大利杯，说明对手的身体对抗与人盯人确有威胁；杯赛不可直接推导本轮比分。 战意：双方均需联赛分数，没有可核单边战意优势。 轮换：中；都灵10/19、10/23、10/27连续比赛。主帅原话为按身体状态选择最有保障的球员，只考虑蒙扎；这不是确定大轮换，也不是保证原班首发。预计阵容差异本身不能当作整场硬淘汰理由。 盘面：官方本轮胜/平/负 1.89/3.25/3.42；主-1让胜/让平/让负 3.80/3.60/1.70。赔率更新时间2026-10-23 14:17:12；采集2026-10-23T06:30:03.725Z。 波动：中。输钱路径：胜/平：Rodriguez缺席后的防守交接遭Mota/Robinson穿插利用。 胜/平：都灵连续10/19、10/23、10/27比赛，前场恢复不足而客队守住先手。 单关胜/平等额：即使主胜命中也只返3.78元，投入4元仍亏0.22元。 核心结论：已补齐都灵轮换表态与替代人选；Lucchesi首发/替补分歧属于预计选择，不单凭此淘汰。仍未完成蒙扎对抗都灵出球、Rodriguez缺席后防守衔接及双方正式赛过程强度的核心压力评估，不能认定低波动腿已经通过。",
       "availability": "Corriere预计都灵Perri门将、Coco/Ismajli/Comuzzo三中卫，Vlasic/Adams支援Simeone；Monza为Tornqvist，前场Mota/Robinson/Varela。Fantacalcio同意前场结构，但称Lucchesi解禁回到中卫，Corriere将其列替补，属预计首发分歧。Rodriguez官方伤停确认；Zeballos膝不适拟争取替补。预计阵容不等于官方首发。 补核10/22发布会全文：Fitz-Jim足跟问题已恢复、连续两周训练良好，可踢后腰或中前卫；Ismajli获主帅肯定，Belghali防守站位仍在改进；Aboukhlal是左路替代选项。",
       "matchup": "都灵上轮3:0帕尔马有正面结果，但蒙扎上轮4:0卡利亚里亦能制造进攻威胁；不能只看一方完胜。",
       "headToHead": "主帅确认此前被蒙扎淘汰出意大利杯，说明对手的身体对抗与人盯人确有威胁；杯赛不可直接推导本轮比分。",
@@ -4447,22 +4447,22 @@
           "goalLineValue": "",
           "s0": "12.00",
           "s0f": "0",
-          "s1": "4.70",
-          "s1f": "0",
-          "s2": "3.45",
-          "s2f": "0",
-          "s3": "3.65",
-          "s3f": "0",
+          "s1": "4.90",
+          "s1f": "1",
+          "s2": "3.35",
+          "s2f": "-1",
+          "s3": "3.55",
+          "s3f": "-1",
           "s4": "5.30",
           "s4f": "0",
-          "s5": "9.00",
-          "s5f": "0",
+          "s5": "9.50",
+          "s5f": "1",
           "s6": "18.00",
           "s6f": "0",
-          "s7": "26.00",
-          "s7f": "0",
-          "updateDate": "2026-10-22",
-          "updateTime": "13:24:23"
+          "s7": "27.00",
+          "s7f": "1",
+          "updateDate": "2026-10-23",
+          "updateTime": "14:18:22"
         },
         "conclusion": "仅列研究分布；未形成梦想串入选证明。没有用预测比分反证概率。"
       },
@@ -4474,7 +4474,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -4483,7 +4483,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -4492,7 +4492,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -4501,7 +4501,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": true,
@@ -4510,7 +4510,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -4595,11 +4595,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 1.89/3.30/3.37；主-1让胜/让平/让负 3.80/3.60/1.70。赔率更新时间2026-10-23 12:41:45；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 1.89/3.25/3.42；主-1让胜/让平/让负 3.80/3.60/1.70。赔率更新时间2026-10-23 14:17:12；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五008",
-      "text": "研究方向：胜/平（非批准票）。Brest支点进攻、主场与对Lille的竞争力支持主不败；Nice有明确速度反击和防线前移改善，主胜必须保留平局。1/2/3只为节奏参考，4球尾部未被消除。 出战与替代：Match en Direct与243foot预计Brest门将Selvik，Tousart/Lloris中卫，Ajorque支点；Nice门将Diouf，Abdelmonem/Ndayishimiye/Mandza中卫，Wahi、Amoura攻击。前者列Chardonnet伤缺，后者只称无新增缺席，不能推出无既有伤员。尼斯官方10/22出征图已直接查看：门将Boulhendi、Diouf、Pinsot；后卫Abdelmonem、Clauss、Koutoune、Mandza、Morana、Ndayishimiye、Nkoumou、Seidu；中场Boudaoui、Coulibaly、Sanson、Witsel；前场Amoura、Diop、Hein、Jansson、Ngoumou、Wahi。出征名单不等于首发。 赛程强度校正：双方中性：近期均有强对手；布雷斯特5:1昂热不是持续进攻上限证明，尼斯对里昂过程需分上下半场。 攻防：尼斯主帅说明对里昂中低位防守抑制机会但转攻差，抬高防线后才改善；Wahi速度力量强但越位时机有问题，Ajorque是尼斯需限制的支点。双方均有明确威胁。 交锋：旧交锋不能证明新教练、新后防组合的结果，不升星。 战意：主队主场争胜与尼斯改善攻守平衡均属正常目标，无独占战意证据。 轮换：待核；尼斯出征名单已确认Diouf、Abdelmonem、Ndayishimiye、Wahi与Amoura等在列；布雷斯特Chardonnet伤缺与替代组合主要来自二手预计阵容，当前未取得主帅正文的对应确认。普通首发取舍不直接算轮换实锤。 盘面：官方当前胜/平/负 2.07/3.35/2.88；主-1让胜/让平/让负 4.25/3.95/1.56。赔率更新时间2026-10-23 12:57:13；采集2026-10-23T05:59:07.377Z。 波动：中。输钱路径：胜/平：Ajorque被包夹，主队推进停滞，Wahi或Amoura反击获胜。 胜/平：Brest中卫替代组合衔接失误，Nice转攻效率恢复。 1/2/3球：双方转换次数增加到4+或互相限制形成0球。 核心结论：尼斯出征名单缺口已补齐；布雷斯特中卫替代状态仍缺直接确认。Ajorque支点与Wahi/Amoura速度反击均有具体依据，尚未证明主队不败的反向风险可控，保留未决而非硬淘汰。",
+      "text": "研究方向：胜/平（非批准票）。Brest支点进攻、主场与对Lille的竞争力支持主不败；Nice有明确速度反击和防线前移改善，主胜必须保留平局。1/2/3只为节奏参考，4球尾部未被消除。 出战与替代：Match en Direct与243foot预计Brest门将Selvik，Tousart/Lloris中卫，Ajorque支点；Nice门将Diouf，Abdelmonem/Ndayishimiye/Mandza中卫，Wahi、Amoura攻击。前者列Chardonnet伤缺，后者只称无新增缺席，不能推出无既有伤员。尼斯官方10/22出征图已直接查看：门将Boulhendi、Diouf、Pinsot；后卫Abdelmonem、Clauss、Koutoune、Mandza、Morana、Ndayishimiye、Nkoumou、Seidu；中场Boudaoui、Coulibaly、Sanson、Witsel；前场Amoura、Diop、Hein、Jansson、Ngoumou、Wahi。出征名单不等于首发。 赛程强度校正：双方中性：近期均有强对手；布雷斯特5:1昂热不是持续进攻上限证明，尼斯对里昂过程需分上下半场。 攻防：尼斯主帅说明对里昂中低位防守抑制机会但转攻差，抬高防线后才改善；Wahi速度力量强但越位时机有问题，Ajorque是尼斯需限制的支点。双方均有明确威胁。 交锋：旧交锋不能证明新教练、新后防组合的结果，不升星。 战意：主队主场争胜与尼斯改善攻守平衡均属正常目标，无独占战意证据。 轮换：待核；尼斯出征名单已确认Diouf、Abdelmonem、Ndayishimiye、Wahi与Amoura等在列；布雷斯特Chardonnet伤缺与替代组合主要来自二手预计阵容，当前未取得主帅正文的对应确认。普通首发取舍不直接算轮换实锤。 盘面：官方本轮胜/平/负 2.07/3.35/2.88；主-1让胜/让平/让负 4.25/3.95/1.56。赔率更新时间2026-10-23 12:57:13；采集2026-10-23T06:30:03.725Z。 波动：中。输钱路径：胜/平：Ajorque被包夹，主队推进停滞，Wahi或Amoura反击获胜。 胜/平：Brest中卫替代组合衔接失误，Nice转攻效率恢复。 1/2/3球：双方转换次数增加到4+或互相限制形成0球。 核心结论：尼斯出征名单缺口已补齐；布雷斯特中卫替代状态仍缺直接确认。Ajorque支点与Wahi/Amoura速度反击均有具体依据，尚未证明主队不败的反向风险可控，保留未决而非硬淘汰。",
       "availability": "Match en Direct与243foot预计Brest门将Selvik，Tousart/Lloris中卫，Ajorque支点；Nice门将Diouf，Abdelmonem/Ndayishimiye/Mandza中卫，Wahi、Amoura攻击。前者列Chardonnet伤缺，后者只称无新增缺席，不能推出无既有伤员。尼斯官方10/22出征图已直接查看：门将Boulhendi、Diouf、Pinsot；后卫Abdelmonem、Clauss、Koutoune、Mandza、Morana、Ndayishimiye、Nkoumou、Seidu；中场Boudaoui、Coulibaly、Sanson、Witsel；前场Amoura、Diop、Hein、Jansson、Ngoumou、Wahi。出征名单不等于首发。",
       "matchup": "尼斯主帅说明对里昂中低位防守抑制机会但转攻差，抬高防线后才改善；Wahi速度力量强但越位时机有问题，Ajorque是尼斯需限制的支点。双方均有明确威胁。",
       "headToHead": "旧交锋不能证明新教练、新后防组合的结果，不升星。",
@@ -4763,7 +4763,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -4772,7 +4772,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -4781,7 +4781,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -4790,7 +4790,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -4799,7 +4799,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -4883,11 +4883,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 2.07/3.35/2.88；主-1让胜/让平/让负 4.25/3.95/1.56。赔率更新时间2026-10-23 12:57:13；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 2.07/3.35/2.88；主-1让胜/让平/让负 4.25/3.95/1.56。赔率更新时间2026-10-23 12:57:13；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五009",
-      "text": "研究方向：让胜/让平（非批准票）。伊普斯对曼城仍能进2球、主场胜富勒姆，不能照排名压客；Forest创造者回归又不宜排除一球客胜。主队+1让胜/让平覆盖主不败或恰输1球，保留真正边界保险。 出战与替代：最新The Football Faithful引用O’Neil：Lukic本场缺席，Florentino/Palacios预计替代；Forest缺Igor Jesus和Savona，Gibbs-White整周训练可用，Milenkovic可选。Stats Zone同时写Lukic伤缺又将其列首发，弃用该预计11人。Football365称客队xPTS偏高但无底层统计来源，本次仅记研究线索，不当独立强度证据。 赛程强度校正：主队升权但有限：含阿森纳杯赛及2:3曼城；客队中性：含阿森纳/维拉/热刺，也负考文垂、水晶宫；主客过程强度仍待核。 攻防：伊普斯中场Lukic缺席，Florentino/Palacios为预计替代；Forest的Gibbs-White整周训练可用，两队转换空间与主队持续失球构成真实反向风险。 交锋：交锋不替代现有阵容验证，未见支持高星的证据。 战意：双方联赛争分，无可核额外激励。 轮换：中；两队完整赛程恢复、旅行及教练首发取舍待核；资料缺失不能按低风险放行。 盘面：官方当前胜/平/负 2.86/3.25/2.12；主+1让胜/让平/让负 1.54/3.90/4.50。赔率更新时间2026-10-23 12:31:24；采集2026-10-23T05:59:07.377Z。 波动：高。输钱路径：让胜/让平：Gibbs-White串联恢复，主队连续失球延续，Forest赢2球以上。 让胜/让平：伊普斯落后追分压上，末段从一球差扩大为两球。 2/3/4球：回归创造者拉高节奏或Forest终结仍失常导致区间外。 核心结论：主队连续失球和客队Gibbs-White复出构成真实攻守尾部；Football365的Lukic可能复出已被更新报道称仍缺席。二手报道甚至把缺席球员列进预计阵容，不能无审查放行。",
+      "text": "研究方向：让胜/让平（非批准票）。伊普斯对曼城仍能进2球、主场胜富勒姆，不能照排名压客；Forest创造者回归又不宜排除一球客胜。主队+1让胜/让平覆盖主不败或恰输1球，保留真正边界保险。 出战与替代：最新The Football Faithful引用O’Neil：Lukic本场缺席，Florentino/Palacios预计替代；Forest缺Igor Jesus和Savona，Gibbs-White整周训练可用，Milenkovic可选。Stats Zone同时写Lukic伤缺又将其列首发，弃用该预计11人。Football365称客队xPTS偏高但无底层统计来源，本次仅记研究线索，不当独立强度证据。 赛程强度校正：主队升权但有限：含阿森纳杯赛及2:3曼城；客队中性：含阿森纳/维拉/热刺，也负考文垂、水晶宫；主客过程强度仍待核。 攻防：伊普斯中场Lukic缺席，Florentino/Palacios为预计替代；Forest的Gibbs-White整周训练可用，两队转换空间与主队持续失球构成真实反向风险。 交锋：交锋不替代现有阵容验证，未见支持高星的证据。 战意：双方联赛争分，无可核额外激励。 轮换：中；两队完整赛程恢复、旅行及教练首发取舍待核；资料缺失不能按低风险放行。 盘面：官方本轮胜/平/负 2.86/3.25/2.12；主+1让胜/让平/让负 1.54/3.90/4.50。赔率更新时间2026-10-23 12:31:24；采集2026-10-23T06:30:03.725Z。 波动：高。输钱路径：让胜/让平：Gibbs-White串联恢复，主队连续失球延续，Forest赢2球以上。 让胜/让平：伊普斯落后追分压上，末段从一球差扩大为两球。 2/3/4球：回归创造者拉高节奏或Forest终结仍失常导致区间外。 核心结论：主队连续失球和客队Gibbs-White复出构成真实攻守尾部；Football365的Lukic可能复出已被更新报道称仍缺席。二手报道甚至把缺席球员列进预计阵容，不能无审查放行。",
       "availability": "最新The Football Faithful引用O’Neil：Lukic本场缺席，Florentino/Palacios预计替代；Forest缺Igor Jesus和Savona，Gibbs-White整周训练可用，Milenkovic可选。Stats Zone同时写Lukic伤缺又将其列首发，弃用该预计11人。Football365称客队xPTS偏高但无底层统计来源，本次仅记研究线索，不当独立强度证据。",
       "matchup": "伊普斯中场Lukic缺席，Florentino/Palacios为预计替代；Forest的Gibbs-White整周训练可用，两队转换空间与主队持续失球构成真实反向风险。",
       "headToHead": "交锋不替代现有阵容验证，未见支持高星的证据。",
@@ -5059,7 +5059,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -5068,7 +5068,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -5077,7 +5077,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -5086,7 +5086,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -5095,7 +5095,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -5168,11 +5168,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 2.86/3.25/2.12；主+1让胜/让平/让负 1.54/3.90/4.50。赔率更新时间2026-10-23 12:31:24；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 2.86/3.25/2.12；主+1让胜/让平/让负 1.54/3.90/4.50。赔率更新时间2026-10-23 12:31:24；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五010",
-      "text": "研究方向：让胜/让平（非批准票）。博尔顿对强度不同的对手仍能创造，米堡领先控制不稳；主队+1让胜/让平覆盖主不败及一球小负，撤销旧版只围绕客胜的倾向。 出战与替代：Sports Mole：博尔顿Forino腹股沟伤，Brunt/Toal预计中卫；Rodrigues、Bair争取攻击首发。米堡Strelec、Pukstas、Alfie Jones缺席，Lankshear/Conway可供终结，预计Vitek门将、Malanda/Phillips中卫。已补到双方替代者，但补齐信息不等于降低比赛实际波动。 赛程强度校正：主队中性：胜卡迪夫、诺维奇、狼，负斯托克、平南安普敦，不能仅由弱排名降权；客队中性：2胜3平显示胜率非一边倒，过程待核。 攻防：博尔顿4:3诺维奇、3:1狼队提示不能视为无攻击；米堡近期多个2:2，未证明领先后防守稳定。 交锋：米堡旧交锋优势含2017–2019和2023，阵容年代久远，不算当前客胜保障。 战意：均有联赛争分需要，客胜低赔不等于更强战意。 轮换：中；双方赛程密度、主帅实际用人与下一场优先级待核，不宣称完整主力。 盘面：官方当前胜/平/负 5.15/4.35/1.42；主+1让胜/让平/让负 2.40/3.85/2.21。赔率更新时间2026-10-23 12:11:44；采集2026-10-23T05:59:07.377Z。 波动：高。输钱路径：让胜/让平：米堡强攻持续形成高质量机会，博尔顿伤后中卫组合失守两球。 让胜/让平：主队落后压上，米堡第二射手扩大差距。 3/4/5球：博尔顿上一场0:0提示慢节奏尾部；另有4:3式6+尾部。 核心结论：米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。",
+      "text": "研究方向：让胜/让平（非批准票）。博尔顿对强度不同的对手仍能创造，米堡领先控制不稳；主队+1让胜/让平覆盖主不败及一球小负，撤销旧版只围绕客胜的倾向。 出战与替代：Sports Mole：博尔顿Forino腹股沟伤，Brunt/Toal预计中卫；Rodrigues、Bair争取攻击首发。米堡Strelec、Pukstas、Alfie Jones缺席，Lankshear/Conway可供终结，预计Vitek门将、Malanda/Phillips中卫。已补到双方替代者，但补齐信息不等于降低比赛实际波动。 赛程强度校正：主队中性：胜卡迪夫、诺维奇、狼，负斯托克、平南安普敦，不能仅由弱排名降权；客队中性：2胜3平显示胜率非一边倒，过程待核。 攻防：博尔顿4:3诺维奇、3:1狼队提示不能视为无攻击；米堡近期多个2:2，未证明领先后防守稳定。 交锋：米堡旧交锋优势含2017–2019和2023，阵容年代久远，不算当前客胜保障。 战意：均有联赛争分需要，客胜低赔不等于更强战意。 轮换：中；双方赛程密度、主帅实际用人与下一场优先级待核，不宣称完整主力。 盘面：官方本轮胜/平/负 5.25/4.45/1.40；主+1让胜/让平/让负 2.44/3.85/2.18。赔率更新时间2026-10-23 14:05:53；采集2026-10-23T06:30:03.725Z。 波动：高。输钱路径：让胜/让平：米堡强攻持续形成高质量机会，博尔顿伤后中卫组合失守两球。 让胜/让平：主队落后压上，米堡第二射手扩大差距。 3/4/5球：博尔顿上一场0:0提示慢节奏尾部；另有4:3式6+尾部。 核心结论：米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。",
       "availability": "Sports Mole：博尔顿Forino腹股沟伤，Brunt/Toal预计中卫；Rodrigues、Bair争取攻击首发。米堡Strelec、Pukstas、Alfie Jones缺席，Lankshear/Conway可供终结，预计Vitek门将、Malanda/Phillips中卫。已补到双方替代者，但补齐信息不等于降低比赛实际波动。",
       "matchup": "博尔顿4:3诺维奇、3:1狼队提示不能视为无攻击；米堡近期多个2:2，未证明领先后防守稳定。",
       "headToHead": "米堡旧交锋优势含2017–2019和2023，阵容年代久远，不算当前客胜保障。",
@@ -5189,12 +5189,12 @@
       ],
       "volatility": {
         "level": "高",
-        "reason": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。"
+        "reason": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。"
       },
       "highStarGate": {
         "passed": false,
         "status": "rejected",
-        "reason": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。"
+        "reason": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。"
       },
       "prediction": {
         "buy": "让胜/让平",
@@ -5344,7 +5344,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -5353,7 +5353,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -5362,7 +5362,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -5371,7 +5371,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -5380,7 +5380,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -5441,11 +5441,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 5.15/4.35/1.42；主+1让胜/让平/让负 2.40/3.85/2.21。赔率更新时间2026-10-23 12:11:44；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 5.25/4.45/1.40；主+1让胜/让平/让负 2.44/3.85/2.18。赔率更新时间2026-10-23 14:05:53；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五011",
-      "text": "研究方向：胜/平（非批准票）。主队Boyé和右路增援对客后防失球有支持；但自身五轮不胜、马拉加反击及门将发挥要求防平，不升级净胜2球。 出战与替代：新补FutbolFantasy：Sivera门将稳定，Koski已恢复并上轮首发，Angel Perez解禁；Boyé为核心，Toni Martinez/Mariano竞争为战术选择。主帅确认Novoa右路攻防能力且有球员状态不佳，未承诺固定首发。马拉加官方伤员本周分开训练，替代预计Herrero、Rafita、Calero、Recio、Aznou及Larrubia/Niño。BeSoccer聚合页将Garcés同时列三类问题，拒绝照录该伤停表。 赛程强度校正：主队混合：主场胜Getafe/Villarreal/Osasuna，后负Valencia/Atletico；客队升权：客场面对皇马、马竞、Getafe并平Celta，不能按客场不胜直接降为弱旅。 攻防：主Boyé5球对客Herrero34扑救；客Niño3球、Larrubia26次成功过人说明有反击与推进。不能由客缺员推出主稳胜。 交锋：官方赛前资料的旧交锋只作背景，不能消除客攻威胁及主阵容缺项。 战意：两队正常联赛争分；主场环境有利但不当作必胜理由。 轮换：中；客队比赛当天早上飞巴斯克，伤员仅部分合练；主队首发取舍待核，不能写低轮换。 盘面：官方当前胜/平/负 1.52/3.60/5.15；主-1让胜/让平/让负 2.80/3.15/2.20。赔率更新时间2026-10-23 12:56:08；采集2026-10-23T05:59:07.377Z。 波动：中。输钱路径：胜/平：马拉加Larrubia过人与Niño终结利用主队衔接漏洞获胜。 胜/平：主队机会转化不佳且中场保护不足，客队定位球取得唯一进球。 1/2/3球：客门将发挥出现0:0；或马拉加防线再次崩溃产生4+。 核心结论：最接近核心候选之一但仍需审核：主队5轮4负1平，主帅直言脆弱与防守陪同问题；马拉加客场强赛程需升权。防平覆盖不了反击输球，不能由客后防差直接认定主队稳定。",
+      "text": "研究方向：胜/平（非批准票）。主队Boyé和右路增援对客后防失球有支持；但自身五轮不胜、马拉加反击及门将发挥要求防平，不升级净胜2球。 出战与替代：新补FutbolFantasy：Sivera门将稳定，Koski已恢复并上轮首发，Angel Perez解禁；Boyé为核心，Toni Martinez/Mariano竞争为战术选择。主帅确认Novoa右路攻防能力且有球员状态不佳，未承诺固定首发。马拉加官方伤员本周分开训练，替代预计Herrero、Rafita、Calero、Recio、Aznou及Larrubia/Niño。BeSoccer聚合页将Garcés同时列三类问题，拒绝照录该伤停表。 赛程强度校正：主队混合：主场胜Getafe/Villarreal/Osasuna，后负Valencia/Atletico；客队升权：客场面对皇马、马竞、Getafe并平Celta，不能按客场不胜直接降为弱旅。 攻防：主Boyé5球对客Herrero34扑救；客Niño3球、Larrubia26次成功过人说明有反击与推进。不能由客缺员推出主稳胜。 交锋：官方赛前资料的旧交锋只作背景，不能消除客攻威胁及主阵容缺项。 战意：两队正常联赛争分；主场环境有利但不当作必胜理由。 轮换：中；客队比赛当天早上飞巴斯克，伤员仅部分合练；主队首发取舍待核，不能写低轮换。 盘面：官方本轮胜/平/负 1.47/3.75/5.50；主-1让胜/让平/让负 2.80/3.05/2.25。赔率更新时间2026-10-23 14:03:21；采集2026-10-23T06:30:03.725Z。 波动：中。输钱路径：胜/平：马拉加Larrubia过人与Niño终结利用主队衔接漏洞获胜。 胜/平：主队机会转化不佳且中场保护不足，客队定位球取得唯一进球。 1/2/3球：客门将发挥出现0:0；或马拉加防线再次崩溃产生4+。 核心结论：最接近核心候选之一但仍需审核：主队5轮4负1平，主帅直言脆弱与防守陪同问题；马拉加客场强赛程需升权。防平覆盖不了反击输球，不能由客后防差直接认定主队稳定。",
       "availability": "新补FutbolFantasy：Sivera门将稳定，Koski已恢复并上轮首发，Angel Perez解禁；Boyé为核心，Toni Martinez/Mariano竞争为战术选择。主帅确认Novoa右路攻防能力且有球员状态不佳，未承诺固定首发。马拉加官方伤员本周分开训练，替代预计Herrero、Rafita、Calero、Recio、Aznou及Larrubia/Niño。BeSoccer聚合页将Garcés同时列三类问题，拒绝照录该伤停表。",
       "matchup": "主Boyé5球对客Herrero34扑救；客Niño3球、Larrubia26次成功过人说明有反击与推进。不能由客缺员推出主稳胜。",
       "headToHead": "官方赛前资料的旧交锋只作背景，不能消除客攻威胁及主阵容缺项。",
@@ -5617,7 +5617,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -5626,7 +5626,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -5635,7 +5635,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -5644,7 +5644,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -5653,7 +5653,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -5743,11 +5743,11 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 1.52/3.60/5.15；主-1让胜/让平/让负 2.80/3.15/2.20。赔率更新时间2026-10-23 12:56:08；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 1.47/3.75/5.50；主-1让胜/让平/让负 2.80/3.05/2.25。赔率更新时间2026-10-23 14:03:21；采集2026-10-23T06:30:03.725Z。"
     },
     {
       "number": "周五012",
-      "text": "研究方向：让平/让负（非批准票）。主队机会创造获得双方教练认可，但近期转化低且客队组织串联有威胁；主-1让平/让负覆盖一球小胜及不胜，避免旧版单选胜并漏保平局。 出战与替代：主队Francisco Dias长期缺席，Thiago待赛前；其余恢复是官方表述，可据此缩小伤停缺口，但不能推断某个未公布替代组合。客帅强调主队开局压迫及本队杯赛复出球员找节奏，客队还有10/27杯赛，取舍未齐。 赛程强度校正：主队降权：对Lamelas杯赛不可按同级强度计；客队升权：近段包含Benfica/Porto，杯赛弱对手同样降权；过程数据待核。 攻防：主队边后卫参与创造不对称空间；主帅承认客队组织、换位与串联良好。客帅也承认主队机会创造和开局压迫，双方均有对策可能。 交锋：旧交锋不抵消两队近期轮换与复出不确定，不升星。 战意：主帅表达需要球迷和三分，但求胜意愿不等于实力；客队还有杯赛任务。 轮换：中高；主队杯赛整套首发更换，主帅不保证Lucas Furtado继续先发；客队10/27对Sporting联赛杯，复出人员取舍待核。 盘面：官方当前胜/平/负 1.49/3.65/5.45；主-1让胜/让平/让负 2.76/3.10/2.25。赔率更新时间2026-10-23 12:53:36；采集2026-10-23T05:59:07.377Z。 波动：中。输钱路径：让平/让负：吉马良斯恢复终结率，边后卫压迫制造连续机会，赢2球以上。 让平/让负：马里迪莫复出后防衔接不稳或追分压上，末段差距扩大。 1/2/3球：开局早进球拉高节奏4+；或低转化形成0:0。 核心结论：主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。",
+      "text": "研究方向：让平/让负（非批准票）。主队机会创造获得双方教练认可，但近期转化低且客队组织串联有威胁；主-1让平/让负覆盖一球小胜及不胜，避免旧版单选胜并漏保平局。 出战与替代：主队Francisco Dias长期缺席，Thiago待赛前；其余恢复是官方表述，可据此缩小伤停缺口，但不能推断某个未公布替代组合。客帅强调主队开局压迫及本队杯赛复出球员找节奏，客队还有10/27杯赛，取舍未齐。 赛程强度校正：主队降权：对Lamelas杯赛不可按同级强度计；客队升权：近段包含Benfica/Porto，杯赛弱对手同样降权；过程数据待核。 攻防：主队边后卫参与创造不对称空间；主帅承认客队组织、换位与串联良好。客帅也承认主队机会创造和开局压迫，双方均有对策可能。 交锋：旧交锋不抵消两队近期轮换与复出不确定，不升星。 战意：主帅表达需要球迷和三分，但求胜意愿不等于实力；客队还有杯赛任务。 轮换：中高；主队杯赛整套首发更换，主帅不保证Lucas Furtado继续先发；客队10/27对Sporting联赛杯，复出人员取舍待核。 盘面：官方本轮胜/平/负 1.47/3.70/5.60；主-1让胜/让平/让负 2.73/3.05/2.30。赔率更新时间2026-10-23 13:59:54；采集2026-10-23T06:30:03.725Z。 波动：中。输钱路径：让平/让负：吉马良斯恢复终结率，边后卫压迫制造连续机会，赢2球以上。 让平/让负：马里迪莫复出后防衔接不稳或追分压上，末段差距扩大。 1/2/3球：开局早进球拉高节奏4+；或低转化形成0:0。 核心结论：主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。",
       "availability": "主队Francisco Dias长期缺席，Thiago待赛前；其余恢复是官方表述，可据此缩小伤停缺口，但不能推断某个未公布替代组合。客帅强调主队开局压迫及本队杯赛复出球员找节奏，客队还有10/27杯赛，取舍未齐。",
       "matchup": "主队边后卫参与创造不对称空间；主帅承认客队组织、换位与串联良好。客帅也承认主队机会创造和开局压迫，双方均有对策可能。",
       "headToHead": "旧交锋不抵消两队近期轮换与复出不确定，不升星。",
@@ -5764,12 +5764,12 @@
       ],
       "volatility": {
         "level": "中",
-        "reason": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。"
+        "reason": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。"
       },
       "highStarGate": {
         "passed": false,
         "status": "rejected",
-        "reason": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。"
+        "reason": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。"
       },
       "prediction": {
         "buy": "让平/让负",
@@ -5919,7 +5919,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAFU": {
           "single": true,
@@ -5928,7 +5928,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "CRS": {
           "single": true,
@@ -5937,7 +5937,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "TTG": {
           "single": true,
@@ -5946,7 +5946,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         },
         "HAD": {
           "single": false,
@@ -5955,7 +5955,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-23T05:59:07.377Z"
+          "capturedAt": "2026-10-23T06:30:03.725Z"
         }
       },
       "sources": [
@@ -6022,7 +6022,7 @@
           }
         ]
       },
-      "currentMarket": "官方当前胜/平/负 1.49/3.65/5.45；主-1让胜/让平/让负 2.76/3.10/2.25。赔率更新时间2026-10-23 12:53:36；采集2026-10-23T05:59:07.377Z。"
+      "currentMarket": "官方本轮胜/平/负 1.47/3.70/5.60；主-1让胜/让平/让负 2.73/3.05/2.30。赔率更新时间2026-10-23 13:59:54；采集2026-10-23T06:30:03.725Z。"
     }
   ],
   "sources": [
@@ -6222,6 +6222,11 @@
       "url": "https://www.ogcnice-assets.com/images/articles/illustrations/2026/10/Groupe-brest-4-5.png",
       "capturedAt": "2026-10-23T06:24:23.256Z",
       "method": "浏览器直接查看官方名单图"
+    },
+    {
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+      "capturedAt": "2026-10-23T06:30:03.725Z",
+      "status": 200
     }
   ],
   "limitations": [
@@ -6236,12 +6241,13 @@
   "correctionOf": {
     "edition": "2026-10-23完整最终方案·纠错版",
     "publishedAt": "2026-10-23T05:45:39.836Z",
-    "remoteCommit": "5dd6ac65c1c81993e1bc510c1400950aedae472f"
+    "remoteCommit": "d41d18d37ae807376f1d8a0963be6bcf6b310ed6",
+    "previousAuditEdition": "2026-10-23-audit-20261023T062608658Z"
   },
   "correctionReason": "重新独立核验并撤出未经充分复核的13:45方案，修正过时赔率、阵容遗漏、方向与保险不一致、梦想串推导和子票缺失；本次审计尚未达到最终出单完成条件。",
   "batches": [
     {
-      "id": "2026-10-23-audit-20261023T062608658Z",
+      "id": "2026-10-23-audit-20261023T063118674Z",
       "numbers": [
         "周五001",
         "周五002",
@@ -6257,10 +6263,10 @@
         "周五012"
       ],
       "deadline": "2026-10-23T16:00:00+08:00",
-      "publishedAt": "2026-10-23T06:26:08.658Z",
+      "publishedAt": "2026-10-23T06:31:18.674Z",
       "locked": false,
       "status": "audit-incomplete",
-      "archiveVersion": "2026-10-23-audit-20261023T062608658Z"
+      "archiveVersion": "2026-10-23-audit-20261023T063118674Z"
     }
   ],
   "decision": {
@@ -6285,7 +6291,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "3.07",
@@ -6315,7 +6321,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "1.64",
@@ -6345,7 +6351,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -6385,21 +6391,21 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "aa": "5.25",
-        "aaf": "0",
+        "aa": "5.35",
+        "aaf": "1",
         "ad": "14.00",
         "adf": "0",
         "ah": "25.00",
         "ahf": "0",
-        "da": "7.00",
-        "daf": "0",
-        "dd": "5.50",
-        "ddf": "0",
-        "dh": "5.00",
-        "dhf": "0",
+        "da": "7.50",
+        "daf": "1",
+        "dd": "5.35",
+        "ddf": "-1",
+        "dh": "4.80",
+        "dhf": "-1",
         "goalLine": "",
         "goalLineValue": "",
         "ha": "30.00",
@@ -6409,8 +6415,8 @@
         "hh": "3.10",
         "hhf": "0",
         "id": 0,
-        "updateDate": "2026-10-22",
-        "updateTime": "13:24:24"
+        "updateDate": "2026-10-23",
+        "updateTime": "14:07:11"
       },
       "coreStatus": "本轮不批准",
       "keyEvidence": "官方前瞻明确主队本季首战且大量新援；大雨、湿重草皮预警使磨合和节奏分布不稳定，不能以客队缺后卫作为低波动证明。"
@@ -6428,7 +6434,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -6514,19 +6520,19 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "a": "1.76",
+        "a": "1.70",
         "af": "-1",
-        "d": "3.92",
+        "d": "4.00",
         "df": "1",
         "goalLine": "",
         "goalLineValue": "",
-        "h": "3.27",
+        "h": "3.43",
         "hf": "1",
         "updateDate": "2026-10-23",
-        "updateTime": "13:27:55"
+        "updateTime": "14:09:19"
       },
       "coreStatus": "本轮不批准",
       "keyEvidence": "狼堡近期正式赛4:4纽伦堡暴露失球尾部；波鸿教练明确至少一处首发变化和向禁区增员。防平可覆盖平局，不能覆盖狼堡被反击击败。"
@@ -6544,19 +6550,19 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "a": "3.10",
+        "a": "3.00",
         "af": "-1",
-        "d": "3.80",
+        "d": "3.74",
         "df": "-1",
         "goalLine": "+1",
         "goalLineValue": "+1.00",
-        "h": "1.84",
+        "h": "1.89",
         "hf": "1",
         "updateDate": "2026-10-23",
-        "updateTime": "13:28:02"
+        "updateTime": "14:09:25"
       },
       "coreStatus": "本轮不批准",
       "keyEvidence": "狼堡近期正式赛4:4纽伦堡暴露失球尾部；波鸿教练明确至少一处首发变化和向禁区增员。防平可覆盖平局，不能覆盖狼堡被反击击败。"
@@ -6574,7 +6580,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -6614,7 +6620,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "aa": "2.78",
@@ -6657,7 +6663,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -6743,7 +6749,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "3.25",
@@ -6773,7 +6779,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "1.75",
@@ -6803,7 +6809,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -6843,7 +6849,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "aa": "5.50",
@@ -6886,7 +6892,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -6972,7 +6978,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "5.60",
@@ -7002,7 +7008,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "2.55",
@@ -7032,7 +7038,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -7072,7 +7078,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "aa": "8.80",
@@ -7115,7 +7121,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -7201,7 +7207,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "2.35",
@@ -7231,7 +7237,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "1.46",
@@ -7261,29 +7267,29 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
         "goalLineValue": "",
         "s0": "23.00",
         "s0f": "0",
-        "s1": "7.50",
-        "s1f": "0",
-        "s2": "4.30",
-        "s2f": "0",
+        "s1": "8.00",
+        "s1f": "1",
+        "s2": "4.55",
+        "s2f": "1",
         "s3": "3.40",
         "s3f": "0",
-        "s4": "4.40",
-        "s4f": "0",
-        "s5": "6.50",
-        "s5f": "0",
-        "s6": "10.50",
-        "s6f": "0",
-        "s7": "13.50",
-        "s7f": "0",
-        "updateDate": "2026-10-22",
-        "updateTime": "13:24:23"
+        "s4": "4.30",
+        "s4f": "-1",
+        "s5": "6.25",
+        "s5f": "-1",
+        "s6": "10.00",
+        "s6f": "-1",
+        "s7": "12.50",
+        "s7f": "-1",
+        "updateDate": "2026-10-23",
+        "updateTime": "14:17:33"
       },
       "coreStatus": "本轮不批准",
       "keyEvidence": "赫拉克勒主帅明确将增加轮换并可能变阵，后续8天3赛；这是核心排除的公开实锤，不是一般资料不确定。"
@@ -7301,7 +7307,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "aa": "3.95",
@@ -7344,7 +7350,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -7430,7 +7436,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "7.70",
@@ -7460,7 +7466,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "3.45",
@@ -7490,7 +7496,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -7530,7 +7536,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "aa": "12.00",
@@ -7573,7 +7579,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -7659,19 +7665,19 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "a": "3.37",
-        "af": "0",
-        "d": "3.30",
-        "df": "0",
+        "a": "3.42",
+        "af": "1",
+        "d": "3.25",
+        "df": "-1",
         "goalLine": "",
         "goalLineValue": "",
         "h": "1.89",
         "hf": "0",
         "updateDate": "2026-10-23",
-        "updateTime": "12:41:45"
+        "updateTime": "14:17:12"
       },
       "coreStatus": "未决，不能计为已硬淘汰",
       "keyEvidence": "已补齐都灵轮换表态与替代人选；Lucchesi首发/替补分歧属于预计选择，不单凭此淘汰。仍未完成蒙扎对抗都灵出球、Rodriguez缺席后防守衔接及双方正式赛过程强度的核心压力评估，不能认定低波动腿已经通过。"
@@ -7689,7 +7695,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "1.70",
@@ -7719,29 +7725,29 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
         "goalLineValue": "",
         "s0": "12.00",
         "s0f": "0",
-        "s1": "4.70",
-        "s1f": "0",
-        "s2": "3.45",
-        "s2f": "0",
-        "s3": "3.65",
-        "s3f": "0",
+        "s1": "4.90",
+        "s1f": "1",
+        "s2": "3.35",
+        "s2f": "-1",
+        "s3": "3.55",
+        "s3f": "-1",
         "s4": "5.30",
         "s4f": "0",
-        "s5": "9.00",
-        "s5f": "0",
+        "s5": "9.50",
+        "s5f": "1",
         "s6": "18.00",
         "s6f": "0",
-        "s7": "26.00",
-        "s7f": "0",
-        "updateDate": "2026-10-22",
-        "updateTime": "13:24:23"
+        "s7": "27.00",
+        "s7f": "1",
+        "updateDate": "2026-10-23",
+        "updateTime": "14:18:22"
       },
       "coreStatus": "本轮不批准",
       "keyEvidence": "已补齐都灵轮换表态与替代人选；Lucchesi首发/替补分歧属于预计选择，不单凭此淘汰。仍未完成蒙扎对抗都灵出球、Rodriguez缺席后防守衔接及双方正式赛过程强度的核心压力评估，不能认定低波动腿已经通过。"
@@ -7759,11 +7765,11 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "aa": "5.60",
-        "aaf": "1",
+        "aaf": "0",
         "ad": "14.00",
         "adf": "0",
         "ah": "22.00",
@@ -7773,7 +7779,7 @@
         "dd": "5.80",
         "ddf": "0",
         "dh": "4.55",
-        "dhf": "-1",
+        "dhf": "0",
         "goalLine": "",
         "goalLineValue": "",
         "ha": "30.00",
@@ -7781,7 +7787,7 @@
         "hd": "14.00",
         "hdf": "0",
         "hh": "3.05",
-        "hhf": "1",
+        "hhf": "0",
         "id": 0,
         "updateDate": "2026-10-23",
         "updateTime": "13:10:58"
@@ -7802,7 +7808,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -7888,17 +7894,17 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "2.88",
-        "af": "1",
+        "af": "0",
         "d": "3.35",
         "df": "0",
         "goalLine": "",
         "goalLineValue": "",
         "h": "2.07",
-        "hf": "-1",
+        "hf": "0",
         "updateDate": "2026-10-23",
         "updateTime": "12:57:13"
       },
@@ -7918,17 +7924,17 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "1.56",
         "af": "0",
         "d": "3.95",
-        "df": "1",
+        "df": "0",
         "goalLine": "-1",
         "goalLineValue": "-1.00",
         "h": "4.25",
-        "hf": "-1",
+        "hf": "0",
         "updateDate": "2026-10-23",
         "updateTime": "12:57:55"
       },
@@ -7948,7 +7954,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -7988,7 +7994,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "aa": "4.50",
@@ -8031,7 +8037,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -8117,7 +8123,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "2.12",
@@ -8147,7 +8153,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "a": "4.50",
@@ -8177,7 +8183,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -8217,7 +8223,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "aa": "3.55",
@@ -8260,7 +8266,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -8338,7 +8344,7 @@
       "code": "HAD",
       "market": "胜平负",
       "candidates": "胜/平、平/负与让球覆盖比较",
-      "reason": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。",
+      "reason": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -8346,29 +8352,29 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "a": "1.42",
-        "af": "0",
-        "d": "4.35",
-        "df": "0",
+        "a": "1.40",
+        "af": "-1",
+        "d": "4.45",
+        "df": "1",
         "goalLine": "",
         "goalLineValue": "",
-        "h": "5.15",
-        "hf": "0",
+        "h": "5.25",
+        "hf": "1",
         "updateDate": "2026-10-23",
-        "updateTime": "12:11:44"
+        "updateTime": "14:05:53"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。"
+      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。"
     },
     {
       "number": "周五010",
       "code": "HHAD",
       "market": "让球胜平负",
       "candidates": "主+1：让胜/让平、让平/让负及单选",
-      "reason": "按主队让球1计算：让胜为净胜球+让球>0，让平为=0，让负为<0。必须用实际结果覆盖判断保险，不能把普通平与让平等同。米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。",
+      "reason": "按主队让球1计算：让胜为净胜球+让球>0，让平为=0，让负为<0。必须用实际结果覆盖判断保险，不能把普通平与让平等同。米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -8376,22 +8382,22 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "a": "2.21",
-        "af": "0",
+        "a": "2.18",
+        "af": "-1",
         "d": "3.85",
         "df": "0",
         "goalLine": "+1",
         "goalLineValue": "+1.00",
-        "h": "2.40",
-        "hf": "0",
+        "h": "2.44",
+        "hf": "1",
         "updateDate": "2026-10-23",
-        "updateTime": "12:11:50"
+        "updateTime": "14:05:58"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。"
+      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。"
     },
     {
       "number": "周五010",
@@ -8406,7 +8412,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -8431,14 +8437,14 @@
         "updateTime": "13:34:14"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。"
+      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。"
     },
     {
       "number": "周五010",
       "code": "HAFU",
       "market": "半全场",
       "candidates": "平平/平负",
-      "reason": "缺少可核的本场半场节奏与领先状态分布；全场方向不能证明半场路径。米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。",
+      "reason": "缺少可核的本场半场节奏与领先状态分布；全场方向不能证明半场路径。米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -8446,42 +8452,42 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "aa": "2.00",
-        "aaf": "0",
-        "ad": "17.00",
-        "adf": "0",
+        "aa": "1.95",
+        "aaf": "-1",
+        "ad": "18.00",
+        "adf": "1",
         "ah": "38.00",
         "ahf": "0",
         "da": "4.30",
         "daf": "0",
-        "dd": "7.30",
-        "ddf": "0",
-        "dh": "12.50",
-        "dhf": "0",
+        "dd": "7.50",
+        "ddf": "1",
+        "dh": "13.00",
+        "dhf": "1",
         "goalLine": "",
         "goalLineValue": "",
         "ha": "19.00",
         "haf": "0",
-        "hd": "17.00",
-        "hdf": "0",
+        "hd": "18.00",
+        "hdf": "1",
         "hh": "9.25",
         "hhf": "0",
         "id": 0,
-        "updateDate": "2026-10-22",
-        "updateTime": "13:24:24"
+        "updateDate": "2026-10-23",
+        "updateTime": "14:06:02"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。"
+      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。"
     },
     {
       "number": "周五010",
       "code": "CRS",
       "market": "比分",
       "candidates": "2:2/2:1/1:2",
-      "reason": "三个比分仅情景参考，暂无独立精准比分概率证据；比同市场胜平负保险更窄，不能提升核心稳定性。米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。",
+      "reason": "三个比分仅情景参考，暂无独立精准比分概率证据；比同市场胜平负保险更窄，不能提升核心稳定性。米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -8489,7 +8495,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -8560,7 +8566,7 @@
         "updateTime": "13:24:23"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.42不能作稳定腿。"
+      "keyEvidence": "米堡近期正式7场有6场失至少2球的报道，与旧快照多次2:2互相印证；伤缺Alfie Jones且主队具备客胜诺维奇/狼队的进攻。客胜1.40不能作稳定腿。"
     },
     {
       "number": "周五011",
@@ -8575,19 +8581,19 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "a": "5.15",
+        "a": "5.50",
         "af": "1",
-        "d": "3.60",
+        "d": "3.75",
         "df": "1",
         "goalLine": "",
         "goalLineValue": "",
-        "h": "1.52",
+        "h": "1.47",
         "hf": "-1",
         "updateDate": "2026-10-23",
-        "updateTime": "12:56:08"
+        "updateTime": "14:03:21"
       },
       "coreStatus": "未决，不能计为已硬淘汰",
       "keyEvidence": "最接近核心候选之一但仍需审核：主队5轮4负1平，主帅直言脆弱与防守陪同问题；马拉加客场强赛程需升权。防平覆盖不了反击输球，不能由客后防差直接认定主队稳定。"
@@ -8605,19 +8611,19 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "a": "2.20",
+        "a": "2.25",
         "af": "1",
-        "d": "3.15",
+        "d": "3.05",
         "df": "-1",
         "goalLine": "-1",
         "goalLineValue": "-1.00",
         "h": "2.80",
-        "hf": "-1",
+        "hf": "0",
         "updateDate": "2026-10-23",
-        "updateTime": "12:56:16"
+        "updateTime": "14:03:26"
       },
       "coreStatus": "未决，不能计为已硬淘汰",
       "keyEvidence": "最接近核心候选之一但仍需审核：主队5轮4负1平，主帅直言脆弱与防守陪同问题；马拉加客场强赛程需升权。防平覆盖不了反击输球，不能由客后防差直接认定主队稳定。"
@@ -8635,7 +8641,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -8675,32 +8681,32 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "aa": "9.00",
         "aaf": "0",
-        "ad": "16.00",
-        "adf": "0",
+        "ad": "17.00",
+        "adf": "1",
         "ah": "22.00",
         "ahf": "0",
         "da": "11.00",
         "daf": "0",
-        "dd": "5.00",
-        "ddf": "0",
-        "dh": "3.90",
-        "dhf": "0",
+        "dd": "5.15",
+        "ddf": "1",
+        "dh": "3.70",
+        "dhf": "-1",
         "goalLine": "",
         "goalLineValue": "",
         "ha": "40.00",
         "haf": "0",
-        "hd": "16.00",
-        "hdf": "0",
+        "hd": "17.00",
+        "hdf": "1",
         "hh": "2.50",
         "hhf": "0",
         "id": 0,
         "updateDate": "2026-10-23",
-        "updateTime": "12:06:27"
+        "updateTime": "14:03:32"
       },
       "coreStatus": "本轮不批准",
       "keyEvidence": "最接近核心候选之一但仍需审核：主队5轮4负1平，主帅直言脆弱与防守陪同问题；马拉加客场强赛程需升权。防平覆盖不了反击输球，不能由客后防差直接认定主队稳定。"
@@ -8718,7 +8724,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -8726,9 +8732,9 @@
         "s00s00": "10.50",
         "s00s00f": "0",
         "s00s01": "12.00",
-        "s00s01f": "1",
+        "s00s01f": "0",
         "s00s02": "29.00",
-        "s00s02f": "1",
+        "s00s02f": "0",
         "s00s03": "75.00",
         "s00s03f": "0",
         "s00s04": "300.0",
@@ -8738,9 +8744,9 @@
         "s01s00": "6.00",
         "s01s00f": "0",
         "s01s01": "6.25",
-        "s01s01f": "1",
+        "s01s01f": "0",
         "s01s02": "14.00",
-        "s01s02f": "1",
+        "s01s02f": "0",
         "s01s03": "50.00",
         "s01s03f": "0",
         "s01s04": "200.0",
@@ -8748,7 +8754,7 @@
         "s01s05": "500.0",
         "s01s05f": "0",
         "s02s00": "6.50",
-        "s02s00f": "-1",
+        "s02s00f": "0",
         "s02s01": "7.00",
         "s02s01f": "0",
         "s02s02": "15.00",
@@ -8760,15 +8766,15 @@
         "s02s05": "500.0",
         "s02s05f": "0",
         "s03s00": "11.00",
-        "s03s00f": "-1",
+        "s03s00f": "0",
         "s03s01": "12.00",
-        "s03s01f": "-1",
+        "s03s01f": "0",
         "s03s02": "27.00",
         "s03s02f": "0",
         "s03s03": "80.00",
         "s03s03f": "0",
         "s04s00": "25.00",
-        "s04s00f": "-1",
+        "s04s00f": "0",
         "s04s01": "30.00",
         "s04s01f": "0",
         "s04s02": "75.00",
@@ -8778,13 +8784,13 @@
         "s05s01": "90.00",
         "s05s01f": "0",
         "s05s02": "150.0",
-        "s05s02f": "-1",
+        "s05s02f": "0",
         "s1sa": "300.0",
         "s1saf": "0",
         "s1sd": "500.0",
         "s1sdf": "0",
         "s1sh": "50.00",
-        "s1shf": "-1",
+        "s1shf": "0",
         "updateDate": "2026-10-23",
         "updateTime": "12:56:25"
       },
@@ -8796,7 +8802,7 @@
       "code": "HAD",
       "market": "胜平负",
       "candidates": "胜/平、平/负与让球覆盖比较",
-      "reason": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。",
+      "reason": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -8804,29 +8810,29 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "a": "5.45",
+        "a": "5.60",
         "af": "1",
-        "d": "3.65",
+        "d": "3.70",
         "df": "1",
         "goalLine": "",
         "goalLineValue": "",
-        "h": "1.49",
+        "h": "1.47",
         "hf": "-1",
         "updateDate": "2026-10-23",
-        "updateTime": "12:53:36"
+        "updateTime": "13:59:54"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。"
+      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。"
     },
     {
       "number": "周五012",
       "code": "HHAD",
       "market": "让球胜平负",
       "candidates": "主-1：让胜/让平、让平/让负及单选",
-      "reason": "按主队让球-1计算：让胜为净胜球+让球>0，让平为=0，让负为<0。必须用实际结果覆盖判断保险，不能把普通平与让平等同。主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。",
+      "reason": "按主队让球-1计算：让胜为净胜球+让球>0，让平为=0，让负为<0。必须用实际结果覆盖判断保险，不能把普通平与让平等同。主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -8834,22 +8840,22 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "a": "2.25",
+        "a": "2.30",
         "af": "1",
-        "d": "3.10",
+        "d": "3.05",
         "df": "-1",
         "goalLine": "-1",
         "goalLineValue": "-1.00",
-        "h": "2.76",
+        "h": "2.73",
         "hf": "-1",
         "updateDate": "2026-10-23",
-        "updateTime": "12:53:44"
+        "updateTime": "13:59:57"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。"
+      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。"
     },
     {
       "number": "周五012",
@@ -8864,7 +8870,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -8889,14 +8895,14 @@
         "updateTime": "11:33:42"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。"
+      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。"
     },
     {
       "number": "周五012",
       "code": "HAFU",
       "market": "半全场",
       "candidates": "平平/平胜",
-      "reason": "缺少可核的本场半场节奏与领先状态分布；全场方向不能证明半场路径。主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。",
+      "reason": "缺少可核的本场半场节奏与领先状态分布；全场方向不能证明半场路径。主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -8904,42 +8910,42 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
-        "aa": "8.75",
-        "aaf": "0",
-        "ad": "18.00",
-        "adf": "0",
+        "aa": "9.50",
+        "aaf": "1",
+        "ad": "20.00",
+        "adf": "1",
         "ah": "25.00",
         "ahf": "0",
-        "da": "11.50",
-        "daf": "0",
-        "dd": "5.60",
-        "ddf": "0",
-        "dh": "4.20",
-        "dhf": "0",
+        "da": "13.00",
+        "daf": "1",
+        "dd": "5.70",
+        "ddf": "1",
+        "dh": "4.05",
+        "dhf": "-1",
         "goalLine": "",
         "goalLineValue": "",
         "ha": "50.00",
         "haf": "0",
-        "hd": "18.00",
-        "hdf": "0",
-        "hh": "2.15",
-        "hhf": "0",
+        "hd": "20.00",
+        "hdf": "1",
+        "hh": "2.05",
+        "hhf": "-1",
         "id": 0,
-        "updateDate": "2026-10-22",
-        "updateTime": "13:24:24"
+        "updateDate": "2026-10-23",
+        "updateTime": "14:00:17"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。"
+      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。"
     },
     {
       "number": "周五012",
       "code": "CRS",
       "market": "比分",
       "candidates": "1:0/1:1/0:1",
-      "reason": "三个比分仅情景参考，暂无独立精准比分概率证据；比同市场胜平负保险更窄，不能提升核心稳定性。主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。",
+      "reason": "三个比分仅情景参考，暂无独立精准比分概率证据；比同市场胜平负保险更窄，不能提升核心稳定性。主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -8947,7 +8953,7 @@
         "closeDate": null,
         "closeTime": null,
         "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-        "capturedAt": "2026-10-23T05:59:07.377Z"
+        "capturedAt": "2026-10-23T06:30:03.725Z"
       },
       "officialOdds": {
         "goalLine": "",
@@ -9018,26 +9024,28 @@
         "updateTime": "13:24:23"
       },
       "coreStatus": "本轮不批准",
-      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.49低赔推稳胜；客场强赛程又否定弱旅假设。"
+      "keyEvidence": "主帅明确Thiago Balieiro赛前存疑、过去多轮变更首发且Lucas Furtado未保证先发。主队近4联赛0/1/1/0球，不能单靠主场压迫和1.47低赔推稳胜；客场强赛程又否定弱旅假设。"
     }
   ],
   "costAudit": {
     "purchaseApproved": false,
-    "note": "以下仅用于排查旧票及比较保险，均不是新购买方案；利润为条件分支，覆盖外返还0。",
+    "note": "本轮即时赔率重算，仅审计旧结构和保险敏感性，不是旧版出票时返还或新购买方案；覆盖外返还0。",
     "oldTwo": {
       "cost": 4,
       "subTickets": [
         {
           "selectionText": "011胜 × 012胜",
           "stake": 2,
-          "odds": 2.2648,
-          "return": 4.53
+          "odds": 2.1609,
+          "return": 4.32,
+          "net": 0.32
         },
         {
           "selectionText": "011平 × 012胜",
           "stake": 2,
-          "odds": 5.364,
-          "return": 10.73
+          "odds": 5.5125,
+          "return": 11.03,
+          "net": 7.03
         }
       ],
       "problem": "012扫盘需要防平但原票只取胜；正分支收益不能修复漏保险"
@@ -9048,17 +9056,19 @@
         {
           "selectionText": "002负 × 003胜",
           "stake": 2,
-          "odds": 3.256,
-          "return": 6.51
+          "odds": 3.145,
+          "return": 6.29,
+          "net": 2.29
         },
         {
           "selectionText": "002负 × 003平",
           "stake": 2,
-          "odds": 6.248,
-          "return": 12.5
+          "odds": 6.035,
+          "return": 12.07,
+          "net": 8.07
         }
       ],
-      "problem": "002客胜现1.76非1.80；已识别平局保险被删且两场有波动风险"
+      "problem": "002客胜本轮1.70；原13:45用1.80，前次审计用13:59采集的1.76；漏平局保险及高波动问题均未消除。"
     },
     "closestInsuredPair": {
       "cost": 8,
@@ -9066,30 +9076,30 @@
         {
           "selectionText": "007胜 × 011胜",
           "stake": 2,
-          "odds": 2.8728,
-          "return": 5.75,
-          "net": -2.25
+          "odds": 2.7783,
+          "return": 5.56,
+          "net": -2.44
         },
         {
           "selectionText": "007胜 × 011平",
           "stake": 2,
-          "odds": 6.804,
-          "return": 13.61,
-          "net": 5.61
+          "odds": 7.0875,
+          "return": 14.17,
+          "net": 6.17
         },
         {
           "selectionText": "007平 × 011胜",
           "stake": 2,
-          "odds": 5.016,
-          "return": 10.03,
-          "net": 2.03
+          "odds": 4.7775,
+          "return": 9.55,
+          "net": 1.55
         },
         {
           "selectionText": "007平 × 011平",
           "stake": 2,
-          "odds": 11.88,
-          "return": 23.76,
-          "net": 15.76
+          "odds": 12.1875,
+          "return": 24.38,
+          "net": 16.38
         }
       ],
       "problem": "等额双选双胜分支亏损；更改注数可调整条件回报，不能只凭此宣称无解，也不能替代基本面审核"
@@ -9101,30 +9111,30 @@
         {
           "selectionText": "007胜 × 011胜",
           "stake": 10,
-          "odds": 2.8728,
-          "return": 28.73,
-          "net": 6.73
+          "odds": 2.7783,
+          "return": 27.78,
+          "net": 5.78
         },
         {
           "selectionText": "007胜 × 011平",
           "stake": 4,
-          "odds": 6.804,
-          "return": 27.22,
-          "net": 5.22
+          "odds": 7.0875,
+          "return": 28.35,
+          "net": 6.35
         },
         {
           "selectionText": "007平 × 011胜",
           "stake": 6,
-          "odds": 5.016,
-          "return": 30.1,
-          "net": 8.1
+          "odds": 4.7775,
+          "return": 28.66,
+          "net": 6.66
         },
         {
           "selectionText": "007平 × 011平",
           "stake": 2,
-          "odds": 11.88,
-          "return": 23.76,
-          "net": 1.76
+          "odds": 12.1875,
+          "return": 24.38,
+          "net": 2.38
         }
       ],
       "conclusion": "非等额示例各覆盖分支可正收益，故不以“保险必亏”作为全部不出理由。其核心稳定性和双复式结构仍未审核通过，不推荐加大投入。"
@@ -9133,12 +9143,13 @@
       "single": true,
       "cost": 4,
       "winReturn": 3.78,
-      "drawReturn": 6.6,
-      "winNet": -0.2200000000000002,
-      "drawNet": 2.5999999999999996,
+      "drawReturn": 6.5,
+      "winNet": -0.22,
+      "drawNet": 2.5,
       "exactSaleClose": null,
       "approved": false
-    }
+    },
+    "asOf": "2026-10-23T06:30:03.725Z"
   },
   "oldVersionAudit": {
     "original1324": "全场观望混淆扫盘与核心门槛，保留原版不覆盖",
@@ -9181,15 +9192,180 @@
     "sameSite": true,
     "evidence": "此前交付回执标sameMainAndTransitionSite=true；当前工程未发现第二独立域名，不能虚报部署两套独立站点",
     "finalLockedCheck": "false：最终出单条件未满足，不伪造true",
-    "archiveVersion": "2026-10-23-audit-20261023T062608658Z",
-    "submittedAt": "2026-10-23T06:26:08.658Z"
+    "archiveVersion": "2026-10-23-audit-20261023T063118674Z",
+    "submittedAt": "2026-10-23T06:31:18.674Z"
   },
-  "refinedAt": "2026-10-23T06:24:23.256Z",
+  "refinedAt": "2026-10-23T06:30:03.725Z",
   "artifacts": {
-    "poster": "audits/2026-10-23-audit-20261023T062608658Z-poster.png",
-    "tracking": "audits/2026-10-23-audit-20261023T062608658Z-tracking.png",
-    "report": "audits/2026-10-23-audit-20261023T062608658Z.json",
-    "text": "audits/2026-10-23-audit-20261023T062608658Z.md",
-    "previous1345": "audits/2026-10-23-audit-20261023T062608658Z-previous-1345.json"
-  }
+    "poster": "audits/2026-10-23-audit-20261023T063118674Z-poster.png",
+    "tracking": "audits/2026-10-23-audit-20261023T063118674Z-tracking.png",
+    "report": "audits/2026-10-23-audit-20261023T063118674Z.json",
+    "text": "audits/2026-10-23-audit-20261023T063118674Z.md",
+    "previous1345": "audits/2026-10-23-audit-20261023T063118674Z-previous-1345.json"
+  },
+  "marketChangesSincePriorAudit": [
+    {
+      "number": "周五002",
+      "old": {
+        "a": "1.76",
+        "af": "-1",
+        "d": "3.92",
+        "df": "1",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "3.27",
+        "hf": "1",
+        "updateDate": "2026-10-23",
+        "updateTime": "13:27:55"
+      },
+      "current": {
+        "a": "1.70",
+        "af": "-1",
+        "d": "4.00",
+        "df": "1",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "3.43",
+        "hf": "1",
+        "updateDate": "2026-10-23",
+        "updateTime": "14:09:19"
+      }
+    },
+    {
+      "number": "周五007",
+      "old": {
+        "a": "3.37",
+        "af": "0",
+        "d": "3.30",
+        "df": "0",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "1.89",
+        "hf": "0",
+        "updateDate": "2026-10-23",
+        "updateTime": "12:41:45"
+      },
+      "current": {
+        "a": "3.42",
+        "af": "1",
+        "d": "3.25",
+        "df": "-1",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "1.89",
+        "hf": "0",
+        "updateDate": "2026-10-23",
+        "updateTime": "14:17:12"
+      }
+    },
+    {
+      "number": "周五008",
+      "old": {
+        "a": "2.88",
+        "af": "1",
+        "d": "3.35",
+        "df": "0",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "2.07",
+        "hf": "-1",
+        "updateDate": "2026-10-23",
+        "updateTime": "12:57:13"
+      },
+      "current": {
+        "a": "2.88",
+        "af": "0",
+        "d": "3.35",
+        "df": "0",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "2.07",
+        "hf": "0",
+        "updateDate": "2026-10-23",
+        "updateTime": "12:57:13"
+      }
+    },
+    {
+      "number": "周五010",
+      "old": {
+        "a": "1.42",
+        "af": "0",
+        "d": "4.35",
+        "df": "0",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "5.15",
+        "hf": "0",
+        "updateDate": "2026-10-23",
+        "updateTime": "12:11:44"
+      },
+      "current": {
+        "a": "1.40",
+        "af": "-1",
+        "d": "4.45",
+        "df": "1",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "5.25",
+        "hf": "1",
+        "updateDate": "2026-10-23",
+        "updateTime": "14:05:53"
+      }
+    },
+    {
+      "number": "周五011",
+      "old": {
+        "a": "5.15",
+        "af": "1",
+        "d": "3.60",
+        "df": "1",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "1.52",
+        "hf": "-1",
+        "updateDate": "2026-10-23",
+        "updateTime": "12:56:08"
+      },
+      "current": {
+        "a": "5.50",
+        "af": "1",
+        "d": "3.75",
+        "df": "1",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "1.47",
+        "hf": "-1",
+        "updateDate": "2026-10-23",
+        "updateTime": "14:03:21"
+      }
+    },
+    {
+      "number": "周五012",
+      "old": {
+        "a": "5.45",
+        "af": "1",
+        "d": "3.65",
+        "df": "1",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "1.49",
+        "hf": "-1",
+        "updateDate": "2026-10-23",
+        "updateTime": "12:53:36"
+      },
+      "current": {
+        "a": "5.60",
+        "af": "1",
+        "d": "3.70",
+        "df": "1",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "1.47",
+        "hf": "-1",
+        "updateDate": "2026-10-23",
+        "updateTime": "13:59:54"
+      }
+    }
+  ],
+  "previousAuditEdition": "2026-10-23-audit-20261023T062608658Z"
 }
