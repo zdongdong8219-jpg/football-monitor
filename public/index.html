@@ -403,7 +403,7 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     $('copyPoster').addEventListener('click',function(){copyScanTable(false,this);});$('copyTracking').addEventListener('click',function(){copyTrackingImage(false,this);});$('copyReviewTracking').addEventListener('click',function(){copyTrackingImage(true,this);});
     $('refresh').addEventListener('click',load);$('copyScan').addEventListener('click',()=>copyScanTable(false));$('copyReview').addEventListener('click',()=>copyScanTable(true));load();setInterval(load,5*60*1000);
   </script>
-  <script src="muse-cards.js?v=2026-10-23-one-cover-20261023T075528654Z"></script>
+  <script src="muse-cards.js?v=2026-10-23-one-cover-20261023T075528654Z-static"></script>
 <style>
 .poster-actions{flex-wrap:wrap}.poster-actions .copy-button{background:#197751;color:white;border-color:#197751;min-height:44px;height:auto;padding:10px 14px;white-space:normal}
 .mobile-copy-bar{position:sticky;top:64px;z-index:3;width:min(1040px,100%);margin:auto;padding:7px 10px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;background:#173d57;border-bottom:2px solid #f4d58a}.mobile-copy-bar button{width:100%;height:38px;margin:0;padding:0 4px;border:1px solid #f4d58a;border-radius:5px;background:#24548a;color:#fff;font-size:12px;font-weight:800}.mobile-copy-bar button:disabled{opacity:.55}@media(max-width:620px){.mobile-copy-bar{top:64px}.mobile-copy-bar button{font-size:11px}}
