@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111315">
+  <title>FT足球竞彩模型</title>
+  <style>
+    :root{color-scheme:dark;--bg:#111315;--panel:#1a1d20;--line:#34393e;--text:#f4f5f6;--muted:#aeb5bc;--green:#58c797;--amber:#e4b85c;--red:#ef7777;--blue:#75b9e8}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,"Microsoft YaHei",sans-serif;letter-spacing:0}header{position:sticky;top:0;z-index:4;background:rgba(17,19,21,.96);border-bottom:1px solid var(--line)}.bar,main{width:min(1040px,100%);margin:auto}.bar{min-height:64px;padding:10px 16px;display:flex;align-items:center;gap:12px}h1{margin:0;font-size:20px;line-height:1.25}.subtitle{color:var(--muted);font-size:12px;margin-top:3px}button{margin-left:auto;width:42px;height:42px;border:1px solid var(--line);border-radius:6px;background:#202428;color:var(--text);font-size:23px;cursor:pointer}button:disabled{opacity:.55;cursor:default}main{padding:18px 16px 44px}.status{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:22px}.status div{padding:13px 8px;min-width:0}.status div+div{border-left:1px solid var(--line)}.status small{display:block;color:var(--muted);font-size:11px;margin-bottom:4px}.status strong{display:block;font-size:14px;overflow-wrap:anywhere}h2{font-size:17px;margin:26px 0 12px}.section-head{display:flex;align-items:center;gap:10px;margin:26px 0 12px}.section-head h2{margin:0}.copy-button{width:auto;height:36px;margin-left:auto;padding:0 12px;font-size:13px;font-weight:700;color:var(--amber)}.copy-button.copied{color:var(--green);border-color:#376b57}.notice{padding:12px 0;color:var(--muted);line-height:1.65;border-bottom:1px solid var(--line)}.recommendation-groups{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;margin-top:14px}.strong-badge{display:inline-block;margin:0 0 8px;padding:4px 9px;border:1px solid var(--amber);border-radius:4px;color:var(--amber);font-size:13px;font-weight:800}.ticket-detail{color:var(--muted);font-size:12px;line-height:1.65;margin-top:8px}.recommendation-column{min-width:0}.recommendation-column>h3{font-size:14px;margin:0 0 8px;color:var(--muted)}.recommendations,.matches{display:grid;gap:10px}.dreams{margin-top:12px}.recommendation,.match{background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:14px;min-width:0}.recommendation.strong{border-color:#685c3d}.recommendation h3,.match h3{margin:0;font-size:16px;overflow-wrap:anywhere}.recommendation .meta{color:var(--amber);margin-top:7px;font-weight:700;overflow-wrap:anywhere}.structure{color:var(--blue);font-size:12px;margin-top:5px}.legs{margin:10px 0 0;padding:0;list-style:none}.legs li{padding:7px 0;border-top:1px solid #2c3034;line-height:1.5;overflow-wrap:anywhere}.prediction{display:block;color:var(--green);font-size:11px;margin-top:3px}.leg-reason{display:block;color:var(--muted);font-size:11px;margin-top:3px}.scan-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:7px;background:var(--panel)}.scan-table{width:100%;min-width:850px;border-collapse:collapse;font-size:13px}.scan-table caption{padding:16px 10px 13px;background:#202428;color:var(--text);font-size:20px;font-weight:800;text-align:center;border-bottom:1px solid var(--line)}.scan-table th{padding:11px 9px;background:#292d30;color:#e9c779;text-align:left;white-space:nowrap}.scan-table td{padding:11px 9px;border-top:1px solid var(--line);vertical-align:middle}.scan-table tbody tr:nth-child(even){background:#171a1d}.scan-table .teams{font-weight:700}.scan-table .pick{color:var(--red);font-weight:800}.scan-table .pick.dream{color:var(--amber)}.scan-table .confidence{color:#ffd45c;white-space:nowrap}.scan-table .muted-pick{color:var(--muted)}.review-table{min-width:1080px}.review-table td.hit{color:var(--red);font-weight:800;box-shadow:inset 0 0 0 2px var(--red);background:rgba(239,119,119,.09)}.result-score{font-weight:800;font-size:16px}.result-score small{display:block;color:var(--muted);font-size:11px;margin-top:4px}.review-summary{margin-bottom:10px;padding:12px 14px;border-left:3px solid var(--amber);background:var(--panel);color:#d9dcdf;line-height:1.6}.review-combos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}.review-combo{padding:11px 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel);line-height:1.5;font-size:12px}.review-combo strong{color:var(--red)}.review-lessons{margin:12px 0 0;padding:12px 12px 12px 30px;background:var(--panel);border:1px solid var(--line);border-radius:6px;color:#d9dcdf;font-size:12px;line-height:1.6}.scan-note{margin:9px 2px 0;color:var(--muted);font-size:11px;line-height:1.55}.match-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:start}.tag{color:var(--blue);font-size:12px;margin-bottom:5px}.kickoff{color:var(--muted);white-space:nowrap;font-size:12px}.markets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:13px}.market{min-width:0;border-top:1px solid var(--line);padding-top:10px}.market-title{color:var(--muted);font-size:12px;margin-bottom:7px}.odds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.odd{text-align:center;background:#23272b;padding:7px 3px;border-radius:4px;min-width:0}.odd small{display:block;color:var(--muted);font-size:10px}.odd b{display:block;margin-top:2px;font-size:14px}.up{color:var(--red)}.down{color:var(--green)}.flat{color:var(--text)}.analysis{margin-top:11px;color:#d9dcdf;font-size:13px;line-height:1.65;overflow-wrap:anywhere}.empty{color:var(--muted);padding:20px 0}.error{color:var(--red)}footer{color:var(--muted);font-size:12px;line-height:1.65;margin-top:28px;border-top:1px solid var(--line);padding-top:14px}@media(max-width:620px){main{padding-left:10px;padding-right:10px}.recommendation-groups{gap:8px}.recommendation{padding:10px}.recommendation h3{font-size:14px}.recommendation .meta,.legs,.analysis{font-size:12px}.markets{grid-template-columns:1fr}.status{grid-template-columns:1fr 1fr}.status div:last-child{grid-column:1/-1;border-left:0;border-top:1px solid var(--line)}.scan-wrap{margin-left:-10px;margin-right:-10px;border-radius:0;border-left:0;border-right:0}.scan-table{font-size:12px}.scan-table caption{font-size:17px}.scan-table th,.scan-table td{padding:9px 7px}.review-combos{grid-template-columns:1fr}}
+  .bet-single-badge{display:inline-block;margin:0 0 8px;padding:4px 9px;border:1px solid var(--blue);border-radius:4px;color:var(--blue);font-size:13px;font-weight:800}.copy-combo{width:auto;height:32px;margin:10px 0 0;padding:0 10px;font-size:12px;color:var(--blue);border-color:#40566a}.copy-combo.copied{color:var(--green);border-color:#376b57}
+  </style>
+  <style>
+    .review-table td.hit{position:relative;box-shadow:none}
+    .review-table td.hit::after{content:"";position:absolute;inset:4px;border:2px solid var(--red);border-radius:8px;pointer-events:none}
+    .review-table td.recommended-pick{color:var(--red);font-weight:800}
+    .hit-mark{position:relative;display:inline-block;margin:4px 7px 3px 3px;padding:4px 9px;color:#ff8f87;font-weight:800;line-height:1.2;white-space:nowrap;border:1px solid #ef7777;border-radius:6px;background:#26191b;outline:1px solid rgba(239,119,119,.42);outline-offset:2px;box-shadow:inset 0 0 0 1px rgba(255,184,177,.12),0 3px 10px rgba(0,0,0,.2)}
+    .hit-mark::after{content:"中";position:absolute;right:-10px;top:-11px;width:22px;height:22px;display:grid;place-items:center;border:1px solid #ffaaa4;border-radius:50%;background:#b8423b;color:#fff7f5;font-size:11px;font-weight:900;line-height:1;transform:rotate(8deg);box-shadow:0 2px 5px rgba(0,0,0,.3)}
+.recommendation.strong{border:2px solid #e4b85c;background:#242117;box-shadow:0 0 0 3px rgba(228,184,92,.08)}.recommendation.strong::before{content:"强烈建议";display:inline-block;padding:3px 9px;margin-bottom:9px;border-radius:4px;background:#e4b85c;color:#211b10;font-size:12px;font-weight:800}
+    .table-banner{display:grid;grid-template-columns:48px minmax(0,1fr) auto;align-items:center;gap:10px;padding:11px 13px;border:1px solid var(--line);border-bottom:0;border-radius:7px 7px 0 0;background:#202428}
+    .table-banner+.scan-wrap{border-radius:0 0 7px 7px}
+    .cartoon-ball{width:42px;height:42px;display:grid;place-items:center;border:1px solid #5a6065;border-radius:50%;background:#16191b;font-size:25px;transform:rotate(-8deg)}
+    .table-banner strong{font-size:17px;overflow-wrap:anywhere}
+    .table-banner small{display:block;margin-top:2px;color:var(--muted);font-size:11px}
+    .comic-bubble{position:relative;padding:7px 10px;border:1px solid #80514d;border-radius:8px;background:#2b1e1f;color:#ffaaa4;font-size:12px;font-weight:700;white-space:nowrap}
+    .comic-bubble::before{content:"";position:absolute;left:-6px;top:50%;width:9px;height:9px;border-left:1px solid #80514d;border-bottom:1px solid #80514d;background:#2b1e1f;transform:translateY(-50%) rotate(45deg)}
+    @media(max-width:620px){.table-banner{grid-template-columns:42px minmax(0,1fr)}.comic-bubble{grid-column:1/-1;justify-self:start;margin-left:12px}.table-banner+.scan-wrap{margin-top:0}.cartoon-ball{width:38px;height:38px;font-size:22px}}
+  </style>
+<!-- publication-health-v1 -->
+</head>
+<body>
+  <header><div class="bar"><div><h1>FT足球竞彩模型</h1><div class="subtitle">盘口快照 · 综合分析 · 串关方案</div></div><button id="refresh" title="刷新" aria-label="刷新">↻</button></div></header>
+  <div class="mobile-copy-bar" aria-label="图片复制入口"><button id="quickPoster" type="button">推荐扫盘</button><button id="quickTracking" type="button">今日跟踪</button><button id="quickReview" type="button">复盘扫盘</button><button id="quickReviewTracking" type="button">复盘跟踪</button></div>
+  <main>
+    <section class="status" aria-label="监测状态"><div><small>在售日期</small><strong id="saleDate">读取中</strong></div><div><small>比赛数量</small><strong id="matchCount">--</strong></div><div><small>最近监测</small><strong id="checkedAt">--</strong></div></section>
+    <div class="notice"><a href="?demo=2026-10-11" style="color:var(--amber)">查看10月11日模拟测试与原始发布记录</a> · <a href="?" style="color:var(--blue)">返回今日正式页面</a></div>
+    <div class="section-head poster-actions"><h2 id="reportHeading">今日方案</h2><button id="copyPoster" class="copy-button" type="button" disabled>⧉ 复制推荐＋扫盘图</button><button id="copyTracking" class="copy-button" type="button" disabled>⧉ 复制今日跟踪卡</button></div><div id="summary" class="notice">正在读取综合扫盘结果。</div><div id="recommendations"></div>
+    <section class="notice" id="dreamRules"><h2>梦想单 · 两种结构</h2><p><strong>单选进取型</strong>：每场单选，按净胜球判断选普通胜、让平或让胜，再按需拆3／4／5关。主−1恰赢1球为让平，赢2球以上为让胜。</p><p><strong>覆盖型</strong>：4—6场为主，证据充分才考虑7—8场。少量胜／平或让胜／让平，先删薄弱腿再考虑双选。长串并不稳。</p><p>普通串有合格候选可多出，强烈建议独立标注；不能所有票共用一个胆。分析以实力、盘口、伤停停赛和预计阵容为主，不要求历史战绩栏目。</p><details><summary>计算梦想单成本（不生成推荐）</summary><p><label>场数 <input id="costN" type="number" min="2" max="8" value="5" style="width:55px"></label> <label>双选场数 <input id="costD" type="number" min="0" max="8" value="0" style="width:55px"></label> <label>倍数 <input id="costM" type="number" min="1" max="10000" value="1" style="width:65px"></label></p><p>关数（可多选）：<label><input type="checkbox" name="costK" value="3" checked>3关</label> <label><input type="checkbox" name="costK" value="4">4关</label> <label><input type="checkbox" name="costK" value="5">5关</label> <label><input type="checkbox" name="costK" value="all">全串</label></p><p id="costOutput" role="status"></p><p>每注2元。双选是同玩法互斥选项；跨玩法重叠需另行拆票。费用不代表最低奖金，部分命中不保证回本。</p></details><p>半全场专项：两张单关＋一张2串1与纯2串1不同。必须支持单关；三票等额时，两张单关赔率均大于3，才满足任意一场单关独中也有利润。</p></section>
+    <div class="section-head"><h2>逐场扫盘表</h2><button id="copyScan" class="copy-button" type="button" title="复制扫盘表图片" disabled>⧉ 复制图片</button></div><div id="scanTable"><div class="empty">正在整理逐场方向。</div></div>
+    <div class="section-head"><h2>赛果复盘</h2><button id="copyReview" class="copy-button" type="button" disabled>⧉ 复制复盘推荐＋扫盘图</button><button id="copyReviewTracking" class="copy-button" type="button" disabled>⧉ 复制复盘跟踪卡</button></div><div id="reviewTable"><div class="empty">正在读取最近一期复盘。</div></div>
+    <h2>逐场盘口</h2><div id="matches" class="matches"><div class="empty">正在读取今日在售比赛。</div></div>
+    <footer>普通胜平负、竞彩让球与半全场分开标注；“初次”是当天首次采集值，“当前”是最近采集值。页面只保存分析记录，不会自动投注，也不承诺赛果。</footer>
+  </main>
+  <script>
+    const $=id=>document.getElementById(id),fmt=v=>Number.isFinite(Number(v))?Number(v).toFixed(2):'--';
+    const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const time=v=>v?new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(v)):'--';
+    function movement(first,current,key){const a=Number(first?.[key]),b=Number(current?.[key]);if(!Number.isFinite(a)||!Number.isFinite(b))return{cls:'flat',mark:''};return b>a?{cls:'up',mark:' ↑'}:b<a?{cls:'down',mark:' ↓'}:{cls:'flat',mark:''}}
+    function market(title,first,current,labels){return `<div class="market"><div class="market-title">${esc(title)}</div><div class="odds">${labels.map(([key,label])=>{const m=movement(first,current,key);return `<div class="odd"><small>${label} · 初次 ${fmt(first?.[key])}</small><b class="${m.cls}">${fmt(current?.[key])}${m.mark}</b></div>`}).join('')}</div></div>`}
+function renderMatches(state,report){const day=state.days?.[state.currentDate],latest=day?.latest?.matches||[],first=day?.snapshots?.[0]?.matches||[];$('saleDate').textContent=state.currentDate||report.date||'--';$('matchCount').textContent=`${latest.length} 场`;$('checkedAt').textContent=time(state.checkedAt);if(!latest.length){$('matches').innerHTML='<div class="empty">当前没有读取到在售比赛。</div>';return}const notes=new Map((report.date===state.currentDate?(report.matchAnalysis||[]):[]).map(x=>[String(x.number),x]));$('matches').innerHTML=latest.map(x=>{const opening=first.find(y=>y.id===x.id)||{},note=notes.get(String(x.number)),h=Number(x.handicap)>0?`主队受让${x.handicap}球`:`主队让${Math.abs(Number(x.handicap)||0)}球`;return `<article class="match"><div class="match-head"><div><div class="tag">${esc(x.number)} · ${esc(x.league)}</div><h3>${esc(x.home)} vs ${esc(x.away)}</h3></div><div class="kickoff">${time(x.kickoff)}</div></div><div class="markets">${market('普通胜平负',opening.spf,x.spf,[['win','主胜'],['draw','平'],['lose','客胜']])}${market(`竞彩让球 · ${h}`,opening.rqspf,x.rqspf,[['win','让胜'],['draw','让平'],['lose','让负']])}${market('半全场',opening.halfFull,x.halfFull,[['winWin','胜胜'],['winDraw','胜平'],['winLose','胜负'],['drawWin','平胜'],['drawDraw','平平'],['drawLose','平负'],['loseWin','负胜'],['loseDraw','负平'],['loseLose','负负']])}</div>${note?`<div class="analysis">${esc(note.text||note.summary||'')}</div>`:''}</article>`}).join('')}
+    async function copyRecommendation(button){
+      const value=button.dataset.copy||'';if(!value)return;
+      let copied=false;
+      try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(value);copied=true}}catch{}
+      if(!copied){
+        const area=document.createElement('textarea');area.value=value;area.setAttribute('aria-label','串关方案文字');area.readOnly=true;area.style.cssText='width:100%;min-height:140px;font-size:16px;margin-top:10px';
+        button.parentElement.querySelector('.copy-fallback')?.remove();
+        const panel=document.createElement('div');panel.className='copy-fallback';panel.append(area);button.after(panel);area.focus();area.select();area.setSelectionRange(0,value.length);
+        try{copied=document.execCommand('copy')}catch{}
+        if(copied)panel.remove();else{const tip=document.createElement('p');tip.textContent='未能自动复制，请长按下方文字选择复制。';panel.prepend(tip)}
+      }
+      button.textContent=copied?'✓ 已复制':'请长按文字复制';button.classList.toggle('copied',copied);
+      setTimeout(()=>{button.textContent='⧉ 复制串子';button.classList.remove('copied')},2200);
+    }
+    // Recommendation priority layout v1: two, half_full, three, dream.
+    function isStrongRecommendation(r){return r.stronglyRecommended===true||/强烈建议/.test(r.name||r.type||'')}
+    function isBetSingleRecommendation(r){return r.betSingleRecommended===true||/博单建议/.test(r.betSingleLabel||r.name||'')}
+    function recommendationDetails(r){
+      const out=[];
+      if(r.displayMultipliersOnly)return [r.effectiveReturnText,r.coverageText];if(r.totalCost!=null)out.push('总投入：'+r.totalCost+'元');
+      if(r.effectiveReturnText)out.push('实际回报：'+r.effectiveReturnText);
+      if(r.coverageText)out.push('容错核算：'+r.coverageText);
+      if(r.passSizes?.length)out.push('可选拆关：'+r.passSizes.map(k=>k+'关').join(' / ')+'（按所选子票核算成本）');
+      for(const t of r.subTickets||[])out.push([t.name||t.passType||'子票',t.selectionText,t.stake!=null?'投入'+t.stake+'元':'',t.odds!=null?'赔率'+t.odds:'',t.returnText].filter(Boolean).join(' · '));
+      return out;
+    }
+    function recommendationGroup(r){
+      const label=[r.name,r.type,r.passType,r.structureText].filter(Boolean).join(' ');
+      const legs=r.legs||[],category=r.category||'';
+      if(['dream','dream_single','dream_cover'].includes(category)||/梦想/.test(label))return 'dream';
+      const count=new Set(legs.map((l,i)=>l.matchId??l.number??('leg'+i))).size;
+      const half=category==='half_full'||category==='half_full_two'||legs.some(l=>/half_?full|bqc|半全场/i.test(l.market||l.playType||'')||/平平|平胜|平负|胜胜|胜平|胜负|负胜|负平|负负/.test(l.selection||''));
+      if(half&&(count===2||/2串1/.test(label)||category==='half_full_two'))return 'half_full';
+      if(category==='three'||count===3||/3串1/.test(label))return 'three';
+      if(category==='two'||count===2||/2串1/.test(label))return 'two';
+      return 'other';
+    }
+    function recommendationCard(r){const structure=r.structureText||[r.passType,r.combinationCount?`${r.combinationCount}条组合`:null].filter(Boolean).join(' · '),legs=(r.legs||[]),betLabel=r.betSingleLabel||'博单建议',copyText=[currentReportDate?'方案日期：'+currentReportDate:'',r.name||r.type||'组合',isStrongRecommendation(r)?'★ 强烈建议':'',isBetSingleRecommendation(r)?'◆ '+betLabel:'',r.passType||structure||'',legs.map(l=>`${l.number||''} ${l.selection||''}${l.odds?` @${l.odds}`:''}`).join(' + '),r.oddsText||r.totalOdds||'',...recommendationDetails(r),r.risk?'风险：'+r.risk:''].filter(Boolean).join(' | ');return `<article class="recommendation ${(r.stronglyRecommended===true||/强烈建议/.test(r.name||r.type||''))?'strong':''}">${isStrongRecommendation(r)?'<div class="strong-badge">★ 强烈建议</div>':''}${isBetSingleRecommendation(r)?`<div class="bet-single-badge">◆ ${esc(betLabel)}</div>`:''}<h3>${esc(r.name||r.type||'组合')}</h3><div class="meta">${esc(r.oddsText||r.totalOdds||'赔率待更新')}</div>${structure?`<div class="structure">${esc(structure)}</div>`:''}<ul class="legs">${legs.map(l=>{const prediction=[l.halfTimePrediction?`半场 ${l.halfTimePrediction}`:'',l.predictedScore?`全场 ${l.predictedScore}`:'',l.goalRange?`进球 ${l.goalRange}`:''].filter(Boolean).join(' · '),reason=[l.upgradeFrom?`由${l.upgradeFrom}升级`:'',l.selectionReason||''].filter(Boolean).join('：');return `<li><strong>${esc(l.number||'')}</strong> ${esc(l.selection||'')} ${l.odds?`@ ${esc(l.odds)}`:''}${prediction?`<span class="prediction">${esc(prediction)}</span>`:''}${reason?`<span class="leg-reason">${esc(reason)}</span>`:''}</li>`}).join('')}</ul>${recommendationDetails(r).map(line=>`<div class="ticket-detail">${esc(line)}</div>`).join('')}${r.risk?`<div class="analysis">风险：${esc(r.risk)}</div>`:''}<button type="button" class="copy-combo" data-copy="${esc(copyText)}" onclick="copyRecommendation(this)">⧉ 复制串子</button></article>`}
+    const yesterdayExample=[
+      {number:'周四001',league:'芬超',teams:'赫尔辛基 vs 瓦萨',selection:'主胜',goals:'2–4球',halfFull:'平胜/胜胜',score:'2-1/3-1',stars:2,exposureCount:0,exposureRate:0},
+      {number:'周四002',league:'芬超',teams:'库奥皮奥 vs AC奥卢',selection:'主胜',goals:'2–3球',halfFull:'平胜/胜胜',score:'2-0/2-1',stars:3,exposureCount:0,exposureRate:0},
+      {number:'周四003',league:'巴甲',teams:'桑托斯 vs 弗拉门戈',selection:'普通客胜',goals:'2–4球',halfFull:'平负',score:'1-2/1-3',stars:4,recommended:true,exposureCount:4,exposureRate:1},
+      {number:'周四004',league:'巴甲',teams:'巴竞技 vs 米竞技',selection:'竞彩让球(-1)让负',goals:'2–3球',halfFull:'平平/平负',score:'1-1/1-2',stars:4,recommended:true,exposureCount:3,exposureRate:.75},
+      {number:'周四005',league:'巴甲',teams:'弗鲁米嫩塞 vs 科里蒂巴',selection:'普通主胜 / 让胜',goals:'2–4球',halfFull:'平胜/胜胜',score:'2-0/3-1',stars:4,recommended:true,exposureCount:3,exposureRate:.75},
+      {number:'周四006',league:'巴甲',teams:'帕梅拉斯 vs 巴伊亚',selection:'让平/让负',goals:'2–3球',halfFull:'平平',score:'2-1/1-1',stars:2,exposureCount:0,exposureRate:0}
+    ];
+    function inferredScanRows(state,report){
+      const matches=state.days?.[state.currentDate]?.latest?.matches||[];
+      const sameDay=report.date===state.currentDate;
+      const published=new Map((sameDay?report.scanTable||[]:[]).map(r=>[String(r.number),r]));
+      return matches.map(m=>{
+        const r=published.get(String(m.number));
+        const teams=m.home+' vs '+m.away;
+        const valid=r&&(!r.teams||r.teams===teams);
+        return {...(valid?r:{}),number:m.number,league:m.league,teams,kickoff:m.kickoff,
+          selection:valid?r.selection||'待分析':'待分析',buy:valid?r.buy||'': '',speculative:valid?r.speculative||'':'',stars:valid?(r.stars??r.confidenceStars??0):0,pending:!valid};
+      });
+    }
+    let currentScanRows=[],currentScanDate='';
+    function renderScanTable(state,report){const rows=inferredScanRows(state,report);currentScanRows=rows;currentScanDate=state.currentDate||'';$('copyScan').disabled=!rows.length;if(!rows.length){$('scanTable').innerHTML='<div class="empty">当天赛程尚未更新。</div>';return}$('scanTable').innerHTML=`<div class="table-banner"><span class="cartoon-ball">⚽</span><div><strong>FT足球竞彩模型</strong><small>${esc(currentScanDate)} · 当天场次与逐场方向</small></div><span class="comic-bubble">模型提示：仅供参考</span></div><div class="scan-wrap"><table class="scan-table"><thead><tr><th>编号</th><th>赛事</th><th>对阵</th><th>推荐买法</th><th>总进球</th><th>半全场</th><th>比分</th><th>稳健度</th><th>方案暴露</th></tr></thead><tbody>${rows.map(x=>{const stars=Math.max(0,Math.min(5,Number(x.stars)||0)),pickClass=x.recommended?(x.dream?'pick dream':'pick'):'muted-pick',rate=Number(x.exposureRate)||0,exposure=x.exposureCount==null?'--':`${x.exposureCount}张 · ${Math.round(rate*100)}%`,pick=x.pending?'待分析':(x.buy?`买：${x.buy}｜博：${x.speculative||'无'}`:(x.selection||'观察'));return `<tr><td>${esc(x.number)}</td><td>${esc(x.league||'--')}</td><td class="teams">${esc(x.teams||[x.home,x.away].filter(Boolean).join(' vs '))}<small style="display:block">${esc((x.kickoff||'').replace('T',' ').slice(5,16))} 北京时间</small></td><td class="${pickClass}">${esc(pick)}</td><td>${esc(x.goals||x.goalRange||'--')}</td><td>${esc(x.halfFull||x.halfTimePrediction||'--')}</td><td>${esc(x.score||x.predictedScore||'--')}</td><td class="confidence" aria-label="${stars}星">${x.pending?'待分析':'★'.repeat(stars)+'☆'.repeat(5-stars)}</td><td class="${rate>.5?'pick':''}">${esc(exposure)}${rate>.5?' 集中风险':''}</td></tr>`}).join('')}</tbody></table></div><div class="scan-note">“买”是常规方向，“博”是高赔率进取方向；让球玩法明确写让胜/让平/让负。场次先行展示，待分析不代表推荐。</div>`}
+    function canvasText(ctx,text,x,y,width,lineHeight,maxLines=2){const value=String(text??'--'),chars=[...value];let line='',lines=[];for(const char of chars){const test=line+char;if(ctx.measureText(test).width>width&&line){lines.push(line);line=char;if(lines.length===maxLines-1)break}else line=test}if(line&&lines.length<maxLines)lines.push(line);if(lines.join('').length<chars.length)lines[lines.length-1]=`${lines[lines.length-1].slice(0,-1)}…`;lines.forEach((part,i)=>ctx.fillText(part,x,y+i*lineHeight))}
+    function reviewAccuracyLines(review){
+      if(review?.auditOnly)return ['昨日真实发布记录总结','正式预测未发布，无可计算的准确率。','上方模拟测试单不计入真实战绩。','未核验赛果不补填，不事后补组推荐。'];
+      const rows=review?.rows||[];
+      const settled=x=>x.settlementStatus==='已结算';
+      const rate=(hits,total)=>total?`${hits}/${total}（${(hits/total*100).toFixed(1)}%）`:'暂无已结算记录';
+      const metrics=[['result','方向'],['goals','总进球'],['halfFull','半全场'],['score','比分']].map(([key,label])=>{
+        const eligible=rows.filter(x=>settled(x)&&typeof x.hits?.[key]==='boolean');
+        return `${label}：${rate(eligible.filter(x=>x.hits[key]).length,eligible.length)}`;
+      });
+      return ['复盘总结 · 本次扫盘数据',metrics.slice(0,2).join('    '),metrics.slice(2).join('    '),`统计已结算原记录；未结算/待核 ${rows.filter(x=>!settled(x)).length} 场不计。`];
+    }
+    function tableImageBlob(reviewMode=false){
+      const table=document.querySelector(reviewMode?'.review-table':'#scanTable .scan-table');
+      if(!table)throw Error('Table missing');
+      const rows=Array.from(table.tBodies[0].rows),headers=Array.from(table.tHead.rows[0].cells);
+      const widths=reviewMode?[140,160,110,310,280,150,170,180,180]:[140,110,310,280,150,170,180,180,200];
+      const width=widths.reduce((a,b)=>a+b,0),titleH=126,headH=64,footH=reviewMode?240:66,font='24px system-ui,"Microsoft YaHei",sans-serif';
+      const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');
+      function tokens(cell){
+        if(!cell)return [{text:'--',hit:false}];
+        const out=[];
+        for(const n of cell.childNodes){
+          if(n.nodeType===1&&n.tagName==='SMALL')out.push({text:'\n'+n.textContent,hit:false});
+          else out.push({text:n.textContent||'',hit:n.nodeType===1&&n.classList.contains('hit-mark')});
+        }return out;
+      }
+      function layout(cell,space){
+        ctx.font=font;const lines=[[]];let used=0;
+        for(const token of tokens(cell)){
+          const chunks=token.hit?[token.text]:Array.from(token.text);
+          for(const text of chunks){
+            if(text==='\n'){lines.push([]);used=0;continue;}
+            const w=ctx.measureText(text).width+(token.hit?24:0);
+            if(used+w>space&&used){lines.push([]);used=0;}
+            lines[lines.length-1].push({text,hit:token.hit,width:w});used+=w;
+          }
+        }return lines;
+      }
+      const layouts=rows.map(row=>Array.from(row.cells).map((cell,i)=>layout(cell,widths[i]-30)));
+      const heights=layouts.map(row=>Math.max(96,Math.max(...row.map(lines=>lines.length))*36+28));
+      const height=titleH+headH+heights.reduce((a,b)=>a+b,0)+footH;
+      const scale=Math.min(2,4096/width,8192/height,Math.sqrt(8000000/(width*height)));
+      canvas.width=Math.floor(width*scale);canvas.height=Math.floor(height*scale);ctx.scale(scale,scale);
+      ctx.fillStyle='#e8f5fc';ctx.fillRect(0,0,width,height);ctx.textBaseline='middle';
+      ctx.textAlign='center';ctx.fillStyle='#246950';ctx.font='800 46px system-ui,sans-serif';ctx.fillText('FT足球竞彩模型',width/2,48);
+      ctx.fillStyle='#64746e';ctx.font='24px system-ui,sans-serif';
+      ctx.fillText((reviewMode?currentReview.date:currentScanDate)+' · '+(reviewMode?'赛果复盘':'逐场扫盘'),width/2,94);
+      ctx.fillStyle='#197751';ctx.fillRect(0,titleH,width,headH);
+      let left=0;ctx.font='bold 25px system-ui,sans-serif';ctx.fillStyle='#ffffff';
+      headers.forEach((cell,i)=>{ctx.fillText(cell.textContent,left+widths[i]/2,titleH+headH/2);left+=widths[i];});
+      let top=titleH+headH;
+      rows.forEach((row,index)=>{
+        const rowH=heights[index];ctx.fillStyle=index%2?'#d9edf6':'#f8fcfb';ctx.fillRect(0,top,width,rowH);
+        ctx.strokeStyle='#34393e';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(0,top);ctx.lineTo(width,top);ctx.stroke();left=0;
+        Array.from(row.cells).forEach((cell,i)=>{
+          const lines=layouts[index][i],color=getComputedStyle(cell).color;
+          lines.forEach((parts,lineIndex)=>{
+            let x=left+(widths[i]-parts.reduce((sum,p)=>sum+p.width,0))/2;
+            const y=top+rowH/2+(lineIndex-(lines.length-1)/2)*36;
+            ctx.textAlign='left';ctx.font=font;
+            for(const part of parts){
+              if(part.hit){
+                ctx.fillStyle='#26191b';ctx.strokeStyle='#ef7777';ctx.lineWidth=2;ctx.beginPath();
+                if(ctx.roundRect)ctx.roundRect(x+2,y-18,part.width-4,36,7);else ctx.rect(x+2,y-18,part.width-4,36);
+                ctx.fill();ctx.stroke();ctx.lineWidth=1;ctx.strokeRect(x,y-20,part.width,40);
+              }
+              ctx.fillStyle=part.hit?'#ff8f87':color;ctx.fillText(part.text,x+(part.hit?12:0),y);x+=part.width;
+            }
+          });left+=widths[i];
+        });top+=rowH;
+      });
+      ctx.textAlign='center';ctx.font='21px system-ui,sans-serif';ctx.fillStyle='#64746e';
+      if(reviewMode){
+        reviewAccuracyLines(currentReview).forEach((line,i)=>{
+          ctx.font=i===0?'bold 28px system-ui,sans-serif':'24px system-ui,sans-serif';
+          ctx.fillStyle=i===0?'#197751':'#344f42';
+          ctx.fillText(line,width/2,height-footH+36+i*41,width-48);
+        });
+      }else ctx.fillText('推荐方向与星级仅供参考 · 理性购彩',width/2,height-footH/2);
+      return new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(Error('image failed')),'image/png'));
+    }
+    function scanImageBlob(){return tableImageBlob(false);}
+     function downloadScanImage(blob){const link=document.createElement('a');link.href=URL.createObjectURL(blob);link.download=`FT足球竞彩模型-${currentScanDate||'扫盘'}.png`;document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(link.href),1000)}
+    let scanPreviewUrl;
+    function showScanPreview(blob,reviewMode=false){
+      let panel=$('scanPreview');
+      if(!panel){panel=document.createElement('section');panel.id='scanPreview';panel.innerHTML='<p role="status">浏览器未允许直接复制，图片已经生成。手机可长按图片保存或发送，电脑可右键复制图片。</p><button type="button" id="shareScanImage" class="copy-button">分享图片</button><button type="button" id="downloadScanImage" class="copy-button">下载图片</button><button type="button" id="closeScanPreview" class="copy-button">关闭预览</button><img alt="扫盘表，可长按保存或右键复制" style="display:block;width:100%;height:auto;margin-top:12px">';$('scanTable').after(panel);}
+      $(reviewMode?'reviewTable':'scanTable').after(panel);if(scanPreviewUrl)URL.revokeObjectURL(scanPreviewUrl);
+      scanPreviewUrl=URL.createObjectURL(blob);panel.querySelector('img').src=scanPreviewUrl;panel.hidden=false;
+      $('closeScanPreview').onclick=()=>{panel.hidden=true;};
+      let retry=panel.querySelector('[data-copy-ready]');
+      if(!retry){retry=document.createElement('button');retry.type='button';retry.className='copy-button';retry.dataset.copyReady='true';panel.querySelector('p').after(retry);}
+      retry.textContent='复制已生成图片';retry.disabled=!(navigator.clipboard?.write&&window.ClipboardItem);
+      retry.onclick=async()=>{
+        try{await navigator.clipboard.write([new ClipboardItem({'image/png':blob})]);retry.textContent='✓ 图片已复制';}
+        catch{panel.querySelector('p').textContent='浏览器禁止图片剪贴板访问。请长按图片保存或使用分享图片；电脑可右键复制图片。';}
+      };
+      const file=new File([blob],(reviewMode?'赛果复盘.png':'扫盘表.png'),{type:'image/png'});
+      const share=$('shareScanImage');share.hidden=true;
+      try{share.hidden=!(navigator.share&&(!navigator.canShare||navigator.canShare({files:[file]})));}catch{}
+      $('downloadScanImage').onclick=()=>downloadScanImage(blob);
+      share.onclick=async()=>{try{await navigator.share({files:[file],title:'FT足球竞彩模型'});}catch(e){if(e.name!=='AbortError')panel.querySelector('p').textContent='分享未完成，请长按图片保存后发送。';}};
+      panel.scrollIntoView({behavior:'smooth',block:'start'});
+    }
+    async function copyScanTable(reviewMode=false,sourceButton=null){
+      if(reviewMode?!currentReview?.rows?.length:!currentScanRows.length)return;
+      const button=sourceButton||$(reviewMode?'copyReview':'copyScan'),originalLabel=button.textContent;button.disabled=true;button.textContent='正在生成图片';
+      let pending;
+      try{
+        // Start clipboard writing inside the click, before asynchronous encoding.
+        pending=Promise.resolve().then(()=>reviewMode?reviewImageBlob():scanImageBlob());
+        pending.catch(()=>{});
+        if(navigator.clipboard?.write&&window.ClipboardItem){
+          await navigator.clipboard.write([new ClipboardItem({'image/png':pending})]);
+          button.textContent='✓ 图片已复制';button.classList.add('copied');
+        }else{showScanPreview(await pending,reviewMode);button.textContent='已打开图片';}
+      }catch(e){
+        try{
+          const blob=await pending;
+          showScanPreview(blob,reviewMode);button.textContent='长按图片保存';
+        }catch{button.textContent='图片生成失败，请刷新重试';}
+      }finally{setTimeout(()=>{button.textContent=originalLabel;button.classList.remove('copied');button.disabled=false;},2200);}
+    }
+    function markedPick(value,labels=[]){let parts=[{text:String(value??'--'),hit:false}];for(const label of labels||[]){const next=[];for(const part of parts){if(part.hit){next.push(part);continue}const i=part.text.indexOf(label);if(i<0){next.push(part);continue}if(i)next.push({text:part.text.slice(0,i),hit:false});next.push({text:label,hit:true});if(i+label.length<part.text.length)next.push({text:part.text.slice(i+label.length),hit:false})}parts=next}return parts.map(x=>x.hit?`<span class="hit-mark">${esc(x.text)}</span>`:esc(x.text)).join('')}
+    async function reviewImageBlob(){
+      const blob=await tableImageBlob(true),tickets=currentReview?.ticketReview||[];
+      if(!tickets.length)return blob;
+      const bmp=await createImageBitmap(blob),width=1200,bmpScale=width/bmp.width,probe=document.createElement('canvas').getContext('2d');probe.font='24px "Microsoft YaHei",sans-serif';
+      const wrap=(s,max=width-150)=>{const lines=[];let line='';for(const c of String(s)){if(probe.measureText(line+c).width>max&&line){lines.push(line);line='';}line+=c;}if(line)lines.push(line);return lines;};
+      const blocks=tickets.map(t=>({...t,lines:[t.selectionText,`总投入 ${t.cost}元 · 返还 ${t.returned}元 · 净 ${t.net>=0?'+':''}${t.net}元 · ${t.status}`,t.detail].flatMap(x=>wrap(x))}));
+      const topH=215+blocks.reduce((h,b)=>h+68+b.lines.length*34,0)+92,height=topH+bmp.height*bmpScale,canvas=document.createElement('canvas');
+      const ratio=Math.min(1,12000/height,Math.sqrt(12000000/(width*height)));canvas.width=Math.ceil(width*ratio);canvas.height=Math.ceil(height*ratio);const ctx=canvas.getContext('2d');ctx.scale(ratio,ratio);
+      ctx.fillStyle='#ece8f8';ctx.fillRect(0,0,width,topH);ctx.textAlign='center';ctx.fillStyle='#246950';ctx.font='800 46px "Microsoft YaHei",sans-serif';ctx.fillText('FT足球竞彩模型',width/2,50);ctx.font='bold 58px serif';ctx.fillText('✦ 串子复盘 ✦',width/2,120);ctx.fillStyle='#65736d';ctx.font='24px "Microsoft YaHei",sans-serif';ctx.fillText(currentReview.date+' · 按原票逐张结算',width/2,168);
+      let y=215;for(const b of blocks){const color={two:'#258d6f',half_full:'#995bae',three:'#278cab',dream_single:'#df6655',dream_cover:'#df6655',dream:'#df6655'}[b.category]||'#258d6f';ctx.fillStyle=b.stronglyRecommended?'#d4ac46':'#aab9b5';ctx.beginPath();ctx.arc(62,y+20,24,0,Math.PI*2);ctx.fill();ctx.fillStyle='white';ctx.font='bold 25px "Microsoft YaHei",sans-serif';ctx.fillText(String(b.index),62,y+28);ctx.textAlign='left';ctx.fillStyle=color;ctx.font='bold 27px "Microsoft YaHei",sans-serif';ctx.fillText(b.name+(b.stronglyRecommended&&!b.name.includes('强烈建议')?'  ★强烈建议':''),105,y+29);y+=64;b.lines.forEach((line,i)=>{ctx.fillStyle=i===0?'#263d34':i===1?(b.net>=0?'#197751':'#b04e43'):'#64746e';ctx.font=(i===0?'bold ':'')+'24px "Microsoft YaHei",sans-serif';ctx.fillText(line,105,y);y+=34;});y+=8;}
+      const t=currentReview.ticketTotals||{};ctx.textAlign='center';ctx.fillStyle='#344f42';ctx.font='bold 25px "Microsoft YaHei",sans-serif';ctx.fillText(`全部原票理论投入 ${t.cost}元 · 返还 ${t.returned}元 · 净 ${t.net}元`,width/2,topH-54);ctx.font='21px "Microsoft YaHei",sans-serif';ctx.fillText('仅按原报告所列投注结构结算，不代表用户实际投注盈亏',width/2,topH-20);ctx.drawImage(bmp,0,topH,width,bmp.height*bmpScale);bmp.close();return new Promise((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(Error('image failed')),'image/png'));
+    }
+    async function trackingImageBlob(reviewMode=false){
+      const report=posterReport||{},rows=reviewMode?(currentReview?.combinations||[]):(report.recommendations||[]),date=reviewMode?(currentReview?.date||''):(report.date||currentScanDate||''),lines=[];
+      if(!rows.length)lines.push('暂无可记录方案');
+      rows.forEach((r,i)=>{if(reviewMode){const n=r.exampleNet==null?'待定':`${Number(r.exampleNet)>=0?'+':''}${r.exampleNet}元`;lines.push(`${i+1}. ${r.name||r.category||'方案'}｜${r.result||'待结算'}｜当日 ${n}`)}else{lines.push(`${i+1}. ${ticketLabel(r)}｜${(r.legs||[]).map(compactLeg).join(' × ')||'方案待补'}｜${r.oddsText||r.totalOdds||'赔率待定'}｜${r.totalCost==null?'投入待定':r.totalCost+'元'}｜待定`)}});
+      if(reviewMode){const t=currentReview?.ticketTotals||{};lines.push('',`当日盈亏：${t.net==null?'待建立':`${Number(t.net)>=0?'+':''}${t.net}元`}`,'累计盈亏：待建立')}
+      lines.push('',reviewMode?'按已发布原票结算，未核验场次不补填。':'未赛显示待定，赛后按原票结算；不自动下注。');
+      const width=1200,rowH=58,top=215,height=top+Math.max(1,lines.length)*rowH+70,canvas=document.createElement('canvas'),ratio=Math.min(1,8192/height,Math.sqrt(8000000/(width*height)));canvas.width=Math.ceil(width*ratio);canvas.height=Math.ceil(height*ratio);const ctx=canvas.getContext('2d');ctx.scale(ratio,ratio);ctx.fillStyle='#10293b';ctx.fillRect(0,0,width,height);ctx.fillStyle='#173d57';ctx.fillRect(0,0,width,top);ctx.textAlign='center';ctx.fillStyle='#f4d58a';ctx.font='800 48px "Microsoft YaHei",sans-serif';ctx.fillText('FT足球竞彩模型',width/2,60);ctx.fillStyle='#fff';ctx.font='bold 58px "Microsoft YaHei",sans-serif';ctx.fillText(reviewMode?'复盘跟踪卡':'今日跟踪卡',width/2,135);ctx.fillStyle='#b9d3df';ctx.font='24px "Microsoft YaHei",sans-serif';ctx.fillText(`${date} · ${reviewMode?'原票复盘':'赛前记录'}`,width/2,182);ctx.textAlign='left';lines.forEach((line,i)=>{const y=top+i*rowH;ctx.fillStyle=i%2?'#17364b':'#1c425b';ctx.fillRect(35,y,width-70,rowH-5);ctx.fillStyle=line.includes('当日盈亏')&&/\+/.test(line)?'#7fe0ad':line.includes('当日盈亏')?'#ff9d8d':'#f1f5f6';ctx.font=(/^\d+\./.test(line)||line.includes('盈亏'))?'bold 25px "Microsoft YaHei",sans-serif':'23px "Microsoft YaHei",sans-serif';ctx.fillText(line,60,y+31,width-120)});ctx.textAlign='center';ctx.fillStyle='#9dbbc8';ctx.font='21px "Microsoft YaHei",sans-serif';ctx.fillText('仅供参考 · 以线上原始方案和实际结算为准',width/2,height-25);return new Promise((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(Error('image failed')),'image/png'));
+    }
+    async function copyTrackingImage(reviewMode=false,sourceButton=null){const button=sourceButton||$(reviewMode?'copyReviewTracking':'copyTracking');if(!button)return;const original=button.textContent;button.disabled=true;button.textContent='正在生成图片';try{const pending=trackingImageBlob(reviewMode);if(navigator.clipboard?.write&&window.ClipboardItem){await navigator.clipboard.write([new ClipboardItem({'image/png':pending})]);button.textContent='✓ 图片已复制';button.classList.add('copied')}else{showScanPreview(await pending,reviewMode);button.textContent='已打开图片'}}catch{button.textContent='长按图片保存';try{showScanPreview(await trackingImageBlob(reviewMode),reviewMode)}catch{button.textContent='图片生成失败'}}finally{setTimeout(()=>{button.textContent=original;button.disabled=false;button.classList.remove('copied')},2200)}}
+    let currentReview=null;
+    function renderReview(review){currentReview=review;$('copyReview').disabled=!review?.rows?.length;const rows=review?.rows||[];if(!rows.length){$('reviewTable').innerHTML='<div class="empty">暂无已完赛复盘。</div>';return}$('reviewTable').innerHTML=`<div class="review-summary">${esc(review.summary||'')}</div><div class="table-banner"><span class="cartoon-ball">⚽</span><div><strong>${esc(review.title||'FT足球竞彩模型')}</strong><small>${esc(review.date||'')} · 赛果复盘</small></div><span class="comic-bubble">模型提示：复盘以原票为准</span></div><div class="scan-wrap"><table class="scan-table review-table"><thead><tr><th>编号</th><th>时间</th><th>赛事</th><th>对阵</th><th>方向</th><th>总进球</th><th>半全场</th><th>比分预测</th><th>赛果</th></tr></thead><tbody>${rows.map(x=>`<tr><td>${esc(x.number)}</td><td>${esc(x.time||'--')}</td><td>${esc(x.league||'--')}</td><td class="teams">${esc(x.teams)}</td><td class="${x.recommended?'recommended-pick':''}">${markedPick(x.resultPick,x.hitLabels?.result)}</td><td>${markedPick(x.goalsPick,x.hitLabels?.goals)}</td><td>${markedPick(x.halfFullPick,x.hitLabels?.halfFull)}</td><td>${markedPick(x.scorePick,x.hitLabels?.score)}</td><td class="result-score">${esc(x.actualScore)}<small>半场 ${esc(x.halfScore)}</small></td></tr>`).join('')}</tbody></table></div><div class="scan-note">红色文字为正式推荐方向；红色印章只标记实际命中的具体选项，各玩法分别结算。</div><div class="review-combos">${(review.combinations||[]).map(x=>`<div class="review-combo"><strong>${esc(x.name)} · ${esc(x.result)}</strong><br>${esc(x.detail)}</div>`).join('')}</div><ul class="review-lessons">${(review.lessons||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`}
+    function renderReport(report){
+      $('reportHeading').textContent=report.date+' · '+(report.status==='audit-incomplete-no-approved-tickets'?'审计纠错·出单未完成':report.finalLocked?'最终锁定':'研究中');
+      $('reportHeading').dataset.edition=report.edition||'';
+      $('reportHeading').dataset.finalLocked=String(report.finalLocked===true);
+      $('summary').textContent=(report.date?report.date+' · ':'')+(report.summary||'尚未发布今日综合方案。')+(report.edition?' 批次：'+report.edition:'');currentReportDate=report.date||'';
+      const rows=report.recommendations||[];
+      const sections=[
+        ['two','2.0 / 3.0 · 核心优先','2.0优先稳定，3.0在核心审核通过后追求可控收益；真实保险按全部子票成本核算。胜＋让平属于博精准。'],
+        ['half_full','半全场2串1 · 博单','平平、平胜、平负等按比赛走势筛选；有依据就多出。单关＋2串1须核验单关可售和总投入，命中一场不一定保本。'],
+        ['three','3串1 · 精选','目标2–3套，要求3.0倍以上；没有合格方案就不出。'],
+        ['dream','全进球数梦想串 · 博单','核心完成后再筛4–5场，每场3个有依据的进球数。4场81注162元；5场243注486元，须核全部分支返还。'],
+        ['other','其他已发布方案','保留原始记录，不改写历史方案。']
+      ];
+      $('recommendations').innerHTML='<div class="recommendation-groups">'+sections.map(([id,title,note])=>{
+        const group=rows.filter(r=>recommendationGroup(r)===id).sort((a,b)=>Number(isStrongRecommendation(b))-Number(isStrongRecommendation(a)));
+        if(id==='other'&&!group.length)return '';
+        return '<section class="recommendation-column" data-recommendation-group="'+id+'"><h3>'+esc(title)+'</h3><div class="scan-note">'+esc(note)+'</div><div class="recommendations">'+(group.length?group.map(recommendationCard).join(''):'<div class="empty">'+(report.status==='audit-incomplete-no-approved-tickets'?'审核未完成，非正式不出结论':'本版无合格方案')+'</div>')+'</div></section>';
+      }).join('')+'</div>';
+    }
+    function dreamCost(n,d,sizes,m=1){if(![n,d,m].every(Number.isInteger)||n<2||n>8||d<0||d>n||m<1||m>10000)throw Error('请检查场数、双选场数和倍数');const ks=[...new Set(sizes)];if(!ks.length||ks.some(k=>!Number.isInteger(k)||k<2||k>n))throw Error('关数不能大于场数，请至少选择一种串法');const dp=Array(n+1).fill(0);dp[0]=1;for(let i=0;i<n;i++)for(let k=i+1;k>0;k--)dp[k]+=dp[k-1]*(i<d?2:1);const rows=ks.map(k=>({k,count:dp[k]})),count=rows.reduce((s,r)=>s+r.count,0);return{rows,count,cost:count*2*m}}
+    function renderDreamCost(){try{const n=Number($('costN').value),d=Number($('costD').value),m=Number($('costM').value),ks=[...document.querySelectorAll('input[name="costK"]:checked')].map(x=>x.value==='all'?n:Number(x.value)),r=dreamCost(n,d,ks,m);$('costOutput').textContent=r.rows.map(x=>`${x.k}串1：${x.count}注`).join('；')+`。共${r.count}注 × 2元 × ${m}倍 = ${r.cost}元`;}catch(e){$('costOutput').textContent=e.message}}
+    $('dreamRules').addEventListener('input',renderDreamCost);renderDreamCost();
+    let currentReportDate='';
+    const DATA_ROOT='https://raw.githubusercontent.com/zdongdong8219-jpg/football-monitor/main/data/';
+    async function fetchData(file){
+      for(const root of ['data/',DATA_ROOT]){
+        const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),8000);
+        try{const response=await fetch(root+file+'?v='+Date.now(),{cache:'no-store',signal:controller.signal});if(!response.ok)throw Error('HTTP '+response.status);return await response.json()}catch{}finally{clearTimeout(timer)}
+      }
+      throw Error('数据连接超时，请点击右上角刷新');
+    }
+
+    function publicationHealth(report,today){
+      if(!report||report.date!==today)return '今日推荐未发布，以下为旧方案，请勿作为今日投注依据。';
+      if(!report.recommendations?.length)return report.finalLocked&&report.status==='final-no-bet'?'今日最终审核：今晚不出。12场拒绝入单依据已记录；推荐投入0元。':'核心审核尚未完成；已列12场研究方向和保险说明，本页非可购买方案。';
+      return '';
+    }
+    function showPublicationHealth(report){
+      const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+      const message=publicationHealth(report,today);
+      let notice=document.getElementById('publicationHealth');
+      if(!notice){notice=document.createElement('div');notice.id='publicationHealth';notice.className='notice error';notice.setAttribute('role','status');document.getElementById('summary').before(notice);}
+      notice.textContent=message;notice.hidden=!message;
+      document.getElementById('recommendations').querySelectorAll('button').forEach(button=>{button.disabled=!report||report.date!==today;});
+    }
+
+    function isYesterdayDemo(){return new URLSearchParams(location.search).get('demo')==='2026-10-11'}
+    function makeYesterdayDemo(original){
+      if(original.date!=='2026-10-11')throw Error('测试原始报告日期不匹配，停止展示');
+      const rows=original.scanTable||[];
+      if(rows.length<6)throw Error('昨日记录不足，无法构造展示样例');
+      const risk='仅为界面测试：选项、赔率和强烈建议标记均为模拟，不是昨日真实推荐，不可投注、不参与正式复盘。';
+      const leg=(i,selection,odds,market='spf')=>({number:rows[i].number,selection:rows[i].teams+' · '+selection,odds,market,selectionReason:'模拟选项，仅检查手机排版及复制'});
+      return {
+        date:original.date,isSimulation:true,
+        summary:'【模拟测试 · 非真实推荐】使用10月11日存档对阵，选项和赔率均为测试值。下方复盘只列昨日真实发布记录；真实正式推荐'+(original.recommendations||[]).length+'套。模拟数据不计准确率，不覆盖今天方案。',
+        recommendations:[
+          {category:'two',name:'【模拟测试】普通2串1 · 约3倍',passType:'2串1',stronglyRecommended:true,legs:[leg(0,'胜',1.7),leg(1,'胜',1.8)],totalOdds:'模拟3.06倍',totalCost:2,effectiveReturnText:'示例两腿都中返还6.12元；一腿未中返还0元',risk},
+          {category:'two',name:'【模拟测试】胜＋让平重叠拆票',passType:'2串1拆票',legs:[leg(2,'胜／主让1让平（两张票）',null),leg(3,'胜',1.8)],oddsText:'模拟：普通胜分支3.06倍，让平分支5.40倍',totalCost:4,subTickets:[{name:'子票一',selectionText:rows[2].number+'胜 × '+rows[3].number+'胜',stake:2,odds:3.06,returnText:'全中返还6.12元'},{name:'子票二',selectionText:rows[2].number+'主让1让平 × '+rows[3].number+'胜',stake:2,odds:5.4,returnText:'全中返还10.80元'}],coverageText:'模拟主队恰赢1球且另一场胜时两票都中，合计返还16.92元；另一场未中则两票均不兑付。让球设定仅用于示例。',risk},
+          {category:'half_full',name:'【模拟测试】半全场单关＋2串1',passType:'单关A＋单关B＋2串1',stronglyRecommended:true,legs:[leg(4,'平胜',3.5,'half_full'),leg(5,'平平',4,'half_full')],oddsText:'模拟单关3.50／4.00倍，2串1为14.00倍',totalCost:6,subTickets:[{name:'单关A',stake:2,odds:3.5},{name:'单关B',stake:2,odds:4},{name:'A×B 2串1',stake:2,odds:14}],coverageText:'模拟两场均可售单关：仅A中返还7元，净+1元；仅B中返还8元，净+2元；全中返还43元，净+37元；全失亏6元。非真实单关资格或赔率。',risk},
+          {category:'three',name:'【模拟测试】精选3串1',passType:'3串1',legs:[leg(0,'胜',1.5),leg(2,'平',1.6),leg(4,'胜',1.7)],totalOdds:'模拟4.08倍',totalCost:2,effectiveReturnText:'全部命中返还8.16元，否则返还0元',risk},
+          {category:'dream_single',name:'【模拟测试】5场混合梦想单',passType:'可选3／4／5关',passSizes:[3,4,5],legs:[leg(0,'主让1让平',3,'rqspf'),leg(1,'平',3.2),leg(2,'平胜',4,'half_full'),leg(3,'总进球3球',3.5,'goals'),leg(4,'胜',1.8)],oddsText:'模拟5关241.92倍；不同拆关分别核算',structureText:'全单选：3关10注20元，4关5注10元，5关1注2元；全买16注32元',totalCost:32,effectiveReturnText:'仅示例5腿全中且3/4/5关全买：返还1894.28元（结算舍入前）；部分命中须逐子票核算，不保证回本',risk}
+        ]
+      };
+    }
+    function yesterdayOriginalReview(original){
+      return {date:original.date,auditOnly:true,title:'10月11日真实发布记录 · 非模拟战绩',
+        summary:'昨日存档正式推荐'+(original.recommendations||[]).length+'套；本存档没有可结算的赛前预测。不能补组昨日推荐或计算命中率。赛果尚未独立核验，下表不填造赛果。上方模拟单不属于昨天真实发布内容。',
+        rows:(original.scanTable||[]).map(x=>({number:x.number,time:x.kickoff,league:x.league,teams:x.teams,resultPick:x.selection||x.buy||'未预测',goalsPick:x.goals||'未预测',halfFullPick:x.halfFull||'未预测',scorePick:x.score||'未预测',actualScore:'待核验',halfScore:'待核验',settlementStatus:'无可结算预测',hits:{},hitLabels:{}})),
+        combinations:[],lessons:['仅按真实原始发布记录复盘，不能用赛后模拟方案作为历史成绩。','可返回正式页面查看目前已发布的10月10日复盘。']};
+    }
+    async function loadYesterdayDemo(){
+      const original=await fetchData('reports/2026-10-11.json');
+      const demo=makeYesterdayDemo(original);
+      $('reportHeading').textContent='10月11日模拟测试 · 非真实推荐';
+      renderReport(demo);renderReview(yesterdayOriginalReview(original));
+      $('saleDate').textContent='2026-10-11（测试）';$('matchCount').textContent=(original.scanTable||[]).length+' 场历史记录';$('checkedAt').textContent='模拟展示，非实时盘口';
+      $('scanTable').textContent='本页仅测试方案展示。昨天真实扫盘记录见下方复盘表；今天扫盘请返回正式页面。';
+      $('matches').textContent='模拟模式不显示实时盘口，不提供当前投注建议。';$('copyScan').disabled=true;
+      let notice=$('publicationHealth');
+      if(!notice){notice=document.createElement('div');notice.id='publicationHealth';notice.className='notice error';$('summary').before(notice);}
+      notice.textContent='【仅测试】这里的方案不是昨天发布的原票，模拟赔率不能用于投注，不计入复盘准确率。';notice.hidden=false;
+    }
+
+    async function load(){
+      if(isYesterdayDemo()){ $('refresh').disabled=true;try{await loadYesterdayDemo()}catch(e){$('summary').textContent='模拟数据读取失败：'+e.message}finally{$('refresh').disabled=false}return; }
+      $('refresh').disabled=true;
+      let state=null,report=null;
+      const scan=()=>{if(state)renderScanTable(state,report||{})};
+      await Promise.allSettled([
+        fetchData('state.json').then(s=>{state=s;renderMatches(s,report||{});scan()}).catch(e=>{$('saleDate').textContent='读取失败';$('matches').textContent=e.message;$('scanTable').textContent='盘口读取失败，可点击右上角重试。'}),
+        fetchData('latest.json').then(r=>{report=r;renderReport(r);if(state)renderMatches(state,r);scan()}).catch(e=>{$('summary').textContent=e.message;$('scanTable').textContent='方案读取失败，可点击右上角重试。'}),
+        fetchData('review-latest.json').then(renderReview).catch(e=>{$('reviewTable').textContent=e.message})
+      ]);
+      showPublicationHealth(report);
+      $('refresh').disabled=false;
+    }
+    // reference-poster-v1: live report, shared screen/image presentation.
+    let posterReport={};
+    const originalRenderReport=renderReport;
+    function compactLeg(l){if(l.options)return String(l.number||'').slice(-3)+'['+(l.market==='HHAD'?'主'+l.handicap+' ':'')+String(l.selection||'')+']';return String(l.number||'').slice(-3)+String(l.selection||'').replace('胜；另一张子票为主让1让平','[胜＋让平]');}
+    function posterTickets(){return (posterReport.recommendations||[]).map((r,i)=>({r,i})).sort((a,b)=>{
+      const ranks={two:0,half_full:1,three:2,dream:3,other:4};
+      return (ranks[recommendationGroup(a.r)]-ranks[recommendationGroup(b.r)])||Number(!!b.r.stronglyRecommended)-Number(!!a.r.stronglyRecommended)||a.i-b.i;
+    }).map(x=>x.r);}
+    function ticketLabel(r){if(r.trackingTier)return r.trackingTier;if(r.category==='speculative')return '博精准';return r.passType?.includes('重叠')?'双选2串1':({two:'普通2串1',half_full:'半全场2串1',three:'精选3串1',dream:'梦想单'}[recommendationGroup(r)]||'推荐');}
+    function ticketLines(r){return [(r.legs||[]).map(compactLeg).join(' × '),r.combinationCount>10?r.combinationCount+'注×2元×1倍；全覆盖返'+r.conditionalReturn.min+'—'+r.conditionalReturn.max+'元':r.oddsText||String(r.totalOdds||''),...recommendationDetails(r)];}
+    function completeTicketLines(r){
+      // Dreams stay compact in the image; original accounting remains in the report.
+      if(recommendationGroup(r)==='dream')return [ticketLines(r)[0],r.passSizes?.length?'可选 '+r.passSizes.join('/')+'关':'',r.totalCost!=null?'所列方案全买总成本：'+r.totalCost+'元（按实际所选关数投入）':'','高风险梦想单，拆关容错不保证回本。'].filter(Boolean);
+      return [ticketLines(r)[0],r.name||r.type||'',ticketLines(r)[1],r.structureText||r.passType||'',...(r.legs||[]).map(l=>[l.number,l.selection,l.odds?'@'+l.odds:'',l.halfTimePrediction?'半场 '+l.halfTimePrediction:'',l.predictedScore?'比分 '+l.predictedScore:'',l.goalRange?'进球 '+l.goalRange:'',l.selectionReason||''].filter(Boolean).join(' · ')),...recommendationDetails(r),r.risk?'风险：'+r.risk:''].filter(Boolean);
+    }
+    renderReport=function(report){posterReport=report;originalRenderReport(report);$('copyTracking').disabled=!(report?.scanTable?.length);
+      $('recommendations').innerHTML='<div class="poster-heading"><small>FT足球竞彩模型</small><h2>✦ 今日推荐 ✦</h2><p>'+esc(report.date||'')+' · 栏目内优先展示看好的方案</p></div><div class="poster-list">'+posterTickets().map((r,i)=>'<details class="poster-ticket"><summary><span class="poster-rank">'+(i+1)+'</span><span class="poster-type">'+esc(ticketLabel(r))+'</span><div><strong>'+esc(ticketLines(r)[0])+'</strong>'+(r.stronglyRecommended?'<span class="strong-badge">★ 强烈建议</span>':r.betSingleRecommended?'<span class="strong-badge">☆ 博单建议</span>':'')+'<p>'+esc(ticketLines(r)[1])+(r.displayMultipliersOnly?'':' · 总投入 '+esc(r.totalCost??'待核')+'元')+'</p></div></summary>'+recommendationCard(r)+'</details>').join('')+'</div><p class="scan-note">点击方案查看子票、条件返还与风险。★为已标记的相对信心。</p>';
+    };
+    const originalScan=renderScanTable;
+    renderScanTable=function(state,report){originalScan(state,report);
+      $('copyPoster').disabled=!currentScanRows.length;
+      const table=$('scanTable').querySelector('table');if(!table)return;
+      Array.from(table.tBodies[0].rows).forEach((tr,i)=>{const row=currentScanRows[i],cell=tr.cells[3];
+        const primary=row.primaryPick||row.buy||row.selection||'待分析';
+        const secondary=row.secondaryPick||'';
+        const stars=row.stronglyRecommended?'★★':Number(row.stars)>=3?'★':'';
+        cell.innerHTML='<strong>'+esc(primary)+'</strong><span class="direction-star">'+stars+'</span>'+(secondary?'<small>次选：'+esc(secondary)+'</small>':'')+(row.speculative&&row.speculative!=='无'?'<small>博：'+esc(row.speculative)+'</small>':'');
+      });
+    };
+    const originalTableImage=tableImageBlob;
+    tableImageBlob=async function(reviewMode=false){
+      const blob=await originalTableImage(reviewMode);if(reviewMode)return blob;
+      const bmp=await createImageBitmap(blob),width=1200,scale=width/bmp.width;
+      const probe=document.createElement('canvas').getContext('2d');probe.font='25px "Microsoft YaHei",sans-serif';
+      const wrap=(s,max=1020)=>{const lines=[];let line='';for(const c of String(s)){if(probe.measureText(line+c).width>max){lines.push(line);line='';}line+=c;}if(line)lines.push(line);return lines;};
+      const blocks=posterTickets().map((r,i)=>({r,i,lines:completeTicketLines(r).flatMap(x=>wrap(x))}));
+      const topHeight=230+blocks.reduce((s,b)=>s+86+b.lines.length*34,0)+70;
+      const height=topHeight+bmp.height*scale,canvas=document.createElement('canvas');
+      const ratio=Math.min(1,8192/height,Math.sqrt(8000000/(width*height)));
+      canvas.width=Math.ceil(width*ratio);canvas.height=Math.ceil(height*ratio);const ctx=canvas.getContext('2d');ctx.scale(ratio,ratio);
+      ctx.fillStyle='#ece8f8';ctx.fillRect(0,0,width,topHeight);ctx.textAlign='center';ctx.fillStyle='#246950';ctx.font='bold 27px "Microsoft YaHei",sans-serif';ctx.fillText('FT足球竞彩模型',600,55);
+      ctx.fillStyle='#223b32';ctx.font='bold 60px serif';ctx.fillText('✦ 今日推荐 ✦',600,130);ctx.font='25px "Microsoft YaHei",sans-serif';ctx.fillStyle='#66736e';ctx.fillText((posterReport.date||'')+' · 栏目内按信心优先展示',600,182);
+      let y=230;for(const b of blocks){const color={two:'#258d6f',half_full:'#995bae',three:'#278cab',dream:'#df6655'}[recommendationGroup(b.r)]||'#258d6f';ctx.fillStyle=b.i===0?'#d4ac46':'#aab9b5';ctx.beginPath();ctx.arc(75,y+20,25,0,Math.PI*2);ctx.fill();ctx.textAlign='center';ctx.fillStyle='white';ctx.font='bold 28px "Microsoft YaHei",sans-serif';ctx.fillText(String(b.i+1),75,y+30);ctx.fillStyle=color;ctx.beginPath();ctx.roundRect(115,y-5,220,50,25);ctx.fill();ctx.fillStyle='white';ctx.fillText(ticketLabel(b.r),225,y+30);ctx.textAlign='left';ctx.fillStyle='#a26512';ctx.fillText(b.r.stronglyRecommended?'★ 强烈建议':b.r.betSingleRecommended?'☆ 博单建议':'',355,y+30);y+=72;
+        b.lines.forEach((line,j)=>{ctx.font=(j===0?'bold ':'')+'25px "Microsoft YaHei",sans-serif';ctx.fillStyle=j===0?'#203b32':'#626a69';ctx.fillText(line,70,y);y+=34;});y+=14;}
+      ctx.textAlign='center';ctx.font='23px "Microsoft YaHei",sans-serif';ctx.fillText('⚽ 仅供参考 · 理性购彩',600,topHeight-25);ctx.drawImage(bmp,0,topHeight,width,bmp.height*scale);bmp.close();
+      return new Promise((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(Error('image failed')),'image/png'));
+    };
+    const originalRenderReview=renderReview;renderReview=function(review){originalRenderReview(review);$('copyReviewTracking').disabled=!(review?.rows?.length)};
+    $('copyPoster').addEventListener('click',function(){copyScanTable(false,this);});$('copyTracking').addEventListener('click',function(){copyTrackingImage(false,this);});$('copyReviewTracking').addEventListener('click',function(){copyTrackingImage(true,this);});
+    $('refresh').addEventListener('click',load);$('copyScan').addEventListener('click',()=>copyScanTable(false));$('copyReview').addEventListener('click',()=>copyScanTable(true));load();setInterval(load,5*60*1000);
+  </script>
+  <script src="muse-cards.js?v=2026-10-23-leg-first-20261023T083131154Z"></script>
+<style>
+.poster-actions{flex-wrap:wrap}.poster-actions .copy-button{background:#197751;color:white;border-color:#197751;min-height:44px;height:auto;padding:10px 14px;white-space:normal}
+.mobile-copy-bar{position:sticky;top:64px;z-index:3;width:min(1040px,100%);margin:auto;padding:7px 10px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;background:#173d57;border-bottom:2px solid #f4d58a}.mobile-copy-bar button{width:100%;height:38px;margin:0;padding:0 4px;border:1px solid #f4d58a;border-radius:5px;background:#24548a;color:#fff;font-size:12px;font-weight:800}.mobile-copy-bar button:disabled{opacity:.55}@media(max-width:620px){.mobile-copy-bar{top:64px}.mobile-copy-bar button{font-size:11px}}
+#phoneImageCards{padding:14px;background:#102650;color:white;border:3px solid #f0c96c;border-radius:7px;margin:16px 0}#phoneImageCards h2{margin:0 0 8px}#phoneImageCards p{font-size:12px;color:#b8c9e1}.phone-image-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.phone-image-grid article{min-width:0;border:1px solid #6a8db7;padding:9px}.phone-image-grid h3{font-size:15px;margin:0}.phone-image-grid img{display:block;width:100%;height:auto;margin-top:8px;border:1px solid #f0c96c}.phone-image-grid button{display:block;width:100%;height:38px;font-size:13px;margin:0;background:#24548a;color:#fff;border-color:#f4d58a}@media(max-width:620px){.phone-image-grid{grid-template-columns:1fr}.section-head{flex-wrap:wrap}}
+body{--bg:#e8f5fc;--panel:#fff;--line:#b9d7d1;--text:#263d34;--muted:#64746e;--amber:#946222;--red:#c45b24;--green:#187650;--blue:#237ba0;background:var(--bg);color:var(--text)}
+header{background:#f7fcfa}.odd,button{background:#eef7f4;color:#254e3e}.analysis,.review-lessons{color:#40564c}.table-banner{background:#e8f5fc!important;color:#22674e!important}.table-banner strong{font-family:Georgia,"Songti SC",serif;font-size:30px}.table-banner small{color:#687b70!important}.comic-bubble{display:none}
+#recommendations{background:#ece8f8;padding:28px 20px;border-radius:14px}.poster-heading{text-align:center;color:#28634e}.poster-heading h2{font:700 42px Georgia,"Songti SC",serif;margin:12px 0}.poster-heading p{color:#78817a}.poster-ticket{padding:20px 0;border-bottom:1px solid #d8d2e5}.poster-ticket summary{display:flex;align-items:center;gap:14px;cursor:pointer;list-style:none}.poster-ticket strong{font-size:20px}.poster-ticket p{margin:6px 0;color:#737970}.poster-rank{border-radius:50%;background:#cfb260;color:white;min-width:36px;height:36px;display:grid;place-items:center;font-weight:bold}.poster-type{background:#268967;color:white;padding:5px 10px;border-radius:22px;white-space:nowrap;font-size:13px}.poster-ticket .recommendation{margin-top:16px}.strong-badge{margin:5px 8px;color:#a26512}.direction-star{color:#d68a2b}.scan-table{color:#244538;background:#f8fcfb}.scan-table th{background:#197751;color:white}.scan-table tbody tr:nth-child(even){background:#d9edf6}.scan-table td small{display:block;color:#66776e;font-size:11px}.scan-table .confidence{color:#b07125}.scan-table .muted-pick{color:#345349}.scan-table .pick{color:#aa5b1c}.scan-wrap{border:2px solid #377d63}.review-summary{color:#344f42}.review-combo{color:#344f42}.recommendation-column>h3{color:#385849}
+@media(max-width:620px){#recommendations{padding:20px 12px}.poster-ticket summary{gap:8px;flex-wrap:wrap}.poster-ticket summary>div{flex-basis:100%;padding-left:8px}.poster-ticket strong{font-size:18px}.poster-heading h2{font-size:34px}}
+</style>
+<script>
+(function(){const old=window.renderReport;window.renderReport=function(r){const out=old.apply(this,arguments);let area=document.getElementById('independentAudit');if(!area){area=document.createElement('section');area.id='independentAudit';document.getElementById('summary').after(area)}area.innerHTML='';if(!r.candidateMatrix)return out;if(r.status==='audit-incomplete-no-approved-tickets'){document.getElementById('recommendations').innerHTML='<section class="recommendation-column"><h3>2.0 · 求稳核心</h3><p>审核未完成，未批准购买。007、008、011保留未决，不能视为全体候选已淘汰。</p><h3>3.0 · 可控收益</h3><p>核心审核未通过，尚无可购买原票；保险分支核算仅为审计。</p><h3>博单 · 暂未完成筛选</h3><p>博精准、合格单关、4–5场全进球数梦想串均须在核心完成后处理。</p></section>';const empty=document.getElementById('noRecommendationNotice');if(empty)empty.textContent='2.0 / 3.0审计未完成；12场研究方向已列出，非可购买方案。'}const title=document.createElement('h2');title.textContent='独立审计记录 · '+r.date;area.append(title);const p=document.createElement('p');p.textContent='发布：'+new Date(r.publishedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})+' 北京时间｜finalLocked='+r.finalLocked+'｜最终出单完成='+r.completed+'。'+r.summary;area.append(p);if(r.artifacts){const links=document.createElement('p');for(const [name,key]of [['审计JSON','report'],['审计文字','text'],['扫盘图片','poster'],['跟踪卡','tracking'],['13:45历史原版','previous1345']]){const a=document.createElement('a');a.href=r.artifacts[key];a.textContent=name+'　';a.target='_blank';a.rel='noopener';links.append(a)}area.append(links)}for(const [label,items]of [['不出栏目及具体原因',(r.omittedCategories||[]).map(x=>({number:x.name,reason:x.reason}))],['五玩法候选横向比较（60项）',r.candidateMatrix||[]]]){const d=document.createElement('details'),s=document.createElement('summary');s.textContent=label;d.append(s);for(const item of items){const x=document.createElement('p');x.textContent=item.number+' '+(item.market||'')+' '+(item.candidates||'')+'：'+(item.reason||'')+(item.coreStatus?'【'+item.coreStatus+'】':'');d.append(x)}area.append(d)}const exposure=document.createElement('p');exposure.textContent='暴露提示：'+(r.exposure||[]).filter(x=>x.share>0.5).map(x=>x.number+' '+x.count+'/'+x.totalPlans+'套（'+Math.round(x.share*100)+'%）').join('；')+'。梦想串与其他票共享比赛，博单可整套不买。';area.append(exposure);const d=document.createElement('details'),s=document.createElement('summary'),pre=document.createElement('pre');s.textContent='正式子票、各分支成本与旧票审计';pre.textContent=JSON.stringify(r.costAudit,null,2);pre.style.cssText='white-space:pre-wrap;overflow-wrap:anywhere';d.append(s,pre);area.append(d);return out}})();
+</script>
+</body>
+</html>

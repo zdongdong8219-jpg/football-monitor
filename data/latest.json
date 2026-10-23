@@ -1,9 +1,9 @@
 {
   "date": "2026-10-23",
-  "publishedAt": "2026-10-23T08:31:31.154Z",
-  "generatedAt": "2026-10-23T08:31:24.133Z",
-  "status": "leg-first-core-final",
-  "edition": "2026-10-23-leg-first-20261023T083131154Z",
+  "publishedAt": "2026-10-23T08:37:32.625Z",
+  "generatedAt": "2026-10-23T08:37:26.451Z",
+  "status": "selected-win-core-final",
+  "edition": "2026-10-23-selected-win-20261023T083732625Z",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": {
     "maxDoubleLegs": 1,
@@ -19,11 +19,11 @@
   "completed": true,
   "mobileVerified": false,
   "dataAsOf": "2026-10-23T08:28:14.9929898Z",
-  "summary": "先定腿重出：2.0为006斯图加特胜×004前进之鹰主-1让平/让负，整套2.21/1.55倍；3.0为008布雷斯特胜×012吉马良斯主-1让平/让负，整套3.11/2.48倍。两档不共场，各一场双选。撤销006＋003低回报配对，保留原博单。",
+  "summary": "防平池优选主胜：2.0为003埃夫斯堡胜×006斯图加特胜，整套2.22倍，无双选；3.0保留008布雷斯特胜×012吉马良斯主-1让平/让负，整套3.11/2.48倍。两档不共场。003平局风险明确承担，004与007不入核心，原博单保留。",
   "recommendations": [
     {
-      "id": "core20-leg-first",
-      "name": "2.0版 · 一场保险",
+      "id": "core20-selected-win",
+      "name": "2.0版 · 主胜双单选",
       "category": "two",
       "trackingTier": "2.0版",
       "approved": true,
@@ -33,6 +33,39 @@
       "stars": 1,
       "stronglyRecommended": false,
       "legs": [
+        {
+          "number": "周五003",
+          "matchId": 2042157,
+          "teams": "埃夫斯堡 vs 马尔默",
+          "market": "HAD",
+          "handicap": 0,
+          "selection": "胜",
+          "options": [
+            {
+              "key": "h",
+              "label": "胜",
+              "odds": 1.85
+            }
+          ],
+          "selectionReason": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。",
+          "qualification": {
+            "single": false,
+            "allUp": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-23T08:28:14.9929898Z",
+            "dailySalesClose": "2026-10-23T22:00:00+08:00",
+            "closeSource": "https://www.sporttery.cn/",
+            "closeCheckedAt": "2026-10-23T07:29:09.622Z"
+          },
+          "lossPaths": [
+            "马尔默控球与Olsen扑救延长僵局，平局即本腿失败。",
+            "Haksabanovic与Gudjohnsen利用主队边路或短时防守失序反击客胜。",
+            "主队先进球后未守住优势，被追平；本版不覆盖平局。"
+          ]
+        },
         {
           "number": "周五006",
           "matchId": 2042160,
@@ -65,93 +98,32 @@
             "Assignon接替Vagnoman后的边路配合被Bolin/Machino利用，先丢球后追不回。",
             "延续对汉堡的终结低效，Nicolas扑救和门兴低位拖成平局；1.21不是保险。"
           ]
-        },
-        {
-          "number": "周五004",
-          "matchId": 2042158,
-          "teams": "前进之鹰 vs 特尔斯达",
-          "market": "HHAD",
-          "handicap": -1,
-          "selection": "让平/让负",
-          "options": [
-            {
-              "key": "d",
-              "label": "让平",
-              "odds": 3.68
-            },
-            {
-              "key": "a",
-              "label": "让负",
-              "odds": 2.59
-            }
-          ],
-          "selectionReason": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。",
-          "lossPaths": [
-            "Tengstedt与Edvardsen/Suray持续制造机会，客队前场输出不足，主队2:0或3:1赢至少两球。",
-            "特尔斯达先失球后阵线前移，边路身后连续被利用，分差扩大至2+。",
-            "客队后防失误或早段红牌改变节奏，Koeman Jr及替代防线无法控制分差。"
-          ],
-          "qualification": {
-            "single": false,
-            "allUp": true,
-            "poolStatus": "Selling",
-            "closeDate": null,
-            "closeTime": null,
-            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-            "capturedAt": "2026-10-23T08:28:14.9929898Z",
-            "dailySalesClose": "2026-10-23T22:00:00+08:00",
-            "closeSource": "https://www.sporttery.cn/",
-            "closeCheckedAt": "2026-10-23T07:29:09.622Z"
-          }
         }
       ],
-      "selectionText": "周五006[胜] × 周五004[主-1 让平/让负]",
+      "selectionText": "周五003[胜] × 周五006[胜]",
       "passType": "2串1",
       "passSizes": [
         2
       ],
-      "combinationCount": 2,
-      "betCount": 2,
+      "combinationCount": 1,
+      "betCount": 1,
       "unitStake": 2,
       "multiplier": 1,
-      "totalCost": 4,
+      "totalCost": 2,
       "subTickets": [
         {
-          "id": "core20-leg-first-0",
+          "id": "core20-selected-win-0",
           "name": "子票1",
           "passType": "2串1",
           "selections": [
             {
-              "number": "周五006",
+              "number": "周五003",
               "market": "HAD",
               "handicap": 0,
               "key": "h",
               "label": "胜",
-              "odds": 1.2
+              "odds": 1.85
             },
-            {
-              "number": "周五004",
-              "market": "HHAD",
-              "handicap": -1,
-              "key": "d",
-              "label": "让平",
-              "odds": 3.68
-            }
-          ],
-          "selectionText": "周五006 胜 × 周五004 主-1 让平",
-          "stake": 2,
-          "unitStake": 2,
-          "multiplier": 1,
-          "odds": 4.416,
-          "return": 8.83,
-          "net": 4.83,
-          "returnText": "整套返还2.21倍"
-        },
-        {
-          "id": "core20-leg-first-1",
-          "name": "子票2",
-          "passType": "2串1",
-          "selections": [
             {
               "number": "周五006",
               "market": "HAD",
@@ -159,46 +131,38 @@
               "key": "h",
               "label": "胜",
               "odds": 1.2
-            },
-            {
-              "number": "周五004",
-              "market": "HHAD",
-              "handicap": -1,
-              "key": "a",
-              "label": "让负",
-              "odds": 2.59
             }
           ],
-          "selectionText": "周五006 胜 × 周五004 主-1 让负",
+          "selectionText": "周五003 胜 × 周五006 胜",
           "stake": 2,
           "unitStake": 2,
           "multiplier": 1,
-          "odds": 3.108,
-          "return": 6.22,
-          "net": 2.22,
-          "returnText": "整套返还1.55倍"
+          "odds": 2.22,
+          "return": 4.44,
+          "net": 2.44,
+          "returnText": "整套返还2.22倍"
         }
       ],
       "conditionalReturn": {
-        "min": 6.22,
-        "max": 8.83
+        "min": 4.44,
+        "max": 4.44
       },
       "conditionalNet": {
-        "min": 2.22,
-        "max": 4.83
+        "min": 2.44,
+        "max": 2.44
       },
       "effectiveReturnRatio": {
-        "min": 1.554,
-        "max": 2.208
+        "min": 2.22,
+        "max": 2.22
       },
       "uncoveredReturn": 0,
-      "uncoveredNet": -4,
-      "structureText": "单选×双选，两个等额分支，仅防一场",
-      "oddsText": "整套返还倍率 2.21 / 1.55倍",
-      "effectiveReturnText": "周五006 胜 × 周五004 主-1 让平：整套2.21倍；周五006 胜 × 周五004 主-1 让负：整套1.55倍；未覆盖结果为0倍。",
-      "coverageText": "两分支等额，仅防一场；倍率已按整套投入折算，不是单张子票的赔率。",
-      "risk": "006必须赢球；004主队净胜2+失效。两分支按整套为2.21/1.55倍，仍是有风险的二串一。",
-      "imageSummary": "周五006[胜] × 周五004[主-1 让平/让负]；整套返还倍率 2.21 / 1.55倍。006平/负或004净胜2+均输。",
+      "uncoveredNet": -2,
+      "structureText": "单选×单选；一张2串1",
+      "oddsText": "整套返还倍率 2.22倍",
+      "effectiveReturnText": "003、006均胜：整套2.22倍；任一场平局或负为0倍。",
+      "coverageText": "本套无双选，003和006都必须取胜；不把主胜倾向说成没有平局风险。",
+      "risk": "003平局不覆盖；006三天短休仍有风险。不是稳胆，不保证收益。",
+      "imageSummary": "周五003[胜] × 周五006[胜]；整套返还倍率 2.22倍。两场都须胜，任一场平/负均输。",
       "displayMultipliersOnly": true,
       "oddsAsOf": "2026-10-23T08:28:14.9929898Z"
     },
@@ -5374,18 +5338,18 @@
       "away": "马尔默",
       "kickoff": "2026-10-24T01:00:00",
       "handicap": -1,
-      "buy": "胜/平",
-      "primaryPick": "胜/平",
+      "buy": "胜",
+      "primaryPick": "胜",
       "speculative": "无",
-      "selection": "胜/平",
+      "selection": "胜",
       "goals": "2/3/4",
       "score": "2:1 / 1:1 / 2:2",
       "halfFull": "平胜/平平",
       "stars": 1,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "两档不共场版",
-      "risk": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。",
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "防平池优选主胜版",
+      "risk": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。",
       "odds": {
         "spf": {
           "win": 1.85,
@@ -5601,8 +5565,8 @@
           "closeCheckedAt": "2026-10-23T07:29:09.622Z"
         }
       },
-      "exposureCount": 0,
-      "exposureRate": 0
+      "exposureCount": 1,
+      "exposureRate": 0.16666666666666666
     },
     {
       "number": "周五004",
@@ -5620,10 +5584,10 @@
       "score": "1:1 / 2:1 / 1:2",
       "halfFull": "平平/平负",
       "stars": 1,
-      "recommended": true,
-      "purchaseApproved": true,
+      "recommended": false,
+      "purchaseApproved": false,
       "status": "先定腿配对版",
-      "risk": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。",
+      "risk": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。",
       "odds": {
         "spf": {
           "win": 1.36,
@@ -5839,8 +5803,8 @@
           "closeCheckedAt": "2026-10-23T07:29:09.622Z"
         }
       },
-      "exposureCount": 1,
-      "exposureRate": 0.16666666666666666
+      "exposureCount": 0,
+      "exposureRate": 0
     },
     {
       "number": "周五005",
@@ -8310,7 +8274,7 @@
     },
     {
       "number": "周五003",
-      "text": "扫盘胜/平；本次保留备选，退出2.0。新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。 本次配对排除：胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。",
+      "text": "扫盘主胜；本版2.0单选腿。从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。 阵容：新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。 对位：Kamara/Olsson二线与Ostman冲击马尔默替代中卫；Magnusson/Beck保护二点。Haksabanovic边路组织、Gudjohnsen禁区威胁和Olsen门将能力要求保留平局，不把伤缺等同客队无战力。 赛程：10/18至10/23间隔五天，随后周二、周日密集赛程；未见已核实的大轮换宣布。预计阵容不依赖Zeneli首发，仍可能临场变化。 输钱路径：马尔默控球与Olsen扑救延长僵局，平局即本腿失败。；Haksabanovic与Gudjohnsen利用主队边路或短时防守失序反击客胜。；主队先进球后未守住优势，被追平；本版不覆盖平局。",
       "availability": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。",
       "matchup": "Kamara/Olsson二线与Ostman冲击马尔默替代中卫；Magnusson/Beck保护二点。Haksabanovic边路组织、Gudjohnsen禁区威胁和Olsen门将能力要求保留平局，不把伤缺等同客队无战力。",
       "headToHead": "现有交锋资料不能证明缺员后的净胜幅度，不作为升级让球依据。",
@@ -8321,13 +8285,13 @@
       },
       "motivation": "双方联赛争分；公开采访强调难度和对手能力，无已核额外战意优势。",
       "lossPaths": [
-        "马尔默控球与Haksabanovic突破打穿主队边路，客胜使胜/平两分支都输。",
-        "重复对天狼星短时间连丢的防守问题，落后后未能追回。",
-        "Olsen扑救限制主队终结，马尔默一次定位球决定比赛。"
+        "马尔默控球与Olsen扑救延长僵局，平局即本腿失败。",
+        "Haksabanovic与Gudjohnsen利用主队边路或短时防守失序反击客胜。",
+        "主队先进球后未守住优势，被追平；本版不覆盖平局。"
       ],
       "volatility": {
         "level": "中",
-        "reason": "2:2天狼星仍有短时失球风险，胜/平覆盖僵局；补核替代配置后仅以不败双选进入2.0，非单胜胆。"
+        "reason": "主胜作为防平池中的相对优先单选；平局仍是实质失败路径，保留1星，不宣称概率已校准。"
       },
       "highStarGate": {
         "passed": false,
@@ -8335,7 +8299,7 @@
         "reason": "马尔默攻击能力与主队短时连丢风险仍在，保留1星。"
       },
       "prediction": {
-        "buy": "胜/平",
+        "buy": "胜",
         "speculative": "无",
         "scores": [
           "2:1",
@@ -8351,7 +8315,7 @@
           "平胜",
           "平平"
         ],
-        "reason": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
+        "reason": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
       },
       "goalsCrossCheck": {
         "recentFormalOnly": [
@@ -8588,14 +8552,14 @@
       },
       "currentMarket": "本次采集2026-10-23T07:25:54.0025580Z；胜平负1.85/3.55/3.25；主-1让球3.62/3.55/1.75。",
       "coreDecision": {
-        "approved": false,
-        "tier": null,
-        "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+        "approved": true,
+        "tier": "2.0",
+        "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
       }
     },
     {
       "number": "周五004",
-      "text": "扫盘主-1让平/让负；本版2.0保险腿。沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。 阵容：Sports Mole10/22更新：主队Saathof膝伤、Waayers缺席；预计Haug；Sampsted、Van Zwam、Kramer、James；Meulensteen、Linthorst；Tengstedt、Edvardsen、Suray；Sigurdarson。客队Rui Mendes伤缺；预计Koeman Jr；Peersman、Soualhia、Valk、Alders；Rossen、Owusu、Shenkman；Brouwer、Thorisson、Martha。首发为预计。文章误把客队教练写成Oosting且ADO主客描述不一致，这两处弃用；不据此宣称客队仅一人缺席或阵容全齐。 对位：主队Tengstedt本季5球、三名攻击中场具备打穿客防的真实能力，是净胜2+反证；但自身保护不稳、近六轮没有赢球，客队对强队连续客场控制分差，支持只接受主-1让平/让负，不押主胜或客胜。 轮换：本场在上周末联赛后，前进之鹰四天后有杯赛；官方前瞻没有已核实的大轮换宣布。新补预计主轴及替代，仍不等于正式首发。 战意：主队急需反弹，客队赛季首胜后积分少、同样需要分数；战意没有单边优势。 交锋低权：旧交锋不代表当前低迷防线，缺少能支持本轮主胜高星的独立证据。 输钱路径：Tengstedt与Edvardsen/Suray持续制造机会，客队前场输出不足，主队2:0或3:1赢至少两球。；特尔斯达先失球后阵线前移，边路身后连续被利用，分差扩大至2+。；客队后防失误或早段红牌改变节奏，Koeman Jr及替代防线无法控制分差。",
+      "text": "扫盘主-1让平/让负，退出本次核心。沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。 输钱路径：Tengstedt与Edvardsen/Suray持续制造机会，客队前场输出不足，主队2:0或3:1赢至少两球。；特尔斯达先失球后阵线前移，边路身后连续被利用，分差扩大至2+。；客队后防失误或早段红牌改变节奏，Koeman Jr及替代防线无法控制分差。",
       "availability": "Sports Mole10/22更新：主队Saathof膝伤、Waayers缺席；预计Haug；Sampsted、Van Zwam、Kramer、James；Meulensteen、Linthorst；Tengstedt、Edvardsen、Suray；Sigurdarson。客队Rui Mendes伤缺；预计Koeman Jr；Peersman、Soualhia、Valk、Alders；Rossen、Owusu、Shenkman；Brouwer、Thorisson、Martha。首发为预计。文章误把客队教练写成Oosting且ADO主客描述不一致，这两处弃用；不据此宣称客队仅一人缺席或阵容全齐。",
       "matchup": "主队Tengstedt本季5球、三名攻击中场具备打穿客防的真实能力，是净胜2+反证；但自身保护不稳、近六轮没有赢球，客队对强队连续客场控制分差，支持只接受主-1让平/让负，不押主胜或客胜。",
       "headToHead": "旧交锋不代表当前低迷防线，缺少能支持本轮主胜高星的独立证据。",
@@ -8873,9 +8837,9 @@
       },
       "currentMarket": "采集2026-10-23T08:28:14.9929898Z；胜平负1.36/4.48/5.85；让球2.12/3.68/2.59",
       "coreDecision": {
-        "approved": true,
-        "tier": "2.0",
-        "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+        "approved": false,
+        "tier": null,
+        "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
       }
     },
     {
@@ -11442,22 +11406,22 @@
     }
   ],
   "limitations": [
-    "004全场波动较高，净胜球覆盖不消除主队赢2+风险，不称稳胆。",
-    "006三天短休风险真实存在，单选需赢球。",
-    "2.0整套分支为2.21/1.55倍，不承诺每分支达到2倍。",
-    "3.0008平/负或012净胜2+均失败；两档不共场。",
-    "四种博单保留原选项与原版参考赔率，非本次重新报价。"
+    "2.0两场都须胜，003平局不覆盖；没有证据证明平局风险消失。",
+    "006欧冠后三天短休仍是风险，不保证主胜。",
+    "3.0的008平/负或012净胜2+均失败。",
+    "两档不共场；无双选不等于稳，全部只给相对方向。",
+    "原四种博单保留原选项及原版参考赔率。"
   ],
   "correctionOf": {
     "edition": "2026-10-23完整最终方案·纠错版",
     "publishedAt": "2026-10-23T05:45:39.836Z",
-    "remoteCommit": "4dcfd8032722261e0fbfeaf02f2b5814b465af51",
-    "previousAuditEdition": "2026-10-23-disjoint-core-20261023T081739129Z"
+    "remoteCommit": "9fb60b2c860103dcc9aa15797747cb130b13ac2e",
+    "previousAuditEdition": "2026-10-23-leg-first-20261023T083131154Z"
   },
-  "correctionReason": "用户否决2.0正常分支1.12倍并要求固定先扫盘建立腿再配对。006保留普通胜，004沿用原扫盘让平/让负，新增门将、伤停替代和正式客场分差资料后入选保险腿；003仍需防平，不能为赔率删除。重新比较全部12场60玩法，详见既有候选矩阵与本次腿池。",
+  "correctionReason": "用户要求从已有防平候选中挑出最可能赢的一场再搭配，不能机械每场加平。比较后选择003主胜配006普通胜；撤下004分差保险，不加两场双选，不以无保险等同确定取胜。",
   "batches": [
     {
-      "id": "2026-10-23-leg-first-20261023T083131154Z",
+      "id": "2026-10-23-selected-win-20261023T083732625Z",
       "numbers": [
         "周五001",
         "周五002",
@@ -11473,10 +11437,10 @@
         "周五012"
       ],
       "deadline": "2026-10-23T16:00:00+08:00",
-      "publishedAt": "2026-10-23T08:31:31.154Z",
+      "publishedAt": "2026-10-23T08:37:32.625Z",
       "locked": true,
       "session": "用户授权纠错；晚场原票",
-      "archiveVersion": "2026-10-23-leg-first-20261023T083131154Z"
+      "archiveVersion": "2026-10-23-selected-win-20261023T083732625Z"
     }
   ],
   "decision": {
@@ -11484,8 +11448,8 @@
     "ticketsApproved": 6,
     "core20": {
       "issued": true,
-      "insuranceLegs": 1,
-      "cost": 4
+      "insuranceLegs": 0,
+      "cost": 2
     },
     "core30": {
       "issued": true,
@@ -12514,8 +12478,8 @@
       "code": "HAD",
       "market": "胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "备选腿，不入本次核心",
-      "reason": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。",
+      "coreStatus": "2.0普通胜单选",
+      "reason": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -12541,17 +12505,17 @@
         {
           "key": "a",
           "odds": 3.25,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "d",
           "odds": 3.55,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "h",
           "odds": 1.85,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         }
       ]
     },
@@ -12560,8 +12524,8 @@
       "code": "HHAD",
       "market": "让球胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "备选腿，不入本次核心",
-      "reason": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。",
+      "coreStatus": "非核心",
+      "reason": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -12587,17 +12551,17 @@
         {
           "key": "a",
           "odds": 1.75,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "d",
           "odds": 3.55,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "h",
           "odds": 3.62,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         }
       ]
     },
@@ -12606,8 +12570,8 @@
       "code": "TTG",
       "market": "总进球",
       "candidates": "0/1/2/3/4/5/6/7+及相邻三项",
-      "coreStatus": "备选腿，不入本次核心",
-      "reason": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。",
+      "coreStatus": "非核心",
+      "reason": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -12643,42 +12607,42 @@
         {
           "key": "s0",
           "odds": 15,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s1",
           "odds": 5.5,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s2",
           "odds": 3.75,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s3",
           "odds": 3.4,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s4",
           "odds": 5,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s5",
           "odds": 8.25,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s6",
           "odds": 13.5,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s7",
           "odds": 20,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         }
       ]
     },
@@ -12687,8 +12651,8 @@
       "code": "CRS",
       "market": "比分",
       "candidates": "全部31项",
-      "coreStatus": "备选腿，不入本次核心",
-      "reason": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。",
+      "coreStatus": "非核心",
+      "reason": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -12770,157 +12734,157 @@
         {
           "key": "s00s00",
           "odds": 15,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s00s01",
           "odds": 11,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s00s02",
           "odds": 17,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s00s03",
           "odds": 40,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s00s04",
           "odds": 100,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s00s05",
           "odds": 400,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s01s00",
           "odds": 8.5,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s01s01",
           "odds": 6.75,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s01s02",
           "odds": 9,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s01s03",
           "odds": 24,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s01s04",
           "odds": 75,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s01s05",
           "odds": 250,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s02s00",
           "odds": 10,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s02s01",
           "odds": 7.25,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s02s02",
           "odds": 11.5,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s02s03",
           "odds": 26,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s02s04",
           "odds": 90,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s02s05",
           "odds": 300,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s03s00",
           "odds": 17,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s03s01",
           "odds": 14,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s03s02",
           "odds": 20,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s03s03",
           "odds": 50,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s04s00",
           "odds": 40,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s04s01",
           "odds": 30,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s04s02",
           "odds": 50,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s05s00",
           "odds": 100,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s05s01",
           "odds": 90,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s05s02",
           "odds": 150,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s1sa",
           "odds": 90,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s1sd",
           "odds": 300,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "s1sh",
           "odds": 50,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         }
       ]
     },
@@ -12929,8 +12893,8 @@
       "code": "HAFU",
       "market": "半全场",
       "candidates": "全部9项",
-      "coreStatus": "备选腿，不入本次核心",
-      "reason": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。",
+      "coreStatus": "非核心",
+      "reason": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -12969,47 +12933,47 @@
         {
           "key": "aa",
           "odds": 5.5,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "ad",
           "odds": 14.5,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "ah",
           "odds": 24,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "da",
           "odds": 8.15,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "dd",
           "odds": 6,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "dh",
           "odds": 4.1,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "ha",
           "odds": 31,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "hd",
           "odds": 14.5,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         },
         {
           "key": "hh",
           "odds": 3.05,
-          "assessment": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+          "assessment": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
         }
       ]
     },
@@ -13018,8 +12982,8 @@
       "code": "HAD",
       "market": "胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "非核心",
-      "reason": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。",
+      "coreStatus": "扫盘保留，非核心",
+      "reason": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -13045,17 +13009,17 @@
         {
           "key": "a",
           "odds": 5.85,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "d",
           "odds": 4.48,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "h",
           "odds": 1.36,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         }
       ]
     },
@@ -13064,8 +13028,8 @@
       "code": "HHAD",
       "market": "让球胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "2.0主-1让平/让负",
-      "reason": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。",
+      "coreStatus": "扫盘保留，非核心",
+      "reason": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -13091,17 +13055,17 @@
         {
           "key": "a",
           "odds": 2.59,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "d",
           "odds": 3.68,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "h",
           "odds": 2.12,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         }
       ]
     },
@@ -13110,8 +13074,8 @@
       "code": "TTG",
       "market": "总进球",
       "candidates": "0/1/2/3/4/5/6/7+及相邻三项",
-      "coreStatus": "非核心",
-      "reason": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。",
+      "coreStatus": "扫盘保留，非核心",
+      "reason": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -13147,42 +13111,42 @@
         {
           "key": "s0",
           "odds": 28,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s1",
           "odds": 8.5,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s2",
           "odds": 4.65,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s3",
           "odds": 3.6,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s4",
           "odds": 4.1,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s5",
           "odds": 5.95,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s6",
           "odds": 9.5,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s7",
           "odds": 11,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         }
       ]
     },
@@ -13191,8 +13155,8 @@
       "code": "CRS",
       "market": "比分",
       "candidates": "全部31项",
-      "coreStatus": "非核心",
-      "reason": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。",
+      "coreStatus": "扫盘保留，非核心",
+      "reason": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -13274,157 +13238,157 @@
         {
           "key": "s00s00",
           "odds": 28,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s00s01",
           "odds": 23,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s00s02",
           "odds": 39,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s00s03",
           "odds": 100,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s00s04",
           "odds": 350,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s00s05",
           "odds": 750,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s01s00",
           "odds": 9.5,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s01s01",
           "odds": 9,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s01s02",
           "odds": 15.5,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s01s03",
           "odds": 48,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s01s04",
           "odds": 150,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s01s05",
           "odds": 550,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s02s00",
           "odds": 8.5,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s02s01",
           "odds": 7,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s02s02",
           "odds": 12,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s02s03",
           "odds": 32,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s02s04",
           "odds": 150,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s02s05",
           "odds": 500,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s03s00",
           "odds": 11,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s03s01",
           "odds": 9.25,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s03s02",
           "odds": 16,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s03s03",
           "odds": 42,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s04s00",
           "odds": 18,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s04s01",
           "odds": 15.5,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s04s02",
           "odds": 26,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s05s00",
           "odds": 40,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s05s01",
           "odds": 35,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s05s02",
           "odds": 55,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s1sa",
           "odds": 110,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s1sd",
           "odds": 200,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "s1sh",
           "odds": 15,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         }
       ]
     },
@@ -13433,8 +13397,8 @@
       "code": "HAFU",
       "market": "半全场",
       "candidates": "全部9项",
-      "coreStatus": "非核心",
-      "reason": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。",
+      "coreStatus": "扫盘保留，非核心",
+      "reason": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -13473,47 +13437,47 @@
         {
           "key": "aa",
           "odds": 8.8,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "ad",
           "odds": 17,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "ah",
           "odds": 20,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "da",
           "odds": 13.5,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "dd",
           "odds": 7.6,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "dh",
           "odds": 4.25,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "ha",
           "odds": 45,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "hd",
           "odds": 17,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         },
         {
           "key": "hh",
           "odds": 1.96,
-          "assessment": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+          "assessment": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
         }
       ]
     },
@@ -17553,55 +17517,32 @@
   "costAudit": {
     "approvedTickets": [
       {
-        "id": "core20-leg-first",
-        "totalCost": 4,
-        "combinationCount": 2,
-        "betCount": 2,
+        "id": "core20-selected-win",
+        "totalCost": 2,
+        "combinationCount": 1,
+        "betCount": 1,
         "conditionalReturn": {
-          "min": 6.22,
-          "max": 8.83
+          "min": 4.44,
+          "max": 4.44
         },
         "conditionalNet": {
-          "min": 2.22,
-          "max": 4.83
+          "min": 2.44,
+          "max": 2.44
         },
         "subTickets": [
           {
-            "id": "core20-leg-first-0",
+            "id": "core20-selected-win-0",
             "name": "子票1",
             "passType": "2串1",
             "selections": [
               {
-                "number": "周五006",
+                "number": "周五003",
                 "market": "HAD",
                 "handicap": 0,
                 "key": "h",
                 "label": "胜",
-                "odds": 1.2
+                "odds": 1.85
               },
-              {
-                "number": "周五004",
-                "market": "HHAD",
-                "handicap": -1,
-                "key": "d",
-                "label": "让平",
-                "odds": 3.68
-              }
-            ],
-            "selectionText": "周五006 胜 × 周五004 主-1 让平",
-            "stake": 2,
-            "unitStake": 2,
-            "multiplier": 1,
-            "odds": 4.416,
-            "return": 8.83,
-            "net": 4.83,
-            "returnText": "整套返还2.21倍"
-          },
-          {
-            "id": "core20-leg-first-1",
-            "name": "子票2",
-            "passType": "2串1",
-            "selections": [
               {
                 "number": "周五006",
                 "market": "HAD",
@@ -17609,24 +17550,16 @@
                 "key": "h",
                 "label": "胜",
                 "odds": 1.2
-              },
-              {
-                "number": "周五004",
-                "market": "HHAD",
-                "handicap": -1,
-                "key": "a",
-                "label": "让负",
-                "odds": 2.59
               }
             ],
-            "selectionText": "周五006 胜 × 周五004 主-1 让负",
+            "selectionText": "周五003 胜 × 周五006 胜",
             "stake": 2,
             "unitStake": 2,
             "multiplier": 1,
-            "odds": 3.108,
-            "return": 6.22,
-            "net": 2.22,
-            "returnText": "整套返还1.55倍"
+            "odds": 2.22,
+            "return": 4.44,
+            "net": 2.44,
+            "returnText": "整套返还2.22倍"
           }
         ]
       },
@@ -21545,17 +21478,16 @@
         ]
       }
     ],
-    "coreTotalCost": 8,
+    "coreTotalCost": 6,
     "optionalSpeculativeCost": 178,
-    "allPlansCost": 186,
+    "allPlansCost": 184,
     "coreStructureAudit": [
       {
-        "pair": "周五006[胜] × 周五004[主-1 让平/让负]",
+        "pair": "周五003[胜] × 周五006[胜]",
         "multiples": [
-          2.208,
-          1.554
+          2.22
         ],
-        "decision": "沿用扫盘保险，较被拒正常分支提高回报；不保证更高命中率。"
+        "decision": "从防平池选003单胜，承担平局风险；不再使用004。"
       },
       {
         "pair": "周五008[胜] × 周五012[主-1 让平/让负]",
@@ -21563,15 +21495,7 @@
           3.105,
           2.484
         ],
-        "decision": "保留3.0"
-      },
-      {
-        "pair": "006胜×003胜/平",
-        "decision": "正常分支约1.11倍被拒，不通过。"
-      },
-      {
-        "pair": "003胜或011胜替换006",
-        "decision": "这两场仍有必要防平依据，不通过强制单选。"
+        "decision": "保留3.0保险"
       }
     ]
   },
@@ -21603,18 +21527,18 @@
     "sameSite": true,
     "evidence": "此前交付回执标sameMainAndTransitionSite=true；当前工程未发现第二独立域名，不能虚报部署两套独立站点",
     "finalLockedCheck": "true：两档及保留博单已按最新结构审核；不是保证命中。",
-    "archiveVersion": "2026-10-23-leg-first-20261023T083131154Z",
-    "submittedAt": "2026-10-23T08:31:31.154Z",
+    "archiveVersion": "2026-10-23-selected-win-20261023T083732625Z",
+    "submittedAt": "2026-10-23T08:37:32.625Z",
     "sameMainAndTransitionSite": true
   },
-  "refinedAt": "2026-10-23T08:31:24.133Z",
+  "refinedAt": "2026-10-23T08:37:26.451Z",
   "artifacts": {
-    "poster": "audits/2026-10-23-leg-first-20261023T083131154Z-poster.png",
-    "tracking": "audits/2026-10-23-leg-first-20261023T083131154Z-tracking.png",
-    "report": "audits/2026-10-23-leg-first-20261023T083131154Z.json",
-    "text": "audits/2026-10-23-leg-first-20261023T083131154Z.md",
-    "previous1345": "audits/2026-10-23-leg-first-20261023T083131154Z-previous-1345.json",
-    "subTickets": "audits/2026-10-23-leg-first-20261023T083131154Z-subtickets.json"
+    "poster": "audits/2026-10-23-selected-win-20261023T083732625Z-poster.png",
+    "tracking": "audits/2026-10-23-selected-win-20261023T083732625Z-tracking.png",
+    "report": "audits/2026-10-23-selected-win-20261023T083732625Z.json",
+    "text": "audits/2026-10-23-selected-win-20261023T083732625Z.md",
+    "previous1345": "audits/2026-10-23-selected-win-20261023T083732625Z-previous-1345.json",
+    "subTickets": "audits/2026-10-23-selected-win-20261023T083732625Z-subtickets.json"
   },
   "marketChangesSincePriorAudit": {
     "capturedAt": "2026-10-23T07:25:54.0025580Z",
@@ -21624,7 +21548,7 @@
     ],
     "effect": "选择不变，使用最新赔率核算，不沿用旧图奖金。"
   },
-  "previousAuditEdition": "2026-10-23-disjoint-core-20261023T081739129Z",
+  "previousAuditEdition": "2026-10-23-leg-first-20261023T083131154Z",
   "omittedCategories": [
     {
       "category": "three",
@@ -21639,14 +21563,14 @@
   ],
   "coreRanking": {
     "first": [
-      "006 HAD胜",
-      "004 HHAD让平/让负"
+      "003 HAD胜",
+      "006 HAD胜"
     ],
     "second": [
       "008 HAD胜",
       "012 HHAD让平/让负"
     ],
-    "decision": "用户否决2.0正常分支1.12倍并要求固定先扫盘建立腿再配对。006保留普通胜，004沿用原扫盘让平/让负，新增门将、伤停替代和正式客场分差资料后入选保险腿；003仍需防平，不能为赔率删除。重新比较全部12场60玩法，详见既有候选矩阵与本次腿池。",
+    "decision": "用户要求从已有防平候选中挑出最可能赢的一场再搭配，不能机械每场加平。比较后选择003主胜配006普通胜；撤下004分差保险，不加两场双选，不以无保险等同确定取胜。",
     "candidates": [
       {
         "number": "周五001",
@@ -21658,11 +21582,11 @@
       },
       {
         "number": "周五003",
-        "decision": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
+        "decision": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
       },
       {
         "number": "周五004",
-        "decision": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
+        "decision": "保留原让平/让负扫盘方向，但主队净胜2+风险仍较大；本次选003胜＋006胜，不使用004核心腿。"
       },
       {
         "number": "周五005",
@@ -21699,12 +21623,11 @@
     ],
     "structureComparisons": [
       {
-        "pair": "周五006[胜] × 周五004[主-1 让平/让负]",
+        "pair": "周五003[胜] × 周五006[胜]",
         "multiples": [
-          2.208,
-          1.554
+          2.22
         ],
-        "decision": "沿用扫盘保险，较被拒正常分支提高回报；不保证更高命中率。"
+        "decision": "从防平池选003单胜，承担平局风险；不再使用004。"
       },
       {
         "pair": "周五008[胜] × 周五012[主-1 让平/让负]",
@@ -21712,15 +21635,7 @@
           3.105,
           2.484
         ],
-        "decision": "保留3.0"
-      },
-      {
-        "pair": "006胜×003胜/平",
-        "decision": "正常分支约1.11倍被拒，不通过。"
-      },
-      {
-        "pair": "003胜或011胜替换006",
-        "decision": "这两场仍有必要防平依据，不通过强制单选。"
+        "decision": "保留3.0保险"
       }
     ]
   },
@@ -21733,7 +21648,7 @@
       "warning": ""
     },
     {
-      "number": "周五004",
+      "number": "周五003",
       "count": 1,
       "totalPlans": 6,
       "share": 0.16666666666666666,
@@ -21867,11 +21782,11 @@
     }
   ],
   "withdrawnRecommendations": {
-    "edition": "2026-10-23-disjoint-core-20261023T081739129Z",
+    "edition": "2026-10-23-leg-first-20261023T083131154Z",
     "ids": [
-      "core20-disjoint"
+      "core20-leg-first"
     ],
-    "reason": "用户拒绝正常分支仅1.12倍，撤销006＋003。"
+    "reason": "撤下006＋004，改从防平池优选003主胜配006。"
   },
   "halfTimeEvidence": {
     "capturedAt": "2026-10-23T07:29:09.622Z",
@@ -21920,43 +21835,33 @@
     "scope": "当日统一销售时段；具体比赛提前开赛或临时停售则取更早时间。"
   },
   "legPool": {
-    "sequence": "先扫盘定腿与保险，再配对，再核算，不倒推足球判断",
+    "sequence": "扫盘候选单独比较，再选择单选与保险，再配对及核算",
     "ranked": [
       {
         "rank": 1,
+        "number": "周五003",
+        "role": "防平池优选主胜",
+        "selection": "胜",
+        "reason": "从原防平候选中横向挑选003作为普通主胜单选：近期正式联赛3胜1平，客胜佐加顿、客平榜首天狼星的对手强度比单靠大胜弱队更有支撑；主场近期表现、Kamara/Olsson与Ostman的进攻配置及Pettersson、Wikstrom/Isherwood、Magnusson/Beck的预计主轴完整，优先于五轮不胜的011和面对蒙扎反击的007。马尔默Jansson缺席由Djuric/Frejd Palsson替代，仍有Olsen和Haksabanovic等实力球员，主胜并非确定。此前把存在平局风险一概当作必须双选过于机械，本次基于候选相对比较改选主胜；没有新信息证明平局风险消失。"
+      },
+      {
+        "rank": 2,
         "number": "周五006",
-        "role": "保守单选候选",
-        "market": "HAD",
+        "role": "普通胜搭配腿",
         "selection": "胜",
         "reason": "替换007单胜：新增完整前瞻补核Assignon可接替Vagnoman，Jeltsch/Chabot中卫和Karazor/Stiller中场、Leweling/Undav/Fuhrich/Demirovic攻击主轴有预计可用配置；官方10/22确认缺席名单，未宣布大轮换。门兴Kleindienst缺席，Honorat/Kuhn/Lidberg存疑，Bolin/Machino承担终结，Neuhaus/Uno和Diks/Chiarodia为替代配置。斯图加特连续主场、对马竞1:1的正式强对手样本支持其创造能力；只取普通胜，不要求赢两球。三天短休和联赛6轮4负仍是风险，门兴连续两场1:2并非没有进球能力。相较007对蒙扎杯赛失利及Varela冲击，选择006作为本次相对更保守的单选，并接受明显较低回报；不承诺稳胜。"
       },
       {
-        "rank": 2,
-        "number": "周五004",
-        "role": "保险候选",
-        "market": "HHAD",
-        "handicap": -1,
-        "selection": "让平/让负",
-        "reason": "沿用原扫盘主-1让平/让负，新增完整阵容补核后进入保险腿候选。前进之鹰近六联赛4平2负，其中主场1:1格罗宁根、3:3鹿特丹及上轮1:4兹沃勒，持续失球不支持把主胜直接升级净胜2+。特尔斯达最近客场0:1特温特、0:0海伦芬、0:1阿尔克马尔，面对较强对手仍能控制分差；上一场3:4费耶诺德体现进攻还击，但不把一次3球当常态。新核主队Haug门将、Van Zwam/Kramer中卫及Meulensteen/Linthorst中场，Saathof/Waayers缺席有具体替代；客队Koeman Jr门将、Peersman/Soualhia/Valk/Alders后防及Brouwer/Thorisson/Martha前场可组成预计配置，Rui Mendes伤缺。两项覆盖主队恰赢1球、平局或输球，只输主队净胜至少2球；不要求客队赢球。比赛仍有高总进球波动，覆盖分差不等于没有风险。"
-      },
-      {
         "rank": 3,
-        "number": "周五003",
-        "role": "防平备选",
-        "selection": "胜/平",
-        "reason": "胜/平继续作为备选腿；配006正常分支约1.11倍，收益空间不足，撤销此配对，不删必要防平。"
-      },
-      {
-        "rank": 4,
         "number": "周五008",
         "role": "3.0进取单选",
         "selection": "胜",
         "reason": "进取单选布雷斯特胜：Ajorque支点、Doumbia二点和双中场保护支持主胜倾向；尼斯低位反击衔接不稳定提供进攻机会。尼斯速度反击及打平仍是现实风险，本档明确承担平局损失，不能把它当稳胆。"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "number": "周五012",
-        "role": "3.0保险",
+        "role": "3.0必要边界保险",
         "selection": "主-1让平/让负",
         "reason": "主-1让平/让负保留真实保险，覆盖吉马良斯净胜1球、平局或输球；8轮5球及破密防效率不足支持此边界，攻击回归与客队脆弱防线构成净胜2+失败路径。"
       }
@@ -21964,11 +21869,15 @@
     "alternatives": [
       {
         "number": "周五011",
-        "decision": "可看主队，但自身五轮不胜及防守陪同不足仍需防平，不因1.47高于006就强改单选。"
+        "decision": "五轮不胜与防守问题，单胜优先级低于003。"
       },
       {
         "number": "周五007",
-        "decision": "蒙扎反击和杯赛交锋风险，继续不做核心单胜。"
+        "decision": "蒙扎反击与本季杯赛失利风险，单胜优先级低于003。"
+      },
+      {
+        "number": "周五004",
+        "decision": "主队净胜2+尾部重要，不进入本次核心。"
       }
     ]
   }
