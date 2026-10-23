@@ -53,8 +53,10 @@
     await assetReady;const report=reviewMode?currentReview:liveReport();if(!report)throw Error('没有可用复盘');
     const raw=reviewMode?(report.ticketReview?.length?report.ticketReview:report.combinations||[]):report.recommendations||[];
     const two=raw.filter(r=>/two|2串1|2.0|3.0/.test([r.category,r.name].join(' '))&&!/half_full|半全场/.test([r.category,r.name].join(' ')));
-    const left=two.filter(r=>slot(r)!==2),right=two.filter(r=>slot(r)===2);const count=Math.max(left.length,right.length,1),heroH=918,tableY=1030,height=tableY+80+count*135+160;
-    const cardWidth=1244,tableWidth=1160,tableX=42;const {canvas,ctx}=setup(height,cardWidth);ctx.fillStyle='#0d2148';ctx.fillRect(0,0,cardWidth,height);drawCover(ctx,asset,0,0,cardWidth,heroH,.60,.4);ctx.fillStyle='rgba(7,16,32,.24)';ctx.fillRect(0,0,cardWidth,heroH);
+    const left=two.filter(r=>slot(r)!==2),right=two.filter(r=>slot(r)===2);const count=Math.max(left.length,right.length,1),heroH=800,tableY=912,height=tableY+80+count*135+160;
+    const cardWidth=1244,tableWidth=1160,tableX=42;const {canvas,ctx}=setup(height,cardWidth);ctx.fillStyle='#0d2148';ctx.fillRect(0,0,cardWidth,height);
+    // Keep the whole reference artwork inside the border, including its left speech bubble.
+    if(asset.naturalWidth){const artX=32,artY=32,artW=cardWidth-64,artH=artW*asset.naturalHeight/asset.naturalWidth;ctx.drawImage(asset,artX,artY,artW,artH);ctx.fillStyle='rgba(7,16,32,.24)';ctx.fillRect(artX,artY,artW,artH)}
     ctx.fillStyle='rgba(14,41,77,.86)';ctx.fillRect(36,heroH-77,cardWidth-72,77);centered(ctx,TITLE+' · '+(reviewMode?'复盘跟踪卡':'今日跟踪卡'),heroH-59,39,'#f5d485');
     ctx.fillStyle='#0d2148';ctx.fillRect(tableX,heroH+10,tableWidth,88);text(ctx,'2.0 求稳',65,heroH+35,240,30,'#9cc8ff',true);centered(ctx,'每日最稳2串1',heroH+32,34);text(ctx,'3.0 求赚',990,heroH+35,210,30,'#ffa14a',true);
     const widths=[115,255,65,90,100,255,65,90,125],heads=['日期','二串一','结果','当日盈亏','累计盈亏','二串一','结果','当日盈亏','累计盈亏'];ctx.fillStyle='#0d2148';ctx.fillRect(tableX,tableY,tableWidth,80);let x=tableX;heads.forEach((s,i)=>{text(ctx,s,x+5,tableY+25,widths[i]-8,21,'#fff',true);x+=widths[i]});
