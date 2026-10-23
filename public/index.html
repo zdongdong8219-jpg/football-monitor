@@ -256,7 +256,10 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     let currentReview=null;
     function renderReview(review){currentReview=review;$('copyReview').disabled=!review?.rows?.length;const rows=review?.rows||[];if(!rows.length){$('reviewTable').innerHTML='<div class="empty">暂无已完赛复盘。</div>';return}$('reviewTable').innerHTML=`<div class="review-summary">${esc(review.summary||'')}</div><div class="table-banner"><span class="cartoon-ball">⚽</span><div><strong>${esc(review.title||'FT足球竞彩模型')}</strong><small>${esc(review.date||'')} · 赛果复盘</small></div><span class="comic-bubble">模型提示：复盘以原票为准</span></div><div class="scan-wrap"><table class="scan-table review-table"><thead><tr><th>编号</th><th>时间</th><th>赛事</th><th>对阵</th><th>方向</th><th>总进球</th><th>半全场</th><th>比分预测</th><th>赛果</th></tr></thead><tbody>${rows.map(x=>`<tr><td>${esc(x.number)}</td><td>${esc(x.time||'--')}</td><td>${esc(x.league||'--')}</td><td class="teams">${esc(x.teams)}</td><td class="${x.recommended?'recommended-pick':''}">${markedPick(x.resultPick,x.hitLabels?.result)}</td><td>${markedPick(x.goalsPick,x.hitLabels?.goals)}</td><td>${markedPick(x.halfFullPick,x.hitLabels?.halfFull)}</td><td>${markedPick(x.scorePick,x.hitLabels?.score)}</td><td class="result-score">${esc(x.actualScore)}<small>半场 ${esc(x.halfScore)}</small></td></tr>`).join('')}</tbody></table></div><div class="scan-note">红色文字为正式推荐方向；红色印章只标记实际命中的具体选项，各玩法分别结算。</div><div class="review-combos">${(review.combinations||[]).map(x=>`<div class="review-combo"><strong>${esc(x.name)} · ${esc(x.result)}</strong><br>${esc(x.detail)}</div>`).join('')}</div><ul class="review-lessons">${(review.lessons||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`}
     function renderReport(report){
-      $('summary').textContent=(report.date?report.date+' · ':'')+(report.summary||'尚未发布今日综合方案。');currentReportDate=report.date||'';
+      $('reportHeading').textContent=report.date+' · '+(report.finalLocked?'最终锁定':'研究中');
+      $('reportHeading').dataset.edition=report.edition||'';
+      $('reportHeading').dataset.finalLocked=String(report.finalLocked===true);
+      $('summary').textContent=(report.date?report.date+' · ':'')+(report.summary||'尚未发布今日综合方案。')+(report.edition?' 批次：'+report.edition:'');currentReportDate=report.date||'';
       const rows=report.recommendations||[];
       const sections=[
         ['two','普通2串1 · 首要推荐','重点约3.0倍；有独立依据的4.0、5.0倍及胜＋让平拆票方案也可入选。合格就多出，不凑数量。'],
@@ -286,7 +289,7 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
 
     function publicationHealth(report,today){
       if(!report||report.date!==today)return '今日推荐未发布，以下为旧方案，请勿作为今日投注依据。';
-      if(!report.recommendations?.length)return '今日暂无推荐组合；扫盘待补齐或未筛出合格方案，请查看缺项说明。';
+      if(!report.recommendations?.length)return report.finalLocked&&report.status==='final-no-bet'?'今日最终审核：今晚不出。12场拒绝入单依据已记录；推荐投入0元。':'今日暂无推荐组合；扫盘待补齐或未筛出合格方案，请查看缺项说明。';
       return '';
     }
     function showPublicationHealth(report){
@@ -400,7 +403,7 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     $('copyPoster').addEventListener('click',function(){copyScanTable(false,this);});$('copyTracking').addEventListener('click',function(){copyTrackingImage(false,this);});$('copyReviewTracking').addEventListener('click',function(){copyTrackingImage(true,this);});
     $('refresh').addEventListener('click',load);$('copyScan').addEventListener('click',()=>copyScanTable(false));$('copyReview').addEventListener('click',()=>copyScanTable(true));load();setInterval(load,5*60*1000);
   </script>
-  <script src="muse-cards.js?v=tracking-scope-2026-10-23T00-47-31-336Z"></script>
+  <script src="muse-cards.js?v=final-groups-2026-10-23"></script>
 <style>
 .poster-actions{flex-wrap:wrap}.poster-actions .copy-button{background:#197751;color:white;border-color:#197751;min-height:44px;height:auto;padding:10px 14px;white-space:normal}
 .mobile-copy-bar{position:sticky;top:64px;z-index:3;width:min(1040px,100%);margin:auto;padding:7px 10px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;background:#173d57;border-bottom:2px solid #f4d58a}.mobile-copy-bar button{width:100%;height:38px;margin:0;padding:0 4px;border:1px solid #f4d58a;border-radius:5px;background:#24548a;color:#fff;font-size:12px;font-weight:800}.mobile-copy-bar button:disabled{opacity:.55}@media(max-width:620px){.mobile-copy-bar{top:64px}.mobile-copy-bar button{font-size:11px}}
