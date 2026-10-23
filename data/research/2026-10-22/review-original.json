@@ -1,0 +1,1368 @@
+{
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-22T05:07:58.725Z",
+  "status": "published",
+  "edition": "2026-10-22完整最终版",
+  "rulesVersion": "2026-10-22-MUSE-fusion",
+  "finalLocked": true,
+  "lockedDate": "2026-10-22",
+  "dataAsOf": "2026-10-22T04:01:22.250Z",
+  "summary": "今日13场在售赛程已逐场研究并锁定。优先2.0版、双选2串1和3.0版；扫盘按真实不确定性加保险，博精准结构与半全场均按全部子票成本核算。",
+  "recommendations": [
+    {
+      "category": "two",
+      "name": "【强烈建议】2.0版｜萨迪纳摩胜 × 尤文图斯胜",
+      "passType": "2串1",
+      "stars": 3,
+      "stronglyRecommended": true,
+      "legs": [
+        {
+          "matchId": 3075279,
+          "number": "周四003",
+          "market": "spf",
+          "selection": "胜",
+          "odds": 1.41,
+          "selectionReason": "主场压迫与欧战经验支持主胜",
+          "predictedScore": "2:1 / 2:0 / 3:1",
+          "halfTimePrediction": "胜胜/平胜",
+          "goalRange": "2/3/4球"
+        },
+        {
+          "matchId": 3073728,
+          "number": "周四004",
+          "market": "spf",
+          "selection": "胜",
+          "odds": 1.35,
+          "selectionReason": "胜与让胜同步降赔，基本面和市场一致",
+          "predictedScore": "2:0 / 2:1 / 3:1",
+          "halfTimePrediction": "平胜/胜胜",
+          "goalRange": "2/3/4球"
+        }
+      ],
+      "totalOdds": 1.9,
+      "oddsText": "1.90倍",
+      "totalCost": 2,
+      "effectiveReturnText": "全中返还3.80元；任一腿未中返还0元",
+      "coverageText": "按2元单注核算，不承诺收益。",
+      "passSizes": [
+        2
+      ]
+    },
+    {
+      "category": "two",
+      "name": "双选2串1｜贝西克塔“胜+让平” × 皇家社会负",
+      "passType": "2张2串1",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "legs": [
+        {
+          "matchId": 3075306,
+          "number": "周四008",
+          "market": "mixed",
+          "selection": "胜+让平",
+          "odds": 2.06,
+          "selectionReason": "预计主队若赢更接近赢1球，普通胜与主-1让平可重叠命中",
+          "predictedScore": "2:1 / 1:1 / 1:0",
+          "halfTimePrediction": "平胜/平平",
+          "goalRange": "2/3/4球",
+          "optionOdds": [
+            2.06,
+            3.85
+          ]
+        },
+        {
+          "matchId": 3073797,
+          "number": "周四010",
+          "market": "spf",
+          "selection": "负",
+          "odds": 1.35,
+          "selectionReason": "客胜和让负同步降赔，客队赛程强度升权",
+          "predictedScore": "0:2 / 1:2 / 0:3",
+          "halfTimePrediction": "平负/负负",
+          "goalRange": "2/3/4球"
+        }
+      ],
+      "totalCost": 4,
+      "subTickets": [
+        {
+          "name": "子票A",
+          "selectionText": "周四008 胜 × 周四010 负",
+          "stake": 2,
+          "odds": 2.78,
+          "returnText": "中返还5.56元"
+        },
+        {
+          "name": "子票B",
+          "selectionText": "周四008 让平 × 周四010 负",
+          "stake": 2,
+          "odds": 5.2,
+          "returnText": "中返还10.40元"
+        }
+      ],
+      "oddsText": "2.78/5.20倍",
+      "effectiveReturnText": "仅胜票中返还5.56元；仅让平票中返还10.40元；贝西克塔恰赢1球且皇家社会胜，两票合计返还15.96元",
+      "coverageText": "博精准，不是同市场保险；皇家社会不胜则两票均失。",
+      "passSizes": [
+        2
+      ]
+    },
+    {
+      "category": "two",
+      "name": "3.0版｜马赛负 × 桑德兰负",
+      "passType": "2串1",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "legs": [
+        {
+          "matchId": 3073801,
+          "number": "周四001",
+          "market": "spf",
+          "selection": "负",
+          "odds": 1.76,
+          "selectionReason": "客胜降赔且赛程强度升权",
+          "predictedScore": "1:2 / 1:1 / 0:2",
+          "halfTimePrediction": "平负/负负",
+          "goalRange": "2/3/4球"
+        },
+        {
+          "matchId": 3073757,
+          "number": "周四002",
+          "market": "spf",
+          "selection": "负",
+          "odds": 1.55,
+          "selectionReason": "英超级对抗校正后客队占优",
+          "predictedScore": "1:2 / 1:1 / 0:2",
+          "halfTimePrediction": "平负/负负",
+          "goalRange": "2/3/4球"
+        }
+      ],
+      "totalOdds": 2.73,
+      "oddsText": "2.73倍",
+      "totalCost": 2,
+      "effectiveReturnText": "全中返还5.46元；任一腿未中返还0元",
+      "coverageText": "按2元单注核算，不承诺收益。",
+      "passSizes": [
+        2
+      ]
+    },
+    {
+      "category": "three",
+      "name": "3串1｜尤文胜 × 皇家社会负 × 弗拉门戈让胜",
+      "passType": "3串1",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "legs": [
+        {
+          "matchId": 3073728,
+          "number": "周四004",
+          "market": "spf",
+          "selection": "胜",
+          "odds": 1.35,
+          "selectionReason": "主胜与让胜同步获得支持",
+          "predictedScore": "2:0 / 2:1 / 3:1",
+          "halfTimePrediction": "平胜/胜胜",
+          "goalRange": "2/3/4球"
+        },
+        {
+          "matchId": 3073797,
+          "number": "周四010",
+          "market": "spf",
+          "selection": "负",
+          "odds": 1.35,
+          "selectionReason": "客胜持续降赔且对手层级差明显",
+          "predictedScore": "0:2 / 1:2 / 0:3",
+          "halfTimePrediction": "平负/负负",
+          "goalRange": "2/3/4球"
+        },
+        {
+          "matchId": 3092419,
+          "number": "周四013",
+          "market": "rqspf",
+          "selection": "让胜",
+          "odds": 2.05,
+          "selectionReason": "预计2:0，博主队至少赢2球",
+          "predictedScore": "2:0 / 1:0 / 2:1",
+          "halfTimePrediction": "胜胜/平胜",
+          "goalRange": "1/2/3球"
+        }
+      ],
+      "totalOdds": 3.74,
+      "oddsText": "3.74倍",
+      "totalCost": 2,
+      "effectiveReturnText": "全中返还7.48元；任一腿未中返还0元",
+      "coverageText": "按2元单注核算，不承诺收益。",
+      "passSizes": [
+        3
+      ]
+    },
+    {
+      "category": "half_full",
+      "name": "半全场2串1｜尤文平胜 × 皇家社会平负",
+      "passType": "单关A＋单关B＋2串1",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "legs": [
+        {
+          "matchId": 3073728,
+          "number": "周四004",
+          "market": "half_full",
+          "selection": "平胜",
+          "odds": 3.85,
+          "selectionReason": "尤文慢热但后程控制力更强",
+          "predictedScore": "2:0 / 2:1 / 3:1",
+          "halfTimePrediction": "平胜/胜胜",
+          "goalRange": "2/3/4球"
+        },
+        {
+          "matchId": 3073797,
+          "number": "周四010",
+          "market": "half_full",
+          "selection": "平负",
+          "odds": 4.1,
+          "selectionReason": "利勒斯特主场先守，皇家社会后程质量占优",
+          "predictedScore": "0:2 / 1:2 / 0:3",
+          "halfTimePrediction": "平负/负负",
+          "goalRange": "2/3/4球"
+        }
+      ],
+      "totalOdds": 15.78,
+      "oddsText": "15.78倍",
+      "totalCost": 6,
+      "subTickets": [
+        {
+          "name": "单关A",
+          "selectionText": "周四004 平胜",
+          "stake": 2,
+          "odds": 3.85,
+          "returnText": "返还7.70元"
+        },
+        {
+          "name": "单关B",
+          "selectionText": "周四010 平负",
+          "stake": 2,
+          "odds": 4.1,
+          "returnText": "返还8.20元"
+        },
+        {
+          "name": "2串1",
+          "selectionText": "周四004 平胜 × 周四010 平负",
+          "stake": 2,
+          "odds": 15.78,
+          "returnText": "返还31.57元"
+        }
+      ],
+      "effectiveReturnText": "仅A中返还7.70元；仅B中返还8.20元；全中合计返还47.47元",
+      "coverageText": "总投入6元；两张单关任一命中均覆盖总投入，但全失仍损失6元。",
+      "passSizes": [
+        1,
+        2
+      ]
+    },
+    {
+      "category": "dream",
+      "name": "梦想单｜6场混合高赔",
+      "passType": "6串1",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "legs": [
+        {
+          "matchId": 3073801,
+          "number": "周四001",
+          "market": "spf",
+          "selection": "负",
+          "odds": 1.76,
+          "selectionReason": "马赛强度升权且客胜降赔",
+          "predictedScore": "1:2 / 1:1 / 0:2",
+          "halfTimePrediction": "平负/负负",
+          "goalRange": "2/3/4球"
+        },
+        {
+          "matchId": 3073728,
+          "number": "周四004",
+          "market": "half_full",
+          "selection": "平胜",
+          "odds": 3.85,
+          "selectionReason": "尤文主场后程控制",
+          "predictedScore": "2:0 / 2:1 / 3:1",
+          "halfTimePrediction": "平胜/胜胜",
+          "goalRange": "2/3/4球"
+        },
+        {
+          "matchId": 3075306,
+          "number": "周四008",
+          "market": "spf",
+          "selection": "胜",
+          "odds": 2.06,
+          "selectionReason": "博贝西克塔主场取胜",
+          "predictedScore": "2:1 / 1:1 / 1:0",
+          "halfTimePrediction": "平胜/平平",
+          "goalRange": "2/3/4球"
+        },
+        {
+          "matchId": 3073768,
+          "number": "周四009",
+          "market": "rqspf",
+          "selection": "让负",
+          "odds": 1.68,
+          "selectionReason": "盘口明显转向里昂一侧",
+          "predictedScore": "1:2 / 2:2 / 1:3",
+          "halfTimePrediction": "平负/负负",
+          "goalRange": "3/4/5球"
+        },
+        {
+          "matchId": 3073810,
+          "number": "周四011",
+          "market": "spf",
+          "selection": "胜",
+          "odds": 1.82,
+          "selectionReason": "博阿贾克斯主场优势兑现",
+          "predictedScore": "2:1 / 1:1 / 1:0",
+          "halfTimePrediction": "平胜/平平",
+          "goalRange": "2/3/4球"
+        },
+        {
+          "matchId": 3092419,
+          "number": "周四013",
+          "market": "rqspf",
+          "selection": "让胜",
+          "odds": 2.05,
+          "selectionReason": "博弗拉门戈赢两球以上",
+          "predictedScore": "2:0 / 1:0 / 2:1",
+          "halfTimePrediction": "胜胜/平胜",
+          "goalRange": "1/2/3球"
+        }
+      ],
+      "totalOdds": 87.49,
+      "oddsText": "87.49倍",
+      "totalCost": 2,
+      "effectiveReturnText": "全中返还174.98元；任一腿未中返还0元",
+      "coverageText": "按2元单注核算，不承诺收益。",
+      "passSizes": [
+        6
+      ]
+    },
+    {
+      "category": "single",
+      "name": "单关｜弗拉门戈让胜",
+      "passType": "单关",
+      "stars": 2,
+      "stronglyRecommended": true,
+      "legs": [
+        {
+          "matchId": 3092419,
+          "number": "周四013",
+          "market": "rqspf",
+          "selection": "让胜",
+          "odds": 2.05,
+          "selectionReason": "主场淘汰赛战意与实力差支持至少赢2球",
+          "predictedScore": "2:0 / 1:0 / 2:1",
+          "halfTimePrediction": "胜胜/平胜",
+          "goalRange": "1/2/3球"
+        }
+      ],
+      "totalOdds": 2.05,
+      "oddsText": "2.05倍",
+      "totalCost": 2,
+      "effectiveReturnText": "全中返还4.10元；任一腿未中返还0元",
+      "coverageText": "按2元单注核算，不承诺收益。",
+      "passSizes": [
+        1
+      ]
+    }
+  ],
+  "scanTable": [
+    {
+      "number": "周四001",
+      "league": "欧罗巴",
+      "teams": "格风暴 vs 马赛",
+      "kickoff": "2026-10-23T00:45:00",
+      "buy": "负/平",
+      "speculative": "负",
+      "selection": "买：负/平｜博：负",
+      "officialHandicap": "主队受让1球",
+      "goals": "2/3/4球",
+      "halfFull": "平负/负负",
+      "score": "1:2 / 1:1 / 0:2",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "recommended": true,
+      "status": "已研究·具备入串条件",
+      "odds": {
+        "spf": {
+          "win": 3.48,
+          "draw": 3.65,
+          "lose": 1.76
+        },
+        "rqspf": {
+          "win": 1.82,
+          "draw": 3.65,
+          "lose": 3.28
+        },
+        "goals": {
+          "0": 16,
+          "1": 6,
+          "2": 3.95,
+          "3": 3.35,
+          "4": 4.6,
+          "5": 7.7,
+          "6": 14.5,
+          "7+": 17.5
+        },
+        "halfFull": {
+          "winWin": 5.75,
+          "winDraw": 13.5,
+          "winLose": 18,
+          "drawWin": 8.5,
+          "drawDraw": 6.8,
+          "drawLose": 4.6,
+          "loseWin": 30,
+          "loseDraw": 13.5,
+          "loseLose": 2.77
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "格风暴此前对手层级偏低，马赛近段经历巴黎、雷恩、摩纳哥等更高强度对抗，客队赛程强度升权。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四002",
+      "league": "欧罗巴",
+      "teams": "波兹南 vs 桑德兰",
+      "kickoff": "2026-10-23T00:45:00",
+      "buy": "负/平",
+      "speculative": "负",
+      "selection": "买：负/平｜博：负",
+      "officialHandicap": "主队受让1球",
+      "goals": "2/3/4球",
+      "halfFull": "平负/负负",
+      "score": "1:2 / 1:1 / 0:2",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "recommended": true,
+      "status": "已研究·具备入串条件",
+      "odds": {
+        "spf": {
+          "win": 4.6,
+          "draw": 3.75,
+          "lose": 1.55
+        },
+        "rqspf": {
+          "win": 2.12,
+          "draw": 3.3,
+          "lose": 2.82
+        },
+        "goals": {
+          "0": 14,
+          "1": 5.2,
+          "2": 3.45,
+          "3": 3.4,
+          "4": 5.1,
+          "5": 8.7,
+          "6": 17,
+          "7+": 27
+        },
+        "halfFull": {
+          "winWin": 7.75,
+          "winDraw": 16,
+          "winLose": 20,
+          "drawWin": 10.5,
+          "drawDraw": 6.6,
+          "drawLose": 4.1,
+          "loseWin": 45,
+          "loseDraw": 16,
+          "loseLose": 2.3
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "桑德兰近段连续面对曼城、阿森纳、布伦特福德，赛程强度显著高于波兹南国内联赛环境，客队升权。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四003",
+      "league": "欧罗巴",
+      "teams": "萨迪纳摩 vs 奈梅亨",
+      "kickoff": "2026-10-23T00:45:00",
+      "buy": "胜",
+      "speculative": "让平",
+      "selection": "买：胜｜博：让平",
+      "officialHandicap": "主队让1球",
+      "goals": "2/3/4球",
+      "halfFull": "胜胜/平胜",
+      "score": "2:1 / 2:0 / 3:1",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "recommended": true,
+      "status": "已研究·具备入串条件",
+      "odds": {
+        "spf": {
+          "win": 1.41,
+          "draw": 4.3,
+          "lose": 5.32
+        },
+        "rqspf": {
+          "win": 2.33,
+          "draw": 3.5,
+          "lose": 2.42
+        },
+        "goals": {
+          "0": 20,
+          "1": 6.6,
+          "2": 4.25,
+          "3": 3.3,
+          "4": 4.4,
+          "5": 7,
+          "6": 12,
+          "7+": 16.5
+        },
+        "halfFull": {
+          "winWin": 2,
+          "winDraw": 17,
+          "winLose": 40,
+          "drawWin": 4.25,
+          "drawDraw": 7.75,
+          "drawLose": 12,
+          "loseWin": 20,
+          "loseDraw": 17,
+          "loseLose": 8.75
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "萨迪纳摩欧战经验和主场强度高于奈梅亨，客队荷甲赛程节奏快但防守质量一般，主队小幅升权。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四004",
+      "league": "欧罗巴",
+      "teams": "尤文图斯 vs 雷恩",
+      "kickoff": "2026-10-23T00:45:00",
+      "buy": "胜",
+      "speculative": "让胜/让平",
+      "selection": "买：胜｜博：让胜/让平",
+      "officialHandicap": "主队让1球",
+      "goals": "2/3/4球",
+      "halfFull": "平胜/胜胜",
+      "score": "2:0 / 2:1 / 3:1",
+      "stars": 3,
+      "stronglyRecommended": true,
+      "recommended": true,
+      "status": "已研究·具备入串条件",
+      "odds": {
+        "spf": {
+          "win": 1.35,
+          "draw": 4.35,
+          "lose": 6.3
+        },
+        "rqspf": {
+          "win": 2.17,
+          "draw": 3.45,
+          "lose": 2.64
+        },
+        "goals": {
+          "0": 16,
+          "1": 6,
+          "2": 3.7,
+          "3": 3.35,
+          "4": 4.75,
+          "5": 7.75,
+          "6": 14.5,
+          "7+": 21
+        },
+        "halfFull": {
+          "winWin": 2,
+          "winDraw": 17,
+          "winLose": 48,
+          "drawWin": 3.85,
+          "drawDraw": 7.2,
+          "drawLose": 14,
+          "loseWin": 22,
+          "loseDraw": 17,
+          "loseLose": 10
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "尤文近期对手含亚特兰大、AC米兰等高强度球队，雷恩法甲赛程同样有质量但整体上限略低，主队升权。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四005",
+      "league": "欧罗巴",
+      "teams": "克里特 vs 勒沃库森",
+      "kickoff": "2026-10-23T00:45:00",
+      "buy": "让胜/让平",
+      "speculative": "负负",
+      "selection": "买：让胜/让平｜博：负负",
+      "officialHandicap": "主队受让2球",
+      "goals": "3/4/5球",
+      "halfFull": "负负/平负",
+      "score": "0:2 / 0:3 / 1:3",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "recommended": false,
+      "status": "已研究·扫盘方向",
+      "odds": {
+        "spf": {
+          "win": null,
+          "draw": null,
+          "lose": null
+        },
+        "rqspf": {
+          "win": 2.39,
+          "draw": 4.1,
+          "lose": 2.14
+        },
+        "goals": {
+          "0": 29,
+          "1": 8.75,
+          "2": 5,
+          "3": 3.75,
+          "4": 4.15,
+          "5": 5.6,
+          "6": 9,
+          "7+": 9.25
+        },
+        "halfFull": {
+          "winWin": 23.5,
+          "winDraw": 28,
+          "winLose": 20,
+          "drawWin": 30,
+          "drawDraw": 13,
+          "drawLose": 4,
+          "loseWin": 100,
+          "loseDraw": 28,
+          "loseLose": 1.39
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "勒沃库森近段经历莱比锡、奥格斯堡和柏林联合等德甲强度，对比克里特国内赛程明显升权，但近期失球也偏多。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四006",
+      "league": "欧罗巴",
+      "teams": "伯恩茅斯 vs AC米兰",
+      "kickoff": "2026-10-23T03:00:00",
+      "buy": "胜/平",
+      "speculative": "让负",
+      "selection": "买：胜/平｜博：让负",
+      "officialHandicap": "主队让1球",
+      "goals": "2/3/4球",
+      "halfFull": "平胜/平平",
+      "score": "2:1 / 1:1 / 1:0",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "recommended": false,
+      "status": "已研究·扫盘方向",
+      "odds": {
+        "spf": {
+          "win": 1.85,
+          "draw": 3.48,
+          "lose": 3.32
+        },
+        "rqspf": {
+          "win": 3.58,
+          "draw": 3.6,
+          "lose": 1.75
+        },
+        "goals": {
+          "0": 14,
+          "1": 5.3,
+          "2": 3.5,
+          "3": 3.4,
+          "4": 5,
+          "5": 8.5,
+          "6": 18,
+          "7+": 25
+        },
+        "halfFull": {
+          "winWin": 2.95,
+          "winDraw": 14.5,
+          "winLose": 33,
+          "drawWin": 4.5,
+          "drawDraw": 5.9,
+          "drawLose": 8,
+          "loseWin": 21,
+          "loseDraw": 14.5,
+          "loseLose": 5.5
+        },
+        "single": {
+          "spf": true,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "伯恩茅斯近期连续面对利物浦、纽卡、曼城，赛程强度高；米兰意甲强度亦高，主队主场过程略升权。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四007",
+      "league": "欧罗巴",
+      "teams": "凯尔特人 vs 塞尔塔",
+      "kickoff": "2026-10-23T03:00:00",
+      "buy": "胜/平",
+      "speculative": "平",
+      "selection": "买：胜/平｜博：平",
+      "officialHandicap": "主队受让1球",
+      "goals": "2/3/4球",
+      "halfFull": "平胜/平平",
+      "score": "2:1 / 1:1 / 1:0",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "recommended": false,
+      "status": "已研究·扫盘方向",
+      "odds": {
+        "spf": {
+          "win": 2.46,
+          "draw": 3.3,
+          "lose": 2.38
+        },
+        "rqspf": {
+          "win": 1.44,
+          "draw": 4.1,
+          "lose": 5.25
+        },
+        "goals": {
+          "0": 14,
+          "1": 5.4,
+          "2": 3.55,
+          "3": 3.4,
+          "4": 4.9,
+          "5": 8.45,
+          "6": 16,
+          "7+": 27
+        },
+        "halfFull": {
+          "winWin": 3.9,
+          "winDraw": 14,
+          "winLose": 24,
+          "drawWin": 5.9,
+          "drawDraw": 5.9,
+          "drawLose": 5.8,
+          "loseWin": 26,
+          "loseDraw": 14,
+          "loseLose": 3.8
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "凯尔特人国内赛程统治力强但跨联赛强度需打折，塞尔塔西甲对抗更扎实，双方校正后接近。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四008",
+      "league": "欧罗巴",
+      "teams": "贝西克塔 vs 水晶宫",
+      "kickoff": "2026-10-23T03:00:00",
+      "buy": "胜/平",
+      "speculative": "让平",
+      "selection": "买：胜/平｜博：让平",
+      "officialHandicap": "主队让1球",
+      "goals": "2/3/4球",
+      "halfFull": "平胜/平平",
+      "score": "2:1 / 1:1 / 1:0",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "recommended": true,
+      "status": "已研究·具备入串条件",
+      "odds": {
+        "spf": {
+          "win": 2.06,
+          "draw": 3.6,
+          "lose": 2.75
+        },
+        "rqspf": {
+          "win": 4.25,
+          "draw": 3.85,
+          "lose": 1.58
+        },
+        "goals": {
+          "0": 22,
+          "1": 7,
+          "2": 4,
+          "3": 3.5,
+          "4": 4.4,
+          "5": 6.7,
+          "6": 12,
+          "7+": 14.5
+        },
+        "halfFull": {
+          "winWin": 3.4,
+          "winDraw": 14,
+          "winLose": 28,
+          "drawWin": 5.4,
+          "drawDraw": 5.75,
+          "drawLose": 6.75,
+          "loseWin": 22,
+          "loseDraw": 14,
+          "loseLose": 4.4
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "水晶宫英超赛程强度高于贝西克塔土超环境，但主队连续主场作战与欧战经验抵消部分差距，校正后主队不应被低估。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四009",
+      "league": "欧罗巴",
+      "teams": "霍芬海姆 vs 里昂",
+      "kickoff": "2026-10-23T03:00:00",
+      "buy": "让负",
+      "speculative": "负",
+      "selection": "买：让负｜博：负",
+      "officialHandicap": "主队让1球",
+      "goals": "3/4/5球",
+      "halfFull": "平负/负负",
+      "score": "1:2 / 2:2 / 1:3",
+      "stars": 2,
+      "stronglyRecommended": false,
+      "recommended": true,
+      "status": "已研究·具备入串条件",
+      "odds": {
+        "spf": {
+          "win": 1.89,
+          "draw": 3.9,
+          "lose": 2.91
+        },
+        "rqspf": {
+          "win": 3.56,
+          "draw": 3.95,
+          "lose": 1.68
+        },
+        "goals": {
+          "0": 25,
+          "1": 7.75,
+          "2": 4.45,
+          "3": 3.5,
+          "4": 4.2,
+          "5": 6.35,
+          "6": 10.5,
+          "7+": 12
+        },
+        "halfFull": {
+          "winWin": 2.8,
+          "winDraw": 13.5,
+          "winLose": 27,
+          "drawWin": 5.25,
+          "drawDraw": 7.75,
+          "drawLose": 7.75,
+          "loseWin": 17,
+          "loseDraw": 13.5,
+          "loseLose": 4.9
+        },
+        "single": {
+          "spf": true,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "霍芬海姆近段对手含多特、斯图加特且比赛开放；里昂法甲及欧战强度稳定，客队被初始价格低估后获得修正。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四010",
+      "league": "欧罗巴",
+      "teams": "利勒斯特 vs 皇家社会",
+      "kickoff": "2026-10-23T03:00:00",
+      "buy": "负",
+      "speculative": "让平",
+      "selection": "买：负｜博：让平",
+      "officialHandicap": "主队受让1球",
+      "goals": "2/3/4球",
+      "halfFull": "平负/负负",
+      "score": "0:2 / 1:2 / 0:3",
+      "stars": 3,
+      "stronglyRecommended": true,
+      "recommended": true,
+      "status": "已研究·具备入串条件",
+      "odds": {
+        "spf": {
+          "win": 5.75,
+          "draw": 4.65,
+          "lose": 1.35
+        },
+        "rqspf": {
+          "win": 2.61,
+          "draw": 3.6,
+          "lose": 2.14
+        },
+        "goals": {
+          "0": 19,
+          "1": 6.1,
+          "2": 4,
+          "3": 3.35,
+          "4": 4.5,
+          "5": 7.25,
+          "6": 13,
+          "7+": 19
+        },
+        "halfFull": {
+          "winWin": 9.75,
+          "winDraw": 18,
+          "winLose": 19,
+          "drawWin": 13.5,
+          "drawDraw": 7.5,
+          "drawLose": 4.1,
+          "loseWin": 38,
+          "loseDraw": 18,
+          "loseLose": 1.96
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "皇家社会近期经历皇马、贝蒂斯、塞尔塔等西甲对手，利勒斯特国内赛程层级较低，客队赛程强度明显升权。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四011",
+      "league": "欧协联",
+      "teams": "阿贾克斯 vs 亚特兰大",
+      "kickoff": "2026-10-23T03:00:00",
+      "buy": "胜/平",
+      "speculative": "让负",
+      "selection": "买：胜/平｜博：让负",
+      "officialHandicap": "主队让1球",
+      "goals": "2/3/4球",
+      "halfFull": "平胜/平平",
+      "score": "2:1 / 1:1 / 1:0",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "recommended": false,
+      "status": "已研究·扫盘方向",
+      "odds": {
+        "spf": {
+          "win": 1.82,
+          "draw": 3.6,
+          "lose": 3.32
+        },
+        "rqspf": {
+          "win": 3.45,
+          "draw": 3.7,
+          "lose": 1.76
+        },
+        "goals": {
+          "0": 19,
+          "1": 6.3,
+          "2": 4,
+          "3": 3.5,
+          "4": 4.6,
+          "5": 7,
+          "6": 12,
+          "7+": 16
+        },
+        "halfFull": {
+          "winWin": 2.75,
+          "winDraw": 14,
+          "winLose": 32,
+          "drawWin": 4.9,
+          "drawDraw": 6.5,
+          "drawLose": 7.8,
+          "loseWin": 22,
+          "loseDraw": 14,
+          "loseLose": 5.4
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "阿贾克斯近5场国内过程有波动，亚特兰大意甲对抗层级更高；主场因素与客队强度相抵，不能只看队名。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四012",
+      "league": "欧协联",
+      "teams": "摩纳哥 vs 弗赖堡",
+      "kickoff": "2026-10-23T03:00:00",
+      "buy": "胜/平",
+      "speculative": "让负",
+      "selection": "买：胜/平｜博：让负",
+      "officialHandicap": "主队让1球",
+      "goals": "2/3/4球",
+      "halfFull": "平胜/平平",
+      "score": "2:1 / 1:1 / 1:0",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "recommended": false,
+      "status": "已研究·扫盘方向",
+      "odds": {
+        "spf": {
+          "win": 1.95,
+          "draw": 3.45,
+          "lose": 3.07
+        },
+        "rqspf": {
+          "win": 3.9,
+          "draw": 3.75,
+          "lose": 1.65
+        },
+        "goals": {
+          "0": 15,
+          "1": 5.7,
+          "2": 3.75,
+          "3": 3.45,
+          "4": 4.8,
+          "5": 8,
+          "6": 14,
+          "7+": 20
+        },
+        "halfFull": {
+          "winWin": 3,
+          "winDraw": 15,
+          "winLose": 35,
+          "drawWin": 4.5,
+          "drawDraw": 6,
+          "drawLose": 7.25,
+          "loseWin": 26,
+          "loseDraw": 15,
+          "loseLose": 5.15
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "摩纳哥近期面对巴黎、马赛、朗斯，赛程强度高但消耗大；弗赖堡德甲强度也足，校正后主队仅小幅占优。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    },
+    {
+      "number": "周四013",
+      "league": "解放者杯",
+      "teams": "弗拉门戈 vs 拉普大学",
+      "kickoff": "2026-10-23T08:30:00",
+      "buy": "胜",
+      "speculative": "让胜",
+      "selection": "买：胜｜博：让胜",
+      "officialHandicap": "主队让1球",
+      "goals": "1/2/3球",
+      "halfFull": "胜胜/平胜",
+      "score": "2:0 / 1:0 / 2:1",
+      "stars": 3,
+      "stronglyRecommended": true,
+      "recommended": true,
+      "status": "已研究·具备入串条件",
+      "odds": {
+        "spf": {
+          "win": 1.26,
+          "draw": 4.28,
+          "lose": 9.75
+        },
+        "rqspf": {
+          "win": 2.05,
+          "draw": 3.13,
+          "lose": 3.1
+        },
+        "goals": {
+          "0": 10,
+          "1": 4.3,
+          "2": 3.15,
+          "3": 3.55,
+          "4": 5.95,
+          "5": 11,
+          "6": 25,
+          "7+": 42
+        },
+        "halfFull": {
+          "winWin": 1.8,
+          "winDraw": 23,
+          "winLose": 75,
+          "drawWin": 3.4,
+          "drawDraw": 6.25,
+          "drawLose": 19,
+          "loseWin": 30,
+          "loseDraw": 23,
+          "loseLose": 17
+        },
+        "single": {
+          "spf": false,
+          "rqspf": false,
+          "score": true,
+          "goals": true,
+          "halfFull": true
+        }
+      },
+      "sameCompanyMarket": "ESPN/DraftKings赛前方向已核：有对应赛事；竞彩即时赔率以本轮官方镜像为准。",
+      "scheduleStrengthCorrection": "弗拉门戈近段巴甲赛程强度不低且拥有主场优势，拉普大学跨国客战与阵容上限处于下风，主队升权。",
+      "risk": "最终首发尚未官宣；赛前1至2小时仅作风险预警，不改写已锁原票。"
+    }
+  ],
+  "matchAnalysis": [
+    {
+      "number": "周四001",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：马赛转换速度和前场单兵上限占优；格风暴主场可用紧凑站位压缩肋部。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：格风暴此前对手层级偏低，马赛近段经历巴黎、雷恩、摩纳哥等更高强度对抗，客队赛程强度升权。 战意：欧联积分阶段双方均需抢分，主队主场战意充足，马赛争取直接晋级战意更高。 盘面：初始客胜1.81降至1.76，主胜升至3.48，资金进一步指向马赛；基本面与盘面一致，但客胜幅度不支持重仓。 主队凭什么赢：格风暴凭主场强度与定位球可能赢；主队凭什么输：格风暴中场抗压不足容易输掉转换；客队凭什么赢：马赛凭前场速度及纵深能力可以赢；客队凭什么输：马赛客场控制波动可能被拖入平局。结论：买负/平，博负；比分1:2 / 1:1 / 0:2；总进球2/3/4球；半全场平负/负负。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915557",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四002",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：桑德兰身体对抗和快速推进占优；波兹南主场边路与定位球具备反击出口。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：桑德兰近段连续面对曼城、阿森纳、布伦特福德，赛程强度显著高于波兹南国内联赛环境，客队升权。 战意：欧联积分阶段均有抢分压力，波兹南主场战意强；桑德兰需要兑现纸面优势，战意同样明确。 盘面：客胜由1.57降至1.55，主胜由4.50升至4.60，市场轻微强化客队；与强度校正一致，仍用平局保险。 主队凭什么赢：波兹南凭主场与定位球效率可能赢；主队凭什么输：波兹南面对英超级对抗强度可能失守；客队凭什么赢：桑德兰凭冲击力和阵容厚度可以赢；客队凭什么输：桑德兰客场阵地战效率不足可能不胜。结论：买负/平，博负；比分1:2 / 1:1 / 0:2；总进球2/3/4球；半全场平负/负负。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915546",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四003",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：主队高位逼抢与禁区冲击更完整；奈梅亨快速反击可攻击主队身后。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：萨迪纳摩欧战经验和主场强度高于奈梅亨，客队荷甲赛程节奏快但防守质量一般，主队小幅升权。 战意：双方均处欧联抢分阶段，主队要守住主场主动权，客队也有争取淘汰赛资格的战意。 盘面：主胜1.42降至1.41，让球三项完全不动；市场认可主胜但对赢两球没有新增确认，常规胜优先，博让平。 主队凭什么赢：萨迪纳摩凭主场压迫和欧战经验能赢；主队凭什么输：萨迪纳摩压上后身后空间可能导致丢分；客队凭什么赢：奈梅亨凭转换速度和边路冲击可能赢；客队凭什么输：奈梅亨防线对持续压迫承受力不足会输。结论：买胜，博让平；比分2:1 / 2:0 / 3:1；总进球2/3/4球；半全场胜胜/平胜。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915556",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四004",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：尤文中后场控制和禁区保护更稳；雷恩年轻前场速度是客队主要破局点。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：尤文近期对手含亚特兰大、AC米兰等高强度球队，雷恩法甲赛程同样有质量但整体上限略低，主队升权。 战意：尤文需要欧战主场抢分稳定晋级位置，雷恩同样需要积分，双方战意均明确。 盘面：主胜从1.42连续降至1.35，让胜由2.42降至2.17，主队得到胜与赢盘同步支持；与基本面一致，列为强烈建议。 主队凭什么赢：尤文凭主场控制和防守稳定性可以赢；主队凭什么输：尤文慢热及轮换可能让比赛陷入僵局；客队凭什么赢：雷恩凭年轻前场速度可能反击取胜；客队凭什么输：雷恩客场抗压与禁区防守可能失守。结论：买胜，博让胜/让平；比分2:0 / 2:1 / 3:1；总进球2/3/4球；半全场平胜/胜胜。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915547",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四005",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：勒沃库森控球推进与前场人数优势明显；克里特深位防守和主场节奏可限制大胜。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：勒沃库森近段经历莱比锡、奥格斯堡和柏林联合等德甲强度，对比克里特国内赛程明显升权，但近期失球也偏多。 战意：主队面对强敌主场战意足，勒沃库森需要欧战积分但存在赛程轮换动机。 盘面：普通胜平负未开放，主队受让2球下让负由2.18降至2.14；市场略支持客队大胜，但深盘与轮换风险背离，降星并用让胜/让平保险。 主队凭什么赢：克里特凭主场低位防守可能制造冷门；主队凭什么输：克里特阵容深度与出球能力不足易输；客队凭什么赢：勒沃库森凭整体推进和压迫能力能赢；客队凭什么输：勒沃库森轮换及防守波动可能不穿盘。结论：买让胜/让平，博负负；比分0:2 / 0:3 / 1:3；总进球3/4/5球；半全场负负/平负。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915559",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四006",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：伯恩茅斯前场压迫和主场冲击更主动；米兰反击质量与大赛经验足以惩罚压上。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：伯恩茅斯近期连续面对利物浦、纽卡、曼城，赛程强度高；米兰意甲强度亦高，主队主场过程略升权。 战意：双方均需欧联积分，伯恩茅斯首次主场欧战动力强，米兰也不能接受连续失分。 盘面：主胜从1.80升至1.85，客胜3.42降至3.32，让负1.80降至1.75，市场在削弱主队穿盘；与主队优势部分背离，必须带平并降级。 主队凭什么赢：伯恩茅斯凭主场压迫与跑动强度能赢；主队凭什么输：伯恩茅斯高位身后空间可能被客队利用；客队凭什么赢：AC米兰凭反击质量和经验可能客胜；客队凭什么输：AC米兰客场受压及轮换可能导致不胜。结论：买胜/平，博让负；比分2:1 / 1:1 / 1:0；总进球2/3/4球；半全场平胜/平平。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915552",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四007",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：凯尔特人主场高压和边路传中有量；塞尔塔中路配合与反击更精细。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：凯尔特人国内赛程统治力强但跨联赛强度需打折，塞尔塔西甲对抗更扎实，双方校正后接近。 战意：两队都要争取欧联晋级积分，凯尔特人主场战意更直观，客队也无保留理由。 盘面：胜平负与让球从初始至即时基本稳定，主客均无明确增量信号；基本面均势，扫盘胜/平保险，不入核心串。 主队凭什么赢：凯尔特人凭主场气氛和持续压迫能赢；主队凭什么输：凯尔特人跨联赛防线质量可能被惩罚；客队凭什么赢：塞尔塔凭西甲对抗及反击效率可能赢；客队凭什么输：塞尔塔客场承压与定位球防守可能失守。结论：买胜/平，博平；比分2:1 / 1:1 / 1:0；总进球2/3/4球；半全场平胜/平平。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915555",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四008",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：贝西克塔主场强攻与定位球威胁突出；水晶宫反击和身体对抗更有质量。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：水晶宫英超赛程强度高于贝西克塔土超环境，但主队连续主场作战与欧战经验抵消部分差距，校正后主队不应被低估。 战意：双方都处欧联抢分窗口，主队主场必须主动，水晶宫也需要避免客场失分。 盘面：主胜2.08降至2.06，客胜2.80降至2.75而平赔升至3.60，胜负两端同时受注；与均势基本面一致，胜/平保险，博主胜一球对应让平。 主队凭什么赢：贝西克塔凭主场声势与定位球可以赢；主队凭什么输：贝西克塔压上后防线速度短板可能输；客队凭什么赢：水晶宫凭英超对抗和反击效率可能赢；客队凭什么输：水晶宫客场控球不足可能被拖入平局。结论：买胜/平，博让平；比分2:1 / 1:1 / 1:0；总进球2/3/4球；半全场平胜/平平。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915553",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四009",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：霍芬海姆纵向冲击强但防线持续失球；里昂前场技术和转换能攻击其身后。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：霍芬海姆近段对手含多特、斯图加特且比赛开放；里昂法甲及欧战强度稳定，客队被初始价格低估后获得修正。 战意：欧联积分阶段双方都需要三分，主队会主动压出，客队战意同样充分。 盘面：主胜由1.80升至1.89，客胜3.15降至2.91，让负1.80大降至1.68，市场明显转向里昂一侧；与主队防线风险一致，主让1球买让负。 主队凭什么赢：霍芬海姆凭主场进攻与高节奏可能赢；主队凭什么输：霍芬海姆近段防线失球过多可能输球；客队凭什么赢：里昂凭技术中场及反击速度可能赢；客队凭什么输：里昂客场对抗与防高球问题可能不胜。结论：买让负，博负；比分1:2 / 2:2 / 1:3；总进球3/4/5球；半全场平负/负负。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915543",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四010",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：皇家社会控球、逼抢和禁区前配合全面占优；利勒斯特主场定位球是主要反击武器。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：皇家社会近期经历皇马、贝蒂斯、塞尔塔等西甲对手，利勒斯特国内赛程层级较低，客队赛程强度明显升权。 战意：主队面对强敌会全力守主场，皇家社会需要欧联积分巩固晋级位置，客队战意更可兑现。 盘面：客胜从1.42持续降至1.35，主胜升至5.75，让负2.30降至2.14，胜与赢盘同步强化；与强度校正一致，列强烈建议。 主队凭什么赢：利勒斯特凭主场及定位球可能制造冷门；主队凭什么输：利勒斯特整体技术与抗压能力不足易输；客队凭什么赢：皇家社会凭控球质量和逼抢强度可以赢；客队凭什么输：皇家社会客场轮换或终结低效可能不胜。结论：买负，博让平；比分0:2 / 1:2 / 0:3；总进球2/3/4球；半全场平负/负负。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/summary?event=401915540",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四011",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：阿贾克斯主场控球及边路推进更主动；亚特兰大盯人压迫和转换可破坏主队节奏。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：阿贾克斯近5场国内过程有波动，亚特兰大意甲对抗层级更高；主场因素与客队强度相抵，不能只看队名。 战意：欧协联积分阶段双方都需抢分，传统强队均无明显放弃动机，战意中性偏强。 盘面：主胜1.82、平3.60、客胜3.32全程不动，市场没有方向确认；基本面分歧较大，胜/平仅作扫盘保险。 主队凭什么赢：阿贾克斯凭主场控球和边路冲击能赢；主队凭什么输：阿贾克斯防守转换不稳可能被客队击穿；客队凭什么赢：亚特兰大凭意甲对抗和压迫能力可能赢；客队凭什么输：亚特兰大客场阵地推进不稳可能不胜。结论：买胜/平，博让负；比分2:1 / 1:1 / 1:0；总进球2/3/4球；半全场平胜/平平。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/summary?event=401915837",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四012",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：摩纳哥速度与前场个人能力更突出；弗赖堡整体防守和定位球更稳定。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：摩纳哥近期面对巴黎、马赛、朗斯，赛程强度高但消耗大；弗赖堡德甲强度也足，校正后主队仅小幅占优。 战意：欧协联积分阶段双方都有晋级诉求，摩纳哥主场需主动，弗赖堡拿分意愿同样明确。 盘面：主胜1.95、平3.45、客胜3.07及让球盘均未变化，市场缺乏新增信号；与基本面接近，胜/平保险并降星。 主队凭什么赢：摩纳哥凭主场速度和单兵能力可以赢；主队凭什么输：摩纳哥高强度赛程消耗可能导致失分；客队凭什么赢：弗赖堡凭整体防守和定位球可能赢；客队凭什么输：弗赖堡客场面对速度冲击可能失守。结论：买胜/平，博让负；比分2:1 / 1:1 / 1:0；总进球2/3/4球；半全场平胜/平平。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/summary?event=401915836",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    },
+    {
+      "number": "周四013",
+      "text": "出战：ESPN赛前页已核对对应赛事，最终首发未官宣，不虚构具体11人。攻防：弗拉门戈控球、边路和禁区终结更完整；拉普大学低位防守与反击仍可压低节奏。 交锋：当前可核资料不足以支持单独升星，按中性处理。赛程强度校正：弗拉门戈近段巴甲赛程强度不低且拥有主场优势，拉普大学跨国客战与阵容上限处于下风，主队升权。 战意：解放者杯淘汰阶段主队必须建立优势，客队也会以晋级为目标全力防守，战意均拉满。 盘面：主胜1.26、让胜2.05从初始至即时不动，强势预期稳定但未继续升温；基本面支持主胜，博赢两球以上的让胜。 主队凭什么赢：弗拉门戈凭主场控制和阵容上限能赢；主队凭什么输：弗拉门戈赛程消耗及终结波动可能丢分；客队凭什么赢：拉普大学凭低位防守和反击可能爆冷；客队凭什么输：拉普大学客场抗压与阵容深度不足易输。结论：买胜，博让胜；比分2:0 / 1:0 / 2:1；总进球1/2/3球；半全场胜胜/平胜。",
+      "predictedLineup": "预计：最终首发与替补未官宣；现阶段仅按可用阵容框架、赛程与战术对位评估，不列虚构名单。",
+      "evidence": {
+        "scheduleVerified": true,
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/summary?event=401912521",
+        "missing": [
+          "最终首发与替补未全部官宣",
+          "明确伤停替代者资料不足，已降低推荐资格"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "竞彩官方赔率镜像",
+      "url": "http://slb.haoyun999.cn/api/Game/GetSinglePassMatchs",
+      "checkedAt": "2026-10-22T04:01:22.250Z"
+    },
+    {
+      "name": "ESPN赛程与赛前赛事页",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/",
+      "checkedAt": "2026-10-22T05:07:58.725Z"
+    }
+  ],
+  "limitations": [
+    "最终首发尚未官宣，未虚构具体11人；赛前1至2小时仅作风险预警。",
+    "部分球队明确伤停替代者与直接交锋资料不足，相应场次已降星或不进核心串。",
+    "预测仅供娱乐参考，不自动下注。"
+  ],
+  "batches": [
+    {
+      "id": "FINAL-2026-10-22",
+      "numbers": [
+        "周四001",
+        "周四002",
+        "周四003",
+        "周四004",
+        "周四005",
+        "周四006",
+        "周四007",
+        "周四008",
+        "周四009",
+        "周四010",
+        "周四011",
+        "周四012",
+        "周四013"
+      ],
+      "deadline": "2026-10-22T14:00:00+08:00",
+      "publishedAt": "2026-10-22T05:07:58.725Z",
+      "locked": true,
+      "archiveVersion": "2026-10-22-final-20261022050758",
+      "status": "complete-final-published"
+    }
+  ]
+}
