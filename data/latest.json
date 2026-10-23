@@ -1,16 +1,17 @@
 {
   "date": "2026-10-23",
-  "publishedAt": "2026-10-23T08:13:37.852Z",
-  "generatedAt": "2026-10-23T08:13:31.227Z",
-  "status": "core-replacement-final",
-  "edition": "2026-10-23-core-replacement-20261023T081337852Z",
+  "publishedAt": "2026-10-23T08:17:39.129Z",
+  "generatedAt": "2026-10-23T08:17:32.452Z",
+  "status": "disjoint-core-final",
+  "edition": "2026-10-23-disjoint-core-20261023T081739129Z",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": {
     "maxDoubleLegs": 1,
     "equalStakes": true,
     "issueBothRequested": true,
     "riskDisclosure": "最多一场保险仍生效；007退出核心，006单胜有新增替代配置依据；风险未消失，不保证命中。",
-    "display": "用户最终确认只展示按整套投入折算的返还倍率，不展示本金或利润金额；完整子票核算保存审计。"
+    "display": "用户最终确认只展示按整套投入折算的返还倍率，不展示本金或利润金额；完整子票核算保存审计。",
+    "noSharedCoreMatches": true
   },
   "finalLocked": true,
   "lockedDate": "2026-10-23",
@@ -18,10 +19,10 @@
   "completed": true,
   "mobileVerified": false,
   "dataAsOf": "2026-10-23T08:09:57.5509737Z",
-  "summary": "独立复核换腿：2.0改006胜×008胜/平，整套1.25/2.03倍；3.0保留008胜×012主-1让平/让负，按新赔率整套3.11/2.48倍。007退出核心，扫盘恢复胜/平；原四种博单保留。",
+  "summary": "两档不共场：2.0为006斯图加特胜×003埃夫斯堡胜/平，整套1.12/2.15倍；3.0为008布雷斯特胜×012吉马良斯主-1让平/让负，整套3.11/2.48倍。各一场双选；007退出核心。原博单保留。",
   "recommendations": [
     {
-      "id": "core20-replace007",
+      "id": "core20-disjoint",
       "name": "2.0版 · 一场保险",
       "category": "two",
       "trackingTier": "2.0版",
@@ -66,9 +67,9 @@
           ]
         },
         {
-          "number": "周五008",
-          "matchId": 2042162,
-          "teams": "布雷斯特 vs 尼斯",
+          "number": "周五003",
+          "matchId": 2042157,
+          "teams": "埃夫斯堡 vs 马尔默",
           "market": "HAD",
           "handicap": 0,
           "selection": "胜/平",
@@ -76,15 +77,15 @@
             {
               "key": "h",
               "label": "胜",
-              "odds": 2.07
+              "odds": 1.85
             },
             {
               "key": "d",
               "label": "平",
-              "odds": 3.35
+              "odds": 3.55
             }
           ],
-          "selectionReason": "保留唯一防平：Ajorque支点、Doumbia二点与双中场支持主队方向；尼斯Wahi/Amoura反击冲击替代中卫，平局不能从保守票中删除。",
+          "selectionReason": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。",
           "qualification": {
             "single": false,
             "allUp": true,
@@ -98,13 +99,13 @@
             "closeCheckedAt": "2026-10-23T07:29:09.622Z"
           },
           "lossPaths": [
-            "Wahi/Amoura反击突破Tousart/Lloris转身，尼斯率先进球后收缩守住；主胜/平全输。",
-            "Ajorque被三中卫限制，Doumbia二点接应被Witsel切断，Brest阵地战长期无效。",
-            "Brest追分压上导致边路留空，尼斯高位调整奏效再进一球；不能用防平覆盖客胜。"
+            "马尔默控球与Haksabanovic突破打穿主队边路，客胜使胜/平两分支都输。",
+            "重复对天狼星短时间连丢的防守问题，落后后未能追回。",
+            "Olsen扑救限制主队终结，马尔默一次定位球决定比赛。"
           ]
         }
       ],
-      "selectionText": "周五006[胜] × 周五008[胜/平]",
+      "selectionText": "周五006[胜] × 周五003[胜/平]",
       "passType": "2串1",
       "passSizes": [
         2
@@ -116,7 +117,7 @@
       "totalCost": 4,
       "subTickets": [
         {
-          "id": "core20-replace007-0",
+          "id": "core20-disjoint-0",
           "name": "子票1",
           "passType": "2串1",
           "selections": [
@@ -129,25 +130,25 @@
               "odds": 1.21
             },
             {
-              "number": "周五008",
+              "number": "周五003",
               "market": "HAD",
               "handicap": 0,
               "key": "h",
               "label": "胜",
-              "odds": 2.07
+              "odds": 1.85
             }
           ],
-          "selectionText": "周五006 胜 × 周五008 胜",
+          "selectionText": "周五006 胜 × 周五003 胜",
           "stake": 2,
           "unitStake": 2,
           "multiplier": 1,
-          "odds": 2.5047,
-          "return": 5.01,
-          "net": 1.01,
-          "returnText": "整套返还1.25倍"
+          "odds": 2.2385,
+          "return": 4.48,
+          "net": 0.48,
+          "returnText": "整套返还1.12倍"
         },
         {
-          "id": "core20-replace007-1",
+          "id": "core20-disjoint-1",
           "name": "子票2",
           "passType": "2串1",
           "selections": [
@@ -160,44 +161,44 @@
               "odds": 1.21
             },
             {
-              "number": "周五008",
+              "number": "周五003",
               "market": "HAD",
               "handicap": 0,
               "key": "d",
               "label": "平",
-              "odds": 3.35
+              "odds": 3.55
             }
           ],
-          "selectionText": "周五006 胜 × 周五008 平",
+          "selectionText": "周五006 胜 × 周五003 平",
           "stake": 2,
           "unitStake": 2,
           "multiplier": 1,
-          "odds": 4.0535,
-          "return": 8.11,
-          "net": 4.11,
-          "returnText": "整套返还2.03倍"
+          "odds": 4.2955,
+          "return": 8.59,
+          "net": 4.59,
+          "returnText": "整套返还2.15倍"
         }
       ],
       "conditionalReturn": {
-        "min": 5.01,
-        "max": 8.11
+        "min": 4.48,
+        "max": 8.59
       },
       "conditionalNet": {
-        "min": 1.01,
-        "max": 4.11
+        "min": 0.48,
+        "max": 4.59
       },
       "effectiveReturnRatio": {
-        "min": 1.25235,
-        "max": 2.02675
+        "min": 1.11925,
+        "max": 2.14775
       },
       "uncoveredReturn": 0,
       "uncoveredNet": -4,
       "structureText": "单选×双选，两个等额分支，仅防一场",
-      "oddsText": "整套返还倍率 1.25 / 2.03倍",
-      "effectiveReturnText": "周五006 胜 × 周五008 胜：整套1.25倍；周五006 胜 × 周五008 平：整套2.03倍；未覆盖结果为0倍。",
+      "oddsText": "整套返还倍率 1.12 / 2.15倍",
+      "effectiveReturnText": "周五006 胜 × 周五003 胜：整套1.12倍；周五006 胜 × 周五003 平：整套2.15倍；未覆盖结果为0倍。",
       "coverageText": "两分支等额，仅防一场；倍率已按整套投入折算，不是单张子票的赔率。",
-      "risk": "006短休、被逼平风险仍在；008已防平，尼斯客胜不覆盖。",
-      "imageSummary": "周五006[胜] × 周五008[胜/平]；整套返还倍率 1.25 / 2.03倍。006短休、被逼平风险仍在；008已防平，尼斯客胜不覆盖。 两档共用008。",
+      "risk": "006普通胜须赢球，短休及终结低效仍有风险；003胜/平防平，不覆盖马尔默客胜。",
+      "imageSummary": "周五006[胜] × 周五003[胜/平]；整套返还倍率 1.12 / 2.15倍。006普通胜须赢球，短休及终结低效仍有风险；003胜/平防平，不覆盖马尔默客胜。",
       "displayMultipliersOnly": true,
       "oddsAsOf": "2026-10-23T08:09:57.5509737Z"
     },
@@ -378,7 +379,7 @@
       "effectiveReturnText": "周五008 胜 × 周五012 主-1 让平：整套3.11倍；周五008 胜 × 周五012 主-1 让负：整套2.48倍；未覆盖结果为0倍。",
       "coverageText": "两分支等额，仅防一场；倍率已按整套投入折算，不是单张子票的赔率。",
       "risk": "008必须胜；012主-1让平/让负覆盖净胜1球、平或负，净胜2+失败。",
-      "imageSummary": "周五008[胜] × 周五012[主-1 让平/让负]；整套返还倍率 3.11 / 2.48倍。008必须胜；012主-1让平/让负覆盖净胜1球、平或负，净胜2+失败。 两档共用008。",
+      "imageSummary": "周五008[胜] × 周五012[主-1 让平/让负]；整套返还倍率 3.11 / 2.48倍。008必须胜；012主-1让平/让负覆盖净胜1球、平或负，净胜2+失败。",
       "displayMultipliersOnly": true,
       "oddsAsOf": "2026-10-23T08:09:57.5509737Z"
     },
@@ -5381,10 +5382,10 @@
       "score": "2:1 / 1:1 / 2:2",
       "halfFull": "平胜/平平",
       "stars": 1,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "用户要求等额重出版",
-      "risk": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。",
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "两档不共场版",
+      "risk": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。",
       "odds": {
         "spf": {
           "win": 1.85,
@@ -5600,8 +5601,8 @@
           "closeCheckedAt": "2026-10-23T07:29:09.622Z"
         }
       },
-      "exposureCount": 0,
-      "exposureRate": 0
+      "exposureCount": 1,
+      "exposureRate": 0.16666666666666666
     },
     {
       "number": "周五004",
@@ -6574,7 +6575,7 @@
       "recommended": true,
       "purchaseApproved": true,
       "status": "独立复核换腿版",
-      "risk": "保留唯一防平：Ajorque支点、Doumbia二点与双中场支持主队方向；尼斯Wahi/Amoura反击冲击替代中卫，平局不能从保守票中删除。",
+      "risk": "扫盘胜/平；仅3.0进取单选胜，2.0不再使用本场。",
       "odds": {
         "spf": {
           "win": 2.07,
@@ -6790,8 +6791,8 @@
           "closeCheckedAt": "2026-10-23T07:29:09.622Z"
         }
       },
-      "exposureCount": 4,
-      "exposureRate": 0.6666666666666666
+      "exposureCount": 3,
+      "exposureRate": 0.5
     },
     {
       "number": "周五009",
@@ -8309,29 +8310,29 @@
     },
     {
       "number": "周五003",
-      "text": "扫盘：胜/平；不入核心，仍保留本场方向。出战与替代：埃夫斯堡近4场可辨正式赛1:0卡尔马、2:1佐加顿、4:0哈尔姆斯、2:2天狼星；剔除赫根友谊赛。马尔默正式近4为4:1奥尔格里特、0:2瓦斯特拉、1:0卡尔马、0:1赫根。双方友谊赛不得用于进球分布升权。官方伤停列Assibu、Busuladzic、Jansson、Sjöstrand、Åstrand John。 攻防：主队上一场2:2天狼星，短时连丢两球后追回；Zeneli承认马尔默控球与个人进攻能力，客防伤停不能抵消客攻击威胁。 交锋：现有交锋资料不能证明缺员后的净胜幅度，不作为升级让球依据。 赛程强度校正：主队中性：天狼星一战暴露领先后防守问题；客队中性：新教练适应期，真实过程强度待核。双方不因排名升级。 战意：双方联赛争分；公开采访强调难度和对手能力，无已核额外战意优势。 轮换：中；主队周五后周二、周日有比赛，Zeneli首发尚不确定；客队康复名单人数多，轮换及替代者配合待核。 盘面：官方胜/平/负 1.85/3.55/3.25；主-1让胜/让平/让负 3.62/3.55/1.75；采集2026-10-23T06:45:44.853Z。 波动：中高；埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 输钱路径：胜/平：马尔默控球限制主队出球，主队先失球后未追回。；胜/平：密集赛程改变前场配置，客队替代防线有效并利用反击获胜。；2/3/4球：马尔默近期多场低总球使0/1球尾部现实，另有连续失误5+风险。 总进球：仅列研究分布；未形成梦想串入选证明。没有用预测比分反证概率。 本次等额重审：埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 本次采集2026-10-23T07:25:54.0025580Z；胜平负1.85/3.55/3.25；主-1让球3.62/3.55/1.75。",
-      "availability": "埃夫斯堡近4场可辨正式赛1:0卡尔马、2:1佐加顿、4:0哈尔姆斯、2:2天狼星；剔除赫根友谊赛。马尔默正式近4为4:1奥尔格里特、0:2瓦斯特拉、1:0卡尔马、0:1赫根。双方友谊赛不得用于进球分布升权。官方伤停列Assibu、Busuladzic、Jansson、Sjöstrand、Åstrand John。",
-      "matchup": "主队上一场2:2天狼星，短时连丢两球后追回；Zeneli承认马尔默控球与个人进攻能力，客防伤停不能抵消客攻击威胁。",
+      "text": "扫盘胜/平；本版2.0。新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。 对位：Kamara/Olsson二线与Ostman冲击马尔默替代中卫；Magnusson/Beck保护二点。Haksabanovic边路组织、Gudjohnsen禁区威胁和Olsen门将能力要求保留平局，不把伤缺等同客队无战力。 战意：双方联赛争分；公开采访强调难度和对手能力，无已核额外战意优势。 交锋仅低权：现有交锋资料不能证明缺员后的净胜幅度，不作为升级让球依据。 输钱路径：马尔默控球与Haksabanovic突破打穿主队边路，客胜使胜/平两分支都输。；重复对天狼星短时间连丢的防守问题，落后后未能追回。；Olsen扑救限制主队终结，马尔默一次定位球决定比赛。",
+      "availability": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。",
+      "matchup": "Kamara/Olsson二线与Ostman冲击马尔默替代中卫；Magnusson/Beck保护二点。Haksabanovic边路组织、Gudjohnsen禁区威胁和Olsen门将能力要求保留平局，不把伤缺等同客队无战力。",
       "headToHead": "现有交锋资料不能证明缺员后的净胜幅度，不作为升级让球依据。",
       "scheduleStrengthCorrection": "主队中性：天狼星一战暴露领先后防守问题；客队中性：新教练适应期，真实过程强度待核。双方不因排名升级。",
       "rotation": {
         "risk": "中",
-        "assessment": "主队周五后周二、周日有比赛，Zeneli首发尚不确定；客队康复名单人数多，轮换及替代者配合待核。"
+        "assessment": "10/18至10/23间隔五天，随后周二、周日密集赛程；未见已核实的大轮换宣布。预计阵容不依赖Zeneli首发，仍可能临场变化。"
       },
       "motivation": "双方联赛争分；公开采访强调难度和对手能力，无已核额外战意优势。",
       "lossPaths": [
-        "胜/平：马尔默控球限制主队出球，主队先失球后未追回。",
-        "胜/平：密集赛程改变前场配置，客队替代防线有效并利用反击获胜。",
-        "2/3/4球：马尔默近期多场低总球使0/1球尾部现实，另有连续失误5+风险。"
+        "马尔默控球与Haksabanovic突破打穿主队边路，客胜使胜/平两分支都输。",
+        "重复对天狼星短时间连丢的防守问题，落后后未能追回。",
+        "Olsen扑救限制主队终结，马尔默一次定位球决定比赛。"
       ],
       "volatility": {
-        "level": "中高",
-        "reason": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。"
+        "level": "中",
+        "reason": "2:2天狼星仍有短时失球风险，胜/平覆盖僵局；补核替代配置后仅以不败双选进入2.0，非单胜胆。"
       },
       "highStarGate": {
         "passed": false,
-        "status": "rejected",
-        "reason": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。"
+        "status": "not-high-star",
+        "reason": "马尔默攻击能力与主队短时连丢风险仍在，保留1星。"
       },
       "prediction": {
         "buy": "胜/平",
@@ -8350,7 +8351,7 @@
           "平胜",
           "平平"
         ],
-        "reason": "主队近期正式进攻和客后场伤停支持主不败；马尔默控球、个人攻击能力及主队领先后失球要求保留平局，不能升级为让胜。"
+        "reason": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
       },
       "goalsCrossCheck": {
         "recentFormalOnly": [
@@ -8516,6 +8517,12 @@
           "capturedAt": "2026-10-23T05:59:40.549Z",
           "status": 200,
           "archive": "fresh-clubs.json"
+        },
+        {
+          "url": "https://www.sportsgambler.com/betting-tips/football/elfsborg-vs-malmo-ff-prediction-lineups-odds-2026-10-23/",
+          "capturedAt": "2026-10-23T08:17:32.449Z",
+          "status": 200,
+          "archive": "disjoint-evidence.json"
         }
       ],
       "oddsHistory": {
@@ -8581,9 +8588,9 @@
       },
       "currentMarket": "本次采集2026-10-23T07:25:54.0025580Z；胜平负1.85/3.55/3.25；主-1让球3.62/3.55/1.75。",
       "coreDecision": {
-        "approved": false,
-        "tier": null,
-        "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。"
+        "approved": true,
+        "tier": "2.0",
+        "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
       }
     },
     {
@@ -9734,7 +9741,7 @@
     },
     {
       "number": "周五008",
-      "text": "扫盘：胜/平。FotMob本场页与Match en Direct/243foot预计阵容交叉一致：Brest Selvik；Lala、Tousart、Lloris、Locko；Chotard、Magnetti；Balde、Doumbia、Mboup；Ajorque。Chardonnet小腿伤，Le Guen踝、Versini膝伤；Tousart/Lloris为预计中卫替代。尼斯官方出征名单核实Diouf、Abdelmonem、Ndayishimiye、Mandza、Clauss、Nkounkou、Witsel、Boudaoui、Hein、Amoura、Wahi均在列；Abdi肌肉、Mendy/Abergel前交叉韧带、Bombito腿伤由FotMob列示。首发为预测，未冒称官方11人。 Ajorque支点与Doumbia二次接球能迫使尼斯三中卫后退，Magnetti/Chotard双中场利于保护二点。尼斯教练承认低位防守下反击衔接不足，抬高阵线后进攻改善；Wahi与Amoura速度会攻击Tousart/Lloris转身，不能单选主胜。胜/平承受尼斯低位限制终结造成的平局；尼斯率先打通反击并守住才会整腿失效。 2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。 输钱路径：尼斯反击客胜；低位导致平局使3.0失败；领先后被追平。",
+      "text": "FotMob本场页与Match en Direct/243foot预计阵容交叉一致：Brest Selvik；Lala、Tousart、Lloris、Locko；Chotard、Magnetti；Balde、Doumbia、Mboup；Ajorque。Chardonnet小腿伤，Le Guen踝、Versini膝伤；Tousart/Lloris为预计中卫替代。尼斯官方出征名单核实Diouf、Abdelmonem、Ndayishimiye、Mandza、Clauss、Nkounkou、Witsel、Boudaoui、Hein、Amoura、Wahi均在列；Abdi肌肉、Mendy/Abergel前交叉韧带、Bombito腿伤由FotMob列示。首发为预测，未冒称官方11人。 Ajorque支点与Doumbia二次接球能迫使尼斯三中卫后退，Magnetti/Chotard双中场利于保护二点。尼斯教练承认低位防守下反击衔接不足，抬高阵线后进攻改善；Wahi与Amoura速度会攻击Tousart/Lloris转身，不能单选主胜。胜/平承受尼斯低位限制终结造成的平局；尼斯率先打通反击并守住才会整腿失效。 本版仅3.0单选胜，2.0不使用008。单胜的平局风险由进取档承担，不称稳胆。",
       "availability": "FotMob本场页与Match en Direct/243foot预计阵容交叉一致：Brest Selvik；Lala、Tousart、Lloris、Locko；Chotard、Magnetti；Balde、Doumbia、Mboup；Ajorque。Chardonnet小腿伤，Le Guen踝、Versini膝伤；Tousart/Lloris为预计中卫替代。尼斯官方出征名单核实Diouf、Abdelmonem、Ndayishimiye、Mandza、Clauss、Nkounkou、Witsel、Boudaoui、Hein、Amoura、Wahi均在列；Abdi肌肉、Mendy/Abergel前交叉韧带、Bombito腿伤由FotMob列示。首发为预测，未冒称官方11人。",
       "matchup": "Ajorque支点与Doumbia二次接球能迫使尼斯三中卫后退，Magnetti/Chotard双中场利于保护二点。尼斯教练承认低位防守下反击衔接不足，抬高阵线后进攻改善；Wahi与Amoura速度会攻击Tousart/Lloris转身，不能单选主胜。胜/平承受尼斯低位限制终结造成的平局；尼斯率先打通反击并守住才会整腿失效。",
       "headToHead": "旧交锋不能证明新教练、新后防组合的结果，不升星。",
@@ -10027,8 +10034,8 @@
       "currentMarket": "核心赔率复核 2026-10-23T08:09:57.5509737Z；胜平负2.07/3.35/2.88；主-1让球4.25/3.95/1.56",
       "coreDecision": {
         "approved": true,
-        "tier": "2.0与3.0",
-        "assessment": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
+        "tier": "3.0",
+        "assessment": "仅3.0进取单选胜；2.0已换为003＋006，消除共场。"
       }
     },
     {
@@ -11428,22 +11435,22 @@
     }
   ],
   "limitations": [
-    "2.0名称不是最低2倍承诺；本版整套1.25/2.03倍。",
-    "006三天短休与联赛状态风险仍在，不称稳胆。",
-    "3.0单选008，平局及客胜均失败；012净胜2+失败。",
-    "两档共享008，尼斯客胜会使两档同时失败。",
-    "四种博单按原选项及原参考赔率保留，007仍在博单，不等于核心认可。"
+    "2.0整套倍率1.12/2.15；名称不代表每分支最低2倍。",
+    "006仍有短休风险；003双选仍可能被马尔默客胜击穿。",
+    "3.0单选008，平/负失效；012让平/让负在主队净胜2+时失效。",
+    "两档无共同比赛，仍不能保证命中。",
+    "原四种博单保留原选项和原版参考赔率，007仍在博单。"
   ],
   "correctionOf": {
     "edition": "2026-10-23完整最终方案·纠错版",
     "publishedAt": "2026-10-23T05:45:39.836Z",
-    "remoteCommit": "40526aecc611fb17774c0c9468dc0cbe4213c3e4",
-    "previousAuditEdition": "2026-10-23-one-cover-20261023T075528654Z"
+    "remoteCommit": "41c084c8e49ccbd3f905b9f39597d3b24bcaf3a7",
+    "previousAuditEdition": "2026-10-23-core-replacement-20261023T081337852Z"
   },
-  "correctionReason": "用户要求由模型独立判断007是否该换并立即更新。新增006完整替代配置与对手伤停核查后，以006普通胜替换007单胜；不再因倍率删007保险。2.0为产品名，不保证每一分支达到2倍；本次接受较低回报，短休风险仍明确。",
+  "correctionReason": "用户要求先选最合适的单选腿再搭配另一腿，并反对两档重复008。保留006普通胜，补核003预计阵容及对手替代后以003胜/平配对；3.0选项不变。两档无共同场次，2.0接受较低主要分支回报，不以名称冒充最低2倍。",
   "batches": [
     {
-      "id": "2026-10-23-core-replacement-20261023T081337852Z",
+      "id": "2026-10-23-disjoint-core-20261023T081739129Z",
       "numbers": [
         "周五001",
         "周五002",
@@ -11459,10 +11466,10 @@
         "周五012"
       ],
       "deadline": "2026-10-23T16:00:00+08:00",
-      "publishedAt": "2026-10-23T08:13:37.852Z",
+      "publishedAt": "2026-10-23T08:17:39.129Z",
       "locked": true,
       "session": "用户授权纠错；晚场原票",
-      "archiveVersion": "2026-10-23-core-replacement-20261023T081337852Z"
+      "archiveVersion": "2026-10-23-disjoint-core-20261023T081739129Z"
     }
   ],
   "decision": {
@@ -12500,8 +12507,8 @@
       "code": "HAD",
       "market": "胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "不入核心",
-      "reason": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 同市场保险可覆盖平局但不能消除真实反向胜负风险。",
+      "coreStatus": "2.0胜/平",
+      "reason": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -12527,17 +12534,17 @@
         {
           "key": "a",
           "odds": 3.25,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 同市场保险可覆盖平局但不能消除真实反向胜负风险。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "d",
           "odds": 3.55,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 同市场保险可覆盖平局但不能消除真实反向胜负风险。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "h",
           "odds": 1.85,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 同市场保险可覆盖平局但不能消除真实反向胜负风险。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         }
       ]
     },
@@ -12546,8 +12553,8 @@
       "code": "HHAD",
       "market": "让球胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "不入核心",
-      "reason": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 让球单双选将风险转移到净胜边界，既有阵容/波动反证仍在，不能靠换市场消除。",
+      "coreStatus": "非核心",
+      "reason": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -12573,17 +12580,17 @@
         {
           "key": "a",
           "odds": 1.75,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 让球单双选将风险转移到净胜边界，既有阵容/波动反证仍在，不能靠换市场消除。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "d",
           "odds": 3.55,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 让球单双选将风险转移到净胜边界，既有阵容/波动反证仍在，不能靠换市场消除。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "h",
           "odds": 3.62,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 让球单双选将风险转移到净胜边界，既有阵容/波动反证仍在，不能靠换市场消除。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         }
       ]
     },
@@ -12592,8 +12599,8 @@
       "code": "TTG",
       "market": "总进球",
       "candidates": "0/1/2/3/4/5/6/7+及相邻三项",
-      "coreStatus": "不入核心",
-      "reason": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。",
+      "coreStatus": "非核心",
+      "reason": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -12629,42 +12636,42 @@
         {
           "key": "s0",
           "odds": 15,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s1",
           "odds": 5.5,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s2",
           "odds": 3.75,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s3",
           "odds": 3.4,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s4",
           "odds": 5,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s5",
           "odds": 8.25,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s6",
           "odds": 13.5,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s7",
           "odds": 20,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 0—7+所有项及相邻三项均比较；高波动/轮换使尾部分布不集中，不加入核心或梦想串。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         }
       ]
     },
@@ -12673,8 +12680,8 @@
       "code": "CRS",
       "market": "比分",
       "candidates": "全部31项",
-      "coreStatus": "不入核心",
-      "reason": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。",
+      "coreStatus": "非核心",
+      "reason": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -12756,157 +12763,157 @@
         {
           "key": "s00s00",
           "odds": 15,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s00s01",
           "odds": 11,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s00s02",
           "odds": 17,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s00s03",
           "odds": 40,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s00s04",
           "odds": 100,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s00s05",
           "odds": 400,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s01s00",
           "odds": 8.5,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s01s01",
           "odds": 6.75,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s01s02",
           "odds": 9,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s01s03",
           "odds": 24,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s01s04",
           "odds": 75,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s01s05",
           "odds": 250,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s02s00",
           "odds": 10,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s02s01",
           "odds": 7.25,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s02s02",
           "odds": 11.5,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s02s03",
           "odds": 26,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s02s04",
           "odds": 90,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s02s05",
           "odds": 300,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s03s00",
           "odds": 17,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s03s01",
           "odds": 14,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s03s02",
           "odds": 20,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s03s03",
           "odds": 50,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s04s00",
           "odds": 40,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s04s01",
           "odds": 30,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s04s02",
           "odds": 50,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s05s00",
           "odds": 100,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s05s01",
           "odds": 90,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s05s02",
           "odds": 150,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s1sa",
           "odds": 90,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s1sd",
           "odds": 300,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "s1sh",
           "odds": 50,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 31项明确比分/其他结果比全场方向更窄，当前具体波动反证更不支持精准集中。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         }
       ]
     },
@@ -12915,8 +12922,8 @@
       "code": "HAFU",
       "market": "半全场",
       "candidates": "全部9项",
-      "coreStatus": "不入核心",
-      "reason": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。",
+      "coreStatus": "非核心",
+      "reason": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。",
       "qualification": {
         "single": true,
         "allUp": true,
@@ -12955,47 +12962,47 @@
         {
           "key": "aa",
           "odds": 5.5,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "ad",
           "odds": 14.5,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "ah",
           "odds": 24,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "da",
           "odds": 8.15,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "dd",
           "odds": 6,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "dh",
           "odds": 4.1,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "ha",
           "odds": 31,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "hd",
           "odds": 14.5,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         },
         {
           "key": "hh",
           "odds": 3.05,
-          "assessment": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。 9项半全场需独立半场状态依据；现有伤停与波动材料不能证明半场路径。"
+          "assessment": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
         }
       ]
     },
@@ -15020,8 +15027,8 @@
       "code": "HAD",
       "market": "胜平负",
       "candidates": "全部3单选、3双选及全包",
-      "coreStatus": "2.0胜/平；3.0胜",
-      "reason": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。",
+      "coreStatus": "3.0单选胜",
+      "reason": "仅3.0进取单选胜；扫盘主不败仍保留，2.0不再使用008。",
       "qualification": {
         "single": false,
         "allUp": true,
@@ -15047,17 +15054,17 @@
         {
           "key": "a",
           "odds": 2.88,
-          "assessment": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
+          "assessment": "仅3.0进取单选胜；扫盘主不败仍保留，2.0不再使用008。"
         },
         {
           "key": "d",
           "odds": 3.35,
-          "assessment": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
+          "assessment": "仅3.0进取单选胜；扫盘主不败仍保留，2.0不再使用008。"
         },
         {
           "key": "h",
           "odds": 2.07,
-          "assessment": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
+          "assessment": "仅3.0进取单选胜；扫盘主不败仍保留，2.0不再使用008。"
         }
       ]
     },
@@ -17539,21 +17546,21 @@
   "costAudit": {
     "approvedTickets": [
       {
-        "id": "core20-replace007",
+        "id": "core20-disjoint",
         "totalCost": 4,
         "combinationCount": 2,
         "betCount": 2,
         "conditionalReturn": {
-          "min": 5.01,
-          "max": 8.11
+          "min": 4.48,
+          "max": 8.59
         },
         "conditionalNet": {
-          "min": 1.01,
-          "max": 4.11
+          "min": 0.48,
+          "max": 4.59
         },
         "subTickets": [
           {
-            "id": "core20-replace007-0",
+            "id": "core20-disjoint-0",
             "name": "子票1",
             "passType": "2串1",
             "selections": [
@@ -17566,25 +17573,25 @@
                 "odds": 1.21
               },
               {
-                "number": "周五008",
+                "number": "周五003",
                 "market": "HAD",
                 "handicap": 0,
                 "key": "h",
                 "label": "胜",
-                "odds": 2.07
+                "odds": 1.85
               }
             ],
-            "selectionText": "周五006 胜 × 周五008 胜",
+            "selectionText": "周五006 胜 × 周五003 胜",
             "stake": 2,
             "unitStake": 2,
             "multiplier": 1,
-            "odds": 2.5047,
-            "return": 5.01,
-            "net": 1.01,
-            "returnText": "整套返还1.25倍"
+            "odds": 2.2385,
+            "return": 4.48,
+            "net": 0.48,
+            "returnText": "整套返还1.12倍"
           },
           {
-            "id": "core20-replace007-1",
+            "id": "core20-disjoint-1",
             "name": "子票2",
             "passType": "2串1",
             "selections": [
@@ -17597,22 +17604,22 @@
                 "odds": 1.21
               },
               {
-                "number": "周五008",
+                "number": "周五003",
                 "market": "HAD",
                 "handicap": 0,
                 "key": "d",
                 "label": "平",
-                "odds": 3.35
+                "odds": 3.55
               }
             ],
-            "selectionText": "周五006 胜 × 周五008 平",
+            "selectionText": "周五006 胜 × 周五003 平",
             "stake": 2,
             "unitStake": 2,
             "multiplier": 1,
-            "odds": 4.0535,
-            "return": 8.11,
-            "net": 4.11,
-            "returnText": "整套返还2.03倍"
+            "odds": 4.2955,
+            "return": 8.59,
+            "net": 4.59,
+            "returnText": "整套返还2.15倍"
           }
         ]
       },
@@ -21536,20 +21543,18 @@
     "allPlansCost": 186,
     "coreStructureAudit": [
       {
-        "pair": "周五006[胜] × 周五008[胜/平]",
+        "pair": "周五006[胜] × 周五003[胜/平]",
         "multiples": [
-          1.25235,
-          2.02675
-        ],
-        "decision": "替换007单胜，接受较低回报。"
+          1.11925,
+          2.14775
+        ]
       },
       {
         "pair": "周五008[胜] × 周五012[主-1 让平/让负]",
         "multiples": [
           3.105,
           2.484
-        ],
-        "decision": "选项保留，赔率更新。"
+        ]
       }
     ]
   },
@@ -21581,18 +21586,18 @@
     "sameSite": true,
     "evidence": "此前交付回执标sameMainAndTransitionSite=true；当前工程未发现第二独立域名，不能虚报部署两套独立站点",
     "finalLockedCheck": "true：两档及保留博单已按最新结构审核；不是保证命中。",
-    "archiveVersion": "2026-10-23-core-replacement-20261023T081337852Z",
-    "submittedAt": "2026-10-23T08:13:37.852Z",
+    "archiveVersion": "2026-10-23-disjoint-core-20261023T081739129Z",
+    "submittedAt": "2026-10-23T08:17:39.129Z",
     "sameMainAndTransitionSite": true
   },
-  "refinedAt": "2026-10-23T08:13:31.227Z",
+  "refinedAt": "2026-10-23T08:17:32.452Z",
   "artifacts": {
-    "poster": "audits/2026-10-23-core-replacement-20261023T081337852Z-poster.png",
-    "tracking": "audits/2026-10-23-core-replacement-20261023T081337852Z-tracking.png",
-    "report": "audits/2026-10-23-core-replacement-20261023T081337852Z.json",
-    "text": "audits/2026-10-23-core-replacement-20261023T081337852Z.md",
-    "previous1345": "audits/2026-10-23-core-replacement-20261023T081337852Z-previous-1345.json",
-    "subTickets": "audits/2026-10-23-core-replacement-20261023T081337852Z-subtickets.json"
+    "poster": "audits/2026-10-23-disjoint-core-20261023T081739129Z-poster.png",
+    "tracking": "audits/2026-10-23-disjoint-core-20261023T081739129Z-tracking.png",
+    "report": "audits/2026-10-23-disjoint-core-20261023T081739129Z.json",
+    "text": "audits/2026-10-23-disjoint-core-20261023T081739129Z.md",
+    "previous1345": "audits/2026-10-23-disjoint-core-20261023T081739129Z-previous-1345.json",
+    "subTickets": "audits/2026-10-23-disjoint-core-20261023T081739129Z-subtickets.json"
   },
   "marketChangesSincePriorAudit": {
     "capturedAt": "2026-10-23T07:25:54.0025580Z",
@@ -21602,7 +21607,7 @@
     ],
     "effect": "选择不变，使用最新赔率核算，不沿用旧图奖金。"
   },
-  "previousAuditEdition": "2026-10-23-one-cover-20261023T075528654Z",
+  "previousAuditEdition": "2026-10-23-core-replacement-20261023T081337852Z",
   "omittedCategories": [
     {
       "category": "three",
@@ -21618,13 +21623,13 @@
   "coreRanking": {
     "first": [
       "006 HAD胜",
-      "008 HAD胜/平"
+      "003 HAD胜/平"
     ],
     "second": [
       "008 HAD胜",
       "012 HHAD让平/让负"
     ],
-    "decision": "用户要求由模型独立判断007是否该换并立即更新。新增006完整替代配置与对手伤停核查后，以006普通胜替换007单胜；不再因倍率删007保险。2.0为产品名，不保证每一分支达到2倍；本次接受较低回报，短休风险仍明确。",
+    "decision": "用户要求先选最合适的单选腿再搭配另一腿，并反对两档重复008。保留006普通胜，补核003预计阵容及对手替代后以003胜/平配对；3.0选项不变。两档无共同场次，2.0接受较低主要分支回报，不以名称冒充最低2倍。",
     "candidates": [
       {
         "number": "周五001",
@@ -21636,7 +21641,7 @@
       },
       {
         "number": "周五003",
-        "decision": "埃夫斯堡上一轮短时间连丢两球；随后周二、周日连续比赛。马尔默伤员替代与主队Zeneli首发取舍未完整核实，不能把防平当作低波动核心通行证。"
+        "decision": "新增完整预计阵容补核Pettersson门将、Wikstrom/Isherwood中卫、Magnusson/Beck中场，Kamara/Olsson与Ostman提供攻门；不依赖Zeneli必须首发。马尔默Jansson等官方伤缺，预计Djuric/Frejd Palsson替代中卫、Olsen门将，Haksabanovic与Gudjohnsen仍具进攻威胁。埃夫斯堡近4场正式赛3胜1平，客平榜首天狼星、客胜佐加顿比大胜哈尔姆斯更有参考价值；保留平局覆盖马尔默控球压制及领先被追平。只选胜/平，不压主胜或让球。双方上轮同在10/18，赛前间隔五天；主队下周密集赛程保留风险，不能把未来密集赛程当作本场必大轮换。"
       },
       {
         "number": "周五004",
@@ -21656,7 +21661,7 @@
       },
       {
         "number": "周五008",
-        "decision": "2.0与006配对保留胜/平；3.0保留进取单胜，008为共同风险。"
+        "decision": "仅3.0进取单选胜；2.0已换为003＋006，消除共场。"
       },
       {
         "number": "周五009",
@@ -21677,26 +21682,31 @@
     ],
     "structureComparisons": [
       {
-        "pair": "周五006[胜] × 周五008[胜/平]",
+        "pair": "周五006[胜] × 周五003[胜/平]",
         "multiples": [
-          1.25235,
-          2.02675
-        ],
-        "decision": "替换007单胜，接受较低回报。"
+          1.11925,
+          2.14775
+        ]
       },
       {
         "pair": "周五008[胜] × 周五012[主-1 让平/让负]",
         "multiples": [
           3.105,
           2.484
-        ],
-        "decision": "选项保留，赔率更新。"
+        ]
       }
     ]
   },
   "exposure": [
     {
       "number": "周五002",
+      "count": 1,
+      "totalPlans": 6,
+      "share": 0.16666666666666666,
+      "warning": ""
+    },
+    {
+      "number": "周五003",
       "count": 1,
       "totalPlans": 6,
       "share": 0.16666666666666666,
@@ -21718,10 +21728,10 @@
     },
     {
       "number": "周五008",
-      "count": 4,
+      "count": 3,
       "totalPlans": 6,
-      "share": 0.6666666666666666,
-      "warning": "同场暴露超过50%"
+      "share": 0.5,
+      "warning": ""
     },
     {
       "number": "周五011",
@@ -21830,11 +21840,11 @@
     }
   ],
   "withdrawnRecommendations": {
-    "edition": "2026-10-23-one-cover-20261023T075528654Z",
+    "edition": "2026-10-23-core-replacement-20261023T081337852Z",
     "ids": [
-      "core20-one-cover"
+      "core20-replace007"
     ],
-    "reason": "撤下007单胜核心票；旧版留档"
+    "reason": "撤销006＋008过渡票，改003＋006以消除共场"
   },
   "halfTimeEvidence": {
     "capturedAt": "2026-10-23T07:29:09.622Z",

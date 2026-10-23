@@ -1,0 +1,4015 @@
+{
+  "approvedTickets": [
+    {
+      "id": "core20-disjoint",
+      "totalCost": 4,
+      "combinationCount": 2,
+      "betCount": 2,
+      "conditionalReturn": {
+        "min": 4.48,
+        "max": 8.59
+      },
+      "conditionalNet": {
+        "min": 0.48,
+        "max": 4.59
+      },
+      "subTickets": [
+        {
+          "id": "core20-disjoint-0",
+          "name": "子票1",
+          "passType": "2串1",
+          "selections": [
+            {
+              "number": "周五006",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.21
+            },
+            {
+              "number": "周五003",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.85
+            }
+          ],
+          "selectionText": "周五006 胜 × 周五003 胜",
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 2.2385,
+          "return": 4.48,
+          "net": 0.48,
+          "returnText": "整套返还1.12倍"
+        },
+        {
+          "id": "core20-disjoint-1",
+          "name": "子票2",
+          "passType": "2串1",
+          "selections": [
+            {
+              "number": "周五006",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.21
+            },
+            {
+              "number": "周五003",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "d",
+              "label": "平",
+              "odds": 3.55
+            }
+          ],
+          "selectionText": "周五006 胜 × 周五003 平",
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 4.2955,
+          "return": 8.59,
+          "net": 4.59,
+          "returnText": "整套返还2.15倍"
+        }
+      ]
+    },
+    {
+      "id": "core30-one-cover",
+      "totalCost": 4,
+      "combinationCount": 2,
+      "betCount": 2,
+      "conditionalReturn": {
+        "min": 9.94,
+        "max": 12.42
+      },
+      "conditionalNet": {
+        "min": 5.94,
+        "max": 8.42
+      },
+      "subTickets": [
+        {
+          "id": "core30-one-cover-0",
+          "name": "子票1",
+          "passType": "2串1",
+          "selections": [
+            {
+              "number": "周五008",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 2.07
+            },
+            {
+              "number": "周五012",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "d",
+              "label": "让平",
+              "odds": 3
+            }
+          ],
+          "selectionText": "周五008 胜 × 周五012 主-1 让平",
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 6.21,
+          "return": 12.42,
+          "net": 8.42,
+          "returnText": "整套返还3.11倍"
+        },
+        {
+          "id": "core30-one-cover-1",
+          "name": "子票2",
+          "passType": "2串1",
+          "selections": [
+            {
+              "number": "周五008",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 2.07
+            },
+            {
+              "number": "周五012",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "a",
+              "label": "让负",
+              "odds": 2.4
+            }
+          ],
+          "selectionText": "周五008 胜 × 周五012 主-1 让负",
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 4.968,
+          "return": 9.94,
+          "net": 5.94,
+          "returnText": "整套返还2.48倍"
+        }
+      ]
+    },
+    {
+      "id": "exact-equal",
+      "totalCost": 8,
+      "combinationCount": 4,
+      "betCount": 4,
+      "scenarios": [
+        {
+          "condition": "007胜且011净胜1球",
+          "return": 17.09,
+          "net": 9.09
+        },
+        {
+          "condition": "007胜且011净胜2+",
+          "return": 5.56,
+          "net": -2.44
+        },
+        {
+          "condition": "007平且011净胜1球",
+          "return": 29.39,
+          "net": 21.39
+        },
+        {
+          "condition": "007平且011净胜2+",
+          "return": 9.56,
+          "net": 1.56
+        },
+        {
+          "condition": "007负或011不胜",
+          "return": 0,
+          "net": -8
+        }
+      ],
+      "subTickets": [
+        {
+          "id": "exact-equal-1",
+          "name": "子票1",
+          "passType": "2串1",
+          "selectionText": "周五007 胜 × 周五011 胜",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "key": "h",
+              "label": "胜",
+              "odds": 1.89
+            },
+            {
+              "number": "周五011",
+              "market": "HAD",
+              "key": "h",
+              "label": "胜",
+              "odds": 1.47
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 2.7783,
+          "return": 5.56,
+          "net": -2.44,
+          "returnText": "该子票命中返5.56元；整套按全部中奖票相加后减8元"
+        },
+        {
+          "id": "exact-equal-2",
+          "name": "子票2",
+          "passType": "2串1",
+          "selectionText": "周五007 平 × 周五011 胜",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "key": "d",
+              "label": "平",
+              "odds": 3.25
+            },
+            {
+              "number": "周五011",
+              "market": "HAD",
+              "key": "h",
+              "label": "胜",
+              "odds": 1.47
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 4.7775,
+          "return": 9.56,
+          "net": 1.56,
+          "returnText": "该子票命中返9.56元；整套按全部中奖票相加后减8元"
+        },
+        {
+          "id": "exact-equal-3",
+          "name": "子票3",
+          "passType": "2串1",
+          "selectionText": "周五007 胜 × 周五011 主-1 让平",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "key": "h",
+              "label": "胜",
+              "odds": 1.89
+            },
+            {
+              "number": "周五011",
+              "market": "HHAD",
+              "key": "d",
+              "label": "让平",
+              "odds": 3.05
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 5.7645,
+          "return": 11.53,
+          "net": 3.53,
+          "returnText": "该子票命中返11.53元；整套按全部中奖票相加后减8元"
+        },
+        {
+          "id": "exact-equal-4",
+          "name": "子票4",
+          "passType": "2串1",
+          "selectionText": "周五007 平 × 周五011 主-1 让平",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "key": "d",
+              "label": "平",
+              "odds": 3.25
+            },
+            {
+              "number": "周五011",
+              "market": "HHAD",
+              "key": "d",
+              "label": "让平",
+              "odds": 3.05
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 9.9125,
+          "return": 19.83,
+          "net": 11.83,
+          "returnText": "该子票命中返19.83元；整套按全部中奖票相加后减8元"
+        }
+      ]
+    },
+    {
+      "id": "half-singles-parlay-equal",
+      "totalCost": 6,
+      "combinationCount": 3,
+      "betCount": 3,
+      "scenarios": [
+        {
+          "condition": "仅007平胜命中",
+          "return": 8.6,
+          "net": 2.6,
+          "singlesHit": 1,
+          "parlayHit": false
+        },
+        {
+          "condition": "仅012平胜命中",
+          "return": 8.1,
+          "net": 2.1,
+          "singlesHit": 1,
+          "parlayHit": false
+        },
+        {
+          "condition": "两场平胜都中",
+          "return": 51.53,
+          "net": 45.53,
+          "singlesHit": 2,
+          "parlayHit": true
+        },
+        {
+          "condition": "两场均不中",
+          "return": 0,
+          "net": -6,
+          "singlesHit": 0,
+          "parlayHit": false
+        }
+      ],
+      "subTickets": [
+        {
+          "id": "half-A",
+          "name": "007平胜单关",
+          "passType": "单关",
+          "selectionText": "周五007 平胜",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAFU",
+              "handicap": 0,
+              "key": "dh",
+              "label": "平胜",
+              "odds": 4.3
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 4.3,
+          "return": 8.6,
+          "returnText": "该子票命中返8.6元；整套按全部中奖票相加后减6元",
+          "net": 2.6
+        },
+        {
+          "id": "half-B",
+          "name": "012平胜单关",
+          "passType": "单关",
+          "selectionText": "周五012 平胜",
+          "selections": [
+            {
+              "number": "周五012",
+              "market": "HAFU",
+              "handicap": 0,
+              "key": "dh",
+              "label": "平胜",
+              "odds": 4.05
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 4.05,
+          "return": 8.1,
+          "returnText": "该子票命中返8.1元；整套按全部中奖票相加后减6元",
+          "net": 2.1
+        },
+        {
+          "id": "half-AB",
+          "name": "007×012平胜2串1",
+          "passType": "2串1",
+          "selectionText": "周五007 平胜 × 周五012 平胜",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAFU",
+              "handicap": 0,
+              "key": "dh",
+              "label": "平胜",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "HAFU",
+              "handicap": 0,
+              "key": "dh",
+              "label": "平胜",
+              "odds": 4.05
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 17.415,
+          "return": 34.83,
+          "returnText": "该子票命中返34.83元；整套按全部中奖票相加后减6元",
+          "net": 28.83
+        }
+      ]
+    },
+    {
+      "id": "mixed-dream-equal",
+      "totalCost": 2,
+      "combinationCount": 1,
+      "betCount": 1,
+      "conditionalReturn": {
+        "min": 200.26,
+        "max": 200.26
+      },
+      "conditionalNet": {
+        "min": 198.26,
+        "max": 198.26
+      },
+      "subTickets": [
+        {
+          "id": "mixed-dream-5",
+          "name": "5串1（仅这一张）",
+          "passType": "5串1",
+          "selectionText": "周五002 负 × 周五007 胜 × 周五008 总进球3球 × 周五011 主-1 让平 × 周五012 主-1 让平",
+          "selections": [
+            {
+              "number": "周五002",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "a",
+              "label": "负",
+              "odds": 1.7
+            },
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.89
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "总进球3球",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "d",
+              "label": "让平",
+              "odds": 3.05
+            },
+            {
+              "number": "周五012",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "d",
+              "label": "让平",
+              "odds": 3.05
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 100.12792387,
+          "return": 200.26,
+          "returnText": "子票命中返200.26元，整套减2元",
+          "net": 198.26
+        }
+      ]
+    },
+    {
+      "id": "dream-ttg-equal",
+      "totalCost": 162,
+      "combinationCount": 81,
+      "betCount": 81,
+      "conditionalReturn": {
+        "min": 209.41,
+        "max": 1139.04
+      },
+      "conditionalNet": {
+        "min": 47.41,
+        "max": 977.04
+      },
+      "subTickets": [
+        {
+          "id": "dream-ttg-equal-1",
+          "name": "子票1",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 1 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 245.232225,
+          "return": 490.46,
+          "net": 328.46,
+          "returnText": "子票命中返490.46元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-2",
+          "name": "子票2",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 1 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 151.4669625,
+          "return": 302.93,
+          "net": 140.93,
+          "returnText": "子票命中返302.93元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-3",
+          "name": "子票3",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 1 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 163.48815,
+          "return": 326.98,
+          "net": 164.98,
+          "returnText": "子票命中返326.98元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-4",
+          "name": "子票4",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 2 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 179.6468625,
+          "return": 359.29,
+          "net": 197.29,
+          "returnText": "子票命中返359.29元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-5",
+          "name": "子票5",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 2 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 110.95835625,
+          "return": 221.92,
+          "net": 59.92,
+          "returnText": "子票命中返221.92元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-6",
+          "name": "子票6",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 2 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 119.764575,
+          "return": 239.53,
+          "net": 77.53,
+          "returnText": "子票命中返239.53元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-7",
+          "name": "子票7",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 3 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 205.3107,
+          "return": 410.62,
+          "net": 248.62,
+          "returnText": "子票命中返410.62元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-8",
+          "name": "子票8",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 3 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 126.80955,
+          "return": 253.62,
+          "net": 91.62,
+          "returnText": "子票命中返253.62元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-9",
+          "name": "子票9",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 3 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 136.8738,
+          "return": 273.75,
+          "net": 111.75,
+          "returnText": "子票命中返273.75元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-10",
+          "name": "子票10",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 1 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 231.416325,
+          "return": 462.83,
+          "net": 300.83,
+          "returnText": "子票命中返462.83元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-11",
+          "name": "子票11",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 1 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 142.9336125,
+          "return": 285.87,
+          "net": 123.87,
+          "returnText": "子票命中返285.87元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-12",
+          "name": "子票12",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 1 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 154.27755,
+          "return": 308.56,
+          "net": 146.56,
+          "returnText": "子票命中返308.56元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-13",
+          "name": "子票13",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 2 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 169.5259125,
+          "return": 339.05,
+          "net": 177.05,
+          "returnText": "子票命中返339.05元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-14",
+          "name": "子票14",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 2 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 104.70718125,
+          "return": 209.41,
+          "net": 47.41,
+          "returnText": "子票命中返209.41元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-15",
+          "name": "子票15",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 2 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 113.017275,
+          "return": 226.03,
+          "net": 64.03,
+          "returnText": "子票命中返226.03元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-16",
+          "name": "子票16",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 3 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 193.7439,
+          "return": 387.49,
+          "net": 225.49,
+          "returnText": "子票命中返387.49元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-17",
+          "name": "子票17",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 3 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 119.66535,
+          "return": 239.33,
+          "net": 77.33,
+          "returnText": "子票命中返239.33元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-18",
+          "name": "子票18",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 3 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 129.1626,
+          "return": 258.33,
+          "net": 96.33,
+          "returnText": "子票命中返258.33元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-19",
+          "name": "子票19",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 1 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 338.48955,
+          "return": 676.98,
+          "net": 514.98,
+          "returnText": "子票命中返676.98元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-20",
+          "name": "子票20",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 1 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 209.067075,
+          "return": 418.13,
+          "net": 256.13,
+          "returnText": "子票命中返418.13元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-21",
+          "name": "子票21",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 1 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 225.6597,
+          "return": 451.32,
+          "net": 289.32,
+          "returnText": "子票命中返451.32元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-22",
+          "name": "子票22",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 2 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 247.963275,
+          "return": 495.93,
+          "net": 333.93,
+          "returnText": "子票命中返495.93元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-23",
+          "name": "子票23",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 2 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 153.1537875,
+          "return": 306.31,
+          "net": 144.31,
+          "returnText": "子票命中返306.31元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-24",
+          "name": "子票24",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 2 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 165.30885,
+          "return": 330.62,
+          "net": 168.62,
+          "returnText": "子票命中返330.62元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-25",
+          "name": "子票25",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 3 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 283.3866,
+          "return": 566.77,
+          "net": 404.77,
+          "returnText": "子票命中返566.77元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-26",
+          "name": "子票26",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 3 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 175.0329,
+          "return": 350.07,
+          "net": 188.07,
+          "returnText": "子票命中返350.07元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-27",
+          "name": "子票27",
+          "passType": "4串1",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 3 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 188.9244,
+          "return": 377.85,
+          "net": 215.85,
+          "returnText": "子票命中返377.85元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-28",
+          "name": "子票28",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 1 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 272.48025,
+          "return": 544.96,
+          "net": 382.96,
+          "returnText": "子票命中返544.96元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-29",
+          "name": "子票29",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 1 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 168.296625,
+          "return": 336.59,
+          "net": 174.59,
+          "returnText": "子票命中返336.59元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-30",
+          "name": "子票30",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 1 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 181.6535,
+          "return": 363.31,
+          "net": 201.31,
+          "returnText": "子票命中返363.31元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-31",
+          "name": "子票31",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 2 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 199.607625,
+          "return": 399.22,
+          "net": 237.22,
+          "returnText": "子票命中返399.22元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-32",
+          "name": "子票32",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 2 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 123.2870625,
+          "return": 246.57,
+          "net": 84.57,
+          "returnText": "子票命中返246.57元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-33",
+          "name": "子票33",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 2 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 133.07175,
+          "return": 266.14,
+          "net": 104.14,
+          "returnText": "子票命中返266.14元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-34",
+          "name": "子票34",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 3 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 228.123,
+          "return": 456.25,
+          "net": 294.25,
+          "returnText": "子票命中返456.25元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-35",
+          "name": "子票35",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 3 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 140.8995,
+          "return": 281.8,
+          "net": 119.8,
+          "returnText": "子票命中返281.8元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-36",
+          "name": "子票36",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 3 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 152.082,
+          "return": 304.16,
+          "net": 142.16,
+          "returnText": "子票命中返304.16元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-37",
+          "name": "子票37",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 1 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 257.12925,
+          "return": 514.26,
+          "net": 352.26,
+          "returnText": "子票命中返514.26元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-38",
+          "name": "子票38",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 1 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 158.815125,
+          "return": 317.63,
+          "net": 155.63,
+          "returnText": "子票命中返317.63元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-39",
+          "name": "子票39",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 1 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 171.4195,
+          "return": 342.84,
+          "net": 180.84,
+          "returnText": "子票命中返342.84元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-40",
+          "name": "子票40",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 2 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 188.362125,
+          "return": 376.72,
+          "net": 214.72,
+          "returnText": "子票命中返376.72元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-41",
+          "name": "子票41",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 2 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 116.3413125,
+          "return": 232.68,
+          "net": 70.68,
+          "returnText": "子票命中返232.68元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-42",
+          "name": "子票42",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 2 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 125.57475,
+          "return": 251.15,
+          "net": 89.15,
+          "returnText": "子票命中返251.15元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-43",
+          "name": "子票43",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 3 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 215.271,
+          "return": 430.54,
+          "net": 268.54,
+          "returnText": "子票命中返430.54元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-44",
+          "name": "子票44",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 3 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 132.9615,
+          "return": 265.92,
+          "net": 103.92,
+          "returnText": "子票命中返265.92元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-45",
+          "name": "子票45",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 3 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 143.514,
+          "return": 287.03,
+          "net": 125.03,
+          "returnText": "子票命中返287.03元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-46",
+          "name": "子票46",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 1 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 376.0995,
+          "return": 752.2,
+          "net": 590.2,
+          "returnText": "子票命中返752.2元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-47",
+          "name": "子票47",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 1 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 232.29675,
+          "return": 464.59,
+          "net": 302.59,
+          "returnText": "子票命中返464.59元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-48",
+          "name": "子票48",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 1 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 250.733,
+          "return": 501.47,
+          "net": 339.47,
+          "returnText": "子票命中返501.47元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-49",
+          "name": "子票49",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 2 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 275.51475,
+          "return": 551.03,
+          "net": 389.03,
+          "returnText": "子票命中返551.03元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-50",
+          "name": "子票50",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 2 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 170.170875,
+          "return": 340.34,
+          "net": 178.34,
+          "returnText": "子票命中返340.34元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-51",
+          "name": "子票51",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 2 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 183.6765,
+          "return": 367.35,
+          "net": 205.35,
+          "returnText": "子票命中返367.35元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-52",
+          "name": "子票52",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 3 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 314.874,
+          "return": 629.75,
+          "net": 467.75,
+          "returnText": "子票命中返629.75元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-53",
+          "name": "子票53",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 3 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 194.481,
+          "return": 388.96,
+          "net": 226.96,
+          "returnText": "子票命中返388.96元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-54",
+          "name": "子票54",
+          "passType": "4串1",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 3 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 209.916,
+          "return": 419.83,
+          "net": 257.83,
+          "returnText": "子票命中返419.83元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-55",
+          "name": "子票55",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 1 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 412.61295,
+          "return": 825.23,
+          "net": 663.23,
+          "returnText": "子票命中返825.23元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-56",
+          "name": "子票56",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 1 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 254.849175,
+          "return": 509.7,
+          "net": 347.7,
+          "returnText": "子票命中返509.7元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-57",
+          "name": "子票57",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 1 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 275.0753,
+          "return": 550.15,
+          "net": 388.15,
+          "returnText": "子票命中返550.15元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-58",
+          "name": "子票58",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 2 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 302.262975,
+          "return": 604.53,
+          "net": 442.53,
+          "returnText": "子票命中返604.53元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-59",
+          "name": "子票59",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 2 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 186.6918375,
+          "return": 373.38,
+          "net": 211.38,
+          "returnText": "子票命中返373.38元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-60",
+          "name": "子票60",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 2 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 201.50865,
+          "return": 403.02,
+          "net": 241.02,
+          "returnText": "子票命中返403.02元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-61",
+          "name": "子票61",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 3 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 345.4434,
+          "return": 690.89,
+          "net": 528.89,
+          "returnText": "子票命中返690.89元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-62",
+          "name": "子票62",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 3 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 213.3621,
+          "return": 426.72,
+          "net": 264.72,
+          "returnText": "子票命中返426.72元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-63",
+          "name": "子票63",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 3 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 230.2956,
+          "return": 460.59,
+          "net": 298.59,
+          "returnText": "子票命中返460.59元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-64",
+          "name": "子票64",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 1 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 389.36715,
+          "return": 778.73,
+          "net": 616.73,
+          "returnText": "子票命中返778.73元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-65",
+          "name": "子票65",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 1 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 240.491475,
+          "return": 480.98,
+          "net": 318.98,
+          "returnText": "子票命中返480.98元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-66",
+          "name": "子票66",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 1 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 259.5781,
+          "return": 519.16,
+          "net": 357.16,
+          "returnText": "子票命中返519.16元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-67",
+          "name": "子票67",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 2 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 285.234075,
+          "return": 570.47,
+          "net": 408.47,
+          "returnText": "子票命中返570.47元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-68",
+          "name": "子票68",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 2 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 176.1739875,
+          "return": 352.35,
+          "net": 190.35,
+          "returnText": "子票命中返352.35元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-69",
+          "name": "子票69",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 2 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 190.15605,
+          "return": 380.31,
+          "net": 218.31,
+          "returnText": "子票命中返380.31元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-70",
+          "name": "子票70",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 3 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 325.9818,
+          "return": 651.96,
+          "net": 489.96,
+          "returnText": "子票命中返651.96元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-71",
+          "name": "子票71",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 3 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 201.3417,
+          "return": 402.68,
+          "net": 240.68,
+          "returnText": "子票命中返402.68元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-72",
+          "name": "子票72",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 3 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 217.3212,
+          "return": 434.64,
+          "net": 272.64,
+          "returnText": "子票命中返434.64元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-73",
+          "name": "子票73",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 1 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 569.5221,
+          "return": 1139.04,
+          "net": 977.04,
+          "returnText": "子票命中返1139.04元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-74",
+          "name": "子票74",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 1 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 351.76365,
+          "return": 703.53,
+          "net": 541.53,
+          "returnText": "子票命中返703.53元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-75",
+          "name": "子票75",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 1 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 379.6814,
+          "return": 759.36,
+          "net": 597.36,
+          "returnText": "子票命中返759.36元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-76",
+          "name": "子票76",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 2 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 417.20805,
+          "return": 834.42,
+          "net": 672.42,
+          "returnText": "子票命中返834.42元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-77",
+          "name": "子票77",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 2 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 257.687325,
+          "return": 515.37,
+          "net": 353.37,
+          "returnText": "子票命中返515.37元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-78",
+          "name": "子票78",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 2 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 278.1387,
+          "return": 556.28,
+          "net": 394.28,
+          "returnText": "子票命中返556.28元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-79",
+          "name": "子票79",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 3 × 周五012 1",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 476.8092,
+          "return": 953.62,
+          "net": 791.62,
+          "returnText": "子票命中返953.62元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-80",
+          "name": "子票80",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 3 × 周五012 2",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 294.4998,
+          "return": 589,
+          "net": 427,
+          "returnText": "子票命中返589元，整套减162元"
+        },
+        {
+          "id": "dream-ttg-equal-81",
+          "name": "子票81",
+          "passType": "4串1",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 3 × 周五012 3",
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ],
+          "stake": 2,
+          "unitStake": 2,
+          "multiplier": 1,
+          "odds": 317.8728,
+          "return": 635.75,
+          "net": 473.75,
+          "returnText": "子票命中返635.75元，整套减162元"
+        }
+      ]
+    }
+  ],
+  "coreTotalCost": 8,
+  "optionalSpeculativeCost": 178,
+  "allPlansCost": 186,
+  "coreStructureAudit": [
+    {
+      "pair": "周五006[胜] × 周五003[胜/平]",
+      "multiples": [
+        1.11925,
+        2.14775
+      ]
+    },
+    {
+      "pair": "周五008[胜] × 周五012[主-1 让平/让负]",
+      "multiples": [
+        3.105,
+        2.484
+      ]
+    }
+  ]
+}
