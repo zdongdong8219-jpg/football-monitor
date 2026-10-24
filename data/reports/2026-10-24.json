@@ -1,16 +1,16 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T06:30:15.211Z",
-  "generatedAt": "2026-10-24T06:30:15.211Z",
+  "publishedAt": "2026-10-24T06:37:55.176Z",
+  "generatedAt": "2026-10-24T06:37:55.176Z",
   "status": "final-reviewed-one-core",
-  "edition": "2026-10-24早场原票＋中晚场2.0/3.0/博单补发版",
+  "edition": "2026-10-24早场原票＋中晚场完整观察版",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": true,
   "completed": true,
   "mobileVerified": false,
   "dataAsOf": "2026-10-24T02:52:07.73Z",
-  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。",
+  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。",
   "recommendations": [
     {
       "id": "2026-10-24-early-speculative-003-004",
@@ -313,6 +313,3138 @@
         }
       ],
       "risk": "三腿必须全中；006与023均属高波动场，029存在短休和连续失球风险。"
+    },
+    {
+      "id": "2026-10-24-late-all-goals-dream",
+      "name": "晚场梦想串 · 全进球数4串1",
+      "category": "dream_cover",
+      "sessionLabel": "晚场",
+      "tier": "博单",
+      "passType": "4串1",
+      "passSizes": [
+        4
+      ],
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周六006[2球/3球/4球] × 周六016[2球/3球/4球] × 周六024[3球/4球/5球] × 周六029[2球/3球/4球]",
+      "combinationCount": 81,
+      "betCount": 81,
+      "unitStake": 2,
+      "multiplier": 1,
+      "totalCost": 162,
+      "oddsText": "81注｜返还约308.27–1316.11元",
+      "structureText": "4场×每场3个总进球＝3^4＝81注",
+      "effectiveReturnText": "全部4场均落入覆盖项时，仅对应1张子票中奖；返还约308.27–1316.11元",
+      "coverageText": "覆盖006的2/3/4球、016的2/3/4球、024的3/4/5球、029的2/3/4球。",
+      "legs": [
+        {
+          "number": "周六006",
+          "teams": "维拉 vs 曼城",
+          "market": "总进球",
+          "selection": "2球＋3球＋4球",
+          "options": [
+            {
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "label": "4球",
+              "odds": 4.4
+            }
+          ],
+          "stars": 1,
+          "selectionReason": "曼城攻击上限高，但维拉具备主场反击与破门能力，覆盖2/3/4球。"
+        },
+        {
+          "number": "周六016",
+          "teams": "阿森纳 vs 埃弗顿",
+          "market": "总进球",
+          "selection": "2球＋3球＋4球",
+          "options": [
+            {
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stars": 1,
+          "selectionReason": "阿森纳主场持续创造，埃弗顿低位与定位球可改变总量，覆盖2/3/4球。"
+        },
+        {
+          "number": "周六024",
+          "teams": "多特蒙德 vs 法兰克福",
+          "market": "总进球",
+          "selection": "3球＋4球＋5球",
+          "options": [
+            {
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "label": "5球",
+              "odds": 5.75
+            }
+          ],
+          "stars": 1,
+          "selectionReason": "多特主场攻击与双方近期防守反证并存，分布上移至3/4/5球。"
+        },
+        {
+          "number": "周六029",
+          "teams": "吉维森特 vs 波尔图",
+          "market": "总进球",
+          "selection": "2球＋3球＋4球",
+          "options": [
+            {
+              "label": "2球",
+              "odds": 3.5
+            },
+            {
+              "label": "3球",
+              "odds": 3.5
+            },
+            {
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stars": 1,
+          "selectionReason": "波尔图攻击优势明确但连续失球，覆盖2/3/4球。"
+        }
+      ],
+      "subTickets": [
+        {
+          "id": "dream-goals-1",
+          "name": "子票1",
+          "selectionText": "周六006[2球] × 周六016[2球] × 周六024[3球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 195.804,
+          "return": 391.61,
+          "returnText": "约391.61元"
+        },
+        {
+          "id": "dream-goals-2",
+          "name": "子票2",
+          "selectionText": "周六006[2球] × 周六016[2球] × 周六024[3球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 195.804,
+          "return": 391.61,
+          "returnText": "约391.61元"
+        },
+        {
+          "id": "dream-goals-3",
+          "name": "子票3",
+          "selectionText": "周六006[2球] × 周六016[2球] × 周六024[3球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 285.3144,
+          "return": 570.63,
+          "returnText": "约570.63元"
+        },
+        {
+          "id": "dream-goals-4",
+          "name": "子票4",
+          "selectionText": "周六006[2球] × 周六016[2球] × 周六024[4球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 211.68,
+          "return": 423.36,
+          "returnText": "约423.36元"
+        },
+        {
+          "id": "dream-goals-5",
+          "name": "子票5",
+          "selectionText": "周六006[2球] × 周六016[2球] × 周六024[4球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 211.68,
+          "return": 423.36,
+          "returnText": "约423.36元"
+        },
+        {
+          "id": "dream-goals-6",
+          "name": "子票6",
+          "selectionText": "周六006[2球] × 周六016[2球] × 周六024[4球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 308.448,
+          "return": 616.9,
+          "returnText": "约616.90元"
+        },
+        {
+          "id": "dream-goals-7",
+          "name": "子票7",
+          "selectionText": "周六006[2球] × 周六016[2球] × 周六024[5球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 304.29,
+          "return": 608.58,
+          "returnText": "约608.58元"
+        },
+        {
+          "id": "dream-goals-8",
+          "name": "子票8",
+          "selectionText": "周六006[2球] × 周六016[2球] × 周六024[5球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 304.29,
+          "return": 608.58,
+          "returnText": "约608.58元"
+        },
+        {
+          "id": "dream-goals-9",
+          "name": "子票9",
+          "selectionText": "周六006[2球] × 周六016[2球] × 周六024[5球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 443.394,
+          "return": 886.79,
+          "returnText": "约886.79元"
+        },
+        {
+          "id": "dream-goals-10",
+          "name": "子票10",
+          "selectionText": "周六006[2球] × 周六016[3球] × 周六024[3球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 187.6455,
+          "return": 375.29,
+          "returnText": "约375.29元"
+        },
+        {
+          "id": "dream-goals-11",
+          "name": "子票11",
+          "selectionText": "周六006[2球] × 周六016[3球] × 周六024[3球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 187.6455,
+          "return": 375.29,
+          "returnText": "约375.29元"
+        },
+        {
+          "id": "dream-goals-12",
+          "name": "子票12",
+          "selectionText": "周六006[2球] × 周六016[3球] × 周六024[3球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 273.4263,
+          "return": 546.85,
+          "returnText": "约546.85元"
+        },
+        {
+          "id": "dream-goals-13",
+          "name": "子票13",
+          "selectionText": "周六006[2球] × 周六016[3球] × 周六024[4球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 202.86,
+          "return": 405.72,
+          "returnText": "约405.72元"
+        },
+        {
+          "id": "dream-goals-14",
+          "name": "子票14",
+          "selectionText": "周六006[2球] × 周六016[3球] × 周六024[4球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 202.86,
+          "return": 405.72,
+          "returnText": "约405.72元"
+        },
+        {
+          "id": "dream-goals-15",
+          "name": "子票15",
+          "selectionText": "周六006[2球] × 周六016[3球] × 周六024[4球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 295.596,
+          "return": 591.19,
+          "returnText": "约591.19元"
+        },
+        {
+          "id": "dream-goals-16",
+          "name": "子票16",
+          "selectionText": "周六006[2球] × 周六016[3球] × 周六024[5球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 291.6113,
+          "return": 583.22,
+          "returnText": "约583.22元"
+        },
+        {
+          "id": "dream-goals-17",
+          "name": "子票17",
+          "selectionText": "周六006[2球] × 周六016[3球] × 周六024[5球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 291.6113,
+          "return": 583.22,
+          "returnText": "约583.22元"
+        },
+        {
+          "id": "dream-goals-18",
+          "name": "子票18",
+          "selectionText": "周六006[2球] × 周六016[3球] × 周六024[5球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 424.9193,
+          "return": 849.84,
+          "returnText": "约849.84元"
+        },
+        {
+          "id": "dream-goals-19",
+          "name": "子票19",
+          "selectionText": "周六006[2球] × 周六016[4球] × 周六024[3球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 277.389,
+          "return": 554.78,
+          "returnText": "约554.78元"
+        },
+        {
+          "id": "dream-goals-20",
+          "name": "子票20",
+          "selectionText": "周六006[2球] × 周六016[4球] × 周六024[3球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 277.389,
+          "return": 554.78,
+          "returnText": "约554.78元"
+        },
+        {
+          "id": "dream-goals-21",
+          "name": "子票21",
+          "selectionText": "周六006[2球] × 周六016[4球] × 周六024[3球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 404.1954,
+          "return": 808.39,
+          "returnText": "约808.39元"
+        },
+        {
+          "id": "dream-goals-22",
+          "name": "子票22",
+          "selectionText": "周六006[2球] × 周六016[4球] × 周六024[4球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 299.88,
+          "return": 599.76,
+          "returnText": "约599.76元"
+        },
+        {
+          "id": "dream-goals-23",
+          "name": "子票23",
+          "selectionText": "周六006[2球] × 周六016[4球] × 周六024[4球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 299.88,
+          "return": 599.76,
+          "returnText": "约599.76元"
+        },
+        {
+          "id": "dream-goals-24",
+          "name": "子票24",
+          "selectionText": "周六006[2球] × 周六016[4球] × 周六024[4球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 436.968,
+          "return": 873.94,
+          "returnText": "约873.94元"
+        },
+        {
+          "id": "dream-goals-25",
+          "name": "子票25",
+          "selectionText": "周六006[2球] × 周六016[4球] × 周六024[5球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 431.0775,
+          "return": 862.15,
+          "returnText": "约862.15元"
+        },
+        {
+          "id": "dream-goals-26",
+          "name": "子票26",
+          "selectionText": "周六006[2球] × 周六016[4球] × 周六024[5球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 431.0775,
+          "return": 862.15,
+          "returnText": "约862.15元"
+        },
+        {
+          "id": "dream-goals-27",
+          "name": "子票27",
+          "selectionText": "周六006[2球] × 周六016[4球] × 周六024[5球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 4.2
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 628.1415,
+          "return": 1256.28,
+          "returnText": "约1256.28元"
+        },
+        {
+          "id": "dream-goals-28",
+          "name": "子票28",
+          "selectionText": "周六006[3球] × 周六016[2球] × 周六024[3球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 160.839,
+          "return": 321.68,
+          "returnText": "约321.68元"
+        },
+        {
+          "id": "dream-goals-29",
+          "name": "子票29",
+          "selectionText": "周六006[3球] × 周六016[2球] × 周六024[3球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 160.839,
+          "return": 321.68,
+          "returnText": "约321.68元"
+        },
+        {
+          "id": "dream-goals-30",
+          "name": "子票30",
+          "selectionText": "周六006[3球] × 周六016[2球] × 周六024[3球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 234.3654,
+          "return": 468.73,
+          "returnText": "约468.73元"
+        },
+        {
+          "id": "dream-goals-31",
+          "name": "子票31",
+          "selectionText": "周六006[3球] × 周六016[2球] × 周六024[4球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 173.88,
+          "return": 347.76,
+          "returnText": "约347.76元"
+        },
+        {
+          "id": "dream-goals-32",
+          "name": "子票32",
+          "selectionText": "周六006[3球] × 周六016[2球] × 周六024[4球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 173.88,
+          "return": 347.76,
+          "returnText": "约347.76元"
+        },
+        {
+          "id": "dream-goals-33",
+          "name": "子票33",
+          "selectionText": "周六006[3球] × 周六016[2球] × 周六024[4球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 253.368,
+          "return": 506.74,
+          "returnText": "约506.74元"
+        },
+        {
+          "id": "dream-goals-34",
+          "name": "子票34",
+          "selectionText": "周六006[3球] × 周六016[2球] × 周六024[5球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 249.9525,
+          "return": 499.91,
+          "returnText": "约499.91元"
+        },
+        {
+          "id": "dream-goals-35",
+          "name": "子票35",
+          "selectionText": "周六006[3球] × 周六016[2球] × 周六024[5球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 249.9525,
+          "return": 499.91,
+          "returnText": "约499.91元"
+        },
+        {
+          "id": "dream-goals-36",
+          "name": "子票36",
+          "selectionText": "周六006[3球] × 周六016[2球] × 周六024[5球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 364.2165,
+          "return": 728.43,
+          "returnText": "约728.43元"
+        },
+        {
+          "id": "dream-goals-37",
+          "name": "子票37",
+          "selectionText": "周六006[3球] × 周六016[3球] × 周六024[3球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 154.1374,
+          "return": 308.27,
+          "returnText": "约308.27元"
+        },
+        {
+          "id": "dream-goals-38",
+          "name": "子票38",
+          "selectionText": "周六006[3球] × 周六016[3球] × 周六024[3球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 154.1374,
+          "return": 308.27,
+          "returnText": "约308.27元"
+        },
+        {
+          "id": "dream-goals-39",
+          "name": "子票39",
+          "selectionText": "周六006[3球] × 周六016[3球] × 周六024[3球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 224.6002,
+          "return": 449.2,
+          "returnText": "约449.20元"
+        },
+        {
+          "id": "dream-goals-40",
+          "name": "子票40",
+          "selectionText": "周六006[3球] × 周六016[3球] × 周六024[4球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 166.635,
+          "return": 333.27,
+          "returnText": "约333.27元"
+        },
+        {
+          "id": "dream-goals-41",
+          "name": "子票41",
+          "selectionText": "周六006[3球] × 周六016[3球] × 周六024[4球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 166.635,
+          "return": 333.27,
+          "returnText": "约333.27元"
+        },
+        {
+          "id": "dream-goals-42",
+          "name": "子票42",
+          "selectionText": "周六006[3球] × 周六016[3球] × 周六024[4球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 242.811,
+          "return": 485.62,
+          "returnText": "约485.62元"
+        },
+        {
+          "id": "dream-goals-43",
+          "name": "子票43",
+          "selectionText": "周六006[3球] × 周六016[3球] × 周六024[5球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 239.5378,
+          "return": 479.08,
+          "returnText": "约479.08元"
+        },
+        {
+          "id": "dream-goals-44",
+          "name": "子票44",
+          "selectionText": "周六006[3球] × 周六016[3球] × 周六024[5球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 239.5378,
+          "return": 479.08,
+          "returnText": "约479.08元"
+        },
+        {
+          "id": "dream-goals-45",
+          "name": "子票45",
+          "selectionText": "周六006[3球] × 周六016[3球] × 周六024[5球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 349.0408,
+          "return": 698.08,
+          "returnText": "约698.08元"
+        },
+        {
+          "id": "dream-goals-46",
+          "name": "子票46",
+          "selectionText": "周六006[3球] × 周六016[4球] × 周六024[3球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 227.8553,
+          "return": 455.71,
+          "returnText": "约455.71元"
+        },
+        {
+          "id": "dream-goals-47",
+          "name": "子票47",
+          "selectionText": "周六006[3球] × 周六016[4球] × 周六024[3球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 227.8553,
+          "return": 455.71,
+          "returnText": "约455.71元"
+        },
+        {
+          "id": "dream-goals-48",
+          "name": "子票48",
+          "selectionText": "周六006[3球] × 周六016[4球] × 周六024[3球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 332.0177,
+          "return": 664.04,
+          "returnText": "约664.04元"
+        },
+        {
+          "id": "dream-goals-49",
+          "name": "子票49",
+          "selectionText": "周六006[3球] × 周六016[4球] × 周六024[4球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 246.33,
+          "return": 492.66,
+          "returnText": "约492.66元"
+        },
+        {
+          "id": "dream-goals-50",
+          "name": "子票50",
+          "selectionText": "周六006[3球] × 周六016[4球] × 周六024[4球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 246.33,
+          "return": 492.66,
+          "returnText": "约492.66元"
+        },
+        {
+          "id": "dream-goals-51",
+          "name": "子票51",
+          "selectionText": "周六006[3球] × 周六016[4球] × 周六024[4球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 358.938,
+          "return": 717.88,
+          "returnText": "约717.88元"
+        },
+        {
+          "id": "dream-goals-52",
+          "name": "子票52",
+          "selectionText": "周六006[3球] × 周六016[4球] × 周六024[5球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 354.0994,
+          "return": 708.2,
+          "returnText": "约708.20元"
+        },
+        {
+          "id": "dream-goals-53",
+          "name": "子票53",
+          "selectionText": "周六006[3球] × 周六016[4球] × 周六024[5球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 354.0994,
+          "return": 708.2,
+          "returnText": "约708.20元"
+        },
+        {
+          "id": "dream-goals-54",
+          "name": "子票54",
+          "selectionText": "周六006[3球] × 周六016[4球] × 周六024[5球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 515.9734,
+          "return": 1031.95,
+          "returnText": "约1031.95元"
+        },
+        {
+          "id": "dream-goals-55",
+          "name": "子票55",
+          "selectionText": "周六006[4球] × 周六016[2球] × 周六024[3球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 205.128,
+          "return": 410.26,
+          "returnText": "约410.26元"
+        },
+        {
+          "id": "dream-goals-56",
+          "name": "子票56",
+          "selectionText": "周六006[4球] × 周六016[2球] × 周六024[3球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 205.128,
+          "return": 410.26,
+          "returnText": "约410.26元"
+        },
+        {
+          "id": "dream-goals-57",
+          "name": "子票57",
+          "selectionText": "周六006[4球] × 周六016[2球] × 周六024[3球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 298.9008,
+          "return": 597.8,
+          "returnText": "约597.80元"
+        },
+        {
+          "id": "dream-goals-58",
+          "name": "子票58",
+          "selectionText": "周六006[4球] × 周六016[2球] × 周六024[4球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 221.76,
+          "return": 443.52,
+          "returnText": "约443.52元"
+        },
+        {
+          "id": "dream-goals-59",
+          "name": "子票59",
+          "selectionText": "周六006[4球] × 周六016[2球] × 周六024[4球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 221.76,
+          "return": 443.52,
+          "returnText": "约443.52元"
+        },
+        {
+          "id": "dream-goals-60",
+          "name": "子票60",
+          "selectionText": "周六006[4球] × 周六016[2球] × 周六024[4球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 323.136,
+          "return": 646.27,
+          "returnText": "约646.27元"
+        },
+        {
+          "id": "dream-goals-61",
+          "name": "子票61",
+          "selectionText": "周六006[4球] × 周六016[2球] × 周六024[5球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 318.78,
+          "return": 637.56,
+          "returnText": "约637.56元"
+        },
+        {
+          "id": "dream-goals-62",
+          "name": "子票62",
+          "selectionText": "周六006[4球] × 周六016[2球] × 周六024[5球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 318.78,
+          "return": 637.56,
+          "returnText": "约637.56元"
+        },
+        {
+          "id": "dream-goals-63",
+          "name": "子票63",
+          "selectionText": "周六006[4球] × 周六016[2球] × 周六024[5球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.6
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 464.508,
+          "return": 929.02,
+          "returnText": "约929.02元"
+        },
+        {
+          "id": "dream-goals-64",
+          "name": "子票64",
+          "selectionText": "周六006[4球] × 周六016[3球] × 周六024[3球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 196.581,
+          "return": 393.16,
+          "returnText": "约393.16元"
+        },
+        {
+          "id": "dream-goals-65",
+          "name": "子票65",
+          "selectionText": "周六006[4球] × 周六016[3球] × 周六024[3球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 196.581,
+          "return": 393.16,
+          "returnText": "约393.16元"
+        },
+        {
+          "id": "dream-goals-66",
+          "name": "子票66",
+          "selectionText": "周六006[4球] × 周六016[3球] × 周六024[3球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 286.4466,
+          "return": 572.89,
+          "returnText": "约572.89元"
+        },
+        {
+          "id": "dream-goals-67",
+          "name": "子票67",
+          "selectionText": "周六006[4球] × 周六016[3球] × 周六024[4球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 212.52,
+          "return": 425.04,
+          "returnText": "约425.04元"
+        },
+        {
+          "id": "dream-goals-68",
+          "name": "子票68",
+          "selectionText": "周六006[4球] × 周六016[3球] × 周六024[4球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 212.52,
+          "return": 425.04,
+          "returnText": "约425.04元"
+        },
+        {
+          "id": "dream-goals-69",
+          "name": "子票69",
+          "selectionText": "周六006[4球] × 周六016[3球] × 周六024[4球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 309.672,
+          "return": 619.34,
+          "returnText": "约619.34元"
+        },
+        {
+          "id": "dream-goals-70",
+          "name": "子票70",
+          "selectionText": "周六006[4球] × 周六016[3球] × 周六024[5球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 305.4975,
+          "return": 611,
+          "returnText": "约611.00元"
+        },
+        {
+          "id": "dream-goals-71",
+          "name": "子票71",
+          "selectionText": "周六006[4球] × 周六016[3球] × 周六024[5球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 305.4975,
+          "return": 611,
+          "returnText": "约611.00元"
+        },
+        {
+          "id": "dream-goals-72",
+          "name": "子票72",
+          "selectionText": "周六006[4球] × 周六016[3球] × 周六024[5球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.45
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 445.1535,
+          "return": 890.31,
+          "returnText": "约890.31元"
+        },
+        {
+          "id": "dream-goals-73",
+          "name": "子票73",
+          "selectionText": "周六006[4球] × 周六016[4球] × 周六024[3球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 290.598,
+          "return": 581.2,
+          "returnText": "约581.20元"
+        },
+        {
+          "id": "dream-goals-74",
+          "name": "子票74",
+          "selectionText": "周六006[4球] × 周六016[4球] × 周六024[3球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 290.598,
+          "return": 581.2,
+          "returnText": "约581.20元"
+        },
+        {
+          "id": "dream-goals-75",
+          "name": "子票75",
+          "selectionText": "周六006[4球] × 周六016[4球] × 周六024[3球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.7
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 423.4428,
+          "return": 846.89,
+          "returnText": "约846.89元"
+        },
+        {
+          "id": "dream-goals-76",
+          "name": "子票76",
+          "selectionText": "周六006[4球] × 周六016[4球] × 周六024[4球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 314.16,
+          "return": 628.32,
+          "returnText": "约628.32元"
+        },
+        {
+          "id": "dream-goals-77",
+          "name": "子票77",
+          "selectionText": "周六006[4球] × 周六016[4球] × 周六024[4球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 314.16,
+          "return": 628.32,
+          "returnText": "约628.32元"
+        },
+        {
+          "id": "dream-goals-78",
+          "name": "子票78",
+          "selectionText": "周六006[4球] × 周六016[4球] × 周六024[4球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 457.776,
+          "return": 915.55,
+          "returnText": "约915.55元"
+        },
+        {
+          "id": "dream-goals-79",
+          "name": "子票79",
+          "selectionText": "周六006[4球] × 周六016[4球] × 周六024[5球] × 周六029[2球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "2球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 451.605,
+          "return": 903.21,
+          "returnText": "约903.21元"
+        },
+        {
+          "id": "dream-goals-80",
+          "name": "子票80",
+          "selectionText": "周六006[4球] × 周六016[4球] × 周六024[5球] × 周六029[3球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "3球",
+              "odds": 3.5
+            }
+          ],
+          "stake": 2,
+          "odds": 451.605,
+          "return": 903.21,
+          "returnText": "约903.21元"
+        },
+        {
+          "id": "dream-goals-81",
+          "name": "子票81",
+          "selectionText": "周六006[4球] × 周六016[4球] × 周六024[5球] × 周六029[4球]",
+          "selections": [
+            {
+              "number": "周六006",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 4.4
+            },
+            {
+              "number": "周六016",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            },
+            {
+              "number": "周六024",
+              "market": "总进球",
+              "label": "5球",
+              "odds": 5.75
+            },
+            {
+              "number": "周六029",
+              "market": "总进球",
+              "label": "4球",
+              "odds": 5.1
+            }
+          ],
+          "stake": 2,
+          "odds": 658.053,
+          "return": 1316.11,
+          "returnText": "约1316.11元"
+        }
+      ],
+      "conditionalReturn": {
+        "min": 308.27,
+        "max": 1316.11
+      },
+      "conditionalNet": {
+        "min": 146.27,
+        "max": 1154.11
+      },
+      "risk": "任一场实际总进球不在所选三项内，81注全部失效；这是梦想博单，不属于2.0/3.0主推。"
+    },
+    {
+      "id": "2026-10-24-late-precise-020-006",
+      "name": "晚场双选2串1 · 博精准",
+      "category": "two",
+      "sessionLabel": "晚场",
+      "tier": "博单",
+      "passType": "2串1",
+      "passSizes": [
+        2
+      ],
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周六020[胜＋主-1让平] × 周六006[负]",
+      "combinationCount": 2,
+      "totalCost": 4,
+      "oddsText": "2注：2.22倍 / 5.48倍",
+      "structureText": "020跨市场双选×006单选＝2注",
+      "effectiveReturnText": "020胜分支返还约4.44元；020恰赢1球让平分支返还约10.95元",
+      "coverageText": "020普通胜与主-1让平为跨市场博精准，不是传统保险；006必须客胜。",
+      "legs": [
+        {
+          "number": "周六020",
+          "market": "胜平负＋让球胜平负(-1)",
+          "selection": "胜＋让平",
+          "odds": [
+            1.5,
+            3.7
+          ],
+          "stars": 1,
+          "selectionReason": "乌德勒支主场进攻占优；博其赢球，恰赢1球时两项重叠。"
+        },
+        {
+          "number": "周六006",
+          "market": "胜平负",
+          "selection": "负",
+          "odds": 1.48,
+          "stars": 1,
+          "selectionReason": "曼城进攻上限与近期连胜支持客胜，维拉反击是主要风险。"
+        }
+      ],
+      "subTickets": [
+        {
+          "name": "子票A",
+          "selectionText": "周六020胜 × 周六006负",
+          "stake": 2,
+          "odds": 2.22,
+          "returnText": "约4.44元"
+        },
+        {
+          "name": "子票B",
+          "selectionText": "周六020主-1让平 × 周六006负",
+          "stake": 2,
+          "odds": 5.476,
+          "returnText": "约10.95元"
+        }
+      ],
+      "risk": "006不胜则两票全失；020平负也两票全失。仅作观察博单。"
+    },
+    {
+      "id": "2026-10-24-late-half-016-029",
+      "name": "晚场半全场2串1 · 观察",
+      "category": "half_full",
+      "sessionLabel": "晚场",
+      "tier": "博单",
+      "passType": "2串1",
+      "passSizes": [
+        2
+      ],
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周六016[平胜] × 周六029[平负]",
+      "combinationCount": 1,
+      "totalCost": 2,
+      "oddsText": "整套返还约13.51倍",
+      "structureText": "两个半场平剧本单选，一张2串1",
+      "effectiveReturnText": "两场均半场平且强队最终取胜时返还约13.51倍",
+      "coverageText": "半场任一方领先即整票失效。",
+      "legs": [
+        {
+          "number": "周六016",
+          "market": "半全场",
+          "selection": "平胜",
+          "odds": 3.65,
+          "stars": 1,
+          "selectionReason": "埃弗顿低位可能拖慢上半场，阿森纳阵容深度支持下半场破局。"
+        },
+        {
+          "number": "周六029",
+          "market": "半全场",
+          "selection": "平负",
+          "odds": 3.7,
+          "stars": 1,
+          "selectionReason": "吉维森特主场先守，波尔图阵容深度支持后程取胜。"
+        }
+      ],
+      "subTickets": [
+        {
+          "name": "半全场子票",
+          "selectionText": "周六016平胜 × 周六029平负",
+          "stake": 2,
+          "odds": 13.505,
+          "returnText": "约27.01元"
+        }
+      ],
+      "risk": "依赖两场半场均平的精确进程，只作观察，不属于核心串。"
+    },
+    {
+      "id": "2026-10-24-late-mixed-dream",
+      "name": "晚场梦想单 · 五场混合单选",
+      "category": "dream_single",
+      "sessionLabel": "晚场",
+      "tier": "博单",
+      "passType": "5串1",
+      "passSizes": [
+        5
+      ],
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周六006[负] × 周六020[胜] × 周六023[胜] × 周六024[主-1让胜] × 周六029[负]",
+      "combinationCount": 1,
+      "totalCost": 2,
+      "oddsText": "整套返还约9.14倍",
+      "structureText": "5场混合单选，一张5串1",
+      "effectiveReturnText": "五腿全中返还约9.14倍；任一腿不中无返还",
+      "coverageText": "024要求多特净胜2球以上，其余为普通胜负。",
+      "legs": [
+        {
+          "number": "周六006",
+          "market": "胜平负",
+          "selection": "负",
+          "odds": 1.48,
+          "stars": 1
+        },
+        {
+          "number": "周六020",
+          "market": "胜平负",
+          "selection": "胜",
+          "odds": 1.5,
+          "stars": 1
+        },
+        {
+          "number": "周六023",
+          "market": "胜平负",
+          "selection": "胜",
+          "odds": 1.62,
+          "stars": 1
+        },
+        {
+          "number": "周六024",
+          "market": "让球胜平负(-1)",
+          "selection": "让胜",
+          "odds": 1.99,
+          "stars": 1
+        },
+        {
+          "number": "周六029",
+          "market": "胜平负",
+          "selection": "负",
+          "odds": 1.27,
+          "stars": 1
+        }
+      ],
+      "subTickets": [
+        {
+          "name": "梦想子票",
+          "selectionText": "006负×020胜×023胜×024让胜×029负",
+          "stake": 2,
+          "odds": 9.135,
+          "returnText": "约18.27元"
+        }
+      ],
+      "risk": "五腿必须全中，024净胜球要求最精确；仅用于观察模型博单表现。"
     }
   ],
   "scanTable": [
@@ -1439,7 +4571,7 @@
       "primaryPick": "负",
       "speculative": "无",
       "selection": "负",
-      "goals": "不推",
+      "goals": "2/3/4",
       "halfFull": "不推",
       "score": "不推",
       "stars": 1,
@@ -3466,8 +6598,8 @@
       "primaryPick": "胜",
       "speculative": "无",
       "selection": "胜",
-      "goals": "不推",
-      "halfFull": "不推",
+      "goals": "2/3/4",
+      "halfFull": "平胜",
       "score": "不推",
       "stars": 1,
       "recommended": true,
@@ -4159,7 +7291,7 @@
       "handicap": -1,
       "buy": "胜",
       "primaryPick": "胜",
-      "speculative": "无",
+      "speculative": "胜＋主-1让平",
       "selection": "胜",
       "goals": "不推",
       "halfFull": "不推",
@@ -5047,9 +8179,9 @@
       "handicap": -1,
       "buy": "胜",
       "primaryPick": "胜",
-      "speculative": "无",
+      "speculative": "主-1让胜",
       "selection": "胜",
-      "goals": "不推",
+      "goals": "3/4/5",
       "halfFull": "不推",
       "score": "不推",
       "stars": 0,
@@ -6159,8 +9291,8 @@
       "primaryPick": "负",
       "speculative": "无",
       "selection": "负",
-      "goals": "不推",
-      "halfFull": "不推",
+      "goals": "2/3/4",
+      "halfFull": "平负",
       "score": "不推",
       "stars": 1,
       "recommended": true,
