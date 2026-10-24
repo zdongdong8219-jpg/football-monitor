@@ -1,16 +1,16 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T07:19:01.742Z",
-  "generatedAt": "2026-10-24T07:19:01.742Z",
+  "publishedAt": "2026-10-24T07:30:33.053Z",
+  "generatedAt": "2026-10-24T07:30:33.053Z",
   "status": "final-reviewed-one-core",
-  "edition": "2026-10-24全场次方向＋精选星级更正版",
+  "edition": "2026-10-24全量四项扫盘＋分项星级更正版",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": true,
   "completed": true,
-  "mobileVerified": true,
+  "mobileVerified": false,
   "dataAsOf": "2026-10-24T02:52:07.73Z",
-  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。 扫盘30场现均给出明确方向；低信心方向不自动进入串子。 扫盘星级已收紧：仅12场相对推荐方向显示星，其余方向不加星。",
+  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。 扫盘30场现均给出明确方向；低信心方向不自动进入串子。 扫盘星级已收紧：仅12场相对推荐方向显示星，其余方向不加星。 30场均已补齐方向、3个进球数、2个半全场和3个比分；各项目独立标星。",
   "recommendations": [
     {
       "id": "2026-10-24-early-speculative-003-004",
@@ -3508,9 +3508,9 @@
       "primaryPick": "胜＋平",
       "speculative": "无",
       "selection": "胜＋平",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "goals": "1/2/3",
+      "halfFull": "胜胜/平胜",
+      "score": "1:0/1:1/2:1",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
@@ -3716,7 +3716,9 @@
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:0/1:1/2:1",
+      "halfTimePrediction": "胜胜/平胜"
     },
     {
       "number": "周六002",
@@ -3731,11 +3733,11 @@
       "primaryPick": "胜＋平",
       "speculative": "无",
       "selection": "胜＋平",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "goals": "1/2/3★",
+      "halfFull": "平胜/平平",
+      "score": "1:0/1:1/2:1",
       "stars": 0,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "早场原票",
       "risk": "主胜需要防平，但双选与低赔腿组合后的整套回报过薄；不能为两档硬删平局。",
@@ -3939,7 +3941,9 @@
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:0/1:1/2:1",
+      "halfTimePrediction": "平胜/平平"
     },
     {
       "number": "周六003",
@@ -3954,9 +3958,9 @@
       "primaryPick": "主-1让负",
       "speculative": "无",
       "selection": "主-1让负",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "goals": "1/2/3",
+      "halfFull": "平平/平负",
+      "score": "0:1/1:1/1:2",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
@@ -4162,7 +4166,9 @@
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "0:1/1:1/1:2",
+      "halfTimePrediction": "平平/平负"
     },
     {
       "number": "周六004",
@@ -4177,11 +4183,11 @@
       "primaryPick": "主-1让平＋让负",
       "speculative": "无",
       "selection": "主-1让平＋让负",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "goals": "2/3/4★",
+      "halfFull": "平胜/平平",
+      "score": "1:1/2:1/1:2",
       "stars": 0,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "早场原票",
       "risk": "核心射手存疑且领先后防守不稳，明确排除核心。",
@@ -4385,7 +4391,9 @@
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:1/2:1/1:2",
+      "halfTimePrediction": "平胜/平平"
     },
     {
       "number": "周六005",
@@ -4400,9 +4408,9 @@
       "primaryPick": "平＋负",
       "speculative": "无",
       "selection": "平＋负",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "goals": "2/3/4",
+      "halfFull": "平平/平负",
+      "score": "1:1/1:2/2:2",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
@@ -4608,7 +4616,9 @@
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:1/1:2/2:2",
+      "halfTimePrediction": "平平/平负"
     },
     {
       "number": "周六006",
@@ -4619,14 +4629,14 @@
       "kickoff": "2026-10-24T19:30:00",
       "batch": "B",
       "handicap": 1,
-      "buy": "负",
-      "primaryPick": "负",
+      "buy": "负★",
+      "primaryPick": "负★",
       "speculative": "无",
-      "selection": "负",
-      "goals": "2/3/4",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 1,
+      "selection": "负★",
+      "goals": "2/3/4★",
+      "halfFull": "平负/负负",
+      "score": "1:2/1:3/2:3",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": false,
       "status": "中场已审未入核心",
@@ -4831,7 +4841,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "1:2/1:3/2:3",
+      "halfTimePrediction": "平负/负负"
     },
     {
       "number": "周六007",
@@ -4846,9 +4858,9 @@
       "primaryPick": "主+1让胜",
       "speculative": "无",
       "selection": "主+1让胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "1/2/3",
+      "halfFull": "平平/胜胜",
+      "score": "1:1/1:0/2:1",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
@@ -4861,7 +4873,9 @@
         "verified": false,
         "reason": "官方当前列表缺失"
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:1/1:0/2:1",
+      "halfTimePrediction": "平平/胜胜"
     },
     {
       "number": "周六008",
@@ -4876,9 +4890,9 @@
       "primaryPick": "胜+平",
       "speculative": "无",
       "selection": "胜+平",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "1/2/3",
+      "halfFull": "平胜/平平",
+      "score": "1:0/1:1/2:1",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
@@ -5084,7 +5098,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:0/1:1/2:1",
+      "halfTimePrediction": "平胜/平平"
     },
     {
       "number": "周六009",
@@ -5095,14 +5111,14 @@
       "kickoff": "2026-10-24T21:00:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "胜",
-      "primaryPick": "胜",
+      "buy": "胜★★",
+      "primaryPick": "胜★★",
       "speculative": "无",
-      "selection": "胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 2,
+      "selection": "胜★★",
+      "goals": "2/3/4★",
+      "halfFull": "胜胜/平胜",
+      "score": "2:0/2:1/3:1",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": true,
       "status": "核心单选入选",
@@ -5307,7 +5323,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 2
+      "confidenceStars": 0,
+      "predictedScore": "2:0/2:1/3:1",
+      "halfTimePrediction": "胜胜/平胜"
     },
     {
       "number": "周六010",
@@ -5318,15 +5336,15 @@
       "kickoff": "2026-10-24T21:00:00",
       "batch": "B",
       "handicap": 1,
-      "buy": "让胜",
-      "primaryPick": "让胜",
+      "buy": "主+1让胜",
+      "primaryPick": "主+1让胜",
       "speculative": "无",
-      "selection": "让胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "selection": "主+1让胜",
+      "goals": "1/2/3★",
+      "halfFull": "平平/平负",
+      "score": "1:1/0:1/1:0",
       "stars": 0,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": false,
       "status": "中场已审未入核心",
       "risk": "卡利亚里主+1让胜方向覆盖主队胜平，Maldini进球和主场仅负国米有支持；但上轮0:4蒙扎的崩盘不能略去。博洛尼亚Orsolini/Piccoli/Holm缺席，Bernardeschi/Cambiaghi/Enem可替代，客队对国米失利需做强度折扣。",
@@ -5530,7 +5548,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:1/0:1/1:0",
+      "halfTimePrediction": "平平/平负"
     },
     {
       "number": "周六011",
@@ -5545,11 +5565,11 @@
       "primaryPick": "胜",
       "speculative": "无",
       "selection": "胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "3/4/5★",
+      "halfFull": "胜胜/平胜",
+      "score": "3:1/3:2/4:1",
       "stars": 0,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
       "risk": "莱比锡整体进攻层级明显占优；防线波动使其只取普通胜，不升级净胜球。 莱比锡近期对拜仁1:6、皇马1:4须按强对手折扣，但连续大比分失守仍是高方差证据；埃尔弗斯堡亦有4:3式开放比赛。1.27不能代替防守稳定性。",
@@ -5753,7 +5773,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "3:1/3:2/4:1",
+      "halfTimePrediction": "胜胜/平胜"
     },
     {
       "number": "周六012",
@@ -5764,14 +5786,14 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "主-1让负",
-      "primaryPick": "主-1让负",
+      "buy": "主-1让负★",
+      "primaryPick": "主-1让负★",
       "speculative": "无",
-      "selection": "主-1让负",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 1,
+      "selection": "主-1让负★",
+      "goals": "2/3/4",
+      "halfFull": "平平/平胜",
+      "score": "1:1/2:1/1:2",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
@@ -5976,7 +5998,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "1:1/2:1/1:2",
+      "halfTimePrediction": "平平/平胜"
     },
     {
       "number": "周六013",
@@ -5991,11 +6015,11 @@
       "primaryPick": "主-1让负",
       "speculative": "无",
       "selection": "主-1让负",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "2/3/4★",
+      "halfFull": "平平/平负",
+      "score": "1:1/1:2/2:2",
       "stars": 0,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
       "risk": "双方开放且帕德博恩主场连续失球，主队即使取胜也难形成两球优势。 帕德博恩连续主场无零封，最近2:2伴随大量互射；汉堡虽3连胜但Daka/Remberg缺阵。升班马对位、替代与双方开放打法使结果高方差。",
@@ -6199,7 +6223,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:1/1:2/2:2",
+      "halfTimePrediction": "平平/平负"
     },
     {
       "number": "周六014",
@@ -6214,9 +6240,9 @@
       "primaryPick": "胜+平",
       "speculative": "无",
       "selection": "胜+平",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "1/2/3",
+      "halfFull": "平胜/平平",
+      "score": "1:0/1:1/2:1",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
@@ -6422,7 +6448,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:0/1:1/2:1",
+      "halfTimePrediction": "平胜/平平"
     },
     {
       "number": "周六015",
@@ -6433,14 +6461,14 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "主-1让负",
-      "primaryPick": "主-1让负",
+      "buy": "主-1让负★",
+      "primaryPick": "主-1让负★",
       "speculative": "无",
-      "selection": "主-1让负",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 1,
+      "selection": "主-1让负★",
+      "goals": "2/3/4",
+      "halfFull": "平平/平负",
+      "score": "1:1/1:2/2:2",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
@@ -6645,7 +6673,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "1:1/1:2/2:2",
+      "halfTimePrediction": "平平/平负"
     },
     {
       "number": "周六016",
@@ -6656,14 +6686,14 @@
       "kickoff": "2026-10-24T22:00:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "胜",
-      "primaryPick": "胜",
+      "buy": "胜★★",
+      "primaryPick": "胜★★",
       "speculative": "无",
-      "selection": "胜",
-      "goals": "2/3/4",
-      "halfFull": "平胜",
-      "score": "不推",
-      "stars": 2,
+      "selection": "胜★★",
+      "goals": "2/3/4★",
+      "halfFull": "平胜★/胜胜",
+      "score": "2:0★/2:1/3:0",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": true,
       "status": "核心单选入选",
@@ -6868,7 +6898,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 2
+      "confidenceStars": 0,
+      "predictedScore": "2:0★/2:1/3:0",
+      "halfTimePrediction": "平胜★/胜胜"
     },
     {
       "number": "周六017",
@@ -6879,14 +6911,14 @@
       "kickoff": "2026-10-24T22:00:00",
       "batch": "B",
       "handicap": 1,
-      "buy": "主+1让胜",
-      "primaryPick": "主+1让胜",
+      "buy": "主+1让胜★",
+      "primaryPick": "主+1让胜★",
       "speculative": "无",
-      "selection": "主+1让胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 1,
+      "selection": "主+1让胜★",
+      "goals": "2/3/4",
+      "halfFull": "平平/胜胜",
+      "score": "1:1/2:1/2:2",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
@@ -7091,7 +7123,9 @@
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "1:1/2:1/2:2",
+      "halfTimePrediction": "平平/胜胜"
     },
     {
       "number": "周六018",
@@ -7106,11 +7140,11 @@
       "primaryPick": "胜",
       "speculative": "无",
       "selection": "胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "3/4/5★",
+      "halfFull": "胜胜/平胜",
+      "score": "3:0/3:1/4:1",
       "stars": 0,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": false,
       "status": "中场扫盘已出方向·未入核心",
       "risk": "博德闪耀主场攻击优势支持普通胜；深让两球不追，且当前仅作预测扫盘。 博德闪耀本轮官方列表未列，镜像有场次不足以证明当前可售。未完成可靠伤停、轮换与对位核验。",
@@ -7121,7 +7155,9 @@
         "verified": false,
         "reason": "官方当前列表缺失"
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "3:0/3:1/4:1",
+      "halfTimePrediction": "胜胜/平胜"
     },
     {
       "number": "周六019",
@@ -7136,9 +7172,9 @@
       "primaryPick": "平+负",
       "speculative": "无",
       "selection": "平+负",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "1/2/3",
+      "halfFull": "平平/平负",
+      "score": "0:1/1:1/1:2",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
@@ -7344,7 +7380,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "0:1/1:1/1:2",
+      "halfTimePrediction": "平平/平负"
     },
     {
       "number": "周六020",
@@ -7355,14 +7393,14 @@
       "kickoff": "2026-10-24T22:30:00",
       "batch": "C",
       "handicap": -1,
-      "buy": "胜",
-      "primaryPick": "胜",
+      "buy": "胜★",
+      "primaryPick": "胜★",
       "speculative": "胜＋主-1让平",
-      "selection": "胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 1,
+      "selection": "胜★",
+      "goals": "2/3/4★",
+      "halfFull": "胜胜/平胜",
+      "score": "2:0/2:1/3:1",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
@@ -7567,7 +7605,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "2:0/2:1/3:1",
+      "halfTimePrediction": "胜胜/平胜"
     },
     {
       "number": "周六021",
@@ -7582,11 +7622,11 @@
       "primaryPick": "主-1让负",
       "speculative": "无",
       "selection": "主-1让负",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "1/2/3★",
+      "halfFull": "平平/平胜",
+      "score": "0:0/1:0/1:1",
       "stars": 0,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "晚场扫盘已出方向·未入核心",
       "risk": "阿马多拉连续联赛不进球，卡萨皮亚门将替代已有样本，主队难净胜两球。 阿马多拉近期连续两场联赛未进球，杯赛2:1击败低级别球队只能降权；Marcus/Antonetti/Stoica可用不等于攻坚恢复。Casa Pia也仅1:0小胜低级别，David Sousa解禁回归，Mandic替代伤缺门将Gomes已有连续样本；Livolant长期缺阵。双方弱势近况不足支撑高信心主胜。",
@@ -7790,7 +7830,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "0:0/1:0/1:1",
+      "halfTimePrediction": "平平/平胜"
     },
     {
       "number": "周六022",
@@ -7801,14 +7843,14 @@
       "kickoff": "2026-10-25T00:00:00",
       "batch": "C",
       "handicap": 1,
-      "buy": "主+1让胜",
-      "primaryPick": "主+1让胜",
+      "buy": "主+1让胜★",
+      "primaryPick": "主+1让胜★",
       "speculative": "无",
-      "selection": "主+1让胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 1,
+      "selection": "主+1让胜★",
+      "goals": "1/2/3★",
+      "halfFull": "平平/胜胜",
+      "score": "1:0/1:1/2:1",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": true,
       "status": "晚场扫盘已出方向·未入核心",
@@ -8013,7 +8055,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "1:0/1:1/2:1",
+      "halfTimePrediction": "平平/胜胜"
     },
     {
       "number": "周六023",
@@ -8024,14 +8068,14 @@
       "kickoff": "2026-10-25T00:30:00",
       "batch": "C",
       "handicap": -1,
-      "buy": "胜",
-      "primaryPick": "胜",
+      "buy": "胜★",
+      "primaryPick": "胜★",
       "speculative": "无",
-      "selection": "胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 1,
+      "selection": "胜★",
+      "goals": "2/3/4★",
+      "halfFull": "胜胜/平胜",
+      "score": "2:1/2:0/3:1",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
@@ -8236,7 +8280,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "2:1/2:0/3:1",
+      "halfTimePrediction": "胜胜/平胜"
     },
     {
       "number": "周六024",
@@ -8251,11 +8297,11 @@
       "primaryPick": "胜",
       "speculative": "主-1让胜",
       "selection": "胜",
-      "goals": "3/4/5",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "3/4/5★",
+      "halfFull": "胜胜/平胜",
+      "score": "2:1/3:1/3:2",
       "stars": 0,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
       "risk": "多特主场与Guirassy支点优于近期效率下滑的客队，但0:0联合仅两次射正，2:1胜Sabah必须按对手强度降权。Frankfurt0:6莱比锡是反证，不能抹去此前三个客场不败和随后零封科隆；Burkardt/Doan/Chaibi仍能威胁。Can长期伤缺，Schlotterbeck/Anton/Gadou为现有配置；欧冠后中等轮换与仅近四场一次零封，1.34并非稳胆。",
@@ -8459,7 +8505,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "2:1/3:1/3:2",
+      "halfTimePrediction": "胜胜/平胜"
     },
     {
       "number": "周六025",
@@ -8470,14 +8518,14 @@
       "kickoff": "2026-10-25T00:30:00",
       "batch": "C",
       "handicap": 1,
-      "buy": "主+1让胜",
-      "primaryPick": "主+1让胜",
+      "buy": "主+1让胜★",
+      "primaryPick": "主+1让胜★",
       "speculative": "无",
-      "selection": "主+1让胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 1,
+      "selection": "主+1让胜★",
+      "goals": "2/3/4★",
+      "halfFull": "平平/胜胜",
+      "score": "1:1/2:1/2:2",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": true,
       "status": "晚场扫盘已出方向·未入核心",
@@ -8682,7 +8730,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "1:1/2:1/2:2",
+      "halfTimePrediction": "平平/胜胜"
     },
     {
       "number": "周六026",
@@ -8693,14 +8743,14 @@
       "kickoff": "2026-10-25T02:45:00",
       "batch": "C",
       "handicap": -1,
-      "buy": "主-1让胜",
-      "primaryPick": "主-1让胜",
+      "buy": "主-1让胜★",
+      "primaryPick": "主-1让胜★",
       "speculative": "无",
-      "selection": "主-1让胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
-      "stars": 1,
+      "selection": "主-1让胜★",
+      "goals": "2/3/4",
+      "halfFull": "胜胜/平胜",
+      "score": "2:0/3:0/3:1",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
@@ -8905,7 +8955,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "2:0/3:0/3:1",
+      "halfTimePrediction": "胜胜/平胜"
     },
     {
       "number": "周六027",
@@ -8920,9 +8972,9 @@
       "primaryPick": "主-1让负",
       "speculative": "无",
       "selection": "主-1让负",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "1/2/3",
+      "halfFull": "平平/平胜",
+      "score": "1:0/1:1/2:1",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
@@ -9128,7 +9180,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "1:0/1:1/2:1",
+      "halfTimePrediction": "平平/平胜"
     },
     {
       "number": "周六028",
@@ -9143,11 +9197,11 @@
       "primaryPick": "胜",
       "speculative": "无",
       "selection": "胜",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "2/3/4★",
+      "halfFull": "胜胜/平胜",
+      "score": "2:0/3:0/3:1",
       "stars": 0,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
       "risk": "晚场备选2，保留普通胜方向不准入核心：马竞联赛五连胜含皇马，Baena和Alvarez近期作用有官方支持；拉科少Aubameyang/Eddahchouri，Nsongo已能进球，不能当无攻击。Koke、Romero缺阵、Lee Kang-in恢复、Amatucci解禁均需对位评估。关键冲突：马竞10月22日官方确认Johnny Cardoso大腿肌伤并进入康复，而二级前瞻仍把他放入首发。后腰与Koke双缺的替代保护未补齐，禁止把1.18作为免审腿。",
@@ -9351,7 +9405,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "2:0/3:0/3:1",
+      "halfTimePrediction": "胜胜/平胜"
     },
     {
       "number": "周六029",
@@ -9362,14 +9418,14 @@
       "kickoff": "2026-10-25T03:30:00",
       "batch": "C",
       "handicap": 1,
-      "buy": "负",
-      "primaryPick": "负",
+      "buy": "负★",
+      "primaryPick": "负★",
       "speculative": "无",
-      "selection": "负",
-      "goals": "2/3/4",
-      "halfFull": "平负",
-      "score": "不推",
-      "stars": 1,
+      "selection": "负★",
+      "goals": "2/3/4★",
+      "halfFull": "平负★/负负",
+      "score": "0:2★/1:2/0:3",
+      "stars": 0,
       "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
@@ -9574,7 +9630,9 @@
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
       },
-      "confidenceStars": 1
+      "confidenceStars": 0,
+      "predictedScore": "0:2★/1:2/0:3",
+      "halfTimePrediction": "平负★/负负"
     },
     {
       "number": "周六030",
@@ -9589,9 +9647,9 @@
       "primaryPick": "平+负",
       "speculative": "无",
       "selection": "平+负",
-      "goals": "不推",
-      "halfFull": "不推",
-      "score": "不推",
+      "goals": "1/2/3",
+      "halfFull": "平平/平负",
+      "score": "0:1/1:1/1:2",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
@@ -9604,7 +9662,9 @@
         "verified": false,
         "reason": "官方当前列表缺失"
       },
-      "confidenceStars": 0
+      "confidenceStars": 0,
+      "predictedScore": "0:1/1:1/1:2",
+      "halfTimePrediction": "平平/平负"
     }
   ],
   "matchAnalysis": [
@@ -12936,22 +12996,10 @@
     "dream": "未出",
     "reason": "按本轮要求先完成核心两档，未完成3.0，不增加博单风险"
   },
-  "correctionReason": "按用户要求把扫盘星级限定为相对推荐方向：2场二星、10场一星，其余仅保留明确方向不打星；既有串子原票不变。",
+  "correctionReason": "用户要求扫盘逐场完整展示方向、三个总进球、两个半全场和三个比分，并允许各项目独立标星；既有串子原票不变。",
   "correctionOf": {
     "date": "2026-10-24",
-    "edition": "2026-10-24全场次明确方向扫盘更正版",
-    "publishedAt": "2026-10-24T07:14:53.972Z"
-  },
-  "mobileVerifiedAt": "2026-10-24T07:20:01.196Z",
-  "mobileVerification": {
-    "date": "2026-10-24",
-    "recommendationCount": 9,
-    "singleVisible": true,
-    "copyPoster": true,
-    "copyTracking": true,
-    "copyReview": true,
-    "copyReviewTracking": true,
-    "viewportWidth": 430,
-    "horizontalOverflow": false
+    "edition": "2026-10-24全场次方向＋精选星级更正版",
+    "publishedAt": "2026-10-24T07:19:01.742Z"
   }
 }
