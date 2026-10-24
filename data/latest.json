@@ -1,16 +1,16 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T06:49:43.032Z",
-  "generatedAt": "2026-10-24T06:49:43.032Z",
+  "publishedAt": "2026-10-24T07:14:53.972Z",
+  "generatedAt": "2026-10-24T07:14:53.972Z",
   "status": "final-reviewed-one-core",
-  "edition": "2026-10-24早场原票＋中晚场完整观察版＋官方单关更正",
+  "edition": "2026-10-24全场次明确方向扫盘更正版",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": true,
   "completed": true,
-  "mobileVerified": true,
+  "mobileVerified": false,
   "dataAsOf": "2026-10-24T02:52:07.73Z",
-  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。",
+  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。 扫盘30场现均给出明确方向；低信心方向不自动进入串子。",
   "recommendations": [
     {
       "id": "2026-10-24-early-speculative-003-004",
@@ -4836,18 +4836,18 @@
       "kickoff": "2026-10-24T19:30:00",
       "batch": "B",
       "handicap": 1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主+1让胜",
+      "primaryPick": "主+1让胜",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主+1让胜",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "中场已审未入核心",
-      "risk": "官方当前在售列表未列，不以镜像放行。诺维奇官网确认McLean可回归但需管理分钟、Kovacevic可用，纠正二级前瞻写其缺阵；查尔顿主场防守好，但保级压力不等于胜率。",
+      "status": "中场扫盘已出方向·未入核心",
+      "risk": "查尔顿主场防守与受让一球提供容错；诺维奇回归球员仍需控制时间。 官方当前在售列表未列，不以镜像放行。诺维奇官网确认McLean可回归但需管理分钟、Kovacevic可用，纠正二级前瞻写其缺阵；查尔顿主场防守好，但保级压力不等于胜率。",
       "odds": {
         "mirrorOnly": true
       },
@@ -4865,18 +4865,18 @@
       "kickoff": "2026-10-24T20:00:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "胜+平",
+      "primaryPick": "胜+平",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "胜+平",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "中场已审未入核心",
-      "risk": "Rayo的Camello终结状态好，但Batalla和Luiz Felipe缺阵、Ratiu存疑，Audero/Balliu为替代；埃尔切连平塞尔塔和比利亚雷亚尔应升权，Fer Nino与Lemar能利用后场缺口。不是只有一般平局可能，而是存在明确对位反证。",
+      "purchaseApproved": true,
+      "status": "中场扫盘已出方向·未入核心",
+      "risk": "巴列卡诺主场与进攻状态占优，但门将及后卫缺阵，埃尔切连续逼平强敌，必须防平。 Rayo的Camello终结状态好，但Batalla和Luiz Felipe缺阵、Ratiu存疑，Audero/Balliu为替代；埃尔切连平塞尔塔和比利亚雷亚尔应升权，Fer Nino与Lemar能利用后场缺口。不是只有一般平局可能，而是存在明确对位反证。",
       "odds": {
         "spf": {
           "win": 1.58,
@@ -5531,18 +5531,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "胜",
+      "primaryPick": "胜",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "胜",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "中场已审未入核心",
-      "risk": "莱比锡近期对拜仁1:6、皇马1:4须按强对手折扣，但连续大比分失守仍是高方差证据；埃尔弗斯堡亦有4:3式开放比赛。1.27不能代替防守稳定性。",
+      "purchaseApproved": true,
+      "status": "中场扫盘已出方向·未入核心",
+      "risk": "莱比锡整体进攻层级明显占优；防线波动使其只取普通胜，不升级净胜球。 莱比锡近期对拜仁1:6、皇马1:4须按强对手折扣，但连续大比分失守仍是高方差证据；埃尔弗斯堡亦有4:3式开放比赛。1.27不能代替防守稳定性。",
       "odds": {
         "spf": {
           "win": 1.27,
@@ -5753,18 +5753,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主-1让负",
+      "primaryPick": "主-1让负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主-1让负",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "中场已审未入核心",
-      "risk": "美因茨尚无主场联赛胜利，Zentner及Kohr缺席，由Schwolow/Potulski补位；不莱梅虽中场有伤病，Fullkrug近5场6球不能低估。主队低赔与已核基本面差距不足解释。",
+      "purchaseApproved": true,
+      "status": "中场扫盘已出方向·未入核心",
+      "risk": "美因茨门将与中轴缺阵且主场胜势不足，不莱梅具备破门能力，主队难净胜两球。 美因茨尚无主场联赛胜利，Zentner及Kohr缺席，由Schwolow/Potulski补位；不莱梅虽中场有伤病，Fullkrug近5场6球不能低估。主队低赔与已核基本面差距不足解释。",
       "odds": {
         "spf": {
           "win": 1.59,
@@ -5975,18 +5975,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主-1让负",
+      "primaryPick": "主-1让负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主-1让负",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "中场已审未入核心",
-      "risk": "帕德博恩连续主场无零封，最近2:2伴随大量互射；汉堡虽3连胜但Daka/Remberg缺阵。升班马对位、替代与双方开放打法使结果高方差。",
+      "purchaseApproved": true,
+      "status": "中场扫盘已出方向·未入核心",
+      "risk": "双方开放且帕德博恩主场连续失球，主队即使取胜也难形成两球优势。 帕德博恩连续主场无零封，最近2:2伴随大量互射；汉堡虽3连胜但Daka/Remberg缺阵。升班马对位、替代与双方开放打法使结果高方差。",
       "odds": {
         "spf": {
           "win": 2.13,
@@ -6197,18 +6197,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "胜+平",
+      "primaryPick": "胜+平",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "胜+平",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "中场已审未入核心",
-      "risk": "科隆主场2胜1平、沙尔克6场4次未进球是有利面；但Hubers、Van den Berg及Skhiri缺阵同时触及中卫和屏障，Lochoshvili/Simpson-Pusey/Krauss承担替代。Dallinga缺席、Ache存疑，Bulter/El Mala可用；沙尔克Dzeko有望出场，不能只看客队进球少。",
+      "purchaseApproved": true,
+      "status": "中场扫盘已出方向·未入核心",
+      "risk": "科隆主场表现和沙尔克进攻低迷支持主队不败，但科隆中卫与屏障伤停需要防平。 科隆主场2胜1平、沙尔克6场4次未进球是有利面；但Hubers、Van den Berg及Skhiri缺阵同时触及中卫和屏障，Lochoshvili/Simpson-Pusey/Krauss承担替代。Dallinga缺席、Ache存疑，Bulter/El Mala可用；沙尔克Dzeko有望出场，不能只看客队进球少。",
       "odds": {
         "spf": {
           "win": 1.84,
@@ -6419,18 +6419,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主-1让负",
+      "primaryPick": "主-1让负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主-1让负",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "中场已审未入核心",
-      "risk": "奥格斯堡近期4:3失利，防线稳定性不足；柏林联合0:0多特与1:0埃尔弗斯堡应升权，不能由1.66认定主胜稳胆。",
+      "purchaseApproved": true,
+      "status": "中场扫盘已出方向·未入核心",
+      "risk": "奥格斯堡防守波动，柏林联合近期防守改善，主队难净胜两球。 奥格斯堡近期4:3失利，防线稳定性不足；柏林联合0:0多特与1:0埃尔弗斯堡应升权，不能由1.66认定主胜稳胆。",
       "odds": {
         "spf": {
           "win": 1.66,
@@ -6863,18 +6863,18 @@
       "kickoff": "2026-10-24T22:00:00",
       "batch": "B",
       "handicap": 1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主+1让胜",
+      "primaryPick": "主+1让胜",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主+1让胜",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "中场已审未入核心",
-      "risk": "考文垂胜森林及纽卡是积极证据，富勒姆八个联赛客场不胜且被伊普斯维奇最后两分钟逆转，但主队近六主场五场大球、七轮五负，不能把主+1让胜直接升为低波动核心。Rudoni有进球，Amenda/Eccles/Woolfenden/Wright缺阵；富勒姆Sessegnon停赛，Robinson可替代。",
+      "purchaseApproved": true,
+      "status": "中场扫盘已出方向·未入核心",
+      "risk": "考文垂近期能抗衡强队，富勒姆客场持续不胜；受让一球方向容错更高。 考文垂胜森林及纽卡是积极证据，富勒姆八个联赛客场不胜且被伊普斯维奇最后两分钟逆转，但主队近六主场五场大球、七轮五负，不能把主+1让胜直接升为低波动核心。Rudoni有进球，Amenda/Eccles/Woolfenden/Wright缺阵；富勒姆Sessegnon停赛，Robinson可替代。",
       "odds": {
         "spf": {
           "win": 2.95,
@@ -7085,18 +7085,18 @@
       "kickoff": "2026-10-24T22:00:00",
       "batch": "B",
       "handicap": -2,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "胜",
+      "primaryPick": "胜",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "胜",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "中场已审未入核心",
-      "risk": "博德闪耀本轮官方列表未列，镜像有场次不足以证明当前可售。未完成可靠伤停、轮换与对位核验。",
+      "status": "中场扫盘已出方向·未入核心",
+      "risk": "博德闪耀主场攻击优势支持普通胜；深让两球不追，且当前仅作预测扫盘。 博德闪耀本轮官方列表未列，镜像有场次不足以证明当前可售。未完成可靠伤停、轮换与对位核验。",
       "odds": {
         "mirrorOnly": true
       },
@@ -7114,18 +7114,18 @@
       "kickoff": "2026-10-24T22:15:00",
       "batch": "C",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "平+负",
+      "primaryPick": "平+负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "平+负",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "晚场已审未入核心",
-      "risk": "双方近四轮各仅1分，保级直接对话且攻防优势不清。Racing有Zabiri和Canales，Espanyol有Fernandez、Zaragoza；Kike Garcia缺席、Carreras存疑，不能推出一方失去攻击。旧交锋年代跨度大，当前贡献低。",
+      "purchaseApproved": true,
+      "status": "晚场扫盘已出方向·未入核心",
+      "risk": "双方保级压力大且主队优势不清，西班牙人纸面攻击稍优，客队不败更合理。 双方近四轮各仅1分，保级直接对话且攻防优势不清。Racing有Zabiri和Canales，Espanyol有Fernandez、Zaragoza；Kike Garcia缺席、Carreras存疑，不能推出一方失去攻击。旧交锋年代跨度大，当前贡献低。",
       "odds": {
         "spf": {
           "win": 2.26,
@@ -7558,18 +7558,18 @@
       "kickoff": "2026-10-24T22:30:00",
       "batch": "C",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主-1让负",
+      "primaryPick": "主-1让负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主-1让负",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "晚场已审未入核心",
-      "risk": "阿马多拉近期连续两场联赛未进球，杯赛2:1击败低级别球队只能降权；Marcus/Antonetti/Stoica可用不等于攻坚恢复。Casa Pia也仅1:0小胜低级别，David Sousa解禁回归，Mandic替代伤缺门将Gomes已有连续样本；Livolant长期缺阵。双方弱势近况不足支撑高信心主胜。",
+      "purchaseApproved": true,
+      "status": "晚场扫盘已出方向·未入核心",
+      "risk": "阿马多拉连续联赛不进球，卡萨皮亚门将替代已有样本，主队难净胜两球。 阿马多拉近期连续两场联赛未进球，杯赛2:1击败低级别球队只能降权；Marcus/Antonetti/Stoica可用不等于攻坚恢复。Casa Pia也仅1:0小胜低级别，David Sousa解禁回归，Mandic替代伤缺门将Gomes已有连续样本；Livolant长期缺阵。双方弱势近况不足支撑高信心主胜。",
       "odds": {
         "spf": {
           "win": 1.67,
@@ -7780,18 +7780,18 @@
       "kickoff": "2026-10-25T00:00:00",
       "batch": "C",
       "handicap": 1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主+1让胜",
+      "primaryPick": "主+1让胜",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主+1让胜",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "晚场已审未入核心",
-      "risk": "那不勒斯4:3博德两次领先被追平，Roma对皇马末段被逆转；两队均欧冠后短休。Roma联赛防守领先但Svilar、Kone、Dybala缺席，Pellegrini新伤，Gollini和De Roon/Pisilli承担替代；那不勒斯缺Buongiorno和Neres等，Hojlund联赛效率一般。强强对话不当核心。",
+      "purchaseApproved": true,
+      "status": "晚场扫盘已出方向·未入核心",
+      "risk": "双方欧冠后短休且各有核心缺阵，强强对话支持那不勒斯受让一球方向。 那不勒斯4:3博德两次领先被追平，Roma对皇马末段被逆转；两队均欧冠后短休。Roma联赛防守领先但Svilar、Kone、Dybala缺席，Pellegrini新伤，Gollini和De Roon/Pisilli承担替代；那不勒斯缺Buongiorno和Neres等，Hojlund联赛效率一般。强强对话不当核心。",
       "odds": {
         "spf": {
           "win": 2.63,
@@ -8446,18 +8446,18 @@
       "kickoff": "2026-10-25T00:30:00",
       "batch": "C",
       "handicap": 1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主+1让胜",
+      "primaryPick": "主+1让胜",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主+1让胜",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "晚场已审未入核心",
-      "risk": "比利亚雷亚尔在利物浦2:0领先后3:4输球，高方差与领先防守问题明确；周中后Foyth/Ayoze等可能轮换，Pepe缺席、Romero/Saliba存疑，Buchanan回归。瓦伦西亚连平桑坦德和毕尔巴鄂，Danjuma/Rioja可替代伤缺攻击手；弱主队不是可靠客胜担保。",
+      "purchaseApproved": true,
+      "status": "晚场扫盘已出方向·未入核心",
+      "risk": "比利亚雷亚尔领先后防守不稳且存在轮换，瓦伦西亚主场受让一球具备容错。 比利亚雷亚尔在利物浦2:0领先后3:4输球，高方差与领先防守问题明确；周中后Foyth/Ayoze等可能轮换，Pepe缺席、Romero/Saliba存疑，Buchanan回归。瓦伦西亚连平桑坦德和毕尔巴鄂，Danjuma/Rioja可替代伤缺攻击手；弱主队不是可靠客胜担保。",
       "odds": {
         "spf": {
           "win": 2.95,
@@ -8890,18 +8890,18 @@
       "kickoff": "2026-10-25T02:45:00",
       "batch": "C",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主-1让负",
+      "primaryPick": "主-1让负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主-1让负",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
-      "purchaseApproved": false,
-      "status": "晚场已审未入核心",
-      "risk": "Lens联赛反弹但欧洲连续无进球败仗，0:3布鲁日后短休，不等于在联赛必反弹。Udol解禁，Chavez/Sima/Gradit伤疑；Paris FC的Simon等刚回归，Ikone缺阵，客场三次两次未进球但主场攻击表现不能照搬客场。双方各有防守和定位球风险，单方向胜率证据不足。",
+      "purchaseApproved": true,
+      "status": "晚场扫盘已出方向·未入核心",
+      "risk": "朗斯欧战后短休且攻击状态不稳，巴黎FC具备防守与定位球威胁，主队难净胜两球。 Lens联赛反弹但欧洲连续无进球败仗，0:3布鲁日后短休，不等于在联赛必反弹。Udol解禁，Chavez/Sima/Gradit伤疑；Paris FC的Simon等刚回归，Ikone缺阵，客场三次两次未进球但主场攻击表现不能照搬客场。双方各有防守和定位球风险，单方向胜率证据不足。",
       "odds": {
         "spf": {
           "win": 2.27,
@@ -9556,18 +9556,18 @@
       "kickoff": "2026-10-25T08:00:00",
       "batch": "C",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "平+负",
+      "primaryPick": "平+负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "平+负",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
+      "stars": 1,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "晚场已审未入核心",
-      "risk": "桑托斯与巴伊亚在镜像列出，但本轮官方可售列表未列，不能认定次日08:00场次属于可购买池；没有可靠当前伤停与轮换证据，排除。",
+      "status": "晚场扫盘已出方向·未入核心",
+      "risk": "当前资料不足以支持桑托斯主胜，巴伊亚方向不败；该场未确认在售，仅作预测扫盘。 桑托斯与巴伊亚在镜像列出，但本轮官方可售列表未列，不能认定次日08:00场次属于可购买池；没有可靠当前伤停与轮换证据，排除。",
       "odds": {
         "mirrorOnly": true
       },
@@ -10228,7 +10228,8 @@
         "level": "中高或证据不足"
       },
       "coreDecision": {
-        "approved": false
+        "approved": false,
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "referenceMarkets": {
         "had": "普通方向见buy",
@@ -10236,7 +10237,9 @@
         "ttg": "未形成充分分布依据，不推",
         "hafu": "早中场按要求不出",
         "crs": "早中场按要求不出"
-      }
+      },
+      "scanDirection": "主+1让胜",
+      "scanReason": "查尔顿主场防守与受让一球提供容错；诺维奇回归球员仍需控制时间。"
     },
     {
       "number": "周六008",
@@ -10260,7 +10263,8 @@
         "level": "中高或证据不足"
       },
       "coreDecision": {
-        "approved": false
+        "approved": false,
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "oddsHistory": {
         "number": "周六008",
@@ -10331,7 +10335,9 @@
         "ttg": "未形成充分分布依据，不推",
         "hafu": "早中场按要求不出",
         "crs": "早中场按要求不出"
-      }
+      },
+      "scanDirection": "胜+平",
+      "scanReason": "巴列卡诺主场与进攻状态占优，但门将及后卫缺阵，埃尔切连续逼平强敌，必须防平。"
     },
     {
       "number": "周六009",
@@ -10575,7 +10581,8 @@
         "level": "中高或证据不足"
       },
       "coreDecision": {
-        "approved": false
+        "approved": false,
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "oddsHistory": {
         "number": "周六011",
@@ -10657,7 +10664,9 @@
         "ttg": "未形成充分分布依据，不推",
         "hafu": "早中场按要求不出",
         "crs": "早中场按要求不出"
-      }
+      },
+      "scanDirection": "胜",
+      "scanReason": "莱比锡整体进攻层级明显占优；防线波动使其只取普通胜，不升级净胜球。"
     },
     {
       "number": "周六012",
@@ -10681,7 +10690,8 @@
         "level": "中高或证据不足"
       },
       "coreDecision": {
-        "approved": false
+        "approved": false,
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "oddsHistory": {
         "number": "周六012",
@@ -10752,7 +10762,9 @@
         "ttg": "未形成充分分布依据，不推",
         "hafu": "早中场按要求不出",
         "crs": "早中场按要求不出"
-      }
+      },
+      "scanDirection": "主-1让负",
+      "scanReason": "美因茨门将与中轴缺阵且主场胜势不足，不莱梅具备破门能力，主队难净胜两球。"
     },
     {
       "number": "周六013",
@@ -10776,7 +10788,8 @@
         "level": "中高或证据不足"
       },
       "coreDecision": {
-        "approved": false
+        "approved": false,
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "oddsHistory": {
         "number": "周六013",
@@ -10847,7 +10860,9 @@
         "ttg": "未形成充分分布依据，不推",
         "hafu": "早中场按要求不出",
         "crs": "早中场按要求不出"
-      }
+      },
+      "scanDirection": "主-1让负",
+      "scanReason": "双方开放且帕德博恩主场连续失球，主队即使取胜也难形成两球优势。"
     },
     {
       "number": "周六014",
@@ -10871,7 +10886,8 @@
         "level": "中高或证据不足"
       },
       "coreDecision": {
-        "approved": false
+        "approved": false,
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "oddsHistory": {
         "number": "周六014",
@@ -10953,7 +10969,9 @@
         "ttg": "未形成充分分布依据，不推",
         "hafu": "早中场按要求不出",
         "crs": "早中场按要求不出"
-      }
+      },
+      "scanDirection": "胜+平",
+      "scanReason": "科隆主场表现和沙尔克进攻低迷支持主队不败，但科隆中卫与屏障伤停需要防平。"
     },
     {
       "number": "周六015",
@@ -10977,7 +10995,8 @@
         "level": "中高或证据不足"
       },
       "coreDecision": {
-        "approved": false
+        "approved": false,
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "oddsHistory": {
         "number": "周六015",
@@ -11048,7 +11067,9 @@
         "ttg": "未形成充分分布依据，不推",
         "hafu": "早中场按要求不出",
         "crs": "早中场按要求不出"
-      }
+      },
+      "scanDirection": "主-1让负",
+      "scanReason": "奥格斯堡防守波动，柏林联合近期防守改善，主队难净胜两球。"
     },
     {
       "number": "周六016",
@@ -11186,7 +11207,8 @@
         "level": "中高或证据不足"
       },
       "coreDecision": {
-        "approved": false
+        "approved": false,
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "oddsHistory": {
         "number": "周六017",
@@ -11257,7 +11279,9 @@
         "ttg": "未形成充分分布依据，不推",
         "hafu": "早中场按要求不出",
         "crs": "早中场按要求不出"
-      }
+      },
+      "scanDirection": "主+1让胜",
+      "scanReason": "考文垂近期能抗衡强队，富勒姆客场持续不胜；受让一球方向容错更高。"
     },
     {
       "number": "周六018",
@@ -11276,7 +11300,8 @@
         "level": "中高或证据不足"
       },
       "coreDecision": {
-        "approved": false
+        "approved": false,
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "referenceMarkets": {
         "had": "普通方向见buy",
@@ -11284,7 +11309,9 @@
         "ttg": "未形成充分分布依据，不推",
         "hafu": "早中场按要求不出",
         "crs": "早中场按要求不出"
-      }
+      },
+      "scanDirection": "胜",
+      "scanReason": "博德闪耀主场攻击优势支持普通胜；深让两球不追，且当前仅作预测扫盘。"
     },
     {
       "number": "周六019",
@@ -11303,7 +11330,7 @@
       ],
       "coreDecision": {
         "approved": false,
-        "reason": "双方近四轮各仅1分，保级直接对话且攻防优势不清。Racing有Zabiri和Canales，Espanyol有Fernandez、Zaragoza；Kike Garcia缺席、Carreras存疑，不能推出一方失去攻击。旧交锋年代跨度大，当前贡献低。"
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "rotation": {
         "risk": "见逐腿分析，未假设无轮换"
@@ -11384,7 +11411,9 @@
       "singleGate": {
         "approved": false,
         "reason": "普通HAD/HHAD当批未核为单关；其他玩法即使可售也未达低方差准入"
-      }
+      },
+      "scanDirection": "平+负",
+      "scanReason": "双方保级压力大且主队优势不清，西班牙人纸面攻击稍优，客队不败更合理。"
     },
     {
       "number": "周六020",
@@ -11507,7 +11536,7 @@
       ],
       "coreDecision": {
         "approved": false,
-        "reason": "阿马多拉近期连续两场联赛未进球，杯赛2:1击败低级别球队只能降权；Marcus/Antonetti/Stoica可用不等于攻坚恢复。Casa Pia也仅1:0小胜低级别，David Sousa解禁回归，Mandic替代伤缺门将Gomes已有连续样本；Livolant长期缺阵。双方弱势近况不足支撑高信心主胜。"
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "rotation": {
         "risk": "见逐腿分析，未假设无轮换"
@@ -11588,7 +11617,9 @@
       "singleGate": {
         "approved": false,
         "reason": "普通HAD/HHAD当批未核为单关；其他玩法即使可售也未达低方差准入"
-      }
+      },
+      "scanDirection": "主-1让负",
+      "scanReason": "阿马多拉连续联赛不进球，卡萨皮亚门将替代已有样本，主队难净胜两球。"
     },
     {
       "number": "周六022",
@@ -11607,7 +11638,7 @@
       ],
       "coreDecision": {
         "approved": false,
-        "reason": "那不勒斯4:3博德两次领先被追平，Roma对皇马末段被逆转；两队均欧冠后短休。Roma联赛防守领先但Svilar、Kone、Dybala缺席，Pellegrini新伤，Gollini和De Roon/Pisilli承担替代；那不勒斯缺Buongiorno和Neres等，Hojlund联赛效率一般。强强对话不当核心。"
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "rotation": {
         "risk": "见逐腿分析，未假设无轮换"
@@ -11699,7 +11730,9 @@
       "singleGate": {
         "approved": false,
         "reason": "普通HAD/HHAD当批未核为单关；其他玩法即使可售也未达低方差准入"
-      }
+      },
+      "scanDirection": "主+1让胜",
+      "scanReason": "双方欧冠后短休且各有核心缺阵，强强对话支持那不勒斯受让一球方向。"
     },
     {
       "number": "周六023",
@@ -11940,7 +11973,7 @@
       ],
       "coreDecision": {
         "approved": false,
-        "reason": "比利亚雷亚尔在利物浦2:0领先后3:4输球，高方差与领先防守问题明确；周中后Foyth/Ayoze等可能轮换，Pepe缺席、Romero/Saliba存疑，Buchanan回归。瓦伦西亚连平桑坦德和毕尔巴鄂，Danjuma/Rioja可替代伤缺攻击手；弱主队不是可靠客胜担保。"
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "rotation": {
         "risk": "见逐腿分析，未假设无轮换"
@@ -12021,7 +12054,9 @@
       "singleGate": {
         "approved": false,
         "reason": "普通HAD/HHAD当批未核为单关；其他玩法即使可售也未达低方差准入"
-      }
+      },
+      "scanDirection": "主+1让胜",
+      "scanReason": "比利亚雷亚尔领先后防守不稳且存在轮换，瓦伦西亚主场受让一球具备容错。"
     },
     {
       "number": "周六026",
@@ -12162,7 +12197,7 @@
       ],
       "coreDecision": {
         "approved": false,
-        "reason": "Lens联赛反弹但欧洲连续无进球败仗，0:3布鲁日后短休，不等于在联赛必反弹。Udol解禁，Chavez/Sima/Gradit伤疑；Paris FC的Simon等刚回归，Ikone缺阵，客场三次两次未进球但主场攻击表现不能照搬客场。双方各有防守和定位球风险，单方向胜率证据不足。"
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "rotation": {
         "risk": "见逐腿分析，未假设无轮换"
@@ -12243,7 +12278,9 @@
       "singleGate": {
         "approved": false,
         "reason": "普通HAD/HHAD当批未核为单关；其他玩法即使可售也未达低方差准入"
-      }
+      },
+      "scanDirection": "主-1让负",
+      "scanReason": "朗斯欧战后短休且攻击状态不稳，巴黎FC具备防守与定位球威胁，主队难净胜两球。"
     },
     {
       "number": "周六028",
@@ -12465,7 +12502,7 @@
       "sources": [],
       "coreDecision": {
         "approved": false,
-        "reason": "桑托斯与巴伊亚在镜像列出，但本轮官方可售列表未列，不能认定次日08:00场次属于可购买池；没有可靠当前伤停与轮换证据，排除。"
+        "reason": "有扫盘方向不等于达到核心串准入门槛"
       },
       "rotation": {
         "risk": "见逐腿分析，未假设无轮换"
@@ -12483,7 +12520,9 @@
       "singleGate": {
         "approved": false,
         "reason": "普通HAD/HHAD当批未核为单关；其他玩法即使可售也未达低方差准入"
-      }
+      },
+      "scanDirection": "平+负",
+      "scanReason": "当前资料不足以支持桑托斯主胜，巴伊亚方向不败；该场未确认在售，仅作预测扫盘。"
     }
   ],
   "legPool": [
@@ -12867,22 +12906,10 @@
     "dream": "未出",
     "reason": "按本轮要求先完成核心两档，未完成3.0，不增加博单风险"
   },
-  "correctionReason": "用户明确要求补齐官方可售单关；保留全部既有早场及2.0/3.0原票，仅新增周六023普通胜平负单关。",
-  "mobileVerifiedAt": "2026-10-24T06:50:57.940Z",
-  "mobileVerification": {
-    "date": "2026-10-24",
-    "recommendationCount": 9,
-    "singleVisible": true,
-    "copyPoster": true,
-    "copyTracking": true,
-    "copyReview": true,
-    "copyReviewTracking": true,
-    "viewportWidth": 430,
-    "horizontalOverflow": false
-  },
+  "correctionReason": "用户要求扫盘覆盖全部场次并给出明确方向；将15场观望改为有依据的单选或同市场双选，不改变既有2.0、3.0及其他原票。",
   "correctionOf": {
     "date": "2026-10-24",
-    "edition": "2026-10-24早场原票＋中晚场完整观察版",
-    "publishedAt": "2026-10-24T06:37:55.176Z"
+    "edition": "2026-10-24早场原票＋中晚场完整观察版＋官方单关更正",
+    "publishedAt": "2026-10-24T06:49:43.032Z"
   }
 }
