@@ -1,17 +1,155 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T02:39:22.719Z",
-  "generatedAt": "2026-10-24T02:39:22.719Z",
-  "status": "early-audit-no-approved-core",
-  "edition": "2026-10-24-A-20261024T023922719Z",
+  "publishedAt": "2026-10-24T02:49:30.974Z",
+  "generatedAt": "2026-10-24T02:49:30.974Z",
+  "status": "middle-core20-published-core30-unqualified",
+  "edition": "2026-10-24-B-20261024T024930974Z",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": false,
   "completed": false,
   "mobileVerified": false,
-  "dataAsOf": "2026-10-24T02:31:51.631Z",
-  "summary": "早场5场已审，2.0/3.0未形成合格核心原票；中晚场待追加。官方本轮27场，镜像30场；007/018/030缺官方当前可售核验。",
-  "recommendations": [],
+  "dataAsOf": "2026-10-24T02:48:29.092Z",
+  "summary": "早场5场原审核锁定保留；中场13场已审，核心2.0：016胜×009胜，整套1.72倍。中场3.0不凑；晚场待追加。",
+  "recommendations": [
+    {
+      "id": "core20-B-single",
+      "name": "2.0版 · 中场双单选",
+      "category": "two",
+      "trackingTier": "2.0版",
+      "approved": true,
+      "status": "待定",
+      "sessionLabel": "中场",
+      "batch": "B",
+      "nonBanker": true,
+      "stars": 1,
+      "stronglyRecommended": false,
+      "legs": [
+        {
+          "number": "周六016",
+          "matchId": 2042198,
+          "teams": "阿森纳 vs 埃弗顿",
+          "market": "HAD",
+          "handicap": 0,
+          "selection": "胜",
+          "options": [
+            {
+              "key": "h",
+              "label": "胜",
+              "odds": 1.29
+            }
+          ],
+          "selectionReason": "腿1：阿森纳普通胜。官网确认联赛最少被射正21次、最低预期失球5.6，近六联赛主场只丢2球；Rice与Odegaard穿透组织、Eze和Madueke实战替代Saka，Hincapie归队、Calafiori可连续首发，防守主轴并非整体失效。Saka本场缺席但恢复期未确定，不采用6至8周为定论；Saliba继续伤缺。六天三赛增加中等轮换风险，替补已有森林/拜仁比赛验证。埃弗顿3客场皆平，有22次大机会却仅转化4次，须防效率回归；其边后卫多次错误和八个联赛客场未胜使主胜仍优于其他中场候选。预计首发不是官方首发，不依赖Branthwaite一定缺阵。",
+          "qualification": {
+            "single": false,
+            "allUp": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-24T02:48:29.092Z"
+          },
+          "lossPaths": [
+            "埃弗顿定位球和高位夺回球权得分",
+            "阿森纳疲劳使后段压制下降",
+            "低位与Pickford扑救拖平。"
+          ]
+        },
+        {
+          "number": "周六009",
+          "matchId": 2042191,
+          "teams": "科莫 vs 萨索洛",
+          "market": "HAD",
+          "handicap": 0,
+          "selection": "胜",
+          "options": [
+            {
+              "key": "h",
+              "label": "胜",
+              "odds": 1.33
+            }
+          ],
+          "selectionReason": "腿2：科莫普通胜。官方确认Paz、Da Cunha、Baturina与Douvikas的配合和前场反抢具备重复创造机会能力；对曼联4:1须降权，因对手本季仅两胜，不能按豪门名气抬星。近四联赛主场仅失1球、萨索洛客场10场不胜和后场失误支持相对优势。Douvikas周中踢满、Paz80分钟下场，间隔约66小时，10月27日还有都灵；轮换评中等而非零风险。官方周中名单含Liberali，故不采用前瞻称其无法参赛的说法；本票不依赖Kean复出或某个未证实首发，常规主轴已有实战。萨索洛Berardi/Lauriente反击及Matic出球仍危险。",
+          "qualification": {
+            "single": false,
+            "allUp": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-24T02:48:29.092Z"
+          },
+          "lossPaths": [
+            "密集赛程造成压迫后继乏力",
+            "Berardi/Lauriente反击得分",
+            "Douvikas低效或轮换导致平局。"
+          ]
+        }
+      ],
+      "selectionText": "周六016[胜] × 周六009[胜]",
+      "passType": "2串1",
+      "passSizes": [
+        2
+      ],
+      "combinationCount": 1,
+      "betCount": 1,
+      "unitStake": 2,
+      "multiplier": 1,
+      "totalCost": 2,
+      "subTickets": [
+        {
+          "id": "core20-B-single-0",
+          "name": "子票1",
+          "passType": "2串1",
+          "selections": [
+            {
+              "number": "周六016",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.29
+            },
+            {
+              "number": "周六009",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.33
+            }
+          ],
+          "selectionText": "周六016[胜] × 周六009[胜]",
+          "stake": 2,
+          "odds": 1.7157000000000002,
+          "return": 3.4314000000000004,
+          "net": 1.4314000000000004
+        }
+      ],
+      "conditionalReturn": {
+        "min": 3.4314000000000004,
+        "max": 3.4314000000000004
+      },
+      "conditionalNet": {
+        "min": 1.4314000000000004,
+        "max": 1.4314000000000004
+      },
+      "effectiveReturnRatio": {
+        "min": 1.7157000000000002,
+        "max": 1.7157000000000002
+      },
+      "uncoveredReturn": 0,
+      "uncoveredNet": -2,
+      "structureText": "单选×单选，一张2串1",
+      "oddsText": "整套返还 1.72倍",
+      "effectiveReturnText": "两场均胜返还1.72倍；任一平或负为0倍",
+      "coverageText": "不防平，不升级让球；产品名称不是目标倍率",
+      "risk": "两队短休；科莫反击防守、阿森纳攻坚与埃弗顿定位球为主要失手路径。相对优选，不承诺命中。",
+      "displayMultipliersOnly": true,
+      "oddsAsOf": "2026-10-24T02:48:29.092Z",
+      "lockedAt": "2026-10-24T02:49:30.974Z"
+    }
+  ],
   "scanTable": [
     {
       "number": "周六001",
@@ -1132,18 +1270,18 @@
       "kickoff": "2026-10-24T19:30:00",
       "batch": "B",
       "handicap": 1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "负",
+      "primaryPick": "负",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "负",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "status": "中场已审未入核心",
+      "risk": "曼城联赛连胜与Haaland可用支持客胜方向，但3:2伊普斯维奇、2:4巴黎暴露防守；维拉客胜纽卡及欧冠连胜必须升权，近期交锋亦克制曼城。双方周中比赛，Semenyo缺席，Foden可替代但不能消除丢球风险。",
       "odds": {
         "spf": {
           "win": 4.7,
@@ -1305,7 +1443,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -1314,7 +1452,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -1323,7 +1461,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -1332,7 +1470,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": true,
@@ -1341,7 +1479,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -1354,18 +1492,18 @@
       "kickoff": "2026-10-24T19:30:00",
       "batch": "B",
       "handicap": 1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "观望",
+      "primaryPick": "观望",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "观望",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "本轮官方在售列表未出现，不以镜像判可售",
+      "status": "中场已审未入核心",
+      "risk": "官方当前在售列表未列，不以镜像放行。诺维奇官网确认McLean可回归但需管理分钟、Kovacevic可用，纠正二级前瞻写其缺阵；查尔顿主场防守好，但保级压力不等于胜率。",
       "odds": {
         "mirrorOnly": true
       },
@@ -1383,18 +1521,18 @@
       "kickoff": "2026-10-24T20:00:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "观望",
+      "primaryPick": "观望",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "观望",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "status": "中场已审未入核心",
+      "risk": "Rayo的Camello终结状态好，但Batalla和Luiz Felipe缺阵、Ratiu存疑，Audero/Balliu为替代；埃尔切连平塞尔塔和比利亚雷亚尔应升权，Fer Nino与Lemar能利用后场缺口。不是只有一般平局可能，而是存在明确对位反证。",
       "odds": {
         "spf": {
           "win": 1.58,
@@ -1556,7 +1694,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -1565,7 +1703,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -1574,7 +1712,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -1583,7 +1721,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": false,
@@ -1592,7 +1730,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -1605,18 +1743,18 @@
       "kickoff": "2026-10-24T21:00:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "胜",
+      "primaryPick": "胜",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
-      "stars": 0,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "selection": "胜",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
+      "stars": 1,
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "核心单选入选",
+      "risk": "腿2：科莫普通胜。官方确认Paz、Da Cunha、Baturina与Douvikas的配合和前场反抢具备重复创造机会能力；对曼联4:1须降权，因对手本季仅两胜，不能按豪门名气抬星。近四联赛主场仅失1球、萨索洛客场10场不胜和后场失误支持相对优势。Douvikas周中踢满、Paz80分钟下场，间隔约66小时，10月27日还有都灵；轮换评中等而非零风险。官方周中名单含Liberali，故不采用前瞻称其无法参赛的说法；本票不依赖Kean复出或某个未证实首发，常规主轴已有实战。萨索洛Berardi/Lauriente反击及Matic出球仍危险。",
       "odds": {
         "spf": {
           "win": 1.33,
@@ -1778,7 +1916,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -1787,7 +1925,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -1796,7 +1934,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -1805,7 +1943,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": false,
@@ -1814,7 +1952,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -1827,18 +1965,18 @@
       "kickoff": "2026-10-24T21:00:00",
       "batch": "B",
       "handicap": 1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "让胜",
+      "primaryPick": "让胜",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "让胜",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "status": "中场已审未入核心",
+      "risk": "卡利亚里主+1让胜方向覆盖主队胜平，Maldini进球和主场仅负国米有支持；但上轮0:4蒙扎的崩盘不能略去。博洛尼亚Orsolini/Piccoli/Holm缺席，Bernardeschi/Cambiaghi/Enem可替代，客队对国米失利需做强度折扣。",
       "odds": {
         "spf": {
           "win": 2.7,
@@ -2000,7 +2138,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -2009,7 +2147,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -2018,7 +2156,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -2027,7 +2165,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": false,
@@ -2036,7 +2174,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -2049,18 +2187,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "观望",
+      "primaryPick": "观望",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "观望",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "status": "中场已审未入核心",
+      "risk": "莱比锡近期对拜仁1:6、皇马1:4须按强对手折扣，但连续大比分失守仍是高方差证据；埃尔弗斯堡亦有4:3式开放比赛。1.27不能代替防守稳定性。",
       "odds": {
         "spf": {
           "win": 1.27,
@@ -2222,7 +2360,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -2231,7 +2369,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -2240,7 +2378,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -2249,7 +2387,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": false,
@@ -2258,7 +2396,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -2271,18 +2409,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "观望",
+      "primaryPick": "观望",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "观望",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "status": "中场已审未入核心",
+      "risk": "美因茨尚无主场联赛胜利，Zentner及Kohr缺席，由Schwolow/Potulski补位；不莱梅虽中场有伤病，Fullkrug近5场6球不能低估。主队低赔与已核基本面差距不足解释。",
       "odds": {
         "spf": {
           "win": 1.59,
@@ -2444,7 +2582,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -2453,7 +2591,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -2462,7 +2600,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -2471,7 +2609,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": true,
@@ -2480,7 +2618,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -2493,18 +2631,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "观望",
+      "primaryPick": "观望",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "观望",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "status": "中场已审未入核心",
+      "risk": "帕德博恩连续主场无零封，最近2:2伴随大量互射；汉堡虽3连胜但Daka/Remberg缺阵。升班马对位、替代与双方开放打法使结果高方差。",
       "odds": {
         "spf": {
           "win": 2.13,
@@ -2666,7 +2804,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -2675,7 +2813,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -2684,7 +2822,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -2693,7 +2831,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": false,
@@ -2702,7 +2840,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -2715,18 +2853,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "观望",
+      "primaryPick": "观望",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "观望",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "status": "中场已审未入核心",
+      "risk": "科隆主场2胜1平、沙尔克6场4次未进球是有利面；但Hubers、Van den Berg及Skhiri缺阵同时触及中卫和屏障，Lochoshvili/Simpson-Pusey/Krauss承担替代。Dallinga缺席、Ache存疑，Bulter/El Mala可用；沙尔克Dzeko有望出场，不能只看客队进球少。",
       "odds": {
         "spf": {
           "win": 1.84,
@@ -2888,7 +3026,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -2897,7 +3035,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -2906,7 +3044,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -2915,7 +3053,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": false,
@@ -2924,7 +3062,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -2937,18 +3075,18 @@
       "kickoff": "2026-10-24T21:30:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "观望",
+      "primaryPick": "观望",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "观望",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "status": "中场已审未入核心",
+      "risk": "奥格斯堡近期4:3失利，防线稳定性不足；柏林联合0:0多特与1:0埃尔弗斯堡应升权，不能由1.66认定主胜稳胆。",
       "odds": {
         "spf": {
           "win": 1.66,
@@ -3110,7 +3248,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -3119,7 +3257,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -3128,7 +3266,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -3137,7 +3275,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": false,
@@ -3146,7 +3284,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -3159,18 +3297,18 @@
       "kickoff": "2026-10-24T22:00:00",
       "batch": "B",
       "handicap": -1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "胜",
+      "primaryPick": "胜",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
-      "stars": 0,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "selection": "胜",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
+      "stars": 1,
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "核心单选入选",
+      "risk": "腿1：阿森纳普通胜。官网确认联赛最少被射正21次、最低预期失球5.6，近六联赛主场只丢2球；Rice与Odegaard穿透组织、Eze和Madueke实战替代Saka，Hincapie归队、Calafiori可连续首发，防守主轴并非整体失效。Saka本场缺席但恢复期未确定，不采用6至8周为定论；Saliba继续伤缺。六天三赛增加中等轮换风险，替补已有森林/拜仁比赛验证。埃弗顿3客场皆平，有22次大机会却仅转化4次，须防效率回归；其边后卫多次错误和八个联赛客场未胜使主胜仍优于其他中场候选。预计首发不是官方首发，不依赖Branthwaite一定缺阵。",
       "odds": {
         "spf": {
           "win": 1.29,
@@ -3332,7 +3470,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -3341,7 +3479,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -3350,7 +3488,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -3359,7 +3497,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": false,
@@ -3368,7 +3506,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -3381,18 +3519,18 @@
       "kickoff": "2026-10-24T22:00:00",
       "batch": "B",
       "handicap": 1,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "观望",
+      "primaryPick": "观望",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "观望",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "待逐腿研究",
+      "status": "中场已审未入核心",
+      "risk": "考文垂胜森林及纽卡是积极证据，富勒姆八个联赛客场不胜且被伊普斯维奇最后两分钟逆转，但主队近六主场五场大球、七轮五负，不能把主+1让胜直接升为低波动核心。Rudoni有进球，Amenda/Eccles/Woolfenden/Wright缺阵；富勒姆Sessegnon停赛，Robinson可替代。",
       "odds": {
         "spf": {
           "win": 2.95,
@@ -3554,7 +3692,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAFU": {
           "single": true,
@@ -3563,7 +3701,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "CRS": {
           "single": true,
@@ -3572,7 +3710,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "TTG": {
           "single": true,
@@ -3581,7 +3719,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         },
         "HAD": {
           "single": false,
@@ -3590,7 +3728,7 @@
           "closeDate": null,
           "closeTime": null,
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-          "capturedAt": "2026-10-24T02:31:51.631Z"
+          "capturedAt": "2026-10-24T02:48:29.092Z"
         }
       }
     },
@@ -3603,18 +3741,18 @@
       "kickoff": "2026-10-24T22:00:00",
       "batch": "B",
       "handicap": -2,
-      "buy": "待分析",
-      "primaryPick": "待分析",
+      "buy": "观望",
+      "primaryPick": "观望",
       "speculative": "无",
-      "selection": "待分析",
-      "goals": "待核",
-      "halfFull": "待核",
-      "score": "待核",
+      "selection": "观望",
+      "goals": "不推",
+      "halfFull": "不推",
+      "score": "不推",
       "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
-      "status": "待分析",
-      "risk": "本轮官方在售列表未出现，不以镜像判可售",
+      "status": "中场已审未入核心",
+      "risk": "博德闪耀本轮官方列表未列，镜像有场次不足以证明当前可售。未完成可靠伤停、轮换与对位核验。",
       "odds": {
         "mirrorOnly": true
       },
@@ -6617,6 +6755,1192 @@
           }
         }
       }
+    },
+    {
+      "number": "周六006",
+      "text": "曼城联赛连胜与Haaland可用支持客胜方向，但3:2伊普斯维奇、2:4巴黎暴露防守；维拉客胜纽卡及欧冠连胜必须升权，近期交锋亦克制曼城。双方周中比赛，Semenyo缺席，Foden可替代但不能消除丢球风险。",
+      "lossPaths": [
+        "客队先丢球后强攻",
+        "维拉利用边路回收再反击",
+        "曼城领先被追平。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/aston-villa/preview/aston-villa-vs-man-city-prediction-team-news-lineups_607406.html",
+          "capturedAt": "2026-10-24T02:34:17.479Z"
+        }
+      ],
+      "availability": "曼城联赛连胜与Haaland可用支持客胜方向，但3:2伊普斯维奇、2:4巴黎暴露防守；维拉客胜纽卡及欧冠连胜必须升权，近期交锋亦克制曼城。双方周中比赛，Semenyo缺席，Foden可替代但不能消除丢球风险。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "oddsHistory": {
+        "number": "周六006",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042188&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.318Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "曼彻斯特城",
+            "awayTeamAbbName": "曼城",
+            "homeTeamAllName": "阿斯顿维拉",
+            "crsList": [],
+            "homeTeamAbbName": "维拉",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "英超",
+            "leagueId": "25",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "英格兰超级联赛",
+            "hadList": [
+              {
+                "a": "1.48",
+                "updateDate": "2026-10-23",
+                "df": "1",
+                "d": "4.15",
+                "af": "-1",
+                "h": "4.70",
+                "updateTime": "14:16:30",
+                "hf": "1",
+                "goalLine": ""
+              },
+              {
+                "a": "1.51",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "4.10",
+                "af": "0",
+                "h": "4.50",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 2,
+            "awayTeamId": 12,
+            "matchId": 2042188,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六007",
+      "text": "官方当前在售列表未列，不以镜像放行。诺维奇官网确认McLean可回归但需管理分钟、Kovacevic可用，纠正二级前瞻写其缺阵；查尔顿主场防守好，但保级压力不等于胜率。",
+      "lossPaths": [
+        "可售资格不足",
+        "客队回归改善中场",
+        "查尔顿攻坚不成。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/charlton-athletic/preview/charlton-vs-norwich-prediction-team-news-lineups_607425.html",
+          "capturedAt": "2026-10-24T02:34:18.241Z"
+        }
+      ],
+      "availability": "官方当前在售列表未列，不以镜像放行。诺维奇官网确认McLean可回归但需管理分钟、Kovacevic可用，纠正二级前瞻写其缺阵；查尔顿主场防守好，但保级压力不等于胜率。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六008",
+      "text": "Rayo的Camello终结状态好，但Batalla和Luiz Felipe缺阵、Ratiu存疑，Audero/Balliu为替代；埃尔切连平塞尔塔和比利亚雷亚尔应升权，Fer Nino与Lemar能利用后场缺口。不是只有一般平局可能，而是存在明确对位反证。",
+      "lossPaths": [
+        "替代门将防区协同失误",
+        "埃尔切中路反击",
+        "低位拖成平局。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/rayo-vallecano/preview/rayo-vallecano-vs-elche-prediction-team-news-lineups_607489.html",
+          "capturedAt": "2026-10-24T02:34:18.257Z"
+        }
+      ],
+      "availability": "Rayo的Camello终结状态好，但Batalla和Luiz Felipe缺阵、Ratiu存疑，Audero/Balliu为替代；埃尔切连平塞尔塔和比利亚雷亚尔应升权，Fer Nino与Lemar能利用后场缺口。不是只有一般平局可能，而是存在明确对位反证。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "oddsHistory": {
+        "number": "周六008",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042190&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.507Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "埃尔切",
+            "awayTeamAbbName": "埃尔切",
+            "homeTeamAllName": "巴列卡诺",
+            "crsList": [],
+            "homeTeamAbbName": "巴列卡诺",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "西甲",
+            "leagueId": "62",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 0,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "西班牙甲级联赛",
+            "hadList": [
+              {
+                "a": "4.50",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "3.65",
+                "af": "0",
+                "h": "1.58",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 849,
+            "awayTeamId": 30,
+            "matchId": 2042190,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六009",
+      "text": "腿2：科莫普通胜。官方确认Paz、Da Cunha、Baturina与Douvikas的配合和前场反抢具备重复创造机会能力；对曼联4:1须降权，因对手本季仅两胜，不能按豪门名气抬星。近四联赛主场仅失1球、萨索洛客场10场不胜和后场失误支持相对优势。Douvikas周中踢满、Paz80分钟下场，间隔约66小时，10月27日还有都灵；轮换评中等而非零风险。官方周中名单含Liberali，故不采用前瞻称其无法参赛的说法；本票不依赖Kean复出或某个未证实首发，常规主轴已有实战。萨索洛Berardi/Lauriente反击及Matic出球仍危险。",
+      "lossPaths": [
+        "密集赛程造成压迫后继乏力",
+        "Berardi/Lauriente反击得分",
+        "Douvikas低效或轮换导致平局。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/como/preview/como-vs-sassuolo-prediction-team-news-lineups_607472.html",
+          "capturedAt": "2026-10-24T02:34:17.491Z"
+        },
+        {
+          "url": "https://comofootball.com/como-1907-manchester-united-4-1-match-report-uefa-champions-league/",
+          "capturedAt": "2026-10-24T02:47:28.003Z"
+        },
+        {
+          "url": "https://comofootball.com/match-preview-como-1907-manchester-united/",
+          "capturedAt": "2026-10-24T02:47:29.148Z"
+        }
+      ],
+      "availability": "腿2：科莫普通胜。官方确认Paz、Da Cunha、Baturina与Douvikas的配合和前场反抢具备重复创造机会能力；对曼联4:1须降权，因对手本季仅两胜，不能按豪门名气抬星。近四联赛主场仅失1球、萨索洛客场10场不胜和后场失误支持相对优势。Douvikas周中踢满、Paz80分钟下场，间隔约66小时，10月27日还有都灵；轮换评中等而非零风险。官方周中名单含Liberali，故不采用前瞻称其无法参赛的说法；本票不依赖Kean复出或某个未证实首发，常规主轴已有实战。萨索洛Berardi/Lauriente反击及Matic出球仍危险。",
+      "rotation": {
+        "risk": "中，主轴与替代已核，有真实短休风险"
+      },
+      "volatility": {
+        "level": "相对中低，非保证"
+      },
+      "coreDecision": {
+        "approved": true
+      },
+      "oddsHistory": {
+        "number": "周六009",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042191&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.407Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "萨索洛",
+            "awayTeamAbbName": "萨索洛",
+            "homeTeamAllName": "科莫",
+            "crsList": [],
+            "homeTeamAbbName": "科莫",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "意甲",
+            "leagueId": "40",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 0,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "意大利甲级联赛",
+            "hadList": [
+              {
+                "a": "6.00",
+                "updateDate": "2026-10-24",
+                "df": "1",
+                "d": "4.75",
+                "af": "1",
+                "h": "1.33",
+                "updateTime": "10:21:01",
+                "hf": "-1",
+                "goalLine": ""
+              },
+              {
+                "a": "5.65",
+                "updateDate": "2026-10-23",
+                "df": "1",
+                "d": "4.60",
+                "af": "1",
+                "h": "1.36",
+                "updateTime": "15:44:55",
+                "hf": "-1",
+                "goalLine": ""
+              },
+              {
+                "a": "5.50",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "4.50",
+                "af": "0",
+                "h": "1.38",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 1040070,
+            "awayTeamId": 1509,
+            "matchId": 2042191,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六010",
+      "text": "卡利亚里主+1让胜方向覆盖主队胜平，Maldini进球和主场仅负国米有支持；但上轮0:4蒙扎的崩盘不能略去。博洛尼亚Orsolini/Piccoli/Holm缺席，Bernardeschi/Cambiaghi/Enem可替代，客队对国米失利需做强度折扣。",
+      "lossPaths": [
+        "卡利亚里防线再现连续失误",
+        "博洛尼亚率先破门并守住",
+        "主队只能少数球员得分。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/cagliari/preview/cagliari-vs-bologna-prediction-team-news-lineups_607500.html",
+          "capturedAt": "2026-10-24T02:34:17.752Z"
+        }
+      ],
+      "availability": "卡利亚里主+1让胜方向覆盖主队胜平，Maldini进球和主场仅负国米有支持；但上轮0:4蒙扎的崩盘不能略去。博洛尼亚Orsolini/Piccoli/Holm缺席，Bernardeschi/Cambiaghi/Enem可替代，客队对国米失利需做强度折扣。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "oddsHistory": {
+        "number": "周六010",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042192&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.417Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "博洛尼亚",
+            "awayTeamAbbName": "博洛尼亚",
+            "homeTeamAllName": "卡利亚里",
+            "crsList": [],
+            "homeTeamAbbName": "卡利亚里",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "意甲",
+            "leagueId": "40",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 0,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "意大利甲级联赛",
+            "hadList": [
+              {
+                "a": "2.45",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "2.85",
+                "af": "0",
+                "h": "2.70",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 120,
+            "awayTeamId": 118,
+            "matchId": 2042192,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六011",
+      "text": "莱比锡近期对拜仁1:6、皇马1:4须按强对手折扣，但连续大比分失守仍是高方差证据；埃尔弗斯堡亦有4:3式开放比赛。1.27不能代替防守稳定性。",
+      "lossPaths": [
+        "主队先失球",
+        "领先后被追平",
+        "开放攻防使比赛走向失控。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/rb-leipzig/preview/rb-leipzig-vs-elversberg-prediction-team-news-lineups_607493.html",
+          "capturedAt": "2026-10-24T02:34:18.268Z"
+        }
+      ],
+      "availability": "莱比锡近期对拜仁1:6、皇马1:4须按强对手折扣，但连续大比分失守仍是高方差证据；埃尔弗斯堡亦有4:3式开放比赛。1.27不能代替防守稳定性。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "oddsHistory": {
+        "number": "周六011",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042193&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.327Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "埃尔沃斯堡",
+            "awayTeamAbbName": "埃沃斯堡",
+            "homeTeamAllName": "莱比锡红牛",
+            "crsList": [],
+            "homeTeamAbbName": "莱红牛",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "德甲",
+            "leagueId": "37",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 0,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "德国甲级联赛",
+            "hadList": [
+              {
+                "a": "6.50",
+                "updateDate": "2026-10-23",
+                "df": "1",
+                "d": "5.32",
+                "af": "1",
+                "h": "1.27",
+                "updateTime": "15:54:16",
+                "hf": "-1",
+                "goalLine": ""
+              },
+              {
+                "a": "6.25",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "5.30",
+                "af": "0",
+                "h": "1.28",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 1619,
+            "awayTeamId": 2194,
+            "matchId": 2042193,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六012",
+      "text": "美因茨尚无主场联赛胜利，Zentner及Kohr缺席，由Schwolow/Potulski补位；不莱梅虽中场有伤病，Fullkrug近5场6球不能低估。主队低赔与已核基本面差距不足解释。",
+      "lossPaths": [
+        "替代门将和中卫失误",
+        "Fullkrug支点压制",
+        "美因茨攻坚形成平局。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/mainz-05/preview/mainz-vs-werder-bremen-prediction-team-news-lineups_607494.html",
+          "capturedAt": "2026-10-24T02:34:17.945Z"
+        }
+      ],
+      "availability": "美因茨尚无主场联赛胜利，Zentner及Kohr缺席，由Schwolow/Potulski补位；不莱梅虽中场有伤病，Fullkrug近5场6球不能低估。主队低赔与已核基本面差距不足解释。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "oddsHistory": {
+        "number": "周六012",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042194&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.378Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "云达不来梅",
+            "awayTeamAbbName": "不来梅",
+            "homeTeamAllName": "美因茨",
+            "crsList": [],
+            "homeTeamAbbName": "美因茨",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "德甲",
+            "leagueId": "37",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "德国甲级联赛",
+            "hadList": [
+              {
+                "a": "4.15",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "3.85",
+                "af": "0",
+                "h": "1.59",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 147,
+            "awayTeamId": 153,
+            "matchId": 2042194,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六013",
+      "text": "帕德博恩连续主场无零封，最近2:2伴随大量互射；汉堡虽3连胜但Daka/Remberg缺阵。升班马对位、替代与双方开放打法使结果高方差。",
+      "lossPaths": [
+        "主队转换丢球",
+        "汉堡替代攻击未达预期",
+        "双方高频机会形成不稳定比分。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/paderborn/preview/sc-paderborn-vs-hamburger-sv-prediction-team-news-lineups_607478.html",
+          "capturedAt": "2026-10-24T02:34:18.252Z"
+        }
+      ],
+      "availability": "帕德博恩连续主场无零封，最近2:2伴随大量互射；汉堡虽3连胜但Daka/Remberg缺阵。升班马对位、替代与双方开放打法使结果高方差。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "oddsHistory": {
+        "number": "周六013",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042195&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.328Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "汉堡",
+            "awayTeamAbbName": "汉堡",
+            "homeTeamAllName": "帕德博恩",
+            "crsList": [],
+            "homeTeamAbbName": "帕德博恩",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "德甲",
+            "leagueId": "37",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 0,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "德国甲级联赛",
+            "hadList": [
+              {
+                "a": "2.67",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "3.50",
+                "af": "0",
+                "h": "2.13",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 169,
+            "awayTeamId": 142,
+            "matchId": 2042195,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六014",
+      "text": "科隆主场2胜1平、沙尔克6场4次未进球是有利面；但Hubers、Van den Berg及Skhiri缺阵同时触及中卫和屏障，Lochoshvili/Simpson-Pusey/Krauss承担替代。Dallinga缺席、Ache存疑，Bulter/El Mala可用；沙尔克Dzeko有望出场，不能只看客队进球少。",
+      "lossPaths": [
+        "替代中轴被Dzeko争顶与二点球击穿",
+        "Karius扑救拖平",
+        "主队锋线效率不够。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/fc-koln/preview/fc-koln-vs-schalke-prediction-team-news-lineups_607495.html",
+          "capturedAt": "2026-10-24T02:34:18.259Z"
+        }
+      ],
+      "availability": "科隆主场2胜1平、沙尔克6场4次未进球是有利面；但Hubers、Van den Berg及Skhiri缺阵同时触及中卫和屏障，Lochoshvili/Simpson-Pusey/Krauss承担替代。Dallinga缺席、Ache存疑，Bulter/El Mala可用；沙尔克Dzeko有望出场，不能只看客队进球少。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "oddsHistory": {
+        "number": "周六014",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042196&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.326Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "沙尔克04",
+            "awayTeamAbbName": "沙尔克04",
+            "homeTeamAllName": "科隆",
+            "crsList": [],
+            "homeTeamAbbName": "科隆",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "德甲",
+            "leagueId": "37",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 0,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "德国甲级联赛",
+            "hadList": [
+              {
+                "a": "3.33",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "3.50",
+                "af": "1",
+                "h": "1.84",
+                "updateTime": "21:23:32",
+                "hf": "-1",
+                "goalLine": ""
+              },
+              {
+                "a": "3.21",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "3.50",
+                "af": "0",
+                "h": "1.88",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 166,
+            "awayTeamId": 151,
+            "matchId": 2042196,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六015",
+      "text": "奥格斯堡近期4:3失利，防线稳定性不足；柏林联合0:0多特与1:0埃尔弗斯堡应升权，不能由1.66认定主胜稳胆。",
+      "lossPaths": [
+        "主队领先后守不住",
+        "联合压缩空间后反击",
+        "开放比赛提高方差。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/augsburg/preview/augsburg-vs-union-berlin-prediction-team-news-lineups_607462.html",
+          "capturedAt": "2026-10-24T02:34:17.737Z"
+        }
+      ],
+      "availability": "奥格斯堡近期4:3失利，防线稳定性不足；柏林联合0:0多特与1:0埃尔弗斯堡应升权，不能由1.66认定主胜稳胆。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "oddsHistory": {
+        "number": "周六015",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042197&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.434Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "柏林联合",
+            "awayTeamAbbName": "柏林联合",
+            "homeTeamAllName": "奥格斯堡",
+            "crsList": [],
+            "homeTeamAbbName": "奥格斯堡",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "德甲",
+            "leagueId": "37",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 0,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "德国甲级联赛",
+            "hadList": [
+              {
+                "a": "3.75",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "3.85",
+                "af": "0",
+                "h": "1.66",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 808,
+            "awayTeamId": 1270,
+            "matchId": 2042197,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六016",
+      "text": "腿1：阿森纳普通胜。官网确认联赛最少被射正21次、最低预期失球5.6，近六联赛主场只丢2球；Rice与Odegaard穿透组织、Eze和Madueke实战替代Saka，Hincapie归队、Calafiori可连续首发，防守主轴并非整体失效。Saka本场缺席但恢复期未确定，不采用6至8周为定论；Saliba继续伤缺。六天三赛增加中等轮换风险，替补已有森林/拜仁比赛验证。埃弗顿3客场皆平，有22次大机会却仅转化4次，须防效率回归；其边后卫多次错误和八个联赛客场未胜使主胜仍优于其他中场候选。预计首发不是官方首发，不依赖Branthwaite一定缺阵。",
+      "lossPaths": [
+        "埃弗顿定位球和高位夺回球权得分",
+        "阿森纳疲劳使后段压制下降",
+        "低位与Pickford扑救拖平。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/arsenal/preview/arsenal-vs-everton-prediction-team-news-lineups_607422.html",
+          "capturedAt": "2026-10-24T02:34:17.708Z"
+        },
+        {
+          "url": "https://www.arsenal.com/news/preview-arsenal-v-everton-aqke81t8AjHc",
+          "capturedAt": "2026-10-24T02:49:30.974Z"
+        },
+        {
+          "url": "https://www.arsenal.com/news/every-word-of-mikel-artetas-pre-everton-presser-aXXWT4y7i0wP",
+          "capturedAt": "2026-10-24T02:49:30.974Z"
+        }
+      ],
+      "availability": "腿1：阿森纳普通胜。官网确认联赛最少被射正21次、最低预期失球5.6，近六联赛主场只丢2球；Rice与Odegaard穿透组织、Eze和Madueke实战替代Saka，Hincapie归队、Calafiori可连续首发，防守主轴并非整体失效。Saka本场缺席但恢复期未确定，不采用6至8周为定论；Saliba继续伤缺。六天三赛增加中等轮换风险，替补已有森林/拜仁比赛验证。埃弗顿3客场皆平，有22次大机会却仅转化4次，须防效率回归；其边后卫多次错误和八个联赛客场未胜使主胜仍优于其他中场候选。预计首发不是官方首发，不依赖Branthwaite一定缺阵。",
+      "rotation": {
+        "risk": "中，主轴与替代已核，有真实短休风险"
+      },
+      "volatility": {
+        "level": "相对中低，非保证"
+      },
+      "coreDecision": {
+        "approved": true
+      },
+      "oddsHistory": {
+        "number": "周六016",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042198&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.518Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "埃弗顿",
+            "awayTeamAbbName": "埃弗顿",
+            "homeTeamAllName": "阿森纳",
+            "crsList": [],
+            "homeTeamAbbName": "阿森纳",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "英超",
+            "leagueId": "25",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 0,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "英格兰超级联赛",
+            "hadList": [
+              {
+                "a": "8.12",
+                "updateDate": "2026-10-23",
+                "df": "1",
+                "d": "4.32",
+                "af": "1",
+                "h": "1.29",
+                "updateTime": "14:38:25",
+                "hf": "-1",
+                "goalLine": ""
+              },
+              {
+                "a": "7.90",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "4.30",
+                "af": "0",
+                "h": "1.30",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 1,
+            "awayTeamId": 9,
+            "matchId": 2042198,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六017",
+      "text": "考文垂胜森林及纽卡是积极证据，富勒姆八个联赛客场不胜且被伊普斯维奇最后两分钟逆转，但主队近六主场五场大球、七轮五负，不能把主+1让胜直接升为低波动核心。Rudoni有进球，Amenda/Eccles/Woolfenden/Wright缺阵；富勒姆Sessegnon停赛，Robinson可替代。",
+      "lossPaths": [
+        "主队开放防守被Iwobi/King利用",
+        "替代攻击终结低效",
+        "比分高波动。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sportsmole.co.uk/football/coventry-city/preview/coventry-vs-fulham-prediction-team-news-lineups_607415.html",
+          "capturedAt": "2026-10-24T02:34:17.951Z"
+        }
+      ],
+      "availability": "考文垂胜森林及纽卡是积极证据，富勒姆八个联赛客场不胜且被伊普斯维奇最后两分钟逆转，但主队近六主场五场大球、七轮五负，不能把主+1让胜直接升为低波动核心。Rudoni有进球，Amenda/Eccles/Woolfenden/Wright缺阵；富勒姆Sessegnon停赛，Robinson可替代。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "oddsHistory": {
+        "number": "周六017",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry?matchId=2042199&poolCode=had",
+        "capturedAt": "2026-10-24T02:36:28.334Z",
+        "data": {
+          "dataFrom": "",
+          "emptyFlag": false,
+          "errorCode": "0",
+          "errorMessage": "处理成功",
+          "success": true,
+          "value": {
+            "awayTeamAllName": "富勒姆",
+            "awayTeamAbbName": "富勒姆",
+            "homeTeamAllName": "考文垂",
+            "crsList": [],
+            "homeTeamAbbName": "考文垂",
+            "hhadList": [],
+            "ttgList": [],
+            "leagueAbbName": "英超",
+            "leagueId": "25",
+            "singleList": [
+              {
+                "single": 0,
+                "poolCode": "HHAD"
+              },
+              {
+                "single": 1,
+                "poolCode": "HAFU"
+              },
+              {
+                "single": 1,
+                "poolCode": "CRS"
+              },
+              {
+                "single": 1,
+                "poolCode": "TTG"
+              },
+              {
+                "single": 0,
+                "poolCode": "HAD"
+              }
+            ],
+            "leagueAllName": "英格兰超级联赛",
+            "hadList": [
+              {
+                "a": "2.04",
+                "updateDate": "2026-10-23",
+                "df": "0",
+                "d": "3.35",
+                "af": "0",
+                "h": "2.95",
+                "updateTime": "09:40:01",
+                "hf": "0",
+                "goalLine": ""
+              }
+            ],
+            "homeTeamId": 44,
+            "awayTeamId": 10,
+            "matchId": 2042199,
+            "hafuList": []
+          }
+        }
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
+    },
+    {
+      "number": "周六018",
+      "text": "博德闪耀本轮官方列表未列，镜像有场次不足以证明当前可售。未完成可靠伤停、轮换与对位核验。",
+      "lossPaths": [
+        "资格无法确认",
+        "阵容与密集赛程缺证",
+        "不能以热门赔率代替研究。"
+      ],
+      "sources": [],
+      "availability": "博德闪耀本轮官方列表未列，镜像有场次不足以证明当前可售。未完成可靠伤停、轮换与对位核验。",
+      "rotation": {
+        "risk": "见分析，不视作低风险"
+      },
+      "volatility": {
+        "level": "中高或证据不足"
+      },
+      "coreDecision": {
+        "approved": false
+      },
+      "referenceMarkets": {
+        "had": "普通方向见buy",
+        "hhad": "不为倍率升级净胜球",
+        "ttg": "未形成充分分布依据，不推",
+        "hafu": "早中场按要求不出",
+        "crs": "早中场按要求不出"
+      }
     }
   ],
   "legPool": [
@@ -6649,6 +7973,110 @@
       "approved": false,
       "rank": null,
       "reason": "德比、新季小样本与两队后场磨合使方差偏高，不进早场核心。"
+    },
+    {
+      "number": "周六006",
+      "approved": false,
+      "rank": null,
+      "reason": "曼城联赛连胜与Haaland可用支持客胜方向，但3:2伊普斯维奇、2:4巴黎暴露防守；维拉客胜纽卡及欧冠连胜必须升权，近期交锋亦克制曼城。双方周中比赛，Semenyo缺席，Foden可替代但不能消除丢球风险。",
+      "selection": "负",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六007",
+      "approved": false,
+      "rank": null,
+      "reason": "官方当前在售列表未列，不以镜像放行。诺维奇官网确认McLean可回归但需管理分钟、Kovacevic可用，纠正二级前瞻写其缺阵；查尔顿主场防守好，但保级压力不等于胜率。",
+      "selection": "观望",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六008",
+      "approved": false,
+      "rank": null,
+      "reason": "Rayo的Camello终结状态好，但Batalla和Luiz Felipe缺阵、Ratiu存疑，Audero/Balliu为替代；埃尔切连平塞尔塔和比利亚雷亚尔应升权，Fer Nino与Lemar能利用后场缺口。不是只有一般平局可能，而是存在明确对位反证。",
+      "selection": "观望",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六009",
+      "approved": true,
+      "rank": 2,
+      "reason": "腿2：科莫普通胜。官方确认Paz、Da Cunha、Baturina与Douvikas的配合和前场反抢具备重复创造机会能力；对曼联4:1须降权，因对手本季仅两胜，不能按豪门名气抬星。近四联赛主场仅失1球、萨索洛客场10场不胜和后场失误支持相对优势。Douvikas周中踢满、Paz80分钟下场，间隔约66小时，10月27日还有都灵；轮换评中等而非零风险。官方周中名单含Liberali，故不采用前瞻称其无法参赛的说法；本票不依赖Kean复出或某个未证实首发，常规主轴已有实战。萨索洛Berardi/Lauriente反击及Matic出球仍危险。",
+      "selection": "胜",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六010",
+      "approved": false,
+      "rank": null,
+      "reason": "卡利亚里主+1让胜方向覆盖主队胜平，Maldini进球和主场仅负国米有支持；但上轮0:4蒙扎的崩盘不能略去。博洛尼亚Orsolini/Piccoli/Holm缺席，Bernardeschi/Cambiaghi/Enem可替代，客队对国米失利需做强度折扣。",
+      "selection": "让胜",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六011",
+      "approved": false,
+      "rank": null,
+      "reason": "莱比锡近期对拜仁1:6、皇马1:4须按强对手折扣，但连续大比分失守仍是高方差证据；埃尔弗斯堡亦有4:3式开放比赛。1.27不能代替防守稳定性。",
+      "selection": "观望",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六012",
+      "approved": false,
+      "rank": null,
+      "reason": "美因茨尚无主场联赛胜利，Zentner及Kohr缺席，由Schwolow/Potulski补位；不莱梅虽中场有伤病，Fullkrug近5场6球不能低估。主队低赔与已核基本面差距不足解释。",
+      "selection": "观望",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六013",
+      "approved": false,
+      "rank": null,
+      "reason": "帕德博恩连续主场无零封，最近2:2伴随大量互射；汉堡虽3连胜但Daka/Remberg缺阵。升班马对位、替代与双方开放打法使结果高方差。",
+      "selection": "观望",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六014",
+      "approved": false,
+      "rank": null,
+      "reason": "科隆主场2胜1平、沙尔克6场4次未进球是有利面；但Hubers、Van den Berg及Skhiri缺阵同时触及中卫和屏障，Lochoshvili/Simpson-Pusey/Krauss承担替代。Dallinga缺席、Ache存疑，Bulter/El Mala可用；沙尔克Dzeko有望出场，不能只看客队进球少。",
+      "selection": "观望",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六015",
+      "approved": false,
+      "rank": null,
+      "reason": "奥格斯堡近期4:3失利，防线稳定性不足；柏林联合0:0多特与1:0埃尔弗斯堡应升权，不能由1.66认定主胜稳胆。",
+      "selection": "观望",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六016",
+      "approved": true,
+      "rank": 1,
+      "reason": "腿1：阿森纳普通胜。官网确认联赛最少被射正21次、最低预期失球5.6，近六联赛主场只丢2球；Rice与Odegaard穿透组织、Eze和Madueke实战替代Saka，Hincapie归队、Calafiori可连续首发，防守主轴并非整体失效。Saka本场缺席但恢复期未确定，不采用6至8周为定论；Saliba继续伤缺。六天三赛增加中等轮换风险，替补已有森林/拜仁比赛验证。埃弗顿3客场皆平，有22次大机会却仅转化4次，须防效率回归；其边后卫多次错误和八个联赛客场未胜使主胜仍优于其他中场候选。预计首发不是官方首发，不依赖Branthwaite一定缺阵。",
+      "selection": "胜",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六017",
+      "approved": false,
+      "rank": null,
+      "reason": "考文垂胜森林及纽卡是积极证据，富勒姆八个联赛客场不胜且被伊普斯维奇最后两分钟逆转，但主队近六主场五场大球、七轮五负，不能把主+1让胜直接升为低波动核心。Rudoni有进球，Amenda/Eccles/Woolfenden/Wright缺阵；富勒姆Sessegnon停赛，Robinson可替代。",
+      "selection": "观望",
+      "insurance": "无；单选承担真实平局风险"
+    },
+    {
+      "number": "周六018",
+      "approved": false,
+      "rank": null,
+      "reason": "博德闪耀本轮官方列表未列，镜像有场次不足以证明当前可售。未完成可靠伤停、轮换与对位核验。",
+      "selection": "观望",
+      "insurance": "无；单选承担真实平局风险"
     }
   ],
   "batches": [
@@ -6668,11 +8096,36 @@
       "status": "no-approved-core",
       "recommendationComplete": false,
       "archiveVersion": "2026-10-24-A-20261024T023922719Z"
+    },
+    {
+      "id": "B",
+      "label": "中场",
+      "numbers": [
+        "周六006",
+        "周六007",
+        "周六008",
+        "周六009",
+        "周六010",
+        "周六011",
+        "周六012",
+        "周六013",
+        "周六014",
+        "周六015",
+        "周六016",
+        "周六017",
+        "周六018"
+      ],
+      "deadline": "2026-10-24T14:00:00+08:00",
+      "publishedAt": "2026-10-24T02:49:30.974Z",
+      "locked": true,
+      "status": "core20-only",
+      "recommendationComplete": false,
+      "archiveVersion": "2026-10-24-B-20261024T024930974Z"
     }
   ],
   "coreStatus": {
-    "2.0": "早场未通过，未出单",
-    "3.0": "早场未通过，未出单"
+    "2.0": "中场016胜×009胜，整套1.72倍",
+    "3.0": "中场其余候选未达门槛，晚场继续筛选"
   },
   "sources": [
     {
@@ -6686,9 +8139,9 @@
     "007/018/030镜像有列、官方本轮未列，等待官方复核。"
   ],
   "artifacts": {
-    "poster": "audits/2026-10-24-A-20261024T023922719Z-poster.png",
-    "tracking": "audits/2026-10-24-A-20261024T023922719Z-tracking.png",
-    "report": "audits/2026-10-24-A-20261024T023922719Z.json"
+    "poster": "audits/2026-10-24-B-20261024T024930974Z-poster.png",
+    "tracking": "audits/2026-10-24-B-20261024T024930974Z-tracking.png",
+    "report": "audits/2026-10-24-B-20261024T024930974Z.json"
   },
   "publication": {
     "main": "https://zdongdong8219-jpg.github.io/football-monitor/",
@@ -6700,6 +8153,11 @@
     "reasoning_effort": "medium",
     "source": "automation.toml"
   },
-  "batchLabel": "早场风险审核",
-  "coreDecisionReason": "5场均未达高信心准入；不发布半全场或梦想串。"
+  "batchLabel": "早中场合并",
+  "coreDecisionReason": "中场其余腿防守、轮换或资格未达门槛；3.0留空，晚场再筛。",
+  "sourceConflicts": [
+    "科莫二级前瞻称Liberali不能出场，官方10月21日名单和比赛替补均有其名，舍弃该说法。",
+    "阿森纳官网仍评估Saka恢复期，舍弃二级前瞻6至8周定论。",
+    "诺维奇官网McLean可回归，纠正二级前瞻缺阵说法。"
+  ]
 }
