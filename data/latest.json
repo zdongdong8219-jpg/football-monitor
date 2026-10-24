@@ -1,17 +1,79 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T04:40:05.720Z",
-  "generatedAt": "2026-10-24T04:40:05.720Z",
+  "publishedAt": "2026-10-24T04:50:09.408Z",
+  "generatedAt": "2026-10-24T04:50:09.408Z",
   "status": "published",
-  "edition": "early-ticket-retracted",
+  "edition": "early-normal-poster",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": false,
   "completed": false,
   "mobileVerified": false,
   "dataAsOf": "2026-10-24T02:52:07.730Z",
-  "summary": "紧急撤回：此前003让负×004让负的解释错误。主队-1时，恰赢1球结算为让平，不属于让负；原票不得购买。正在按正确结算规则重新审核早场。",
-  "recommendations": [],
+  "summary": "早场正式图：完整扫盘001—005；保留用户确认的003让负×004让平/让负双选2串1，共2注，归入博单。",
+  "recommendations": [
+    {
+      "id": "2026-10-24-early-speculative-003-004",
+      "name": "早场博单｜双选2串1",
+      "title": "003让负 × 004让平/让负",
+      "category": "two",
+      "tier": "博单",
+      "passType": "2串1",
+      "passSizes": [
+        2
+      ],
+      "stronglyRecommended": false,
+      "stars": 1,
+      "combinationCount": 2,
+      "totalCost": 4,
+      "oddsText": "2注：5.85倍 / 2.22倍",
+      "effectiveReturnText": "每注2元；003与004对应分支同时命中才返还",
+      "coverageText": "003要求神户平局或输球；004覆盖鹿岛恰赢1球、平局或输球。",
+      "structureText": "003单选让负 × 004双选让平/让负＝2注",
+      "legs": [
+        {
+          "number": "周六003",
+          "home": "神户胜利",
+          "away": "町田泽维",
+          "market": "让球胜平负(-1)",
+          "selection": "让负",
+          "selectionText": "主-1让负",
+          "odds": 1.48,
+          "stars": 1
+        },
+        {
+          "number": "周六004",
+          "home": "鹿岛鹿角",
+          "away": "柏太阳神",
+          "market": "让球胜平负(-1)",
+          "selection": "让平＋让负",
+          "selectionText": "主-1让平＋让负",
+          "odds": [
+            3.95,
+            1.5
+          ],
+          "stars": 1
+        }
+      ],
+      "subTickets": [
+        {
+          "name": "子票A",
+          "selectionText": "周六003主-1让负 × 周六004主-1让平",
+          "stake": 2,
+          "odds": 5.846,
+          "returnText": "约11.69元"
+        },
+        {
+          "name": "子票B",
+          "selectionText": "周六003主-1让负 × 周六004主-1让负",
+          "stake": 2,
+          "odds": 2.22,
+          "returnText": "约4.44元"
+        }
+      ],
+      "risk": "博单，不列入2.0/3.0跟踪卡。003若神户恰赢1球则让平、该腿不中；004若鹿岛净胜2球以上则两项均不中。"
+    }
+  ],
   "scanTable": [
     {
       "number": "周六001",
@@ -22,17 +84,17 @@
       "kickoff": "2026-10-24T13:00:00",
       "batch": "A",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "胜＋平",
+      "primaryPick": "胜＋平",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "胜＋平",
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 0,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "早场审核未通过",
+      "stars": 1,
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "早场扫盘",
       "risk": "首尔阵容与轮换未核齐，江原平局能力有反证，不准入核心。",
       "odds": {
         "spf": {
@@ -244,17 +306,17 @@
       "kickoff": "2026-10-24T13:00:00",
       "batch": "A",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "胜＋平",
+      "primaryPick": "胜＋平",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "胜＋平",
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 0,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "早场审核未通过",
+      "stars": 1,
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "早场扫盘",
       "risk": "主胜需要防平，但双选与低赔腿组合后的整套回报过薄；不能为两档硬删平局。",
       "odds": {
         "spf": {
@@ -466,17 +528,17 @@
       "kickoff": "2026-10-24T14:00:00",
       "batch": "A",
       "handicap": -1,
-      "buy": "撤回",
-      "primaryPick": "撤回",
+      "buy": "主-1让负",
+      "primaryPick": "主-1让负",
       "speculative": "无",
-      "selection": "撤回",
+      "selection": "主-1让负",
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
       "stars": 1,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "结算规则错误，原方向撤回",
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "早场博单腿",
       "risk": "主队-1恰赢1球应为让平，单选让负不覆盖。",
       "odds": {
         "spf": {
@@ -688,17 +750,17 @@
       "kickoff": "2026-10-24T14:00:00",
       "batch": "A",
       "handicap": -1,
-      "buy": "撤回",
-      "primaryPick": "撤回",
+      "buy": "主-1让平＋让负",
+      "primaryPick": "主-1让平＋让负",
       "speculative": "无",
-      "selection": "撤回",
+      "selection": "主-1让平＋让负",
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
       "stars": 1,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "结算规则错误，原方向撤回",
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "早场博单双选腿",
       "risk": "主队-1恰赢1球应为让平，单选让负不覆盖。",
       "odds": {
         "spf": {
@@ -910,17 +972,17 @@
       "kickoff": "2026-10-24T16:40:00",
       "batch": "A",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "平＋负",
+      "primaryPick": "平＋负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "平＋负",
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 0,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "早场审核未通过",
+      "stars": 1,
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "早场扫盘",
       "risk": "德比、新季小样本与两队后场磨合使方差偏高，不进早场核心。",
       "odds": {
         "spf": {
@@ -9320,7 +9382,10 @@
   "artifacts": {
     "poster": "audits/2026-10-24-C-20261024T025336659Z-poster.png",
     "tracking": "audits/2026-10-24-C-20261024T025336659Z-tracking.png",
-    "report": "audits/2026-10-24-C-20261024T025336659Z.json"
+    "report": "audits/2026-10-24-C-20261024T025336659Z.json",
+    "posterImage": true,
+    "trackingImage": true,
+    "imageCopyButtonRequired": true
   },
   "publication": {
     "main": "https://zdongdong8219-jpg.github.io/football-monitor/",
@@ -9331,14 +9396,16 @@
     "earlyBatchDate": "2026-10-24",
     "earlyPublishedAt": "2026-10-24T04:29:26.477Z",
     "retractionAt": "2026-10-24T04:40:05.720Z",
-    "retractionReason": "HHAD -1 settlement rule error: win by exactly one is draw, not away"
+    "retractionReason": "HHAD -1 settlement rule error: win by exactly one is draw, not away",
+    "requestedAt": "2026-10-24T04:50:09.408Z",
+    "note": "003让负×004让平/让负按用户要求保留为博单"
   },
   "modelConfiguration": {
     "model": "gpt-6-astra",
     "reasoning_effort": "medium",
     "source": "automation.toml"
   },
-  "batchLabel": "早场纠错版",
+  "batchLabel": "早场正式版",
   "coreDecisionReason": "其余候选存在防守稳定、后腰新伤、换帅或资格缺口，3.0不凑。",
   "sourceConflicts": [
     "科莫二级前瞻称Liberali不能出场，官方10月21日名单和比赛替补均有其名，舍弃该说法。",
@@ -9348,7 +9415,7 @@
   ],
   "lockedDate": "2026-10-24",
   "researchComplete": true,
-  "deliveryStatus": "early-correction-required",
+  "deliveryStatus": "publishing",
   "pairingAudit": {
     "rankedBeforePairing": true,
     "approved": [
