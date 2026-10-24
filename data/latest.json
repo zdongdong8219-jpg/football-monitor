@@ -1,45 +1,45 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T02:53:36.659Z",
-  "generatedAt": "2026-10-24T02:53:36.659Z",
-  "status": "final-reviewed-one-core",
-  "edition": "2026-10-24-C-20261024T025336659Z",
+  "publishedAt": "2026-10-24T04:29:26.477Z",
+  "generatedAt": "2026-10-24T04:29:26.477Z",
+  "status": "published",
+  "edition": "early-correction",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
-  "finalLocked": true,
+  "finalLocked": false,
   "completed": false,
   "mobileVerified": false,
   "dataAsOf": "2026-10-24T02:52:07.730Z",
-  "summary": "早、中、晚30场分批审核已合并；官方当前27场，007/018/030不放行。保留中场2.0：016胜×009胜，整套1.72倍。其余组合未达本轮风险门槛，3.0不出；不追加博单。",
+  "summary": "早场纠错：001/002已临近或进入开赛，不倒填；正式早场核心为003主-1让负×004主-1让负，整套2.22倍。中场016×009撤回为14:00前草案，不是当前正式票。",
   "recommendations": [
     {
-      "id": "core20-B-single",
-      "name": "2.0版 · 中场双单选",
+      "id": "early-core20-A-hhad-away",
+      "name": "早场2.0版 · 两场让负",
       "category": "two",
       "trackingTier": "2.0版",
       "approved": true,
       "status": "待定",
-      "sessionLabel": "中场",
-      "batch": "B",
+      "sessionLabel": "早场",
+      "batch": "A",
       "nonBanker": true,
       "stars": 1,
       "stronglyRecommended": false,
       "legs": [
         {
-          "number": "周六016",
-          "matchId": 2042198,
-          "teams": "阿森纳 vs 埃弗顿",
-          "market": "HAD",
-          "handicap": 0,
-          "selection": "胜",
+          "number": "周六003",
+          "matchId": 2042185,
+          "teams": "神户胜利 vs 町田泽维",
+          "market": "HHAD",
+          "handicap": -1,
+          "selection": "让负",
           "options": [
             {
-              "key": "h",
-              "label": "胜",
-              "odds": 1.29
+              "key": "a",
+              "label": "让负",
+              "odds": 1.48
             }
           ],
-          "selectionReason": "腿1：阿森纳普通胜。官网确认联赛最少被射正21次、最低预期失球5.6，近六联赛主场只丢2球；Rice与Odegaard穿透组织、Eze和Madueke实战替代Saka，Hincapie归队、Calafiori可连续首发，防守主轴并非整体失效。Saka本场缺席但恢复期未确定，不采用6至8周为定论；Saliba继续伤缺。六天三赛增加中等轮换风险，替补已有森林/拜仁比赛验证。埃弗顿3客场皆平，有22次大机会却仅转化4次，须防效率回归；其边后卫多次错误和八个联赛客场未胜使主胜仍优于其他中场候选。预计首发不是官方首发，不依赖Branthwaite一定缺阵。",
+          "selectionReason": "神户中2日连续作战且边后卫伤情待核，町田轮换仍连续赢球。这里只判断神户难以净胜2球，不押客队直接获胜。",
           "qualification": {
             "single": false,
             "allUp": true,
@@ -47,29 +47,28 @@
             "closeDate": null,
             "closeTime": null,
             "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-            "capturedAt": "2026-10-24T02:48:29.092Z"
+            "capturedAt": "2026-10-24T02:31:51.631Z"
           },
           "lossPaths": [
-            "埃弗顿定位球和高位夺回球权得分",
-            "阿森纳疲劳使后段压制下降",
-            "低位与Pickford扑救拖平。"
+            "神户凭大迫支点和主场二点球净胜2球以上",
+            "町田密集赛程导致后段崩盘"
           ]
         },
         {
-          "number": "周六009",
-          "matchId": 2042191,
-          "teams": "科莫 vs 萨索洛",
-          "market": "HAD",
-          "handicap": 0,
-          "selection": "胜",
+          "number": "周六004",
+          "matchId": 2042186,
+          "teams": "鹿岛鹿角 vs 柏太阳神",
+          "market": "HHAD",
+          "handicap": -1,
+          "selection": "让负",
           "options": [
             {
-              "key": "h",
-              "label": "胜",
-              "odds": 1.33
+              "key": "a",
+              "label": "让负",
+              "odds": 1.5
             }
           ],
-          "selectionReason": "腿2：科莫普通胜。官方确认Paz、Da Cunha、Baturina与Douvikas的配合和前场反抢具备重复创造机会能力；对曼联4:1须降权，因对手本季仅两胜，不能按豪门名气抬星。近四联赛主场仅失1球、萨索洛客场10场不胜和后场失误支持相对优势。Douvikas周中踢满、Paz80分钟下场，间隔约66小时，10月27日还有都灵；轮换评中等而非零风险。官方周中名单含Liberali，故不采用前瞻称其无法参赛的说法；本票不依赖Kean复出或某个未证实首发，常规主轴已有实战。萨索洛Berardi/Lauriente反击及Matic出球仍危险。",
+          "selectionReason": "鹿岛核心射手Leo Ceara状态存疑，双方中2日短休；柏客平上游东京证明防守韧性。这里只判断鹿岛难以净胜2球。",
           "qualification": {
             "single": false,
             "allUp": true,
@@ -77,16 +76,15 @@
             "closeDate": null,
             "closeTime": null,
             "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-            "capturedAt": "2026-10-24T02:48:29.092Z"
+            "capturedAt": "2026-10-24T02:31:51.631Z"
           },
           "lossPaths": [
-            "密集赛程造成压迫后继乏力",
-            "Berardi/Lauriente反击得分",
-            "Douvikas低效或轮换导致平局。"
+            "鹿岛早早领先并利用柏轮换扩大到2球以上",
+            "柏短休末段防线崩盘"
           ]
         }
       ],
-      "selectionText": "周六016[胜] × 周六009[胜]",
+      "selectionText": "周六003[主-1让负] × 周六004[主-1让负]",
       "passType": "2串1",
       "passSizes": [
         2
@@ -98,56 +96,56 @@
       "totalCost": 2,
       "subTickets": [
         {
-          "id": "core20-B-single-0",
+          "id": "early-core20-A-hhad-away-0",
           "name": "子票1",
           "passType": "2串1",
           "selections": [
             {
-              "number": "周六016",
-              "market": "HAD",
-              "handicap": 0,
-              "key": "h",
-              "label": "胜",
-              "odds": 1.29
+              "number": "周六003",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "a",
+              "label": "让负",
+              "odds": 1.48
             },
             {
-              "number": "周六009",
-              "market": "HAD",
-              "handicap": 0,
-              "key": "h",
-              "label": "胜",
-              "odds": 1.33
+              "number": "周六004",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "a",
+              "label": "让负",
+              "odds": 1.5
             }
           ],
-          "selectionText": "周六016[胜] × 周六009[胜]",
+          "selectionText": "周六003[让负] × 周六004[让负]",
           "stake": 2,
-          "odds": 1.7157000000000002,
-          "return": 3.4314000000000004,
-          "net": 1.4314000000000004
+          "odds": 2.22,
+          "return": 4.44,
+          "net": 2.44
         }
       ],
       "conditionalReturn": {
-        "min": 3.4314000000000004,
-        "max": 3.4314000000000004
+        "min": 4.44,
+        "max": 4.44
       },
       "conditionalNet": {
-        "min": 1.4314000000000004,
-        "max": 1.4314000000000004
+        "min": 2.44,
+        "max": 2.44
       },
       "effectiveReturnRatio": {
-        "min": 1.7157000000000002,
-        "max": 1.7157000000000002
+        "min": 2.22,
+        "max": 2.22
       },
       "uncoveredReturn": 0,
       "uncoveredNet": -2,
-      "structureText": "单选×单选，一张2串1",
-      "oddsText": "整套返还 1.72倍",
-      "effectiveReturnText": "两场均胜返还1.72倍；任一平或负为0倍",
-      "coverageText": "不防平，不升级让球；产品名称不是目标倍率",
-      "risk": "两队短休；科莫反击防守、阿森纳攻坚与埃弗顿定位球为主要失手路径。相对优选，不承诺命中。",
+      "structureText": "两场主让1球让负，一张2串1",
+      "oddsText": "整套返还 2.22倍",
+      "effectiveReturnText": "两场主队均未净胜2球则返还2.22倍；任一主队净胜2球以上为0倍",
+      "coverageText": "早场降档保命：不押赛果，只押两支主队均难穿-1",
+      "risk": "两腿都属于让球下盘，若任一主队大胜即失手；不承诺命中。",
       "displayMultipliersOnly": true,
-      "oddsAsOf": "2026-10-24T02:48:29.092Z",
-      "lockedAt": "2026-10-24T02:49:30.974Z"
+      "oddsAsOf": "2026-10-24T04:29:26.476Z",
+      "lockedAt": "2026-10-24T04:29:26.477Z"
     }
   ],
   "scanTable": [
@@ -604,18 +602,18 @@
       "kickoff": "2026-10-24T14:00:00",
       "batch": "A",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主-1让负",
+      "primaryPick": "主-1让负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主-1让负",
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 0,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "早场审核未通过",
-      "risk": "神户后卫伤情与连续短休；町田近期强势仍需对手强度折扣。不得作为核心稳胆。",
+      "stars": 1,
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "早场纠错核心",
+      "risk": "神户连续短休且边后卫伤情，方向只覆盖主队不赢2球以上；若神户强势大胜则失手。",
       "odds": {
         "spf": {
           "win": 2.27,
@@ -826,18 +824,18 @@
       "kickoff": "2026-10-24T14:00:00",
       "batch": "A",
       "handicap": -1,
-      "buy": "观望",
-      "primaryPick": "观望",
+      "buy": "主-1让负",
+      "primaryPick": "主-1让负",
       "speculative": "无",
-      "selection": "观望",
+      "selection": "主-1让负",
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 0,
-      "recommended": false,
-      "purchaseApproved": false,
-      "status": "早场审核未通过",
-      "risk": "核心射手存疑且领先后防守不稳，明确排除核心。",
+      "stars": 1,
+      "recommended": true,
+      "purchaseApproved": true,
+      "status": "早场纠错核心",
+      "risk": "鹿岛核心射手存疑、短休且领先后收尾不稳，方向只覆盖主队不赢2球以上；若鹿岛大胜则失手。",
       "odds": {
         "spf": {
           "win": 2.2,
@@ -9386,11 +9384,11 @@
         "周六005"
       ],
       "deadline": "2026-10-24T12:00:00+08:00",
-      "publishedAt": "2026-10-24T02:39:22.719Z",
+      "publishedAt": "2026-10-24T04:29:26.477Z",
       "locked": true,
-      "status": "no-approved-core",
-      "recommendationComplete": false,
-      "archiveVersion": "2026-10-24-A-20261024T023922719Z"
+      "status": "core20-published",
+      "recommendationComplete": true,
+      "archiveVersion": "2026-10-24-A-correction-1792816166477"
     },
     {
       "id": "B",
@@ -9412,8 +9410,8 @@
       ],
       "deadline": "2026-10-24T14:00:00+08:00",
       "publishedAt": "2026-10-24T02:49:30.974Z",
-      "locked": true,
-      "status": "core20-only",
+      "locked": false,
+      "status": "draft-withdrawn-from-mobile",
       "recommendationComplete": false,
       "archiveVersion": "2026-10-24-B-20261024T024930974Z"
     },
@@ -9436,16 +9434,13 @@
       ],
       "deadline": "2026-10-24T14:00:00+08:00",
       "publishedAt": "2026-10-24T02:53:36.659Z",
-      "locked": true,
-      "status": "no-additional-qualified-core",
+      "locked": false,
+      "status": "not-published",
       "recommendationComplete": false,
       "archiveVersion": "2026-10-24-C-20261024T025336659Z"
     }
   ],
-  "coreStatus": {
-    "2.0": "保留中场016胜×009胜，整套1.72倍，双单选",
-    "3.0": "全天未形成第二套合格且不共场组合，不出"
-  },
+  "coreStatus": "early-core-published-pending-mobile-verification",
   "sources": [
     {
       "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
@@ -9466,14 +9461,18 @@
   "publication": {
     "main": "https://zdongdong8219-jpg.github.io/football-monitor/",
     "transition": "https://zdongdong8219-jpg.github.io/football-monitor/today.html",
-    "sameHost": true
+    "sameHost": true,
+    "earlyPublished": true,
+    "earlyMobileVerified": false,
+    "earlyBatchDate": "2026-10-24",
+    "earlyPublishedAt": "2026-10-24T04:29:26.477Z"
   },
   "modelConfiguration": {
     "model": "gpt-6-astra",
     "reasoning_effort": "medium",
     "source": "automation.toml"
   },
-  "batchLabel": "全天合并审核",
+  "batchLabel": "早场纠错版",
   "coreDecisionReason": "其余候选存在防守稳定、后腰新伤、换帅或资格缺口，3.0不凑。",
   "sourceConflicts": [
     "科莫二级前瞻称Liberali不能出场，官方10月21日名单和比赛替补均有其名，舍弃该说法。",
@@ -9483,7 +9482,7 @@
   ],
   "lockedDate": "2026-10-24",
   "researchComplete": true,
-  "deliveryStatus": "全天扫盘和分批发布已完成；只形成一套核心2.0，3.0不出",
+  "deliveryStatus": "early-published-pending-mobile-verification",
   "pairingAudit": {
     "rankedBeforePairing": true,
     "approved": [
