@@ -816,7 +816,17 @@
           ]
         }
       ],
-      "detail": "投入2元，返还0.00元，净额-2.00元。"
+      "detail": "5中2｜002错、007中、008中、011错、012错。整串未中；投入2元，返还0元，净-2元。",
+      "dreamHitCount": 2,
+      "dreamLegCount": 5,
+      "dreamHitText": "5中2",
+      "dreamLegResults": [
+        "002负：错（1:1）",
+        "007胜：中（3:2）",
+        "008总进球3球：中（1:2）",
+        "011主-1让平：错（1:1）",
+        "012主-1让平：错（5:0）"
+      ]
     },
     {
       "index": 6,
@@ -3990,7 +4000,16 @@
           ]
         }
       ],
-      "detail": "投入162元，返还0.00元，净额-162.00元。"
+      "detail": "4中2｜007错、008中、011中、012错。81注整票未中；投入162元，返还0元，净-162元。",
+      "dreamHitCount": 2,
+      "dreamLegCount": 4,
+      "dreamHitText": "4中2",
+      "dreamLegResults": [
+        "007选2/3/4球：错（实际5球）",
+        "008选2/3/4球：中（实际3球）",
+        "011选1/2/3球：中（实际2球）",
+        "012选1/2/3球：错（实际5球）"
+      ]
     }
   ],
   "ticketTotals": {
@@ -4008,7 +4027,8 @@
       "exampleStake": 2,
       "exampleReturn": 0,
       "exampleNet": -2,
-      "detail": "投入2元，返还0.00元，净额-2.00元。"
+      "detail": "投入2元，返还0.00元，净额-2.00元。",
+      "dreamHitText": null
     },
     {
       "name": "3.0版 · 一场保险",
@@ -4017,7 +4037,8 @@
       "exampleStake": 4,
       "exampleReturn": 0,
       "exampleNet": -4,
-      "detail": "投入4元，返还0.00元，净额-4.00元。"
+      "detail": "投入4元，返还0.00元，净额-4.00元。",
+      "dreamHitText": null
     },
     {
       "name": "博精准 · 011胜+让平重叠2串1",
@@ -4026,7 +4047,8 @@
       "exampleStake": 8,
       "exampleReturn": 11.53,
       "exampleNet": 3.53,
-      "detail": "投入8元，返还11.53元，净额3.53元。"
+      "detail": "投入8元，返还11.53元，净额3.53元。",
+      "dreamHitText": null
     },
     {
       "name": "半全场 · 两张平胜单关＋2串1",
@@ -4035,7 +4057,8 @@
       "exampleStake": 6,
       "exampleReturn": 0,
       "exampleNet": -6,
-      "detail": "投入6元，返还0.00元，净额-6.00元。"
+      "detail": "投入6元，返还0.00元，净额-6.00元。",
+      "dreamHitText": null
     },
     {
       "name": "原结构梦想串 · 5场混合单选",
@@ -4044,7 +4067,8 @@
       "exampleStake": 2,
       "exampleReturn": 0,
       "exampleNet": -2,
-      "detail": "投入2元，返还0.00元，净额-2.00元。"
+      "detail": "5中2｜002错、007中、008中、011错、012错。整串未中；投入2元，返还0元，净-2元。",
+      "dreamHitText": "5中2"
     },
     {
       "name": "全进球数梦想串 · 4串1",
@@ -4053,7 +4077,8 @@
       "exampleStake": 162,
       "exampleReturn": 0,
       "exampleNet": -162,
-      "detail": "投入162元，返还0.00元，净额-162.00元。"
+      "detail": "4中2｜007错、008中、011中、012错。81注整票未中；投入162元，返还0元，净-162元。",
+      "dreamHitText": "4中2"
     }
   ],
   "lessons": [
