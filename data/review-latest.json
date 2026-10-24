@@ -1,1134 +1,1430 @@
 {
-  "date": "2026-10-22",
-  "title": "FT足球竞彩模型 · 复盘最终版",
-  "stage": "final",
-  "completed": true,
-  "publishedAt": "2026-10-23T04:58:02.749Z",
-  "originalPublishedAt": "2026-10-22T05:07:58.725Z",
-  "summary": "13/13场已完赛并经365Scores与FotMob至少两源核验；主推方向7/13，比分、进球数、半全场独立统计；7组原票中1张单关资格错误不计可执行盈亏。",
-  "verification": "已完赛赛果使用365Scores与FotMob独立来源核验；013常规时间0:0、点球2:3，半场0:0。",
+  "date": "2026-10-23",
+  "title": "FT足球竞彩模型 · 复盘初版",
+  "stage": "partial",
+  "completed": false,
+  "mobileVerified": false,
+  "publishedAt": "2026-10-24T00:06:13.645Z",
+  "partialPublishedAt": "2026-10-24T00:06:13.647Z",
+  "originalPublishedAt": "2026-10-23T08:37:32.625Z",
+  "summary": "12/12场全场赛果已核验；扫盘方向6/12，总进球6/12，比分5/12。2.0与3.0均未中；半全场方案等待半场比分第二来源后最终盖章。",
+  "verification": "全场比分使用Football Web Pages及各联赛/俱乐部/比赛结果页交叉核验；半场尚未完成双源，不提前结算。",
   "rows": [
     {
-      "number": "周四001",
-      "time": "10-23 00:45",
-      "league": "欧罗巴",
-      "teams": "格风暴 vs 马赛",
-      "stars": 2,
-      "resultPick": "买：负/平｜博：负",
-      "goalsPick": "2/3/4球",
-      "halfFullPick": "平负/负负",
-      "scorePick": "1:2 / 1:1 / 0:2",
-      "actualScore": "1:0",
-      "halfScore": "1:0",
+      "number": "周五001",
+      "time": "10-23 17:00",
+      "league": "澳超",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "1/2/3",
+      "halfFullPick": "平平/平胜",
+      "scorePick": "1:1 / 2:1 / 1:0",
+      "actualScore": "2:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
       "hits": {
-        "result": false,
-        "goals": false,
-        "halfFull": false,
-        "score": false
+        "result": true,
+        "goals": true,
+        "halfFull": null,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "3"
+        ],
+        "halfFull": [],
+        "score": [
+          "2:1"
+        ]
       },
       "actualResult": "胜",
       "actualHandicapResult": "让胜",
-      "actualHalfFull": "胜胜",
-      "actualGoals": 1,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致1:0；半场1:0一致",
-      "review": "主推方向错；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四001",
-        "teams": "格风暴 vs 马赛",
-        "fullScore": "1:0",
-        "halfScore": "1:0",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828723",
-          "gameId": 4828723,
-          "score": "1:0",
-          "halfScore": "1:0"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "OKaB8iRE",
-          "home": "Sturm Graz",
-          "away": "Marseille",
-          "score": "1:0",
-          "halfScore": "1:0",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
+      "actualGoals": 3,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
     },
     {
-      "number": "周四002",
-      "time": "10-23 00:45",
-      "league": "欧罗巴",
-      "teams": "波兹南 vs 桑德兰",
-      "stars": 2,
-      "resultPick": "买：负/平｜博：负",
-      "goalsPick": "2/3/4球",
-      "halfFullPick": "平负/负负",
+      "number": "周五002",
+      "time": "10-24 00:30",
+      "league": "德乙",
+      "stars": 1,
+      "resultPick": "平/负",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平负/平平",
       "scorePick": "1:2 / 1:1 / 0:2",
       "actualScore": "1:1",
-      "halfScore": "0:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
       "hits": {
         "result": true,
         "goals": true,
-        "halfFull": false,
+        "halfFull": null,
         "score": true
       },
-      "actualResult": "平",
-      "actualHandicapResult": "让胜",
-      "actualHalfFull": "负平",
-      "actualGoals": 2,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致1:1；半场0:1一致",
-      "review": "主推方向中；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四002",
-        "teams": "波兹南 vs 桑德兰",
-        "fullScore": "1:1",
-        "halfScore": "0:1",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828724",
-          "gameId": 4828724,
-          "score": "1:1",
-          "halfScore": "0:1"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "OUUlST4L",
-          "home": "Lech Poznan",
-          "away": "Sunderland",
-          "score": "1:1",
-          "halfScore": "0:1",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四003",
-      "time": "10-23 00:45",
-      "league": "欧罗巴",
-      "teams": "萨迪纳摩 vs 奈梅亨",
-      "stars": 2,
-      "resultPick": "买：胜｜博：让平",
-      "goalsPick": "2/3/4球",
-      "halfFullPick": "胜胜/平胜",
-      "scorePick": "2:1 / 2:0 / 3:1",
-      "actualScore": "2:4",
-      "halfScore": "2:2",
-      "hits": {
-        "result": false,
-        "goals": false,
-        "halfFull": false,
-        "score": false
-      },
-      "actualResult": "负",
-      "actualHandicapResult": "让负",
-      "actualHalfFull": "平负",
-      "actualGoals": 6,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致2:4；半场2:2一致",
-      "review": "主推方向错；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四003",
-        "teams": "萨迪纳摩 vs 奈梅亨",
-        "fullScore": "2:4",
-        "halfScore": "2:2",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828722",
-          "gameId": 4828722,
-          "score": "2:4",
-          "halfScore": "2:2"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "nZCopW0m",
-          "home": "Din. Zagreb",
-          "away": "Nijmegen",
-          "score": "2:4",
-          "halfScore": "2:2",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四004",
-      "time": "10-23 00:45",
-      "league": "欧罗巴",
-      "teams": "尤文图斯 vs 雷恩",
-      "stars": 3,
-      "resultPick": "买：胜｜博：让胜/让平",
-      "goalsPick": "2/3/4球",
-      "halfFullPick": "平胜/胜胜",
-      "scorePick": "2:0 / 2:1 / 3:1",
-      "actualScore": "2:2",
-      "halfScore": "1:2",
-      "hits": {
-        "result": false,
-        "goals": true,
-        "halfFull": false,
-        "score": false
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": [
+          "1:1"
+        ]
       },
       "actualResult": "平",
-      "actualHandicapResult": "让负",
-      "actualHalfFull": "负平",
-      "actualGoals": 4,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致2:2；半场1:2一致",
-      "review": "主推方向错；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四004",
-        "teams": "尤文图斯 vs 雷恩",
-        "fullScore": "2:2",
-        "halfScore": "1:2",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828725",
-          "gameId": 4828725,
-          "score": "2:2",
-          "halfScore": "1:2"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "6FP4Yk94",
-          "home": "Juventus",
-          "away": "Rennes",
-          "score": "2:2",
-          "halfScore": "1:2",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四005",
-      "time": "10-23 00:45",
-      "league": "欧罗巴",
-      "teams": "克里特 vs 勒沃库森",
-      "stars": 1,
-      "resultPick": "买：让胜/让平｜博：负负",
-      "goalsPick": "3/4/5球",
-      "halfFullPick": "负负/平负",
-      "scorePick": "0:2 / 0:3 / 1:3",
-      "actualScore": "0:2",
-      "halfScore": "0:2",
-      "hits": {
-        "result": true,
-        "goals": false,
-        "halfFull": true,
-        "score": true
-      },
-      "actualResult": "负",
       "actualHandicapResult": "让平",
-      "actualHalfFull": "负负",
       "actualGoals": 2,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致0:2；半场0:2一致",
-      "review": "主推方向中；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四005",
-        "teams": "克里特 vs 勒沃库森",
-        "fullScore": "0:2",
-        "halfScore": "0:2",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828728",
-          "gameId": 4828728,
-          "score": "0:2",
-          "halfScore": "0:2"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "MP8dqSvK",
-          "home": "OFI Crete",
-          "away": "Bayer Leverkusen",
-          "score": "0:2",
-          "halfScore": "0:2",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
     },
     {
-      "number": "周四006",
-      "time": "10-23 03:00",
-      "league": "欧罗巴",
-      "teams": "伯恩茅斯 vs AC米兰",
-      "stars": 2,
-      "resultPick": "买：胜/平｜博：让负",
-      "goalsPick": "2/3/4球",
-      "halfFullPick": "平胜/平平",
-      "scorePick": "2:1 / 1:1 / 1:0",
-      "actualScore": "3:0",
-      "halfScore": "2:0",
-      "hits": {
-        "result": true,
-        "goals": true,
-        "halfFull": false,
-        "score": false
-      },
-      "actualResult": "胜",
-      "actualHandicapResult": "让胜",
-      "actualHalfFull": "胜胜",
-      "actualGoals": 3,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致3:0；半场2:0一致",
-      "review": "主推方向中；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四006",
-        "teams": "伯恩茅斯 vs AC米兰",
-        "fullScore": "3:0",
-        "halfScore": "2:0",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828713",
-          "gameId": 4828713,
-          "score": "3:0",
-          "halfScore": "2:0"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "OWgU2DyA",
-          "home": "Bournemouth",
-          "away": "AC Milan",
-          "score": "3:0",
-          "halfScore": "2:0",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四007",
-      "time": "10-23 03:00",
-      "league": "欧罗巴",
-      "teams": "凯尔特人 vs 塞尔塔",
+      "number": "周五003",
+      "time": "10-24 01:00",
+      "league": "瑞超",
       "stars": 1,
-      "resultPick": "买：胜/平｜博：平",
-      "goalsPick": "2/3/4球",
+      "resultPick": "胜",
+      "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
-      "scorePick": "2:1 / 1:1 / 1:0",
-      "actualScore": "1:2",
-      "halfScore": "0:0",
-      "hits": {
-        "result": false,
-        "goals": true,
-        "halfFull": false,
-        "score": false
-      },
-      "actualResult": "负",
-      "actualHandicapResult": "让平",
-      "actualHalfFull": "平负",
-      "actualGoals": 3,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致1:2；半场0:0一致",
-      "review": "主推方向错；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四007",
-        "teams": "凯尔特人 vs 塞尔塔",
-        "fullScore": "1:2",
-        "halfScore": "0:0",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828720",
-          "gameId": 4828720,
-          "score": "1:2",
-          "halfScore": "0:0"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "4CbZfmF5",
-          "home": "Celtic",
-          "away": "Celta Vigo",
-          "score": "1:2",
-          "halfScore": "0:0",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四008",
-      "time": "10-23 03:00",
-      "league": "欧罗巴",
-      "teams": "贝西克塔 vs 水晶宫",
-      "stars": 2,
-      "resultPick": "买：胜/平｜博：让平",
-      "goalsPick": "2/3/4球",
-      "halfFullPick": "平胜/平平",
-      "scorePick": "2:1 / 1:1 / 1:0",
-      "actualScore": "2:2",
-      "halfScore": "1:0",
-      "hits": {
-        "result": true,
-        "goals": true,
-        "halfFull": false,
-        "score": false
-      },
-      "actualResult": "平",
-      "actualHandicapResult": "让负",
-      "actualHalfFull": "胜平",
-      "actualGoals": 4,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致2:2；半场1:0一致",
-      "review": "主推方向中；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四008",
-        "teams": "贝西克塔 vs 水晶宫",
-        "fullScore": "2:2",
-        "halfScore": "1:0",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828716",
-          "gameId": 4828716,
-          "score": "2:2",
-          "halfScore": "1:0"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "WpNi9biD",
-          "home": "Besiktas",
-          "away": "Crystal Palace",
-          "score": "2:2",
-          "halfScore": "1:0",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四009",
-      "time": "10-23 03:00",
-      "league": "欧罗巴",
-      "teams": "霍芬海姆 vs 里昂",
-      "stars": 2,
-      "resultPick": "买：让负｜博：负",
-      "goalsPick": "3/4/5球",
-      "halfFullPick": "平负/负负",
-      "scorePick": "1:2 / 2:2 / 1:3",
-      "actualScore": "3:0",
-      "halfScore": "1:0",
-      "hits": {
-        "result": false,
-        "goals": true,
-        "halfFull": false,
-        "score": false
-      },
-      "actualResult": "胜",
-      "actualHandicapResult": "让胜",
-      "actualHalfFull": "胜胜",
-      "actualGoals": 3,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致3:0；半场1:0一致",
-      "review": "主推方向错；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四009",
-        "teams": "霍芬海姆 vs 里昂",
-        "fullScore": "3:0",
-        "halfScore": "1:0",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828717",
-          "gameId": 4828717,
-          "score": "3:0",
-          "halfScore": "1:0"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "0lLMoF1B",
-          "home": "Hoffenheim",
-          "away": "Lyon",
-          "score": "3:0",
-          "halfScore": "1:0",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四010",
-      "time": "10-23 03:00",
-      "league": "欧罗巴",
-      "teams": "利勒斯特 vs 皇家社会",
-      "stars": 3,
-      "resultPick": "买：负｜博：让平",
-      "goalsPick": "2/3/4球",
-      "halfFullPick": "平负/负负",
-      "scorePick": "0:2 / 1:2 / 0:3",
-      "actualScore": "0:6",
-      "halfScore": "0:3",
-      "hits": {
-        "result": true,
-        "goals": false,
-        "halfFull": true,
-        "score": false
-      },
-      "actualResult": "负",
-      "actualHandicapResult": "让负",
-      "actualHalfFull": "负负",
-      "actualGoals": 6,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致0:6；半场0:3一致",
-      "review": "主推方向中；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四010",
-        "teams": "利勒斯特 vs 皇家社会",
-        "fullScore": "0:6",
-        "halfScore": "0:3",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828712",
-          "gameId": 4828712,
-          "score": "0:6",
-          "halfScore": "0:3"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "EZBxzXKk",
-          "home": "Lillestrom",
-          "away": "Real Sociedad",
-          "score": "0:6",
-          "halfScore": "0:3",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四011",
-      "time": "10-23 03:00",
-      "league": "欧协联",
-      "teams": "阿贾克斯 vs 亚特兰大",
-      "stars": 1,
-      "resultPick": "买：胜/平｜博：让负",
-      "goalsPick": "2/3/4球",
-      "halfFullPick": "平胜/平平",
-      "scorePick": "2:1 / 1:1 / 1:0",
-      "actualScore": "2:0",
-      "halfScore": "0:0",
-      "hits": {
-        "result": true,
-        "goals": true,
-        "halfFull": true,
-        "score": false
-      },
-      "actualResult": "胜",
-      "actualHandicapResult": "让胜",
-      "actualHalfFull": "平胜",
-      "actualGoals": 2,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致2:0；半场0:0一致",
-      "review": "主推方向中；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四011",
-        "teams": "阿贾克斯 vs 亚特兰大",
-        "fullScore": "2:0",
-        "halfScore": "0:0",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828913",
-          "gameId": 4828913,
-          "score": "2:0",
-          "halfScore": "0:0"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "MyZd83lT",
-          "home": "Ajax",
-          "away": "Atalanta",
-          "score": "2:0",
-          "halfScore": "0:0",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四012",
-      "time": "10-23 03:00",
-      "league": "欧协联",
-      "teams": "摩纳哥 vs 弗赖堡",
-      "stars": 1,
-      "resultPick": "买：胜/平｜博：让负",
-      "goalsPick": "2/3/4球",
-      "halfFullPick": "平胜/平平",
-      "scorePick": "2:1 / 1:1 / 1:0",
-      "actualScore": "3:0",
-      "halfScore": "1:0",
-      "hits": {
-        "result": true,
-        "goals": true,
-        "halfFull": false,
-        "score": false
-      },
-      "actualResult": "胜",
-      "actualHandicapResult": "让胜",
-      "actualHalfFull": "胜胜",
-      "actualGoals": 3,
-      "settlementStatus": "全场已核验",
-      "verification": "Flashscore、365Scores全场一致3:0；半场1:0一致",
-      "review": "主推方向中；比分、进球数独立统计，不抵扣方向失误。",
-      "sources": {
-        "number": "周四012",
-        "teams": "摩纳哥 vs 弗赖堡",
-        "fullScore": "3:0",
-        "halfScore": "1:0",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "Ended",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4828911",
-          "gameId": 4828911,
-          "score": "3:0",
-          "halfScore": "1:0"
-        },
-        "flashscore": {
-          "url": "https://www.flashscore.com/x/feed/f_1_-1_1_en_1",
-          "eventId": "nwR4bswe",
-          "home": "Monaco",
-          "away": "Freiburg",
-          "score": "3:0",
-          "halfScore": "1:0",
-          "halfDerivation": "全场减去第二时段BC/BD进球数，并与365Scores明确HT字段逐场核对",
-          "status": "3"
-        }
-      }
-    },
-    {
-      "number": "周四013",
-      "time": "10-23 08:30",
-      "league": "解放者杯",
-      "teams": "弗拉门戈 vs 拉普大学",
-      "stars": 3,
-      "resultPick": "买：胜｜博：让胜",
-      "goalsPick": "1/2/3球",
-      "halfFullPick": "胜胜/平胜",
-      "scorePick": "2:0 / 1:0 / 2:1",
+      "scorePick": "2:1 / 1:1 / 2:2",
       "actualScore": "0:0",
-      "halfScore": "0:0",
+      "halfScore": "待双源核验",
+      "recommended": true,
       "hits": {
         "result": false,
         "goals": false,
-        "halfFull": false,
+        "halfFull": null,
         "score": false
       },
-      "settlementStatus": "全场已核验",
-      "verification": "365Scores与FotMob全场一致0:0；点球2:3；半场0:0。",
-      "review": "主推方向错；比分、进球数和半全场均未命中，各项独立统计。",
-      "sources": {
-        "number": "周四013",
-        "teams": "弗拉门戈 vs 拉普大学",
-        "fullScore": "0:0",
-        "halfScore": "0:0",
-        "fullVerified": true,
-        "halfVerified": true,
-        "status": "After Penalties",
-        "penaltyScore": "2:3",
-        "source365": {
-          "url": "https://webws.365scores.com/web/game/?appTypeId=5&langId=1&timezoneName=Asia%2FShanghai&userCountryId=79&gameId=4858848",
-          "score": "0:0",
-          "halfScore": "0:0",
-          "status": "After Penalties"
-        },
-        "fotmob": {
-          "url": "https://www.fotmob.com/api/data/matches?date=20261023",
-          "score": "0 - 0",
-          "penaltyScore": "2 - 3",
-          "finished": true
-        }
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
       },
       "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "actualGoals": 0,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五004",
+      "time": "10-24 02:00",
+      "league": "荷甲",
+      "stars": 1,
+      "resultPick": "让平/让负",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1:1 / 2:1 / 1:2",
+      "actualScore": "3:2",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "胜",
+      "actualHandicapResult": "让胜",
+      "actualGoals": 5,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五005",
+      "time": "10-24 02:00",
+      "league": "荷乙",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "2:1 / 1:1 / 2:2",
+      "actualScore": "1:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": null,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": [
+          "1:1"
+        ]
+      },
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "actualGoals": 2,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五006",
+      "time": "10-24 02:30",
+      "league": "德甲",
+      "stars": 1,
+      "resultPick": "胜",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "2:1 / 2:0 / 1:1",
+      "actualScore": "2:3",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "负",
       "actualHandicapResult": "让负",
-      "actualHalfFull": "平平",
-      "actualGoals": 0
+      "actualGoals": 5,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五007",
+      "time": "10-24 02:45",
+      "league": "意甲",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平胜（博）；平平观察",
+      "scorePick": "2:1 / 1:1 / 2:2",
+      "actualScore": "3:2",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "胜",
+      "actualHandicapResult": "让胜",
+      "actualGoals": 5,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五008",
+      "time": "10-24 02:45",
+      "league": "法甲",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "1:0 / 1:1 / 2:1",
+      "actualScore": "1:2",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "3"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "负",
+      "actualHandicapResult": "让负",
+      "actualGoals": 3,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五009",
+      "time": "10-24 03:00",
+      "league": "英超",
+      "stars": 1,
+      "resultPick": "让胜/让平",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1:1 / 1:2 / 2:1",
+      "actualScore": "1:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": null,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": [
+          "1:1"
+        ]
+      },
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "actualGoals": 2,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五010",
+      "time": "10-24 03:00",
+      "league": "英冠",
+      "stars": 1,
+      "resultPick": "让胜/让平",
+      "goalsPick": "3/4/5",
+      "halfFullPick": "平平/平负",
+      "scorePick": "2:2 / 2:1 / 1:2",
+      "actualScore": "1:5",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "负",
+      "actualHandicapResult": "让负",
+      "actualGoals": 6,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五011",
+      "time": "10-24 03:00",
+      "league": "西甲",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "1/2/3",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "1:0 / 1:1 / 2:1",
+      "actualScore": "1:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": null,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": [
+          "1:1"
+        ]
+      },
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "actualGoals": 2,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五012",
+      "time": "10-24 03:45",
+      "league": "葡超",
+      "stars": 1,
+      "resultPick": "让平/让负",
+      "goalsPick": "1/2/3",
+      "halfFullPick": "平胜（博）；平平观察",
+      "scorePick": "1:0 / 1:1 / 0:1",
+      "actualScore": "5:0",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "胜",
+      "actualHandicapResult": "让胜",
+      "actualGoals": 5,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
     }
   ],
   "statistics": {
     "result": {
-      "hit": 7,
-      "total": 13,
+      "hit": 6,
+      "total": 12,
       "pending": 0
     },
     "goals": {
-      "hit": 8,
-      "total": 13,
+      "hit": 6,
+      "total": 12,
       "pending": 0
     },
     "halfFull": {
-      "hit": 3,
-      "total": 13,
-      "pending": 0
+      "hit": 0,
+      "total": 0,
+      "pending": 12
     },
     "score": {
-      "hit": 2,
-      "total": 13,
+      "hit": 5,
+      "total": 12,
       "pending": 0
     }
   },
   "ticketReview": [
     {
       "index": 1,
-      "name": "【强烈建议】2.0版｜萨迪纳摩胜 × 尤文图斯胜",
+      "name": "2.0版 · 主胜双单选",
       "category": "two",
-      "stars": 3,
-      "stronglyRecommended": true,
-      "selectionText": "003 胜 × 004 胜",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周五003[胜] × 周五006[胜]",
       "cost": 2,
-      "settledCost": 2,
       "returned": 0,
       "net": -2,
-      "status": "错·未中",
-      "cumulativeNet": -1000,
+      "status": "错",
       "tickets": [
         {
-          "name": "2串1",
+          "name": "子票1",
+          "selectionText": "周五003 胜 × 周五006 胜",
           "stake": 2,
-          "selectionText": "周四003 胜 × 周四004 胜",
-          "legs": [
-            {
-              "number": "周四003",
-              "selection": "胜",
-              "market": "spf"
-            },
-            {
-              "number": "周四004",
-              "selection": "胜",
-              "market": "spf"
-            }
-          ],
-          "odds": 1.9035,
-          "hit": false,
-          "invalid": false,
+          "odds": 2.22,
           "settled": true,
+          "hit": false,
           "returned": 0
         }
       ],
-      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
+      "detail": "投入2元，返还0.00元，净额-2.00元。"
     },
     {
       "index": 2,
-      "name": "双选2串1｜贝西克塔“胜+让平” × 皇家社会负",
+      "name": "3.0版 · 一场保险",
       "category": "two",
-      "stars": 2,
+      "stars": 1,
       "stronglyRecommended": false,
-      "selectionText": "008 胜+让平 × 010 负",
+      "selectionText": "周五008[胜] × 周五012[主-1 让平/让负]",
       "cost": 4,
-      "settledCost": 4,
       "returned": 0,
       "net": -4,
-      "status": "错·未中",
-      "cumulativeNet": -1000,
+      "status": "错",
       "tickets": [
         {
-          "name": "子票A",
-          "selectionText": "周四008 胜 × 周四010 负",
+          "name": "子票1",
+          "selectionText": "周五008 胜 × 周五012 主-1 让平",
           "stake": 2,
-          "odds": 2.781,
-          "returnText": "中返还5.56元",
-          "legs": [
-            {
-              "number": "周四008",
-              "selection": "胜",
-              "market": "spf"
-            },
-            {
-              "number": "周四010",
-              "selection": "负",
-              "market": "spf"
-            }
-          ],
-          "hit": false,
-          "invalid": false,
+          "odds": 6.21,
           "settled": true,
+          "hit": false,
           "returned": 0
         },
         {
-          "name": "子票B",
-          "selectionText": "周四008 让平 × 周四010 负",
+          "name": "子票2",
+          "selectionText": "周五008 胜 × 周五012 主-1 让负",
           "stake": 2,
-          "odds": 5.197500000000001,
-          "returnText": "中返还10.40元",
-          "legs": [
-            {
-              "number": "周四008",
-              "selection": "让平",
-              "market": "rqspf"
-            },
-            {
-              "number": "周四010",
-              "selection": "负",
-              "market": "spf"
-            }
-          ],
-          "hit": false,
-          "invalid": false,
+          "odds": 4.968,
           "settled": true,
+          "hit": false,
           "returned": 0
         }
       ],
-      "detail": "原票投入4元，返还0.00元，净额-4.00元。"
+      "detail": "投入4元，返还0.00元，净额-4.00元。"
     },
     {
       "index": 3,
-      "name": "3.0版｜马赛负 × 桑德兰负",
-      "category": "two",
-      "stars": 2,
+      "name": "博精准 · 011胜+让平重叠2串1",
+      "category": "speculative",
+      "stars": 1,
       "stronglyRecommended": false,
-      "selectionText": "001 负 × 002 负",
-      "cost": 2,
-      "settledCost": 2,
-      "returned": 0,
-      "net": -2,
-      "status": "错·未中",
-      "cumulativeNet": -1000,
+      "selectionText": "007胜/平 × 011普通胜；另007胜/平 × 011主-1让平",
+      "cost": 8,
+      "returned": 11.53,
+      "net": 3.53,
+      "status": "中",
       "tickets": [
         {
-          "name": "2串1",
+          "name": "子票1",
+          "selectionText": "周五007 胜 × 周五011 胜",
           "stake": 2,
-          "selectionText": "周四001 负 × 周四002 负",
-          "legs": [
-            {
-              "number": "周四001",
-              "selection": "负",
-              "market": "spf"
-            },
-            {
-              "number": "周四002",
-              "selection": "负",
-              "market": "spf"
-            }
-          ],
-          "odds": 2.728,
-          "hit": false,
-          "invalid": false,
+          "odds": 2.7783,
           "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票2",
+          "selectionText": "周五007 平 × 周五011 胜",
+          "stake": 2,
+          "odds": 4.7775,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票3",
+          "selectionText": "周五007 胜 × 周五011 主-1 让平",
+          "stake": 2,
+          "odds": 5.7645,
+          "settled": true,
+          "hit": true,
+          "returned": 11.53
+        },
+        {
+          "name": "子票4",
+          "selectionText": "周五007 平 × 周五011 主-1 让平",
+          "stake": 2,
+          "odds": 9.9125,
+          "settled": true,
+          "hit": false,
           "returned": 0
         }
       ],
-      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
+      "detail": "投入8元，返还11.53元，净额3.53元。"
     },
     {
       "index": 4,
-      "name": "3串1｜尤文胜 × 皇家社会负 × 弗拉门戈让胜",
-      "category": "three",
-      "stars": 2,
-      "stronglyRecommended": false,
-      "selectionText": "004 胜 × 010 负 × 013 让胜",
-      "cost": 2,
-      "settledCost": 2,
-      "returned": 0,
-      "net": -2,
-      "status": "错·未中",
-      "cumulativeNet": null,
-      "tickets": [
-        {
-          "name": "3串1",
-          "stake": 2,
-          "selectionText": "周四004 胜 × 周四010 负 × 周四013 让胜",
-          "legs": [
-            {
-              "number": "周四004",
-              "selection": "胜",
-              "market": "spf"
-            },
-            {
-              "number": "周四010",
-              "selection": "负",
-              "market": "spf"
-            },
-            {
-              "number": "周四013",
-              "selection": "让胜",
-              "market": "rqspf"
-            }
-          ],
-          "odds": 3.7361250000000004,
-          "hit": false,
-          "invalid": false,
-          "settled": true,
-          "returned": 0
-        }
-      ],
-      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
-    },
-    {
-      "index": 5,
-      "name": "半全场2串1｜尤文平胜 × 皇家社会平负",
+      "name": "半全场 · 两张平胜单关＋2串1",
       "category": "half_full",
-      "stars": 2,
-      "stronglyRecommended": false,
-      "selectionText": "004 平胜 × 010 平负",
-      "cost": 6,
-      "settledCost": 6,
-      "returned": 0,
-      "net": -6,
-      "status": "错·未中",
-      "cumulativeNet": -1000,
-      "tickets": [
-        {
-          "name": "单关A",
-          "selectionText": "周四004 平胜",
-          "stake": 2,
-          "odds": 3.85,
-          "returnText": "返还7.70元",
-          "legs": [
-            {
-              "number": "周四004",
-              "selection": "平胜",
-              "market": "half_full"
-            }
-          ],
-          "hit": false,
-          "invalid": false,
-          "settled": true,
-          "returned": 0
-        },
-        {
-          "name": "单关B",
-          "selectionText": "周四010 平负",
-          "stake": 2,
-          "odds": 4.1,
-          "returnText": "返还8.20元",
-          "legs": [
-            {
-              "number": "周四010",
-              "selection": "平负",
-              "market": "half_full"
-            }
-          ],
-          "hit": false,
-          "invalid": false,
-          "settled": true,
-          "returned": 0
-        },
-        {
-          "name": "2串1",
-          "selectionText": "周四004 平胜 × 周四010 平负",
-          "stake": 2,
-          "odds": 15.784999999999998,
-          "returnText": "返还31.57元",
-          "legs": [
-            {
-              "number": "周四004",
-              "selection": "平胜",
-              "market": "half_full"
-            },
-            {
-              "number": "周四010",
-              "selection": "平负",
-              "market": "half_full"
-            }
-          ],
-          "hit": false,
-          "invalid": false,
-          "settled": true,
-          "returned": 0
-        }
-      ],
-      "detail": "原票投入6元，返还0.00元，净额-6.00元。"
-    },
-    {
-      "index": 6,
-      "name": "梦想单｜6场混合高赔",
-      "category": "dream",
       "stars": 1,
       "stronglyRecommended": false,
-      "selectionText": "001 负 × 004 平胜 × 008 胜 × 009 让负 × 011 胜 × 013 让胜",
-      "cost": 2,
-      "settledCost": 2,
-      "returned": 0,
-      "net": -2,
-      "status": "错·未中",
-      "cumulativeNet": null,
-      "tickets": [
-        {
-          "name": "6串1",
-          "stake": 2,
-          "selectionText": "周四001 负 × 周四004 平胜 × 周四008 胜 × 周四009 让负 × 周四011 胜 × 周四013 让胜",
-          "legs": [
-            {
-              "number": "周四001",
-              "selection": "负",
-              "market": "spf"
-            },
-            {
-              "number": "周四004",
-              "selection": "平胜",
-              "market": "half_full"
-            },
-            {
-              "number": "周四008",
-              "selection": "胜",
-              "market": "spf"
-            },
-            {
-              "number": "周四009",
-              "selection": "让负",
-              "market": "rqspf"
-            },
-            {
-              "number": "周四011",
-              "selection": "胜",
-              "market": "spf"
-            },
-            {
-              "number": "周四013",
-              "selection": "让胜",
-              "market": "rqspf"
-            }
-          ],
-          "odds": 87.4933707648,
-          "hit": false,
-          "invalid": false,
-          "settled": true,
-          "returned": 0
-        }
-      ],
-      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
-    },
-    {
-      "index": 7,
-      "name": "单关｜弗拉门戈让胜",
-      "category": "single",
-      "stars": 2,
-      "stronglyRecommended": true,
-      "selectionText": "013 让胜",
-      "cost": 2,
-      "settledCost": 0,
+      "selectionText": "周五007[平胜 @4.3] × 周五012[平胜 @4.05]",
+      "cost": 6,
       "returned": null,
       "net": null,
-      "status": "原票不合规·不计盈亏",
-      "cumulativeNet": null,
+      "status": "待核（含半全场）",
       "tickets": [
         {
-          "name": "单关",
+          "name": "007平胜单关",
+          "selectionText": "周五007 平胜",
           "stake": 2,
-          "selectionText": "周四013 让胜",
-          "legs": [
-            {
-              "number": "周四013",
-              "selection": "让胜",
-              "market": "rqspf"
-            }
-          ],
-          "odds": 2.05,
-          "hit": null,
-          "invalid": true,
+          "odds": 4.3,
           "settled": false,
+          "hit": false,
+          "returned": null
+        },
+        {
+          "name": "012平胜单关",
+          "selectionText": "周五012 平胜",
+          "stake": 2,
+          "odds": 4.05,
+          "settled": false,
+          "hit": false,
+          "returned": null
+        },
+        {
+          "name": "007×012平胜2串1",
+          "selectionText": "周五007 平胜 × 周五012 平胜",
+          "stake": 2,
+          "odds": 17.415,
+          "settled": false,
+          "hit": false,
           "returned": null
         }
       ],
-      "detail": "原始快照该玩法不支持单关，发布资格检查失误；保留原票，不当作可执行票计算盈亏。"
+      "detail": "全场结果已核实，半全场腿等待第二来源后最终结算。"
+    },
+    {
+      "index": 5,
+      "name": "原结构梦想串 · 5场混合单选",
+      "category": "dream_single",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周五002 负 × 周五007 胜 × 周五008 总进球3球 × 周五011 主-1 让平 × 周五012 主-1 让平",
+      "cost": 2,
+      "returned": 0,
+      "net": -2,
+      "status": "错",
+      "tickets": [
+        {
+          "name": "5串1（仅这一张）",
+          "selectionText": "周五002 负 × 周五007 胜 × 周五008 总进球3球 × 周五011 主-1 让平 × 周五012 主-1 让平",
+          "stake": 2,
+          "odds": 100.12792387,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        }
+      ],
+      "detail": "投入2元，返还0.00元，净额-2.00元。"
+    },
+    {
+      "index": 6,
+      "name": "全进球数梦想串 · 4串1",
+      "category": "dream",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周五007[2/3/4] × 周五008[2/3/4] × 周五011[1/2/3] × 周五012[1/2/3]",
+      "cost": 162,
+      "returned": 0,
+      "net": -162,
+      "status": "错",
+      "tickets": [
+        {
+          "name": "子票1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 245.232225,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票2",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 151.4669625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票3",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 163.48815,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票4",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 179.6468625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票5",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 110.95835625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票6",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 119.764575,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票7",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 205.3107,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票8",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 126.80955,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票9",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 136.8738,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票10",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 231.416325,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票11",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 142.9336125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票12",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 154.27755,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票13",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 169.5259125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票14",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 104.70718125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票15",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 113.017275,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票16",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 193.7439,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票17",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 119.66535,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票18",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 129.1626,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票19",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 338.48955,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票20",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 209.067075,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票21",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 225.6597,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票22",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 247.963275,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票23",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 153.1537875,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票24",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 165.30885,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票25",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 283.3866,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票26",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 175.0329,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票27",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 188.9244,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票28",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 272.48025,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票29",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 168.296625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票30",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 181.6535,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票31",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 199.607625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票32",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 123.2870625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票33",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 133.07175,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票34",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 228.123,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票35",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 140.8995,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票36",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 152.082,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票37",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 257.12925,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票38",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 158.815125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票39",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 171.4195,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票40",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 188.362125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票41",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 116.3413125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票42",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 125.57475,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票43",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 215.271,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票44",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 132.9615,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票45",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 143.514,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票46",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 376.0995,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票47",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 232.29675,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票48",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 250.733,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票49",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 275.51475,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票50",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 170.170875,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票51",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 183.6765,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票52",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 314.874,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票53",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 194.481,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票54",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 209.916,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票55",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 412.61295,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票56",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 254.849175,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票57",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 275.0753,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票58",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 302.262975,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票59",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 186.6918375,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票60",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 201.50865,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票61",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 345.4434,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票62",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 213.3621,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票63",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 230.2956,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票64",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 389.36715,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票65",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 240.491475,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票66",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 259.5781,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票67",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 285.234075,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票68",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 176.1739875,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票69",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 190.15605,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票70",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 325.9818,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票71",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 201.3417,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票72",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 217.3212,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票73",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 569.5221,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票74",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 351.76365,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票75",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 379.6814,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票76",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 417.20805,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票77",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 257.687325,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票78",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 278.1387,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票79",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 476.8092,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票80",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 294.4998,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票81",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 317.8728,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        }
+      ],
+      "detail": "投入162元，返还0.00元，净额-162.00元。"
     }
   ],
   "ticketTotals": {
-    "cost": 20,
-    "settledCost": 18,
-    "returned": 0,
-    "net": -18,
-    "pendingCost": 0,
-    "invalidCost": 2,
-    "note": "仅原票每注2元模拟结算，不代表用户实际投注；累计从10月22日起。"
+    "cost": 178,
+    "returned": 11.53,
+    "net": -166.47,
+    "pendingCost": 6,
+    "note": "仅按原票每注2元模拟结算，不代表用户实际投注。"
   },
   "combinations": [
     {
-      "name": "【强烈建议】2.0版｜萨迪纳摩胜 × 尤文图斯胜",
+      "name": "2.0版 · 主胜双单选",
       "category": "two",
-      "result": "错·未中",
+      "result": "错",
       "exampleStake": 2,
       "exampleReturn": 0,
       "exampleNet": -2,
-      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
+      "detail": "投入2元，返还0.00元，净额-2.00元。"
     },
     {
-      "name": "双选2串1｜贝西克塔“胜+让平” × 皇家社会负",
+      "name": "3.0版 · 一场保险",
       "category": "two",
-      "result": "错·未中",
+      "result": "错",
       "exampleStake": 4,
       "exampleReturn": 0,
       "exampleNet": -4,
-      "detail": "原票投入4元，返还0.00元，净额-4.00元。"
+      "detail": "投入4元，返还0.00元，净额-4.00元。"
     },
     {
-      "name": "3.0版｜马赛负 × 桑德兰负",
-      "category": "two",
-      "result": "错·未中",
-      "exampleStake": 2,
-      "exampleReturn": 0,
-      "exampleNet": -2,
-      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
+      "name": "博精准 · 011胜+让平重叠2串1",
+      "category": "speculative",
+      "result": "中",
+      "exampleStake": 8,
+      "exampleReturn": 11.53,
+      "exampleNet": 3.53,
+      "detail": "投入8元，返还11.53元，净额3.53元。"
     },
     {
-      "name": "3串1｜尤文胜 × 皇家社会负 × 弗拉门戈让胜",
-      "category": "three",
-      "result": "错·未中",
-      "exampleStake": 2,
-      "exampleReturn": 0,
-      "exampleNet": -2,
-      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
-    },
-    {
-      "name": "半全场2串1｜尤文平胜 × 皇家社会平负",
+      "name": "半全场 · 两张平胜单关＋2串1",
       "category": "half_full",
-      "result": "错·未中",
+      "result": "待核（含半全场）",
       "exampleStake": 6,
-      "exampleReturn": 0,
-      "exampleNet": -6,
-      "detail": "原票投入6元，返还0.00元，净额-6.00元。"
-    },
-    {
-      "name": "梦想单｜6场混合高赔",
-      "category": "dream",
-      "result": "错·未中",
-      "exampleStake": 2,
-      "exampleReturn": 0,
-      "exampleNet": -2,
-      "detail": "原票投入2元，返还0.00元，净额-2.00元。"
-    },
-    {
-      "name": "单关｜弗拉门戈让胜",
-      "category": "single",
-      "result": "原票不合规·不计盈亏",
-      "exampleStake": 2,
       "exampleReturn": null,
       "exampleNet": null,
-      "detail": "原始快照该玩法不支持单关，发布资格检查失误；保留原票，不当作可执行票计算盈亏。"
+      "detail": "全场结果已核实，半全场腿等待第二来源后最终结算。"
+    },
+    {
+      "name": "原结构梦想串 · 5场混合单选",
+      "category": "dream_single",
+      "result": "错",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "投入2元，返还0.00元，净额-2.00元。"
+    },
+    {
+      "name": "全进球数梦想串 · 4串1",
+      "category": "dream",
+      "result": "错",
+      "exampleStake": 162,
+      "exampleReturn": 0,
+      "exampleNet": -162,
+      "detail": "投入162元，返还0.00元，净额-162.00元。"
     }
   ],
   "lessons": [
-    "方向优先：比分仅作独立参考，不能用预测比分倒推方向、升级让球或抬高信心；方向错单独认错。",
-    "高星依据不足：尤文及萨迪纳摩主推失误。原分析以主场、欧战经验、降赔等概括性理由升星，伤停替代者资料不足却仍入强推，证据门槛没有真正执行。",
-    "保险被删除：001、002扫盘已写负/平，3.0版却只留负；008扫盘胜/平，胜+让平只覆盖赢球与恰赢1球，不能防平。不能为赔率删去已识别风险。",
-    "重复用胆：004尤文进入2.0、3串1、半全场、梦想单共4组，超过除梦想单外每场最多2组的限制，放大同一判断失误。",
-    "半全场缺少独立证据：皇家社会虽然客胜命中，但原票要求平负；全场强弱不能自动推出半场平。",
-    "原票资格错误：013让球胜平负single=false却发布让胜单关，不应把不可售单关记作实盘盈亏。",
-    "缺失不等于中性：多场交锋、伤停证据欠缺却套用相同描述与比分，四角文字齐全不等于研究充分；没有可靠依据应降星或不入串。",
-    "交付错误：06:00应先出已完赛初版，不该因最后一场尚未开赛拖住全量复盘。"
+    "2.0的003赛前已识别平局风险，最终无新增证据删除防平，实际0:0；这是流程违规。",
+    "006欧战后三天短休仍作为2.0单胜，实际2:3；短休与轮换风险被低赔率掩盖。",
+    "3.0的008主胜是整票唯一单点，尼斯速度反击风险已知，实际1:2；另一腿保险无法补救。",
+    "012让平/让负实际5:0全部失效，说明低产数据不能压过攻击人员恢复与客队连续失2+的尾部风险。",
+    "以后最终轮无新增可靠证据不得删除已有保险；三天短休或多处轮换预期球队不得进入2.0单选。"
+  ],
+  "sources": [
+    {
+      "name": "Football Web Pages 2026-10-23 results",
+      "url": "https://www.footballwebpages.co.uk/20261023"
+    },
+    {
+      "name": "Brisbane Roar official match report",
+      "url": "https://brisbaneroar.com.au/news/roar-secure-three-points-over-perth-glory-at-suncorp-stadium/"
+    }
   ]
 }

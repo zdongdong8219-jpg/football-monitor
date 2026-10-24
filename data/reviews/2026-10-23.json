@@ -1,0 +1,1430 @@
+{
+  "date": "2026-10-23",
+  "title": "FT足球竞彩模型 · 复盘初版",
+  "stage": "partial",
+  "completed": false,
+  "mobileVerified": false,
+  "publishedAt": "2026-10-24T00:06:13.645Z",
+  "partialPublishedAt": "2026-10-24T00:06:13.647Z",
+  "originalPublishedAt": "2026-10-23T08:37:32.625Z",
+  "summary": "12/12场全场赛果已核验；扫盘方向6/12，总进球6/12，比分5/12。2.0与3.0均未中；半全场方案等待半场比分第二来源后最终盖章。",
+  "verification": "全场比分使用Football Web Pages及各联赛/俱乐部/比赛结果页交叉核验；半场尚未完成双源，不提前结算。",
+  "rows": [
+    {
+      "number": "周五001",
+      "time": "10-23 17:00",
+      "league": "澳超",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "1/2/3",
+      "halfFullPick": "平平/平胜",
+      "scorePick": "1:1 / 2:1 / 1:0",
+      "actualScore": "2:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": null,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "3"
+        ],
+        "halfFull": [],
+        "score": [
+          "2:1"
+        ]
+      },
+      "actualResult": "胜",
+      "actualHandicapResult": "让胜",
+      "actualGoals": 3,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五002",
+      "time": "10-24 00:30",
+      "league": "德乙",
+      "stars": 1,
+      "resultPick": "平/负",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平负/平平",
+      "scorePick": "1:2 / 1:1 / 0:2",
+      "actualScore": "1:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": null,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": [
+          "1:1"
+        ]
+      },
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "actualGoals": 2,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五003",
+      "time": "10-24 01:00",
+      "league": "瑞超",
+      "stars": 1,
+      "resultPick": "胜",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "2:1 / 1:1 / 2:2",
+      "actualScore": "0:0",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "actualGoals": 0,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五004",
+      "time": "10-24 02:00",
+      "league": "荷甲",
+      "stars": 1,
+      "resultPick": "让平/让负",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1:1 / 2:1 / 1:2",
+      "actualScore": "3:2",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "胜",
+      "actualHandicapResult": "让胜",
+      "actualGoals": 5,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五005",
+      "time": "10-24 02:00",
+      "league": "荷乙",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "2:1 / 1:1 / 2:2",
+      "actualScore": "1:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": null,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": [
+          "1:1"
+        ]
+      },
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "actualGoals": 2,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五006",
+      "time": "10-24 02:30",
+      "league": "德甲",
+      "stars": 1,
+      "resultPick": "胜",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "2:1 / 2:0 / 1:1",
+      "actualScore": "2:3",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "负",
+      "actualHandicapResult": "让负",
+      "actualGoals": 5,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五007",
+      "time": "10-24 02:45",
+      "league": "意甲",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平胜（博）；平平观察",
+      "scorePick": "2:1 / 1:1 / 2:2",
+      "actualScore": "3:2",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "胜",
+      "actualHandicapResult": "让胜",
+      "actualGoals": 5,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五008",
+      "time": "10-24 02:45",
+      "league": "法甲",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "1:0 / 1:1 / 2:1",
+      "actualScore": "1:2",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": true,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [
+          "3"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "负",
+      "actualHandicapResult": "让负",
+      "actualGoals": 3,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五009",
+      "time": "10-24 03:00",
+      "league": "英超",
+      "stars": 1,
+      "resultPick": "让胜/让平",
+      "goalsPick": "2/3/4",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1:1 / 1:2 / 2:1",
+      "actualScore": "1:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": null,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": [
+          "1:1"
+        ]
+      },
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "actualGoals": 2,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五010",
+      "time": "10-24 03:00",
+      "league": "英冠",
+      "stars": 1,
+      "resultPick": "让胜/让平",
+      "goalsPick": "3/4/5",
+      "halfFullPick": "平平/平负",
+      "scorePick": "2:2 / 2:1 / 1:2",
+      "actualScore": "1:5",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "负",
+      "actualHandicapResult": "让负",
+      "actualGoals": 6,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五011",
+      "time": "10-24 03:00",
+      "league": "西甲",
+      "stars": 1,
+      "resultPick": "胜/平",
+      "goalsPick": "1/2/3",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "1:0 / 1:1 / 2:1",
+      "actualScore": "1:1",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": true,
+        "goals": true,
+        "halfFull": null,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": [
+          "1:1"
+        ]
+      },
+      "actualResult": "平",
+      "actualHandicapResult": "让平",
+      "actualGoals": 2,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    },
+    {
+      "number": "周五012",
+      "time": "10-24 03:45",
+      "league": "葡超",
+      "stars": 1,
+      "resultPick": "让平/让负",
+      "goalsPick": "1/2/3",
+      "halfFullPick": "平胜（博）；平平观察",
+      "scorePick": "1:0 / 1:1 / 0:1",
+      "actualScore": "5:0",
+      "halfScore": "待双源核验",
+      "recommended": true,
+      "hits": {
+        "result": false,
+        "goals": false,
+        "halfFull": null,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "actualResult": "胜",
+      "actualHandicapResult": "让胜",
+      "actualGoals": 5,
+      "settlementStatus": "全场已双源核验·半场待核",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+    }
+  ],
+  "statistics": {
+    "result": {
+      "hit": 6,
+      "total": 12,
+      "pending": 0
+    },
+    "goals": {
+      "hit": 6,
+      "total": 12,
+      "pending": 0
+    },
+    "halfFull": {
+      "hit": 0,
+      "total": 0,
+      "pending": 12
+    },
+    "score": {
+      "hit": 5,
+      "total": 12,
+      "pending": 0
+    }
+  },
+  "ticketReview": [
+    {
+      "index": 1,
+      "name": "2.0版 · 主胜双单选",
+      "category": "two",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周五003[胜] × 周五006[胜]",
+      "cost": 2,
+      "returned": 0,
+      "net": -2,
+      "status": "错",
+      "tickets": [
+        {
+          "name": "子票1",
+          "selectionText": "周五003 胜 × 周五006 胜",
+          "stake": 2,
+          "odds": 2.22,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        }
+      ],
+      "detail": "投入2元，返还0.00元，净额-2.00元。"
+    },
+    {
+      "index": 2,
+      "name": "3.0版 · 一场保险",
+      "category": "two",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周五008[胜] × 周五012[主-1 让平/让负]",
+      "cost": 4,
+      "returned": 0,
+      "net": -4,
+      "status": "错",
+      "tickets": [
+        {
+          "name": "子票1",
+          "selectionText": "周五008 胜 × 周五012 主-1 让平",
+          "stake": 2,
+          "odds": 6.21,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票2",
+          "selectionText": "周五008 胜 × 周五012 主-1 让负",
+          "stake": 2,
+          "odds": 4.968,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        }
+      ],
+      "detail": "投入4元，返还0.00元，净额-4.00元。"
+    },
+    {
+      "index": 3,
+      "name": "博精准 · 011胜+让平重叠2串1",
+      "category": "speculative",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "007胜/平 × 011普通胜；另007胜/平 × 011主-1让平",
+      "cost": 8,
+      "returned": 11.53,
+      "net": 3.53,
+      "status": "中",
+      "tickets": [
+        {
+          "name": "子票1",
+          "selectionText": "周五007 胜 × 周五011 胜",
+          "stake": 2,
+          "odds": 2.7783,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票2",
+          "selectionText": "周五007 平 × 周五011 胜",
+          "stake": 2,
+          "odds": 4.7775,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票3",
+          "selectionText": "周五007 胜 × 周五011 主-1 让平",
+          "stake": 2,
+          "odds": 5.7645,
+          "settled": true,
+          "hit": true,
+          "returned": 11.53
+        },
+        {
+          "name": "子票4",
+          "selectionText": "周五007 平 × 周五011 主-1 让平",
+          "stake": 2,
+          "odds": 9.9125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        }
+      ],
+      "detail": "投入8元，返还11.53元，净额3.53元。"
+    },
+    {
+      "index": 4,
+      "name": "半全场 · 两张平胜单关＋2串1",
+      "category": "half_full",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周五007[平胜 @4.3] × 周五012[平胜 @4.05]",
+      "cost": 6,
+      "returned": null,
+      "net": null,
+      "status": "待核（含半全场）",
+      "tickets": [
+        {
+          "name": "007平胜单关",
+          "selectionText": "周五007 平胜",
+          "stake": 2,
+          "odds": 4.3,
+          "settled": false,
+          "hit": false,
+          "returned": null
+        },
+        {
+          "name": "012平胜单关",
+          "selectionText": "周五012 平胜",
+          "stake": 2,
+          "odds": 4.05,
+          "settled": false,
+          "hit": false,
+          "returned": null
+        },
+        {
+          "name": "007×012平胜2串1",
+          "selectionText": "周五007 平胜 × 周五012 平胜",
+          "stake": 2,
+          "odds": 17.415,
+          "settled": false,
+          "hit": false,
+          "returned": null
+        }
+      ],
+      "detail": "全场结果已核实，半全场腿等待第二来源后最终结算。"
+    },
+    {
+      "index": 5,
+      "name": "原结构梦想串 · 5场混合单选",
+      "category": "dream_single",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周五002 负 × 周五007 胜 × 周五008 总进球3球 × 周五011 主-1 让平 × 周五012 主-1 让平",
+      "cost": 2,
+      "returned": 0,
+      "net": -2,
+      "status": "错",
+      "tickets": [
+        {
+          "name": "5串1（仅这一张）",
+          "selectionText": "周五002 负 × 周五007 胜 × 周五008 总进球3球 × 周五011 主-1 让平 × 周五012 主-1 让平",
+          "stake": 2,
+          "odds": 100.12792387,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        }
+      ],
+      "detail": "投入2元，返还0.00元，净额-2.00元。"
+    },
+    {
+      "index": 6,
+      "name": "全进球数梦想串 · 4串1",
+      "category": "dream",
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周五007[2/3/4] × 周五008[2/3/4] × 周五011[1/2/3] × 周五012[1/2/3]",
+      "cost": 162,
+      "returned": 0,
+      "net": -162,
+      "status": "错",
+      "tickets": [
+        {
+          "name": "子票1",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 245.232225,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票2",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 151.4669625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票3",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 163.48815,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票4",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 179.6468625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票5",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 110.95835625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票6",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 119.764575,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票7",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 205.3107,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票8",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 126.80955,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票9",
+          "selectionText": "周五007 2 × 周五008 2 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 136.8738,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票10",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 231.416325,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票11",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 142.9336125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票12",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 154.27755,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票13",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 169.5259125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票14",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 104.70718125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票15",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 113.017275,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票16",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 193.7439,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票17",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 119.66535,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票18",
+          "selectionText": "周五007 2 × 周五008 3 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 129.1626,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票19",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 338.48955,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票20",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 209.067075,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票21",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 225.6597,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票22",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 247.963275,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票23",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 153.1537875,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票24",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 165.30885,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票25",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 283.3866,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票26",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 175.0329,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票27",
+          "selectionText": "周五007 2 × 周五008 4 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 188.9244,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票28",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 272.48025,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票29",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 168.296625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票30",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 181.6535,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票31",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 199.607625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票32",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 123.2870625,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票33",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 133.07175,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票34",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 228.123,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票35",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 140.8995,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票36",
+          "selectionText": "周五007 3 × 周五008 2 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 152.082,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票37",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 257.12925,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票38",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 158.815125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票39",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 171.4195,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票40",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 188.362125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票41",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 116.3413125,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票42",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 125.57475,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票43",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 215.271,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票44",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 132.9615,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票45",
+          "selectionText": "周五007 3 × 周五008 3 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 143.514,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票46",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 376.0995,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票47",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 232.29675,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票48",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 250.733,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票49",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 275.51475,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票50",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 170.170875,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票51",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 183.6765,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票52",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 314.874,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票53",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 194.481,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票54",
+          "selectionText": "周五007 3 × 周五008 4 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 209.916,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票55",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 412.61295,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票56",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 254.849175,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票57",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 275.0753,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票58",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 302.262975,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票59",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 186.6918375,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票60",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 201.50865,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票61",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 345.4434,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票62",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 213.3621,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票63",
+          "selectionText": "周五007 4 × 周五008 2 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 230.2956,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票64",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 389.36715,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票65",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 240.491475,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票66",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 259.5781,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票67",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 285.234075,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票68",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 176.1739875,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票69",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 190.15605,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票70",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 325.9818,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票71",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 201.3417,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票72",
+          "selectionText": "周五007 4 × 周五008 3 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 217.3212,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票73",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 1 × 周五012 1",
+          "stake": 2,
+          "odds": 569.5221,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票74",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 1 × 周五012 2",
+          "stake": 2,
+          "odds": 351.76365,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票75",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 1 × 周五012 3",
+          "stake": 2,
+          "odds": 379.6814,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票76",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 2 × 周五012 1",
+          "stake": 2,
+          "odds": 417.20805,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票77",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 2 × 周五012 2",
+          "stake": 2,
+          "odds": 257.687325,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票78",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 2 × 周五012 3",
+          "stake": 2,
+          "odds": 278.1387,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票79",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 3 × 周五012 1",
+          "stake": 2,
+          "odds": 476.8092,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票80",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 3 × 周五012 2",
+          "stake": 2,
+          "odds": 294.4998,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        },
+        {
+          "name": "子票81",
+          "selectionText": "周五007 4 × 周五008 4 × 周五011 3 × 周五012 3",
+          "stake": 2,
+          "odds": 317.8728,
+          "settled": true,
+          "hit": false,
+          "returned": 0
+        }
+      ],
+      "detail": "投入162元，返还0.00元，净额-162.00元。"
+    }
+  ],
+  "ticketTotals": {
+    "cost": 178,
+    "returned": 11.53,
+    "net": -166.47,
+    "pendingCost": 6,
+    "note": "仅按原票每注2元模拟结算，不代表用户实际投注。"
+  },
+  "combinations": [
+    {
+      "name": "2.0版 · 主胜双单选",
+      "category": "two",
+      "result": "错",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "投入2元，返还0.00元，净额-2.00元。"
+    },
+    {
+      "name": "3.0版 · 一场保险",
+      "category": "two",
+      "result": "错",
+      "exampleStake": 4,
+      "exampleReturn": 0,
+      "exampleNet": -4,
+      "detail": "投入4元，返还0.00元，净额-4.00元。"
+    },
+    {
+      "name": "博精准 · 011胜+让平重叠2串1",
+      "category": "speculative",
+      "result": "中",
+      "exampleStake": 8,
+      "exampleReturn": 11.53,
+      "exampleNet": 3.53,
+      "detail": "投入8元，返还11.53元，净额3.53元。"
+    },
+    {
+      "name": "半全场 · 两张平胜单关＋2串1",
+      "category": "half_full",
+      "result": "待核（含半全场）",
+      "exampleStake": 6,
+      "exampleReturn": null,
+      "exampleNet": null,
+      "detail": "全场结果已核实，半全场腿等待第二来源后最终结算。"
+    },
+    {
+      "name": "原结构梦想串 · 5场混合单选",
+      "category": "dream_single",
+      "result": "错",
+      "exampleStake": 2,
+      "exampleReturn": 0,
+      "exampleNet": -2,
+      "detail": "投入2元，返还0.00元，净额-2.00元。"
+    },
+    {
+      "name": "全进球数梦想串 · 4串1",
+      "category": "dream",
+      "result": "错",
+      "exampleStake": 162,
+      "exampleReturn": 0,
+      "exampleNet": -162,
+      "detail": "投入162元，返还0.00元，净额-162.00元。"
+    }
+  ],
+  "lessons": [
+    "2.0的003赛前已识别平局风险，最终无新增证据删除防平，实际0:0；这是流程违规。",
+    "006欧战后三天短休仍作为2.0单胜，实际2:3；短休与轮换风险被低赔率掩盖。",
+    "3.0的008主胜是整票唯一单点，尼斯速度反击风险已知，实际1:2；另一腿保险无法补救。",
+    "012让平/让负实际5:0全部失效，说明低产数据不能压过攻击人员恢复与客队连续失2+的尾部风险。",
+    "以后最终轮无新增可靠证据不得删除已有保险；三天短休或多处轮换预期球队不得进入2.0单选。"
+  ],
+  "sources": [
+    {
+      "name": "Football Web Pages 2026-10-23 results",
+      "url": "https://www.footballwebpages.co.uk/20261023"
+    },
+    {
+      "name": "Brisbane Roar official match report",
+      "url": "https://brisbaneroar.com.au/news/roar-secure-three-points-over-perth-glory-at-suncorp-stadium/"
+    }
+  ]
+}
