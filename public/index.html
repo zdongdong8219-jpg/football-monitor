@@ -97,7 +97,15 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       const matches=state.days?.[state.currentDate]?.latest?.matches||[];
       const sameDay=report.date===state.currentDate;
       const published=new Map((sameDay?report.scanTable||[]:[]).map(r=>[String(r.number),r]));
-      return matches.map(m=>{
+      const uniqueMatches=[];
+      const seen=new Set();
+      for(const match of matches){
+        const key=String(match.number||'');
+        if(!key||seen.has(key))continue;
+        seen.add(key);
+        uniqueMatches.push(match);
+      }
+      return uniqueMatches.map(m=>{
         const r=published.get(String(m.number));
         const teams=m.home+' vs '+m.away;
         const valid=r&&(!r.teams||r.teams===teams);
