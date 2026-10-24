@@ -32,7 +32,7 @@
     const tickets=reviewMode?raw.map(r=>({r,label:r.name||labels[slot(r)],i:slot(r)})).sort((a,b)=>[0,2,1,3,4,5,6].indexOf(a.i)-[0,2,1,3,4,5,6].indexOf(b.i)):orderedTickets(raw);
     const rows=reviewMode?(report.rows||[]):currentScanRows;
     const probe=document.createElement('canvas').getContext('2d');
-    const ticketBlocks=tickets.map(({r,label,i})=>{const title=r?selections(r)||r.name||label:'今晚不出 · 暂无合格方案';const detail=!r?(report.finalLocked?'审核结论：不出 · 投入0元 · 关键证据未达门槛':'不凑单，等待有依据的候选'):reviewMode?(r.detail||r.status||r.result||'待定'):[r.oddsText||r.totalOdds||'赔率待核',r.totalCost!=null?`总投入${r.totalCost}元`:'',(r.legs||[]).map(l=>l.selectionReason||'').filter(Boolean).join('；')].filter(Boolean).join(' · ');probe.font=`700 27px ${FONT}`;const a=wrap(probe,title,680);probe.font=`22px ${FONT}`;const b=wrap(probe,detail,680);return {r,label,i,a,b,tier:(i===0||i===2)?'main':'bet',h:Math.max(118,a.length*36+b.length*30+56)}});
+    const ticketBlocks=tickets.map(({r,label,i})=>{const title=r?`${r.sessionLabel?'【'+r.sessionLabel+'】':''}${selections(r)||r.name||label}`:(report.finalLocked?'今晚不出':'待定');const detail=!r?(report.finalLocked?'14:00最终审核：无合格方案':'14:00前继续分析，暂未定稿'):reviewMode?(r.detail||r.status||r.result||'待定'):[r.oddsText||r.totalOdds||'赔率待核',r.totalCost!=null?`总投入${r.totalCost}元`:'',(r.legs||[]).map(l=>l.selectionReason||'').filter(Boolean).join('；')].filter(Boolean).join(' · ');probe.font=`700 27px ${FONT}`;const a=wrap(probe,title,680);probe.font=`22px ${FONT}`;const b=wrap(probe,detail,680);return {r,label,i,a,b,tier:(i===0||i===2)?'main':'bet',h:Math.max(118,a.length*36+b.length*30+56)}});
     const widths=[95,105,80,210,220,90,110,160,90],heads=['编号','时间','赛事','主队 : 客队','胜平负/让球','总进球','半全场','比分（3个）','赛果'];
     const tableWidth=widths.reduce((a,b)=>a+b,0),posterWidth=1244;
     const threeScores=v=>{const scores=plain(Array.isArray(v)?v.join('；'):v).match(/\d+\s*[:：-]\s*\d+/g);return scores?.length?scores.slice(0,3).map(s=>s.replace(/\s/g,'').replace(/[：-]/,':')).join('；'):plain(v)||'—'};
@@ -53,19 +53,19 @@
   }
   async function tracking(reviewMode){
     await assetReady;const report=reviewMode?currentReview:liveReport();if(!report)throw Error('没有可用复盘');
-    const raw=reviewMode?(report.ticketReview?.length?report.ticketReview:report.combinations||[]):report.recommendations||[];
+    const raw=reviewMode?(report.ticketReview?.length?report.ticketReview:report.combinations||[]):[...((report.trackingHistory?.two)||[]),...((report.trackingHistory?.three)||[]),...(report.recommendations||[])];
     const tier=r=>{const s=[r.name,r.type,r.passType,r.trackingTier].filter(Boolean).join(' ');if(/half_full|半全场|dream|梦想|three|3串1|single|单关/.test([r.category,s].join(' ')))return null;const m=s.match(/(?:^|[^\d.])([23])[.]0(?:版|档|\s|[｜|·：:]|$)/);return m?Number(m[1]):null};
-    const session=r=>[r.sessionLabel,r.batchLabel,r.session,r.batch?.label,r.batch?.name,r.name].filter(v=>typeof v==='string').join(' ').match(/早场|中场|晚场/)?.[0]||'';
-    const order=rs=>rs.map((r,i)=>({r,i})).sort((a,b)=>{const rank=r=>({'早场':0,'中场':1,'晚场':2}[session(r)]??3);return rank(a.r)-rank(b.r)||a.i-b.i}).map(x=>x.r);
-    const left=order(raw.filter(r=>tier(r)===2)),right=order(raw.filter(r=>tier(r)===3));const count=Math.max(left.length,right.length,1),heroH=800,tableY=912,height=tableY+80+count*135+160;
+    const session=r=>r?[r.sessionLabel,r.batchLabel,r.session,r.batch?.label,r.batch?.name,r.name].filter(v=>typeof v==='string').join(' ').match(/早场|中场|晚场/)?.[0]||'':'';
+    const order=rs=>rs.map((r,i)=>({r,i})).sort((a,b)=>String(a.r.date||report.date).localeCompare(String(b.r.date||report.date))||a.i-b.i).map(x=>x.r);
+    const left=order(raw.filter(r=>tier(r)===2)),right=order(raw.filter(r=>tier(r)===3));const sessions=['早场','中场','晚场'];const count=Math.max(left.length,right.length,3),heroH=800,tableY=912,height=tableY+80+count*135+160;
     const cardWidth=1244,tableWidth=1160,tableX=42;const {canvas,ctx}=setup(height,cardWidth);ctx.fillStyle='#0d2148';ctx.fillRect(0,0,cardWidth,height);
     // Keep the whole reference artwork inside the border, including its left speech bubble.
     if(asset.naturalWidth){const artX=32,artY=32,artW=cardWidth-64,artH=artW*asset.naturalHeight/asset.naturalWidth;ctx.drawImage(asset,artX,artY,artW,artH);ctx.fillStyle='rgba(7,16,32,.24)';ctx.fillRect(artX,artY,artW,artH)}
     ctx.fillStyle='rgba(14,41,77,.86)';ctx.fillRect(36,heroH-77,cardWidth-72,77);centered(ctx,TITLE+' · '+(reviewMode?'复盘跟踪卡':'今日跟踪卡'),heroH-59,39,'#f5d485');
     ctx.fillStyle='#0d2148';ctx.fillRect(tableX,heroH+10,tableWidth,88);text(ctx,'2.0 求稳',65,heroH+35,240,30,'#9cc8ff',true);centered(ctx,'每日最稳2串1',heroH+32,34);text(ctx,'3.0 求赚',990,heroH+35,210,30,'#ffa14a',true);
     const widths=[115,255,65,90,100,255,65,90,125],heads=['日期','二串一','结果','当日盈亏','累计盈亏','二串一','结果','当日盈亏','累计盈亏'];ctx.fillStyle='#0d2148';ctx.fillRect(tableX,tableY,tableWidth,80);let x=tableX;heads.forEach((s,i)=>{text(ctx,s,x+5,tableY+25,widths[i]-8,21,'#fff',true);x+=widths[i]});
-    function values(r){if(!r)return !reviewMode&&report.finalLocked?['今晚不出','未出','0','—']:['—','—','—','—'];const cost=Number(r.cost??r.exampleStake),net=r.net??r.exampleNet;const amount=reviewMode&&Number.isFinite(cost)&&cost>0&&net!=null?Number(net)/cost*1000:null;return [[session(r),selections(r)||r.name].filter(Boolean).join(' · '),reviewMode?(r.status||r.result||'待定'):'待定',money(amount),r.cumulativeNet==null?'—':money(r.cumulativeNet)]}
-    for(let i=0;i<count;i++){const y=tableY+80+i*135;ctx.fillStyle=i%2?'#173260':'#203f73';ctx.fillRect(tableX,y,tableWidth,135);const data=[(report.date||'').slice(5).replace('-','.'),...values(left[i]),...values(right[i])];x=tableX;data.forEach((s,j)=>{const c=[3,4,7,8].includes(j)?(String(s).startsWith('+')?'#fa806b':String(s).startsWith('-')?'#76ce8b':'#9aafcc'):'#fff';text(ctx,s,x+7,y+22,widths[j]-14,j===1||j===5?23:20,c,j===1||j===5);x+=widths[j]});ctx.strokeStyle='#58729c';ctx.beginPath();ctx.moveTo(tableX,y+134);ctx.lineTo(tableX+tableWidth,y+134);ctx.stroke()}
+    function values(r,i){if(!r)return [`${sessions[i]||'待定'} · 待定`,'待定','—','—'];const cost=Number(r.cost??r.exampleStake),net=r.net??r.exampleNet;const historical=Boolean(r.date&&r.date!==report.date);const amount=(reviewMode||historical)&&Number.isFinite(cost)&&cost>0&&net!=null?Number(net)/cost*1000:null;return [[session(r)||(!historical?sessions[Math.max(0,i-1)]:'')||'',selections(r)||r.name].filter(Boolean).join(' · '),(reviewMode||historical)?(r.status||r.result||'待定'):'待定',money(amount),r.cumulativeNet==null?'—':money(r.cumulativeNet)]}
+    for(let i=0;i<count;i++){const y=tableY+80+i*135;ctx.fillStyle=i%2?'#173260':'#203f73';ctx.fillRect(tableX,y,tableWidth,135);const rowDate=(left[i]?.date||right[i]?.date||report.date||'').slice(5).replace('-','.');const rowSession=session(left[i])||session(right[i])||sessions[Math.max(0,i-Math.max(left.length,right.length)+3)]||'';const data=[`${rowDate}${rowSession?' '+rowSession:''}`,...values(left[i],i),...values(right[i],i)];x=tableX;data.forEach((s,j)=>{const c=[3,4,7,8].includes(j)?(String(s).startsWith('+')?'#fa806b':String(s).startsWith('-')?'#76ce8b':'#9aafcc'):'#fff';text(ctx,s,x+7,y+22,widths[j]-14,j===1||j===5?23:20,c,j===1||j===5);x+=widths[j]});ctx.strokeStyle='#58729c';ctx.beginPath();ctx.moveTo(tableX,y+134);ctx.lineTo(tableX+tableWidth,y+134);ctx.stroke()}
     centered(ctx,(!reviewMode&&report.finalLocked&&!raw.length?'今日2.0/3.0均不出 · 0注 · 投入0元 · 返还0元':'仅跟踪2.0/3.0版2串1 · 含早场、中场、晚场 · 每组模拟投入1000元'),height-125,23,'#b5c6de');centered(ctx,'累计需已核验历史序列；缺少记录显示 —，不虚构历史盈亏',height-87,22,'#9bb3d2');centered(ctx,TITLE+' · 仅供参考 · 理性购彩',height-50,22,'#b5c6de');edge(ctx,height);return png(canvas);
   }
   scanImageBlob=()=>poster(false);reviewImageBlob=()=>poster(true);trackingImageBlob=tracking;
@@ -82,3 +82,4 @@
   if(currentReview?.rows?.length)renderReview(currentReview);
   schedule();
 })();
+
