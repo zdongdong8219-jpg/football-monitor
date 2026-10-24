@@ -1,16 +1,16 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T06:24:11.832Z",
-  "generatedAt": "2026-10-24T06:24:11.832Z",
+  "publishedAt": "2026-10-24T06:30:15.211Z",
+  "generatedAt": "2026-10-24T06:30:15.211Z",
   "status": "final-reviewed-one-core",
-  "edition": "2026-10-24早场原票＋中晚场追加最终版",
+  "edition": "2026-10-24早场原票＋中晚场2.0/3.0/博单补发版",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": true,
   "completed": true,
-  "mobileVerified": true,
+  "mobileVerified": false,
   "dataAsOf": "2026-10-24T02:52:07.73Z",
-  "summary": "同图分段最终版：001—005保留早场原方向和原串；006—030追加中晚场赛前审核方向。中晚场2.0为016胜×009胜，整套1.72倍；3.0及博单不出。",
+  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。",
   "recommendations": [
     {
       "id": "2026-10-24-early-speculative-003-004",
@@ -208,6 +208,111 @@
       "displayMultipliersOnly": true,
       "oddsAsOf": "2026-10-24T02:48:29.092Z",
       "lockedAt": "2026-10-24T02:49:30.974Z"
+    },
+    {
+      "id": "2026-10-24-late-30-020-026",
+      "name": "晚场最稳2串1 · 3.0版",
+      "category": "two",
+      "trackingTier": "3.0版",
+      "sessionLabel": "晚场",
+      "tier": "主推",
+      "passType": "2串1",
+      "passSizes": [
+        2
+      ],
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周六020[胜] × 周六026[主-1让胜]",
+      "combinationCount": 1,
+      "totalCost": 2,
+      "oddsText": "整套返还 3.00倍",
+      "structureText": "单选×单选，一张2串1",
+      "effectiveReturnText": "两腿均中返还约3.00倍；任一腿不中整票无返还",
+      "coverageText": "3.0允许026承担一条净胜2球以上的进取腿；不把它放进2.0。",
+      "legs": [
+        {
+          "number": "周六020",
+          "market": "胜平负",
+          "selection": "胜",
+          "odds": 1.5,
+          "stars": 1,
+          "selectionReason": "乌德勒支主场方向；对手换帅反弹是主要反证，因此只给1星。"
+        },
+        {
+          "number": "周六026",
+          "market": "让球胜平负(-1)",
+          "selection": "让胜",
+          "odds": 2,
+          "stars": 1,
+          "selectionReason": "拉齐奥6胜1平且无欧战短休，帕尔马中场缺口支持净胜；领先后被追平历史使其只能作为3.0进取腿。"
+        }
+      ],
+      "subTickets": [
+        {
+          "name": "3.0子票",
+          "selectionText": "周六020胜 × 周六026主-1让胜",
+          "stake": 2,
+          "odds": 3,
+          "returnText": "约6.00元"
+        }
+      ],
+      "risk": "026必须净胜2球以上；只赢1球即让平不中。020对手换帅后反弹，存在被拖平风险。"
+    },
+    {
+      "id": "2026-10-24-late-bet-006-023-029",
+      "name": "晚场博单 · 三强方向3串1",
+      "category": "three",
+      "sessionLabel": "晚场",
+      "tier": "博单",
+      "passType": "3串1",
+      "passSizes": [
+        3
+      ],
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周六006[负] × 周六023[胜] × 周六029[负]",
+      "combinationCount": 1,
+      "totalCost": 2,
+      "oddsText": "整套返还约3.05倍",
+      "structureText": "三个单选，一张3串1",
+      "effectiveReturnText": "三腿全中返还约3.05倍；任一腿不中整票无返还",
+      "coverageText": "归入博单，不计入2.0/3.0主推。",
+      "legs": [
+        {
+          "number": "周六006",
+          "market": "胜平负",
+          "selection": "负",
+          "odds": 1.48,
+          "stars": 1,
+          "selectionReason": "曼城攻击与连胜支持客胜；维拉强强表现和曼城防守波动是反证。"
+        },
+        {
+          "number": "周六023",
+          "market": "胜平负",
+          "selection": "胜",
+          "odds": 1.62,
+          "stars": 1,
+          "selectionReason": "切尔西攻击端与热刺伤停支持主胜；年轻门将与德比波动使其只进博单。"
+        },
+        {
+          "number": "周六029",
+          "market": "胜平负",
+          "selection": "负",
+          "odds": 1.27,
+          "stars": 1,
+          "selectionReason": "波尔图联赛八连胜支持客胜；连续失球和短休使其不进核心。"
+        }
+      ],
+      "subTickets": [
+        {
+          "name": "博单子票",
+          "selectionText": "周六006负 × 周六023胜 × 周六029负",
+          "stake": 2,
+          "odds": 3.045,
+          "returnText": "约6.09元"
+        }
+      ],
+      "risk": "三腿必须全中；006与023均属高波动场，029存在短休和连续失球风险。"
     }
   ],
   "scanTable": [
@@ -1337,8 +1442,8 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
-      "recommended": false,
+      "stars": 1,
+      "recommended": true,
       "purchaseApproved": false,
       "status": "中场已审未入核心",
       "risk": "曼城联赛连胜与Haaland可用支持客胜方向，但3:2伊普斯维奇、2:4巴黎暴露防守；维拉客胜纽卡及欧冠连胜必须升权，近期交锋亦克制曼城。双方周中比赛，Semenyo缺席，Foden可替代但不能消除丢球风险。",
@@ -4059,8 +4164,8 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
-      "recommended": false,
+      "stars": 1,
+      "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
       "risk": "晚场备选3，未入核心：乌得勒支客胜此前连续主场获胜的特温特应升权，胜升班马威廉二世仅中性；Alarcon/Cathline能替代伤缺的Stepanov，Padt已有代替Barkas比赛记录。官网强调团队跑动和协作。但对费耶诺德0:5即使强度折扣仍有上限风险，兹沃勒新临时教练已4:1赢德比，不能套用旧教练下连丢11球判断其必败。Barkas和多名长期伤员未全恢复，客队新体系样本不足。",
@@ -4725,8 +4830,8 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
-      "recommended": false,
+      "stars": 1,
+      "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
       "risk": "切尔西攻击Palmer/Rogers/Joao Pedro及Neto有支持，近期赢伯恩茅斯、埃弗顿，但刚结束联赛22场无零封，不能由一次零封判稳定。Martinez颌骨手术，21岁Penders预计首次英超首发；Gusto恢复、James缺席。热刺多人伤停且Bentancur停赛，但Maddison/Marmoush与Tonali/Gallagher仍有反击和组织，德比方差偏高。",
@@ -5384,15 +5489,15 @@
       "kickoff": "2026-10-25T02:45:00",
       "batch": "C",
       "handicap": -1,
-      "buy": "胜",
-      "primaryPick": "胜",
+      "buy": "主-1让胜",
+      "primaryPick": "主-1让胜",
       "speculative": "无",
-      "selection": "胜",
+      "selection": "主-1让胜",
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
-      "recommended": false,
+      "stars": 1,
+      "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
       "risk": "晚场备选1，普通主胜方向优先但不作为核心稳胆：拉齐奥6胜1平、客场3:0尤文有独立支撑，本周无欧战短休；Cancellieri恢复，Gudmundsson缺席，Marusic/Rovella可能保守使用，Noslin/Pinamonti均有替代终结能力。Parma对国米0:3应升权折扣，随后对都灵同比分败才是更直接的失衡证据；Nicolussi Caviglia/Elphege缺席。拉齐奥对米兰两球领先被追成2:2，用户本轮要求排除领先防守不稳的核心，不能以1.27忽略；官网发布会页面只是预告，未用作伤停实锤。",
@@ -6057,8 +6162,8 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 0,
-      "recommended": false,
+      "stars": 1,
+      "recommended": true,
       "purchaseApproved": false,
       "status": "晚场已审未入核心",
       "risk": "波尔图联赛八连胜含本菲卡，方向仍客胜；但连续四轮失球、欧冠三败与周三比赛后短休均须实评。Gil Vicente胜布拉加和Moreirense应升权；其杯赛加时胜低级别只中性。Samu刚长期伤愈首发且不到60分钟换下，Andre Silva可能轮换；William Gomes/Vasco Sousa未恢复。赔率1.27不足以抵消防守、客场和分钟管理风险。",
@@ -9543,7 +9648,7 @@
   ],
   "lockedDate": "2026-10-24",
   "researchComplete": true,
-  "deliveryStatus": "late-final-publishing",
+  "deliveryStatus": "late-expanded-final-publishing",
   "pairingAudit": {
     "rankedBeforePairing": true,
     "approved": [
