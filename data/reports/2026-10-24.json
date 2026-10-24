@@ -1,14 +1,14 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T06:12:31.3623440Z",
-  "generatedAt": "2026-10-24T06:12:31.3623440Z",
+  "publishedAt": "2026-10-24T06:12:31.362344Z",
+  "generatedAt": "2026-10-24T06:12:31.362344Z",
   "status": "final-reviewed-one-core",
   "edition": "2026-10-24最终版·迟交更正",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": true,
   "completed": true,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "dataAsOf": "2026-10-24T02:52:07.73Z",
   "summary": "迟交最终版：早、中、晚30场分批审核已在14:00前完成；因最终发布任务误暂停导致未按时上线。保留中场2.0：016胜×009胜，整套1.72倍；3.0及博单不出。此次只补发既有审核结果，不使用赛后信息回填。",
   "recommendations": [
@@ -9524,5 +9524,23 @@
   },
   "deliveryStatus": "late-final-published",
   "correctionReason": "14:00自动最终出单任务被误暂停；14:00后按已完成的全天审核原始结果补交，不使用赛后信息。",
-  "actualFinalPublishedAt": "2026-10-24T06:12:31.3623440Z"
+  "actualFinalPublishedAt": "2026-10-24T06:12:31.362344Z",
+  "mobileVerifiedAt": "2026-10-24T06:14:48.9333902Z",
+  "mobileVerification": {
+    "scanCount": 30,
+    "finalLocked": true,
+    "date": "2026-10-24",
+    "copyButtons": true,
+    "tracking": {
+      "width": 1244,
+      "height": 1557
+    },
+    "pageWidth": 430,
+    "viewportWidth": 430,
+    "recommendationCount": 1,
+    "poster": {
+      "width": 1244,
+      "height": 6344
+    }
+  }
 }
