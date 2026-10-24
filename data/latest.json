@@ -1,16 +1,16 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T07:14:53.972Z",
-  "generatedAt": "2026-10-24T07:14:53.972Z",
+  "publishedAt": "2026-10-24T07:19:01.742Z",
+  "generatedAt": "2026-10-24T07:19:01.742Z",
   "status": "final-reviewed-one-core",
-  "edition": "2026-10-24全场次明确方向扫盘更正版",
+  "edition": "2026-10-24全场次方向＋精选星级更正版",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": true,
   "completed": true,
-  "mobileVerified": true,
+  "mobileVerified": false,
   "dataAsOf": "2026-10-24T02:52:07.73Z",
-  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。 扫盘30场现均给出明确方向；低信心方向不自动进入串子。",
+  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。 扫盘30场现均给出明确方向；低信心方向不自动进入串子。 扫盘星级已收紧：仅12场相对推荐方向显示星，其余方向不加星。",
   "recommendations": [
     {
       "id": "2026-10-24-early-speculative-003-004",
@@ -3511,8 +3511,8 @@
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 1,
-      "recommended": true,
+      "stars": 0,
+      "recommended": false,
       "purchaseApproved": true,
       "status": "早场原票",
       "risk": "首尔阵容与轮换未核齐，江原平局能力有反证，不准入核心。",
@@ -3715,7 +3715,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六002",
@@ -3733,8 +3734,8 @@
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 1,
-      "recommended": true,
+      "stars": 0,
+      "recommended": false,
       "purchaseApproved": true,
       "status": "早场原票",
       "risk": "主胜需要防平，但双选与低赔腿组合后的整套回报过薄；不能为两档硬删平局。",
@@ -3937,7 +3938,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六003",
@@ -3955,8 +3957,8 @@
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 1,
-      "recommended": true,
+      "stars": 0,
+      "recommended": false,
       "purchaseApproved": true,
       "status": "早场原票",
       "risk": "神户后卫伤情与连续短休；町田近期强势仍需对手强度折扣。不得作为核心稳胆。",
@@ -4159,7 +4161,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六004",
@@ -4177,8 +4180,8 @@
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 1,
-      "recommended": true,
+      "stars": 0,
+      "recommended": false,
       "purchaseApproved": true,
       "status": "早场原票",
       "risk": "核心射手存疑且领先后防守不稳，明确排除核心。",
@@ -4381,7 +4384,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六005",
@@ -4399,8 +4403,8 @@
       "goals": "待核",
       "halfFull": "待核",
       "score": "待核",
-      "stars": 1,
-      "recommended": true,
+      "stars": 0,
+      "recommended": false,
       "purchaseApproved": true,
       "status": "早场原票",
       "risk": "德比、新季小样本与两队后场磨合使方差偏高，不进早场核心。",
@@ -4603,7 +4607,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:31:51.631Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六006",
@@ -4825,7 +4830,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六007",
@@ -4843,7 +4849,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
       "status": "中场扫盘已出方向·未入核心",
@@ -4854,7 +4860,8 @@
       "qualification": {
         "verified": false,
         "reason": "官方当前列表缺失"
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六008",
@@ -4872,7 +4879,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
@@ -5076,7 +5083,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六009",
@@ -5094,7 +5102,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 2,
       "recommended": true,
       "purchaseApproved": true,
       "status": "核心单选入选",
@@ -5298,7 +5306,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 2
     },
     {
       "number": "周六010",
@@ -5520,7 +5529,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六011",
@@ -5538,7 +5548,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
@@ -5742,7 +5752,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六012",
@@ -5761,7 +5772,7 @@
       "halfFull": "不推",
       "score": "不推",
       "stars": 1,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
       "risk": "美因茨门将与中轴缺阵且主场胜势不足，不莱梅具备破门能力，主队难净胜两球。 美因茨尚无主场联赛胜利，Zentner及Kohr缺席，由Schwolow/Potulski补位；不莱梅虽中场有伤病，Fullkrug近5场6球不能低估。主队低赔与已核基本面差距不足解释。",
@@ -5964,7 +5975,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六013",
@@ -5982,7 +5994,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
@@ -6186,7 +6198,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六014",
@@ -6204,7 +6217,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
@@ -6408,7 +6421,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六015",
@@ -6427,7 +6441,7 @@
       "halfFull": "不推",
       "score": "不推",
       "stars": 1,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
       "risk": "奥格斯堡防守波动，柏林联合近期防守改善，主队难净胜两球。 奥格斯堡近期4:3失利，防线稳定性不足；柏林联合0:0多特与1:0埃尔弗斯堡应升权，不能由1.66认定主胜稳胆。",
@@ -6630,7 +6644,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六016",
@@ -6648,7 +6663,7 @@
       "goals": "2/3/4",
       "halfFull": "平胜",
       "score": "不推",
-      "stars": 1,
+      "stars": 2,
       "recommended": true,
       "purchaseApproved": true,
       "status": "核心单选入选",
@@ -6852,7 +6867,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 2
     },
     {
       "number": "周六017",
@@ -6871,7 +6887,7 @@
       "halfFull": "不推",
       "score": "不推",
       "stars": 1,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "中场扫盘已出方向·未入核心",
       "risk": "考文垂近期能抗衡强队，富勒姆客场持续不胜；受让一球方向容错更高。 考文垂胜森林及纽卡是积极证据，富勒姆八个联赛客场不胜且被伊普斯维奇最后两分钟逆转，但主队近六主场五场大球、七轮五负，不能把主+1让胜直接升为低波动核心。Rudoni有进球，Amenda/Eccles/Woolfenden/Wright缺阵；富勒姆Sessegnon停赛，Robinson可替代。",
@@ -7074,7 +7090,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:48:29.092Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六018",
@@ -7092,7 +7109,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
       "status": "中场扫盘已出方向·未入核心",
@@ -7103,7 +7120,8 @@
       "qualification": {
         "verified": false,
         "reason": "官方当前列表缺失"
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六019",
@@ -7121,7 +7139,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
       "status": "晚场扫盘已出方向·未入核心",
@@ -7325,7 +7343,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六020",
@@ -7547,7 +7566,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六021",
@@ -7565,7 +7585,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
       "status": "晚场扫盘已出方向·未入核心",
@@ -7769,7 +7789,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六022",
@@ -7788,7 +7809,7 @@
       "halfFull": "不推",
       "score": "不推",
       "stars": 1,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "晚场扫盘已出方向·未入核心",
       "risk": "双方欧冠后短休且各有核心缺阵，强强对话支持那不勒斯受让一球方向。 那不勒斯4:3博德两次领先被追平，Roma对皇马末段被逆转；两队均欧冠后短休。Roma联赛防守领先但Svilar、Kone、Dybala缺席，Pellegrini新伤，Gollini和De Roon/Pisilli承担替代；那不勒斯缺Buongiorno和Neres等，Hojlund联赛效率一般。强强对话不当核心。",
@@ -7991,7 +8012,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六023",
@@ -8213,7 +8235,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六024",
@@ -8435,7 +8458,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六025",
@@ -8454,7 +8478,7 @@
       "halfFull": "不推",
       "score": "不推",
       "stars": 1,
-      "recommended": false,
+      "recommended": true,
       "purchaseApproved": true,
       "status": "晚场扫盘已出方向·未入核心",
       "risk": "比利亚雷亚尔领先后防守不稳且存在轮换，瓦伦西亚主场受让一球具备容错。 比利亚雷亚尔在利物浦2:0领先后3:4输球，高方差与领先防守问题明确；周中后Foyth/Ayoze等可能轮换，Pepe缺席、Romero/Saliba存疑，Buchanan回归。瓦伦西亚连平桑坦德和毕尔巴鄂，Danjuma/Rioja可替代伤缺攻击手；弱主队不是可靠客胜担保。",
@@ -8657,7 +8681,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六026",
@@ -8879,7 +8904,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六027",
@@ -8897,7 +8923,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": true,
       "status": "晚场扫盘已出方向·未入核心",
@@ -9101,7 +9127,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六028",
@@ -9323,7 +9350,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 0
     },
     {
       "number": "周六029",
@@ -9545,7 +9573,8 @@
           "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
           "capturedAt": "2026-10-24T02:52:07.73Z"
         }
-      }
+      },
+      "confidenceStars": 1
     },
     {
       "number": "周六030",
@@ -9563,7 +9592,7 @@
       "goals": "不推",
       "halfFull": "不推",
       "score": "不推",
-      "stars": 1,
+      "stars": 0,
       "recommended": false,
       "purchaseApproved": false,
       "status": "晚场扫盘已出方向·未入核心",
@@ -9574,7 +9603,8 @@
       "qualification": {
         "verified": false,
         "reason": "官方当前列表缺失"
-      }
+      },
+      "confidenceStars": 0
     }
   ],
   "matchAnalysis": [
@@ -12906,22 +12936,10 @@
     "dream": "未出",
     "reason": "按本轮要求先完成核心两档，未完成3.0，不增加博单风险"
   },
-  "correctionReason": "用户要求扫盘覆盖全部场次并给出明确方向；将15场观望改为有依据的单选或同市场双选，不改变既有2.0、3.0及其他原票。",
+  "correctionReason": "按用户要求把扫盘星级限定为相对推荐方向：2场二星、10场一星，其余仅保留明确方向不打星；既有串子原票不变。",
   "correctionOf": {
     "date": "2026-10-24",
-    "edition": "2026-10-24早场原票＋中晚场完整观察版＋官方单关更正",
-    "publishedAt": "2026-10-24T06:49:43.032Z"
-  },
-  "mobileVerifiedAt": "2026-10-24T07:16:04.162Z",
-  "mobileVerification": {
-    "date": "2026-10-24",
-    "recommendationCount": 9,
-    "singleVisible": true,
-    "copyPoster": true,
-    "copyTracking": true,
-    "copyReview": true,
-    "copyReviewTracking": true,
-    "viewportWidth": 430,
-    "horizontalOverflow": false
+    "edition": "2026-10-24全场次明确方向扫盘更正版",
+    "publishedAt": "2026-10-24T07:14:53.972Z"
   }
 }
