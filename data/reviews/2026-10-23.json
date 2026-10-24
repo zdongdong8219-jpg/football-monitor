@@ -1,14 +1,14 @@
 {
   "date": "2026-10-23",
-  "title": "FT足球竞彩模型 · 复盘初版",
-  "stage": "partial",
-  "completed": false,
+  "title": "FT足球竞彩模型 · 最终复盘",
+  "stage": "final",
+  "completed": true,
   "mobileVerified": false,
-  "publishedAt": "2026-10-24T00:06:13.645Z",
+  "publishedAt": "2026-10-24T00:18:51.023Z",
   "partialPublishedAt": "2026-10-24T00:06:13.647Z",
   "originalPublishedAt": "2026-10-23T08:37:32.625Z",
-  "summary": "12/12场全场赛果已核验；扫盘方向6/12，总进球6/12，比分5/12。2.0与3.0均未中；半全场方案等待半场比分第二来源后最终盖章。",
-  "verification": "全场比分使用Football Web Pages及各联赛/俱乐部/比赛结果页交叉核验；半场尚未完成双源，不提前结算。",
+  "summary": "12/12场全场及半场均完成双源核验；扫盘方向6/12，总进球6/12，半全场3/12，比分5/12。2.0、3.0均错；全部原票最终投入184元、返还11.53元、净-172.47元。",
+  "verification": "12场全场及半场使用官方俱乐部/联赛赛报、Football Web Pages、赛事结果页与带进球时间的报道交叉核验。",
   "rows": [
     {
       "number": "周五001",
@@ -20,12 +20,12 @@
       "halfFullPick": "平平/平胜",
       "scorePick": "1:1 / 2:1 / 1:0",
       "actualScore": "2:1",
-      "halfScore": "待双源核验",
+      "halfScore": "2:0",
       "recommended": true,
       "hits": {
         "result": true,
         "goals": true,
-        "halfFull": null,
+        "halfFull": false,
         "score": true
       },
       "hitLabels": {
@@ -43,8 +43,9 @@
       "actualResult": "胜",
       "actualHandicapResult": "让胜",
       "actualGoals": 3,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "胜胜"
     },
     {
       "number": "周五002",
@@ -56,12 +57,12 @@
       "halfFullPick": "平负/平平",
       "scorePick": "1:2 / 1:1 / 0:2",
       "actualScore": "1:1",
-      "halfScore": "待双源核验",
+      "halfScore": "0:1",
       "recommended": true,
       "hits": {
         "result": true,
         "goals": true,
-        "halfFull": null,
+        "halfFull": false,
         "score": true
       },
       "hitLabels": {
@@ -79,8 +80,9 @@
       "actualResult": "平",
       "actualHandicapResult": "让平",
       "actualGoals": 2,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "负平"
     },
     {
       "number": "周五003",
@@ -92,25 +94,28 @@
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1 / 1:1 / 2:2",
       "actualScore": "0:0",
-      "halfScore": "待双源核验",
+      "halfScore": "0:0",
       "recommended": true,
       "hits": {
         "result": false,
         "goals": false,
-        "halfFull": null,
+        "halfFull": true,
         "score": false
       },
       "hitLabels": {
         "result": [],
         "goals": [],
-        "halfFull": [],
+        "halfFull": [
+          "平平"
+        ],
         "score": []
       },
       "actualResult": "平",
       "actualHandicapResult": "让平",
       "actualGoals": 0,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "平平"
     },
     {
       "number": "周五004",
@@ -122,12 +127,12 @@
       "halfFullPick": "平平/平负",
       "scorePick": "1:1 / 2:1 / 1:2",
       "actualScore": "3:2",
-      "halfScore": "待双源核验",
+      "halfScore": "2:0",
       "recommended": true,
       "hits": {
         "result": false,
         "goals": false,
-        "halfFull": null,
+        "halfFull": false,
         "score": false
       },
       "hitLabels": {
@@ -139,8 +144,9 @@
       "actualResult": "胜",
       "actualHandicapResult": "让胜",
       "actualGoals": 5,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "胜胜"
     },
     {
       "number": "周五005",
@@ -152,12 +158,12 @@
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1 / 1:1 / 2:2",
       "actualScore": "1:1",
-      "halfScore": "待双源核验",
+      "halfScore": "1:1",
       "recommended": true,
       "hits": {
         "result": true,
         "goals": true,
-        "halfFull": null,
+        "halfFull": true,
         "score": true
       },
       "hitLabels": {
@@ -167,7 +173,9 @@
         "goals": [
           "2"
         ],
-        "halfFull": [],
+        "halfFull": [
+          "平平"
+        ],
         "score": [
           "1:1"
         ]
@@ -175,8 +183,9 @@
       "actualResult": "平",
       "actualHandicapResult": "让平",
       "actualGoals": 2,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "平平"
     },
     {
       "number": "周五006",
@@ -188,12 +197,12 @@
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:1 / 2:0 / 1:1",
       "actualScore": "2:3",
-      "halfScore": "待双源核验",
+      "halfScore": "1:1",
       "recommended": true,
       "hits": {
         "result": false,
         "goals": false,
-        "halfFull": null,
+        "halfFull": false,
         "score": false
       },
       "hitLabels": {
@@ -205,8 +214,9 @@
       "actualResult": "负",
       "actualHandicapResult": "让负",
       "actualGoals": 5,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "平负"
     },
     {
       "number": "周五007",
@@ -218,12 +228,12 @@
       "halfFullPick": "平胜（博）；平平观察",
       "scorePick": "2:1 / 1:1 / 2:2",
       "actualScore": "3:2",
-      "halfScore": "待双源核验",
+      "halfScore": "1:0",
       "recommended": true,
       "hits": {
         "result": true,
         "goals": false,
-        "halfFull": null,
+        "halfFull": false,
         "score": false
       },
       "hitLabels": {
@@ -237,8 +247,9 @@
       "actualResult": "胜",
       "actualHandicapResult": "让胜",
       "actualGoals": 5,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "胜胜"
     },
     {
       "number": "周五008",
@@ -250,12 +261,12 @@
       "halfFullPick": "平胜/平平",
       "scorePick": "1:0 / 1:1 / 2:1",
       "actualScore": "1:2",
-      "halfScore": "待双源核验",
+      "halfScore": "1:0",
       "recommended": true,
       "hits": {
         "result": false,
         "goals": true,
-        "halfFull": null,
+        "halfFull": false,
         "score": false
       },
       "hitLabels": {
@@ -269,8 +280,9 @@
       "actualResult": "负",
       "actualHandicapResult": "让负",
       "actualGoals": 3,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "胜负"
     },
     {
       "number": "周五009",
@@ -282,12 +294,12 @@
       "halfFullPick": "平平/平负",
       "scorePick": "1:1 / 1:2 / 2:1",
       "actualScore": "1:1",
-      "halfScore": "待双源核验",
+      "halfScore": "1:1",
       "recommended": true,
       "hits": {
         "result": true,
         "goals": true,
-        "halfFull": null,
+        "halfFull": true,
         "score": true
       },
       "hitLabels": {
@@ -297,7 +309,9 @@
         "goals": [
           "2"
         ],
-        "halfFull": [],
+        "halfFull": [
+          "平平"
+        ],
         "score": [
           "1:1"
         ]
@@ -305,8 +319,9 @@
       "actualResult": "平",
       "actualHandicapResult": "让平",
       "actualGoals": 2,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "平平"
     },
     {
       "number": "周五010",
@@ -318,12 +333,12 @@
       "halfFullPick": "平平/平负",
       "scorePick": "2:2 / 2:1 / 1:2",
       "actualScore": "1:5",
-      "halfScore": "待双源核验",
+      "halfScore": "1:3",
       "recommended": true,
       "hits": {
         "result": false,
         "goals": false,
-        "halfFull": null,
+        "halfFull": false,
         "score": false
       },
       "hitLabels": {
@@ -335,8 +350,9 @@
       "actualResult": "负",
       "actualHandicapResult": "让负",
       "actualGoals": 6,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "负负"
     },
     {
       "number": "周五011",
@@ -348,12 +364,12 @@
       "halfFullPick": "平胜/平平",
       "scorePick": "1:0 / 1:1 / 2:1",
       "actualScore": "1:1",
-      "halfScore": "待双源核验",
+      "halfScore": "0:1",
       "recommended": true,
       "hits": {
         "result": true,
         "goals": true,
-        "halfFull": null,
+        "halfFull": false,
         "score": true
       },
       "hitLabels": {
@@ -371,8 +387,9 @@
       "actualResult": "平",
       "actualHandicapResult": "让平",
       "actualGoals": 2,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "负平"
     },
     {
       "number": "周五012",
@@ -384,12 +401,12 @@
       "halfFullPick": "平胜（博）；平平观察",
       "scorePick": "1:0 / 1:1 / 0:1",
       "actualScore": "5:0",
-      "halfScore": "待双源核验",
+      "halfScore": "1:0",
       "recommended": true,
       "hits": {
         "result": false,
         "goals": false,
-        "halfFull": null,
+        "halfFull": false,
         "score": false
       },
       "hitLabels": {
@@ -401,8 +418,9 @@
       "actualResult": "胜",
       "actualHandicapResult": "让胜",
       "actualGoals": 5,
-      "settlementStatus": "全场已双源核验·半场待核",
-      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。"
+      "settlementStatus": "全场与半场均双源核验",
+      "review": "方向、总进球、比分分别按原票结算；半全场待第二来源。",
+      "actualHalfFull": "胜胜"
     }
   ],
   "statistics": {
@@ -417,9 +435,9 @@
       "pending": 0
     },
     "halfFull": {
-      "hit": 0,
-      "total": 0,
-      "pending": 12
+      "hit": 3,
+      "total": 12,
+      "pending": 0
     },
     "score": {
       "hit": 5,
@@ -447,7 +465,25 @@
           "odds": 2.22,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五003",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.85
+            },
+            {
+              "number": "周五006",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.2
+            }
+          ]
         }
       ],
       "detail": "投入2元，返还0.00元，净额-2.00元。"
@@ -471,7 +507,25 @@
           "odds": 6.21,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五008",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 2.07
+            },
+            {
+              "number": "周五012",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "d",
+              "label": "让平",
+              "odds": 3
+            }
+          ]
         },
         {
           "name": "子票2",
@@ -480,7 +534,25 @@
           "odds": 4.968,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五008",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 2.07
+            },
+            {
+              "number": "周五012",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "a",
+              "label": "让负",
+              "odds": 2.4
+            }
+          ]
         }
       ],
       "detail": "投入4元，返还0.00元，净额-4.00元。"
@@ -504,7 +576,23 @@
           "odds": 2.7783,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "key": "h",
+              "label": "胜",
+              "odds": 1.89
+            },
+            {
+              "number": "周五011",
+              "market": "HAD",
+              "key": "h",
+              "label": "胜",
+              "odds": 1.47
+            }
+          ]
         },
         {
           "name": "子票2",
@@ -513,7 +601,23 @@
           "odds": 4.7775,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "key": "d",
+              "label": "平",
+              "odds": 3.25
+            },
+            {
+              "number": "周五011",
+              "market": "HAD",
+              "key": "h",
+              "label": "胜",
+              "odds": 1.47
+            }
+          ]
         },
         {
           "name": "子票3",
@@ -522,7 +626,23 @@
           "odds": 5.7645,
           "settled": true,
           "hit": true,
-          "returned": 11.53
+          "returned": 11.53,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "key": "h",
+              "label": "胜",
+              "odds": 1.89
+            },
+            {
+              "number": "周五011",
+              "market": "HHAD",
+              "key": "d",
+              "label": "让平",
+              "odds": 3.05
+            }
+          ]
         },
         {
           "name": "子票4",
@@ -531,7 +651,23 @@
           "odds": 9.9125,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "key": "d",
+              "label": "平",
+              "odds": 3.25
+            },
+            {
+              "number": "周五011",
+              "market": "HHAD",
+              "key": "d",
+              "label": "让平",
+              "odds": 3.05
+            }
+          ]
         }
       ],
       "detail": "投入8元，返还11.53元，净额3.53元。"
@@ -544,39 +680,77 @@
       "stronglyRecommended": false,
       "selectionText": "周五007[平胜 @4.3] × 周五012[平胜 @4.05]",
       "cost": 6,
-      "returned": null,
-      "net": null,
-      "status": "待核（含半全场）",
+      "returned": 0,
+      "net": -6,
+      "status": "错",
       "tickets": [
         {
           "name": "007平胜单关",
           "selectionText": "周五007 平胜",
           "stake": 2,
           "odds": 4.3,
-          "settled": false,
+          "settled": true,
           "hit": false,
-          "returned": null
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAFU",
+              "handicap": 0,
+              "key": "dh",
+              "label": "平胜",
+              "odds": 4.3
+            }
+          ]
         },
         {
           "name": "012平胜单关",
           "selectionText": "周五012 平胜",
           "stake": 2,
           "odds": 4.05,
-          "settled": false,
+          "settled": true,
           "hit": false,
-          "returned": null
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五012",
+              "market": "HAFU",
+              "handicap": 0,
+              "key": "dh",
+              "label": "平胜",
+              "odds": 4.05
+            }
+          ]
         },
         {
           "name": "007×012平胜2串1",
           "selectionText": "周五007 平胜 × 周五012 平胜",
           "stake": 2,
           "odds": 17.415,
-          "settled": false,
+          "settled": true,
           "hit": false,
-          "returned": null
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "HAFU",
+              "handicap": 0,
+              "key": "dh",
+              "label": "平胜",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "HAFU",
+              "handicap": 0,
+              "key": "dh",
+              "label": "平胜",
+              "odds": 4.05
+            }
+          ]
         }
       ],
-      "detail": "全场结果已核实，半全场腿等待第二来源后最终结算。"
+      "detail": "投入6元，返还0.00元，净额-6.00元。"
     },
     {
       "index": 5,
@@ -597,7 +771,49 @@
           "odds": 100.12792387,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五002",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "a",
+              "label": "负",
+              "odds": 1.7
+            },
+            {
+              "number": "周五007",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.89
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "总进球3球",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "d",
+              "label": "让平",
+              "odds": 3.05
+            },
+            {
+              "number": "周五012",
+              "market": "HHAD",
+              "handicap": -1,
+              "key": "d",
+              "label": "让平",
+              "odds": 3.05
+            }
+          ]
         }
       ],
       "detail": "投入2元，返还0.00元，净额-2.00元。"
@@ -621,7 +837,37 @@
           "odds": 245.232225,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票2",
@@ -630,7 +876,37 @@
           "odds": 151.4669625,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票3",
@@ -639,7 +915,37 @@
           "odds": 163.48815,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票4",
@@ -648,7 +954,37 @@
           "odds": 179.6468625,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票5",
@@ -657,7 +993,37 @@
           "odds": 110.95835625,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票6",
@@ -666,7 +1032,37 @@
           "odds": 119.764575,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票7",
@@ -675,7 +1071,37 @@
           "odds": 205.3107,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票8",
@@ -684,7 +1110,37 @@
           "odds": 126.80955,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票9",
@@ -693,7 +1149,37 @@
           "odds": 136.8738,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票10",
@@ -702,7 +1188,37 @@
           "odds": 231.416325,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票11",
@@ -711,7 +1227,37 @@
           "odds": 142.9336125,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票12",
@@ -720,7 +1266,37 @@
           "odds": 154.27755,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票13",
@@ -729,7 +1305,37 @@
           "odds": 169.5259125,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票14",
@@ -738,7 +1344,37 @@
           "odds": 104.70718125,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票15",
@@ -747,7 +1383,37 @@
           "odds": 113.017275,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票16",
@@ -756,7 +1422,37 @@
           "odds": 193.7439,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票17",
@@ -765,7 +1461,37 @@
           "odds": 119.66535,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票18",
@@ -774,7 +1500,37 @@
           "odds": 129.1626,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票19",
@@ -783,7 +1539,37 @@
           "odds": 338.48955,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票20",
@@ -792,7 +1578,37 @@
           "odds": 209.067075,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票21",
@@ -801,7 +1617,37 @@
           "odds": 225.6597,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票22",
@@ -810,7 +1656,37 @@
           "odds": 247.963275,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票23",
@@ -819,7 +1695,37 @@
           "odds": 153.1537875,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票24",
@@ -828,7 +1734,37 @@
           "odds": 165.30885,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票25",
@@ -837,7 +1773,37 @@
           "odds": 283.3866,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票26",
@@ -846,7 +1812,37 @@
           "odds": 175.0329,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票27",
@@ -855,7 +1851,37 @@
           "odds": 188.9244,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票28",
@@ -864,7 +1890,37 @@
           "odds": 272.48025,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票29",
@@ -873,7 +1929,37 @@
           "odds": 168.296625,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票30",
@@ -882,7 +1968,37 @@
           "odds": 181.6535,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票31",
@@ -891,7 +2007,37 @@
           "odds": 199.607625,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票32",
@@ -900,7 +2046,37 @@
           "odds": 123.2870625,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票33",
@@ -909,7 +2085,37 @@
           "odds": 133.07175,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票34",
@@ -918,7 +2124,37 @@
           "odds": 228.123,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票35",
@@ -927,7 +2163,37 @@
           "odds": 140.8995,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票36",
@@ -936,7 +2202,37 @@
           "odds": 152.082,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票37",
@@ -945,7 +2241,37 @@
           "odds": 257.12925,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票38",
@@ -954,7 +2280,37 @@
           "odds": 158.815125,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票39",
@@ -963,7 +2319,37 @@
           "odds": 171.4195,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票40",
@@ -972,7 +2358,37 @@
           "odds": 188.362125,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票41",
@@ -981,7 +2397,37 @@
           "odds": 116.3413125,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票42",
@@ -990,7 +2436,37 @@
           "odds": 125.57475,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票43",
@@ -999,7 +2475,37 @@
           "odds": 215.271,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票44",
@@ -1008,7 +2514,37 @@
           "odds": 132.9615,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票45",
@@ -1017,7 +2553,37 @@
           "odds": 143.514,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票46",
@@ -1026,7 +2592,37 @@
           "odds": 376.0995,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票47",
@@ -1035,7 +2631,37 @@
           "odds": 232.29675,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票48",
@@ -1044,7 +2670,37 @@
           "odds": 250.733,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票49",
@@ -1053,7 +2709,37 @@
           "odds": 275.51475,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票50",
@@ -1062,7 +2748,37 @@
           "odds": 170.170875,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票51",
@@ -1071,7 +2787,37 @@
           "odds": 183.6765,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票52",
@@ -1080,7 +2826,37 @@
           "odds": 314.874,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票53",
@@ -1089,7 +2865,37 @@
           "odds": 194.481,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票54",
@@ -1098,7 +2904,37 @@
           "odds": 209.916,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.5
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票55",
@@ -1107,7 +2943,37 @@
           "odds": 412.61295,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票56",
@@ -1116,7 +2982,37 @@
           "odds": 254.849175,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票57",
@@ -1125,7 +3021,37 @@
           "odds": 275.0753,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票58",
@@ -1134,7 +3060,37 @@
           "odds": 302.262975,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票59",
@@ -1143,7 +3099,37 @@
           "odds": 186.6918375,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票60",
@@ -1152,7 +3138,37 @@
           "odds": 201.50865,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票61",
@@ -1161,7 +3177,37 @@
           "odds": 345.4434,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票62",
@@ -1170,7 +3216,37 @@
           "odds": 213.3621,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票63",
@@ -1179,7 +3255,37 @@
           "odds": 230.2956,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.55
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票64",
@@ -1188,7 +3294,37 @@
           "odds": 389.36715,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票65",
@@ -1197,7 +3333,37 @@
           "odds": 240.491475,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票66",
@@ -1206,7 +3372,37 @@
           "odds": 259.5781,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票67",
@@ -1215,7 +3411,37 @@
           "odds": 285.234075,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票68",
@@ -1224,7 +3450,37 @@
           "odds": 176.1739875,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票69",
@@ -1233,7 +3489,37 @@
           "odds": 190.15605,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票70",
@@ -1242,7 +3528,37 @@
           "odds": 325.9818,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票71",
@@ -1251,7 +3567,37 @@
           "odds": 201.3417,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票72",
@@ -1260,7 +3606,37 @@
           "odds": 217.3212,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票73",
@@ -1269,7 +3645,37 @@
           "odds": 569.5221,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票74",
@@ -1278,7 +3684,37 @@
           "odds": 351.76365,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票75",
@@ -1287,7 +3723,37 @@
           "odds": 379.6814,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票76",
@@ -1296,7 +3762,37 @@
           "odds": 417.20805,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票77",
@@ -1305,7 +3801,37 @@
           "odds": 257.687325,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票78",
@@ -1314,7 +3840,37 @@
           "odds": 278.1387,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         },
         {
           "name": "子票79",
@@ -1323,7 +3879,37 @@
           "odds": 476.8092,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s1",
+              "label": "1",
+              "odds": 5.1
+            }
+          ]
         },
         {
           "name": "子票80",
@@ -1332,7 +3918,37 @@
           "odds": 294.4998,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ]
         },
         {
           "name": "子票81",
@@ -1341,17 +3957,47 @@
           "odds": 317.8728,
           "settled": true,
           "hit": false,
-          "returned": 0
+          "returned": 0,
+          "selections": [
+            {
+              "number": "周五007",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 5.3
+            },
+            {
+              "number": "周五008",
+              "market": "TTG",
+              "key": "s4",
+              "label": "4",
+              "odds": 4.9
+            },
+            {
+              "number": "周五011",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.6
+            },
+            {
+              "number": "周五012",
+              "market": "TTG",
+              "key": "s3",
+              "label": "3",
+              "odds": 3.4
+            }
+          ]
         }
       ],
       "detail": "投入162元，返还0.00元，净额-162.00元。"
     }
   ],
   "ticketTotals": {
-    "cost": 178,
+    "cost": 184,
     "returned": 11.53,
-    "net": -166.47,
-    "pendingCost": 6,
+    "net": -172.47,
+    "pendingCost": 0,
     "note": "仅按原票每注2元模拟结算，不代表用户实际投注。"
   },
   "combinations": [
@@ -1385,11 +4031,11 @@
     {
       "name": "半全场 · 两张平胜单关＋2串1",
       "category": "half_full",
-      "result": "待核（含半全场）",
+      "result": "错",
       "exampleStake": 6,
-      "exampleReturn": null,
-      "exampleNet": null,
-      "detail": "全场结果已核实，半全场腿等待第二来源后最终结算。"
+      "exampleReturn": 0,
+      "exampleNet": -6,
+      "detail": "投入6元，返还0.00元，净额-6.00元。"
     },
     {
       "name": "原结构梦想串 · 5场混合单选",
@@ -1426,5 +4072,6 @@
       "name": "Brisbane Roar official match report",
       "url": "https://brisbaneroar.com.au/news/roar-secure-three-points-over-perth-glory-at-suncorp-stadium/"
     }
-  ]
+  ],
+  "finalPublishedAt": "2026-10-24T00:18:51.023Z"
 }
