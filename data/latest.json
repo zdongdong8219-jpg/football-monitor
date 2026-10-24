@@ -1,16 +1,16 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T07:30:33.053Z",
-  "generatedAt": "2026-10-24T07:30:33.053Z",
+  "publishedAt": "2026-10-24T08:48:35.548Z",
+  "generatedAt": "2026-10-24T08:48:35.548Z",
   "status": "final-reviewed-one-core",
-  "edition": "2026-10-24全量四项扫盘＋分项星级更正版",
+  "edition": "2026-10-24晚场2.0进取追加更正版",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": true,
   "completed": true,
-  "mobileVerified": true,
-  "dataAsOf": "2026-10-24T02:52:07.73Z",
-  "summary": "同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。 扫盘30场现均给出明确方向；低信心方向不自动进入串子。 扫盘星级已收紧：仅12场相对推荐方向显示星，其余方向不加星。 30场均已补齐方向、3个进球数、2个半全场和3个比分；各项目独立标星。",
+  "mobileVerified": false,
+  "dataAsOf": "2026-10-24T08:44:37.000Z",
+  "summary": "追加晚场2.0进取版：周六025主+1让胜 × 周六029负，按16:44官方盘整套返还约2.17倍。该票由用户明确要求在已披露反证后追加，原有早场、中场2.0及晚场3.0原票全部保持不变。 同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。 扫盘30场现均给出明确方向；低信心方向不自动进入串子。 扫盘星级已收紧：仅12场相对推荐方向显示星，其余方向不加星。 30场均已补齐方向、3个进球数、2个半全场和3个比分；各项目独立标星。",
   "recommendations": [
     {
       "id": "2026-10-24-early-speculative-003-004",
@@ -257,6 +257,60 @@
         }
       ],
       "risk": "026必须净胜2球以上；只赢1球即让平不中。020对手换帅后反弹，存在被拖平风险。"
+    },
+    {
+      "id": "2026-10-24-late-20-025-029",
+      "name": "晚场2.0版 · 进取追加更正版",
+      "category": "two",
+      "trackingTier": "2.0版",
+      "sessionLabel": "晚场",
+      "tier": "主推进取",
+      "passType": "2串1",
+      "passSizes": [
+        2
+      ],
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周六025[主+1让胜] × 周六029[负]",
+      "combinationCount": 1,
+      "betCount": 1,
+      "unitStake": 2,
+      "multiplier": 1,
+      "totalCost": 2,
+      "oddsText": "整套返还 2.17倍",
+      "structureText": "单选×单选，一张2串1",
+      "effectiveReturnText": "两腿均中返还约2.17倍；任一腿不中整票无返还",
+      "coverageText": "025只覆盖巴伦西亚胜或平；比利亚雷亚尔客胜即不中。029必须波尔图客胜。",
+      "legs": [
+        {
+          "number": "周六025",
+          "market": "让球胜平负(+1)",
+          "selection": "让胜",
+          "odds": 1.71,
+          "stars": 1,
+          "selectionReason": "比利亚雷亚尔周中高消耗且领先防守不稳；巴伦西亚主场方向覆盖胜、平，作为本票的容错腿。"
+        },
+        {
+          "number": "周六029",
+          "market": "胜平负",
+          "selection": "负",
+          "odds": 1.27,
+          "stars": 1,
+          "selectionReason": "波尔图联赛八连胜并击败本菲卡，整体攻防上限仍占优；短休和连续失球使其只按进取腿发布。"
+        }
+      ],
+      "subTickets": [
+        {
+          "name": "晚场2.0追加子票",
+          "selectionText": "周六025主+1让胜 × 周六029负",
+          "stake": 2,
+          "odds": 2.17,
+          "returnText": "约4.34元"
+        }
+      ],
+      "risk": "本票是用户明确要求追加的进取2.0，不等同原稳健核心。025若比利亚雷亚尔客胜即不中；029存在欧战后短休、连续失球及锋线分钟管理风险。",
+      "oddsAsOf": "2026-10-24T08:44:37.000Z",
+      "lockedAt": "2026-10-24T08:48:35.548Z"
     },
     {
       "id": "2026-10-24-late-bet-006-023-029",
@@ -12910,13 +12964,13 @@
       "deadline": "2026-10-24T14:00:00+08:00",
       "publishedAt": "2026-10-24T02:53:36.659Z",
       "locked": true,
-      "status": "no-additional-qualified-core",
+      "status": "user-directed-late-20-added",
       "recommendationComplete": false,
       "archiveVersion": "2026-10-24-C-20261024T025336659Z"
     }
   ],
   "coreStatus": {
-    "2.0": "保留中场016胜×009胜，整套1.72倍，双单选",
+    "2.0": "保留原2.0票；追加晚场进取2.0：025主+1让胜×029负，约2.17倍",
     "3.0": "全天未形成第二套合格且不共场组合，不出"
   },
   "sources": [
@@ -12956,12 +13010,14 @@
   ],
   "lockedDate": "2026-10-24",
   "researchComplete": true,
-  "deliveryStatus": "late-expanded-final-publishing",
+  "deliveryStatus": "late-20-correction-publishing",
   "pairingAudit": {
     "rankedBeforePairing": true,
     "approved": [
       "016 HAD胜",
-      "009 HAD胜"
+      "009 HAD胜",
+      "025 HHAD主+1让胜（用户指令进取追加）",
+      "029 HAD负（用户指令进取追加）"
     ],
     "coreOverlap": 0,
     "insuredLegsAcrossBothTiers": 0,
@@ -12988,7 +13044,8 @@
         ],
         "reason": "切尔西新门将与历史防守、波尔图连续丢球/短休，不能组合成稳胆"
       }
-    ]
+    ],
+    "userDirectedCorrection": "025×029保留赛前反证并按进取2.0发布，不回写为低波动稳胆。"
   },
   "optionalStatus": {
     "precise": "未出",
@@ -12996,22 +13053,12 @@
     "dream": "未出",
     "reason": "按本轮要求先完成核心两档，未完成3.0，不增加博单风险"
   },
-  "correctionReason": "用户要求扫盘逐场完整展示方向、三个总进球、两个半全场和三个比分，并允许各项目独立标星；既有串子原票不变。",
+  "correctionReason": "用户在已知晚场候选反证和非稳胆属性后，明确要求追加最有把握的晚场2.0；新增025主+1让胜×029负进取票，既有原票不变。",
   "correctionOf": {
     "date": "2026-10-24",
-    "edition": "2026-10-24全场次方向＋精选星级更正版",
-    "publishedAt": "2026-10-24T07:19:01.742Z"
+    "edition": "2026-10-24全量四项扫盘＋分项星级更正版",
+    "publishedAt": "2026-10-24T07:30:33.053Z"
   },
-  "mobileVerifiedAt": "2026-10-24T07:33:53.891Z",
-  "mobileVerification": {
-    "date": "2026-10-24",
-    "recommendationCount": 9,
-    "singleVisible": true,
-    "copyPoster": true,
-    "copyTracking": true,
-    "copyReview": true,
-    "copyReviewTracking": true,
-    "viewportWidth": 430,
-    "horizontalOverflow": false
-  }
+  "mobileVerifiedAt": null,
+  "mobileVerification": null
 }
