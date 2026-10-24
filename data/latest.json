@@ -1,16 +1,16 @@
 {
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T08:48:35.548Z",
-  "generatedAt": "2026-10-24T08:48:35.548Z",
+  "publishedAt": "2026-10-24T08:56:29.611Z",
+  "generatedAt": "2026-10-24T08:56:29.611Z",
   "status": "final-reviewed-one-core",
-  "edition": "2026-10-24晚场2.0进取追加更正版",
+  "edition": "2026-10-24中晚场3.0进取追加更正版",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": true,
   "completed": true,
-  "mobileVerified": true,
+  "mobileVerified": false,
   "dataAsOf": "2026-10-24T08:44:37.000Z",
-  "summary": "追加晚场2.0进取版：周六025主+1让胜 × 周六029负，按16:44官方盘整套返还约2.17倍。该票由用户明确要求在已披露反证后追加，原有早场、中场2.0及晚场3.0原票全部保持不变。 同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。 扫盘30场现均给出明确方向；低信心方向不自动进入串子。 扫盘星级已收紧：仅12场相对推荐方向显示星，其余方向不加星。 30场均已补齐方向、3个进球数、2个半全场和3个比分；各项目独立标星。",
+  "summary": "追加中晚场3.0进取版：周六006负 × 周六024主-1让胜，按最新官方盘整套返还约2.87倍；已要求同步进入今日及后续复盘跟踪卡。 追加晚场2.0进取版：周六025主+1让胜 × 周六029负，按16:44官方盘整套返还约2.17倍。该票由用户明确要求在已披露反证后追加，原有早场、中场2.0及晚场3.0原票全部保持不变。 同图分段最终版：保留早场原票；中晚场补齐2.0、3.0与博单。2.0为016胜×009胜；3.0为020胜×026主-1让胜；博单为006负×023胜×029负。 另追加全进球数梦想串：006、016、024、029四场，每场覆盖3个进球数，共81注。 观察博单另补双选2串1、半全场2串1和五场混合梦想单；均与2.0/3.0分开复盘。 新增官方HAD单关：周六023胜@1.62；与核心2.0/3.0分开复盘。 扫盘30场现均给出明确方向；低信心方向不自动进入串子。 扫盘星级已收紧：仅12场相对推荐方向显示星，其余方向不加星。 30场均已补齐方向、3个进球数、2个半全场和3个比分；各项目独立标星。",
   "recommendations": [
     {
       "id": "2026-10-24-early-speculative-003-004",
@@ -257,6 +257,60 @@
         }
       ],
       "risk": "026必须净胜2球以上；只赢1球即让平不中。020对手换帅后反弹，存在被拖平风险。"
+    },
+    {
+      "id": "2026-10-24-extra-30-006-024",
+      "name": "中晚场3.0版 · 进取追加更正版",
+      "category": "two",
+      "trackingTier": "3.0版",
+      "sessionLabel": "中晚场",
+      "tier": "主推进取",
+      "passType": "2串1",
+      "passSizes": [
+        2
+      ],
+      "stars": 1,
+      "stronglyRecommended": false,
+      "selectionText": "周六006[负] × 周六024[主-1让胜]",
+      "combinationCount": 1,
+      "betCount": 1,
+      "unitStake": 2,
+      "multiplier": 1,
+      "totalCost": 2,
+      "oddsText": "整套返还 2.87倍",
+      "structureText": "单选×单选，一张2串1",
+      "effectiveReturnText": "两腿均中返还约2.87倍；任一腿不中整票无返还",
+      "coverageText": "006必须曼城客胜；024必须多特净胜2球或以上。",
+      "legs": [
+        {
+          "number": "周六006",
+          "market": "胜平负",
+          "selection": "负",
+          "odds": 1.44,
+          "stars": 1,
+          "selectionReason": "曼城联赛连胜且Haaland可用，整体进攻上限占优；维拉近期强势与曼城防守失球是主要反证。"
+        },
+        {
+          "number": "周六024",
+          "market": "让球胜平负(-1)",
+          "selection": "让胜",
+          "odds": 1.99,
+          "stars": 1,
+          "selectionReason": "多特主场和Guirassy支点对法兰克福近期防线失衡具备净胜空间；这是本票的进取腿。"
+        }
+      ],
+      "subTickets": [
+        {
+          "name": "中晚场3.0追加子票",
+          "selectionText": "周六006负 × 周六024主-1让胜",
+          "stake": 2,
+          "odds": 2.87,
+          "returnText": "约5.74元"
+        }
+      ],
+      "risk": "本票为用户明确要求追加的进取3.0。维拉近期状态和对曼城交锋构成客胜风险；多特若只赢1球则让平，024腿不中。",
+      "oddsAsOf": "2026-10-24T08:44:37.000Z",
+      "lockedAt": "2026-10-24T08:56:29.611Z"
     },
     {
       "id": "2026-10-24-late-20-025-029",
@@ -12971,7 +13025,7 @@
   ],
   "coreStatus": {
     "2.0": "保留原2.0票；追加晚场进取2.0：025主+1让胜×029负，约2.17倍",
-    "3.0": "全天未形成第二套合格且不共场组合，不出"
+    "3.0": "保留原晚场3.0；追加中晚场进取3.0：006负×024主-1让胜，约2.87倍"
   },
   "sources": [
     {
@@ -13010,14 +13064,16 @@
   ],
   "lockedDate": "2026-10-24",
   "researchComplete": true,
-  "deliveryStatus": "late-20-correction-publishing",
+  "deliveryStatus": "extra-30-correction-publishing",
   "pairingAudit": {
     "rankedBeforePairing": true,
     "approved": [
       "016 HAD胜",
       "009 HAD胜",
       "025 HHAD主+1让胜（用户指令进取追加）",
-      "029 HAD负（用户指令进取追加）"
+      "029 HAD负（用户指令进取追加）",
+      "006 HAD负（用户指令3.0进取追加）",
+      "024 HHAD主-1让胜（用户指令3.0进取追加）"
     ],
     "coreOverlap": 0,
     "insuredLegsAcrossBothTiers": 0,
@@ -13045,7 +13101,8 @@
         "reason": "切尔西新门将与历史防守、波尔图连续丢球/短休，不能组合成稳胆"
       }
     ],
-    "userDirectedCorrection": "025×029保留赛前反证并按进取2.0发布，不回写为低波动稳胆。"
+    "userDirectedCorrection": "025×029保留赛前反证并按进取2.0发布，不回写为低波动稳胆。",
+    "userDirectedExtra30": "006×024按进取3.0发布，不与现有2.0或原3.0共场，并纳入跟踪卡。"
   },
   "optionalStatus": {
     "precise": "未出",
@@ -13053,22 +13110,12 @@
     "dream": "未出",
     "reason": "按本轮要求先完成核心两档，未完成3.0，不增加博单风险"
   },
-  "correctionReason": "用户在已知晚场候选反证和非稳胆属性后，明确要求追加最有把握的晚场2.0；新增025主+1让胜×029负进取票，既有原票不变。",
+  "correctionReason": "用户明确要求从中场和晚场再追加一张3.0并进入跟踪卡；新增006负×024主-1让胜进取票，既有全部原票不变。",
   "correctionOf": {
     "date": "2026-10-24",
-    "edition": "2026-10-24全量四项扫盘＋分项星级更正版",
-    "publishedAt": "2026-10-24T07:30:33.053Z"
+    "edition": "2026-10-24晚场2.0进取追加更正版",
+    "publishedAt": "2026-10-24T08:48:35.548Z"
   },
-  "mobileVerifiedAt": "2026-10-24T08:51:12.265Z",
-  "mobileVerification": {
-    "date": "2026-10-24",
-    "recommendationCount": 10,
-    "singleVisible": true,
-    "copyPoster": true,
-    "copyTracking": true,
-    "copyReview": true,
-    "copyReviewTracking": true,
-    "viewportWidth": 430,
-    "horizontalOverflow": false
-  }
+  "mobileVerifiedAt": null,
+  "mobileVerification": null
 }
