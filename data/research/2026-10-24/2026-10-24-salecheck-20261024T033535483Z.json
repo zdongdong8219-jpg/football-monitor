@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-24",
+  "version": "2026-10-24-salecheck-20261024T033535483Z",
+  "publishedAt": "2026-10-24T03:35:35.483Z",
+  "checkedAt": "2026-10-24T03:32:23.773Z",
+  "kind": "sale-status-addendum",
+  "originalEdition": "2026-10-24-C-20261024T025336659Z",
+  "originalPublishedAt": "2026-10-24T02:53:36.659Z",
+  "recommendationsModified": false,
+  "officialCount": 30,
+  "addedOfficialMatches": [
+    {
+      "number": "周六007",
+      "kickoff": "2026-10-24T19:30:00",
+      "status": "Selling",
+      "markets": [
+        {
+          "market": "HHAD",
+          "status": "Selling",
+          "allUp": true,
+          "single": false,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "HAFU",
+          "status": "Selling",
+          "allUp": true,
+          "single": true,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "CRS",
+          "status": "Selling",
+          "allUp": true,
+          "single": true,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "TTG",
+          "status": "Selling",
+          "allUp": true,
+          "single": true,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "HAD",
+          "status": "Selling",
+          "allUp": true,
+          "single": false,
+          "closeDate": null,
+          "closeTime": null
+        }
+      ]
+    },
+    {
+      "number": "周六018",
+      "kickoff": "2026-10-24T22:00:00",
+      "status": "Selling",
+      "markets": [
+        {
+          "market": "HHAD",
+          "status": "Selling",
+          "allUp": true,
+          "single": false,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "HAFU",
+          "status": "Selling",
+          "allUp": true,
+          "single": true,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "CRS",
+          "status": "Selling",
+          "allUp": true,
+          "single": true,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "TTG",
+          "status": "Selling",
+          "allUp": true,
+          "single": true,
+          "closeDate": null,
+          "closeTime": null
+        }
+      ]
+    },
+    {
+      "number": "周六030",
+      "kickoff": "2026-10-25T08:00:00",
+      "status": "Selling",
+      "markets": [
+        {
+          "market": "HHAD",
+          "status": "Selling",
+          "allUp": true,
+          "single": false,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "HAFU",
+          "status": "Selling",
+          "allUp": true,
+          "single": true,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "CRS",
+          "status": "Selling",
+          "allUp": true,
+          "single": true,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "TTG",
+          "status": "Selling",
+          "allUp": true,
+          "single": true,
+          "closeDate": null,
+          "closeTime": null
+        },
+        {
+          "market": "HAD",
+          "status": "Selling",
+          "allUp": true,
+          "single": false,
+          "closeDate": null,
+          "closeTime": null
+        }
+      ]
+    }
+  ],
+  "early": {
+    "deadline": "2026-10-24T12:00:00+08:00",
+    "recommendations": "无合格核心，早场不出",
+    "originalVersion": "2026-10-24-A-20261024T023922719Z"
+  },
+  "fullDay": {
+    "scope": "北京时间18:00及以后",
+    "deadline": "2026-10-24T14:00:00+08:00",
+    "core20": "保留中场016胜×009胜，整套1.72倍，双单选",
+    "core30": "全天未形成第二套合格且不共场组合，不出"
+  },
+  "assessment": {
+    "周六007": "可售资格现已确认；原已核阵容仍有回归球员分钟管理、主场防守与客队组织改善的双向风险，未形成高信心单选或有充分依据的新增保险组合。",
+    "周六018": "HHAD/HAFU/CRS/TTG在售，HAD无赔率且无HAD可售池。当前缺可靠阵容、替代与对位证据，不准入；不能把市场开放当作质量改善。",
+    "周六030": "当前官方列入10月24日销售日。伤停、轮换及对手强度证据仍未核完整，不准入。"
+  },
+  "limitations": [
+    "官方poolCloseDate/poolCloseTime为空，未核得独立于开赛时间的实际停售时点。",
+    "原图与原报告的27场表述是10:53批次的历史快照，当前资格以本次补充核验为准。",
+    "没有生成新票；不将缺证场次包装为完成研究。"
+  ],
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "mainRedirectVerified": true,
+    "imagesLoaded": true,
+    "scrollVerified": true,
+    "copyUIResponded": true,
+    "trackingClipboardPNGVerified": true,
+    "physicalPhoneTested": false
+  },
+  "officialSource": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu"
+}
