@@ -8,7 +8,7 @@
   "rulesAddendum": "2026-10-24分段/14:00/两档合计最多一腿保险",
   "finalLocked": true,
   "completed": true,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "dataAsOf": "2026-10-24T02:52:07.73Z",
   "summary": "同图分段最终版：001—005保留早场原方向和原串；006—030追加中晚场赛前审核方向。中晚场2.0为016胜×009胜，整套1.72倍；3.0及博单不出。",
   "recommendations": [
@@ -70,7 +70,7 @@
         }
       ],
       "risk": "早场不可变原票。003若神户恰赢1球则该腿不中；004若鹿岛净胜2球以上则两项均不中。",
-      "lockedAt": "2026-10-24T05:10:39.120Z"
+      "lockedAt": "2026-10-24T05:10:39.12Z"
     },
     {
       "id": "core20-B-single",
@@ -9583,5 +9583,16 @@
     "dream": "未出",
     "reason": "按本轮要求先完成核心两档，未完成3.0，不增加博单风险"
   },
-  "correctionReason": "用户要求在保留001–005原票的基础上补齐006–030；不改已开赛场次。"
+  "correctionReason": "用户要求在保留001–005原票的基础上补齐006–030；不改已开赛场次。",
+  "mobileVerifiedAt": "2026-10-24T06:26:28.7097471Z",
+  "mobileVerification": {
+    "poster": "1244x6466",
+    "pageWidth": 430,
+    "date": "2026-10-24",
+    "recommendationCount": 2,
+    "viewportWidth": 430,
+    "tracking": "1244x1557",
+    "scanCount": 30,
+    "copyButtons": true
+  }
 }
