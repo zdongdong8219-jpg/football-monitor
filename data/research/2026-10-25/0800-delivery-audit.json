@@ -1,16 +1,53 @@
 {
   "date": "2026-10-25",
-  "checkedAt": "2026-10-25T00:11:43.698Z",
-  "status": "partial-scan-only",
-  "finalLocked": false,
+  "checkedAt": "2026-10-25T00:14:35.621Z",
+  "publicationCommit": "8d2f7ecb3fb03ed00f2526c7de178765fb61c9af",
+  "deployment": "success",
+  "onlineDate": "2026-10-25",
+  "onlineBatch": "08:00早场研究初版",
+  "scanPublished": 4,
+  "allDayScheduleCount": 29,
+  "core20Count": 0,
+  "core30Count": 0,
+  "todayTrackingActualCount": 0,
+  "nextReviewExpectedCount": 0,
+  "trackingEmptyIsDelivery": false,
+  "viewport": {
+    "width": 430,
+    "documentScrollWidth": 415,
+    "horizontalOverflow": false
+  },
+  "images": [
+    {
+      "alt": "今日推荐＋扫盘",
+      "width": 1244,
+      "height": 3806
+    },
+    {
+      "alt": "今日跟踪卡",
+      "width": 1244,
+      "height": 1557
+    }
+  ],
+  "copyTracking": {
+    "pngConfirmed": true,
+    "base64Length": 2300960
+  },
+  "copyPoster": {
+    "pngConfirmed": true,
+    "base64Length": 2859604
+  },
+  "visualDetailVerified": false,
+  "physicalPhoneVerified": false,
   "mobileVerified": false,
-  "snapshotCount": 10,
-  "coreTickets": [],
+  "finalLocked": false,
+  "status": "partial-published-delivery-blocked",
   "blockers": [
-    "暂无官方实际停售时间；不能将开赛时间等同停售。",
-    "官方列表接口被站点安全策略拦截，计算器可读但single字段与bettingSingle字段冲突。",
-    "预计阵容、完整伤停和对手序列仍有缺口；未给星，不进入核心。",
-    "当前仅早场4场，完整全日29场扫盘尚未交付。",
-    "手机核验仅在全部验收通过后标记，当前保持false。"
-  ]
+    "关键阵容、替代者及完整对手强度证据不足，未生成2.0或3.0。",
+    "官方计算器single=0而bettingSingle=1，单关资格未消除冲突；列表接口567访问拦截。",
+    "官方实际停售字段为空；11:00为开赛减60分钟交付目标，非已验证官方停售。",
+    "点击图片放大被Browser Use安全策略阻止；未绕过，未完成图片细节及真实手机验收。"
+  ],
+  "nextRun": "北京时间10:00先读门控字段；早场未交付继续补证，最迟11:00交付目标。13:00全日初版。",
+  "rawExtractionNote": "article-N.json的text受错误正则影响，不作为依据；使用保存的article-N.html及article-N-clean.json。"
 }
