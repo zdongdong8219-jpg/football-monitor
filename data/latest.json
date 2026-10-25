@@ -1,9 +1,9 @@
 {
   "date": "2026-10-25",
-  "publishedAt": "2026-10-25T05:08:01.356Z",
-  "generatedAt": "2026-10-25T05:08:01.356Z",
+  "publishedAt": "2026-10-25T06:03:46.487Z",
+  "generatedAt": "2026-10-25T06:03:46.487Z",
   "status": "full-scan-provisional-core-undelivered",
-  "edition": "13:00全日研究初版（迟交·非正式出串）",
+  "edition": "14:00补充核验版（正式出串仍未交付）",
   "batchLabel": "A原版保留／B中场005—017／C晚场018—029",
   "rulesVersion": "2026-10-12",
   "rulesAddendum": "2026-10-25用户调度优先",
@@ -11,8 +11,8 @@
   "completed": false,
   "mobileVerified": false,
   "researchComplete": false,
-  "dataAsOf": "2026-10-25T04:57:02.394Z",
-  "summary": "29场编号已覆盖：早场原4行保留，中晚场25行追加四项低信心预测。部分场次仅盘面参考，不能视为独立攻防研究完成；没有合格2.0/3.0票，13:00正式初版未按时交付。已核实的伤停、短休和反向风险详见逐场分析。",
+  "dataAsOf": "2026-10-25T05:53:13.594Z",
+  "summary": "29场扫盘保留，早场原稿不改；补充020雷恩短休及双方攻防、025特温特两名中卫缺阵证据。2.0、3.0仍无合格票，14:00补交未完成；空跟踪卡不等于交付成功，手机实机未核验。",
   "recommendations": [],
   "scanTable": [
     {
@@ -1274,15 +1274,15 @@
       "awayRank": "1",
       "saleDate": "2026-10-25",
       "spf": {
-        "win": 1.68,
-        "draw": 3.65,
-        "lose": 3.85
+        "win": 1.64,
+        "draw": 3.71,
+        "lose": 4
       },
       "handicap": -1,
       "rqspf": {
-        "win": 3.2,
-        "draw": 3.45,
-        "lose": 1.9
+        "win": 3.1,
+        "draw": 3.4,
+        "lose": 1.95
       },
       "goals": "2/3/4",
       "halfFull": "胜胜/平胜",
@@ -2111,15 +2111,15 @@
       "awayRank": "4",
       "saleDate": "2026-10-25",
       "spf": {
-        "win": 2.68,
-        "draw": 3.9,
-        "lose": 2
+        "win": 2.8,
+        "draw": 3.93,
+        "lose": 1.93
       },
       "handicap": 1,
       "rqspf": {
-        "win": 1.61,
-        "draw": 4.13,
-        "lose": 3.75
+        "win": 1.66,
+        "draw": 4.05,
+        "lose": 3.57
       },
       "goals": "3/4/5",
       "halfFull": "平负/平平",
@@ -2333,9 +2333,9 @@
         "score": 0
       },
       "recommended": false,
-      "status": "低信心盘面参考·独立攻防未完成",
+      "status": "补充攻防证据·阵容及强度仍待核",
       "officialHandicap": "主队-1球",
-      "risk": "雷恩与斯特拉斯堡官网访问成功但可用本轮正文不足；阵地战、转换防守、欧战或轮换均未补齐，不能凭1.57主胜认定稳定。此行仅盘面参考。",
+      "risk": "雷恩官网前瞻：斯特拉斯堡七轮失15球，但七名不同球员进球，不能把防线失球多推成客队无反击。雷恩高强度跑动居前，周四客战尤文先失球后由Al-Tamari及Dia进球反超，最终2:2；创造与反扑有依据，守领先仍非稳定。",
       "qualification": [
         {
           "market": "HHAD",
@@ -2483,15 +2483,15 @@
       "awayRank": "2",
       "saleDate": "2026-10-25",
       "spf": {
-        "win": 6.65,
-        "draw": 5.8,
-        "lose": 1.24
+        "win": 6.5,
+        "draw": 5.7,
+        "lose": 1.25
       },
       "handicap": 2,
       "rqspf": {
-        "win": 1.85,
+        "win": 1.81,
         "draw": 4.4,
-        "lose": 2.77
+        "lose": 2.86
       },
       "goals": "3/4/5",
       "halfFull": "负负/平负",
@@ -2583,8 +2583,8 @@
       "handicap": 1,
       "rqspf": {
         "win": 2.75,
-        "draw": 3.4,
-        "lose": 2.12
+        "draw": 3.3,
+        "lose": 2.16
       },
       "goals": "1/2/3",
       "halfFull": "平负/负负",
@@ -2669,15 +2669,15 @@
       "awayRank": "13",
       "saleDate": "2026-10-25",
       "spf": {
-        "win": 1.43,
-        "draw": 4.35,
-        "lose": 5
+        "win": 1.4,
+        "draw": 4.38,
+        "lose": 5.35
       },
       "handicap": -1,
       "rqspf": {
-        "win": 2.39,
-        "draw": 3.5,
-        "lose": 2.35
+        "win": 2.27,
+        "draw": 3.47,
+        "lose": 2.5
       },
       "goals": "2/3/4",
       "halfFull": "平胜/平平",
@@ -2762,15 +2762,15 @@
       "awayRank": "5",
       "saleDate": "2026-10-25",
       "spf": {
-        "win": 2,
+        "win": 1.98,
         "draw": 3.65,
-        "lose": 2.81
+        "lose": 2.85
       },
       "handicap": -1,
       "rqspf": {
-        "win": 3.68,
-        "draw": 4.1,
-        "lose": 1.63
+        "win": 3.65,
+        "draw": 4.02,
+        "lose": 1.65
       },
       "goals": "2/3/4",
       "halfFull": "平胜/平平",
@@ -2798,9 +2798,9 @@
         "score": 0
       },
       "recommended": false,
-      "status": "低信心盘面参考·独立攻防未完成",
+      "status": "补充攻防证据·阵容及强度仍待核",
       "officialHandicap": "主队-1球",
-      "risk": "AZ与特温特页面可达但当前攻防正文未补齐；2.06降至2.00只是市场信息，不是机会质量证明。伤停替代、密赛和对手强度缺项，低信心参考不入串。",
+      "risk": "特温特主帅确认中卫Stav Lemkin与Max Bruns缺席，青训Jip Meilink周四刚完成首秀；中卫替代磨合可被AZ利用，但AZ具体进攻对位未补齐。特温特周四4:1胜Lincoln Red Imps，仍有攻击威胁，不因其后防缺人便认定主胜。",
       "qualification": [
         {
           "market": "HHAD",
@@ -2948,15 +2948,15 @@
       "awayRank": "3",
       "saleDate": "2026-10-25",
       "spf": {
-        "win": 1.48,
-        "draw": 5.35,
-        "lose": 3.75
+        "win": 1.53,
+        "draw": 5.22,
+        "lose": 3.52
       },
       "handicap": -1,
       "rqspf": {
-        "win": 2.26,
+        "win": 2.37,
         "draw": 4.2,
-        "lose": 2.23
+        "lose": 2.13
       },
       "goals": "3/4/5",
       "halfFull": "胜胜/平胜",
@@ -3862,6 +3862,76 @@
             "loseLose": 4.3
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 2.11,
+            "draw": 3.46,
+            "lose": 2.73
+          },
+          "rqspf": {
+            "win": 4.02,
+            "draw": 4.1,
+            "lose": 1.57
+          },
+          "goals": {
+            "0": 16,
+            "1": 6,
+            "2": 3.8,
+            "3": 3.55,
+            "4": 4.8,
+            "5": 7.5,
+            "6": 12.5,
+            "7+": 17
+          },
+          "halfFull": {
+            "winWin": 3.25,
+            "winDraw": 14,
+            "winLose": 28,
+            "drawWin": 5.7,
+            "drawDraw": 6.2,
+            "drawLose": 6.6,
+            "loseWin": 21,
+            "loseDraw": 14,
+            "loseLose": 4.3
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 2.11,
+            "draw": 3.46,
+            "lose": 2.73
+          },
+          "rqspf": {
+            "win": 4.02,
+            "draw": 4.1,
+            "lose": 1.57
+          },
+          "goals": {
+            "0": 16,
+            "1": 6,
+            "2": 3.8,
+            "3": 3.55,
+            "4": 4.8,
+            "5": 7.5,
+            "6": 12.5,
+            "7+": 17
+          },
+          "halfFull": {
+            "winWin": 3.25,
+            "winDraw": 14,
+            "winLose": 28,
+            "drawWin": 5.7,
+            "drawDraw": 6.2,
+            "drawLose": 6.6,
+            "loseWin": 21,
+            "loseDraw": 14,
+            "loseLose": 4.3
+          },
+          "score": null
         }
       ]
     },
@@ -4443,6 +4513,76 @@
             "loseLose": 12.5
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.22,
+            "draw": 5.4,
+            "lose": 8
+          },
+          "rqspf": {
+            "win": 1.73,
+            "draw": 3.95,
+            "lose": 3.35
+          },
+          "goals": {
+            "0": 26,
+            "1": 7.8,
+            "2": 4.5,
+            "3": 3.65,
+            "4": 4.3,
+            "5": 6,
+            "6": 9.5,
+            "7+": 11.5
+          },
+          "halfFull": {
+            "winWin": 1.75,
+            "winDraw": 18,
+            "winLose": 60,
+            "drawWin": 3.95,
+            "drawDraw": 9,
+            "drawLose": 17,
+            "loseWin": 19,
+            "loseDraw": 18,
+            "loseLose": 12.5
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.22,
+            "draw": 5.4,
+            "lose": 8
+          },
+          "rqspf": {
+            "win": 1.73,
+            "draw": 3.95,
+            "lose": 3.35
+          },
+          "goals": {
+            "0": 26,
+            "1": 7.8,
+            "2": 4.5,
+            "3": 3.65,
+            "4": 4.3,
+            "5": 6,
+            "6": 9.5,
+            "7+": 11.5
+          },
+          "halfFull": {
+            "winWin": 1.75,
+            "winDraw": 18,
+            "winLose": 60,
+            "drawWin": 3.95,
+            "drawDraw": 9,
+            "drawLose": 17,
+            "loseWin": 19,
+            "loseDraw": 18,
+            "loseLose": 12.5
+          },
+          "score": null
         }
       ]
     },
@@ -4919,6 +5059,76 @@
         },
         {
           "checkedAt": "2026-10-25T04:57:02.394Z",
+          "spf": {
+            "win": 1.43,
+            "draw": 3.6,
+            "lose": 6.55
+          },
+          "rqspf": {
+            "win": 2.71,
+            "draw": 2.95,
+            "lose": 2.37
+          },
+          "goals": {
+            "0": 7.75,
+            "1": 3.55,
+            "2": 3.05,
+            "3": 3.95,
+            "4": 7.1,
+            "5": 15,
+            "6": 33,
+            "7+": 40
+          },
+          "halfFull": {
+            "winWin": 2.23,
+            "winDraw": 20,
+            "winLose": 65,
+            "drawWin": 3.6,
+            "drawDraw": 4.5,
+            "drawLose": 13.5,
+            "loseWin": 30,
+            "loseDraw": 20,
+            "loseLose": 12
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.43,
+            "draw": 3.6,
+            "lose": 6.55
+          },
+          "rqspf": {
+            "win": 2.71,
+            "draw": 2.95,
+            "lose": 2.37
+          },
+          "goals": {
+            "0": 7.75,
+            "1": 3.55,
+            "2": 3.05,
+            "3": 3.95,
+            "4": 7.1,
+            "5": 15,
+            "6": 33,
+            "7+": 40
+          },
+          "halfFull": {
+            "winWin": 2.23,
+            "winDraw": 20,
+            "winLose": 65,
+            "drawWin": 3.6,
+            "drawDraw": 4.5,
+            "drawLose": 13.5,
+            "loseWin": 30,
+            "loseDraw": 20,
+            "loseLose": 12
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
           "spf": {
             "win": 1.43,
             "draw": 3.6,
@@ -5462,12 +5672,82 @@
             "loseLose": 4.05
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 2.38,
+            "draw": 3.28,
+            "lose": 2.47
+          },
+          "rqspf": {
+            "win": 5.3,
+            "draw": 4.15,
+            "lose": 1.43
+          },
+          "goals": {
+            "0": 13.5,
+            "1": 5.35,
+            "2": 3.7,
+            "3": 3.45,
+            "4": 4.85,
+            "5": 8.5,
+            "6": 15.5,
+            "7+": 22
+          },
+          "halfFull": {
+            "winWin": 3.9,
+            "winDraw": 14,
+            "winLose": 25,
+            "drawWin": 5.55,
+            "drawDraw": 5.35,
+            "drawLose": 6,
+            "loseWin": 23,
+            "loseDraw": 14,
+            "loseLose": 4.2
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 2.38,
+            "draw": 3.28,
+            "lose": 2.47
+          },
+          "rqspf": {
+            "win": 5.3,
+            "draw": 4.15,
+            "lose": 1.43
+          },
+          "goals": {
+            "0": 13.5,
+            "1": 5.35,
+            "2": 3.7,
+            "3": 3.45,
+            "4": 4.85,
+            "5": 8.5,
+            "6": 15.5,
+            "7+": 22
+          },
+          "halfFull": {
+            "winWin": 3.9,
+            "winDraw": 14,
+            "winLose": 25,
+            "drawWin": 5.55,
+            "drawDraw": 5.35,
+            "drawLose": 6,
+            "loseWin": 23,
+            "loseDraw": 14,
+            "loseLose": 4.2
+          },
+          "score": null
         }
       ]
     },
     {
       "number": "周日009",
-      "text": "HJK官方：Borchers近三场8球，Cicale突破与配合改善；但4:0格尼斯坦不能原样外推争冠对手。KuPS周四波黑客场0:2后直接赴赫尔辛基，Magassa停赛、替代中卫待核；HJK无新增伤员、Kallinen归队。双方争冠只差一分，KuPS此前负Inter及奥卢后2:0瓦萨，不以积分相同认定同实力。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":1.68,\"draw\":3.65,\"lose\":3.85}。输钱路径：主队先失球后破低位能力不足，平局或失利使单胜失败。；攻击终结下降或替代防线失误；当前人员证据不足以排除。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
+      "text": "HJK官方：Borchers近三场8球，Cicale突破与配合改善；但4:0格尼斯坦不能原样外推争冠对手。KuPS周四波黑客场0:2后直接赴赫尔辛基，Magassa停赛、替代中卫待核；HJK无新增伤员、Kallinen归队。双方争冠只差一分，KuPS此前负Inter及奥卢后2:0瓦萨，不以积分相同认定同实力。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":1.64,\"draw\":3.71,\"lose\":4}。输钱路径：主队先失球后破低位能力不足，平局或失利使单胜失败。；攻击终结下降或替代防线失误；当前人员证据不足以排除。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
       "attackDefense": "HJK官方：Borchers近三场8球，Cicale突破与配合改善；但4:0格尼斯坦不能原样外推争冠对手。KuPS周四波黑客场0:2后直接赴赫尔辛基，Magassa停赛、替代中卫待核；HJK无新增伤员、Kallinen归队。双方争冠只差一分，KuPS此前负Inter及奥卢后2:0瓦萨，不以积分相同认定同实力。",
       "scheduleStrength": "定性校正见正文；完整序列仍待核",
       "availability": "以正文确定缺席/疑问为准，其余未知",
@@ -5971,6 +6251,76 @@
             "loseWin": 22,
             "loseDraw": 14,
             "loseLose": 6.25
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.68,
+            "draw": 3.65,
+            "lose": 3.85
+          },
+          "rqspf": {
+            "win": 3.2,
+            "draw": 3.45,
+            "lose": 1.9
+          },
+          "goals": {
+            "0": 15,
+            "1": 5.5,
+            "2": 3.5,
+            "3": 3.4,
+            "4": 4.8,
+            "5": 8.4,
+            "6": 17.5,
+            "7+": 24
+          },
+          "halfFull": {
+            "winWin": 2.7,
+            "winDraw": 14,
+            "winLose": 34,
+            "drawWin": 4.5,
+            "drawDraw": 6,
+            "drawLose": 8.5,
+            "loseWin": 22,
+            "loseDraw": 14,
+            "loseLose": 6.25
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.64,
+            "draw": 3.71,
+            "lose": 4
+          },
+          "rqspf": {
+            "win": 3.1,
+            "draw": 3.4,
+            "lose": 1.95
+          },
+          "goals": {
+            "0": 15,
+            "1": 5.75,
+            "2": 3.55,
+            "3": 3.4,
+            "4": 4.8,
+            "5": 8.25,
+            "6": 15.5,
+            "7+": 23
+          },
+          "halfFull": {
+            "winWin": 2.6,
+            "winDraw": 14,
+            "winLose": 34,
+            "drawWin": 4.4,
+            "drawDraw": 6,
+            "drawLose": 9.05,
+            "loseWin": 22,
+            "loseDraw": 14,
+            "loseLose": 6.75
           },
           "score": null
         }
@@ -6555,6 +6905,76 @@
             "loseLose": 5
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.82,
+            "draw": 4.05,
+            "lose": 3
+          },
+          "rqspf": {
+            "win": 3.13,
+            "draw": 4.2,
+            "lose": 1.75
+          },
+          "goals": {
+            "0": 38,
+            "1": 11,
+            "2": 5.6,
+            "3": 3.95,
+            "4": 4.2,
+            "5": 5,
+            "6": 7.5,
+            "7+": 7.5
+          },
+          "halfFull": {
+            "winWin": 2.66,
+            "winDraw": 13.5,
+            "winLose": 24,
+            "drawWin": 5.5,
+            "drawDraw": 8,
+            "drawLose": 8.1,
+            "loseWin": 17,
+            "loseDraw": 13.5,
+            "loseLose": 5
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.82,
+            "draw": 4.05,
+            "lose": 3
+          },
+          "rqspf": {
+            "win": 3.13,
+            "draw": 4.2,
+            "lose": 1.75
+          },
+          "goals": {
+            "0": 38,
+            "1": 11,
+            "2": 5.6,
+            "3": 3.95,
+            "4": 4.2,
+            "5": 5,
+            "6": 7.5,
+            "7+": 7.5
+          },
+          "halfFull": {
+            "winWin": 2.66,
+            "winDraw": 13.5,
+            "winLose": 24,
+            "drawWin": 5.5,
+            "drawDraw": 8,
+            "drawLose": 8.1,
+            "loseWin": 17,
+            "loseDraw": 13.5,
+            "loseLose": 5
+          },
+          "score": null
         }
       ]
     },
@@ -7031,6 +7451,76 @@
         },
         {
           "checkedAt": "2026-10-25T04:57:02.394Z",
+          "spf": {
+            "win": 1.35,
+            "draw": 4.65,
+            "lose": 5.75
+          },
+          "rqspf": {
+            "win": 2.04,
+            "draw": 3.74,
+            "lose": 2.69
+          },
+          "goals": {
+            "0": 26,
+            "1": 7.75,
+            "2": 4.7,
+            "3": 3.5,
+            "4": 4.2,
+            "5": 6,
+            "6": 10,
+            "7+": 12
+          },
+          "halfFull": {
+            "winWin": 1.95,
+            "winDraw": 17,
+            "winLose": 36,
+            "drawWin": 4.35,
+            "drawDraw": 8,
+            "drawLose": 13,
+            "loseWin": 19,
+            "loseDraw": 17,
+            "loseLose": 9
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.35,
+            "draw": 4.65,
+            "lose": 5.75
+          },
+          "rqspf": {
+            "win": 2.04,
+            "draw": 3.74,
+            "lose": 2.69
+          },
+          "goals": {
+            "0": 26,
+            "1": 7.75,
+            "2": 4.7,
+            "3": 3.5,
+            "4": 4.2,
+            "5": 6,
+            "6": 10,
+            "7+": 12
+          },
+          "halfFull": {
+            "winWin": 1.95,
+            "winDraw": 17,
+            "winLose": 36,
+            "drawWin": 4.35,
+            "drawDraw": 8,
+            "drawLose": 13,
+            "loseWin": 19,
+            "loseDraw": 17,
+            "loseLose": 9
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
           "spf": {
             "win": 1.35,
             "draw": 4.65,
@@ -7643,6 +8133,76 @@
             "loseLose": 2.4
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 4.5,
+            "draw": 3.81,
+            "lose": 1.55
+          },
+          "rqspf": {
+            "win": 2.1,
+            "draw": 3.38,
+            "lose": 2.8
+          },
+          "goals": {
+            "0": 16,
+            "1": 6,
+            "2": 3.65,
+            "3": 3.5,
+            "4": 4.7,
+            "5": 7.5,
+            "6": 14,
+            "7+": 21
+          },
+          "halfFull": {
+            "winWin": 7.5,
+            "winDraw": 15,
+            "winLose": 20,
+            "drawWin": 11,
+            "drawDraw": 6.1,
+            "drawLose": 4.2,
+            "loseWin": 37,
+            "loseDraw": 15,
+            "loseLose": 2.4
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 4.5,
+            "draw": 3.81,
+            "lose": 1.55
+          },
+          "rqspf": {
+            "win": 2.1,
+            "draw": 3.38,
+            "lose": 2.8
+          },
+          "goals": {
+            "0": 16,
+            "1": 6,
+            "2": 3.65,
+            "3": 3.5,
+            "4": 4.7,
+            "5": 7.5,
+            "6": 14,
+            "7+": 21
+          },
+          "halfFull": {
+            "winWin": 7.5,
+            "winDraw": 15,
+            "winLose": 20,
+            "drawWin": 11,
+            "drawDraw": 6.1,
+            "drawLose": 4.2,
+            "loseWin": 37,
+            "loseDraw": 15,
+            "loseLose": 2.4
+          },
+          "score": null
         }
       ]
     },
@@ -8122,6 +8682,76 @@
         },
         {
           "checkedAt": "2026-10-25T04:57:02.394Z",
+          "spf": {
+            "win": 2.7,
+            "draw": 3.45,
+            "lose": 2.13
+          },
+          "rqspf": {
+            "win": 1.56,
+            "draw": 4.05,
+            "lose": 4.15
+          },
+          "goals": {
+            "0": 19,
+            "1": 6.75,
+            "2": 4,
+            "3": 3.45,
+            "4": 4.4,
+            "5": 7,
+            "6": 12,
+            "7+": 17
+          },
+          "halfFull": {
+            "winWin": 4.25,
+            "winDraw": 13,
+            "winLose": 21,
+            "drawWin": 6.75,
+            "drawDraw": 6,
+            "drawLose": 5.45,
+            "loseWin": 25,
+            "loseDraw": 13,
+            "loseLose": 3.6
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 2.7,
+            "draw": 3.45,
+            "lose": 2.13
+          },
+          "rqspf": {
+            "win": 1.56,
+            "draw": 4.05,
+            "lose": 4.15
+          },
+          "goals": {
+            "0": 19,
+            "1": 6.75,
+            "2": 4,
+            "3": 3.45,
+            "4": 4.4,
+            "5": 7,
+            "6": 12,
+            "7+": 17
+          },
+          "halfFull": {
+            "winWin": 4.25,
+            "winDraw": 13,
+            "winLose": 21,
+            "drawWin": 6.75,
+            "drawDraw": 6,
+            "drawLose": 5.45,
+            "loseWin": 25,
+            "loseDraw": 13,
+            "loseLose": 3.6
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
           "spf": {
             "win": 2.7,
             "draw": 3.45,
@@ -8636,6 +9266,76 @@
         },
         {
           "checkedAt": "2026-10-25T04:57:02.394Z",
+          "spf": {
+            "win": 2.02,
+            "draw": 3.43,
+            "lose": 2.92
+          },
+          "rqspf": {
+            "win": 4.05,
+            "draw": 3.9,
+            "lose": 1.6
+          },
+          "goals": {
+            "0": 15,
+            "1": 6.35,
+            "2": 3.55,
+            "3": 3.6,
+            "4": 4.5,
+            "5": 7.75,
+            "6": 14,
+            "7+": 21
+          },
+          "halfFull": {
+            "winWin": 3.2,
+            "winDraw": 13,
+            "winLose": 25,
+            "drawWin": 5.3,
+            "drawDraw": 5.75,
+            "drawLose": 7.5,
+            "loseWin": 19,
+            "loseDraw": 13,
+            "loseLose": 5
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 2.02,
+            "draw": 3.43,
+            "lose": 2.92
+          },
+          "rqspf": {
+            "win": 4.05,
+            "draw": 3.9,
+            "lose": 1.6
+          },
+          "goals": {
+            "0": 15,
+            "1": 6.35,
+            "2": 3.55,
+            "3": 3.6,
+            "4": 4.5,
+            "5": 7.75,
+            "6": 14,
+            "7+": 21
+          },
+          "halfFull": {
+            "winWin": 3.2,
+            "winDraw": 13,
+            "winLose": 25,
+            "drawWin": 5.3,
+            "drawDraw": 5.75,
+            "drawLose": 7.5,
+            "loseWin": 19,
+            "loseDraw": 13,
+            "loseLose": 5
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
           "spf": {
             "win": 2.02,
             "draw": 3.43,
@@ -9250,6 +9950,76 @@
             "loseLose": 5.3
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.94,
+            "draw": 3.1,
+            "lose": 3.43
+          },
+          "rqspf": {
+            "win": 4.1,
+            "draw": 3.55,
+            "lose": 1.66
+          },
+          "goals": {
+            "0": 12,
+            "1": 4.6,
+            "2": 3.3,
+            "3": 3.55,
+            "4": 5.6,
+            "5": 10,
+            "6": 18,
+            "7+": 29
+          },
+          "halfFull": {
+            "winWin": 3.15,
+            "winDraw": 14,
+            "winLose": 28,
+            "drawWin": 5,
+            "drawDraw": 5.4,
+            "drawLose": 7,
+            "loseWin": 24,
+            "loseDraw": 14,
+            "loseLose": 5.3
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.94,
+            "draw": 3.1,
+            "lose": 3.43
+          },
+          "rqspf": {
+            "win": 4.1,
+            "draw": 3.55,
+            "lose": 1.66
+          },
+          "goals": {
+            "0": 12,
+            "1": 4.6,
+            "2": 3.3,
+            "3": 3.55,
+            "4": 5.6,
+            "5": 10,
+            "6": 18,
+            "7+": 29
+          },
+          "halfFull": {
+            "winWin": 3.15,
+            "winDraw": 14,
+            "winLose": 28,
+            "drawWin": 5,
+            "drawDraw": 5.4,
+            "drawLose": 7,
+            "loseWin": 24,
+            "loseDraw": 14,
+            "loseLose": 5.3
+          },
+          "score": null
         }
       ]
     },
@@ -9730,6 +10500,76 @@
         },
         {
           "checkedAt": "2026-10-25T04:57:02.394Z",
+          "spf": {
+            "win": 1.62,
+            "draw": 4,
+            "lose": 3.82
+          },
+          "rqspf": {
+            "win": 2.82,
+            "draw": 3.75,
+            "lose": 1.97
+          },
+          "goals": {
+            "0": 25,
+            "1": 7.7,
+            "2": 4.55,
+            "3": 3.6,
+            "4": 4.3,
+            "5": 6,
+            "6": 10,
+            "7+": 11.5
+          },
+          "halfFull": {
+            "winWin": 2.4,
+            "winDraw": 14,
+            "winLose": 27,
+            "drawWin": 5.2,
+            "drawDraw": 7.5,
+            "drawLose": 9.5,
+            "loseWin": 17,
+            "loseDraw": 14,
+            "loseLose": 6
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.62,
+            "draw": 4,
+            "lose": 3.82
+          },
+          "rqspf": {
+            "win": 2.82,
+            "draw": 3.75,
+            "lose": 1.97
+          },
+          "goals": {
+            "0": 25,
+            "1": 7.7,
+            "2": 4.55,
+            "3": 3.6,
+            "4": 4.3,
+            "5": 6,
+            "6": 10,
+            "7+": 11.5
+          },
+          "halfFull": {
+            "winWin": 2.4,
+            "winDraw": 14,
+            "winLose": 27,
+            "drawWin": 5.2,
+            "drawDraw": 7.5,
+            "drawLose": 9.5,
+            "loseWin": 17,
+            "loseDraw": 14,
+            "loseLose": 6
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
           "spf": {
             "win": 1.62,
             "draw": 4,
@@ -10273,12 +11113,82 @@
             "loseLose": 6
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.76,
+            "draw": 3.45,
+            "lose": 3.7
+          },
+          "rqspf": {
+            "win": 3.4,
+            "draw": 3.58,
+            "lose": 1.8
+          },
+          "goals": {
+            "0": 14,
+            "1": 5.3,
+            "2": 3.6,
+            "3": 3.5,
+            "4": 5,
+            "5": 8.5,
+            "6": 15,
+            "7+": 22
+          },
+          "halfFull": {
+            "winWin": 2.85,
+            "winDraw": 15,
+            "winLose": 33,
+            "drawWin": 4.35,
+            "drawDraw": 5.6,
+            "drawLose": 8.5,
+            "loseWin": 22,
+            "loseDraw": 15,
+            "loseLose": 6
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.76,
+            "draw": 3.45,
+            "lose": 3.7
+          },
+          "rqspf": {
+            "win": 3.4,
+            "draw": 3.58,
+            "lose": 1.8
+          },
+          "goals": {
+            "0": 14,
+            "1": 5.3,
+            "2": 3.6,
+            "3": 3.5,
+            "4": 5,
+            "5": 8.5,
+            "6": 15,
+            "7+": 22
+          },
+          "halfFull": {
+            "winWin": 2.9,
+            "winDraw": 15,
+            "winLose": 33,
+            "drawWin": 4.2,
+            "drawDraw": 5.6,
+            "drawLose": 8.5,
+            "loseWin": 22,
+            "loseDraw": 15,
+            "loseLose": 6
+          },
+          "score": null
         }
       ]
     },
     {
       "number": "周日018",
-      "text": "霍芬海姆官方：双方射门活跃，主队反击有威胁；勒沃库森Schick牵制中卫、Maza/Hofmann与边路多点接应。客队胜弗赖堡较胜克里特更有参照，主队胜里昂也应升权，刚获首次零封不等于防守修复。Conté需观察、双方周四比赛且教练强调保护负荷，高波动不入核心。官方文内交锋及助攻数字有矛盾，不采信相关精确统计。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":2.68,\"draw\":3.9,\"lose\":2}。输钱路径：主队压迫或定位球先入球后守住，主胜使两选全失。；客队伤停/疲劳削弱反扑能力，无法覆盖主胜路径。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
+      "text": "霍芬海姆官方：双方射门活跃，主队反击有威胁；勒沃库森Schick牵制中卫、Maza/Hofmann与边路多点接应。客队胜弗赖堡较胜克里特更有参照，主队胜里昂也应升权，刚获首次零封不等于防守修复。Conté需观察、双方周四比赛且教练强调保护负荷，高波动不入核心。官方文内交锋及助攻数字有矛盾，不采信相关精确统计。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":2.8,\"draw\":3.93,\"lose\":1.93}。输钱路径：主队压迫或定位球先入球后守住，主胜使两选全失。；客队伤停/疲劳削弱反扑能力，无法覆盖主胜路径。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
       "attackDefense": "霍芬海姆官方：双方射门活跃，主队反击有威胁；勒沃库森Schick牵制中卫、Maza/Hofmann与边路多点接应。客队胜弗赖堡较胜克里特更有参照，主队胜里昂也应升权，刚获首次零封不等于防守修复。Conté需观察、双方周四比赛且教练强调保护负荷，高波动不入核心。官方文内交锋及助攻数字有矛盾，不采信相关精确统计。",
       "scheduleStrength": "定性校正见正文；完整序列仍待核",
       "availability": "以正文确定缺席/疑问为准，其余未知",
@@ -10784,6 +11694,76 @@
             "loseWin": 20,
             "loseDraw": 13,
             "loseLose": 3.25
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 2.76,
+            "draw": 3.9,
+            "lose": 1.96
+          },
+          "rqspf": {
+            "win": 1.64,
+            "draw": 4.05,
+            "lose": 3.66
+          },
+          "goals": {
+            "0": 37,
+            "1": 10.5,
+            "2": 5.45,
+            "3": 3.75,
+            "4": 3.9,
+            "5": 5.5,
+            "6": 8,
+            "7+": 8.5
+          },
+          "halfFull": {
+            "winWin": 4.35,
+            "winDraw": 13,
+            "winLose": 18,
+            "drawWin": 7.45,
+            "drawDraw": 7.75,
+            "drawLose": 5.75,
+            "loseWin": 20,
+            "loseDraw": 13,
+            "loseLose": 3.05
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 2.8,
+            "draw": 3.93,
+            "lose": 1.93
+          },
+          "rqspf": {
+            "win": 1.66,
+            "draw": 4.05,
+            "lose": 3.57
+          },
+          "goals": {
+            "0": 37,
+            "1": 11,
+            "2": 5.5,
+            "3": 3.8,
+            "4": 3.9,
+            "5": 5.35,
+            "6": 7.85,
+            "7+": 8.25
+          },
+          "halfFull": {
+            "winWin": 4.35,
+            "winDraw": 13,
+            "winLose": 18,
+            "drawWin": 7.45,
+            "drawDraw": 7.75,
+            "drawLose": 5.75,
+            "loseWin": 20,
+            "loseDraw": 13,
+            "loseLose": 3.05
           },
           "score": null
         }
@@ -11299,24 +12279,99 @@
             "loseLose": 3.45
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 3.1,
+            "draw": 3.37,
+            "lose": 1.96
+          },
+          "rqspf": {
+            "win": 1.66,
+            "draw": 3.65,
+            "lose": 3.95
+          },
+          "goals": {
+            "0": 13.5,
+            "1": 5.35,
+            "2": 3.4,
+            "3": 3.4,
+            "4": 5,
+            "5": 9,
+            "6": 18,
+            "7+": 26
+          },
+          "halfFull": {
+            "winWin": 5.2,
+            "winDraw": 14,
+            "winLose": 24,
+            "drawWin": 7.75,
+            "drawDraw": 5.9,
+            "drawLose": 4,
+            "loseWin": 26,
+            "loseDraw": 14,
+            "loseLose": 3.45
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 3.1,
+            "draw": 3.37,
+            "lose": 1.96
+          },
+          "rqspf": {
+            "win": 1.66,
+            "draw": 3.65,
+            "lose": 3.95
+          },
+          "goals": {
+            "0": 13.5,
+            "1": 5.35,
+            "2": 3.4,
+            "3": 3.4,
+            "4": 5,
+            "5": 9,
+            "6": 18,
+            "7+": 26
+          },
+          "halfFull": {
+            "winWin": 5.2,
+            "winDraw": 14,
+            "winLose": 24,
+            "drawWin": 7.75,
+            "drawDraw": 5.9,
+            "drawLose": 4,
+            "loseWin": 26,
+            "loseDraw": 14,
+            "loseLose": 3.45
+          },
+          "score": null
         }
       ]
     },
     {
       "number": "周日020",
-      "text": "雷恩与斯特拉斯堡官网访问成功但可用本轮正文不足；阵地战、转换防守、欧战或轮换均未补齐，不能凭1.57主胜认定稳定。此行仅盘面参考。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":1.57,\"draw\":4.12,\"lose\":4}。输钱路径：客队转换或定位球先得分并守住，客胜使胜/平全失。；主队轮换或终结下降，无法把控球转换为扳平进球。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
-      "attackDefense": "雷恩与斯特拉斯堡官网访问成功但可用本轮正文不足；阵地战、转换防守、欧战或轮换均未补齐，不能凭1.57主胜认定稳定。此行仅盘面参考。",
-      "scheduleStrength": "定性校正见正文；完整序列仍待核",
-      "availability": "以正文确定缺席/疑问为准，其余未知",
-      "rotation": "正文已列实证；未注明处仍待核",
-      "volatility": "中高或待核",
+      "text": "雷恩官网前瞻：斯特拉斯堡七轮失15球，但七名不同球员进球，不能把防线失球多推成客队无反击。雷恩高强度跑动居前，周四客战尤文先失球后由Al-Tamari及Dia进球反超，最终2:2；创造与反扑有依据，守领先仍非稳定。 赛程强度校正：雷恩客战尤文取分有限升权，但单场不能代替完整序列；斯特拉斯堡三连败包括巴黎FC、尼斯、巴黎圣日耳曼，不能把强敌失利全计作弱防。双方完整近五场过程待核。 伤停替代：发布会仅视频入口，未取得完整伤停及替代名单，不把Dia出席发布会当作首发保证。 轮换：雷恩周四都灵客场后周日联赛，三天短休且旅行，轮换人数待核。 输钱路径：斯特拉斯堡多点进攻利用雷恩高位压迫身后，客胜使胜/平全失。；雷恩短休后压迫强度下降，先失球后无力反扑。；雷恩领先后体能下滑被逆转；欧战守领先失败提供反证。 反向压力测试：保留胜/平，四项均不升星；无法满足核心门槛，不发布2.0/3.0或精准玩法。",
+      "attackDefense": "雷恩官网前瞻：斯特拉斯堡七轮失15球，但七名不同球员进球，不能把防线失球多推成客队无反击。雷恩高强度跑动居前，周四客战尤文先失球后由Al-Tamari及Dia进球反超，最终2:2；创造与反扑有依据，守领先仍非稳定。",
+      "scheduleStrength": "雷恩客战尤文取分有限升权，但单场不能代替完整序列；斯特拉斯堡三连败包括巴黎FC、尼斯、巴黎圣日耳曼，不能把强敌失利全计作弱防。双方完整近五场过程待核。",
+      "availability": "发布会仅视频入口，未取得完整伤停及替代名单，不把Dia出席发布会当作首发保证。",
+      "rotation": "雷恩周四都灵客场后周日联赛，三天短休且旅行，轮换人数待核。",
+      "volatility": "中高/阵容仍待核",
       "lossPaths": [
-        "客队转换或定位球先得分并守住，客胜使胜/平全失。",
-        "主队轮换或终结下降，无法把控球转换为扳平进球。"
+        "斯特拉斯堡多点进攻利用雷恩高位压迫身后，客胜使胜/平全失。",
+        "雷恩短休后压迫强度下降，先失球后无力反扑。",
+        "雷恩领先后体能下滑被逆转；欧战守领先失败提供反证。"
       ],
-      "stressTest": "未通过核心门槛；不删保险，不转精准玩法凑倍率",
-      "sources": [],
-      "baselineOnly": true,
+      "stressTest": "保留胜/平，四项均不升星；无法满足核心门槛，不发布2.0/3.0或精准玩法。",
+      "sources": [
+        "https://www.staderennais.com/actualites/conference-de-presse/srfc-rcsa-la-conference-de-presse",
+        "https://www.staderennais.com/actualites/ligue-1-mcdonalds/a-laffiche-08-rc-strasbourg",
+        "https://www.staderennais.com/actualites/uefa-europa-league/rennes-tient-tete-a-la-vieille-dame-2-2"
+      ],
+      "baselineOnly": false,
       "marketHistory": [
         {
           "checkedAt": "2026-10-24T07:07:23.287Z",
@@ -11807,8 +12862,79 @@
             "loseLose": 7
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.57,
+            "draw": 4.12,
+            "lose": 4
+          },
+          "rqspf": {
+            "win": 2.65,
+            "draw": 3.78,
+            "lose": 2.05
+          },
+          "goals": {
+            "0": 27,
+            "1": 8.5,
+            "2": 4.65,
+            "3": 3.65,
+            "4": 4.2,
+            "5": 6,
+            "6": 9,
+            "7+": 10.5
+          },
+          "halfFull": {
+            "winWin": 2.3,
+            "winDraw": 14.5,
+            "winLose": 30,
+            "drawWin": 4.35,
+            "drawDraw": 7.75,
+            "drawLose": 11,
+            "loseWin": 18,
+            "loseDraw": 14.5,
+            "loseLose": 7
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.57,
+            "draw": 4.12,
+            "lose": 4
+          },
+          "rqspf": {
+            "win": 2.65,
+            "draw": 3.78,
+            "lose": 2.05
+          },
+          "goals": {
+            "0": 27,
+            "1": 8.5,
+            "2": 4.65,
+            "3": 3.65,
+            "4": 4.2,
+            "5": 6,
+            "6": 9,
+            "7+": 10.5
+          },
+          "halfFull": {
+            "winWin": 2.3,
+            "winDraw": 14.5,
+            "winLose": 30,
+            "drawWin": 4.35,
+            "drawDraw": 7.75,
+            "drawLose": 11,
+            "loseWin": 18,
+            "loseDraw": 14.5,
+            "loseLose": 7
+          },
+          "score": null
         }
-      ]
+      ],
+      "evidenceUpdatedAt": "2026-10-25T06:03:46.487Z"
     },
     {
       "number": "周日021",
@@ -12319,12 +13445,82 @@
             "loseLose": 4.25
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 2.75,
+            "draw": 2.87,
+            "lose": 2.4
+          },
+          "rqspf": {
+            "win": 1.42,
+            "draw": 3.91,
+            "lose": 5.9
+          },
+          "goals": {
+            "0": 8,
+            "1": 3.75,
+            "2": 3.05,
+            "3": 3.75,
+            "4": 7,
+            "5": 14,
+            "6": 29,
+            "7+": 51
+          },
+          "halfFull": {
+            "winWin": 4.5,
+            "winDraw": 15,
+            "winLose": 28,
+            "drawWin": 6,
+            "drawDraw": 4.2,
+            "drawLose": 5.3,
+            "loseWin": 29,
+            "loseDraw": 15,
+            "loseLose": 4.25
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 2.75,
+            "draw": 2.87,
+            "lose": 2.4
+          },
+          "rqspf": {
+            "win": 1.42,
+            "draw": 3.91,
+            "lose": 5.9
+          },
+          "goals": {
+            "0": 8,
+            "1": 3.75,
+            "2": 3.05,
+            "3": 3.75,
+            "4": 7,
+            "5": 14,
+            "6": 29,
+            "7+": 51
+          },
+          "halfFull": {
+            "winWin": 4.5,
+            "winDraw": 15,
+            "winLose": 28,
+            "drawWin": 6,
+            "drawDraw": 4.2,
+            "drawLose": 5.3,
+            "loseWin": 29,
+            "loseDraw": 15,
+            "loseLose": 4.25
+          },
+          "score": null
         }
       ]
     },
     {
       "number": "周日022",
-      "text": "摩纳哥官网证实弗赖堡周四客场0:3，勒沃库森资料证实此前负药厂1:2，连续强敌与旅行需校正，不能只以连败下结论。拜仁本轮伤停与预计阵容未取得，客胜仅低信心参考，不升级净胜三球。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":6.65,\"draw\":5.8,\"lose\":1.24}。输钱路径：客队无法破解主队低位或定位球先丢球，平局/主胜均失。；客队轮换及关键球员状态不明，不能用低赔排除失手。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
+      "text": "摩纳哥官网证实弗赖堡周四客场0:3，勒沃库森资料证实此前负药厂1:2，连续强敌与旅行需校正，不能只以连败下结论。拜仁本轮伤停与预计阵容未取得，客胜仅低信心参考，不升级净胜三球。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":6.5,\"draw\":5.7,\"lose\":1.25}。输钱路径：客队无法破解主队低位或定位球先丢球，平局/主胜均失。；客队轮换及关键球员状态不明，不能用低赔排除失手。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
       "attackDefense": "摩纳哥官网证实弗赖堡周四客场0:3，勒沃库森资料证实此前负药厂1:2，连续强敌与旅行需校正，不能只以连败下结论。拜仁本轮伤停与预计阵容未取得，客胜仅低信心参考，不升级净胜三球。",
       "scheduleStrength": "定性校正见正文；完整序列仍待核",
       "availability": "以正文确定缺席/疑问为准，其余未知",
@@ -12829,6 +14025,76 @@
             "loseWin": 43,
             "loseDraw": 18,
             "loseLose": 1.6
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 6.65,
+            "draw": 5.8,
+            "lose": 1.24
+          },
+          "rqspf": {
+            "win": 1.85,
+            "draw": 4.4,
+            "lose": 2.77
+          },
+          "goals": {
+            "0": 45,
+            "1": 13,
+            "2": 6.25,
+            "3": 4.25,
+            "4": 4,
+            "5": 5,
+            "6": 7,
+            "7+": 6
+          },
+          "halfFull": {
+            "winWin": 12.5,
+            "winDraw": 18,
+            "winLose": 17,
+            "drawWin": 18,
+            "drawDraw": 12,
+            "drawLose": 4.6,
+            "loseWin": 43,
+            "loseDraw": 18,
+            "loseLose": 1.6
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 6.5,
+            "draw": 5.7,
+            "lose": 1.25
+          },
+          "rqspf": {
+            "win": 1.81,
+            "draw": 4.4,
+            "lose": 2.86
+          },
+          "goals": {
+            "0": 40,
+            "1": 11,
+            "2": 5.75,
+            "3": 4.15,
+            "4": 4,
+            "5": 5.25,
+            "6": 7.6,
+            "7+": 6.6
+          },
+          "halfFull": {
+            "winWin": 12,
+            "winDraw": 18,
+            "winLose": 17,
+            "drawWin": 18,
+            "drawDraw": 11,
+            "drawLose": 4.6,
+            "loseWin": 43,
+            "loseDraw": 18,
+            "loseLose": 1.63
           },
           "score": null
         }
@@ -13343,12 +14609,82 @@
             "loseLose": 1.85
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 7.25,
+            "draw": 4.27,
+            "lose": 1.32
+          },
+          "rqspf": {
+            "win": 2.75,
+            "draw": 3.4,
+            "lose": 2.12
+          },
+          "goals": {
+            "0": 14,
+            "1": 4.9,
+            "2": 3.5,
+            "3": 3.5,
+            "4": 5.2,
+            "5": 9,
+            "6": 16,
+            "7+": 24
+          },
+          "halfFull": {
+            "winWin": 14.5,
+            "winDraw": 20,
+            "winLose": 26,
+            "drawWin": 18,
+            "drawDraw": 6,
+            "drawLose": 3.75,
+            "loseWin": 60,
+            "loseDraw": 20,
+            "loseLose": 1.85
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 7.25,
+            "draw": 4.27,
+            "lose": 1.32
+          },
+          "rqspf": {
+            "win": 2.75,
+            "draw": 3.3,
+            "lose": 2.16
+          },
+          "goals": {
+            "0": 14,
+            "1": 4.9,
+            "2": 3.5,
+            "3": 3.5,
+            "4": 5.2,
+            "5": 9,
+            "6": 16,
+            "7+": 24
+          },
+          "halfFull": {
+            "winWin": 14.5,
+            "winDraw": 20,
+            "winLose": 26,
+            "drawWin": 18,
+            "drawDraw": 6,
+            "drawLose": 3.75,
+            "loseWin": 60,
+            "loseDraw": 20,
+            "loseLose": 1.85
+          },
+          "score": null
         }
       ]
     },
     {
       "number": "周日024",
-      "text": "莱万特官方：主队近四轮3胜1平且欧战6:0利勒斯特罗姆，但弱敌大胜须降权；莱万特周三胜毕尔巴鄂、连续三轮不败，攻击不能忽视。Bardeli伤缺、Dela身体不适，名单确认；皇家社会短休旅行与本场替代仍待核，保留防平。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":1.43,\"draw\":4.35,\"lose\":5}。输钱路径：客队转换或定位球先得分并守住，客胜使胜/平全失。；主队轮换或终结下降，无法把控球转换为扳平进球。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
+      "text": "莱万特官方：主队近四轮3胜1平且欧战6:0利勒斯特罗姆，但弱敌大胜须降权；莱万特周三胜毕尔巴鄂、连续三轮不败，攻击不能忽视。Bardeli伤缺、Dela身体不适，名单确认；皇家社会短休旅行与本场替代仍待核，保留防平。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":1.4,\"draw\":4.38,\"lose\":5.35}。输钱路径：客队转换或定位球先得分并守住，客胜使胜/平全失。；主队轮换或终结下降，无法把控球转换为扳平进球。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
       "attackDefense": "莱万特官方：主队近四轮3胜1平且欧战6:0利勒斯特罗姆，但弱敌大胜须降权；莱万特周三胜毕尔巴鄂、连续三轮不败，攻击不能忽视。Bardeli伤缺、Dela身体不适，名单确认；皇家社会短休旅行与本场替代仍待核，保留防平。",
       "scheduleStrength": "定性校正见正文；完整序列仍待核",
       "availability": "以正文确定缺席/疑问为准，其余未知",
@@ -13856,24 +15192,97 @@
             "loseLose": 8.5
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.43,
+            "draw": 4.35,
+            "lose": 5
+          },
+          "rqspf": {
+            "win": 2.39,
+            "draw": 3.5,
+            "lose": 2.35
+          },
+          "goals": {
+            "0": 21,
+            "1": 6.7,
+            "2": 4.05,
+            "3": 3.45,
+            "4": 4.5,
+            "5": 6.9,
+            "6": 11,
+            "7+": 16
+          },
+          "halfFull": {
+            "winWin": 2.3,
+            "winDraw": 15,
+            "winLose": 31,
+            "drawWin": 3.9,
+            "drawDraw": 7,
+            "drawLose": 11.5,
+            "loseWin": 20,
+            "loseDraw": 15,
+            "loseLose": 8.5
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.4,
+            "draw": 4.38,
+            "lose": 5.35
+          },
+          "rqspf": {
+            "win": 2.27,
+            "draw": 3.47,
+            "lose": 2.5
+          },
+          "goals": {
+            "0": 21,
+            "1": 6.7,
+            "2": 4.05,
+            "3": 3.45,
+            "4": 4.5,
+            "5": 6.9,
+            "6": 11,
+            "7+": 16
+          },
+          "halfFull": {
+            "winWin": 2.15,
+            "winDraw": 15,
+            "winLose": 32,
+            "drawWin": 3.95,
+            "drawDraw": 7.5,
+            "drawLose": 13,
+            "loseWin": 20,
+            "loseDraw": 15,
+            "loseLose": 9
+          },
+          "score": null
         }
       ]
     },
     {
       "number": "周日025",
-      "text": "AZ与特温特页面可达但当前攻防正文未补齐；2.06降至2.00只是市场信息，不是机会质量证明。伤停替代、密赛和对手强度缺项，低信心参考不入串。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":2,\"draw\":3.65,\"lose\":2.81}。输钱路径：客队转换或定位球先得分并守住，客胜使胜/平全失。；主队轮换或终结下降，无法把控球转换为扳平进球。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
-      "attackDefense": "AZ与特温特页面可达但当前攻防正文未补齐；2.06降至2.00只是市场信息，不是机会质量证明。伤停替代、密赛和对手强度缺项，低信心参考不入串。",
-      "scheduleStrength": "定性校正见正文；完整序列仍待核",
-      "availability": "以正文确定缺席/疑问为准，其余未知",
-      "rotation": "正文已列实证；未注明处仍待核",
-      "volatility": "中高或待核",
+      "text": "特温特主帅确认中卫Stav Lemkin与Max Bruns缺席，青训Jip Meilink周四刚完成首秀；中卫替代磨合可被AZ利用，但AZ具体进攻对位未补齐。特温特周四4:1胜Lincoln Red Imps，仍有攻击威胁，不因其后防缺人便认定主胜。 赛程强度校正：特温特对直布罗陀对手的4:1须降权，不能外推对AZ；双方完整对手序列及AZ机会质量仍待核。 伤停替代：Lemkin、Bruns继续缺席；周四参赛其余球员据教练称恢复良好，不能解释为全队无伤停。Meilink进入替代候选，尚非确认首发。 轮换：周四欧战客场后周日荷甲，短休旅行和替代中卫增加风险；AZ本轮轮换名单未核。 输钱路径：特温特进攻延续且转换先得分，AZ无法扳平，胜/平全失。；AZ人员与机会质量未知，不能保证利用客队替代防线。；以弱敌大胜错误上调客队或以两名中卫缺阵过度下调客队，均会误判比赛波动。 反向压力测试：保留胜/平，四项均不升星；无法满足核心门槛，不发布2.0/3.0或精准玩法。",
+      "attackDefense": "特温特主帅确认中卫Stav Lemkin与Max Bruns缺席，青训Jip Meilink周四刚完成首秀；中卫替代磨合可被AZ利用，但AZ具体进攻对位未补齐。特温特周四4:1胜Lincoln Red Imps，仍有攻击威胁，不因其后防缺人便认定主胜。",
+      "scheduleStrength": "特温特对直布罗陀对手的4:1须降权，不能外推对AZ；双方完整对手序列及AZ机会质量仍待核。",
+      "availability": "Lemkin、Bruns继续缺席；周四参赛其余球员据教练称恢复良好，不能解释为全队无伤停。Meilink进入替代候选，尚非确认首发。",
+      "rotation": "周四欧战客场后周日荷甲，短休旅行和替代中卫增加风险；AZ本轮轮换名单未核。",
+      "volatility": "中高/阵容仍待核",
       "lossPaths": [
-        "客队转换或定位球先得分并守住，客胜使胜/平全失。",
-        "主队轮换或终结下降，无法把控球转换为扳平进球。"
+        "特温特进攻延续且转换先得分，AZ无法扳平，胜/平全失。",
+        "AZ人员与机会质量未知，不能保证利用客队替代防线。",
+        "以弱敌大胜错误上调客队或以两名中卫缺阵过度下调客队，均会误判比赛波动。"
       ],
-      "stressTest": "未通过核心门槛；不删保险，不转精准玩法凑倍率",
-      "sources": [],
-      "baselineOnly": true,
+      "stressTest": "保留胜/平，四项均不升星；无法满足核心门槛，不发布2.0/3.0或精准玩法。",
+      "sources": [
+        "https://fctwente.nl/nieuws/vooruitblik-we-kennen-de-kracht-van-az"
+      ],
+      "baselineOnly": false,
       "marketHistory": [
         {
           "checkedAt": "2026-10-23T01:57:55.184Z",
@@ -14434,8 +15843,79 @@
             "loseLose": 4.2
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 2,
+            "draw": 3.65,
+            "lose": 2.81
+          },
+          "rqspf": {
+            "win": 3.68,
+            "draw": 4.1,
+            "lose": 1.63
+          },
+          "goals": {
+            "0": 25,
+            "1": 7.7,
+            "2": 4.35,
+            "3": 3.7,
+            "4": 4.25,
+            "5": 6.1,
+            "6": 9.8,
+            "7+": 12
+          },
+          "halfFull": {
+            "winWin": 3.2,
+            "winDraw": 14,
+            "winLose": 24,
+            "drawWin": 5.7,
+            "drawDraw": 6.6,
+            "drawLose": 7,
+            "loseWin": 20,
+            "loseDraw": 14,
+            "loseLose": 4.2
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.98,
+            "draw": 3.65,
+            "lose": 2.85
+          },
+          "rqspf": {
+            "win": 3.65,
+            "draw": 4.02,
+            "lose": 1.65
+          },
+          "goals": {
+            "0": 25,
+            "1": 7.7,
+            "2": 4.35,
+            "3": 3.7,
+            "4": 4.25,
+            "5": 6.1,
+            "6": 9.8,
+            "7+": 12
+          },
+          "halfFull": {
+            "winWin": 3.2,
+            "winDraw": 14,
+            "winLose": 24,
+            "drawWin": 5.7,
+            "drawDraw": 6.6,
+            "drawLose": 7,
+            "loseWin": 20,
+            "loseDraw": 14,
+            "loseLose": 4.2
+          },
+          "score": null
         }
-      ]
+      ],
+      "evidenceUpdatedAt": "2026-10-25T06:03:46.487Z"
     },
     {
       "number": "周日026",
@@ -14945,12 +16425,82 @@
             "loseLose": 2.25
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 4.6,
+            "draw": 3.75,
+            "lose": 1.55
+          },
+          "rqspf": {
+            "win": 2.11,
+            "draw": 3.4,
+            "lose": 2.77
+          },
+          "goals": {
+            "0": 13,
+            "1": 4.95,
+            "2": 3.5,
+            "3": 3.55,
+            "4": 5.2,
+            "5": 9,
+            "6": 16,
+            "7+": 24
+          },
+          "halfFull": {
+            "winWin": 8.5,
+            "winDraw": 16,
+            "winLose": 21,
+            "drawWin": 11.5,
+            "drawDraw": 6,
+            "drawLose": 4.2,
+            "loseWin": 36,
+            "loseDraw": 16,
+            "loseLose": 2.25
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 4.6,
+            "draw": 3.75,
+            "lose": 1.55
+          },
+          "rqspf": {
+            "win": 2.11,
+            "draw": 3.4,
+            "lose": 2.77
+          },
+          "goals": {
+            "0": 13,
+            "1": 4.95,
+            "2": 3.5,
+            "3": 3.55,
+            "4": 5.2,
+            "5": 9,
+            "6": 16,
+            "7+": 24
+          },
+          "halfFull": {
+            "winWin": 8.5,
+            "winDraw": 16,
+            "winLose": 21,
+            "drawWin": 11.5,
+            "drawDraw": 6,
+            "drawLose": 4.2,
+            "loseWin": 36,
+            "loseDraw": 16,
+            "loseLose": 2.25
+          },
+          "score": null
         }
       ]
     },
     {
       "number": "周日027",
-      "text": "巴萨官方确认Olmo、Kounde缺席，Espart有表现但仍需成长，边路替代防反击未充分验证；刚负巴黎必须区分强敌样本。皇马当前前场完整名单未核到，国家德比强战意和高方差不能用1.48定稳胆。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":1.48,\"draw\":5.35,\"lose\":3.75}。输钱路径：客队转换或定位球先得分并守住，客胜使胜/平全失。；主队轮换或终结下降，无法把控球转换为扳平进球。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
+      "text": "巴萨官方确认Olmo、Kounde缺席，Espart有表现但仍需成长，边路替代防反击未充分验证；刚负巴黎必须区分强敌样本。皇马当前前场完整名单未核到，国家德比强战意和高方差不能用1.48定稳胆。 赛程强度：已作定性调整，完整近5场对手及过程仍未齐。预计阵容与替代关系未全部核实，不把名单当首发。盘面：{\"win\":1.53,\"draw\":5.22,\"lose\":3.52}。输钱路径：客队转换或定位球先得分并守住，客胜使胜/平全失。；主队轮换或终结下降，无法把控球转换为扳平进球。。四项预测分别未评级；比分是情景参考，不用于证明方向。",
       "attackDefense": "巴萨官方确认Olmo、Kounde缺席，Espart有表现但仍需成长，边路替代防反击未充分验证；刚负巴黎必须区分强敌样本。皇马当前前场完整名单未核到，国家德比强战意和高方差不能用1.48定稳胆。",
       "scheduleStrength": "定性校正见正文；完整序列仍待核",
       "availability": "以正文确定缺席/疑问为准，其余未知",
@@ -15454,6 +17004,76 @@
             "loseWin": 15,
             "loseDraw": 15,
             "loseLose": 6.35
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.5,
+            "draw": 5.3,
+            "lose": 3.65
+          },
+          "rqspf": {
+            "win": 2.3,
+            "draw": 4.17,
+            "lose": 2.2
+          },
+          "goals": {
+            "0": 65,
+            "1": 16.5,
+            "2": 7.35,
+            "3": 4.7,
+            "4": 4.2,
+            "5": 4.65,
+            "6": 6.05,
+            "7+": 4.75
+          },
+          "halfFull": {
+            "winWin": 2.08,
+            "winDraw": 15,
+            "winLose": 28,
+            "drawWin": 5.05,
+            "drawDraw": 11,
+            "drawLose": 11,
+            "loseWin": 15,
+            "loseDraw": 15,
+            "loseLose": 6.35
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.53,
+            "draw": 5.22,
+            "lose": 3.52
+          },
+          "rqspf": {
+            "win": 2.37,
+            "draw": 4.2,
+            "lose": 2.13
+          },
+          "goals": {
+            "0": 60,
+            "1": 16,
+            "2": 7.35,
+            "3": 4.7,
+            "4": 4.2,
+            "5": 4.65,
+            "6": 6.05,
+            "7+": 4.8
+          },
+          "halfFull": {
+            "winWin": 2.12,
+            "winDraw": 15,
+            "winLose": 26,
+            "drawWin": 5.1,
+            "drawDraw": 11,
+            "drawLose": 10.5,
+            "loseWin": 15,
+            "loseDraw": 15,
+            "loseLose": 6.2
           },
           "score": null
         }
@@ -16034,6 +17654,76 @@
             "loseLose": 22
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": null,
+            "draw": null,
+            "lose": null
+          },
+          "rqspf": {
+            "win": 2.3,
+            "draw": 4,
+            "lose": 2.25
+          },
+          "goals": {
+            "0": 32,
+            "1": 9.4,
+            "2": 5.3,
+            "3": 3.3,
+            "4": 3.7,
+            "5": 6.25,
+            "6": 10,
+            "7+": 10.5
+          },
+          "halfFull": {
+            "winWin": 1.45,
+            "winDraw": 25,
+            "winLose": 100,
+            "drawWin": 3.95,
+            "drawDraw": 10.5,
+            "drawLose": 28,
+            "loseWin": 23,
+            "loseDraw": 25,
+            "loseLose": 22
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": null,
+            "draw": null,
+            "lose": null
+          },
+          "rqspf": {
+            "win": 2.3,
+            "draw": 4,
+            "lose": 2.25
+          },
+          "goals": {
+            "0": 32,
+            "1": 9.4,
+            "2": 5.3,
+            "3": 3.3,
+            "4": 3.7,
+            "5": 6.25,
+            "6": 10,
+            "7+": 10.5
+          },
+          "halfFull": {
+            "winWin": 1.45,
+            "winDraw": 25,
+            "winLose": 100,
+            "drawWin": 3.95,
+            "drawDraw": 10.5,
+            "drawLose": 28,
+            "loseWin": 23,
+            "loseDraw": 25,
+            "loseLose": 22
+          },
+          "score": null
         }
       ]
     },
@@ -16548,6 +18238,76 @@
             "loseLose": 8
           },
           "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:18:59.442Z",
+          "spf": {
+            "win": 1.46,
+            "draw": 4.3,
+            "lose": 4.72
+          },
+          "rqspf": {
+            "win": 2.34,
+            "draw": 3.65,
+            "lose": 2.34
+          },
+          "goals": {
+            "0": 27,
+            "1": 8.5,
+            "2": 4.55,
+            "3": 3.5,
+            "4": 4.2,
+            "5": 5.8,
+            "6": 10,
+            "7+": 12
+          },
+          "halfFull": {
+            "winWin": 2.08,
+            "winDraw": 16,
+            "winLose": 31,
+            "drawWin": 4.5,
+            "drawDraw": 7.9,
+            "drawLose": 11.5,
+            "loseWin": 18,
+            "loseDraw": 16,
+            "loseLose": 8
+          },
+          "score": null
+        },
+        {
+          "checkedAt": "2026-10-25T05:53:13.594Z",
+          "spf": {
+            "win": 1.46,
+            "draw": 4.3,
+            "lose": 4.72
+          },
+          "rqspf": {
+            "win": 2.34,
+            "draw": 3.65,
+            "lose": 2.34
+          },
+          "goals": {
+            "0": 27,
+            "1": 8.5,
+            "2": 4.55,
+            "3": 3.5,
+            "4": 4.2,
+            "5": 5.8,
+            "6": 10,
+            "7+": 12
+          },
+          "halfFull": {
+            "winWin": 2.08,
+            "winDraw": 16,
+            "winLose": 31,
+            "drawWin": 4.5,
+            "drawDraw": 7.9,
+            "drawLose": 11.5,
+            "loseWin": 18,
+            "loseDraw": 16,
+            "loseLose": 8
+          },
+          "score": null
         }
       ]
     }
@@ -16663,7 +18423,7 @@
       "selection": "胜/平",
       "rank": null,
       "coreEligible": false,
-      "reason": "雷恩与斯特拉斯堡官网访问成功但可用本轮正文不足；阵地战、转换防守、欧战或轮换均未补齐，不能凭1.57主胜认定稳定。此行仅盘面参考。"
+      "reason": "雷恩官网前瞻：斯特拉斯堡七轮失15球，但七名不同球员进球，不能把防线失球多推成客队无反击。雷恩高强度跑动居前，周四客战尤文先失球后由Al-Tamari及Dia进球反超，最终2:2；创造与反扑有依据，守领先仍非稳定。"
     },
     {
       "number": "周日021",
@@ -16698,7 +18458,7 @@
       "selection": "胜/平",
       "rank": null,
       "coreEligible": false,
-      "reason": "AZ与特温特页面可达但当前攻防正文未补齐；2.06降至2.00只是市场信息，不是机会质量证明。伤停替代、密赛和对手强度缺项，低信心参考不入串。"
+      "reason": "特温特主帅确认中卫Stav Lemkin与Max Bruns缺席，青训Jip Meilink周四刚完成首秀；中卫替代磨合可被AZ利用，但AZ具体进攻对位未补齐。特温特周四4:1胜Lincoln Red Imps，仍有攻击威胁，不因其后防缺人便认定主胜。"
     },
     {
       "number": "周日026",
@@ -17228,11 +18988,11 @@
     "nextReviewExpectedTicketCount": 0,
     "completeDelivery": false
   },
-  "deliveryStatus": "missed-1300-formal-delivery",
+  "deliveryStatus": "missed-1400-formal-delivery",
   "publication": {
-    "mergedRemoteHead": "6a4ee014a715f2cd5b2be5b46116961bec4e7e17",
-    "mergedAt": "2026-10-25T05:08:30.454Z",
-    "kind": "provisional-full-scan",
+    "mergedRemoteHead": "46acdb766fc638a99f2a5e658745907734c5e83b",
+    "mergedAt": "2026-10-25T06:04:03.729Z",
+    "kind": "evidence-supplement",
     "coreDelivered": false
   },
   "selectionAudit": [
@@ -17247,15 +19007,15 @@
       "hypotheticalReturns": [
         {
           "pair": "009胜×029胜/平",
-          "main": 1.2264,
-          "insurance": 3.6119999999999997,
+          "main": 1.1971999999999998,
+          "insurance": 3.526,
           "rejected": true
         },
         {
           "pair": "006胜×009胜",
-          "main": 2.0496,
+          "main": 2.0008,
           "rejected": true,
-          "reason": "回报不等于人员门槛通过"
+          "reason": "完整阵容与强度门槛仍未通过"
         }
       ]
     },
@@ -17276,9 +19036,11 @@
         "024",
         "026",
         "027",
-        "029"
+        "029",
+        "020",
+        "025"
       ],
-      "decision": "逐场核过：热门阵容缺失、短休、巴萨确定伤停及洛城德比真实追平风险，均不足升级。不是将博单改名2.0。"
+      "decision": "逐场核过：热门阵容缺失、短休、巴萨确定伤停及洛城德比真实追平风险，均不足升级。不是将博单改名2.0。 新补020短休/多点对手、025替代中卫与弱敌大胜不支持低波动追加票。"
     }
   ]
 }
