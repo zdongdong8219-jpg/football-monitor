@@ -4,7 +4,7 @@
   "stage": "final",
   "completed": false,
   "mobileVerified": false,
-  "publishedAt": "2026-10-26T01:15:43.034Z",
+  "publishedAt": "2026-10-26T01:20:08.718Z",
   "originalPublishedAt": "2026-10-25T06:03:46.487Z",
   "summary": "28场已完成赛果结算，029待官方结算；扫盘方向21/28，总进球22/28，半全场12/28，比分10/28。当日正式串子0张。",
   "verification": "周日001—028按竞彩足球赛果表核验；029暂不猜测。",
@@ -306,9 +306,9 @@
       "league": "芬超",
       "teams": "赫尔辛基 vs 库奥皮奥",
       "stars": 2,
-      "resultPick": "推荐：胜｜模拟博：胜",
+      "resultPick": "推荐：胜｜模拟博：让平",
       "recommendedPick": "胜",
-      "speculativePick": "胜",
+      "speculativePick": "让平",
       "goalsPick": "2/3/4",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0/2:1/3:1",
@@ -787,9 +787,9 @@
       "league": "德甲",
       "teams": "弗赖堡 vs 拜仁",
       "stars": 2,
-      "resultPick": "推荐：负｜模拟博：负",
+      "resultPick": "推荐：负｜模拟博：让胜",
       "recommendedPick": "负",
-      "speculativePick": "负",
+      "speculativePick": "让胜",
       "goalsPick": "3/4/5",
       "halfFullPick": "负负/平负",
       "scorePick": "0:3/1:3/1:4",
@@ -798,19 +798,16 @@
       "halfScore": "0:2",
       "hits": {
         "result": true,
-        "speculative": true,
+        "speculative": false,
         "goals": true,
         "halfFull": true,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "推荐：负",
-          "模拟博：负"
+          "推荐：负"
         ],
-        "speculative": [
-          "负"
-        ],
+        "speculative": [],
         "goals": [
           "4"
         ],
