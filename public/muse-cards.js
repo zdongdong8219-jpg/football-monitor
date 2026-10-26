@@ -82,6 +82,7 @@
   function schedule(){clearTimeout(timer);timer=setTimeout(refreshPreviews,500)}
   async function refreshPreviews(){
     let area=document.getElementById('phoneImageCards');if(!area){area=document.createElement('section');area.id='phoneImageCards';area.innerHTML='<h2>模型图片 · 可直接复制</h2><p>点图可放大，长按可保存。推荐与跟踪卡各一张，复盘各一张。</p><div class="phone-image-grid"></div>';$('summary').before(area)}
+    if(area.dataset.staticFinal==='true')return;
     if(!currentScanRows.length)return;
     const grid=area.querySelector('.phone-image-grid');grid.innerHTML='';
     const specs=[['今日推荐＋扫盘',false,false,'copyPoster','quickPoster'],['今日跟踪卡',false,true,'copyTracking','quickTracking'],['复盘推荐＋扫盘',true,false,'copyReview','quickReview'],['复盘跟踪卡',true,true,'copyReviewTracking','quickReviewTracking']];
