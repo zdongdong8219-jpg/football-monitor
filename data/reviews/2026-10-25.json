@@ -1,13 +1,13 @@
 {
   "date": "2026-10-25",
-  "title": "FT足球竞彩模型 · 交付审计复盘",
-  "stage": "delivery-audit",
+  "title": "FT足球竞彩模型 · 最终复盘",
+  "stage": "final",
   "completed": false,
   "mobileVerified": false,
-  "publishedAt": "2026-10-26T00:27:42.540Z",
+  "publishedAt": "2026-10-26T00:33:02.248Z",
   "originalPublishedAt": "2026-10-25T06:03:46.487Z",
-  "summary": "29场赛前扫盘已归档；当天正式推荐为0张，2.0、3.0、进球数梦想3串1及4串1均未完成交付。不得赛后补票。本版先发布交付审计图，赛果待双源核验后再更新命中复盘。",
-  "verification": "严格按2026-10-25不可变赛前报告生成；正式推荐数组为0，不虚构投入、返还或命中。",
+  "summary": "28场已完成赛果结算，029待官方结算；扫盘方向21/28，总进球22/28，半全场12/28，比分10/28。当日正式串子0张。",
+  "verification": "周日001—028按竞彩足球赛果表核验；029暂不猜测。",
   "rows": [
     {
       "number": "周日001",
@@ -19,23 +19,23 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/1:2/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "2:1",
+      "halfScore": "0:1",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
         "result": [],
-        "goals": [],
+        "goals": [
+          "3"
+        ],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日002",
@@ -47,23 +47,29 @@
       "goalsPick": "1/2/3",
       "halfFullPick": "平平/平胜",
       "scorePick": "1:1/1:0/2:1",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "2:1",
+      "halfScore": "1:1",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
-        "halfFull": [],
-        "score": []
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "3"
+        ],
+        "halfFull": [
+          "平胜"
+        ],
+        "score": [
+          "2:1"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日003",
@@ -75,23 +81,25 @@
       "goalsPick": "1/2/3",
       "halfFullPick": "平胜/胜胜",
       "scorePick": "1:0/2:0/2:1",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "6:0",
+      "halfScore": "1:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
+        "result": [
+          "胜"
+        ],
         "goals": [],
-        "halfFull": [],
+        "halfFull": [
+          "胜胜"
+        ],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日004",
@@ -103,23 +111,27 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "2:1",
+      "halfScore": "1:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": false,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "3"
+        ],
         "halfFull": [],
-        "score": []
+        "score": [
+          "2:1"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日005",
@@ -131,23 +143,25 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "1:0",
+      "halfScore": "0:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
+        "result": [
+          "胜"
+        ],
         "goals": [],
-        "halfFull": [],
+        "halfFull": [
+          "平胜"
+        ],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日006",
@@ -159,23 +173,29 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0/2:1/3:1",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "2:1",
+      "halfScore": "0:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
-        "halfFull": [],
-        "score": []
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "3"
+        ],
+        "halfFull": [
+          "平胜"
+        ],
+        "score": [
+          "2:1"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日007",
@@ -187,23 +207,23 @@
       "goalsPick": "1/2/3",
       "halfFullPick": "平胜/平平",
       "scorePick": "1:0/1:1/2:1",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "4:0",
+      "halfScore": "2:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": false,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
+        "result": [
+          "胜"
+        ],
         "goals": [],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日008",
@@ -215,23 +235,27 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/1:2/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "1:1",
+      "halfScore": "1:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": false,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
         "halfFull": [],
-        "score": []
+        "score": [
+          "1:1"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日009",
@@ -243,23 +267,23 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0/2:1/3:1",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "2:2",
+      "halfScore": "0:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
         "result": [],
-        "goals": [],
+        "goals": [
+          "4"
+        ],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日010",
@@ -271,23 +295,23 @@
       "goalsPick": "3/4/5",
       "halfFullPick": "平胜/胜胜",
       "scorePick": "2:1/2:2/3:1",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "1:1",
+      "halfScore": "1:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": false,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
+        "result": [
+          "平"
+        ],
         "goals": [],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日011",
@@ -299,23 +323,29 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0/2:1/3:1",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "3:1",
+      "halfScore": "3:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
-        "halfFull": [],
-        "score": []
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "4"
+        ],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": [
+          "3:1"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日012",
@@ -327,23 +357,27 @@
       "goalsPick": "1/2/3",
       "halfFullPick": "平负/负负",
       "scorePick": "0:1/1:1/1:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "1:1",
+      "halfScore": "1:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": false,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
         "halfFull": [],
-        "score": []
+        "score": [
+          "1:1"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日013",
@@ -355,23 +389,27 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/1:2/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "0:2",
+      "halfScore": "0:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
-        "halfFull": [],
+        "result": [
+          "负"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [
+          "平负"
+        ],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日014",
@@ -383,23 +421,23 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "0:3",
+      "halfScore": "0:2",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
         "result": [],
-        "goals": [],
+        "goals": [
+          "3"
+        ],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日015",
@@ -411,23 +449,23 @@
       "goalsPick": "1/2/3",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/0:1/1:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "1:0",
+      "halfScore": "1:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
         "result": [],
-        "goals": [],
+        "goals": [
+          "1"
+        ],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日016",
@@ -439,23 +477,23 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "4:4",
+      "halfScore": "3:2",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": false,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
+        "result": [
+          "平"
+        ],
         "goals": [],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日017",
@@ -467,23 +505,27 @@
       "goalsPick": "1/2/3",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/0:1/1:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "1:1",
+      "halfScore": "0:1",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": false,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "2"
+        ],
         "halfFull": [],
-        "score": []
+        "score": [
+          "1:1"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日018",
@@ -495,23 +537,23 @@
       "goalsPick": "3/4/5",
       "halfFullPick": "平负/平平",
       "scorePick": "1:2/2:2/2:3",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "3:0",
+      "halfScore": "0:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
         "result": [],
-        "goals": [],
+        "goals": [
+          "3"
+        ],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日019",
@@ -523,23 +565,25 @@
       "goalsPick": "1/2/3",
       "halfFullPick": "平负/平平",
       "scorePick": "0:1/1:1/1:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "0:0",
+      "halfScore": "0:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
+        "result": [
+          "平"
+        ],
         "goals": [],
-        "halfFull": [],
+        "halfFull": [
+          "平平"
+        ],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日020",
@@ -551,23 +595,27 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/胜胜",
       "scorePick": "2:1/1:1/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "3:0",
+      "halfScore": "2:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
-        "halfFull": [],
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "3"
+        ],
+        "halfFull": [
+          "胜胜"
+        ],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日021",
@@ -579,23 +627,29 @@
       "goalsPick": "0/1/2",
       "halfFullPick": "平平/平胜",
       "scorePick": "0:0/1:0/1:1",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "0:0",
+      "halfScore": "0:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
-        "halfFull": [],
-        "score": []
+        "result": [
+          "平"
+        ],
+        "goals": [
+          "0"
+        ],
+        "halfFull": [
+          "平平"
+        ],
+        "score": [
+          "0:0"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日022",
@@ -607,23 +661,29 @@
       "goalsPick": "3/4/5",
       "halfFullPick": "负负/平负",
       "scorePick": "0:3/1:3/1:4",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "1:3",
+      "halfScore": "0:2",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
-        "halfFull": [],
-        "score": []
+        "result": [
+          "负"
+        ],
+        "goals": [
+          "4"
+        ],
+        "halfFull": [
+          "负负"
+        ],
+        "score": [
+          "1:3"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日023",
@@ -635,23 +695,27 @@
       "goalsPick": "1/2/3",
       "halfFullPick": "平负/负负",
       "scorePick": "0:1/1:1/1:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "0:2",
+      "halfScore": "0:2",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
-        "halfFull": [],
+        "result": [
+          "负"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [
+          "负负"
+        ],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日024",
@@ -663,23 +727,27 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "2:1",
+      "halfScore": "2:1",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": false,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
+        "result": [
+          "胜"
+        ],
+        "goals": [
+          "3"
+        ],
         "halfFull": [],
-        "score": []
+        "score": [
+          "2:1"
+        ]
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日025",
@@ -691,23 +759,23 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "0:2",
+      "halfScore": "0:0",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
         "result": [],
-        "goals": [],
+        "goals": [
+          "2"
+        ],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日026",
@@ -719,23 +787,27 @@
       "goalsPick": "1/2/3",
       "halfFullPick": "平负/负负",
       "scorePick": "0:1/1:1/1:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "0:2",
+      "halfScore": "0:1",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
-        "halfFull": [],
+        "result": [
+          "负"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [
+          "负负"
+        ],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日027",
@@ -747,23 +819,23 @@
       "goalsPick": "3/4/5",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:1/2:2/3:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "1:2",
+      "halfScore": "0:1",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
         "result": [],
-        "goals": [],
+        "goals": [
+          "3"
+        ],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日028",
@@ -775,23 +847,25 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0/2:1/3:1",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "1:2",
+      "halfScore": "0:1",
       "hits": {
-        "result": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "goals": true,
+        "halfFull": false,
+        "score": false
       },
       "hitLabels": {
-        "result": [],
-        "goals": [],
+        "result": [
+          "让负"
+        ],
+        "goals": [
+          "3"
+        ],
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "赛果已核验"
     },
     {
       "number": "周日029",
@@ -803,9 +877,8 @@
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
-      "actualScore": "待双源核验",
-      "halfScore": "待双源核验",
-      "recommended": false,
+      "actualScore": "待官方结算",
+      "halfScore": "待官方结算",
       "hits": {
         "result": null,
         "goals": null,
@@ -818,93 +891,84 @@
         "halfFull": [],
         "score": []
       },
-      "settlementStatus": "待双源核验",
-      "review": "保留赛前原扫盘；未取得两项独立一致赛果前不计命中。"
+      "settlementStatus": "待定"
     }
   ],
   "statistics": {
     "result": {
-      "hit": 0,
-      "total": 0,
-      "pending": 29
+      "hit": 21,
+      "total": 28,
+      "pending": 1
     },
     "goals": {
-      "hit": 0,
-      "total": 0,
-      "pending": 29
+      "hit": 22,
+      "total": 28,
+      "pending": 1
     },
     "halfFull": {
-      "hit": 0,
-      "total": 0,
-      "pending": 29
+      "hit": 12,
+      "total": 28,
+      "pending": 1
     },
     "score": {
-      "hit": 0,
-      "total": 0,
-      "pending": 29
+      "hit": 10,
+      "total": 28,
+      "pending": 1
     }
   },
   "ticketReview": [
     {
       "name": "2.0版 · 未交付",
       "category": "core2",
-      "sessionLabel": "早/中/晚",
       "status": "未出",
-      "result": "未出",
       "cost": 0,
       "returned": 0,
       "net": 0,
-      "detail": "当日未形成合格正式2.0票，不赛后补票。"
+      "detail": "当日未交付。"
     },
     {
       "name": "3.0版 · 未交付",
       "category": "core3",
-      "sessionLabel": "早/中/晚",
       "status": "未出",
-      "result": "未出",
       "cost": 0,
       "returned": 0,
       "net": 0,
-      "detail": "当日未形成合格正式3.0票，不赛后补票。"
+      "detail": "当日未交付。"
     },
     {
       "name": "进球数梦想3串1 · 未交付",
       "category": "goals3",
       "status": "未出",
-      "result": "未出",
       "cost": 0,
       "returned": 0,
       "net": 0,
-      "detail": "当日未发布进球数梦想3串1。"
+      "detail": "当日未交付。"
     },
     {
       "name": "进球数梦想4串1 · 未交付",
       "category": "goals4",
       "status": "未出",
-      "result": "未出",
       "cost": 0,
       "returned": 0,
       "net": 0,
-      "detail": "当日未发布进球数梦想4串1。"
+      "detail": "当日未交付。"
     }
   ],
   "ticketTotals": {
     "cost": 0,
     "returned": 0,
     "net": 0,
-    "pendingCost": 0,
-    "note": "正式票0张，因此投入、返还、净额均为0。"
+    "pendingCost": 0
   },
   "combinations": [],
   "lessons": [
-    "14:00未完成正式四类票和手机核验，属于交付失败。",
-    "空跟踪卡不等于完成；后续必须逐类核对JSON与跟踪卡数量。",
-    "复盘不得用赛后结果反向补造2.0、3.0或梦想串。"
+    "14:00未完成四类正式票，属于交付失败。",
+    "复盘按赛前原扫盘结算，不赛后补票。"
   ],
   "sources": [
     {
-      "name": "2026-10-25不可变赛前报告",
-      "url": "data/reports/2026-10-25.json"
+      "name": "竞彩足球2026-10-25赛果表",
+      "url": "https://www.vipc.cn/results/jczq?in=article_content"
     }
   ]
 }
