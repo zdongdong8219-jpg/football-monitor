@@ -4,7 +4,7 @@
   "stage": "final",
   "completed": false,
   "mobileVerified": false,
-  "publishedAt": "2026-10-26T00:33:02.248Z",
+  "publishedAt": "2026-10-26T00:45:59.636Z",
   "originalPublishedAt": "2026-10-25T06:03:46.487Z",
   "summary": "28场已完成赛果结算，029待官方结算；扫盘方向21/28，总进球22/28，半全场12/28，比分10/28。当日正式串子0张。",
   "verification": "周日001—028按竞彩足球赛果表核验；029暂不猜测。",
@@ -15,7 +15,9 @@
       "league": "澳超",
       "teams": "悉尼FC vs 阿德莱德",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "2/3/4",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/1:2/2:2",
@@ -23,12 +25,14 @@
       "halfScore": "0:1",
       "hits": {
         "result": false,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [],
+        "speculative": [],
         "goals": [
           "3"
         ],
@@ -43,7 +47,9 @@
       "league": "日乙",
       "teams": "新潟天鹅 vs 仙台七夕",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "1/2/3",
       "halfFullPick": "平平/平胜",
       "scorePick": "1:1/1:0/2:1",
@@ -51,14 +57,16 @@
       "halfScore": "1:1",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": true,
         "halfFull": true,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "胜"
+          "推荐：胜"
         ],
+        "speculative": [],
         "goals": [
           "3"
         ],
@@ -77,7 +85,9 @@
       "league": "日职",
       "teams": "东京FC vs 水户蜀葵",
       "stars": 2,
-      "resultPick": "胜",
+      "resultPick": "推荐：胜｜模拟博：让平",
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
       "goalsPick": "1/2/3",
       "halfFullPick": "平胜/胜胜",
       "scorePick": "1:0/2:0/2:1",
@@ -85,14 +95,16 @@
       "halfScore": "1:0",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": false,
         "halfFull": true,
         "score": false
       },
       "hitLabels": {
         "result": [
-          "胜"
+          "推荐：胜"
         ],
+        "speculative": [],
         "goals": [],
         "halfFull": [
           "胜胜"
@@ -107,7 +119,9 @@
       "league": "日职",
       "teams": "川崎前锋 vs 冈山绿雉",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
@@ -115,14 +129,16 @@
       "halfScore": "1:0",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "胜"
+          "推荐：胜"
         ],
+        "speculative": [],
         "goals": [
           "3"
         ],
@@ -139,7 +155,9 @@
       "league": "荷甲",
       "teams": "福图纳 vs SBV精英",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
@@ -147,14 +165,16 @@
       "halfScore": "0:0",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": false,
         "halfFull": true,
         "score": false
       },
       "hitLabels": {
         "result": [
-          "胜"
+          "推荐：胜"
         ],
+        "speculative": [],
         "goals": [],
         "halfFull": [
           "平胜"
@@ -169,7 +189,9 @@
       "league": "意甲",
       "teams": "国际米兰 vs 佛罗伦萨",
       "stars": 2,
-      "resultPick": "胜",
+      "resultPick": "推荐：胜｜模拟博：让平",
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
       "goalsPick": "2/3/4",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0/2:1/3:1",
@@ -177,13 +199,17 @@
       "halfScore": "0:0",
       "hits": {
         "result": true,
+        "speculative": true,
         "goals": true,
         "halfFull": true,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "胜"
+          "模拟博：让平"
+        ],
+        "speculative": [
+          "让平"
         ],
         "goals": [
           "3"
@@ -203,7 +229,9 @@
       "league": "西甲",
       "teams": "毕尔巴鄂 vs 赫塔费",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "1/2/3",
       "halfFullPick": "平胜/平平",
       "scorePick": "1:0/1:1/2:1",
@@ -211,14 +239,16 @@
       "halfScore": "2:0",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": false,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [
-          "胜"
+          "推荐：胜"
         ],
+        "speculative": [],
         "goals": [],
         "halfFull": [],
         "score": []
@@ -231,7 +261,9 @@
       "league": "瑞超",
       "teams": "盖斯 vs 哥德堡",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "2/3/4",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/1:2/2:2",
@@ -239,14 +271,16 @@
       "halfScore": "1:0",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "平"
+          "推荐：平"
         ],
+        "speculative": [],
         "goals": [
           "2"
         ],
@@ -263,7 +297,9 @@
       "league": "芬超",
       "teams": "赫尔辛基 vs 库奥皮奥",
       "stars": 2,
-      "resultPick": "胜",
+      "resultPick": "推荐：胜｜模拟博：让平",
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
       "goalsPick": "2/3/4",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0/2:1/3:1",
@@ -271,12 +307,14 @@
       "halfScore": "0:0",
       "hits": {
         "result": false,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [],
+        "speculative": [],
         "goals": [
           "4"
         ],
@@ -291,7 +329,9 @@
       "league": "荷甲",
       "teams": "埃因霍温 vs 费耶诺德",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "3/4/5",
       "halfFullPick": "平胜/胜胜",
       "scorePick": "2:1/2:2/3:1",
@@ -299,12 +339,16 @@
       "halfScore": "1:0",
       "hits": {
         "result": true,
+        "speculative": true,
         "goals": false,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [
+          "模拟博：平"
+        ],
+        "speculative": [
           "平"
         ],
         "goals": [],
@@ -319,7 +363,9 @@
       "league": "挪超",
       "teams": "维京 vs 特罗姆瑟",
       "stars": 2,
-      "resultPick": "胜",
+      "resultPick": "推荐：胜｜模拟博：让平",
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
       "goalsPick": "2/3/4",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0/2:1/3:1",
@@ -327,14 +373,16 @@
       "halfScore": "3:0",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": true,
         "halfFull": true,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "胜"
+          "推荐：胜"
         ],
+        "speculative": [],
         "goals": [
           "4"
         ],
@@ -353,7 +401,9 @@
       "league": "英超",
       "teams": "赫尔城 vs 布伦特",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "1/2/3",
       "halfFullPick": "平负/负负",
       "scorePick": "0:1/1:1/1:2",
@@ -361,14 +411,16 @@
       "halfScore": "1:0",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "平"
+          "推荐：平"
         ],
+        "speculative": [],
         "goals": [
           "2"
         ],
@@ -385,7 +437,9 @@
       "league": "英超",
       "teams": "水晶宫 vs 纽卡斯尔",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "2/3/4",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/1:2/2:2",
@@ -393,12 +447,16 @@
       "halfScore": "0:0",
       "hits": {
         "result": true,
+        "speculative": true,
         "goals": true,
         "halfFull": true,
         "score": false
       },
       "hitLabels": {
         "result": [
+          "模拟博：负"
+        ],
+        "speculative": [
           "负"
         ],
         "goals": [
@@ -417,7 +475,9 @@
       "league": "英超",
       "teams": "曼联 vs 伯恩茅斯",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
@@ -425,12 +485,14 @@
       "halfScore": "0:2",
       "hits": {
         "result": false,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [],
+        "speculative": [],
         "goals": [
           "3"
         ],
@@ -445,7 +507,9 @@
       "league": "意甲",
       "teams": "热那亚 vs 威尼斯",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "1/2/3",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/0:1/1:2",
@@ -453,12 +517,14 @@
       "halfScore": "1:0",
       "hits": {
         "result": false,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [],
+        "speculative": [],
         "goals": [
           "1"
         ],
@@ -473,7 +539,9 @@
       "league": "意甲",
       "teams": "亚特兰大 vs 弗洛西诺",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
@@ -481,12 +549,16 @@
       "halfScore": "3:2",
       "hits": {
         "result": true,
+        "speculative": true,
         "goals": false,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [
+          "模拟博：平"
+        ],
+        "speculative": [
           "平"
         ],
         "goals": [],
@@ -501,7 +573,9 @@
       "league": "法甲",
       "teams": "摩纳哥 vs 里尔",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "1/2/3",
       "halfFullPick": "平平/平负",
       "scorePick": "1:1/0:1/1:2",
@@ -509,14 +583,16 @@
       "halfScore": "0:1",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "平"
+          "推荐：平"
         ],
+        "speculative": [],
         "goals": [
           "2"
         ],
@@ -533,7 +609,9 @@
       "league": "德甲",
       "teams": "霍芬海姆 vs 勒沃库森",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "3/4/5",
       "halfFullPick": "平负/平平",
       "scorePick": "1:2/2:2/2:3",
@@ -541,12 +619,14 @@
       "halfScore": "0:0",
       "hits": {
         "result": false,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [],
+        "speculative": [],
         "goals": [
           "3"
         ],
@@ -561,7 +641,9 @@
       "league": "西甲",
       "teams": "塞尔塔 vs 贝蒂斯",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "1/2/3",
       "halfFullPick": "平负/平平",
       "scorePick": "0:1/1:1/1:2",
@@ -569,14 +651,16 @@
       "halfScore": "0:0",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": false,
         "halfFull": true,
         "score": false
       },
       "hitLabels": {
         "result": [
-          "平"
+          "推荐：平"
         ],
+        "speculative": [],
         "goals": [],
         "halfFull": [
           "平平"
@@ -591,7 +675,9 @@
       "league": "法甲",
       "teams": "雷恩 vs 斯特拉斯",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/胜胜",
       "scorePick": "2:1/1:1/2:2",
@@ -599,14 +685,16 @@
       "halfScore": "2:0",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": true,
         "halfFull": true,
         "score": false
       },
       "hitLabels": {
         "result": [
-          "胜"
+          "推荐：胜"
         ],
+        "speculative": [],
         "goals": [
           "3"
         ],
@@ -623,7 +711,9 @@
       "league": "英超",
       "teams": "桑德兰 vs 利兹联",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "0/1/2",
       "halfFullPick": "平平/平胜",
       "scorePick": "0:0/1:0/1:1",
@@ -631,12 +721,16 @@
       "halfScore": "0:0",
       "hits": {
         "result": true,
+        "speculative": true,
         "goals": true,
         "halfFull": true,
         "score": true
       },
       "hitLabels": {
         "result": [
+          "模拟博：平"
+        ],
+        "speculative": [
           "平"
         ],
         "goals": [
@@ -657,7 +751,9 @@
       "league": "德甲",
       "teams": "弗赖堡 vs 拜仁",
       "stars": 2,
-      "resultPick": "负",
+      "resultPick": "推荐：负｜模拟博：让平",
+      "recommendedPick": "负",
+      "speculativePick": "让平",
       "goalsPick": "3/4/5",
       "halfFullPick": "负负/平负",
       "scorePick": "0:3/1:3/1:4",
@@ -665,14 +761,16 @@
       "halfScore": "0:2",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": true,
         "halfFull": true,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "负"
+          "推荐：负"
         ],
+        "speculative": [],
         "goals": [
           "4"
         ],
@@ -691,7 +789,9 @@
       "league": "意甲",
       "teams": "莱切 vs 尤文图斯",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "1/2/3",
       "halfFullPick": "平负/负负",
       "scorePick": "0:1/1:1/1:2",
@@ -699,12 +799,16 @@
       "halfScore": "0:2",
       "hits": {
         "result": true,
+        "speculative": true,
         "goals": true,
         "halfFull": true,
         "score": false
       },
       "hitLabels": {
         "result": [
+          "模拟博：负"
+        ],
+        "speculative": [
           "负"
         ],
         "goals": [
@@ -723,7 +827,9 @@
       "league": "西甲",
       "teams": "皇家社会 vs 莱万特",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
@@ -731,14 +837,16 @@
       "halfScore": "2:1",
       "hits": {
         "result": true,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": true
       },
       "hitLabels": {
         "result": [
-          "胜"
+          "推荐：胜"
         ],
+        "speculative": [],
         "goals": [
           "3"
         ],
@@ -755,7 +863,9 @@
       "league": "荷甲",
       "teams": "阿尔克马 vs 特温特",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
@@ -763,12 +873,14 @@
       "halfScore": "0:0",
       "hits": {
         "result": false,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [],
+        "speculative": [],
         "goals": [
           "2"
         ],
@@ -783,7 +895,9 @@
       "league": "意甲",
       "teams": "乌迪内斯 vs AC米兰",
       "stars": 1,
-      "resultPick": "平/负",
+      "resultPick": "推荐：平/负｜模拟博：负",
+      "recommendedPick": "平/负",
+      "speculativePick": "负",
       "goalsPick": "1/2/3",
       "halfFullPick": "平负/负负",
       "scorePick": "0:1/1:1/1:2",
@@ -791,12 +905,16 @@
       "halfScore": "0:1",
       "hits": {
         "result": true,
+        "speculative": true,
         "goals": true,
         "halfFull": true,
         "score": false
       },
       "hitLabels": {
         "result": [
+          "模拟博：负"
+        ],
+        "speculative": [
           "负"
         ],
         "goals": [
@@ -815,7 +933,9 @@
       "league": "西甲",
       "teams": "巴萨 vs 皇马",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "3/4/5",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:1/2:2/3:2",
@@ -823,12 +943,14 @@
       "halfScore": "0:1",
       "hits": {
         "result": false,
+        "speculative": false,
         "goals": true,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [],
+        "speculative": [],
         "goals": [
           "3"
         ],
@@ -843,7 +965,9 @@
       "league": "葡超",
       "teams": "里斯本 vs 维塞乌",
       "stars": 1,
-      "resultPick": "让平/让负",
+      "resultPick": "推荐：让平/让负｜模拟博：让负",
+      "recommendedPick": "让平/让负",
+      "speculativePick": "让负",
       "goalsPick": "2/3/4",
       "halfFullPick": "胜胜/平胜",
       "scorePick": "2:0/2:1/3:1",
@@ -851,12 +975,16 @@
       "halfScore": "0:1",
       "hits": {
         "result": true,
+        "speculative": true,
         "goals": true,
         "halfFull": false,
         "score": false
       },
       "hitLabels": {
         "result": [
+          "模拟博：让负"
+        ],
+        "speculative": [
           "让负"
         ],
         "goals": [
@@ -873,7 +1001,9 @@
       "league": "美职",
       "teams": "洛杉矶FC vs 洛城银河",
       "stars": 1,
-      "resultPick": "胜/平",
+      "resultPick": "推荐：胜/平｜模拟博：平",
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
@@ -881,12 +1011,14 @@
       "halfScore": "待官方结算",
       "hits": {
         "result": null,
+        "speculative": null,
         "goals": null,
         "halfFull": null,
         "score": null
       },
       "hitLabels": {
         "result": [],
+        "speculative": [],
         "goals": [],
         "halfFull": [],
         "score": []
