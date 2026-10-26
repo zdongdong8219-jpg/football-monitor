@@ -2,12 +2,12 @@
   "date": "2026-10-25",
   "title": "FT足球竞彩模型 · 最终复盘",
   "stage": "final",
-  "completed": false,
+  "completed": true,
   "mobileVerified": false,
-  "publishedAt": "2026-10-26T01:20:08.718Z",
+  "publishedAt": "2026-10-26T04:21:19.971Z",
   "originalPublishedAt": "2026-10-25T06:03:46.487Z",
-  "summary": "28场已完成赛果结算，029待官方结算；扫盘方向21/28，总进球22/28，半全场12/28，比分10/28。当日正式串子0张。",
-  "verification": "周日001—028按竞彩足球赛果表核验；029暂不猜测。",
+  "summary": "29场已完成赛果结算；扫盘方向22/29，总进球23/29，半全场12/29，比分11/29。当日正式串子0张。",
+  "verification": "周日001—029按竞彩足球赛果表核验完成。",
   "rows": [
     {
       "number": "周日001",
@@ -1050,52 +1050,58 @@
       "league": "美职",
       "teams": "洛杉矶FC vs 洛城银河",
       "stars": 1,
-      "resultPick": "推荐：胜/平｜模拟博：平",
+      "resultPick": "推荐：胜/平｜博：无",
       "recommendedPick": "胜/平",
-      "speculativePick": "平",
+      "speculativePick": "无",
       "goalsPick": "2/3/4",
       "halfFullPick": "平胜/平平",
       "scorePick": "2:1/1:1/2:2",
-      "recommendationHit": null,
-      "actualScore": "待官方结算",
-      "halfScore": "待官方结算",
+      "recommendationHit": true,
+      "actualScore": "2:2",
+      "halfScore": "0:1",
       "hits": {
-        "result": null,
-        "speculative": null,
-        "goals": null,
-        "halfFull": null,
-        "score": null
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": false,
+        "score": true
       },
       "hitLabels": {
-        "result": [],
+        "result": [
+          "推荐：平"
+        ],
         "speculative": [],
-        "goals": [],
+        "goals": [
+          "4"
+        ],
         "halfFull": [],
-        "score": []
+        "score": [
+          "2:2"
+        ]
       },
-      "settlementStatus": "待定"
+      "settlementStatus": "赛果已核验"
     }
   ],
   "statistics": {
     "result": {
-      "hit": 21,
-      "total": 28,
-      "pending": 1
+      "hit": 22,
+      "total": 29,
+      "pending": 0
     },
     "goals": {
-      "hit": 22,
-      "total": 28,
-      "pending": 1
+      "hit": 23,
+      "total": 29,
+      "pending": 0
     },
     "halfFull": {
       "hit": 12,
-      "total": 28,
-      "pending": 1
+      "total": 29,
+      "pending": 0
     },
     "score": {
-      "hit": 10,
-      "total": 28,
-      "pending": 1
+      "hit": 11,
+      "total": 29,
+      "pending": 0
     }
   },
   "ticketReview": [
