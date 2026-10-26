@@ -39,7 +39,7 @@
     const tableWidth=widths.reduce((a,b)=>a+b,0),posterWidth=1244;
     const threeScores=v=>{const scores=plain(Array.isArray(v)?v.join('；'):v).match(/\d+\s*[:：-]\s*\d+/g);return scores?.length?scores.slice(0,3).map(s=>s.replace(/\s/g,'').replace(/[：-]/,':')).join('；'):plain(v)||'—'};
     const league=r=>String(r.league||'—').replace('欧洲协会联赛','欧协联').replace('解放者杯','解放杯');
-    const getCells=r=>{const shown=plain(reviewPick(r)).split('\n'),base=reviewMode?(r.recommendedPick||shown[0].replace(/^推荐[:：]/,'')):(r.primaryPick||r.buy||r.selection||'待分析'),spec=reviewMode?(r.speculativePick||shown[1]?.replace(/^模拟博[:：]/,'')||'—'):(r.speculative||'无');const rating=Number(r.stars??r.confidenceStars)||0,marked=rating>0?`${base} ${'★'.repeat(Math.min(3,rating))}`:base;return reviewMode?[r.number,r.time,league(r),r.teams,marked,spec,r.goalsPick,r.halfFullPick,threeScores(r.scorePick),r.actualScore||'待定']:[r.number,(r.kickoff||'').replace('T',' ').slice(5,16),league(r),r.teams||[r.home,r.away].join(' : '),marked,spec,r.goals||r.goalRange||'—',r.halfFull||r.halfTimePrediction||'—',threeScores(r.score||r.predictedScore),'待定']};
+    const getCells=r=>{const shown=plain(reviewPick(r)).split('\n'),base=reviewMode?(r.recommendedPick||shown[0].replace(/^推荐[:：]/,'')):(r.primaryPick||r.buy||r.selection||'待分析'),spec=reviewMode?`博：${r.speculativePick||shown[1]?.replace(/^模拟博[:：]/,'')||'—'}`:`博：${r.speculative||'无'}`;const rating=Number(r.stars??r.confidenceStars)||0,marked=rating>0?`${base} ${'★'.repeat(Math.min(3,rating))}`:base;return reviewMode?[r.number,r.time,league(r),r.teams,marked,spec,r.goalsPick,r.halfFullPick,threeScores(r.scorePick),r.actualScore||'待定']:[r.number,(r.kickoff||'').replace('T',' ').slice(5,16),league(r),r.teams||[r.home,r.away].join(' : '),marked,spec,r.goals||r.goalRange||'—',r.halfFull||r.halfTimePrediction||'—',threeScores(r.score||r.predictedScore),'待定']};
     probe.font=`18px ${FONT}`;const cells=rows.map(getCells),rowHeights=cells.map(a=>Math.max(66,...a.map((s,i)=>wrap(probe,s,widths[i]-14).length*27+18)));
     const groupGap=56,recommendEnd=260+ticketBlocks.reduce((a,b)=>a+b.h,0)+groupGap,scanTop=recommendEnd+145,tableTop=scanTop+165,height=tableTop+68+rowHeights.reduce((a,b)=>a+b,0)+170;
     const {canvas,ctx}=setup(height,posterWidth);
@@ -85,6 +85,7 @@
   if(currentReview?.rows?.length)renderReview(currentReview);
   schedule();
 })();
+
 
 
 
