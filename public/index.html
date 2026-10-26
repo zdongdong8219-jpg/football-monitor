@@ -382,12 +382,10 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     renderScanTable=function(state,report){originalScan(state,report);
       $('copyPoster').disabled=!currentScanRows.length;
       const table=$('scanTable').querySelector('table');if(!table)return;
-      Array.from(table.tBodies[0].rows).forEach((tr,i)=>{const row=currentScanRows[i],cell=tr.cells[3];
-        const primary=row.primaryPick||row.buy||row.selection||'待分析';
-        const secondary=row.secondaryPick||'';
-        const stars=row.stronglyRecommended?'★★':Number(row.stars)>=3?'★':'';
-        cell.innerHTML='<strong>推荐：'+esc(primary)+'</strong><span class="direction-star">'+stars+'</span>'+(secondary?'<small>次选：'+esc(secondary)+'</small>':'')+'<small>博：'+esc(row.speculative||'无')+'</small>';
-      });
+      const projectStar=(row,key)=>{const n=row.projectStarColors?.[key]==='red'?Math.max(0,Math.min(3,Number(row.projectStars?.[key])||0)):0;return n?'<span style="color:#ff3b30" data-project="'+key+'">'+'★'.repeat(n)+'</span>':''};
+      Array.from(table.tBodies[0].rows).forEach((tr,i)=>{const row=currentScanRows[i];tr.cells[3].innerHTML='<strong>推荐：'+esc(row.primaryPick||row.buy||row.selection||'待分析')+'</strong>'+projectStar(row,'direction')+'<small>博：'+esc(row.speculative||'无')+projectStar(row,'speculative')+'</small>';[['goals',4],['halfFull',5],['score',6]].forEach(([key,index])=>{tr.cells[index].innerHTML=esc(row[key]||'—')+projectStar(row,key)});tr.cells[7].textContent='';tr.cells[7].setAttribute('aria-label','按项目独立评星');});
+      if(report?.date>='2026-10-26'){document.getElementById('dreamRules').hidden=true;let status=document.getElementById('formalTicketStatus');if(!status){status=document.createElement('section');status.id='formalTicketStatus';document.getElementById('recommendations').after(status)}status.innerHTML='<h3>四类正式票审核</h3>'+(report.ticketClassStatus||[]).map(x=>'<p><strong>'+esc(x.name)+'：'+esc(x.status)+'</strong><br>'+esc(x.reason)+'</p>').join('');}
+
     };
     const originalTableImage=tableImageBlob;
     tableImageBlob=async function(reviewMode=false){
