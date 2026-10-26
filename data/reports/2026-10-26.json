@@ -1,19 +1,2341 @@
 {
   "date": "2026-10-26",
   "saleDate": "2026-10-26",
-  "generatedAt": "2026-10-26T06:05:14.509Z",
-  "publishedAt": "2026-10-26T06:05:14.509Z",
-  "dataAsOf": "2026-10-26T05:58:13.567Z",
-  "edition": "14:00变化补漏核验",
-  "batchLabel": "晚场001—004",
+  "generatedAt": "2026-10-26T07:15:01.852Z",
+  "publishedAt": "2026-10-26T07:15:01.852Z",
+  "dataAsOf": "2026-10-26 14:59:41",
+  "edition": "当日最终版",
+  "batchLabel": "晚场四类正式票",
   "rulesVersion": "2026-10-26",
-  "status": "full-scan-formal-tickets-withheld",
-  "summary": "14:00已复核4场、5组盘口变化；官方比赛正文无实质新增，阵容缺口未补齐。四类票均未出，具体淘汰原因保留；未完成正式出单。五项原0星与双选顺序保持。",
-  "finalLocked": false,
+  "status": "final-high-risk-four-ticket-types",
+  "summary": "最终版：2.0版2串1、3.0版2串1、全进球数梦想3串1及4串1各1张，全部进入今日跟踪。四张均高风险、不建议重注；现有伤停与轮换证据缺口如实保留。五项均0星，无白星，原双选顺序不变。",
+  "finalLocked": true,
   "mobileVerified": false,
-  "completed": false,
-  "researchComplete": false,
-  "recommendations": [],
+  "completed": true,
+  "researchComplete": true,
+  "recommendations": [
+    {
+      "id": "2026-10-26-final-core20",
+      "date": "2026-10-26",
+      "saleDate": "2026-10-26",
+      "name": "晚场2.0版2串1",
+      "category": "core20",
+      "trackingTier": "2.0版",
+      "sessionLabel": "晚场",
+      "batch": "C",
+      "passType": "2串1",
+      "passSizes": [
+        2
+      ],
+      "status": "待定",
+      "approved": true,
+      "nonBanker": true,
+      "stars": 0,
+      "stronglyRecommended": false,
+      "riskLevel": "high",
+      "riskLabel": "高风险，不建议重注",
+      "legs": [
+        {
+          "number": "周一003",
+          "matchId": 2042244,
+          "monitorMatchId": 3013740,
+          "saleDate": "2026-10-26",
+          "teams": "塞维利亚 vs 奥萨苏纳",
+          "market": "HAD",
+          "handicap": 0,
+          "selection": "胜",
+          "selectionText": "胜",
+          "options": [
+            {
+              "key": "h",
+              "label": "胜",
+              "odds": 1.68
+            }
+          ],
+          "odds": 1.68,
+          "selectionReason": "高风险：主队对抗与推进占优，客队缺Aimar等创造者；主队完整名单未核齐。",
+          "lossPaths": [
+            "奥萨苏纳定位球或Budimir支点破门，塞维利亚平或负即失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://www.osasuna.es/osasuna-sevilla-jagoba-arrasate-rueda-prensa-previa",
+              "hash": "48b2e478b84f78482fb173335b00b57b4b0f81ed6d9122a7d86bb7c947f0677a",
+              "checkedAt": "2026-10-26T05:03:23.018Z"
+            },
+            {
+              "url": "https://www.osasuna.es/osasuna-convocatoria-sevilla-jornada10",
+              "hash": "490d4ac9bcf957f37df27b5f9b572573355333dea678a9169797e4e394a88aa2",
+              "checkedAt": "2026-10-26T05:03:22.990Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": false,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        },
+        {
+          "number": "周一004",
+          "matchId": 2042245,
+          "monitorMatchId": 2910940,
+          "saleDate": "2026-10-26",
+          "teams": "弗拉门戈 vs 米竞技",
+          "market": "HAD",
+          "handicap": 0,
+          "selection": "胜",
+          "selectionText": "胜",
+          "options": [
+            {
+              "key": "h",
+              "label": "胜",
+              "odds": 1.19
+            }
+          ],
+          "odds": 1.19,
+          "selectionReason": "高风险：Paquetá后插上与联赛进攻产量支持主胜；洲际赛破密防失败和轮换是反证。",
+          "lossPaths": [
+            "弗拉门戈进攻疲劳或破密防失败，平或负即失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://www.flamengo.com.br/noticias/futebol/flamengo-luta-ate-o-fim-mas-e-eliminado-pelo-estudiantes-nos-penaltis-na-libertadores",
+              "hash": "b24c70e5b03465b680c2181433755b0789ca231683a76ea28561d4814fa3b6c0",
+              "checkedAt": "2026-10-26T05:03:23.536Z"
+            },
+            {
+              "url": "https://www.flamengo.com.br/noticias/futebol/lucas-paqueta-alcanca-temporada-mais-artilheira-da-carreira",
+              "hash": "5da608edc589b4c9b3b20f739140c06d531d5030d45f9b1cccbc0b86c334d507",
+              "checkedAt": "2026-10-26T05:03:23.693Z"
+            },
+            {
+              "url": "https://atletico.com.br/galo-e-finalista-da-conmebol-sul-americana/",
+              "hash": "da2f88c0156ed7491f55ada768ecc000370ab1bf7c10c5944f0706d367f7374d",
+              "checkedAt": "2026-10-26T05:03:52.069Z"
+            },
+            {
+              "url": "https://www.flamengo.com.br/noticias/futebol/agenda-do-futebol-profissional-26-10-2026-a-01-11-2026",
+              "hash": "b19aa968411504fe5239c5a5d452371115ed46cabb327f3367756580a9721070",
+              "checkedAt": "2026-10-26T05:03:53.250Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": false,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        }
+      ],
+      "selectionText": "周一003[胜] × 周一004[胜]",
+      "combinationCount": 1,
+      "betCount": 1,
+      "unitStake": 2,
+      "multiplier": 1,
+      "totalCost": 2,
+      "subTickets": [
+        {
+          "id": "2026-10-26-final-core20-1",
+          "name": "子票1",
+          "passType": "2串1",
+          "selections": [
+            {
+              "number": "周一003",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.68
+            },
+            {
+              "number": "周一004",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "h",
+              "label": "胜",
+              "odds": 1.19
+            }
+          ],
+          "selectionText": "周一003[胜] × 周一004[胜]",
+          "stake": 2,
+          "odds": 1.9992,
+          "return": 3.9984,
+          "net": 1.9984,
+          "returnText": "命中本分支返还约4.00元；扣整票成本净2.00元"
+        }
+      ],
+      "conditionalReturn": {
+        "min": 3.9984,
+        "max": 3.9984
+      },
+      "conditionalNet": {
+        "min": 1.9984,
+        "max": 1.9984
+      },
+      "effectiveReturnRatio": {
+        "min": 1.9992,
+        "max": 1.9992
+      },
+      "uncoveredReturn": 0,
+      "uncoveredNet": -2,
+      "structureText": "1选 × 1选 = 1注；每注2元、1倍",
+      "oddsText": "高风险·不建议重注｜1注×2元；整票条件返还1.9992倍",
+      "effectiveReturnText": "全部腿命中所选范围时，仅对应1条子票中奖，返还约4.00元；整票成本2元。任一腿不符返还0元。",
+      "coverageText": "各腿必须全部命中；不含其他关数。梦想串部分腿命中不算整串中；最高分支不是整票保证回报。",
+      "risk": "高风险，不建议重注。先选003普通胜作为优先主方向，再配004普通胜；两者均有真实反证，因此只做相对优选，不称稳单。2.0为版本名，当前实际返还1.9992倍。 奥萨苏纳定位球或Budimir支点破门，塞维利亚平或负即失败。 弗拉门戈进攻疲劳或破密防失败，平或负即失败。",
+      "lossPaths": [
+        "奥萨苏纳定位球或Budimir支点破门，塞维利亚平或负即失败。",
+        "弗拉门戈进攻疲劳或破密防失败，平或负即失败。"
+      ],
+      "selectionReason": "先选003普通胜作为优先主方向，再配004普通胜；两者均有真实反证，因此只做相对优选，不称稳单。2.0为版本名，当前实际返还1.9992倍。",
+      "oddsAsOf": "2026-10-26 14:59:41",
+      "lockedAt": "2026-10-26T07:15:01.852Z",
+      "notPurchased": true,
+      "settlementBasis": "以官方实际出票赔率及结算为准；此处仅分析记录，未假定购买。"
+    },
+    {
+      "id": "2026-10-26-final-core30",
+      "date": "2026-10-26",
+      "saleDate": "2026-10-26",
+      "name": "晚场3.0版2串1",
+      "category": "core30",
+      "trackingTier": "3.0版",
+      "sessionLabel": "晚场",
+      "batch": "C",
+      "passType": "2串1",
+      "passSizes": [
+        2
+      ],
+      "status": "待定",
+      "approved": true,
+      "nonBanker": true,
+      "stars": 0,
+      "stronglyRecommended": false,
+      "riskLevel": "high",
+      "riskLabel": "高风险，不建议重注",
+      "legs": [
+        {
+          "number": "周一001",
+          "matchId": 2042242,
+          "monitorMatchId": 3023509,
+          "saleDate": "2026-10-26",
+          "teams": "圣克拉拉 vs 本菲卡",
+          "market": "HAD",
+          "handicap": 0,
+          "selection": "负",
+          "selectionText": "负",
+          "options": [
+            {
+              "key": "a",
+              "label": "负",
+              "odds": 1.22
+            }
+          ],
+          "odds": 1.22,
+          "selectionReason": "高风险：本菲卡多点进攻为主方向；本票主动承担平局风险，扫盘负/平保险不代表本票覆盖。",
+          "lossPaths": [
+            "圣克拉拉低位组织、定位球或本菲卡中场减员造成主队不败即失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://cdsantaclara.com/jogar-olhos-nos-olhos-petit/",
+              "hash": "60d60039ef1e9178b1fefa85aac4e76fb719b3ff7565e23540d8028c25ea3cf2",
+              "checkedAt": "2026-10-26T05:03:23.974Z"
+            },
+            {
+              "url": "https://cdsantaclara.com/vinicius-lopes-queremos-mostrar-a-nossa-melhor-versao/",
+              "hash": "3848007180563a74c2b2a2fd420e8dc21c65aa74aeb090acece43b2516768bc3",
+              "checkedAt": "2026-10-26T05:03:24.377Z"
+            },
+            {
+              "url": "https://www.slbenfica.pt/pt-pt/",
+              "hash": "ac94dbf6dff24e9c814bd98445469ad99851955fb15cd7162161c218dca3a7cb",
+              "checkedAt": "2026-10-26T05:03:28.815Z"
+            },
+            {
+              "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/10/25/futebol-marco-silva-antevisao-santa-clara-benfica-9-jornada-liga-betclic",
+              "hash": "9e3cb431222ed7abadcc9bf1e7af1236529c1b8d3a3dd9011df334908e511ac3",
+              "checkedAt": "2026-10-26T05:03:58.758Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": false,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        },
+        {
+          "number": "周一002",
+          "matchId": 2042243,
+          "monitorMatchId": 2997753,
+          "saleDate": "2026-10-26",
+          "teams": "布洛涅 vs 兰斯",
+          "market": "HAD",
+          "handicap": 0,
+          "selection": "平",
+          "selectionText": "平",
+          "options": [
+            {
+              "key": "d",
+              "label": "平",
+              "odds": 3.05
+            }
+          ],
+          "odds": 3.05,
+          "selectionReason": "高风险：主队第二防守与压迫、双方107次射门支持僵持；采用独立博平，并非把低赔率当优势。",
+          "lossPaths": [
+            "兰斯效率延续赢球或布洛涅压迫爆冷，任一方获胜均失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://www.stade-de-reims.com/usbco-sdr-le-groupe-remois-2/",
+              "hash": "38250182d9e7cc98e96c79fa2ac02dadbbd9ddbf5c31d91887144d81d3433273",
+              "checkedAt": "2026-10-26T05:03:23.361Z"
+            },
+            {
+              "url": "https://www.stade-de-reims.com/usbco-sdr-ladversaire-a-la-loupe-2/",
+              "hash": "9437d9dca71d63937421b557c6aadb42169e7f57156c61c458d6582ff714b31c",
+              "checkedAt": "2026-10-26T05:03:23.352Z"
+            },
+            {
+              "url": "https://www.stade-de-reims.com/la-conf-avant-usbco-sdr-2/",
+              "hash": "7a7ebc83d6ed9b3a4835f7bd7ae96cc21b7e198d2c6d9d0225885f08a03ef169",
+              "checkedAt": "2026-10-26T05:03:23.327Z"
+            },
+            {
+              "url": "https://www.stade-de-reims.com/equipe-premiere-masculine-0/",
+              "hash": "af9e359da18a9ffcf4370582cdad22ac46c95d263112b688d0de98da38f5f0f0",
+              "checkedAt": "2026-10-26T05:03:53.608Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": false,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        }
+      ],
+      "selectionText": "周一001[负] × 周一002[平]",
+      "combinationCount": 1,
+      "betCount": 1,
+      "unitStake": 2,
+      "multiplier": 1,
+      "totalCost": 2,
+      "subTickets": [
+        {
+          "id": "2026-10-26-final-core30-1",
+          "name": "子票1",
+          "passType": "2串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "a",
+              "label": "负",
+              "odds": 1.22
+            },
+            {
+              "number": "周一002",
+              "market": "HAD",
+              "handicap": 0,
+              "key": "d",
+              "label": "平",
+              "odds": 3.05
+            }
+          ],
+          "selectionText": "周一001[负] × 周一002[平]",
+          "stake": 2,
+          "odds": 3.721,
+          "return": 7.442,
+          "net": 5.442,
+          "returnText": "命中本分支返还约7.44元；扣整票成本净5.44元"
+        }
+      ],
+      "conditionalReturn": {
+        "min": 7.442,
+        "max": 7.442
+      },
+      "conditionalNet": {
+        "min": 5.442,
+        "max": 5.442
+      },
+      "effectiveReturnRatio": {
+        "min": 3.721,
+        "max": 3.721
+      },
+      "uncoveredReturn": 0,
+      "uncoveredNet": -2,
+      "structureText": "1选 × 1选 = 1注；每注2元、1倍",
+      "oddsText": "高风险·不建议重注｜1注×2元；整票条件返还3.7210倍",
+      "effectiveReturnText": "全部腿命中所选范围时，仅对应1条子票中奖，返还约7.44元；整票成本2元。任一腿不符返还0元。",
+      "coverageText": "各腿必须全部命中；不含其他关数。梦想串部分腿命中不算整串中；最高分支不是整票保证回报。",
+      "risk": "高风险，不建议重注。与2.0不共用场次；001取常规客胜，002依据既有独立攻防分析取平，胜负与平局同时发生才命中。放弃001平局保险的风险明示，不以凑3倍或升级净胜球为依据。 圣克拉拉低位组织、定位球或本菲卡中场减员造成主队不败即失败。 兰斯效率延续赢球或布洛涅压迫爆冷，任一方获胜均失败。",
+      "lossPaths": [
+        "圣克拉拉低位组织、定位球或本菲卡中场减员造成主队不败即失败。",
+        "兰斯效率延续赢球或布洛涅压迫爆冷，任一方获胜均失败。"
+      ],
+      "selectionReason": "与2.0不共用场次；001取常规客胜，002依据既有独立攻防分析取平，胜负与平局同时发生才命中。放弃001平局保险的风险明示，不以凑3倍或升级净胜球为依据。",
+      "oddsAsOf": "2026-10-26 14:59:41",
+      "lockedAt": "2026-10-26T07:15:01.852Z",
+      "notPurchased": true,
+      "settlementBasis": "以官方实际出票赔率及结算为准；此处仅分析记录，未假定购买。"
+    },
+    {
+      "id": "2026-10-26-final-goals3",
+      "date": "2026-10-26",
+      "saleDate": "2026-10-26",
+      "name": "全进球数梦想3串1",
+      "category": "goals3",
+      "trackingTier": "全进球数梦想3串1",
+      "sessionLabel": "晚场",
+      "batch": "C",
+      "passType": "3串1",
+      "passSizes": [
+        3
+      ],
+      "status": "待定",
+      "approved": true,
+      "nonBanker": true,
+      "stars": 0,
+      "stronglyRecommended": false,
+      "riskLevel": "high",
+      "riskLabel": "高风险，不建议重注",
+      "legs": [
+        {
+          "number": "周一001",
+          "matchId": 2042242,
+          "monitorMatchId": 3023509,
+          "saleDate": "2026-10-26",
+          "teams": "圣克拉拉 vs 本菲卡",
+          "market": "TTG",
+          "handicap": 0,
+          "selection": "2/3",
+          "selectionText": "2/3",
+          "options": [
+            {
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            }
+          ],
+          "odds": [
+            3.6,
+            3.05
+          ],
+          "selectionReason": "高风险：主队组织与本菲卡进攻强弱差取2/3球；短休与中场缺席可能导致0/1球或4+，未覆盖。",
+          "lossPaths": [
+            "实际总进球不在2/3范围内，本腿及整串失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://cdsantaclara.com/jogar-olhos-nos-olhos-petit/",
+              "hash": "60d60039ef1e9178b1fefa85aac4e76fb719b3ff7565e23540d8028c25ea3cf2",
+              "checkedAt": "2026-10-26T05:03:23.974Z"
+            },
+            {
+              "url": "https://cdsantaclara.com/vinicius-lopes-queremos-mostrar-a-nossa-melhor-versao/",
+              "hash": "3848007180563a74c2b2a2fd420e8dc21c65aa74aeb090acece43b2516768bc3",
+              "checkedAt": "2026-10-26T05:03:24.377Z"
+            },
+            {
+              "url": "https://www.slbenfica.pt/pt-pt/",
+              "hash": "ac94dbf6dff24e9c814bd98445469ad99851955fb15cd7162161c218dca3a7cb",
+              "checkedAt": "2026-10-26T05:03:28.815Z"
+            },
+            {
+              "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/10/25/futebol-marco-silva-antevisao-santa-clara-benfica-9-jornada-liga-betclic",
+              "hash": "9e3cb431222ed7abadcc9bf1e7af1236529c1b8d3a3dd9011df334908e511ac3",
+              "checkedAt": "2026-10-26T05:03:58.758Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        },
+        {
+          "number": "周一002",
+          "matchId": 2042243,
+          "monitorMatchId": 2997753,
+          "saleDate": "2026-10-26",
+          "teams": "布洛涅 vs 兰斯",
+          "market": "TTG",
+          "handicap": 0,
+          "selection": "2/1",
+          "selectionText": "2/1",
+          "options": [
+            {
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            }
+          ],
+          "odds": [
+            2.95,
+            4.3
+          ],
+          "selectionReason": "高风险：低失球与压迫取2/1球；兰斯效率回归仍不确定，0球或3+均未覆盖。",
+          "lossPaths": [
+            "实际总进球不在2/1范围内，本腿及整串失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://www.stade-de-reims.com/usbco-sdr-le-groupe-remois-2/",
+              "hash": "38250182d9e7cc98e96c79fa2ac02dadbbd9ddbf5c31d91887144d81d3433273",
+              "checkedAt": "2026-10-26T05:03:23.361Z"
+            },
+            {
+              "url": "https://www.stade-de-reims.com/usbco-sdr-ladversaire-a-la-loupe-2/",
+              "hash": "9437d9dca71d63937421b557c6aadb42169e7f57156c61c458d6582ff714b31c",
+              "checkedAt": "2026-10-26T05:03:23.352Z"
+            },
+            {
+              "url": "https://www.stade-de-reims.com/la-conf-avant-usbco-sdr-2/",
+              "hash": "7a7ebc83d6ed9b3a4835f7bd7ae96cc21b7e198d2c6d9d0225885f08a03ef169",
+              "checkedAt": "2026-10-26T05:03:23.327Z"
+            },
+            {
+              "url": "https://www.stade-de-reims.com/equipe-premiere-masculine-0/",
+              "hash": "af9e359da18a9ffcf4370582cdad22ac46c95d263112b688d0de98da38f5f0f0",
+              "checkedAt": "2026-10-26T05:03:53.608Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        },
+        {
+          "number": "周一003",
+          "matchId": 2042244,
+          "monitorMatchId": 3013740,
+          "saleDate": "2026-10-26",
+          "teams": "塞维利亚 vs 奥萨苏纳",
+          "market": "TTG",
+          "handicap": 0,
+          "selection": "2/1",
+          "selectionText": "2/1",
+          "options": [
+            {
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            }
+          ],
+          "odds": [
+            3.15,
+            3.9
+          ],
+          "selectionReason": "高风险：客队创造者缺席与主队对抗优势取2/1球；Budimir和定位球可推高到3+，未覆盖。",
+          "lossPaths": [
+            "实际总进球不在2/1范围内，本腿及整串失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://www.osasuna.es/osasuna-sevilla-jagoba-arrasate-rueda-prensa-previa",
+              "hash": "48b2e478b84f78482fb173335b00b57b4b0f81ed6d9122a7d86bb7c947f0677a",
+              "checkedAt": "2026-10-26T05:03:23.018Z"
+            },
+            {
+              "url": "https://www.osasuna.es/osasuna-convocatoria-sevilla-jornada10",
+              "hash": "490d4ac9bcf957f37df27b5f9b572573355333dea678a9169797e4e394a88aa2",
+              "checkedAt": "2026-10-26T05:03:22.990Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        }
+      ],
+      "selectionText": "周一001[2/3] × 周一002[2/1] × 周一003[2/1]",
+      "combinationCount": 8,
+      "betCount": 8,
+      "unitStake": 2,
+      "multiplier": 1,
+      "totalCost": 16,
+      "subTickets": [
+        {
+          "id": "2026-10-26-final-goals3-1",
+          "name": "子票1",
+          "passType": "3串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[2] × 周一003[2]",
+          "stake": 2,
+          "odds": 33.453,
+          "return": 66.906,
+          "net": 50.906,
+          "returnText": "命中本分支返还约66.91元；扣整票成本净50.91元"
+        },
+        {
+          "id": "2026-10-26-final-goals3-2",
+          "name": "子票2",
+          "passType": "3串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[2] × 周一003[1]",
+          "stake": 2,
+          "odds": 41.418,
+          "return": 82.836,
+          "net": 66.836,
+          "returnText": "命中本分支返还约82.84元；扣整票成本净66.84元"
+        },
+        {
+          "id": "2026-10-26-final-goals3-3",
+          "name": "子票3",
+          "passType": "3串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[1] × 周一003[2]",
+          "stake": 2,
+          "odds": 48.762,
+          "return": 97.524,
+          "net": 81.524,
+          "returnText": "命中本分支返还约97.52元；扣整票成本净81.52元"
+        },
+        {
+          "id": "2026-10-26-final-goals3-4",
+          "name": "子票4",
+          "passType": "3串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[1] × 周一003[1]",
+          "stake": 2,
+          "odds": 60.372,
+          "return": 120.744,
+          "net": 104.744,
+          "returnText": "命中本分支返还约120.74元；扣整票成本净104.74元"
+        },
+        {
+          "id": "2026-10-26-final-goals3-5",
+          "name": "子票5",
+          "passType": "3串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[2] × 周一003[2]",
+          "stake": 2,
+          "odds": 28.342125,
+          "return": 56.68425,
+          "net": 40.68425,
+          "returnText": "命中本分支返还约56.68元；扣整票成本净40.68元"
+        },
+        {
+          "id": "2026-10-26-final-goals3-6",
+          "name": "子票6",
+          "passType": "3串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[2] × 周一003[1]",
+          "stake": 2,
+          "odds": 35.09025,
+          "return": 70.1805,
+          "net": 54.1805,
+          "returnText": "命中本分支返还约70.18元；扣整票成本净54.18元"
+        },
+        {
+          "id": "2026-10-26-final-goals3-7",
+          "name": "子票7",
+          "passType": "3串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[1] × 周一003[2]",
+          "stake": 2,
+          "odds": 41.31225,
+          "return": 82.6245,
+          "net": 66.6245,
+          "returnText": "命中本分支返还约82.62元；扣整票成本净66.62元"
+        },
+        {
+          "id": "2026-10-26-final-goals3-8",
+          "name": "子票8",
+          "passType": "3串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[1] × 周一003[1]",
+          "stake": 2,
+          "odds": 51.1485,
+          "return": 102.297,
+          "net": 86.297,
+          "returnText": "命中本分支返还约102.30元；扣整票成本净86.30元"
+        }
+      ],
+      "conditionalReturn": {
+        "min": 56.68425,
+        "max": 120.744
+      },
+      "conditionalNet": {
+        "min": 40.68425,
+        "max": 104.744
+      },
+      "effectiveReturnRatio": {
+        "min": 3.542766,
+        "max": 7.5465
+      },
+      "uncoveredReturn": 0,
+      "uncoveredNet": -16,
+      "structureText": "2选 × 2选 × 2选 = 8注；每注2元、1倍",
+      "oddsText": "高风险·不建议重注｜8注×2元；整票条件返还3.5428～7.5465倍",
+      "effectiveReturnText": "全部腿命中所选范围时，仅对应1条子票中奖，返还约56.68～120.74元；整票成本16元。任一腿不符返还0元。",
+      "coverageText": "各腿必须全部命中；不含其他关数。梦想串部分腿命中不算整串中；最高分支不是整票保证回报。",
+      "risk": "高风险，不建议重注。选001中段进球与002/003低中进球主剧本，排除004洲际后更开放的进球尾部；缩窄选择会提高漏选风险，不宣称高覆盖。 实际总进球不在2/3范围内，本腿及整串失败。 实际总进球不在2/1范围内，本腿及整串失败。 实际总进球不在2/1范围内，本腿及整串失败。",
+      "lossPaths": [
+        "实际总进球不在2/3范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。"
+      ],
+      "selectionReason": "选001中段进球与002/003低中进球主剧本，排除004洲际后更开放的进球尾部；缩窄选择会提高漏选风险，不宣称高覆盖。",
+      "oddsAsOf": "2026-10-26 14:59:41",
+      "lockedAt": "2026-10-26T07:15:01.852Z",
+      "notPurchased": true,
+      "settlementBasis": "以官方实际出票赔率及结算为准；此处仅分析记录，未假定购买。"
+    },
+    {
+      "id": "2026-10-26-final-goals4",
+      "date": "2026-10-26",
+      "saleDate": "2026-10-26",
+      "name": "全进球数梦想4串1",
+      "category": "goals4",
+      "trackingTier": "全进球数梦想4串1",
+      "sessionLabel": "晚场",
+      "batch": "C",
+      "passType": "4串1",
+      "passSizes": [
+        4
+      ],
+      "status": "待定",
+      "approved": true,
+      "nonBanker": true,
+      "stars": 0,
+      "stronglyRecommended": false,
+      "riskLevel": "high",
+      "riskLabel": "高风险，不建议重注",
+      "legs": [
+        {
+          "number": "周一001",
+          "matchId": 2042242,
+          "monitorMatchId": 3023509,
+          "saleDate": "2026-10-26",
+          "teams": "圣克拉拉 vs 本菲卡",
+          "market": "TTG",
+          "handicap": 0,
+          "selection": "2/3",
+          "selectionText": "2/3",
+          "options": [
+            {
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            }
+          ],
+          "odds": [
+            3.6,
+            3.05
+          ],
+          "selectionReason": "高风险：主队组织与本菲卡进攻强弱差取2/3球；短休与中场缺席可能导致0/1球或4+，未覆盖。",
+          "lossPaths": [
+            "实际总进球不在2/3范围内，本腿及整串失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://cdsantaclara.com/jogar-olhos-nos-olhos-petit/",
+              "hash": "60d60039ef1e9178b1fefa85aac4e76fb719b3ff7565e23540d8028c25ea3cf2",
+              "checkedAt": "2026-10-26T05:03:23.974Z"
+            },
+            {
+              "url": "https://cdsantaclara.com/vinicius-lopes-queremos-mostrar-a-nossa-melhor-versao/",
+              "hash": "3848007180563a74c2b2a2fd420e8dc21c65aa74aeb090acece43b2516768bc3",
+              "checkedAt": "2026-10-26T05:03:24.377Z"
+            },
+            {
+              "url": "https://www.slbenfica.pt/pt-pt/",
+              "hash": "ac94dbf6dff24e9c814bd98445469ad99851955fb15cd7162161c218dca3a7cb",
+              "checkedAt": "2026-10-26T05:03:28.815Z"
+            },
+            {
+              "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/10/25/futebol-marco-silva-antevisao-santa-clara-benfica-9-jornada-liga-betclic",
+              "hash": "9e3cb431222ed7abadcc9bf1e7af1236529c1b8d3a3dd9011df334908e511ac3",
+              "checkedAt": "2026-10-26T05:03:58.758Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        },
+        {
+          "number": "周一002",
+          "matchId": 2042243,
+          "monitorMatchId": 2997753,
+          "saleDate": "2026-10-26",
+          "teams": "布洛涅 vs 兰斯",
+          "market": "TTG",
+          "handicap": 0,
+          "selection": "2/1",
+          "selectionText": "2/1",
+          "options": [
+            {
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            }
+          ],
+          "odds": [
+            2.95,
+            4.3
+          ],
+          "selectionReason": "高风险：低失球与压迫取2/1球；兰斯效率回归仍不确定，0球或3+均未覆盖。",
+          "lossPaths": [
+            "实际总进球不在2/1范围内，本腿及整串失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://www.stade-de-reims.com/usbco-sdr-le-groupe-remois-2/",
+              "hash": "38250182d9e7cc98e96c79fa2ac02dadbbd9ddbf5c31d91887144d81d3433273",
+              "checkedAt": "2026-10-26T05:03:23.361Z"
+            },
+            {
+              "url": "https://www.stade-de-reims.com/usbco-sdr-ladversaire-a-la-loupe-2/",
+              "hash": "9437d9dca71d63937421b557c6aadb42169e7f57156c61c458d6582ff714b31c",
+              "checkedAt": "2026-10-26T05:03:23.352Z"
+            },
+            {
+              "url": "https://www.stade-de-reims.com/la-conf-avant-usbco-sdr-2/",
+              "hash": "7a7ebc83d6ed9b3a4835f7bd7ae96cc21b7e198d2c6d9d0225885f08a03ef169",
+              "checkedAt": "2026-10-26T05:03:23.327Z"
+            },
+            {
+              "url": "https://www.stade-de-reims.com/equipe-premiere-masculine-0/",
+              "hash": "af9e359da18a9ffcf4370582cdad22ac46c95d263112b688d0de98da38f5f0f0",
+              "checkedAt": "2026-10-26T05:03:53.608Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        },
+        {
+          "number": "周一003",
+          "matchId": 2042244,
+          "monitorMatchId": 3013740,
+          "saleDate": "2026-10-26",
+          "teams": "塞维利亚 vs 奥萨苏纳",
+          "market": "TTG",
+          "handicap": 0,
+          "selection": "2/1",
+          "selectionText": "2/1",
+          "options": [
+            {
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            }
+          ],
+          "odds": [
+            3.15,
+            3.9
+          ],
+          "selectionReason": "高风险：客队创造者缺席与主队对抗优势取2/1球；Budimir和定位球可推高到3+，未覆盖。",
+          "lossPaths": [
+            "实际总进球不在2/1范围内，本腿及整串失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://www.osasuna.es/osasuna-sevilla-jagoba-arrasate-rueda-prensa-previa",
+              "hash": "48b2e478b84f78482fb173335b00b57b4b0f81ed6d9122a7d86bb7c947f0677a",
+              "checkedAt": "2026-10-26T05:03:23.018Z"
+            },
+            {
+              "url": "https://www.osasuna.es/osasuna-convocatoria-sevilla-jornada10",
+              "hash": "490d4ac9bcf957f37df27b5f9b572573355333dea678a9169797e4e394a88aa2",
+              "checkedAt": "2026-10-26T05:03:22.990Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        },
+        {
+          "number": "周一004",
+          "matchId": 2042245,
+          "monitorMatchId": 2910940,
+          "saleDate": "2026-10-26",
+          "teams": "弗拉门戈 vs 米竞技",
+          "market": "TTG",
+          "handicap": 0,
+          "selection": "3/2/4",
+          "selectionText": "3/2/4",
+          "options": [
+            {
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            },
+            {
+              "key": "s2",
+              "label": "2",
+              "odds": 4.15
+            },
+            {
+              "key": "s4",
+              "label": "4",
+              "odds": 4.4
+            }
+          ],
+          "odds": [
+            3.35,
+            4.15,
+            4.4
+          ],
+          "selectionReason": "高风险：主队多点进攻与客队转换取3/2/4球；低位僵局0/1球或开放战5+均未覆盖。",
+          "lossPaths": [
+            "实际总进球不在3/2/4范围内，本腿及整串失败。"
+          ],
+          "stars": 0,
+          "confidenceStars": 0,
+          "sources": [
+            {
+              "url": "https://www.flamengo.com.br/noticias/futebol/flamengo-luta-ate-o-fim-mas-e-eliminado-pelo-estudiantes-nos-penaltis-na-libertadores",
+              "hash": "b24c70e5b03465b680c2181433755b0789ca231683a76ea28561d4814fa3b6c0",
+              "checkedAt": "2026-10-26T05:03:23.536Z"
+            },
+            {
+              "url": "https://www.flamengo.com.br/noticias/futebol/lucas-paqueta-alcanca-temporada-mais-artilheira-da-carreira",
+              "hash": "5da608edc589b4c9b3b20f739140c06d531d5030d45f9b1cccbc0b86c334d507",
+              "checkedAt": "2026-10-26T05:03:23.693Z"
+            },
+            {
+              "url": "https://atletico.com.br/galo-e-finalista-da-conmebol-sul-americana/",
+              "hash": "da2f88c0156ed7491f55ada768ecc000370ab1bf7c10c5944f0706d367f7374d",
+              "checkedAt": "2026-10-26T05:03:52.069Z"
+            },
+            {
+              "url": "https://www.flamengo.com.br/noticias/futebol/agenda-do-futebol-profissional-26-10-2026-a-01-11-2026",
+              "hash": "b19aa968411504fe5239c5a5d452371115ed46cabb327f3367756580a9721070",
+              "checkedAt": "2026-10-26T05:03:53.250Z"
+            }
+          ],
+          "qualification": {
+            "allUp": true,
+            "single": true,
+            "poolStatus": "Selling",
+            "closeDate": null,
+            "closeTime": null,
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "capturedAt": "2026-10-26T07:15:01.852Z"
+          }
+        }
+      ],
+      "selectionText": "周一001[2/3] × 周一002[2/1] × 周一003[2/1] × 周一004[3/2/4]",
+      "combinationCount": 24,
+      "betCount": 24,
+      "unitStake": 2,
+      "multiplier": 1,
+      "totalCost": 48,
+      "subTickets": [
+        {
+          "id": "2026-10-26-final-goals4-1",
+          "name": "子票1",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[2] × 周一003[2] × 周一004[3]",
+          "stake": 2,
+          "odds": 112.06755,
+          "return": 224.1351,
+          "net": 176.1351,
+          "returnText": "命中本分支返还约224.14元；扣整票成本净176.14元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-2",
+          "name": "子票2",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 4.15
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[2] × 周一003[2] × 周一004[2]",
+          "stake": 2,
+          "odds": 138.82995,
+          "return": 277.6599,
+          "net": 229.6599,
+          "returnText": "命中本分支返还约277.66元；扣整票成本净229.66元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-3",
+          "name": "子票3",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s4",
+              "label": "4",
+              "odds": 4.4
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[2] × 周一003[2] × 周一004[4]",
+          "stake": 2,
+          "odds": 147.1932,
+          "return": 294.3864,
+          "net": 246.3864,
+          "returnText": "命中本分支返还约294.39元；扣整票成本净246.39元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-4",
+          "name": "子票4",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[2] × 周一003[1] × 周一004[3]",
+          "stake": 2,
+          "odds": 138.7503,
+          "return": 277.5006,
+          "net": 229.5006,
+          "returnText": "命中本分支返还约277.50元；扣整票成本净229.50元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-5",
+          "name": "子票5",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 4.15
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[2] × 周一003[1] × 周一004[2]",
+          "stake": 2,
+          "odds": 171.8847,
+          "return": 343.7694,
+          "net": 295.7694,
+          "returnText": "命中本分支返还约343.77元；扣整票成本净295.77元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-6",
+          "name": "子票6",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s4",
+              "label": "4",
+              "odds": 4.4
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[2] × 周一003[1] × 周一004[4]",
+          "stake": 2,
+          "odds": 182.2392,
+          "return": 364.4784,
+          "net": 316.4784,
+          "returnText": "命中本分支返还约364.48元；扣整票成本净316.48元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-7",
+          "name": "子票7",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[1] × 周一003[2] × 周一004[3]",
+          "stake": 2,
+          "odds": 163.3527,
+          "return": 326.7054,
+          "net": 278.7054,
+          "returnText": "命中本分支返还约326.71元；扣整票成本净278.71元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-8",
+          "name": "子票8",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 4.15
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[1] × 周一003[2] × 周一004[2]",
+          "stake": 2,
+          "odds": 202.3623,
+          "return": 404.7246,
+          "net": 356.7246,
+          "returnText": "命中本分支返还约404.72元；扣整票成本净356.72元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-9",
+          "name": "子票9",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s4",
+              "label": "4",
+              "odds": 4.4
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[1] × 周一003[2] × 周一004[4]",
+          "stake": 2,
+          "odds": 214.5528,
+          "return": 429.1056,
+          "net": 381.1056,
+          "returnText": "命中本分支返还约429.11元；扣整票成本净381.11元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-10",
+          "name": "子票10",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[1] × 周一003[1] × 周一004[3]",
+          "stake": 2,
+          "odds": 202.2462,
+          "return": 404.4924,
+          "net": 356.4924,
+          "returnText": "命中本分支返还约404.49元；扣整票成本净356.49元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-11",
+          "name": "子票11",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 4.15
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[1] × 周一003[1] × 周一004[2]",
+          "stake": 2,
+          "odds": 250.5438,
+          "return": 501.0876,
+          "net": 453.0876,
+          "returnText": "命中本分支返还约501.09元；扣整票成本净453.09元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-12",
+          "name": "子票12",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.6
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s4",
+              "label": "4",
+              "odds": 4.4
+            }
+          ],
+          "selectionText": "周一001[2] × 周一002[1] × 周一003[1] × 周一004[4]",
+          "stake": 2,
+          "odds": 265.6368,
+          "return": 531.2736,
+          "net": 483.2736,
+          "returnText": "命中本分支返还约531.27元；扣整票成本净483.27元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-13",
+          "name": "子票13",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[2] × 周一003[2] × 周一004[3]",
+          "stake": 2,
+          "odds": 94.946119,
+          "return": 189.892238,
+          "net": 141.892238,
+          "returnText": "命中本分支返还约189.89元；扣整票成本净141.89元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-14",
+          "name": "子票14",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 4.15
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[2] × 周一003[2] × 周一004[2]",
+          "stake": 2,
+          "odds": 117.619819,
+          "return": 235.239638,
+          "net": 187.239638,
+          "returnText": "命中本分支返还约235.24元；扣整票成本净187.24元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-15",
+          "name": "子票15",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s4",
+              "label": "4",
+              "odds": 4.4
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[2] × 周一003[2] × 周一004[4]",
+          "stake": 2,
+          "odds": 124.70535,
+          "return": 249.4107,
+          "net": 201.4107,
+          "returnText": "命中本分支返还约249.41元；扣整票成本净201.41元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-16",
+          "name": "子票16",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[2] × 周一003[1] × 周一004[3]",
+          "stake": 2,
+          "odds": 117.552338,
+          "return": 235.104676,
+          "net": 187.104676,
+          "returnText": "命中本分支返还约235.10元；扣整票成本净187.10元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-17",
+          "name": "子票17",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 4.15
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[2] × 周一003[1] × 周一004[2]",
+          "stake": 2,
+          "odds": 145.624538,
+          "return": 291.249076,
+          "net": 243.249076,
+          "returnText": "命中本分支返还约291.25元；扣整票成本净243.25元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-18",
+          "name": "子票18",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 2.95
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s4",
+              "label": "4",
+              "odds": 4.4
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[2] × 周一003[1] × 周一004[4]",
+          "stake": 2,
+          "odds": 154.3971,
+          "return": 308.7942,
+          "net": 260.7942,
+          "returnText": "命中本分支返还约308.79元；扣整票成本净260.79元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-19",
+          "name": "子票19",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[1] × 周一003[2] × 周一004[3]",
+          "stake": 2,
+          "odds": 138.396037,
+          "return": 276.792074,
+          "net": 228.792074,
+          "returnText": "命中本分支返还约276.79元；扣整票成本净228.79元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-20",
+          "name": "子票20",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 4.15
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[1] × 周一003[2] × 周一004[2]",
+          "stake": 2,
+          "odds": 171.445837,
+          "return": 342.891674,
+          "net": 294.891674,
+          "returnText": "命中本分支返还约342.89元；扣整票成本净294.89元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-21",
+          "name": "子票21",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 3.15
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s4",
+              "label": "4",
+              "odds": 4.4
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[1] × 周一003[2] × 周一004[4]",
+          "stake": 2,
+          "odds": 181.7739,
+          "return": 363.5478,
+          "net": 315.5478,
+          "returnText": "命中本分支返还约363.55元；扣整票成本净315.55元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-22",
+          "name": "子票22",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.35
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[1] × 周一003[1] × 周一004[3]",
+          "stake": 2,
+          "odds": 171.347475,
+          "return": 342.69495,
+          "net": 294.69495,
+          "returnText": "命中本分支返还约342.69元；扣整票成本净294.69元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-23",
+          "name": "子票23",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s2",
+              "label": "2",
+              "odds": 4.15
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[1] × 周一003[1] × 周一004[2]",
+          "stake": 2,
+          "odds": 212.266275,
+          "return": 424.53255,
+          "net": 376.53255,
+          "returnText": "命中本分支返还约424.53元；扣整票成本净376.53元"
+        },
+        {
+          "id": "2026-10-26-final-goals4-24",
+          "name": "子票24",
+          "passType": "4串1",
+          "selections": [
+            {
+              "number": "周一001",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s3",
+              "label": "3",
+              "odds": 3.05
+            },
+            {
+              "number": "周一002",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 4.3
+            },
+            {
+              "number": "周一003",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s1",
+              "label": "1",
+              "odds": 3.9
+            },
+            {
+              "number": "周一004",
+              "market": "TTG",
+              "handicap": 0,
+              "key": "s4",
+              "label": "4",
+              "odds": 4.4
+            }
+          ],
+          "selectionText": "周一001[3] × 周一002[1] × 周一003[1] × 周一004[4]",
+          "stake": 2,
+          "odds": 225.0534,
+          "return": 450.1068,
+          "net": 402.1068,
+          "returnText": "命中本分支返还约450.11元；扣整票成本净402.11元"
+        }
+      ],
+      "conditionalReturn": {
+        "min": 189.892238,
+        "max": 531.2736
+      },
+      "conditionalNet": {
+        "min": 141.892238,
+        "max": 483.2736
+      },
+      "effectiveReturnRatio": {
+        "min": 3.956088,
+        "max": 11.0682
+      },
+      "uncoveredReturn": 0,
+      "uncoveredNet": -48,
+      "structureText": "2选 × 2选 × 2选 × 3选 = 24注；每注2元、1倍",
+      "oddsText": "高风险·不建议重注｜24注×2元；整票条件返还3.9561～11.0682倍",
+      "effectiveReturnText": "全部腿命中所选范围时，仅对应1条子票中奖，返还约189.89～531.27元；整票成本48元。任一腿不符返还0元。",
+      "coverageText": "各腿必须全部命中；不含其他关数。梦想串部分腿命中不算整串中；最高分支不是整票保证回报。",
+      "risk": "高风险，不建议重注。前三腿与梦想3串1重叠，再加入004的2/3/4球剧本，票间高度相关；任何一腿范围外即全失，不将两张票视为分散风险。 实际总进球不在2/3范围内，本腿及整串失败。 实际总进球不在2/1范围内，本腿及整串失败。 实际总进球不在2/1范围内，本腿及整串失败。 实际总进球不在3/2/4范围内，本腿及整串失败。",
+      "lossPaths": [
+        "实际总进球不在2/3范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。",
+        "实际总进球不在3/2/4范围内，本腿及整串失败。"
+      ],
+      "selectionReason": "前三腿与梦想3串1重叠，再加入004的2/3/4球剧本，票间高度相关；任何一腿范围外即全失，不将两张票视为分散风险。",
+      "oddsAsOf": "2026-10-26 14:59:41",
+      "lockedAt": "2026-10-26T07:15:01.852Z",
+      "notPurchased": true,
+      "settlementBasis": "以官方实际出票赔率及结算为准；此处仅分析记录，未假定购买。"
+    }
+  ],
   "scanTable": [
     {
       "id": 3023509,
@@ -76,10 +2398,10 @@
         "halfFull": "缺半场节奏与领先后策略的独立样本，0星。",
         "score": "仅为同一主剧本附近情景，精确比分无额外证据，0星。"
       },
-      "recommended": false,
-      "status": "14:00增量核验·未取得正式票资格",
+      "recommended": true,
+      "status": "最终版·五项独立判断",
       "officialHandicap": "主队受让1球",
-      "risk": "客队两名中场缺阵、欧战后旅行，主队防守组织真实；单负不能通过低波动门槛，负/平保险后主分支回报过薄。",
+      "risk": "高风险；客队两名中场缺阵、欧战后旅行，主队防守组织真实；单负不能通过低波动门槛，负/平保险后主分支回报过薄。",
       "qualification": [
         {
           "market": "HHAD",
@@ -117,7 +2439,12 @@
           "closeTime": null
         }
       ],
-      "officialMatchId": 2042242
+      "officialMatchId": 2042242,
+      "ticketIds": [
+        "2026-10-26-final-core30",
+        "2026-10-26-final-goals3",
+        "2026-10-26-final-goals4"
+      ]
     },
     {
       "id": 2997753,
@@ -180,10 +2507,10 @@
         "halfFull": "缺半场节奏与领先后策略的独立样本，0星。",
         "score": "仅为同一主剧本附近情景，精确比分无额外证据，0星。"
       },
-      "recommended": false,
-      "status": "14:00增量核验·未取得正式票资格",
+      "recommended": true,
+      "status": "最终版·五项独立判断",
       "officialHandicap": "主队受让1球",
-      "risk": "客队伤缺和主队第二防守要求真实平局保险；单负赔率1.95不证明稳健，双选主要分支被成本减半。",
+      "risk": "高风险；客队伤缺和主队第二防守要求真实平局保险；单负赔率1.95不证明稳健，双选主要分支被成本减半。",
       "qualification": [
         {
           "market": "HHAD",
@@ -221,7 +2548,12 @@
           "closeTime": null
         }
       ],
-      "officialMatchId": 2042243
+      "officialMatchId": 2042243,
+      "ticketIds": [
+        "2026-10-26-final-core30",
+        "2026-10-26-final-goals3",
+        "2026-10-26-final-goals4"
+      ]
     },
     {
       "id": 3013740,
@@ -284,10 +2616,10 @@
         "halfFull": "缺半场节奏与领先后策略的独立样本，0星。",
         "score": "仅为同一主剧本附近情景，精确比分无额外证据，0星。"
       },
-      "recommended": false,
-      "status": "14:00增量核验·未取得正式票资格",
+      "recommended": true,
+      "status": "最终版·五项独立判断",
       "officialHandicap": "主队让1球",
-      "risk": "可作为相对优先单胜腿，但主队本轮阵容与防线替代未确认；不存在第二条充分合格腿，不凭1.68凑2.0。",
+      "risk": "高风险；可作为相对优先单胜腿，但主队本轮阵容与防线替代未确认；不存在第二条充分合格腿，不凭1.68凑2.0。",
       "qualification": [
         {
           "market": "HHAD",
@@ -325,7 +2657,12 @@
           "closeTime": null
         }
       ],
-      "officialMatchId": 2042244
+      "officialMatchId": 2042244,
+      "ticketIds": [
+        "2026-10-26-final-core20",
+        "2026-10-26-final-goals3",
+        "2026-10-26-final-goals4"
+      ]
     },
     {
       "id": 2910940,
@@ -338,8 +2675,8 @@
       "awayRank": "6",
       "saleDate": "2026-10-26",
       "spf": {
-        "win": 1.2,
-        "draw": 5.4,
+        "win": 1.19,
+        "draw": 5.62,
         "lose": 9
       },
       "handicap": -1,
@@ -388,10 +2725,10 @@
         "halfFull": "缺半场节奏与领先后策略的独立样本，0星。",
         "score": "仅为同一主剧本附近情景，精确比分无额外证据，0星。"
       },
-      "recommended": false,
-      "status": "14:00增量核验·未取得正式票资格",
+      "recommended": true,
+      "status": "最终版·五项独立判断",
       "officialHandicap": "主队让1球",
-      "risk": "1.20主胜回报低，上一场破密防失败且刚踢洲际赛；不能为了2.0升级让胜。总进球3/2/4仅情景区间，未有稳定尾部概率与阵容证据。",
+      "risk": "高风险；1.20主胜回报低，上一场破密防失败且刚踢洲际赛；不能为了2.0升级让胜。总进球3/2/4仅情景区间，未有稳定尾部概率与阵容证据。",
       "qualification": [
         {
           "market": "HHAD",
@@ -429,7 +2766,11 @@
           "closeTime": null
         }
       ],
-      "officialMatchId": 2042245
+      "officialMatchId": 2042245,
+      "ticketIds": [
+        "2026-10-26-final-core20",
+        "2026-10-26-final-goals4"
+      ]
     }
   ],
   "matchAnalysis": [
@@ -1001,12 +3342,19 @@
           "checkedAt": "2026-10-26T05:03:58.758Z"
         }
       ],
-      "text": "圣克拉拉主帅确认本菲卡通过三角配合与边路一对一制造威胁；本菲卡主帅认可主队组织、快速边翼与主场主动进攻。主看本菲卡更强的多点进攻，但主队低位组织与客队中场减员构成具体平局保险。双方官方对圣克拉拉不败口径不一致（赛季/联赛范围不同），不将不败数字作为定量依据。 本菲卡确认Banjaqui、Barrenechea、Barreiro、Kamiński缺阵，Durán回归可用；回归不等于首发或可踢满。圣克拉拉完整伤停与替代者未核齐。 本菲卡欧联后短休再赴亚速尔；三连胜的完整对手强度未核齐，不将三胜直接等价于本场压制。 博：独立观察主队受让1球的让平（本菲卡恰胜1球）：主队组织与客队疲劳压低大胜把握，客队进攻仍更强；这是低信心净胜边界判断，非从预测比分投票产生。 淘汰：客队两名中场缺阵、欧战后旅行，主队防守组织真实；单负不能通过低波动门槛，负/平保险后主分支回报过薄。 输钱路径：主队边翼突破或定位球先得分并守住，负/平全失。；本菲卡净胜2球以上或不胜，博让平均失。 14:00增量：总进球3球3.20→3.10、4球5.00→4.80；5/6/7+回报上调。盘面略向中段集中，但缺阵与短休证据未改变，不能以赔率替代尾部概率，进球仍0星。",
+      "text": "圣克拉拉主帅确认本菲卡通过三角配合与边路一对一制造威胁；本菲卡主帅认可主队组织、快速边翼与主场主动进攻。主看本菲卡更强的多点进攻，但主队低位组织与客队中场减员构成具体平局保险。双方官方对圣克拉拉不败口径不一致（赛季/联赛范围不同），不将不败数字作为定量依据。 本菲卡确认Banjaqui、Barrenechea、Barreiro、Kamiński缺阵，Durán回归可用；回归不等于首发或可踢满。圣克拉拉完整伤停与替代者未核齐。 本菲卡欧联后短休再赴亚速尔；三连胜的完整对手强度未核齐，不将三胜直接等价于本场压制。 博：独立观察主队受让1球的让平（本菲卡恰胜1球）：主队组织与客队疲劳压低大胜把握，客队进攻仍更强；这是低信心净胜边界判断，非从预测比分投票产生。 风险反证：客队两名中场缺阵、欧战后旅行，主队防守组织真实；单负不能通过低波动门槛，负/平保险后主分支回报过薄。 输钱路径：主队边翼突破或定位球先得分并守住，负/平全失。；本菲卡净胜2球以上或不胜，博让平均失。 最终版按用户覆盖规则给出相对最优组合，保留证据缺口、高风险和原五项0星。出票不是新增证据或提高信心。",
       "marketAssessment": "早期快照与当前普通赔率差异较大，001/003/004让球符号发生变化；让球赔率不能跨不同让球数直接比较，未将异常变化认作红星证据。当前玩法资格由官方销售日、编号、主客队交叉匹配，不混用不同来源matchId。",
       "incrementalReview": {
         "checkedAt": "2026-10-26T06:05:14.509Z",
         "conclusion": "14:00增量：总进球3球3.20→3.10、4球5.00→4.80；5/6/7+回报上调。盘面略向中段集中，但缺阵与短休证据未改变，不能以赔率替代尾部概率，进球仍0星。"
-      }
+      },
+      "priorStrictQualificationDecision": "客队两名中场缺阵、欧战后旅行，主队防守组织真实；单负不能通过低波动门槛，负/平保险后主分支回报过薄。",
+      "finalDecision": "最终版按用户覆盖规则给出相对最优组合，保留证据缺口、高风险和原五项0星。出票不是新增证据或提高信心。",
+      "formalTicketIds": [
+        "2026-10-26-final-core30",
+        "2026-10-26-final-goals3",
+        "2026-10-26-final-goals4"
+      ]
     },
     {
       "number": "周一002",
@@ -1576,12 +3924,19 @@
           "checkedAt": "2026-10-26T05:03:53.608Z"
         }
       ],
-      "text": "兰斯官方对手报告：双方均107次射门，兰斯19球而布洛涅6球，不能将终结率差异当机会数量碾压。布洛涅为联赛第二防守，门将已有4次零封；Hbouch前场压迫频繁。兰斯进攻效率支持主看客胜，主队防线和两队相近射门量要求防平。 兰斯确认Debondt、Gbane、Ibrahim、Okumu、Sylla、Tia伤缺；Daramy入选，但上轮伤情自述不等于完全无风险。布洛涅本场完整名单未核齐。 兰斯上轮4:2击败此前三连胜的第戎，应较胜弱队升权；长周准备有利恢复。布洛涅近三场2:0格勒诺布尔、1:1索肖、1:2南特，防守并非场场零封。 博：独立博普通平：主队低失球与压迫限制兰斯射门质量，客队过高转化率未必延续；平局来自攻防边界，不把客胜双选机械缩成一项。 淘汰：客队伤缺和主队第二防守要求真实平局保险；单负赔率1.95不证明稳健，双选主要分支被成本减半。 输钱路径：布洛涅压迫迫使兰斯后场失误并先得分，主胜使负/平全失。；兰斯把进攻效率延续为客胜或主队爆冷，博平均失。 14:00增量：平负4.30→4.00，胜胜5.80→6.10、平胜7.50→7.80。轻微支持客队后程，但缺少半场节奏和完整名单证据，半全场仍0星，原双选顺序保留。",
+      "text": "兰斯官方对手报告：双方均107次射门，兰斯19球而布洛涅6球，不能将终结率差异当机会数量碾压。布洛涅为联赛第二防守，门将已有4次零封；Hbouch前场压迫频繁。兰斯进攻效率支持主看客胜，主队防线和两队相近射门量要求防平。 兰斯确认Debondt、Gbane、Ibrahim、Okumu、Sylla、Tia伤缺；Daramy入选，但上轮伤情自述不等于完全无风险。布洛涅本场完整名单未核齐。 兰斯上轮4:2击败此前三连胜的第戎，应较胜弱队升权；长周准备有利恢复。布洛涅近三场2:0格勒诺布尔、1:1索肖、1:2南特，防守并非场场零封。 博：独立博普通平：主队低失球与压迫限制兰斯射门质量，客队过高转化率未必延续；平局来自攻防边界，不把客胜双选机械缩成一项。 风险反证：客队伤缺和主队第二防守要求真实平局保险；单负赔率1.95不证明稳健，双选主要分支被成本减半。 输钱路径：布洛涅压迫迫使兰斯后场失误并先得分，主胜使负/平全失。；兰斯把进攻效率延续为客胜或主队爆冷，博平均失。 最终版按用户覆盖规则给出相对最优组合，保留证据缺口、高风险和原五项0星。出票不是新增证据或提高信心。",
       "marketAssessment": "早期快照与当前普通赔率差异较大，001/003/004让球符号发生变化；让球赔率不能跨不同让球数直接比较，未将异常变化认作红星证据。当前玩法资格由官方销售日、编号、主客队交叉匹配，不混用不同来源matchId。",
       "incrementalReview": {
         "checkedAt": "2026-10-26T06:05:14.509Z",
         "conclusion": "14:00增量：平负4.30→4.00，胜胜5.80→6.10、平胜7.50→7.80。轻微支持客队后程，但缺少半场节奏和完整名单证据，半全场仍0星，原双选顺序保留。"
-      }
+      },
+      "priorStrictQualificationDecision": "客队伤缺和主队第二防守要求真实平局保险；单负赔率1.95不证明稳健，双选主要分支被成本减半。",
+      "finalDecision": "最终版按用户覆盖规则给出相对最优组合，保留证据缺口、高风险和原五项0星。出票不是新增证据或提高信心。",
+      "formalTicketIds": [
+        "2026-10-26-final-core30",
+        "2026-10-26-final-goals3",
+        "2026-10-26-final-goals4"
+      ]
     },
     {
       "number": "周一003",
@@ -2141,12 +4496,19 @@
           "checkedAt": "2026-10-26T05:03:22.990Z"
         }
       ],
-      "text": "奥萨苏纳主帅评价塞维利亚组织好、向前推进、赢对抗并限制对手出球；三负来自三强，剔除强敌后4胜2平，不能将三连败当同强度失速。奥萨苏纳上轮对桑坦德取胜、创造进球与机会，但主帅明确攻防仍需改进；其一场反弹不足推翻主队对抗优势。 奥萨苏纳官方确认Herrando、Aimar、Del Castillo缺席，Budimir等在23人名单；塞维利亚官网只返回页面壳，完整伤停与首发替代未确认。 客队长周训练、无需虚构疲劳；主队近期三强对手应上调表现解释，客队胜桑坦德不能同权外推。 博：独立博主让1让平：主队赢对抗与客队创造者缺席支持主场优势，但客队恢复时间充分、Budimir仍可用，难支持净胜2球的稳定性；为低信心一球边界观察。 淘汰：可作为相对优先单胜腿，但主队本轮阵容与防线替代未确认；不存在第二条充分合格腿，不凭1.68凑2.0。 输钱路径：客队定位球或Budimir支点进攻迫使主队追分，平或负使单胜失。；主队净胜2球以上或不胜，使让平失。 14:00增量：主让1让胜3.50→3.43、让平3.25→3.15、让负1.87→1.92；1球4.10→3.90、3球3.50→3.45，高总进球回报上调。方向与一球边界没有新增冲突，但主队阵容缺口未消，不升级让胜、不加红星。",
+      "text": "奥萨苏纳主帅评价塞维利亚组织好、向前推进、赢对抗并限制对手出球；三负来自三强，剔除强敌后4胜2平，不能将三连败当同强度失速。奥萨苏纳上轮对桑坦德取胜、创造进球与机会，但主帅明确攻防仍需改进；其一场反弹不足推翻主队对抗优势。 奥萨苏纳官方确认Herrando、Aimar、Del Castillo缺席，Budimir等在23人名单；塞维利亚官网只返回页面壳，完整伤停与首发替代未确认。 客队长周训练、无需虚构疲劳；主队近期三强对手应上调表现解释，客队胜桑坦德不能同权外推。 博：独立博主让1让平：主队赢对抗与客队创造者缺席支持主场优势，但客队恢复时间充分、Budimir仍可用，难支持净胜2球的稳定性；为低信心一球边界观察。 风险反证：可作为相对优先单胜腿，但主队本轮阵容与防线替代未确认；不存在第二条充分合格腿，不凭1.68凑2.0。 输钱路径：客队定位球或Budimir支点进攻迫使主队追分，平或负使单胜失。；主队净胜2球以上或不胜，使让平失。 最终版按用户覆盖规则给出相对最优组合，保留证据缺口、高风险和原五项0星。出票不是新增证据或提高信心。",
       "marketAssessment": "早期快照与当前普通赔率差异较大，001/003/004让球符号发生变化；让球赔率不能跨不同让球数直接比较，未将异常变化认作红星证据。当前玩法资格由官方销售日、编号、主客队交叉匹配，不混用不同来源matchId。",
       "incrementalReview": {
         "checkedAt": "2026-10-26T06:05:14.509Z",
         "conclusion": "14:00增量：主让1让胜3.50→3.43、让平3.25→3.15、让负1.87→1.92；1球4.10→3.90、3球3.50→3.45，高总进球回报上调。方向与一球边界没有新增冲突，但主队阵容缺口未消，不升级让胜、不加红星。"
-      }
+      },
+      "priorStrictQualificationDecision": "可作为相对优先单胜腿，但主队本轮阵容与防线替代未确认；不存在第二条充分合格腿，不凭1.68凑2.0。",
+      "finalDecision": "最终版按用户覆盖规则给出相对最优组合，保留证据缺口、高风险和原五项0星。出票不是新增证据或提高信心。",
+      "formalTicketIds": [
+        "2026-10-26-final-core20",
+        "2026-10-26-final-goals3",
+        "2026-10-26-final-goals4"
+      ]
     },
     {
       "number": "周一004",
@@ -2716,111 +5078,2495 @@
           "checkedAt": "2026-10-26T05:03:53.250Z"
         }
       ],
-      "text": "弗拉门戈官方：上轮联赛3:0巴伊亚，Paquetá本季13球，多点后插上支持主胜；但洲际半决赛对大学生多打一人仍0:0，低位破解是明确反证。米竞技对Torque客场0:2，两球均在被罚下一人后的尾段；不将红牌与湿滑场地引发的失球当正常11人防守必崩。 Arrascaeta手腕手术后替补回归，不等于首发体能恢复；双方本场名单仍未确认。Alan Franco洲际红牌不能自行认定联赛停赛。 弗拉门戈周四洲际淘汰后周一联赛，米竞技周三乌拉圭客场后恢复多一天；米竞技持首回合3:0优势改变次回合策略，0:2须按赛制降权。 博：独立博主让1让负，即弗拉门戈不胜：主队上场多打一人仍破不了低位、洲际出局后恢复和进攻组织存疑，客队更长恢复期支持逆向观察；与主胜主判断不同，高波动，不入正式票。 淘汰：1.20主胜回报低，上一场破密防失败且刚踢洲际赛；不能为了2.0升级让胜。总进球3/2/4仅情景区间，未有稳定尾部概率与阵容证据。 输钱路径：主队无法破解低位形成平局，或客队转换破门，主胜失。；弗拉门戈正常发挥赢球，无论赢1球或更多，博让负均失。 14:00增量：主要盘口未变；米竞技官方文章仅相关文章顺序变化，比赛正文未变。双方名单与轮换证据缺口仍在，沿用原研究。",
+      "text": "弗拉门戈官方：上轮联赛3:0巴伊亚，Paquetá本季13球，多点后插上支持主胜；但洲际半决赛对大学生多打一人仍0:0，低位破解是明确反证。米竞技对Torque客场0:2，两球均在被罚下一人后的尾段；不将红牌与湿滑场地引发的失球当正常11人防守必崩。 Arrascaeta手腕手术后替补回归，不等于首发体能恢复；双方本场名单仍未确认。Alan Franco洲际红牌不能自行认定联赛停赛。 弗拉门戈周四洲际淘汰后周一联赛，米竞技周三乌拉圭客场后恢复多一天；米竞技持首回合3:0优势改变次回合策略，0:2须按赛制降权。 博：独立博主让1让负，即弗拉门戈不胜：主队上场多打一人仍破不了低位、洲际出局后恢复和进攻组织存疑，客队更长恢复期支持逆向观察；与主胜主判断不同，高波动，不入正式票。 风险反证：1.20主胜回报低，上一场破密防失败且刚踢洲际赛；不能为了2.0升级让胜。总进球3/2/4仅情景区间，未有稳定尾部概率与阵容证据。 输钱路径：主队无法破解低位形成平局，或客队转换破门，主胜失。；弗拉门戈正常发挥赢球，无论赢1球或更多，博让负均失。 最终版按用户覆盖规则给出相对最优组合，保留证据缺口、高风险和原五项0星。出票不是新增证据或提高信心。",
       "marketAssessment": "早期快照与当前普通赔率差异较大，001/003/004让球符号发生变化；让球赔率不能跨不同让球数直接比较，未将异常变化认作红星证据。当前玩法资格由官方销售日、编号、主客队交叉匹配，不混用不同来源matchId。",
       "incrementalReview": {
         "checkedAt": "2026-10-26T06:05:14.509Z",
         "conclusion": "14:00增量：主要盘口未变；米竞技官方文章仅相关文章顺序变化，比赛正文未变。双方名单与轮换证据缺口仍在，沿用原研究。"
-      }
+      },
+      "priorStrictQualificationDecision": "1.20主胜回报低，上一场破密防失败且刚踢洲际赛；不能为了2.0升级让胜。总进球3/2/4仅情景区间，未有稳定尾部概率与阵容证据。",
+      "finalDecision": "最终版按用户覆盖规则给出相对最优组合，保留证据缺口、高风险和原五项0星。出票不是新增证据或提高信心。",
+      "formalTicketIds": [
+        "2026-10-26-final-core20",
+        "2026-10-26-final-goals4"
+      ]
     }
   ],
   "selectionAudit": [
     {
       "category": "core20",
       "name": "晚场2.0版2串1",
-      "status": "未出",
-      "reason": "003胜为相对优先腿；001需平局保险，004破密防反证未消，002防守与伤缺风险未过。横向配对003胜×001负=2.0496、003胜×004胜=2.016均只有理论赔率，不取得准入；001负/平×003胜主分支整票回报1.0248倍，淘汰。"
+      "status": "已出·高风险",
+      "reason": "先选003普通胜作为优先主方向，再配004普通胜；两者均有真实反证，因此只做相对优选，不称稳单。2.0为版本名，当前实际返还1.9992倍。",
+      "lossPaths": [
+        "奥萨苏纳定位球或Budimir支点破门，塞维利亚平或负即失败。",
+        "弗拉门戈进攻疲劳或破密防失败，平或负即失败。"
+      ]
     },
     {
       "category": "core30",
       "name": "晚场3.0版2串1",
-      "status": "未出",
-      "reason": "独立筛选002负×003胜理论3.276，但002需平局保险，保留保险主分支只有1.638倍且阵容未核齐；001与004均不得靠升级净胜两球制造3.0。不借用未锁定2.0腿凑第二档。"
+      "status": "已出·高风险",
+      "reason": "与2.0不共用场次；001取常规客胜，002依据既有独立攻防分析取平，胜负与平局同时发生才命中。放弃001平局保险的风险明示，不以凑3倍或升级净胜球为依据。",
+      "lossPaths": [
+        "圣克拉拉低位组织、定位球或本菲卡中场减员造成主队不败即失败。",
+        "兰斯效率延续赢球或布洛涅压迫爆冷，任一方获胜均失败。"
+      ]
     },
     {
       "category": "goals3",
       "name": "全进球数梦想3串1",
-      "status": "未出",
-      "reason": "002低总进球有防守依据，003低中总进球有客队缺创造者依据，但001中场缺席与旅行、004洲际后轮换使尾部分布未核实，合格进球腿不足3条；每个3场子集至少含001或004，不随机三选。"
+      "status": "已出·高风险",
+      "reason": "选001中段进球与002/003低中进球主剧本，排除004洲际后更开放的进球尾部；缩窄选择会提高漏选风险，不宣称高覆盖。",
+      "lossPaths": [
+        "实际总进球不在2/3范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。"
+      ]
     },
     {
       "category": "goals4",
       "name": "全进球数梦想4串1",
-      "status": "未出",
-      "reason": "四场全用将强制纳入001、004未通过的进球腿；扩大选项不能弥补尾部概率与阵容缺口，不出虚假覆盖票。"
+      "status": "已出·高风险",
+      "reason": "前三腿与梦想3串1重叠，再加入004的2/3/4球剧本，票间高度相关；任何一腿范围外即全失，不将两张票视为分散风险。",
+      "lossPaths": [
+        "实际总进球不在2/3范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。",
+        "实际总进球不在3/2/4范围内，本腿及整串失败。"
+      ]
     }
   ],
   "ticketClassStatus": [
     {
       "category": "core20",
       "name": "晚场2.0版2串1",
-      "status": "未出",
-      "reason": "003胜为相对优先腿；001需平局保险，004破密防反证未消，002防守与伤缺风险未过。横向配对003胜×001负=2.0496、003胜×004胜=2.016均只有理论赔率，不取得准入；001负/平×003胜主分支整票回报1.0248倍，淘汰。"
+      "status": "已出·高风险",
+      "reason": "先选003普通胜作为优先主方向，再配004普通胜；两者均有真实反证，因此只做相对优选，不称稳单。2.0为版本名，当前实际返还1.9992倍。",
+      "lossPaths": [
+        "奥萨苏纳定位球或Budimir支点破门，塞维利亚平或负即失败。",
+        "弗拉门戈进攻疲劳或破密防失败，平或负即失败。"
+      ]
     },
     {
       "category": "core30",
       "name": "晚场3.0版2串1",
-      "status": "未出",
-      "reason": "独立筛选002负×003胜理论3.276，但002需平局保险，保留保险主分支只有1.638倍且阵容未核齐；001与004均不得靠升级净胜两球制造3.0。不借用未锁定2.0腿凑第二档。"
+      "status": "已出·高风险",
+      "reason": "与2.0不共用场次；001取常规客胜，002依据既有独立攻防分析取平，胜负与平局同时发生才命中。放弃001平局保险的风险明示，不以凑3倍或升级净胜球为依据。",
+      "lossPaths": [
+        "圣克拉拉低位组织、定位球或本菲卡中场减员造成主队不败即失败。",
+        "兰斯效率延续赢球或布洛涅压迫爆冷，任一方获胜均失败。"
+      ]
     },
     {
       "category": "goals3",
       "name": "全进球数梦想3串1",
-      "status": "未出",
-      "reason": "002低总进球有防守依据，003低中总进球有客队缺创造者依据，但001中场缺席与旅行、004洲际后轮换使尾部分布未核实，合格进球腿不足3条；每个3场子集至少含001或004，不随机三选。"
+      "status": "已出·高风险",
+      "reason": "选001中段进球与002/003低中进球主剧本，排除004洲际后更开放的进球尾部；缩窄选择会提高漏选风险，不宣称高覆盖。",
+      "lossPaths": [
+        "实际总进球不在2/3范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。"
+      ]
     },
     {
       "category": "goals4",
       "name": "全进球数梦想4串1",
-      "status": "未出",
-      "reason": "四场全用将强制纳入001、004未通过的进球腿；扩大选项不能弥补尾部概率与阵容缺口，不出虚假覆盖票。"
+      "status": "已出·高风险",
+      "reason": "前三腿与梦想3串1重叠，再加入004的2/3/4球剧本，票间高度相关；任何一腿范围外即全失，不将两张票视为分散风险。",
+      "lossPaths": [
+        "实际总进球不在2/3范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。",
+        "实际总进球不在2/1范围内，本腿及整串失败。",
+        "实际总进球不在3/2/4范围内，本腿及整串失败。"
+      ]
     }
   ],
   "trackingHistory": {
-    "two": [],
-    "three": [],
-    "goals3": [],
-    "goals4": []
+    "two": [
+      {
+        "id": "2026-10-26-final-core20",
+        "date": "2026-10-26",
+        "saleDate": "2026-10-26",
+        "name": "晚场2.0版2串1",
+        "category": "core20",
+        "trackingTier": "2.0版",
+        "sessionLabel": "晚场",
+        "batch": "C",
+        "passType": "2串1",
+        "passSizes": [
+          2
+        ],
+        "status": "待定",
+        "approved": true,
+        "nonBanker": true,
+        "stars": 0,
+        "stronglyRecommended": false,
+        "riskLevel": "high",
+        "riskLabel": "高风险，不建议重注",
+        "legs": [
+          {
+            "number": "周一003",
+            "matchId": 2042244,
+            "monitorMatchId": 3013740,
+            "saleDate": "2026-10-26",
+            "teams": "塞维利亚 vs 奥萨苏纳",
+            "market": "HAD",
+            "handicap": 0,
+            "selection": "胜",
+            "selectionText": "胜",
+            "options": [
+              {
+                "key": "h",
+                "label": "胜",
+                "odds": 1.68
+              }
+            ],
+            "odds": 1.68,
+            "selectionReason": "高风险：主队对抗与推进占优，客队缺Aimar等创造者；主队完整名单未核齐。",
+            "lossPaths": [
+              "奥萨苏纳定位球或Budimir支点破门，塞维利亚平或负即失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://www.osasuna.es/osasuna-sevilla-jagoba-arrasate-rueda-prensa-previa",
+                "hash": "48b2e478b84f78482fb173335b00b57b4b0f81ed6d9122a7d86bb7c947f0677a",
+                "checkedAt": "2026-10-26T05:03:23.018Z"
+              },
+              {
+                "url": "https://www.osasuna.es/osasuna-convocatoria-sevilla-jornada10",
+                "hash": "490d4ac9bcf957f37df27b5f9b572573355333dea678a9169797e4e394a88aa2",
+                "checkedAt": "2026-10-26T05:03:22.990Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": false,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          },
+          {
+            "number": "周一004",
+            "matchId": 2042245,
+            "monitorMatchId": 2910940,
+            "saleDate": "2026-10-26",
+            "teams": "弗拉门戈 vs 米竞技",
+            "market": "HAD",
+            "handicap": 0,
+            "selection": "胜",
+            "selectionText": "胜",
+            "options": [
+              {
+                "key": "h",
+                "label": "胜",
+                "odds": 1.19
+              }
+            ],
+            "odds": 1.19,
+            "selectionReason": "高风险：Paquetá后插上与联赛进攻产量支持主胜；洲际赛破密防失败和轮换是反证。",
+            "lossPaths": [
+              "弗拉门戈进攻疲劳或破密防失败，平或负即失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://www.flamengo.com.br/noticias/futebol/flamengo-luta-ate-o-fim-mas-e-eliminado-pelo-estudiantes-nos-penaltis-na-libertadores",
+                "hash": "b24c70e5b03465b680c2181433755b0789ca231683a76ea28561d4814fa3b6c0",
+                "checkedAt": "2026-10-26T05:03:23.536Z"
+              },
+              {
+                "url": "https://www.flamengo.com.br/noticias/futebol/lucas-paqueta-alcanca-temporada-mais-artilheira-da-carreira",
+                "hash": "5da608edc589b4c9b3b20f739140c06d531d5030d45f9b1cccbc0b86c334d507",
+                "checkedAt": "2026-10-26T05:03:23.693Z"
+              },
+              {
+                "url": "https://atletico.com.br/galo-e-finalista-da-conmebol-sul-americana/",
+                "hash": "da2f88c0156ed7491f55ada768ecc000370ab1bf7c10c5944f0706d367f7374d",
+                "checkedAt": "2026-10-26T05:03:52.069Z"
+              },
+              {
+                "url": "https://www.flamengo.com.br/noticias/futebol/agenda-do-futebol-profissional-26-10-2026-a-01-11-2026",
+                "hash": "b19aa968411504fe5239c5a5d452371115ed46cabb327f3367756580a9721070",
+                "checkedAt": "2026-10-26T05:03:53.250Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": false,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          }
+        ],
+        "selectionText": "周一003[胜] × 周一004[胜]",
+        "combinationCount": 1,
+        "betCount": 1,
+        "unitStake": 2,
+        "multiplier": 1,
+        "totalCost": 2,
+        "subTickets": [
+          {
+            "id": "2026-10-26-final-core20-1",
+            "name": "子票1",
+            "passType": "2串1",
+            "selections": [
+              {
+                "number": "周一003",
+                "market": "HAD",
+                "handicap": 0,
+                "key": "h",
+                "label": "胜",
+                "odds": 1.68
+              },
+              {
+                "number": "周一004",
+                "market": "HAD",
+                "handicap": 0,
+                "key": "h",
+                "label": "胜",
+                "odds": 1.19
+              }
+            ],
+            "selectionText": "周一003[胜] × 周一004[胜]",
+            "stake": 2,
+            "odds": 1.9992,
+            "return": 3.9984,
+            "net": 1.9984,
+            "returnText": "命中本分支返还约4.00元；扣整票成本净2.00元"
+          }
+        ],
+        "conditionalReturn": {
+          "min": 3.9984,
+          "max": 3.9984
+        },
+        "conditionalNet": {
+          "min": 1.9984,
+          "max": 1.9984
+        },
+        "effectiveReturnRatio": {
+          "min": 1.9992,
+          "max": 1.9992
+        },
+        "uncoveredReturn": 0,
+        "uncoveredNet": -2,
+        "structureText": "1选 × 1选 = 1注；每注2元、1倍",
+        "oddsText": "高风险·不建议重注｜1注×2元；整票条件返还1.9992倍",
+        "effectiveReturnText": "全部腿命中所选范围时，仅对应1条子票中奖，返还约4.00元；整票成本2元。任一腿不符返还0元。",
+        "coverageText": "各腿必须全部命中；不含其他关数。梦想串部分腿命中不算整串中；最高分支不是整票保证回报。",
+        "risk": "高风险，不建议重注。先选003普通胜作为优先主方向，再配004普通胜；两者均有真实反证，因此只做相对优选，不称稳单。2.0为版本名，当前实际返还1.9992倍。 奥萨苏纳定位球或Budimir支点破门，塞维利亚平或负即失败。 弗拉门戈进攻疲劳或破密防失败，平或负即失败。",
+        "lossPaths": [
+          "奥萨苏纳定位球或Budimir支点破门，塞维利亚平或负即失败。",
+          "弗拉门戈进攻疲劳或破密防失败，平或负即失败。"
+        ],
+        "selectionReason": "先选003普通胜作为优先主方向，再配004普通胜；两者均有真实反证，因此只做相对优选，不称稳单。2.0为版本名，当前实际返还1.9992倍。",
+        "oddsAsOf": "2026-10-26 14:59:41",
+        "lockedAt": "2026-10-26T07:15:01.852Z",
+        "notPurchased": true,
+        "settlementBasis": "以官方实际出票赔率及结算为准；此处仅分析记录，未假定购买。"
+      }
+    ],
+    "three": [
+      {
+        "id": "2026-10-26-final-core30",
+        "date": "2026-10-26",
+        "saleDate": "2026-10-26",
+        "name": "晚场3.0版2串1",
+        "category": "core30",
+        "trackingTier": "3.0版",
+        "sessionLabel": "晚场",
+        "batch": "C",
+        "passType": "2串1",
+        "passSizes": [
+          2
+        ],
+        "status": "待定",
+        "approved": true,
+        "nonBanker": true,
+        "stars": 0,
+        "stronglyRecommended": false,
+        "riskLevel": "high",
+        "riskLabel": "高风险，不建议重注",
+        "legs": [
+          {
+            "number": "周一001",
+            "matchId": 2042242,
+            "monitorMatchId": 3023509,
+            "saleDate": "2026-10-26",
+            "teams": "圣克拉拉 vs 本菲卡",
+            "market": "HAD",
+            "handicap": 0,
+            "selection": "负",
+            "selectionText": "负",
+            "options": [
+              {
+                "key": "a",
+                "label": "负",
+                "odds": 1.22
+              }
+            ],
+            "odds": 1.22,
+            "selectionReason": "高风险：本菲卡多点进攻为主方向；本票主动承担平局风险，扫盘负/平保险不代表本票覆盖。",
+            "lossPaths": [
+              "圣克拉拉低位组织、定位球或本菲卡中场减员造成主队不败即失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://cdsantaclara.com/jogar-olhos-nos-olhos-petit/",
+                "hash": "60d60039ef1e9178b1fefa85aac4e76fb719b3ff7565e23540d8028c25ea3cf2",
+                "checkedAt": "2026-10-26T05:03:23.974Z"
+              },
+              {
+                "url": "https://cdsantaclara.com/vinicius-lopes-queremos-mostrar-a-nossa-melhor-versao/",
+                "hash": "3848007180563a74c2b2a2fd420e8dc21c65aa74aeb090acece43b2516768bc3",
+                "checkedAt": "2026-10-26T05:03:24.377Z"
+              },
+              {
+                "url": "https://www.slbenfica.pt/pt-pt/",
+                "hash": "ac94dbf6dff24e9c814bd98445469ad99851955fb15cd7162161c218dca3a7cb",
+                "checkedAt": "2026-10-26T05:03:28.815Z"
+              },
+              {
+                "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/10/25/futebol-marco-silva-antevisao-santa-clara-benfica-9-jornada-liga-betclic",
+                "hash": "9e3cb431222ed7abadcc9bf1e7af1236529c1b8d3a3dd9011df334908e511ac3",
+                "checkedAt": "2026-10-26T05:03:58.758Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": false,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          },
+          {
+            "number": "周一002",
+            "matchId": 2042243,
+            "monitorMatchId": 2997753,
+            "saleDate": "2026-10-26",
+            "teams": "布洛涅 vs 兰斯",
+            "market": "HAD",
+            "handicap": 0,
+            "selection": "平",
+            "selectionText": "平",
+            "options": [
+              {
+                "key": "d",
+                "label": "平",
+                "odds": 3.05
+              }
+            ],
+            "odds": 3.05,
+            "selectionReason": "高风险：主队第二防守与压迫、双方107次射门支持僵持；采用独立博平，并非把低赔率当优势。",
+            "lossPaths": [
+              "兰斯效率延续赢球或布洛涅压迫爆冷，任一方获胜均失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://www.stade-de-reims.com/usbco-sdr-le-groupe-remois-2/",
+                "hash": "38250182d9e7cc98e96c79fa2ac02dadbbd9ddbf5c31d91887144d81d3433273",
+                "checkedAt": "2026-10-26T05:03:23.361Z"
+              },
+              {
+                "url": "https://www.stade-de-reims.com/usbco-sdr-ladversaire-a-la-loupe-2/",
+                "hash": "9437d9dca71d63937421b557c6aadb42169e7f57156c61c458d6582ff714b31c",
+                "checkedAt": "2026-10-26T05:03:23.352Z"
+              },
+              {
+                "url": "https://www.stade-de-reims.com/la-conf-avant-usbco-sdr-2/",
+                "hash": "7a7ebc83d6ed9b3a4835f7bd7ae96cc21b7e198d2c6d9d0225885f08a03ef169",
+                "checkedAt": "2026-10-26T05:03:23.327Z"
+              },
+              {
+                "url": "https://www.stade-de-reims.com/equipe-premiere-masculine-0/",
+                "hash": "af9e359da18a9ffcf4370582cdad22ac46c95d263112b688d0de98da38f5f0f0",
+                "checkedAt": "2026-10-26T05:03:53.608Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": false,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          }
+        ],
+        "selectionText": "周一001[负] × 周一002[平]",
+        "combinationCount": 1,
+        "betCount": 1,
+        "unitStake": 2,
+        "multiplier": 1,
+        "totalCost": 2,
+        "subTickets": [
+          {
+            "id": "2026-10-26-final-core30-1",
+            "name": "子票1",
+            "passType": "2串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "HAD",
+                "handicap": 0,
+                "key": "a",
+                "label": "负",
+                "odds": 1.22
+              },
+              {
+                "number": "周一002",
+                "market": "HAD",
+                "handicap": 0,
+                "key": "d",
+                "label": "平",
+                "odds": 3.05
+              }
+            ],
+            "selectionText": "周一001[负] × 周一002[平]",
+            "stake": 2,
+            "odds": 3.721,
+            "return": 7.442,
+            "net": 5.442,
+            "returnText": "命中本分支返还约7.44元；扣整票成本净5.44元"
+          }
+        ],
+        "conditionalReturn": {
+          "min": 7.442,
+          "max": 7.442
+        },
+        "conditionalNet": {
+          "min": 5.442,
+          "max": 5.442
+        },
+        "effectiveReturnRatio": {
+          "min": 3.721,
+          "max": 3.721
+        },
+        "uncoveredReturn": 0,
+        "uncoveredNet": -2,
+        "structureText": "1选 × 1选 = 1注；每注2元、1倍",
+        "oddsText": "高风险·不建议重注｜1注×2元；整票条件返还3.7210倍",
+        "effectiveReturnText": "全部腿命中所选范围时，仅对应1条子票中奖，返还约7.44元；整票成本2元。任一腿不符返还0元。",
+        "coverageText": "各腿必须全部命中；不含其他关数。梦想串部分腿命中不算整串中；最高分支不是整票保证回报。",
+        "risk": "高风险，不建议重注。与2.0不共用场次；001取常规客胜，002依据既有独立攻防分析取平，胜负与平局同时发生才命中。放弃001平局保险的风险明示，不以凑3倍或升级净胜球为依据。 圣克拉拉低位组织、定位球或本菲卡中场减员造成主队不败即失败。 兰斯效率延续赢球或布洛涅压迫爆冷，任一方获胜均失败。",
+        "lossPaths": [
+          "圣克拉拉低位组织、定位球或本菲卡中场减员造成主队不败即失败。",
+          "兰斯效率延续赢球或布洛涅压迫爆冷，任一方获胜均失败。"
+        ],
+        "selectionReason": "与2.0不共用场次；001取常规客胜，002依据既有独立攻防分析取平，胜负与平局同时发生才命中。放弃001平局保险的风险明示，不以凑3倍或升级净胜球为依据。",
+        "oddsAsOf": "2026-10-26 14:59:41",
+        "lockedAt": "2026-10-26T07:15:01.852Z",
+        "notPurchased": true,
+        "settlementBasis": "以官方实际出票赔率及结算为准；此处仅分析记录，未假定购买。"
+      }
+    ],
+    "goals3": [
+      {
+        "id": "2026-10-26-final-goals3",
+        "date": "2026-10-26",
+        "saleDate": "2026-10-26",
+        "name": "全进球数梦想3串1",
+        "category": "goals3",
+        "trackingTier": "全进球数梦想3串1",
+        "sessionLabel": "晚场",
+        "batch": "C",
+        "passType": "3串1",
+        "passSizes": [
+          3
+        ],
+        "status": "待定",
+        "approved": true,
+        "nonBanker": true,
+        "stars": 0,
+        "stronglyRecommended": false,
+        "riskLevel": "high",
+        "riskLabel": "高风险，不建议重注",
+        "legs": [
+          {
+            "number": "周一001",
+            "matchId": 2042242,
+            "monitorMatchId": 3023509,
+            "saleDate": "2026-10-26",
+            "teams": "圣克拉拉 vs 本菲卡",
+            "market": "TTG",
+            "handicap": 0,
+            "selection": "2/3",
+            "selectionText": "2/3",
+            "options": [
+              {
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              }
+            ],
+            "odds": [
+              3.6,
+              3.05
+            ],
+            "selectionReason": "高风险：主队组织与本菲卡进攻强弱差取2/3球；短休与中场缺席可能导致0/1球或4+，未覆盖。",
+            "lossPaths": [
+              "实际总进球不在2/3范围内，本腿及整串失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://cdsantaclara.com/jogar-olhos-nos-olhos-petit/",
+                "hash": "60d60039ef1e9178b1fefa85aac4e76fb719b3ff7565e23540d8028c25ea3cf2",
+                "checkedAt": "2026-10-26T05:03:23.974Z"
+              },
+              {
+                "url": "https://cdsantaclara.com/vinicius-lopes-queremos-mostrar-a-nossa-melhor-versao/",
+                "hash": "3848007180563a74c2b2a2fd420e8dc21c65aa74aeb090acece43b2516768bc3",
+                "checkedAt": "2026-10-26T05:03:24.377Z"
+              },
+              {
+                "url": "https://www.slbenfica.pt/pt-pt/",
+                "hash": "ac94dbf6dff24e9c814bd98445469ad99851955fb15cd7162161c218dca3a7cb",
+                "checkedAt": "2026-10-26T05:03:28.815Z"
+              },
+              {
+                "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/10/25/futebol-marco-silva-antevisao-santa-clara-benfica-9-jornada-liga-betclic",
+                "hash": "9e3cb431222ed7abadcc9bf1e7af1236529c1b8d3a3dd9011df334908e511ac3",
+                "checkedAt": "2026-10-26T05:03:58.758Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": true,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          },
+          {
+            "number": "周一002",
+            "matchId": 2042243,
+            "monitorMatchId": 2997753,
+            "saleDate": "2026-10-26",
+            "teams": "布洛涅 vs 兰斯",
+            "market": "TTG",
+            "handicap": 0,
+            "selection": "2/1",
+            "selectionText": "2/1",
+            "options": [
+              {
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              }
+            ],
+            "odds": [
+              2.95,
+              4.3
+            ],
+            "selectionReason": "高风险：低失球与压迫取2/1球；兰斯效率回归仍不确定，0球或3+均未覆盖。",
+            "lossPaths": [
+              "实际总进球不在2/1范围内，本腿及整串失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://www.stade-de-reims.com/usbco-sdr-le-groupe-remois-2/",
+                "hash": "38250182d9e7cc98e96c79fa2ac02dadbbd9ddbf5c31d91887144d81d3433273",
+                "checkedAt": "2026-10-26T05:03:23.361Z"
+              },
+              {
+                "url": "https://www.stade-de-reims.com/usbco-sdr-ladversaire-a-la-loupe-2/",
+                "hash": "9437d9dca71d63937421b557c6aadb42169e7f57156c61c458d6582ff714b31c",
+                "checkedAt": "2026-10-26T05:03:23.352Z"
+              },
+              {
+                "url": "https://www.stade-de-reims.com/la-conf-avant-usbco-sdr-2/",
+                "hash": "7a7ebc83d6ed9b3a4835f7bd7ae96cc21b7e198d2c6d9d0225885f08a03ef169",
+                "checkedAt": "2026-10-26T05:03:23.327Z"
+              },
+              {
+                "url": "https://www.stade-de-reims.com/equipe-premiere-masculine-0/",
+                "hash": "af9e359da18a9ffcf4370582cdad22ac46c95d263112b688d0de98da38f5f0f0",
+                "checkedAt": "2026-10-26T05:03:53.608Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": true,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          },
+          {
+            "number": "周一003",
+            "matchId": 2042244,
+            "monitorMatchId": 3013740,
+            "saleDate": "2026-10-26",
+            "teams": "塞维利亚 vs 奥萨苏纳",
+            "market": "TTG",
+            "handicap": 0,
+            "selection": "2/1",
+            "selectionText": "2/1",
+            "options": [
+              {
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              }
+            ],
+            "odds": [
+              3.15,
+              3.9
+            ],
+            "selectionReason": "高风险：客队创造者缺席与主队对抗优势取2/1球；Budimir和定位球可推高到3+，未覆盖。",
+            "lossPaths": [
+              "实际总进球不在2/1范围内，本腿及整串失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://www.osasuna.es/osasuna-sevilla-jagoba-arrasate-rueda-prensa-previa",
+                "hash": "48b2e478b84f78482fb173335b00b57b4b0f81ed6d9122a7d86bb7c947f0677a",
+                "checkedAt": "2026-10-26T05:03:23.018Z"
+              },
+              {
+                "url": "https://www.osasuna.es/osasuna-convocatoria-sevilla-jornada10",
+                "hash": "490d4ac9bcf957f37df27b5f9b572573355333dea678a9169797e4e394a88aa2",
+                "checkedAt": "2026-10-26T05:03:22.990Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": true,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          }
+        ],
+        "selectionText": "周一001[2/3] × 周一002[2/1] × 周一003[2/1]",
+        "combinationCount": 8,
+        "betCount": 8,
+        "unitStake": 2,
+        "multiplier": 1,
+        "totalCost": 16,
+        "subTickets": [
+          {
+            "id": "2026-10-26-final-goals3-1",
+            "name": "子票1",
+            "passType": "3串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[2] × 周一003[2]",
+            "stake": 2,
+            "odds": 33.453,
+            "return": 66.906,
+            "net": 50.906,
+            "returnText": "命中本分支返还约66.91元；扣整票成本净50.91元"
+          },
+          {
+            "id": "2026-10-26-final-goals3-2",
+            "name": "子票2",
+            "passType": "3串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[2] × 周一003[1]",
+            "stake": 2,
+            "odds": 41.418,
+            "return": 82.836,
+            "net": 66.836,
+            "returnText": "命中本分支返还约82.84元；扣整票成本净66.84元"
+          },
+          {
+            "id": "2026-10-26-final-goals3-3",
+            "name": "子票3",
+            "passType": "3串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[1] × 周一003[2]",
+            "stake": 2,
+            "odds": 48.762,
+            "return": 97.524,
+            "net": 81.524,
+            "returnText": "命中本分支返还约97.52元；扣整票成本净81.52元"
+          },
+          {
+            "id": "2026-10-26-final-goals3-4",
+            "name": "子票4",
+            "passType": "3串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[1] × 周一003[1]",
+            "stake": 2,
+            "odds": 60.372,
+            "return": 120.744,
+            "net": 104.744,
+            "returnText": "命中本分支返还约120.74元；扣整票成本净104.74元"
+          },
+          {
+            "id": "2026-10-26-final-goals3-5",
+            "name": "子票5",
+            "passType": "3串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[2] × 周一003[2]",
+            "stake": 2,
+            "odds": 28.342125,
+            "return": 56.68425,
+            "net": 40.68425,
+            "returnText": "命中本分支返还约56.68元；扣整票成本净40.68元"
+          },
+          {
+            "id": "2026-10-26-final-goals3-6",
+            "name": "子票6",
+            "passType": "3串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[2] × 周一003[1]",
+            "stake": 2,
+            "odds": 35.09025,
+            "return": 70.1805,
+            "net": 54.1805,
+            "returnText": "命中本分支返还约70.18元；扣整票成本净54.18元"
+          },
+          {
+            "id": "2026-10-26-final-goals3-7",
+            "name": "子票7",
+            "passType": "3串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[1] × 周一003[2]",
+            "stake": 2,
+            "odds": 41.31225,
+            "return": 82.6245,
+            "net": 66.6245,
+            "returnText": "命中本分支返还约82.62元；扣整票成本净66.62元"
+          },
+          {
+            "id": "2026-10-26-final-goals3-8",
+            "name": "子票8",
+            "passType": "3串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[1] × 周一003[1]",
+            "stake": 2,
+            "odds": 51.1485,
+            "return": 102.297,
+            "net": 86.297,
+            "returnText": "命中本分支返还约102.30元；扣整票成本净86.30元"
+          }
+        ],
+        "conditionalReturn": {
+          "min": 56.68425,
+          "max": 120.744
+        },
+        "conditionalNet": {
+          "min": 40.68425,
+          "max": 104.744
+        },
+        "effectiveReturnRatio": {
+          "min": 3.542766,
+          "max": 7.5465
+        },
+        "uncoveredReturn": 0,
+        "uncoveredNet": -16,
+        "structureText": "2选 × 2选 × 2选 = 8注；每注2元、1倍",
+        "oddsText": "高风险·不建议重注｜8注×2元；整票条件返还3.5428～7.5465倍",
+        "effectiveReturnText": "全部腿命中所选范围时，仅对应1条子票中奖，返还约56.68～120.74元；整票成本16元。任一腿不符返还0元。",
+        "coverageText": "各腿必须全部命中；不含其他关数。梦想串部分腿命中不算整串中；最高分支不是整票保证回报。",
+        "risk": "高风险，不建议重注。选001中段进球与002/003低中进球主剧本，排除004洲际后更开放的进球尾部；缩窄选择会提高漏选风险，不宣称高覆盖。 实际总进球不在2/3范围内，本腿及整串失败。 实际总进球不在2/1范围内，本腿及整串失败。 实际总进球不在2/1范围内，本腿及整串失败。",
+        "lossPaths": [
+          "实际总进球不在2/3范围内，本腿及整串失败。",
+          "实际总进球不在2/1范围内，本腿及整串失败。",
+          "实际总进球不在2/1范围内，本腿及整串失败。"
+        ],
+        "selectionReason": "选001中段进球与002/003低中进球主剧本，排除004洲际后更开放的进球尾部；缩窄选择会提高漏选风险，不宣称高覆盖。",
+        "oddsAsOf": "2026-10-26 14:59:41",
+        "lockedAt": "2026-10-26T07:15:01.852Z",
+        "notPurchased": true,
+        "settlementBasis": "以官方实际出票赔率及结算为准；此处仅分析记录，未假定购买。"
+      }
+    ],
+    "goals4": [
+      {
+        "id": "2026-10-26-final-goals4",
+        "date": "2026-10-26",
+        "saleDate": "2026-10-26",
+        "name": "全进球数梦想4串1",
+        "category": "goals4",
+        "trackingTier": "全进球数梦想4串1",
+        "sessionLabel": "晚场",
+        "batch": "C",
+        "passType": "4串1",
+        "passSizes": [
+          4
+        ],
+        "status": "待定",
+        "approved": true,
+        "nonBanker": true,
+        "stars": 0,
+        "stronglyRecommended": false,
+        "riskLevel": "high",
+        "riskLabel": "高风险，不建议重注",
+        "legs": [
+          {
+            "number": "周一001",
+            "matchId": 2042242,
+            "monitorMatchId": 3023509,
+            "saleDate": "2026-10-26",
+            "teams": "圣克拉拉 vs 本菲卡",
+            "market": "TTG",
+            "handicap": 0,
+            "selection": "2/3",
+            "selectionText": "2/3",
+            "options": [
+              {
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              }
+            ],
+            "odds": [
+              3.6,
+              3.05
+            ],
+            "selectionReason": "高风险：主队组织与本菲卡进攻强弱差取2/3球；短休与中场缺席可能导致0/1球或4+，未覆盖。",
+            "lossPaths": [
+              "实际总进球不在2/3范围内，本腿及整串失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://cdsantaclara.com/jogar-olhos-nos-olhos-petit/",
+                "hash": "60d60039ef1e9178b1fefa85aac4e76fb719b3ff7565e23540d8028c25ea3cf2",
+                "checkedAt": "2026-10-26T05:03:23.974Z"
+              },
+              {
+                "url": "https://cdsantaclara.com/vinicius-lopes-queremos-mostrar-a-nossa-melhor-versao/",
+                "hash": "3848007180563a74c2b2a2fd420e8dc21c65aa74aeb090acece43b2516768bc3",
+                "checkedAt": "2026-10-26T05:03:24.377Z"
+              },
+              {
+                "url": "https://www.slbenfica.pt/pt-pt/",
+                "hash": "ac94dbf6dff24e9c814bd98445469ad99851955fb15cd7162161c218dca3a7cb",
+                "checkedAt": "2026-10-26T05:03:28.815Z"
+              },
+              {
+                "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/10/25/futebol-marco-silva-antevisao-santa-clara-benfica-9-jornada-liga-betclic",
+                "hash": "9e3cb431222ed7abadcc9bf1e7af1236529c1b8d3a3dd9011df334908e511ac3",
+                "checkedAt": "2026-10-26T05:03:58.758Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": true,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          },
+          {
+            "number": "周一002",
+            "matchId": 2042243,
+            "monitorMatchId": 2997753,
+            "saleDate": "2026-10-26",
+            "teams": "布洛涅 vs 兰斯",
+            "market": "TTG",
+            "handicap": 0,
+            "selection": "2/1",
+            "selectionText": "2/1",
+            "options": [
+              {
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              }
+            ],
+            "odds": [
+              2.95,
+              4.3
+            ],
+            "selectionReason": "高风险：低失球与压迫取2/1球；兰斯效率回归仍不确定，0球或3+均未覆盖。",
+            "lossPaths": [
+              "实际总进球不在2/1范围内，本腿及整串失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://www.stade-de-reims.com/usbco-sdr-le-groupe-remois-2/",
+                "hash": "38250182d9e7cc98e96c79fa2ac02dadbbd9ddbf5c31d91887144d81d3433273",
+                "checkedAt": "2026-10-26T05:03:23.361Z"
+              },
+              {
+                "url": "https://www.stade-de-reims.com/usbco-sdr-ladversaire-a-la-loupe-2/",
+                "hash": "9437d9dca71d63937421b557c6aadb42169e7f57156c61c458d6582ff714b31c",
+                "checkedAt": "2026-10-26T05:03:23.352Z"
+              },
+              {
+                "url": "https://www.stade-de-reims.com/la-conf-avant-usbco-sdr-2/",
+                "hash": "7a7ebc83d6ed9b3a4835f7bd7ae96cc21b7e198d2c6d9d0225885f08a03ef169",
+                "checkedAt": "2026-10-26T05:03:23.327Z"
+              },
+              {
+                "url": "https://www.stade-de-reims.com/equipe-premiere-masculine-0/",
+                "hash": "af9e359da18a9ffcf4370582cdad22ac46c95d263112b688d0de98da38f5f0f0",
+                "checkedAt": "2026-10-26T05:03:53.608Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": true,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          },
+          {
+            "number": "周一003",
+            "matchId": 2042244,
+            "monitorMatchId": 3013740,
+            "saleDate": "2026-10-26",
+            "teams": "塞维利亚 vs 奥萨苏纳",
+            "market": "TTG",
+            "handicap": 0,
+            "selection": "2/1",
+            "selectionText": "2/1",
+            "options": [
+              {
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              }
+            ],
+            "odds": [
+              3.15,
+              3.9
+            ],
+            "selectionReason": "高风险：客队创造者缺席与主队对抗优势取2/1球；Budimir和定位球可推高到3+，未覆盖。",
+            "lossPaths": [
+              "实际总进球不在2/1范围内，本腿及整串失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://www.osasuna.es/osasuna-sevilla-jagoba-arrasate-rueda-prensa-previa",
+                "hash": "48b2e478b84f78482fb173335b00b57b4b0f81ed6d9122a7d86bb7c947f0677a",
+                "checkedAt": "2026-10-26T05:03:23.018Z"
+              },
+              {
+                "url": "https://www.osasuna.es/osasuna-convocatoria-sevilla-jornada10",
+                "hash": "490d4ac9bcf957f37df27b5f9b572573355333dea678a9169797e4e394a88aa2",
+                "checkedAt": "2026-10-26T05:03:22.990Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": true,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          },
+          {
+            "number": "周一004",
+            "matchId": 2042245,
+            "monitorMatchId": 2910940,
+            "saleDate": "2026-10-26",
+            "teams": "弗拉门戈 vs 米竞技",
+            "market": "TTG",
+            "handicap": 0,
+            "selection": "3/2/4",
+            "selectionText": "3/2/4",
+            "options": [
+              {
+                "key": "s3",
+                "label": "3",
+                "odds": 3.35
+              },
+              {
+                "key": "s2",
+                "label": "2",
+                "odds": 4.15
+              },
+              {
+                "key": "s4",
+                "label": "4",
+                "odds": 4.4
+              }
+            ],
+            "odds": [
+              3.35,
+              4.15,
+              4.4
+            ],
+            "selectionReason": "高风险：主队多点进攻与客队转换取3/2/4球；低位僵局0/1球或开放战5+均未覆盖。",
+            "lossPaths": [
+              "实际总进球不在3/2/4范围内，本腿及整串失败。"
+            ],
+            "stars": 0,
+            "confidenceStars": 0,
+            "sources": [
+              {
+                "url": "https://www.flamengo.com.br/noticias/futebol/flamengo-luta-ate-o-fim-mas-e-eliminado-pelo-estudiantes-nos-penaltis-na-libertadores",
+                "hash": "b24c70e5b03465b680c2181433755b0789ca231683a76ea28561d4814fa3b6c0",
+                "checkedAt": "2026-10-26T05:03:23.536Z"
+              },
+              {
+                "url": "https://www.flamengo.com.br/noticias/futebol/lucas-paqueta-alcanca-temporada-mais-artilheira-da-carreira",
+                "hash": "5da608edc589b4c9b3b20f739140c06d531d5030d45f9b1cccbc0b86c334d507",
+                "checkedAt": "2026-10-26T05:03:23.693Z"
+              },
+              {
+                "url": "https://atletico.com.br/galo-e-finalista-da-conmebol-sul-americana/",
+                "hash": "da2f88c0156ed7491f55ada768ecc000370ab1bf7c10c5944f0706d367f7374d",
+                "checkedAt": "2026-10-26T05:03:52.069Z"
+              },
+              {
+                "url": "https://www.flamengo.com.br/noticias/futebol/agenda-do-futebol-profissional-26-10-2026-a-01-11-2026",
+                "hash": "b19aa968411504fe5239c5a5d452371115ed46cabb327f3367756580a9721070",
+                "checkedAt": "2026-10-26T05:03:53.250Z"
+              }
+            ],
+            "qualification": {
+              "allUp": true,
+              "single": true,
+              "poolStatus": "Selling",
+              "closeDate": null,
+              "closeTime": null,
+              "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+              "capturedAt": "2026-10-26T07:15:01.852Z"
+            }
+          }
+        ],
+        "selectionText": "周一001[2/3] × 周一002[2/1] × 周一003[2/1] × 周一004[3/2/4]",
+        "combinationCount": 24,
+        "betCount": 24,
+        "unitStake": 2,
+        "multiplier": 1,
+        "totalCost": 48,
+        "subTickets": [
+          {
+            "id": "2026-10-26-final-goals4-1",
+            "name": "子票1",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.35
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[2] × 周一003[2] × 周一004[3]",
+            "stake": 2,
+            "odds": 112.06755,
+            "return": 224.1351,
+            "net": 176.1351,
+            "returnText": "命中本分支返还约224.14元；扣整票成本净176.14元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-2",
+            "name": "子票2",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 4.15
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[2] × 周一003[2] × 周一004[2]",
+            "stake": 2,
+            "odds": 138.82995,
+            "return": 277.6599,
+            "net": 229.6599,
+            "returnText": "命中本分支返还约277.66元；扣整票成本净229.66元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-3",
+            "name": "子票3",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s4",
+                "label": "4",
+                "odds": 4.4
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[2] × 周一003[2] × 周一004[4]",
+            "stake": 2,
+            "odds": 147.1932,
+            "return": 294.3864,
+            "net": 246.3864,
+            "returnText": "命中本分支返还约294.39元；扣整票成本净246.39元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-4",
+            "name": "子票4",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.35
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[2] × 周一003[1] × 周一004[3]",
+            "stake": 2,
+            "odds": 138.7503,
+            "return": 277.5006,
+            "net": 229.5006,
+            "returnText": "命中本分支返还约277.50元；扣整票成本净229.50元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-5",
+            "name": "子票5",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 4.15
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[2] × 周一003[1] × 周一004[2]",
+            "stake": 2,
+            "odds": 171.8847,
+            "return": 343.7694,
+            "net": 295.7694,
+            "returnText": "命中本分支返还约343.77元；扣整票成本净295.77元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-6",
+            "name": "子票6",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s4",
+                "label": "4",
+                "odds": 4.4
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[2] × 周一003[1] × 周一004[4]",
+            "stake": 2,
+            "odds": 182.2392,
+            "return": 364.4784,
+            "net": 316.4784,
+            "returnText": "命中本分支返还约364.48元；扣整票成本净316.48元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-7",
+            "name": "子票7",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.35
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[1] × 周一003[2] × 周一004[3]",
+            "stake": 2,
+            "odds": 163.3527,
+            "return": 326.7054,
+            "net": 278.7054,
+            "returnText": "命中本分支返还约326.71元；扣整票成本净278.71元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-8",
+            "name": "子票8",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 4.15
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[1] × 周一003[2] × 周一004[2]",
+            "stake": 2,
+            "odds": 202.3623,
+            "return": 404.7246,
+            "net": 356.7246,
+            "returnText": "命中本分支返还约404.72元；扣整票成本净356.72元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-9",
+            "name": "子票9",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s4",
+                "label": "4",
+                "odds": 4.4
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[1] × 周一003[2] × 周一004[4]",
+            "stake": 2,
+            "odds": 214.5528,
+            "return": 429.1056,
+            "net": 381.1056,
+            "returnText": "命中本分支返还约429.11元；扣整票成本净381.11元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-10",
+            "name": "子票10",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.35
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[1] × 周一003[1] × 周一004[3]",
+            "stake": 2,
+            "odds": 202.2462,
+            "return": 404.4924,
+            "net": 356.4924,
+            "returnText": "命中本分支返还约404.49元；扣整票成本净356.49元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-11",
+            "name": "子票11",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 4.15
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[1] × 周一003[1] × 周一004[2]",
+            "stake": 2,
+            "odds": 250.5438,
+            "return": 501.0876,
+            "net": 453.0876,
+            "returnText": "命中本分支返还约501.09元；扣整票成本净453.09元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-12",
+            "name": "子票12",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.6
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s4",
+                "label": "4",
+                "odds": 4.4
+              }
+            ],
+            "selectionText": "周一001[2] × 周一002[1] × 周一003[1] × 周一004[4]",
+            "stake": 2,
+            "odds": 265.6368,
+            "return": 531.2736,
+            "net": 483.2736,
+            "returnText": "命中本分支返还约531.27元；扣整票成本净483.27元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-13",
+            "name": "子票13",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.35
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[2] × 周一003[2] × 周一004[3]",
+            "stake": 2,
+            "odds": 94.946119,
+            "return": 189.892238,
+            "net": 141.892238,
+            "returnText": "命中本分支返还约189.89元；扣整票成本净141.89元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-14",
+            "name": "子票14",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 4.15
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[2] × 周一003[2] × 周一004[2]",
+            "stake": 2,
+            "odds": 117.619819,
+            "return": 235.239638,
+            "net": 187.239638,
+            "returnText": "命中本分支返还约235.24元；扣整票成本净187.24元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-15",
+            "name": "子票15",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s4",
+                "label": "4",
+                "odds": 4.4
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[2] × 周一003[2] × 周一004[4]",
+            "stake": 2,
+            "odds": 124.70535,
+            "return": 249.4107,
+            "net": 201.4107,
+            "returnText": "命中本分支返还约249.41元；扣整票成本净201.41元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-16",
+            "name": "子票16",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.35
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[2] × 周一003[1] × 周一004[3]",
+            "stake": 2,
+            "odds": 117.552338,
+            "return": 235.104676,
+            "net": 187.104676,
+            "returnText": "命中本分支返还约235.10元；扣整票成本净187.10元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-17",
+            "name": "子票17",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 4.15
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[2] × 周一003[1] × 周一004[2]",
+            "stake": 2,
+            "odds": 145.624538,
+            "return": 291.249076,
+            "net": 243.249076,
+            "returnText": "命中本分支返还约291.25元；扣整票成本净243.25元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-18",
+            "name": "子票18",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 2.95
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s4",
+                "label": "4",
+                "odds": 4.4
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[2] × 周一003[1] × 周一004[4]",
+            "stake": 2,
+            "odds": 154.3971,
+            "return": 308.7942,
+            "net": 260.7942,
+            "returnText": "命中本分支返还约308.79元；扣整票成本净260.79元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-19",
+            "name": "子票19",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.35
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[1] × 周一003[2] × 周一004[3]",
+            "stake": 2,
+            "odds": 138.396037,
+            "return": 276.792074,
+            "net": 228.792074,
+            "returnText": "命中本分支返还约276.79元；扣整票成本净228.79元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-20",
+            "name": "子票20",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 4.15
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[1] × 周一003[2] × 周一004[2]",
+            "stake": 2,
+            "odds": 171.445837,
+            "return": 342.891674,
+            "net": 294.891674,
+            "returnText": "命中本分支返还约342.89元；扣整票成本净294.89元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-21",
+            "name": "子票21",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 3.15
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s4",
+                "label": "4",
+                "odds": 4.4
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[1] × 周一003[2] × 周一004[4]",
+            "stake": 2,
+            "odds": 181.7739,
+            "return": 363.5478,
+            "net": 315.5478,
+            "returnText": "命中本分支返还约363.55元；扣整票成本净315.55元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-22",
+            "name": "子票22",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.35
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[1] × 周一003[1] × 周一004[3]",
+            "stake": 2,
+            "odds": 171.347475,
+            "return": 342.69495,
+            "net": 294.69495,
+            "returnText": "命中本分支返还约342.69元；扣整票成本净294.69元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-23",
+            "name": "子票23",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s2",
+                "label": "2",
+                "odds": 4.15
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[1] × 周一003[1] × 周一004[2]",
+            "stake": 2,
+            "odds": 212.266275,
+            "return": 424.53255,
+            "net": 376.53255,
+            "returnText": "命中本分支返还约424.53元；扣整票成本净376.53元"
+          },
+          {
+            "id": "2026-10-26-final-goals4-24",
+            "name": "子票24",
+            "passType": "4串1",
+            "selections": [
+              {
+                "number": "周一001",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s3",
+                "label": "3",
+                "odds": 3.05
+              },
+              {
+                "number": "周一002",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 4.3
+              },
+              {
+                "number": "周一003",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s1",
+                "label": "1",
+                "odds": 3.9
+              },
+              {
+                "number": "周一004",
+                "market": "TTG",
+                "handicap": 0,
+                "key": "s4",
+                "label": "4",
+                "odds": 4.4
+              }
+            ],
+            "selectionText": "周一001[3] × 周一002[1] × 周一003[1] × 周一004[4]",
+            "stake": 2,
+            "odds": 225.0534,
+            "return": 450.1068,
+            "net": 402.1068,
+            "returnText": "命中本分支返还约450.11元；扣整票成本净402.11元"
+          }
+        ],
+        "conditionalReturn": {
+          "min": 189.892238,
+          "max": 531.2736
+        },
+        "conditionalNet": {
+          "min": 141.892238,
+          "max": 483.2736
+        },
+        "effectiveReturnRatio": {
+          "min": 3.956088,
+          "max": 11.0682
+        },
+        "uncoveredReturn": 0,
+        "uncoveredNet": -48,
+        "structureText": "2选 × 2选 × 2选 × 3选 = 24注；每注2元、1倍",
+        "oddsText": "高风险·不建议重注｜24注×2元；整票条件返还3.9561～11.0682倍",
+        "effectiveReturnText": "全部腿命中所选范围时，仅对应1条子票中奖，返还约189.89～531.27元；整票成本48元。任一腿不符返还0元。",
+        "coverageText": "各腿必须全部命中；不含其他关数。梦想串部分腿命中不算整串中；最高分支不是整票保证回报。",
+        "risk": "高风险，不建议重注。前三腿与梦想3串1重叠，再加入004的2/3/4球剧本，票间高度相关；任何一腿范围外即全失，不将两张票视为分散风险。 实际总进球不在2/3范围内，本腿及整串失败。 实际总进球不在2/1范围内，本腿及整串失败。 实际总进球不在2/1范围内，本腿及整串失败。 实际总进球不在3/2/4范围内，本腿及整串失败。",
+        "lossPaths": [
+          "实际总进球不在2/3范围内，本腿及整串失败。",
+          "实际总进球不在2/1范围内，本腿及整串失败。",
+          "实际总进球不在2/1范围内，本腿及整串失败。",
+          "实际总进球不在3/2/4范围内，本腿及整串失败。"
+        ],
+        "selectionReason": "前三腿与梦想3串1重叠，再加入004的2/3/4球剧本，票间高度相关；任何一腿范围外即全失，不将两张票视为分散风险。",
+        "oddsAsOf": "2026-10-26 14:59:41",
+        "lockedAt": "2026-10-26T07:15:01.852Z",
+        "notPurchased": true,
+        "settlementBasis": "以官方实际出票赔率及结算为准；此处仅分析记录，未假定购买。"
+      }
+    ]
   },
   "trackingAudit": {
     "counts": {
-      "core20": 0,
-      "core30": 0,
-      "goals3": 0,
-      "goals4": 0
+      "core20": 1,
+      "core30": 1,
+      "goals3": 1,
+      "goals4": 1
     },
-    "todayActualTicketCount": 0,
-    "nextReviewExpectedTicketCount": 0,
-    "completeDelivery": false
+    "todayActualTicketCount": 4,
+    "nextReviewExpectedTicketCount": 4,
+    "completeDelivery": true,
+    "deduplicateBy": "id",
+    "totalIllustrativeCost": 68,
+    "notPurchased": true
   },
   "legPool": [
     {
+      "rank": 1,
+      "number": "周一003",
+      "selection": "胜",
+      "category": "core20",
+      "coreEligible": true,
+      "strictLowVarianceEligible": false,
+      "riskLevel": "high",
+      "reason": "高风险：主队对抗与推进占优，客队缺Aimar等创造者；主队完整名单未核齐。"
+    },
+    {
+      "rank": 2,
+      "number": "周一004",
+      "selection": "胜",
+      "category": "core20",
+      "coreEligible": true,
+      "strictLowVarianceEligible": false,
+      "riskLevel": "high",
+      "reason": "高风险：Paquetá后插上与联赛进攻产量支持主胜；洲际赛破密防失败和轮换是反证。"
+    },
+    {
       "rank": 3,
       "number": "周一001",
-      "selection": "负/平",
-      "coreEligible": false,
-      "reason": "客队两名中场缺阵、欧战后旅行，主队防守组织真实；单负不能通过低波动门槛，负/平保险后主分支回报过薄。"
+      "selection": "负",
+      "category": "core30",
+      "coreEligible": true,
+      "strictLowVarianceEligible": false,
+      "riskLevel": "high",
+      "reason": "高风险：本菲卡多点进攻为主方向；本票主动承担平局风险，扫盘负/平保险不代表本票覆盖。"
     },
     {
       "rank": 4,
       "number": "周一002",
-      "selection": "负/平",
-      "coreEligible": false,
-      "reason": "客队伤缺和主队第二防守要求真实平局保险；单负赔率1.95不证明稳健，双选主要分支被成本减半。"
-    },
-    {
-      "rank": 2,
-      "number": "周一003",
-      "selection": "胜",
-      "coreEligible": false,
-      "reason": "可作为相对优先单胜腿，但主队本轮阵容与防线替代未确认；不存在第二条充分合格腿，不凭1.68凑2.0。"
-    },
-    {
-      "rank": 1,
-      "number": "周一004",
-      "selection": "胜",
-      "coreEligible": false,
-      "reason": "1.20主胜回报低，上一场破密防失败且刚踢洲际赛；不能为了2.0升级让胜。总进球3/2/4仅情景区间，未有稳定尾部概率与阵容证据。"
+      "selection": "平",
+      "category": "core30",
+      "coreEligible": true,
+      "strictLowVarianceEligible": false,
+      "riskLevel": "high",
+      "reason": "高风险：主队第二防守与压迫、双方107次射门支持僵持；采用独立博平，并非把低赔率当优势。"
     }
   ],
   "batches": [
@@ -2832,16 +7578,17 @@
         "周一003",
         "周一004"
       ],
-      "deadline": "2026-10-26T13:00:00+08:00",
-      "publishedAt": "2026-10-26T05:07:03.337Z",
-      "locked": false,
-      "status": "scan-only-formal-tickets-withheld"
+      "publishedAt": "2026-10-26T07:15:01.852Z",
+      "locked": true,
+      "status": "final-high-risk-four-ticket-types"
     }
   ],
   "limitations": [
-    "官方显示当前可串，但实际停售字段为空。",
-    "双方本场阵容及替代关系仍有缺口，不能用低赔率代替研究。",
-    "四类票均为空，不把空跟踪卡当出单完成。"
+    "四张票均高风险，不建议重注；版本名不是收益保证。",
+    "阵容缺口仍存在，未虚构已确认首发、尾部概率或确定优势；完成分析不等于证据完全。",
+    "官方当前Selling且allUp=1，硬停售字段仍为空，不把开球时间当停售时间。",
+    "所有金额按每注2元、1倍说明，未下单、未假定用户购买；实际赔率以出票时为准。",
+    "梦想3与4高度重叠，总列示成本68元仅用于完整核算，不代表购买建议。"
   ],
   "sources": [
     {
@@ -2924,6 +7671,11 @@
       "url": "https://www.flamengo.com.br/noticias/futebol/agenda-do-futebol-profissional-26-10-2026-a-01-11-2026",
       "hash": "b19aa968411504fe5239c5a5d452371115ed46cabb327f3367756580a9721070",
       "checkedAt": "2026-10-26T05:03:53.250Z"
+    },
+    {
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+      "checkedAt": "2026-10-26T07:15:01.852Z",
+      "hash": "b9ad67adacf333cd15203a34552048116bda08d4d1f1435d2097dba24053cbce"
     }
   ],
   "snapshotAudit": {
@@ -2948,9 +7700,54 @@
     ],
     "note": "按来源内matchId+saleDate匹配（允许球队简称变化）；跨来源按销售日+编号+主客队匹配。让球历史同时保留让球数，不跨让球边界解释赔率变化。"
   },
-  "sourceHash": "b7457c7e6499a5ce16b12d0422df444124d1e666cf2a7a172240d4cee20b7347",
+  "sourceHash": "f7a01a9510925606c911d39a36f327678d92c52a5142ecfae6bd0eee183bb013",
   "publicationCorrection": "补齐跨来源比赛ID映射后的官方玩法资格，并保留快照让球边界；预测、星级和双选顺序未变。",
-  "incrementalAudit": {
+  "previousQualificationAudit": [
+    {
+      "category": "core20",
+      "name": "晚场2.0版2串1",
+      "status": "未出",
+      "reason": "003胜为相对优先腿；001需平局保险，004破密防反证未消，002防守与伤缺风险未过。横向配对003胜×001负=2.0496、003胜×004胜=2.016均只有理论赔率，不取得准入；001负/平×003胜主分支整票回报1.0248倍，淘汰。"
+    },
+    {
+      "category": "core30",
+      "name": "晚场3.0版2串1",
+      "status": "未出",
+      "reason": "独立筛选002负×003胜理论3.276，但002需平局保险，保留保险主分支只有1.638倍且阵容未核齐；001与004均不得靠升级净胜两球制造3.0。不借用未锁定2.0腿凑第二档。"
+    },
+    {
+      "category": "goals3",
+      "name": "全进球数梦想3串1",
+      "status": "未出",
+      "reason": "002低总进球有防守依据，003低中总进球有客队缺创造者依据，但001中场缺席与旅行、004洲际后轮换使尾部分布未核实，合格进球腿不足3条；每个3场子集至少含001或004，不随机三选。"
+    },
+    {
+      "category": "goals4",
+      "name": "全进球数梦想4串1",
+      "status": "未出",
+      "reason": "四场全用将强制纳入001、004未通过的进球腿；扩大选项不能弥补尾部概率与阵容缺口，不出虚假覆盖票。"
+    }
+  ],
+  "evidenceComplete": false,
+  "lockedAt": "2026-10-26T07:15:01.852Z",
+  "finalizedAt": "2026-10-26T07:15:01.852Z",
+  "rulesOverride": {
+    "at": "2026-10-26T07:15:01.852Z",
+    "instruction": "用户明确覆盖：四类各至少1张，不留空，弱证据相对优选且明确高风险；只发布最终版，不自动下注。",
+    "finalOnly": true
+  },
+  "deliveryValidation": {
+    "mobileVerified": false,
+    "pending": [
+      "online state-latest date",
+      "four static PNG HTTP and width1244",
+      "today cards directly visible",
+      "430px overflow",
+      "four tracking rows"
+    ],
+    "finalReportReady": true
+  },
+  "previousIncrementalAudit": {
     "checkedAt": "2026-10-26T06:05:14.509Z",
     "previousSourceHash": "83da052d76479ab46e4699c6e1b54f738debba256c55c30d6c630f96a89d1542",
     "changes": [
@@ -3072,5 +7869,35 @@
     "sourceReview": "15个官方来源复查；14个文本完全相同，米竞技一篇仅相关文章排序变化。",
     "officialUpdated": "2026-10-26 13:31:56",
     "selectionDecision": "四类准入不足；不随机凑票。"
-  }
+  },
+  "previousLegPool": [
+    {
+      "rank": 3,
+      "number": "周一001",
+      "selection": "负/平",
+      "coreEligible": false,
+      "reason": "客队两名中场缺阵、欧战后旅行，主队防守组织真实；单负不能通过低波动门槛，负/平保险后主分支回报过薄。"
+    },
+    {
+      "rank": 4,
+      "number": "周一002",
+      "selection": "负/平",
+      "coreEligible": false,
+      "reason": "客队伤缺和主队第二防守要求真实平局保险；单负赔率1.95不证明稳健，双选主要分支被成本减半。"
+    },
+    {
+      "rank": 2,
+      "number": "周一003",
+      "selection": "胜",
+      "coreEligible": false,
+      "reason": "可作为相对优先单胜腿，但主队本轮阵容与防线替代未确认；不存在第二条充分合格腿，不凭1.68凑2.0。"
+    },
+    {
+      "rank": 1,
+      "number": "周一004",
+      "selection": "胜",
+      "coreEligible": false,
+      "reason": "1.20主胜回报低，上一场破密防失败且刚踢洲际赛；不能为了2.0升级让胜。总进球3/2/4仅情景区间，未有稳定尾部概率与阵容证据。"
+    }
+  ]
 }
