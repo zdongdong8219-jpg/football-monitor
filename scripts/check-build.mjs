@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { validateReviewConsistency } from './validate-review-consistency.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const readProjectFile = relativePath =>
@@ -9,6 +10,7 @@ const readProjectFile = relativePath =>
 for (const file of ['data/state.json', 'data/latest.json', 'data/review-latest.json']) {
   JSON.parse(readProjectFile(file));
 }
+validateReviewConsistency(projectRoot);
 
 const html = readProjectFile('public/index.html');
 const script = html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
