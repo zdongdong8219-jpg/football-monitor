@@ -2,7 +2,7 @@
   "date": "2026-10-27",
   "saleDate": "2026-10-27",
   "generatedAt": "2026-10-27T06:12:24.258Z",
-  "publishedAt": "2026-10-27T06:12:24.258Z",
+  "publishedAt": "2026-10-27T06:17:12.864Z",
   "dataAsOf": "2026-10-27T06:12:24.258Z",
   "edition": "当日一次性最终版",
   "batchLabel": "中晚场最终版",
@@ -10,7 +10,7 @@
   "status": "final-high-risk-four-ticket-types",
   "summary": "10场完整扫盘；2.0、3.0、进球数梦想3串1和4串1各1张。全部低信心、高风险，不建议重注；资料缺口逐场披露，无红星。核心方向与扫盘一致；总进球前三项全部实际覆盖，前两项重点显示。",
   "finalLocked": true,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
@@ -6973,7 +6973,7 @@
         "周二009",
         "周二010"
       ],
-      "publishedAt": "2026-10-27T06:12:24.258Z",
+      "publishedAt": "2026-10-27T06:17:12.864Z",
       "locked": true
     }
   ],
@@ -7110,12 +7110,62 @@
   "lockedAt": "2026-10-27T06:12:24.258Z",
   "finalizedAt": "2026-10-27T06:12:24.258Z",
   "deliveryValidation": {
-    "mobileVerified": false,
-    "pending": [
-      "static PNG generation",
-      "430px online verification",
-      "HTTP verification"
-    ]
+    "mobileVerified": true,
+    "checkedAt": "2026-10-27T06:20:49.854Z",
+    "method": "Online headless Edge at 430px; PNG HTTP and clipboard payload interception; no physical phone claimed",
+    "date": "2026-10-27",
+    "rows": 10,
+    "viewport": 430,
+    "scrollWidth": 430,
+    "images": [
+      {
+        "alt": "2026-10-27 推荐扫盘",
+        "width": 1244,
+        "height": 2384
+      },
+      {
+        "alt": "2026-10-27 今日跟踪",
+        "width": 1244,
+        "height": 1422
+      },
+      {
+        "alt": "2026-10-26 复盘扫盘",
+        "width": 1244,
+        "height": 2162
+      },
+      {
+        "alt": "2026-10-26 复盘跟踪",
+        "width": 1244,
+        "height": 1287
+      }
+    ],
+    "copies": [
+      {
+        "type": "image/png",
+        "size": 1853232
+      },
+      {
+        "type": "image/png",
+        "size": 1723827
+      },
+      {
+        "type": "image/png",
+        "size": 1708653
+      },
+      {
+        "type": "image/png",
+        "size": 1918184
+      }
+    ],
+    "counts": {
+      "core20": 1,
+      "core30": 1,
+      "goals3": 1,
+      "goals4": 1
+    },
+    "finalContentCommit": "fd8283ef77612fd852ce8e6c243b2d1caab5db35",
+    "pending": []
   },
-  "sourceHash": "4136de484d751d0e00bfa35aad2df9dffb92b4f07cac50e812e7316b68accad8"
+  "sourceHash": "4136de484d751d0e00bfa35aad2df9dffb92b4f07cac50e812e7316b68accad8",
+  "mobileVerifiedAt": "2026-10-27T06:20:49.854Z"
 }
