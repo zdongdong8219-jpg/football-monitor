@@ -1,10 +1,12 @@
 import fs from 'node:fs';
+import { validateProjectStars } from './validate-project-stars.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { validateReviewConsistency } from './validate-review-consistency.mjs';
 import { validateFormalReport } from './validate-formal-report.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+validateProjectStars(projectRoot);
 const readProjectFile = relativePath =>
   fs.readFileSync(path.join(projectRoot, relativePath), 'utf8');
 
