@@ -10,7 +10,7 @@
   "status": "final-user-correction",
   "summary": "用户更正版：2.0京都胜×科莫胜，2星；3.0 AIK不败×柏林联合不败，1星。两串不共用场次，暂无3星；五项红白星全部右侧。原票已归档。",
   "finalLocked": true,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
@@ -7416,13 +7416,61 @@
   "lockedAt": "2026-10-27T06:12:24.258Z",
   "finalizedAt": "2026-10-27T07:07:35.275Z",
   "deliveryValidation": {
-    "mobileVerified": false,
-    "pending": [
-      "online revision verification"
-    ]
+    "mobileVerified": true,
+    "checkedAt": "2026-10-27T07:16:22.667Z",
+    "method": "Actual phone-v2 page, headless Edge430px, four image/png clipboard payloads, current card HTTP200/hash match. No physical phone claim.",
+    "date": "2026-10-27",
+    "revision": "2026-10-27-user-correction-1505",
+    "images": [
+      {
+        "alt": "2026-10-27 推荐扫盘",
+        "width": 1244,
+        "height": 2354
+      },
+      {
+        "alt": "2026-10-27 今日跟踪",
+        "width": 1244,
+        "height": 1422
+      },
+      {
+        "alt": "2026-10-26 复盘扫盘",
+        "width": 720,
+        "height": 1251
+      },
+      {
+        "alt": "2026-10-26 复盘跟踪",
+        "width": 720,
+        "height": 745
+      }
+    ],
+    "copies": [
+      {
+        "type": "image/png",
+        "size": 2904342
+      },
+      {
+        "type": "image/png",
+        "size": 2039785
+      },
+      {
+        "type": "image/png",
+        "size": 1318858
+      },
+      {
+        "type": "image/png",
+        "size": 793708
+      }
+    ],
+    "counts": {
+      "core20": 1,
+      "core30": 1,
+      "goals3": 1,
+      "goals4": 1
+    },
+    "pending": []
   },
   "sourceHash": "4136de484d751d0e00bfa35aad2df9dffb92b4f07cac50e812e7316b68accad8",
-  "mobileVerifiedAt": null,
+  "mobileVerifiedAt": "2026-10-27T07:16:22.667Z",
   "reviewAudit": {
     "at": "2026-10-27T06:32:02.349Z",
     "originalSha256": "2736104f931401b3e2e05f4c97045cc4af7ca8e7b93c706c361920022144a081",
