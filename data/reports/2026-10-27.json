@@ -10,7 +10,7 @@
   "status": "final-user-correction",
   "summary": "保险更正：002推荐主+1让胜（大田不败）、博平；005推荐负/平。006与008让球已覆盖不败。核心2.0/3.0、梦想原票选项及赔率不变，旧版本完整归档。",
   "finalLocked": true,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
@@ -7476,13 +7476,54 @@
   "lockedAt": "2026-10-27T06:12:24.258Z",
   "finalizedAt": "2026-10-27T07:07:35.275Z",
   "deliveryValidation": {
-    "mobileVerified": false,
-    "pending": [
-      "new phone-v2 verification"
-    ]
+    "mobileVerified": true,
+    "checkedAt": "2026-10-27T07:28:10.713Z",
+    "method": "Online phone-v2 at430px; four PNG clipboard payloads; all HTTP assets match staged hashes. No physical device test.",
+    "revision": "2026-10-27-user-insurance",
+    "images": [
+      {
+        "alt": "2026-10-27 推荐扫盘",
+        "width": 1244,
+        "height": 2354
+      },
+      {
+        "alt": "2026-10-27 今日跟踪",
+        "width": 1244,
+        "height": 1422
+      },
+      {
+        "alt": "2026-10-26 复盘扫盘",
+        "width": 720,
+        "height": 1251
+      },
+      {
+        "alt": "2026-10-26 复盘跟踪",
+        "width": 720,
+        "height": 745
+      }
+    ],
+    "copies": [
+      {
+        "type": "image/png",
+        "size": 2908091
+      },
+      {
+        "type": "image/png",
+        "size": 2039785
+      },
+      {
+        "type": "image/png",
+        "size": 1318858
+      },
+      {
+        "type": "image/png",
+        "size": 793708
+      }
+    ],
+    "pending": []
   },
   "sourceHash": "4136de484d751d0e00bfa35aad2df9dffb92b4f07cac50e812e7316b68accad8",
-  "mobileVerifiedAt": null,
+  "mobileVerifiedAt": "2026-10-27T07:28:10.713Z",
   "reviewAudit": {
     "at": "2026-10-27T06:32:02.349Z",
     "originalSha256": "2736104f931401b3e2e05f4c97045cc4af7ca8e7b93c706c361920022144a081",
