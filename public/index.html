@@ -412,9 +412,9 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     async function copyStaticImage(button){const original=button.textContent,url=button.dataset.image;button.disabled=true;button.textContent='正在复制';try{const pending=fetch(url,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('image');return r.blob()}).then(blob=>{if(blob.type!=='image/png')throw Error('not png');return blob});if(navigator.clipboard?.write&&window.ClipboardItem){await navigator.clipboard.write([new ClipboardItem({'image/png':pending})]);button.textContent='✓ 图片已复制'}else{window.open(url,'_blank');button.textContent='已打开原图'}}catch{window.open(url,'_blank');button.textContent='请长按原图保存'}finally{setTimeout(()=>{button.textContent=original;button.disabled=false},2200)}}
     document.querySelectorAll('.static-copy').forEach(button=>button.addEventListener('click',()=>copyStaticImage(button)));
     $('quickPoster').addEventListener('click',()=>document.querySelector('.static-copy[data-image*="scan"]')?.click());$('quickTracking').addEventListener('click',()=>document.querySelector('.static-copy[data-image*="tracking"]')?.click());
-    $('copyPoster').addEventListener('click',function(){copyScanTable(false,this);});$('copyTracking').addEventListener('click',function(){copyTrackingImage(false,this);});$('copyReviewTracking').addEventListener('click',function(){copyStaticImage(this);});
-    $('refresh').addEventListener('click',load);$('copyScan').addEventListener('click',()=>copyScanTable(false));$('copyReview').addEventListener('click',function(){copyStaticImage(this);});
-    for(const id of ['quickReview','quickReviewTracking']){$(id).addEventListener('click',event=>{event.preventDefault();event.stopImmediatePropagation();copyStaticImage(event.currentTarget)},true)}
+    $('copyPoster').addEventListener('click',function(){copyScanTable(false,this);});$('copyTracking').addEventListener('click',function(){copyTrackingImage(false,this);});
+    $('refresh').addEventListener('click',load);$('copyScan').addEventListener('click',()=>copyScanTable(false));
+    for(const id of ['quickReview','quickReviewTracking','copyReview','copyReviewTracking']){$(id).addEventListener('click',event=>{event.preventDefault();event.stopImmediatePropagation();copyStaticImage(event.currentTarget)},true)}
     load();setInterval(load,5*60*1000);
   </script>
   <script src="muse-cards.js?v=direction-fix-2026-10-26-v1"></script>
