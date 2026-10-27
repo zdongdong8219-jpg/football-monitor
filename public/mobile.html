@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>足球四图</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#eef4f2;color:#173d32;font-family:"Microsoft YaHei",sans-serif}main{max-width:720px;margin:auto;padding:12px}h1{margin:4px 0 12px;font-size:22px}.card{margin:0 0 14px;padding:10px;background:#fff;border:1px solid #aac9bd;border-radius:6px;box-shadow:0 2px 8px #173d3214}.head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}.head strong{font-size:17px}.head span{font-size:12px;color:#667b73}.card img{display:block;width:100%;height:auto;background:#e5eeeb;border:1px solid #b7cec5}.card a{display:block;margin-top:9px;padding:13px 8px;background:#197751;color:#fff;text-align:center;text-decoration:none;border-radius:5px;font-size:16px;font-weight:700}.hint{margin:0 0 12px;color:#5d726a;font-size:13px}#status{padding:30px 10px;text-align:center;color:#5d726a}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>足球四图</h1>
+    <p class="hint">图片直接显示。点击绿色按钮打开高清图，再长按复制或保存。</p>
+    <div id="cards"><div id="status">正在加载四张图…</div></div>
+  </main>
+  <script>
+    (async()=>{
+      const cards=document.getElementById('cards');
+      try{
+        const [today,review]=await Promise.all([
+          fetch('data/latest.json',{cache:'no-store'}).then(r=>r.json()),
+          fetch('data/review-latest.json',{cache:'no-store'}).then(r=>r.json())
+        ]);
+        const items=[
+          ['推荐扫盘',today.date,`${today.date}-final-scan.png`],
+          ['今日跟踪',today.date,`${today.date}-final-tracking.png`],
+          ['复盘扫盘',review.date,`${review.date}-review-scan.png`],
+          ['复盘跟踪',review.date,`${review.date}-review-tracking.png`]
+        ];
+        cards.textContent='';
+        for(const [title,date,file] of items){
+          const article=document.createElement('section');article.className='card';
+          const original=`cards/${file}?v=mobile-simple-v1`;
+          const preview=`cards/${file.replace('.png','-preview.jpg')}?v=mobile-simple-v1`;
+          article.innerHTML='<div class="head"><strong></strong><span></span></div><img loading="eager" decoding="async"><a target="_blank" rel="noopener">打开高清图，长按复制</a>';
+          article.querySelector('strong').textContent=title;
+          article.querySelector('span').textContent=date;
+          const img=article.querySelector('img');img.alt=`${date} ${title}`;img.src=preview;img.onerror=()=>{img.onerror=null;img.src=original};
+          article.querySelector('a').href=original;
+          cards.append(article);
+        }
+      }catch{document.getElementById('status').textContent='加载失败，请刷新页面';}
+    })();
+  </script>
+</body>
+</html>
