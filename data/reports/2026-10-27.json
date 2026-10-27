@@ -1,16 +1,16 @@
 {
   "date": "2026-10-27",
   "saleDate": "2026-10-27",
-  "generatedAt": "2026-10-27T07:07:35.275Z",
-  "publishedAt": "2026-10-27T07:07:35.275Z",
+  "generatedAt": "2026-10-27T07:24:24.520Z",
+  "publishedAt": "2026-10-27T07:24:24.520Z",
   "dataAsOf": "2026-10-27T07:07:35.275Z",
   "edition": "用户要求更正版",
   "batchLabel": "用户更正版",
   "rulesVersion": "2026-10-27",
   "status": "final-user-correction",
-  "summary": "用户更正版：2.0京都胜×科莫胜，2星；3.0 AIK不败×柏林联合不败，1星。两串不共用场次，暂无3星；五项红白星全部右侧。原票已归档。",
+  "summary": "保险更正：002推荐主+1让胜（大田不败）、博平；005推荐负/平。006与008让球已覆盖不败。核心2.0/3.0、梦想原票选项及赔率不变，旧版本完整归档。",
   "finalLocked": true,
-  "mobileVerified": true,
+  "mobileVerified": false,
   "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
@@ -5268,7 +5268,13 @@
       ],
       "ticketIds": [
         "2026-10-27-user-correction-1505-core20"
-      ]
+      ],
+      "insuranceReview": {
+        "number": "周二001",
+        "recommendation": "胜",
+        "decision": "不另加",
+        "reason": "京都进攻对客队短休远征、轮换和防守漏洞仍支持普通胜；京都联赛低迷是反证，但没有额外低机会/强守平证据要求胜平双选。"
+      }
     },
     {
       "id": 2042292,
@@ -5293,7 +5299,7 @@
         "lose": 5.1
       },
       "goals": "2/3/1",
-      "halfFull": "平平/胜平",
+      "halfFull": "平平/平胜",
       "single": {
         "spf": false,
         "rqspf": false,
@@ -5303,31 +5309,31 @@
       },
       "teams": "大田市民 vs 神户胜利船",
       "batch": "B",
-      "buy": "平",
-      "primaryPick": "平",
-      "selection": "平",
-      "speculative": "让胜",
+      "buy": "让胜",
+      "primaryPick": "让胜",
+      "selection": "让胜",
+      "speculative": "平",
       "score": "1:1/2:1/1:0",
       "predictedScore": "1:1/2:1/1:0",
       "stars": 0,
       "confidenceStars": 0,
       "projectStars": {
-        "direction": 0,
+        "direction": 1,
         "speculative": 1,
         "goals": 0,
         "halfFull": 0,
         "score": 0
       },
       "projectStarColors": {
-        "direction": "none",
-        "speculative": "red",
+        "direction": "red",
+        "speculative": "white",
         "goals": "none",
         "halfFull": "none",
         "score": "none"
       },
       "projectStarAudit": {
-        "direction": "大田近期连续破门，刚客胜金泉；神户在全北、冈山场次展示进攻，但近两战川崎失利、町田零进球。主场活力对客队连续作战，主场景为互有进球、难分高下，平局为单一优先观察。 关键名单和完整对手序列仍有缺口，0星。",
-        "speculative": "大田持续创造进球且免跨国旅行，神户密集赛程、近两场进攻产量回落，支持主+1让胜的不败宽边界，评1星；神户仍有反弹能力、双方名单未齐，不升2星。普通平和精确比分不继承此星。",
+        "direction": "推荐主+1让胜，覆盖大田胜或平。大田连续进球与主场、神户密集赛程及近两场进攻回落支持不败；不把胶着场景锁成单平。",
+        "speculative": "双方均有进攻表现，强弱接近、胶着平局是精准观察，博普通平白1星；不进入核心票。",
         "goals": "同一进球环境下选择2/3/1；阵容及尾部证据不足，0星。",
         "halfFull": "按主剧本给出平平/胜平，无独立半场强证据，0星。",
         "score": "同一主剧本附近情景1:1/2:1/1:0，不倒推方向，不标星。"
@@ -5378,7 +5384,13 @@
         true,
         false
       ],
-      "ticketIds": []
+      "ticketIds": [],
+      "insuranceReview": {
+        "number": "周二002",
+        "recommendation": "让胜",
+        "decision": "由单平改主+1让胜",
+        "reason": "大田持续进球与主场优势、神户拥挤赛程支持大田不败；不能排除主胜。推荐让胜，博平。神户客胜任何比分仍失败。"
+      }
     },
     {
       "id": 2042293,
@@ -5488,7 +5500,13 @@
         true,
         false
       ],
-      "ticketIds": []
+      "ticketIds": [],
+      "insuranceReview": {
+        "number": "周二003",
+        "recommendation": "负",
+        "decision": "不因资料缺口机械加平",
+        "reason": "双方过程和名单不足，客胜仅低信心扫盘，不拿相近赔率证明必须防平；不进入核心，不以双选伪装资料完备。"
+      }
     },
     {
       "id": 2042294,
@@ -5598,7 +5616,13 @@
         true,
         false
       ],
-      "ticketIds": []
+      "ticketIds": [],
+      "insuranceReview": {
+        "number": "周二004",
+        "recommendation": "负",
+        "decision": "不因杯赛机械加平",
+        "reason": "客队小幅优势仅低信心参考，缺少主队守平或客队破密防不足的可核依据；杯赛可能加时不是必防平证据。排除核心。"
+      }
     },
     {
       "id": 2042295,
@@ -5623,7 +5647,7 @@
         "lose": 3.45
       },
       "goals": "3/2/4",
-      "halfFull": "平负/负负",
+      "halfFull": "平负/平平",
       "single": {
         "spf": false,
         "rqspf": false,
@@ -5633,12 +5657,12 @@
       },
       "teams": "萨索洛 vs 拉齐奥",
       "batch": "C",
-      "buy": "负",
-      "primaryPick": "负",
-      "selection": "负",
+      "buy": "负/平",
+      "primaryPick": "负/平",
+      "selection": "负/平",
       "speculative": "让平",
-      "score": "1:2/0:2/1:3",
-      "predictedScore": "1:2/0:2/1:3",
+      "score": "1:2/1:1/2:2",
+      "predictedScore": "1:2/1:1/2:2",
       "stars": 0,
       "confidenceStars": 0,
       "projectStars": {
@@ -5656,16 +5680,16 @@
         "score": "none"
       },
       "projectStarAudit": {
-        "direction": "萨索洛官方称场均5.6次射正，不能因近两场失利判为无进攻；对科莫上半场僵持后连续被突破，后段防守稳定性不足。拉齐奥周末2:1帕尔马后出征，主看其攻击效率占优但须承认主队进球威胁，排除核心低波动标签。 关键名单和完整对手序列仍有缺口，0星。",
+        "direction": "仍优先拉齐奥普通客胜，但萨索洛场均5.6射正表明持续创造机会，客队短休使对主队进球威胁的压制存疑，需防双方破门后平局；负在前、平在后，非胆。不是只因资料不齐机械防平。",
         "speculative": "主+1让平观察拉齐奥恰胜1球：主队有射正产量、客队短休使大胜把握下降，普通负为主，不把博当保险。 精确边界未达红星门槛。",
         "goals": "同一进球环境下选择3/2/4；阵容及尾部证据不足，0星。",
-        "halfFull": "按主剧本给出平负/负负，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景1:2/0:2/1:3，不倒推方向，不标星。"
+        "halfFull": "两边均有进攻威胁且客队短休，半场胶着后客胜或平，展示平负/平平；无独立半场优势，不标星。",
+        "score": "重新评估主队持续射正与客队效率优势后，双方进球、客胜或平的同一场景为1:2/1:1/2:2；不以比分倒推方向，不标星。"
       },
       "recommended": true,
       "status": "用户要求更正版·赛前",
       "officialHandicap": "主队受让1球",
-      "risk": "萨索洛主场机会兑现导致平或胜；拉齐奥轮换后破门不足。",
+      "risk": "萨索洛主胜仍会使负/平失效；两队进攻效率和轮换均有不确定性。",
       "qualification": [
         {
           "market": "HHAD",
@@ -5711,7 +5735,13 @@
       "ticketIds": [
         "2026-10-27-user-correction-1505-goals3",
         "2026-10-27-user-correction-1505-goals4"
-      ]
+      ],
+      "insuranceReview": {
+        "number": "周二005",
+        "recommendation": "负/平",
+        "decision": "加入普通平",
+        "reason": "主队场均5.6射正、客队短休，主队持续进球威胁使双方破门后平局需要覆盖；仍优先客胜，不防主胜，非胆。"
+      }
     },
     {
       "id": 2042296,
@@ -5825,7 +5855,13 @@
         "2026-10-27-user-correction-1505-core30",
         "2026-10-27-user-correction-1505-goals3",
         "2026-10-27-user-correction-1505-goals4"
-      ]
+      ],
+      "insuranceReview": {
+        "number": "周二006",
+        "recommendation": "让胜",
+        "decision": "已含主胜和平",
+        "reason": "主+1让胜覆盖AIK胜/平，埃尔夫斯堡任何比分客胜均失败；不再单挑平，也不重复追加平选项。"
+      }
     },
     {
       "id": 2042297,
@@ -5935,7 +5971,13 @@
         true,
         false
       ],
-      "ticketIds": []
+      "ticketIds": [],
+      "insuranceReview": {
+        "number": "周二007",
+        "recommendation": "胜",
+        "decision": "不因轮换未知机械加平",
+        "reason": "名单及轮换缺口尚未解决，不足以证明特定平局场景；低信心扫盘，排除核心，不将双选视为证据替代。"
+      }
     },
     {
       "id": 2042298,
@@ -6049,7 +6091,13 @@
         "2026-10-27-user-correction-1505-core30",
         "2026-10-27-user-correction-1505-goals3",
         "2026-10-27-user-correction-1505-goals4"
-      ]
+      ],
+      "insuranceReview": {
+        "number": "周二008",
+        "recommendation": "让负",
+        "decision": "已含客胜和平",
+        "reason": "主-1让负覆盖科隆平/负，即联合不败；科隆赢1球也失败。已表达低机会胶着及联合可能取胜，不重复追加平。"
+      }
     },
     {
       "id": 2042299,
@@ -6159,7 +6207,13 @@
         true,
         false
       ],
-      "ticketIds": []
+      "ticketIds": [],
+      "insuranceReview": {
+        "number": "周二009",
+        "recommendation": "胜",
+        "decision": "不另加",
+        "reason": "罗马进攻产量与高压对客队缺少出球核心形成优势；人员缺口是反证，但未形成必须防平的破门不足依据。"
+      }
     },
     {
       "id": 2042300,
@@ -6272,7 +6326,13 @@
       "ticketIds": [
         "2026-10-27-user-correction-1505-core20",
         "2026-10-27-user-correction-1505-goals4"
-      ]
+      ],
+      "insuranceReview": {
+        "number": "周二010",
+        "recommendation": "负",
+        "decision": "不另加",
+        "reason": "科莫压迫、边路输送与终结支持客胜，都灵能进球及休息多一天是反证；不把短休本身当必须防平证据。普通客胜优于精准净胜球。"
+      }
     }
   ],
   "matchAnalysis": [
@@ -6327,11 +6387,11 @@
     },
     {
       "number": "周二002",
-      "attackDefense": "大田近期连续破门，刚客胜金泉；神户在全北、冈山场次展示进攻，但近两战川崎失利、町田零进球。主场活力对客队连续作战，主场景为互有进球、难分高下，平局为单一优先观察。",
+      "attackDefense": "推荐主+1让胜，覆盖大田胜或平。大田连续进球与主场、神户密集赛程及近两场进攻回落支持不败；不把胶着场景锁成单平。",
       "availability": "双方本场完整伤停与预计首发未核齐，不将历史出场名单当作当前健康证明。",
       "scheduleStrength": "大田近期2:1全北、1:1上海海港、3:2光州、2:1金泉，强弱混合，主队中性偏升；神户4战内对冈山3:0、川崎1:2、町田0:0，不能只看亚冠两连胜，客队中性。",
       "rotation": "双方24日比赛后27日再战；神户此前18、21、24日连续赛事，本次赴韩，体能风险偏高。",
-      "speculativeAnalysis": "主+1让胜覆盖大田不败，与平局主剧本一致；大田持续进球与主场免旅行支持这个边界，属于较宽观察而非保证。",
+      "speculativeAnalysis": "双方均有进攻表现，强弱接近、胶着平局是精准观察，博普通平白1星；不进入核心票。",
       "lossPaths": [
         "神户效率恢复率先得分、大田压上暴露身后",
         "双方互换领先造成4球以上。"
@@ -6339,8 +6399,8 @@
       "volatility": "中/待核",
       "stressTest": "神户效率恢复率先得分、大田压上暴露身后；双方互换领先造成4球以上。",
       "projectStarAudit": {
-        "direction": "大田近期连续破门，刚客胜金泉；神户在全北、冈山场次展示进攻，但近两战川崎失利、町田零进球。主场活力对客队连续作战，主场景为互有进球、难分高下，平局为单一优先观察。 关键名单和完整对手序列仍有缺口，0星。",
-        "speculative": "大田持续创造进球且免跨国旅行，神户密集赛程、近两场进攻产量回落，支持主+1让胜的不败宽边界，评1星；神户仍有反弹能力、双方名单未齐，不升2星。普通平和精确比分不继承此星。",
+        "direction": "推荐主+1让胜，覆盖大田胜或平。大田连续进球与主场、神户密集赛程及近两场进攻回落支持不败；不把胶着场景锁成单平。",
+        "speculative": "双方均有进攻表现，强弱接近、胶着平局是精准观察，博普通平白1星；不进入核心票。",
         "goals": "同一进球环境下选择2/3/1；阵容及尾部证据不足，0星。",
         "halfFull": "按主剧本给出平平/胜平，无独立半场强证据，0星。",
         "score": "同一主剧本附近情景1:1/2:1/1:0，不倒推方向，不标星。"
@@ -6363,17 +6423,17 @@
         }
       ],
       "marketAssessment": "使用本次官方在售赔率；上午无赛程，未取得可比全天快照，不虚构升降趋势。完整停售字段空缺，Selling不是停售时间。",
-      "text": "大田近期连续破门，刚客胜金泉；神户在全北、冈山场次展示进攻，但近两战川崎失利、町田零进球。主场活力对客队连续作战，主场景为互有进球、难分高下，平局为单一优先观察。 双方本场完整伤停与预计首发未核齐，不将历史出场名单当作当前健康证明。 赛程强度校正：大田近期2:1全北、1:1上海海港、3:2光州、2:1金泉，强弱混合，主队中性偏升；神户4战内对冈山3:0、川崎1:2、町田0:0，不能只看亚冠两连胜，客队中性。 轮换：双方24日比赛后27日再战；神户此前18、21、24日连续赛事，本次赴韩，体能风险偏高。 博：主+1让胜覆盖大田不败，与平局主剧本一致；大田持续进球与主场免旅行支持这个边界，属于较宽观察而非保证。 输钱路径：神户效率恢复率先得分、大田压上暴露身后；双方互换领先造成4球以上。",
+      "text": "推荐主+1让胜，覆盖大田胜或平。大田连续进球与主场、神户密集赛程及近两场进攻回落支持不败；不把胶着场景锁成单平。 双方本场完整伤停与预计首发未核齐，不将历史出场名单当作当前健康证明。 双方24日比赛后27日再战；神户此前18、21、24日连续赛事，本次赴韩，体能风险偏高。 博：双方均有进攻表现，强弱接近、胶着平局是精准观察，博普通平白1星；不进入核心票。",
       "projectStars": {
-        "direction": 0,
+        "direction": 1,
         "speculative": 1,
         "goals": 0,
         "halfFull": 0,
         "score": 0
       },
       "projectStarColors": {
-        "direction": "none",
-        "speculative": "red",
+        "direction": "red",
+        "speculative": "white",
         "goals": "none",
         "halfFull": "none",
         "score": "none"
@@ -6479,7 +6539,7 @@
     },
     {
       "number": "周二005",
-      "attackDefense": "萨索洛官方称场均5.6次射正，不能因近两场失利判为无进攻；对科莫上半场僵持后连续被突破，后段防守稳定性不足。拉齐奥周末2:1帕尔马后出征，主看其攻击效率占优但须承认主队进球威胁，排除核心低波动标签。",
+      "attackDefense": "仍优先拉齐奥普通客胜，但萨索洛场均5.6射正表明持续创造机会，客队短休使对主队进球威胁的压制存疑，需防双方破门后平局；负在前、平在后，非胆。不是只因资料不齐机械防平。",
       "availability": "萨索洛上轮Berardi、Bowie、Dominguez出场，名单仅证实上轮可用；拉齐奥本场完整伤停、替代中卫待核。",
       "scheduleStrength": "萨索洛此前负弗罗西诺内与科莫，不能全归因强队压制，主队降权但攻击射正反证保留；拉齐奥胜帕尔马不能单场证明强度，客队中性/完整序列待核。",
       "rotation": "双方24日比赛后27日再战；拉齐奥后续德比存在用人取舍可能，仅为风险而非已确认轮换。",
@@ -6491,11 +6551,11 @@
       "volatility": "中/待核",
       "stressTest": "萨索洛主场机会兑现导致平或胜；拉齐奥轮换后破门不足。",
       "projectStarAudit": {
-        "direction": "萨索洛官方称场均5.6次射正，不能因近两场失利判为无进攻；对科莫上半场僵持后连续被突破，后段防守稳定性不足。拉齐奥周末2:1帕尔马后出征，主看其攻击效率占优但须承认主队进球威胁，排除核心低波动标签。 关键名单和完整对手序列仍有缺口，0星。",
+        "direction": "仍优先拉齐奥普通客胜，但萨索洛场均5.6射正表明持续创造机会，客队短休使对主队进球威胁的压制存疑，需防双方破门后平局；负在前、平在后，非胆。不是只因资料不齐机械防平。",
         "speculative": "主+1让平观察拉齐奥恰胜1球：主队有射正产量、客队短休使大胜把握下降，普通负为主，不把博当保险。 精确边界未达红星门槛。",
         "goals": "同一进球环境下选择3/2/4；阵容及尾部证据不足，0星。",
-        "halfFull": "按主剧本给出平负/负负，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景1:2/0:2/1:3，不倒推方向，不标星。"
+        "halfFull": "两边均有进攻威胁且客队短休，半场胶着后客胜或平，展示平负/平平；无独立半场优势，不标星。",
+        "score": "重新评估主队持续射正与客队效率优势后，双方进球、客胜或平的同一场景为1:2/1:1/2:2；不以比分倒推方向，不标星。"
       },
       "sources": [
         {
@@ -6515,7 +6575,7 @@
         }
       ],
       "marketAssessment": "使用本次官方在售赔率；上午无赛程，未取得可比全天快照，不虚构升降趋势。完整停售字段空缺，Selling不是停售时间。",
-      "text": "萨索洛官方称场均5.6次射正，不能因近两场失利判为无进攻；对科莫上半场僵持后连续被突破，后段防守稳定性不足。拉齐奥周末2:1帕尔马后出征，主看其攻击效率占优但须承认主队进球威胁，排除核心低波动标签。 萨索洛上轮Berardi、Bowie、Dominguez出场，名单仅证实上轮可用；拉齐奥本场完整伤停、替代中卫待核。 赛程强度校正：萨索洛此前负弗罗西诺内与科莫，不能全归因强队压制，主队降权但攻击射正反证保留；拉齐奥胜帕尔马不能单场证明强度，客队中性/完整序列待核。 轮换：双方24日比赛后27日再战；拉齐奥后续德比存在用人取舍可能，仅为风险而非已确认轮换。 博：主+1让平观察拉齐奥恰胜1球：主队有射正产量、客队短休使大胜把握下降，普通负为主，不把博当保险。 输钱路径：萨索洛主场机会兑现导致平或胜；拉齐奥轮换后破门不足。",
+      "text": "仍优先拉齐奥普通客胜，但萨索洛场均5.6射正表明持续创造机会，客队短休使对主队进球威胁的压制存疑，需防双方破门后平局；负在前、平在后，非胆。不是只因资料不齐机械防平。 萨索洛上轮Berardi、Bowie、Dominguez出场，名单仅证实上轮可用；拉齐奥本场完整伤停、替代中卫待核。 双方24日比赛后27日再战；拉齐奥后续德比存在用人取舍可能，仅为风险而非已确认轮换。 博：主+1让平观察拉齐奥恰胜1球：主队有射正产量、客队短休使大胜把握下降，普通负为主，不把博当保险。",
       "projectStars": {
         "direction": 0,
         "speculative": 0,
@@ -6533,14 +6593,14 @@
     },
     {
       "number": "周二006",
-      "attackDefense": "埃尔夫斯堡官方复盘强调对马尔默0:0双方机会少、守备协作稳定；AIK刚2:1客胜领头羊天狼星，前一主场2:2哥德堡，进攻移动性与主场压力真实。客队更低赔但压制证据不充分，选择低中进球僵持的平局主方向。",
+      "attackDefense": "AIK对强敌的进攻表现与主场压力支持不败，埃尔夫斯堡少机会守备支持胶着；推荐主+1让胜，平只作博。",
       "availability": "双方当前完整伤停名单待核；Wikstrom防守合作采访未取得文字实录，不假称阵容无损。",
       "scheduleStrength": "AIK击败当时领头羊应升权，不能只看第8；埃尔夫斯堡对马尔默零封也应正向评价，客队中性偏升。完整连续过程仍有缺口。",
       "rotation": "客队23日比赛至27日有四天；AIK上轮日期及轮换人数待核，不能认定疲劳绝对优势。",
       "speculativeAnalysis": "平仅作为胶着剧本的精准观察，退出核心单挑。",
       "lossPaths": [
-        "客队终结恢复赢1球，平局串立即失效",
-        "AIK开放主场导致3球以上。"
+        "AIK任何比分输球则推荐和核心腿失败。",
+        "埃尔夫斯堡终结恢复是主要反证。"
       ],
       "volatility": "中/待核",
       "stressTest": "客队终结恢复赢1球，平局串立即失效；AIK开放主场导致3球以上。",
@@ -6632,7 +6692,7 @@
       "availability": "科隆Rondic、Van den Berg、Dallinga、Skhiri、Hübers康复中，Ache临场待定且目标下次联赛；Union缺Nsoki、Juranovic、Ilic。双方进攻与后场减员均考虑。",
       "scheduleStrength": "科隆对法兰克福、沙尔克均不进球，主队降权；Union对Elversberg、多特、奥格斯堡近三场不败，客队升权但对手文章前段历史进球矛盾不采用。",
       "rotation": "三天短休、两队随后再次联赛交锋；科隆明确会轮换但不是全换，人数不确定，风险中高。",
-      "speculativeAnalysis": "主-1让负支持科隆难以拉开差距，与平局主方向一致；锋线缺口与Union守备改善提供独立证据。",
+      "speculativeAnalysis": "普通平是低机会胶着的精准观察，推荐主-1让负覆盖科隆平或负；科隆只赢1球也不在推荐范围内。",
       "lossPaths": [
         "科隆年轻攻击手突然兑现机会、Union后防缺员扩大",
         "点球早球破坏低进球。"
@@ -7416,61 +7476,13 @@
   "lockedAt": "2026-10-27T06:12:24.258Z",
   "finalizedAt": "2026-10-27T07:07:35.275Z",
   "deliveryValidation": {
-    "mobileVerified": true,
-    "checkedAt": "2026-10-27T07:16:22.667Z",
-    "method": "Actual phone-v2 page, headless Edge430px, four image/png clipboard payloads, current card HTTP200/hash match. No physical phone claim.",
-    "date": "2026-10-27",
-    "revision": "2026-10-27-user-correction-1505",
-    "images": [
-      {
-        "alt": "2026-10-27 推荐扫盘",
-        "width": 1244,
-        "height": 2354
-      },
-      {
-        "alt": "2026-10-27 今日跟踪",
-        "width": 1244,
-        "height": 1422
-      },
-      {
-        "alt": "2026-10-26 复盘扫盘",
-        "width": 720,
-        "height": 1251
-      },
-      {
-        "alt": "2026-10-26 复盘跟踪",
-        "width": 720,
-        "height": 745
-      }
-    ],
-    "copies": [
-      {
-        "type": "image/png",
-        "size": 2904342
-      },
-      {
-        "type": "image/png",
-        "size": 2039785
-      },
-      {
-        "type": "image/png",
-        "size": 1318858
-      },
-      {
-        "type": "image/png",
-        "size": 793708
-      }
-    ],
-    "counts": {
-      "core20": 1,
-      "core30": 1,
-      "goals3": 1,
-      "goals4": 1
-    },
-    "pending": []
+    "mobileVerified": false,
+    "pending": [
+      "new phone-v2 verification"
+    ]
   },
   "sourceHash": "4136de484d751d0e00bfa35aad2df9dffb92b4f07cac50e812e7316b68accad8",
-  "mobileVerifiedAt": "2026-10-27T07:16:22.667Z",
+  "mobileVerifiedAt": null,
   "reviewAudit": {
     "at": "2026-10-27T06:32:02.349Z",
     "originalSha256": "2736104f931401b3e2e05f4c97045cc4af7ca8e7b93c706c361920022144a081",
@@ -7498,10 +7510,17 @@
       },
       {
         "number": "周二002",
-        "project": "speculative",
+        "project": "direction",
         "stars": 1,
         "color": "red",
-        "reason": "大田持续创造进球且免跨国旅行，神户密集赛程、近两场进攻产量回落，支持主+1让胜的不败宽边界，评1星；神户仍有反弹能力、双方名单未齐，不升2星。普通平和精确比分不继承此星。"
+        "reason": "推荐主+1让胜，覆盖大田胜或平。大田连续进球与主场、神户密集赛程及近两场进攻回落支持不败；不把胶着场景锁成单平。"
+      },
+      {
+        "number": "周二002",
+        "project": "speculative",
+        "stars": 1,
+        "color": "white",
+        "reason": "双方均有进攻表现，强弱接近、胶着平局是精准观察，博普通平白1星；不进入核心票。"
       },
       {
         "number": "周二006",
@@ -12532,12 +12551,81 @@
     }
   ],
   "publicationCorrection": {
-    "id": "2026-10-27-user-correction-1505",
+    "id": "2026-10-27-user-insurance",
     "userRequested": true,
-    "reason": "用户要求重新分析、更正3.0及五项星级并输送手机；更正版与原票分开归档",
+    "reason": "用户要求有依据的保险放在推荐区：002主+1让胜、博平；005负/平，核心原票不变",
     "originalReport": "data/reports/versions/2026-10-27-original-before-user-correction.json",
     "originalScan": "public/cards/2026-10-27-original-before-correction-scan.png",
     "originalTracking": "public/cards/2026-10-27-original-before-correction-tracking.png",
-    "trackingPolicy": "当前跟踪显示本次更正版；原票完整保存在归档及preservedOriginalTickets，未声称用户改票或购买。"
+    "trackingPolicy": "当前跟踪显示本次更正版；原票完整保存在归档及preservedOriginalTickets，未声称用户改票或购买。",
+    "previousRevision": "2026-10-27-user-correction-1505",
+    "previousReport": "data/reports/versions/2026-10-27-before-insurance.json"
+  },
+  "insuranceAudit": {
+    "at": "2026-10-27T07:25:42.577Z",
+    "reviewedMatches": 10,
+    "rows": [
+      {
+        "number": "周二001",
+        "recommendation": "胜",
+        "decision": "不另加",
+        "reason": "京都进攻对客队短休远征、轮换和防守漏洞仍支持普通胜；京都联赛低迷是反证，但没有额外低机会/强守平证据要求胜平双选。"
+      },
+      {
+        "number": "周二002",
+        "recommendation": "让胜",
+        "decision": "由单平改主+1让胜",
+        "reason": "大田持续进球与主场优势、神户拥挤赛程支持大田不败；不能排除主胜。推荐让胜，博平。神户客胜任何比分仍失败。"
+      },
+      {
+        "number": "周二003",
+        "recommendation": "负",
+        "decision": "不因资料缺口机械加平",
+        "reason": "双方过程和名单不足，客胜仅低信心扫盘，不拿相近赔率证明必须防平；不进入核心，不以双选伪装资料完备。"
+      },
+      {
+        "number": "周二004",
+        "recommendation": "负",
+        "decision": "不因杯赛机械加平",
+        "reason": "客队小幅优势仅低信心参考，缺少主队守平或客队破密防不足的可核依据；杯赛可能加时不是必防平证据。排除核心。"
+      },
+      {
+        "number": "周二005",
+        "recommendation": "负/平",
+        "decision": "加入普通平",
+        "reason": "主队场均5.6射正、客队短休，主队持续进球威胁使双方破门后平局需要覆盖；仍优先客胜，不防主胜，非胆。"
+      },
+      {
+        "number": "周二006",
+        "recommendation": "让胜",
+        "decision": "已含主胜和平",
+        "reason": "主+1让胜覆盖AIK胜/平，埃尔夫斯堡任何比分客胜均失败；不再单挑平，也不重复追加平选项。"
+      },
+      {
+        "number": "周二007",
+        "recommendation": "胜",
+        "decision": "不因轮换未知机械加平",
+        "reason": "名单及轮换缺口尚未解决，不足以证明特定平局场景；低信心扫盘，排除核心，不将双选视为证据替代。"
+      },
+      {
+        "number": "周二008",
+        "recommendation": "让负",
+        "decision": "已含客胜和平",
+        "reason": "主-1让负覆盖科隆平/负，即联合不败；科隆赢1球也失败。已表达低机会胶着及联合可能取胜，不重复追加平。"
+      },
+      {
+        "number": "周二009",
+        "recommendation": "胜",
+        "decision": "不另加",
+        "reason": "罗马进攻产量与高压对客队缺少出球核心形成优势；人员缺口是反证，但未形成必须防平的破门不足依据。"
+      },
+      {
+        "number": "周二010",
+        "recommendation": "负",
+        "decision": "不另加",
+        "reason": "科莫压迫、边路输送与终结支持客胜，都灵能进球及休息多一天是反证；不把短休本身当必须防平证据。普通客胜优于精准净胜球。"
+      }
+    ],
+    "coreTicketsUnchanged": true
   }
 }
