@@ -10,7 +10,7 @@
   "status": "final-003-hierarchy-correction",
   "summary": "逐场主次审核后，003改为推荐让负、博负：推荐覆盖国安平或负，博收窄为全北客胜。其余扫盘、四类串子和跟踪原票不变。",
   "finalLocked": true,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
@@ -7476,13 +7476,16 @@
   "lockedAt": "2026-10-27T06:12:24.258Z",
   "finalizedAt": "2026-10-27T08:33:08.451Z",
   "deliveryValidation": {
-    "mobileVerified": false,
-    "pending": [
-      "online hierarchy correction verification"
-    ]
+    "mobileVerified": true,
+    "checkedAt": "2026-10-27T08:35:11.084Z",
+    "phonePage": "phone-v2.html",
+    "viewport": 430,
+    "fourImages": true,
+    "fourCopyButtons": true,
+    "http200": true
   },
   "sourceHash": "4136de484d751d0e00bfa35aad2df9dffb92b4f07cac50e812e7316b68accad8",
-  "mobileVerifiedAt": null,
+  "mobileVerifiedAt": "2026-10-27T08:35:11.084Z",
   "reviewAudit": {
     "at": "2026-10-27T06:32:02.349Z",
     "originalSha256": "2736104f931401b3e2e05f4c97045cc4af7ca8e7b93c706c361920022144a081",

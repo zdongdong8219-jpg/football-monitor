@@ -1,9 +1,15 @@
 {
   "date": "2026-10-27",
   "finalLocked": true,
-  "mobileVerified": false,
-  "checkedAt": "2026-10-27T08:33:08.451Z",
-  "stage": "003-hierarchy-correction-pending-online-verification",
+  "mobileVerified": true,
+  "checkedAt": "2026-10-27T08:35:11.084Z",
+  "stage": "003-hierarchy-correction-final-verified",
   "formalTickets": 4,
-  "correction": "周二003推荐让负、博负；其余原票不变"
+  "correction": "周二003推荐让负、博负；其余原票不变",
+  "online": {
+    "phone": true,
+    "scan": true,
+    "tracking": true,
+    "status": true
+  }
 }
