@@ -226,11 +226,11 @@
       "riskLabel": "高风险，不建议重注",
       "legs": [
         {
-          "number": "周一002",
-          "matchId": 2042243,
-          "monitorMatchId": 2997753,
+          "number": "周一001",
+          "matchId": 2042242,
+          "monitorMatchId": 3023509,
           "saleDate": "2026-10-26",
-          "teams": "布洛涅 vs 兰斯",
+          "teams": "圣克拉拉 vs 本菲卡",
           "market": "HAD",
           "handicap": 0,
           "selection": "负",
@@ -239,96 +239,44 @@
             {
               "key": "a",
               "label": "负",
-              "odds": 1.95
+              "odds": 1.22
             }
           ],
-          "odds": 1.95,
-          "selectionReason": "兰斯进攻效率与赛程强度支持客胜；平局只保留在扫盘防守项，不再为凑倍率代替主方向。",
+          "odds": 1.22,
+          "selectionReason": "按已发布原票保留常规客胜。",
           "lossPaths": [
-            "兰斯伤缺影响终结，布洛涅防守与压迫守住平局或爆冷，客胜腿失败。"
+            "主队不败则本腿失败."
           ],
           "stars": 0,
-          "confidenceStars": 0,
-          "sources": [
-            {
-              "url": "https://www.stade-de-reims.com/usbco-sdr-le-groupe-remois-2/",
-              "hash": "38250182d9e7cc98e96c79fa2ac02dadbbd9ddbf5c31d91887144d81d3433273",
-              "checkedAt": "2026-10-26T05:03:23.361Z"
-            },
-            {
-              "url": "https://www.stade-de-reims.com/usbco-sdr-ladversaire-a-la-loupe-2/",
-              "hash": "9437d9dca71d63937421b557c6aadb42169e7f57156c61c458d6582ff714b31c",
-              "checkedAt": "2026-10-26T05:03:23.352Z"
-            },
-            {
-              "url": "https://www.stade-de-reims.com/la-conf-avant-usbco-sdr-2/",
-              "hash": "7a7ebc83d6ed9b3a4835f7bd7ae96cc21b7e198d2c6d9d0225885f08a03ef169",
-              "checkedAt": "2026-10-26T05:03:23.327Z"
-            },
-            {
-              "url": "https://www.stade-de-reims.com/equipe-premiere-masculine-0/",
-              "hash": "af9e359da18a9ffcf4370582cdad22ac46c95d263112b688d0de98da38f5f0f0",
-              "checkedAt": "2026-10-26T05:03:53.608Z"
-            }
-          ],
-          "qualification": {
-            "allUp": true,
-            "single": false,
-            "poolStatus": "Selling",
-            "closeDate": null,
-            "closeTime": null,
-            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-            "capturedAt": "2026-10-26T07:15:01.852Z"
-          }
+          "confidenceStars": 0
         },
         {
-          "number": "周一003",
-          "matchId": 2042244,
-          "monitorMatchId": 3013740,
+          "number": "周一002",
+          "matchId": 2042243,
+          "monitorMatchId": 2997753,
           "saleDate": "2026-10-26",
-          "teams": "塞维利亚 vs 奥萨苏纳",
+          "teams": "布洛涅 vs 兰斯",
           "market": "HAD",
           "handicap": 0,
-          "selection": "胜",
-          "selectionText": "胜",
+          "selection": "平",
+          "selectionText": "平",
           "options": [
             {
-              "key": "h",
-              "label": "胜",
-              "odds": 1.68
+              "key": "d",
+              "label": "平",
+              "odds": 3.05
             }
           ],
-          "odds": 1.68,
-          "selectionReason": "塞维利亚对抗和主场条件支持主胜；采用扫盘第一主方向，不升级让球。",
+          "odds": 3.05,
+          "selectionReason": "按已发布原票保留博平。",
           "lossPaths": [
-            "塞维利亚无法持续破解客队防线，平或负使主胜腿失败。"
+            "客胜或主胜则本腿失败."
           ],
           "stars": 0,
-          "confidenceStars": 0,
-          "sources": [
-            {
-              "url": "https://www.osasuna.es/osasuna-sevilla-jagoba-arrasate-rueda-prensa-previa",
-              "hash": "48b2e478b84f78482fb173335b00b57b4b0f81ed6d9122a7d86bb7c947f0677a",
-              "checkedAt": "2026-10-26T05:03:23.018Z"
-            },
-            {
-              "url": "https://www.osasuna.es/osasuna-convocatoria-sevilla-jornada10",
-              "hash": "490d4ac9bcf957f37df27b5f9b572573355333dea678a9169797e4e394a88aa2",
-              "checkedAt": "2026-10-26T05:03:22.990Z"
-            }
-          ],
-          "qualification": {
-            "allUp": true,
-            "single": false,
-            "poolStatus": "Selling",
-            "closeDate": null,
-            "closeTime": null,
-            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
-            "capturedAt": "2026-10-26T07:15:01.852Z"
-          }
+          "confidenceStars": 0
         }
       ],
-      "selectionText": "周一002[负] × 周一003[胜]",
+      "selectionText": "周一001[负] × 周一002[平]",
       "combinationCount": 1,
       "betCount": 1,
       "unitStake": 2,
@@ -341,54 +289,54 @@
           "passType": "2串1",
           "selections": [
             {
-              "number": "周一002",
+              "number": "周一001",
               "market": "HAD",
               "handicap": 0,
               "key": "a",
               "label": "负",
-              "odds": 1.95
+              "odds": 1.22
             },
             {
-              "number": "周一003",
+              "number": "周一002",
               "market": "HAD",
               "handicap": 0,
-              "key": "h",
-              "label": "胜",
-              "odds": 1.68
+              "key": "d",
+              "label": "平",
+              "odds": 3.05
             }
           ],
-          "selectionText": "周一002[负] × 周一003[胜]",
+          "selectionText": "周一001[负] × 周一002[平]",
           "stake": 2,
-          "odds": 3.276,
-          "return": 6.552,
-          "net": 4.552,
-          "returnText": "命中本分支返还约6.55元；扣整票成本净4.55元"
+          "odds": 3.721,
+          "return": 7.442,
+          "net": 5.442,
+          "returnText": "命中本分支返还约7.44元；扣整票成本净5.44元"
         }
       ],
       "conditionalReturn": {
-        "min": 6.552,
-        "max": 6.552
+        "min": 7.442,
+        "max": 7.442
       },
       "conditionalNet": {
-        "min": 4.552,
-        "max": 4.552
+        "min": 5.442,
+        "max": 5.442
       },
       "effectiveReturnRatio": {
-        "min": 3.276,
-        "max": 3.276
+        "min": 3.721,
+        "max": 3.721
       },
       "uncoveredReturn": 0,
       "uncoveredNet": -2,
       "structureText": "1选 × 1选 = 1注；每注2元、1倍",
-      "oddsText": "高风险·不建议重注｜1注×2元；整票条件返还3.2760倍",
+      "oddsText": "高风险·不建议重注｜1注×2元；整票条件返还3.7210倍",
       "effectiveReturnText": "两腿均命中时返还约6.55元；整票成本2元。任一腿不符返还0元。",
       "coverageText": "各腿必须全部命中；不含其他关数。梦想串部分腿命中不算整串中；最高分支不是整票保证回报。",
-      "risk": "高风险，不建议重注。两腿均使用扫盘第一主方向；周一002平局风险与周一003主场失分风险未覆盖。 兰斯伤缺影响终结，布洛涅防守与压迫守住平局或爆冷，客胜腿失败。 塞维利亚无法持续破解客队防线，平或负使主胜腿失败。",
+      "risk": "按已发布原票记录，未改动串子方向。",
       "lossPaths": [
         "兰斯伤缺影响终结，布洛涅防守与压迫守住平局或爆冷，客胜腿失败。",
         "塞维利亚无法持续破解客队防线，平或负使主胜腿失败。"
       ],
-      "selectionReason": "两腿均采用扫盘第一主方向；不再用周一002博平凑倍率。",
+      "selectionReason": "按用户已购买原票恢复；只修扫盘规范，不改串子。",
       "oddsAsOf": "2026-10-26 14:59:41",
       "lockedAt": "2026-10-26T07:15:01.852Z",
       "notPurchased": true,
@@ -14329,9 +14277,10 @@
     "40": "未",
     "41": "变",
     "42": "。",
-    "correctedAt": "2026-10-26T08:50:12.338Z",
-    "reason": "修正方向一致性：核心串只用扫盘第一主方向；周一004博法改为与主胜相容的让平。",
-    "supersedes": "2026-10-26-final-before-direction-consistency"
+    "correctedAt": "2026-10-27T00:06:34.031Z",
+    "reason": "用户确认已购买原票：撤回误改的3.0串，仅保留扫盘推荐/博规范修正。",
+    "supersedes": "2026-10-26-final-before-direction-consistency",
+    "userRequestedRestore": true
   },
   "previousQualificationAudit": [
     {
