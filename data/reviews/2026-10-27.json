@@ -3,7 +3,7 @@
   "title": "FT足球竞彩模型 · 2026-10-27最终复盘",
   "stage": "final",
   "completed": true,
-  "mobileVerified": true,
+  "mobileVerified": false,
   "reviewedAt": "2026-10-28T00:26:31.178Z",
   "publishedAt": "2026-10-28T00:26:31.179Z",
   "originalPublishedAt": "2026-10-27T08:33:08.451Z",
@@ -671,6 +671,38 @@
       "detail": "005/006/008/010实际总进球为8/4/5/4，4中1；前3腿全错，81注全部未中，整串错，返还0元，净-162元。"
     }
   ],
+  "trackingHistory": {
+    "two": [
+      {
+        "id": "2026-10-26-final-core20",
+        "date": "2026-10-26",
+        "name": "晚场2.0版2串1",
+        "sessionLabel": "晚场",
+        "category": "core20",
+        "originalSelectionText": "周一003[胜] × 周一004[胜]",
+        "selectionText": "周一003[胜] × 周一004[胜]",
+        "status": "命中",
+        "cost": 2,
+        "returned": 3.9984,
+        "trackingSettlement": { "stake": 1000, "returned": 1999.2, "net": 999.2 }
+      }
+    ],
+    "three": [
+      {
+        "id": "2026-10-26-final-core30",
+        "date": "2026-10-26",
+        "name": "晚场3.0版2串1",
+        "sessionLabel": "晚场",
+        "category": "core30",
+        "originalSelectionText": "周一001[负] × 周一002[平]",
+        "selectionText": "周一001[负] × 周一002[平]",
+        "status": "命中",
+        "cost": 2,
+        "returned": 7.442,
+        "trackingSettlement": { "stake": 1000, "returned": 3721, "net": 2721 }
+      }
+    ]
+  },
   "combinations": [
     {
       "id": "2026-10-27-user-correction-1505-core20",
