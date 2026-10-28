@@ -1,12 +1,12 @@
 {
   "date": "2026-10-28",
   "saleDate": "2026-10-28",
-  "generatedAt": "2026-10-28T07:02:30.139Z",
+  "generatedAt": "2026-10-28T08:33:50.294Z",
   "edition": "当日一次性最终方案·待发布核验",
   "status": "release-candidate-not-published",
   "summary": "17场扫盘，四类票各1张；6场梦想按3/4/5/6关全拆；停止新增进球3串1。",
   "finalLocked": true,
-  "mobileVerified": true,
+  "mobileVerified": false,
   "completed": true,
   "researchComplete": false,
   "evidenceComplete": false,
@@ -446,15 +446,15 @@
           "matchId": 2042317,
           "teams": "迈阿密国际 vs 辛辛那提FC",
           "kickoff": "2026-10-29T07:30:00+08:00",
-          "market": "TTG",
+          "market": "HAD",
           "handicap": 0,
-          "selection": "4",
-          "selectionText": "4",
+          "selection": "胜",
+          "selectionText": "胜",
           "options": [
             {
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "qualification": {
@@ -465,13 +465,13 @@
             "source": "sporttery getMatchCalculatorV1",
             "closeTime": null
           },
-          "selectionReason": "双方73/64进球与主队53失球支持较开放场景，4球为市场中峰；仅单挑4，3/5/6+都输。",
+          "selectionReason": "迈阿密31场73球且Messi贡献25球15助攻，原扫盘主方向为胜/平并明确胜优先；梦想串取普通胜，不升级让胜。",
           "lossPaths": [
-            "迈阿密后防被Evander与Denkey打穿；进球达到6或7+导致总进球票漏区；轮换也可能压成低进球。"
+            "迈阿密主场平局偏多且防线已失53球；Evander与Denkey反击兑现时，主胜失效。"
           ]
         }
       ],
-      "selectionText": "周三005[让负] × 周三006[胜] × 周三007[平] × 周三009[负] × 周三012[胜] × 周三017[4]",
+      "selectionText": "周三005[让负] × 周三006[胜] × 周三007[平] × 周三009[负] × 周三012[胜] × 周三017[胜]",
       "combinationCount": 42,
       "betCount": 42,
       "unitStake": 2,
@@ -604,16 +604,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 10.24044,
-          "return": 20.48
+          "odds": 3.315952,
+          "return": 6.63
         },
         {
           "id": "2026-10-28-final-dream6-5",
@@ -706,16 +706,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 19.989900000000002,
-          "return": 39.98
+          "odds": 6.47292,
+          "return": 12.95
         },
         {
           "id": "2026-10-28-final-dream6-8",
@@ -774,16 +774,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 10.170300000000001,
-          "return": 20.34
+          "odds": 3.2932400000000004,
+          "return": 6.59
         },
         {
           "id": "2026-10-28-final-dream6-10",
@@ -808,16 +808,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 11.78352,
-          "return": 23.57
+          "odds": 3.815616,
+          "return": 7.63
         },
         {
           "id": "2026-10-28-final-dream6-11",
@@ -910,16 +910,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 17.4762,
-          "return": 34.95
+          "odds": 5.6589599999999995,
+          "return": 11.32
         },
         {
           "id": "2026-10-28-final-dream6-14",
@@ -978,16 +978,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 8.8914,
-          "return": 17.78
+          "odds": 2.8791200000000003,
+          "return": 5.76
         },
         {
           "id": "2026-10-28-final-dream6-16",
@@ -1012,16 +1012,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 10.30176,
-          "return": 20.6
+          "odds": 3.335808,
+          "return": 6.67
         },
         {
           "id": "2026-10-28-final-dream6-17",
@@ -1080,16 +1080,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 17.3565,
-          "return": 34.71
+          "odds": 5.6202000000000005,
+          "return": 11.24
         },
         {
           "id": "2026-10-28-final-dream6-19",
@@ -1114,16 +1114,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 20.1096,
-          "return": 40.22
+          "odds": 6.511680000000001,
+          "return": 13.02
         },
         {
           "id": "2026-10-28-final-dream6-20",
@@ -1148,16 +1148,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 10.2312,
-          "return": 20.46
+          "odds": 3.3129600000000003,
+          "return": 6.63
         },
         {
           "id": "2026-10-28-final-dream6-21",
@@ -1274,16 +1274,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 29.185254,
-          "return": 58.37
+          "odds": 9.4504632,
+          "return": 18.9
         },
         {
           "id": "2026-10-28-final-dream6-24",
@@ -1358,16 +1358,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 14.848638,
-          "return": 29.7
+          "odds": 4.8081304,
+          "return": 9.62
         },
         {
           "id": "2026-10-28-final-dream6-26",
@@ -1400,16 +1400,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 17.203939199999997,
-          "return": 34.41
+          "odds": 5.570799359999999,
+          "return": 11.14
         },
         {
           "id": "2026-10-28-final-dream6-27",
@@ -1484,16 +1484,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 28.985355000000002,
-          "return": 57.97
+          "odds": 9.385734000000001,
+          "return": 18.77
         },
         {
           "id": "2026-10-28-final-dream6-29",
@@ -1526,16 +1526,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 33.583032,
-          "return": 67.17
+          "odds": 10.8745056,
+          "return": 21.75
         },
         {
           "id": "2026-10-28-final-dream6-30",
@@ -1568,16 +1568,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 17.086104,
-          "return": 34.17
+          "odds": 5.5326432,
+          "return": 11.07
         },
         {
           "id": "2026-10-28-final-dream6-31",
@@ -1652,16 +1652,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 25.34049,
-          "return": 50.68
+          "odds": 8.205492,
+          "return": 16.41
         },
         {
           "id": "2026-10-28-final-dream6-33",
@@ -1694,16 +1694,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 29.360015999999998,
-          "return": 58.72
+          "odds": 9.507052799999999,
+          "return": 19.01
         },
         {
           "id": "2026-10-28-final-dream6-34",
@@ -1736,16 +1736,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 14.937552,
-          "return": 29.88
+          "odds": 4.8369216,
+          "return": 9.67
         },
         {
           "id": "2026-10-28-final-dream6-35",
@@ -1778,16 +1778,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 29.158920000000002,
-          "return": 58.32
+          "odds": 9.441936000000002,
+          "return": 18.88
         },
         {
           "id": "2026-10-28-final-dream6-36",
@@ -1878,16 +1878,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 42.3186183,
-          "return": 84.64
+          "odds": 13.703171639999999,
+          "return": 27.41
         },
         {
           "id": "2026-10-28-final-dream6-38",
@@ -1928,16 +1928,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 49.03122671999999,
-          "return": 98.06
+          "odds": 15.876778175999998,
+          "return": 31.75
         },
         {
           "id": "2026-10-28-final-dream6-39",
@@ -1978,16 +1978,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 24.945711839999998,
-          "return": 49.89
+          "odds": 8.077659072,
+          "return": 16.16
         },
         {
           "id": "2026-10-28-final-dream6-40",
@@ -2028,16 +2028,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 48.6953964,
-          "return": 97.39
+          "odds": 15.76803312,
+          "return": 31.54
         },
         {
           "id": "2026-10-28-final-dream6-41",
@@ -2078,16 +2078,16 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 42.5720232,
-          "return": 85.14
+          "odds": 13.785226559999998,
+          "return": 27.57
         },
         {
           "id": "2026-10-28-final-dream6-42",
@@ -2136,40 +2136,40 @@
             },
             {
               "number": "周三017",
-              "market": "TTG",
+              "market": "HAD",
               "handicap": 0,
-              "key": "s4",
-              "label": "4",
-              "odds": 4.2
+              "key": "h",
+              "label": "胜",
+              "odds": 1.36
             }
           ],
           "stake": 2,
-          "odds": 71.09527874399998,
-          "return": 142.19
+          "odds": 23.021328355199994,
+          "return": 46.04
         }
       ],
       "conditionalReturn": {
-        "min": 7.07,
-        "max": 1556.62
+        "min": 5.76,
+        "max": 670.96
       },
       "effectiveReturnRatio": {
-        "min": 0.08416666666666667,
-        "max": 1.6927380952380953
+        "min": 0.06857142857142857,
+        "max": 7.987619047619048
       },
       "coverageText": "杯赛按90分钟含伤停补时，不含加时与点球；未下注，实际出票赔率及结算以官方为准。",
-      "selectionReason": "六腿各有独立边界，普通方向、让球、总进球混串；按20+15+6+1子票购买，不需要全中才有返还。精确平和4球是主要失败点。",
+      "selectionReason": "六腿只使用胜平负与让球胜平负；禁止混入进球数和比分。按20+15+6+1子票购买，不需要全中才有返还。",
       "lossPaths": [
         "威尼斯反击先得分及门将超常；国米轮换终结下降，只赢一球则博和对应梦想腿输。",
         "米兰轮换削弱组织；博洛尼亚先得分或压低节奏导致平局。",
         "帕尔马主场先破门；乌迪内斯持续失球拖成大比分。",
         "BP转换进球迫使客队追赶；赫根上轮远射高效率回归常态。",
         "Henderson复出超常守门；富勒姆自身轮换让主场进攻优势落空。",
-        "迈阿密后防被Evander与Denkey打穿；进球达到6或7+导致总进球票漏区；轮换也可能压成低进球。"
+        "迈阿密主场平局偏多且防线已失53球；Evander与Denkey反击兑现时，主胜失效。"
       ],
       "notPurchased": true,
       "oddsAsOf": "2026-10-28T14:03:00+08:00",
       "oddsText": "20/15/6/1注，对应40/30/12/2元，总84元；中0–2场0元",
-      "cardNote": "中3场返7.07～40.22元（0/20种组合回本）；中4场返42.39～186.93元（10/15种组合回本）；中5场返246.83～571.94元（6/6种组合回本）；中6场返1556.62～1556.62元（1/1种组合回本）。返还为命中腿所组成全部3/4/5/6关子票奖金之和；至少84元才回本，非只看中几场。 高风险、不建议重注。 逐腿赔率：005 让负@1.67；006 胜@1.46；007 平@2.85；009 负@1.45；012 胜@1.68；017 4@4.2。组合数不是命中概率。",
+      "cardNote": "中3场返5.76～15.99元（0/20种组合回本）；中4场返35.67～75.41元（0/15种组合回本）；中5场返139.96～246.83元（6/6种组合回本）；中6场返670.96元（1/1种组合回本）。返还为命中腿所组成全部3/4/5/6关子票奖金之和；至少84元才回本。 高风险、不建议重注。 逐腿赔率：005 让负@1.67；006 胜@1.46；007 平@2.85；009 负@1.45；012 胜@1.68；017 胜@1.36。",
       "passBreakdown": [
         {
           "passSize": 3,
@@ -2219,32 +2219,32 @@
         },
         {
           "hits": 3,
-          "min": 7.07,
-          "max": 40.22,
+          "min": 5.76,
+          "max": 15.99,
           "winningTicketCounts": 1,
           "breakEvenScenarios": 0,
           "totalScenarios": 20
         },
         {
           "hits": 4,
-          "min": 42.39,
-          "max": 186.93,
+          "min": 35.67,
+          "max": 75.41,
           "winningTicketCounts": 5,
-          "breakEvenScenarios": 10,
+          "breakEvenScenarios": 0,
           "totalScenarios": 15
         },
         {
           "hits": 5,
-          "min": 246.83,
-          "max": 571.94,
+          "min": 139.96,
+          "max": 246.83,
           "winningTicketCounts": 16,
           "breakEvenScenarios": 6,
           "totalScenarios": 6
         },
         {
           "hits": 6,
-          "min": 1556.62,
-          "max": 1556.62,
+          "min": 670.96,
+          "max": 670.96,
           "winningTicketCounts": 42,
           "breakEvenScenarios": 1,
           "totalScenarios": 1
@@ -2528,8 +2528,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 20.48,
-          "net": -63.52,
+          "returned": 6.63,
+          "net": -77.37,
           "breakEven": false
         },
         {
@@ -2564,8 +2564,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 39.98,
-          "net": -44.02,
+          "returned": 12.95,
+          "net": -71.05,
           "breakEven": false
         },
         {
@@ -2588,8 +2588,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 20.34,
-          "net": -63.66,
+          "returned": 6.59,
+          "net": -77.41,
           "breakEven": false
         },
         {
@@ -2600,8 +2600,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 23.57,
-          "net": -60.43,
+          "returned": 7.63,
+          "net": -76.37,
           "breakEven": false
         },
         {
@@ -2636,8 +2636,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 34.95,
-          "net": -49.05,
+          "returned": 11.32,
+          "net": -72.68,
           "breakEven": false
         },
         {
@@ -2660,8 +2660,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 17.78,
-          "net": -66.22,
+          "returned": 5.76,
+          "net": -78.24,
           "breakEven": false
         },
         {
@@ -2672,8 +2672,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 20.6,
-          "net": -63.4,
+          "returned": 6.67,
+          "net": -77.33,
           "breakEven": false
         },
         {
@@ -2696,8 +2696,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 34.71,
-          "net": -49.29,
+          "returned": 11.24,
+          "net": -72.76,
           "breakEven": false
         },
         {
@@ -2708,8 +2708,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 40.22,
-          "net": -43.78,
+          "returned": 13.02,
+          "net": -70.98,
           "breakEven": false
         },
         {
@@ -2720,8 +2720,8 @@
           ],
           "hitCount": 3,
           "winningSubTickets": 1,
-          "returned": 20.46,
-          "net": -63.54,
+          "returned": 6.63,
+          "net": -77.37,
           "breakEven": false
         },
         {
@@ -2759,9 +2759,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 167.68,
-          "net": 83.68,
-          "breakEven": true
+          "returned": 63.7,
+          "net": -20.3,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2785,9 +2785,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 95.37,
-          "net": 11.37,
-          "breakEven": true
+          "returned": 35.67,
+          "net": -48.33,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2798,9 +2798,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 107.25,
-          "net": 23.25,
-          "breakEven": true
+          "returned": 40.26,
+          "net": -43.74,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2824,9 +2824,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 166.8,
-          "net": 82.8,
-          "breakEven": true
+          "returned": 63.35,
+          "net": -20.65,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2837,9 +2837,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 186.93,
-          "net": 102.93,
-          "breakEven": true
+          "returned": 71.34,
+          "net": -12.66,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2850,9 +2850,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 106.68,
-          "net": 22.68,
-          "breakEven": true
+          "returned": 40.06,
+          "net": -43.94,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2876,9 +2876,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 150.19,
-          "net": 66.19,
-          "breakEven": true
+          "returned": 56.8,
+          "net": -27.2,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2889,9 +2889,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 168.47,
-          "net": 84.47,
-          "breakEven": true
+          "returned": 64,
+          "net": -20,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2902,9 +2902,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 95.83,
-          "net": 11.83,
-          "breakEven": true
+          "returned": 35.84,
+          "net": -48.16,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2915,9 +2915,9 @@
           ],
           "hitCount": 4,
           "winningSubTickets": 5,
-          "returned": 167.6,
-          "net": 83.6,
-          "breakEven": true
+          "returned": 63.66,
+          "net": -20.34,
+          "breakEven": false
         },
         {
           "hits": [
@@ -2943,8 +2943,8 @@
           ],
           "hitCount": 5,
           "winningSubTickets": 16,
-          "returned": 516.59,
-          "net": 432.59,
+          "returned": 212.59,
+          "net": 128.59,
           "breakEven": true
         },
         {
@@ -2957,8 +2957,8 @@
           ],
           "hitCount": 5,
           "winningSubTickets": 16,
-          "returned": 571.94,
-          "net": 487.94,
+          "returned": 236.18,
+          "net": 152.18,
           "breakEven": true
         },
         {
@@ -2971,8 +2971,8 @@
           ],
           "hitCount": 5,
           "winningSubTickets": 16,
-          "returned": 343.67,
-          "net": 259.67,
+          "returned": 139.96,
+          "net": 55.96,
           "breakEven": true
         },
         {
@@ -2985,8 +2985,8 @@
           ],
           "hitCount": 5,
           "winningSubTickets": 16,
-          "returned": 569.31,
-          "net": 485.31,
+          "returned": 235.08,
+          "net": 151.08,
           "breakEven": true
         },
         {
@@ -2999,8 +2999,8 @@
           ],
           "hitCount": 5,
           "winningSubTickets": 16,
-          "returned": 518.78,
-          "net": 434.78,
+          "returned": 213.5,
+          "net": 129.5,
           "breakEven": true
         },
         {
@@ -3014,8 +3014,8 @@
           ],
           "hitCount": 6,
           "winningSubTickets": 42,
-          "returned": 1556.62,
-          "net": 1472.62,
+          "returned": 670.96,
+          "net": 586.96,
           "breakEven": true
         }
       ],
@@ -11423,6 +11423,6 @@
     ],
     "checkedAt": "2026-10-28T07:02:30.267Z"
   },
-  "publishedAt": "2026-10-28T07:46:33.376Z",
+  "publishedAt": "2026-10-28T08:33:50.294Z",
   "mobileVerifiedAt": "2026-10-28T07:54:38.944Z"
 }
