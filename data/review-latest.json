@@ -3,7 +3,7 @@
   "title": "FT足球竞彩模型 · 2026-10-27最终复盘",
   "stage": "final",
   "completed": true,
-  "mobileVerified": true,
+  "mobileVerified": false,
   "reviewedAt": "2026-10-28T00:26:31.178Z",
   "publishedAt": "2026-10-28T00:26:31.179Z",
   "originalPublishedAt": "2026-10-27T08:33:08.451Z",
@@ -618,7 +618,8 @@
       "settledSubTickets": [
         "周二001[胜] × 周二010[负]"
       ],
-      "detail": "1/1子票命中；按赛前原票成本结算。"
+      "detail": "周二001[胜]×周二010[负]两腿均中；整串中。原成本2元，返还3.683元，净+1.683元。",
+      "trackingSettlement": { "stake": 1000, "returned": 1841.5, "net": 841.5 }
     },
     {
       "id": "2026-10-27-user-correction-1505-core30",
@@ -633,7 +634,8 @@
       "returned": 0,
       "net": -2,
       "settledSubTickets": [],
-      "detail": "0/1子票命中；按赛前原票成本结算。"
+      "detail": "周二006[主+1让胜]中、周二008[主-1让负]错；整串错，返还0元。",
+      "trackingSettlement": { "stake": 1000, "returned": 0, "net": -1000 }
     },
     {
       "id": "2026-10-27-user-correction-1505-goals3",
@@ -648,7 +650,7 @@
       "returned": 0,
       "net": -54,
       "settledSubTickets": [],
-      "detail": "0/27子票命中；按赛前原票成本结算。"
+      "detail": "005/006/008实际总进球为8/4/5，3中0；27注全部未中，整串错，返还0元，净-54元。"
     },
     {
       "id": "2026-10-27-user-correction-1505-goals4",
@@ -663,7 +665,7 @@
       "returned": 0,
       "net": -162,
       "settledSubTickets": [],
-      "detail": "0/81子票命中；按赛前原票成本结算。"
+      "detail": "005/006/008/010实际总进球为8/4/5/4，4中1；前3腿全错，81注全部未中，整串错，返还0元，净-162元。"
     }
   ],
   "combinations": [
