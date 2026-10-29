@@ -1,3 +1,4 @@
+import { validateTicketMath } from './validate-ticket-math.mjs';
 import fs from 'node:fs';
 import { validateProjectStars } from './validate-project-stars.mjs';
 import path from 'node:path';
@@ -15,6 +16,7 @@ for (const file of ['data/state.json', 'data/latest.json', 'data/review-latest.j
 }
 validateReviewConsistency(projectRoot);
 validateFormalReport(projectRoot);
+validateTicketMath(projectRoot);
 
 const html = readProjectFile('public/index.html');
 const script = html.match(/<script>([\s\S]*?)<\/script>/)?.[1];
@@ -62,3 +64,4 @@ if (categoryOrder.some((position, index) =>
 )) throw Error('Recommendation priority order incorrect');
 
 console.log('Football mobile build verified');
+
