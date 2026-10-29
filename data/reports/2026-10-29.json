@@ -4,11 +4,11 @@
   "rulesVersion": "2026-10-29-user-current",
   "generatedAt": "2026-10-29T06:11:15.698Z",
   "edition": "当日一次性最终方案",
-  "status": "final_locked_pending_online_verification",
+  "status": "completed",
   "summary": "7场全日扫盘；2.0/3.0、6场梦想拆3/4/5/6关及进球数梦想4串1各一张。",
   "finalLocked": true,
-  "mobileVerified": false,
-  "completed": false,
+  "mobileVerified": true,
+  "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
   "recommendations": [
@@ -7958,10 +7958,17 @@
     "localBuildPassed": true,
     "localImageWidth": 1244,
     "phoneLocalMappingPassed": true,
-    "mobileVerified": false,
-    "pending": [
-      "online deployment",
-      "online date/flags/images/button audit"
+    "mobileVerified": true,
+    "pending": [],
+    "onlineDateVerified": true,
+    "allFourCategories": true,
+    "todayStaticPngHttp200": true,
+    "fourButtonMappingCorrect": true,
+    "viewport": 430,
+    "scrollWidth": 430,
+    "auditFiles": [
+      "phone-online-audit.json",
+      "http-audit.json"
     ]
   },
   "reviewSchedule": {
@@ -7983,5 +7990,7 @@
     "unchangedSinceAnalysis": true,
     "noInsuranceRemoved": true,
     "scoreNeverUsedToDeriveDirection": true
-  }
+  },
+  "publishedAt": "2026-10-29T06:16:38.925Z",
+  "mobileVerifiedAt": "2026-10-29T06:18:41.363Z"
 }
