@@ -1,143 +1,28 @@
 {
-  "date": "2026-10-27",
-  "title": "FT足球竞彩模型 · 2026-10-27最终复盘",
+  "date": "2026-10-28",
+  "title": "FT足球竞彩模型 · 2026-10-28最终复盘",
   "stage": "final",
   "completed": true,
-  "mobileVerified": true,
-  "reviewedAt": "2026-10-28T00:26:31.178Z",
-  "publishedAt": "2026-10-28T00:26:31.179Z",
-  "originalPublishedAt": "2026-10-27T08:33:08.451Z",
-  "summary": "10场已完成赛果结算；推荐8/10，博3/10，总进球4/10，半全场5/10，比分2/10。正式票返还3.68元，净-216.32元。",
-  "verification": "十场均已结束；Google Sports赛事卡与ESPN最终比分卡交叉核验。复盘保留赛前原票、推荐/博顺序和原星级。",
-  "lessons": [
-    "周二004、周二007赛前方向虽一边倒，但阵容与完整预览证据不足，均为0星且未入票；今后不可仅因资料缺口机械排除明显强弱场，但不得赛后改原票。"
-  ],
+  "mobileVerified": false,
+  "reviewedAt": "2026-10-29T02:40:23.454Z",
+  "publishedAt": "2026-10-29T02:40:23.455Z",
+  "originalPublishedAt": "2026-10-28T08:33:50.294Z",
+  "summary": "17场已完成结算；推荐10/17，博5/17，总进球10/17，半全场8/17，比分5/17。",
+  "verification": "FotMob逐场终场比分与进球事件核验；杯赛按90分钟含伤停补时。复盘保留赛前最终原票，梦想串017按开赛前修正后的胜结算。",
   "rows": [
     {
-      "number": "周二001",
-      "time": "10-27 18:00",
+      "number": "周三001",
+      "time": "10-28 18:00",
       "league": "亚冠精英",
-      "teams": "京都不死鸟 vs 纽卡斯尔喷气机",
+      "teams": "大阪钢巴 vs 布里兰",
       "recommended": true,
       "recommendationHit": true,
-      "recommendedPick": "胜",
-      "speculativePick": "让胜",
-      "resultPick": "推荐：胜｜博：让胜",
-      "goalsPick": "3/4/2",
-      "halfFullPick": "胜胜/平胜",
-      "scorePick": "3:0/3:1/2:0",
-      "projectStars": {
-        "direction": 2,
-        "speculative": 1,
-        "goals": 0,
-        "halfFull": 0,
-        "score": 0
-      },
-      "projectStarColors": {
-        "direction": "red",
-        "speculative": "white",
-        "goals": "none",
-        "halfFull": "none",
-        "score": "none"
-      },
-      "projectStarAudit": {
-        "direction": "普通方向2星：京都终结点产出有官方资料，喷气机短休远征及轮换形成具体对位优势；京都联赛低迷限制信心，普通方向2星，不扩散到净胜球、进球数、半全场或比分。 按新评级标准复核：攻防对位和赛程证据共同支持普通胜负；已有反证降低上限但尚不足推翻方向，评2星，不升级精确净胜球，不评3星。",
-        "speculative": "客队短休远征及轮换使后程失守扩大有可能，轻度看好京都主-1让胜；京都联赛低迷、领先收缩可能仅赢一球，白1星，不入核心。",
-        "goals": "同一进球环境下选择3/4/2；阵容及尾部证据不足，0星。",
-        "halfFull": "按主剧本给出胜胜/平胜，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景3:0/3:1/2:0，不倒推方向，不标星。"
-      },
-      "actualScore": "5:2",
-      "halfScore": "2:2",
-      "hits": {
-        "result": true,
-        "speculative": true,
-        "goals": false,
-        "halfFull": true,
-        "score": false
-      },
-      "hitLabels": {
-        "result": [
-          "推荐：胜"
-        ],
-        "speculative": [
-          "博：让胜"
-        ],
-        "goals": [],
-        "halfFull": [
-          "平胜"
-        ],
-        "score": []
-      },
-      "settlementStatus": "赛果已核验"
-    },
-    {
-      "number": "周二002",
-      "time": "10-27 18:00",
-      "league": "亚冠精英",
-      "teams": "大田市民 vs 神户胜利船",
-      "recommended": true,
-      "recommendationHit": false,
-      "recommendedPick": "让胜",
-      "speculativePick": "平",
-      "resultPick": "推荐：让胜｜博：平",
-      "goalsPick": "2/3/1",
-      "halfFullPick": "平平/平胜",
-      "scorePick": "1:1/2:1/1:0",
-      "projectStars": {
-        "direction": 1,
-        "speculative": 1,
-        "goals": 0,
-        "halfFull": 0,
-        "score": 0
-      },
-      "projectStarColors": {
-        "direction": "red",
-        "speculative": "white",
-        "goals": "none",
-        "halfFull": "none",
-        "score": "none"
-      },
-      "projectStarAudit": {
-        "direction": "推荐主+1让胜，覆盖大田胜或平。大田连续进球与主场、神户密集赛程及近两场进攻回落支持不败；不把胶着场景锁成单平。",
-        "speculative": "双方均有进攻表现，强弱接近、胶着平局是精准观察，博普通平白1星；不进入核心票。",
-        "goals": "同一进球环境下选择2/3/1；阵容及尾部证据不足，0星。",
-        "halfFull": "按主剧本给出平平/胜平，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景1:1/2:1/1:0，不倒推方向，不标星。"
-      },
-      "actualScore": "0:1",
-      "halfScore": "0:0",
-      "hits": {
-        "result": false,
-        "speculative": false,
-        "goals": true,
-        "halfFull": false,
-        "score": false
-      },
-      "hitLabels": {
-        "result": [],
-        "speculative": [],
-        "goals": [
-          "1"
-        ],
-        "halfFull": [],
-        "score": []
-      },
-      "settlementStatus": "赛果已核验"
-    },
-    {
-      "number": "周二003",
-      "time": "10-27 20:15",
-      "league": "亚冠精英",
-      "teams": "北京国安 vs 全北现代",
-      "recommended": true,
-      "recommendationHit": true,
-      "recommendedPick": "让负",
-      "speculativePick": "负",
-      "resultPick": "推荐：让负｜博：负",
+      "recommendedPick": "胜/平",
+      "speculativePick": "胜",
+      "resultPick": "推荐：胜/平｜博：胜",
       "goalsPick": "3/2/4",
-      "halfFullPick": "平负/负负",
-      "scorePick": "1:2/0:2/1:3",
+      "halfFullPick": "胜胜/平平",
+      "scorePick": "2:1/1:1/2:2",
       "projectStars": {
         "direction": 0,
         "speculative": 0,
@@ -152,42 +37,92 @@
         "halfFull": "none",
         "score": "none"
       },
-      "projectStarAudit": {
-        "direction": "主-1让负覆盖国安平或负，符合低信心客队占优但证据不足以单挑客胜的主判断；关键名单和完整过程仍有缺口，0星。",
-        "speculative": "普通负是推荐让负范围内的精准客胜分支；证据不足，不标星。",
-        "goals": "同一进球环境下选择3/2/4；阵容及尾部证据不足，0星。",
-        "halfFull": "按主剧本给出平负/负负，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景1:2/0:2/1:3，不倒推方向，不标星。"
-      },
-      "actualScore": "2:2",
-      "halfScore": "1:1",
+      "actualScore": "1:1",
+      "halfScore": "0:1",
       "hits": {
         "result": true,
         "speculative": false,
         "goals": true,
         "halfFull": false,
-        "score": false
+        "score": true
       },
       "hitLabels": {
         "result": [
-          "推荐：让负"
+          "推荐：平"
         ],
         "speculative": [],
         "goals": [
-          "4"
+          "2"
         ],
         "halfFull": [],
-        "score": []
+        "score": [
+          "1:1"
+        ]
       },
       "settlementStatus": "赛果已核验"
     },
     {
-      "number": "周二004",
-      "time": "10-28 01:00",
-      "league": "德国杯",
-      "teams": "汉堡 vs 法兰克福",
+      "number": "周三002",
+      "time": "10-28 18:00",
+      "league": "亚冠精英",
+      "teams": "鹿岛鹿角 vs 浦项制铁",
       "recommended": true,
       "recommendationHit": true,
+      "recommendedPick": "胜",
+      "speculativePick": "让胜",
+      "resultPick": "推荐：胜｜博：让胜",
+      "goalsPick": "3/4/2",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "3:0/2:0/3:1",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "3:0",
+      "halfScore": "0:0",
+      "hits": {
+        "result": true,
+        "speculative": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "推荐：胜"
+        ],
+        "speculative": [
+          "博：让胜"
+        ],
+        "goals": [
+          "3"
+        ],
+        "halfFull": [
+          "平胜"
+        ],
+        "score": [
+          "3:0"
+        ]
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三003",
+      "time": "10-28 18:00",
+      "league": "日联赛杯",
+      "teams": "横滨水手 vs 广岛三箭",
+      "recommended": true,
+      "recommendationHit": false,
       "recommendedPick": "负",
       "speculativePick": "让平",
       "resultPick": "推荐：负｜博：让平",
@@ -208,243 +143,8 @@
         "halfFull": "none",
         "score": "none"
       },
-      "projectStarAudit": {
-        "direction": "当前竞彩普通客胜2.03、主受让1球；双方完整攻击产量和防守过程未能从官网静态页面取得。低信心参考法兰克福小幅优势及杯赛转换场景，明确属证据较弱扫盘，排除正式票。 关键名单和完整对手序列仍有缺口，0星。",
-        "speculative": "主+1让平仅观察客队恰胜1球；盘口支持客队优势但不支持大胜确定性，精确边界证据偏弱，0星。 精确边界未达红星门槛。",
-        "goals": "同一进球环境下选择3/2/4；阵容及尾部证据不足，0星。",
-        "halfFull": "按主剧本给出平负/负负，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景1:2/0:1/1:3，不倒推方向，不标星。"
-      },
-      "actualScore": "1:3",
+      "actualScore": "4:3",
       "halfScore": "0:0",
-      "hits": {
-        "result": true,
-        "speculative": false,
-        "goals": true,
-        "halfFull": true,
-        "score": true
-      },
-      "hitLabels": {
-        "result": [
-          "推荐：负"
-        ],
-        "speculative": [],
-        "goals": [
-          "4"
-        ],
-        "halfFull": [
-          "平负"
-        ],
-        "score": [
-          "1:3"
-        ]
-      },
-      "settlementStatus": "赛果已核验"
-    },
-    {
-      "number": "周二005",
-      "time": "10-28 01:30",
-      "league": "意甲",
-      "teams": "萨索洛 vs 拉齐奥",
-      "recommended": true,
-      "recommendationHit": true,
-      "recommendedPick": "负/平",
-      "speculativePick": "让平",
-      "resultPick": "推荐：负/平｜博：让平",
-      "goalsPick": "3/2/4",
-      "halfFullPick": "平负/平平",
-      "scorePick": "1:2/1:1/2:2",
-      "projectStars": {
-        "direction": 0,
-        "speculative": 0,
-        "goals": 0,
-        "halfFull": 0,
-        "score": 0
-      },
-      "projectStarColors": {
-        "direction": "none",
-        "speculative": "none",
-        "goals": "none",
-        "halfFull": "none",
-        "score": "none"
-      },
-      "projectStarAudit": {
-        "direction": "仍优先拉齐奥普通客胜，但萨索洛场均5.6射正表明持续创造机会，客队短休使对主队进球威胁的压制存疑，需防双方破门后平局；负在前、平在后，非胆。不是只因资料不齐机械防平。",
-        "speculative": "主+1让平观察拉齐奥恰胜1球：主队有射正产量、客队短休使大胜把握下降，普通负为主，不把博当保险。 精确边界未达红星门槛。",
-        "goals": "同一进球环境下选择3/2/4；阵容及尾部证据不足，0星。",
-        "halfFull": "两边均有进攻威胁且客队短休，半场胶着后客胜或平，展示平负/平平；无独立半场优势，不标星。",
-        "score": "重新评估主队持续射正与客队效率优势后，双方进球、客胜或平的同一场景为1:2/1:1/2:2；不以比分倒推方向，不标星。"
-      },
-      "actualScore": "2:6",
-      "halfScore": "2:4",
-      "hits": {
-        "result": true,
-        "speculative": false,
-        "goals": false,
-        "halfFull": false,
-        "score": false
-      },
-      "hitLabels": {
-        "result": [
-          "推荐：负"
-        ],
-        "speculative": [],
-        "goals": [],
-        "halfFull": [],
-        "score": []
-      },
-      "settlementStatus": "赛果已核验"
-    },
-    {
-      "number": "周二006",
-      "time": "10-28 02:00",
-      "league": "瑞超",
-      "teams": "AIK索尔纳 vs 埃尔夫斯堡",
-      "recommended": true,
-      "recommendationHit": true,
-      "recommendedPick": "让胜",
-      "speculativePick": "平",
-      "resultPick": "推荐：让胜｜博：平",
-      "goalsPick": "2/1/3",
-      "halfFullPick": "平平/平胜",
-      "scorePick": "1:1/1:0/2:1",
-      "projectStars": {
-        "direction": 1,
-        "speculative": 0,
-        "goals": 0,
-        "halfFull": 0,
-        "score": 0
-      },
-      "projectStarColors": {
-        "direction": "white",
-        "speculative": "none",
-        "goals": "none",
-        "halfFull": "none",
-        "score": "none"
-      },
-      "projectStarAudit": {
-        "direction": "AIK进攻移动性与近期对强队表现支持主队不败，但客队防守稳、终结恢复可反转，轻度看好让胜，白1星。",
-        "speculative": "主+1让胜覆盖AIK不败，依据主队强对手表现与客队低机会比赛，而不是机械防平。 精确边界未达红星门槛。",
-        "goals": "同一进球环境下选择2/1/3；阵容及尾部证据不足，0星。",
-        "halfFull": "按主剧本给出平平/平负，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景1:1/0:1/1:2，不倒推方向，不标星。"
-      },
-      "actualScore": "2:2",
-      "halfScore": "1:1",
-      "hits": {
-        "result": true,
-        "speculative": true,
-        "goals": false,
-        "halfFull": true,
-        "score": false
-      },
-      "hitLabels": {
-        "result": [
-          "推荐：让胜"
-        ],
-        "speculative": [
-          "博：平"
-        ],
-        "goals": [],
-        "halfFull": [
-          "平平"
-        ],
-        "score": []
-      },
-      "settlementStatus": "赛果已核验"
-    },
-    {
-      "number": "周二007",
-      "time": "10-28 03:45",
-      "league": "德国杯",
-      "teams": "多特蒙德 vs 云达不来梅",
-      "recommended": true,
-      "recommendationHit": true,
-      "recommendedPick": "胜",
-      "speculativePick": "让胜",
-      "resultPick": "推荐：胜｜博：让胜",
-      "goalsPick": "3/4/2",
-      "halfFullPick": "胜胜/平胜",
-      "scorePick": "3:0/3:1/2:0",
-      "projectStars": {
-        "direction": 0,
-        "speculative": 0,
-        "goals": 0,
-        "halfFull": 0,
-        "score": 0
-      },
-      "projectStarColors": {
-        "direction": "none",
-        "speculative": "none",
-        "goals": "none",
-        "halfFull": "none",
-        "score": "none"
-      },
-      "projectStarAudit": {
-        "direction": "普通主胜1.28与主-1盘口支持主队优势；科隆官方提及多特与柏林联合近期交手但同文存在前后矛盾，舍弃该比分。未取得多特和不来梅完整预览，主场攻击优势仅作低信心市场扫盘，不能当核心依据。 关键名单和完整对手序列仍有缺口，0星。",
-        "speculative": "主-1让胜观察主队持续进攻后净胜2球以上；缺独立阵容和进攻过程，精确判断0星，不入票。 精确边界未达红星门槛。",
-        "goals": "同一进球环境下选择3/4/2；阵容及尾部证据不足，0星。",
-        "halfFull": "按主剧本给出胜胜/平胜，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景3:0/3:1/2:0，不倒推方向，不标星。"
-      },
-      "actualScore": "3:2",
-      "halfScore": "2:0",
-      "hits": {
-        "result": true,
-        "speculative": false,
-        "goals": false,
-        "halfFull": true,
-        "score": false
-      },
-      "hitLabels": {
-        "result": [
-          "推荐：胜"
-        ],
-        "speculative": [],
-        "goals": [],
-        "halfFull": [
-          "胜胜"
-        ],
-        "score": []
-      },
-      "settlementStatus": "赛果已核验"
-    },
-    {
-      "number": "周二008",
-      "time": "10-28 03:45",
-      "league": "德国杯",
-      "teams": "科隆 vs 柏林联合",
-      "recommended": true,
-      "recommendationHit": false,
-      "recommendedPick": "让负",
-      "speculativePick": "平",
-      "resultPick": "推荐：让负｜博：平",
-      "goalsPick": "2/1/0",
-      "halfFullPick": "平平/平负",
-      "scorePick": "1:1/0:0/0:1",
-      "projectStars": {
-        "direction": 1,
-        "speculative": 0,
-        "goals": 1,
-        "halfFull": 0,
-        "score": 0
-      },
-      "projectStarColors": {
-        "direction": "white",
-        "speculative": "none",
-        "goals": "red",
-        "halfFull": "none",
-        "score": "none"
-      },
-      "projectStarAudit": {
-        "direction": "科隆锋线缺口和联合守备改善支持让负，但逆市场且联合缺员，仅轻度看好，白1星。",
-        "speculative": "平是低进球胶着场景中的精准观察；不进入本次核心串。",
-        "goals": "科隆缺正印9号、连续两场无进球及最后一传问题，联合守备改善，共同支持总进球2/1/0这个低进球范围，评1星；联合后防缺员、点球早球可能打破范围，不升2星。星评价三项组合，不代表单独2球必出。",
-        "halfFull": "按主剧本给出平平/平负，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景1:1/0:0/0:1，不倒推方向，不标星。"
-      },
-      "actualScore": "5:0",
-      "halfScore": "1:0",
       "hits": {
         "result": false,
         "speculative": false,
@@ -462,41 +162,34 @@
       "settlementStatus": "赛果已核验"
     },
     {
-      "number": "周二009",
-      "time": "10-28 03:45",
-      "league": "意甲",
-      "teams": "罗马 vs 卡利亚里",
+      "number": "周三004",
+      "time": "10-29 01:00",
+      "league": "德国杯",
+      "teams": "帕德博恩 vs 斯图加特",
       "recommended": true,
       "recommendationHit": true,
-      "recommendedPick": "胜",
-      "speculativePick": "让胜",
-      "resultPick": "推荐：胜｜博：让胜",
-      "goalsPick": "3/4/2",
-      "halfFullPick": "胜胜/平胜",
-      "scorePick": "3:0/3:1/2:0",
+      "recommendedPick": "负/平",
+      "speculativePick": "负",
+      "resultPick": "推荐：负/平｜博：负",
+      "goalsPick": "3/2/4",
+      "halfFullPick": "平负/平平",
+      "scorePick": "1:2/1:1/2:2",
       "projectStars": {
-        "direction": 1,
-        "speculative": 1,
+        "direction": 0,
+        "speculative": 0,
         "goals": 0,
         "halfFull": 0,
         "score": 0
       },
       "projectStarColors": {
-        "direction": "white",
-        "speculative": "white",
+        "direction": "none",
+        "speculative": "none",
         "goals": "none",
         "halfFull": "none",
         "score": "none"
       },
-      "projectStarAudit": {
-        "direction": "罗马对强队的进攻产量和对方缺出球核心支持普通胜；门将中场缺员、轮换限制信心，白1星。",
-        "speculative": "高压对缺少出球核心的客队，存在扩大分差路径，主-1让胜白1星；罗马人员缺口和轮换使一球小胜仍现实，不升级红星。",
-        "goals": "同一进球环境下选择3/4/2；阵容及尾部证据不足，0星。",
-        "halfFull": "按主剧本给出胜胜/平胜，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景3:0/3:1/2:0，不倒推方向，不标星。"
-      },
-      "actualScore": "4:2",
-      "halfScore": "2:1",
+      "actualScore": "0:1",
+      "halfScore": "0:0",
       "hits": {
         "result": true,
         "speculative": true,
@@ -506,12 +199,351 @@
       },
       "hitLabels": {
         "result": [
-          "推荐：胜"
+          "推荐：负"
         ],
         "speculative": [
-          "博：让胜"
+          "博：负"
         ],
         "goals": [],
+        "halfFull": [
+          "平负"
+        ],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三005",
+      "time": "10-29 01:30",
+      "league": "意甲",
+      "teams": "威尼斯 vs 国际米兰",
+      "recommended": true,
+      "recommendationHit": true,
+      "recommendedPick": "负",
+      "speculativePick": "让负",
+      "resultPick": "推荐：负｜博：让负",
+      "goalsPick": "3/4/2",
+      "halfFullPick": "负负/平负",
+      "scorePick": "0:2/1:3/1:2",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "0:2",
+      "halfScore": "0:0",
+      "hits": {
+        "result": true,
+        "speculative": true,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "推荐：负"
+        ],
+        "speculative": [
+          "博：让负"
+        ],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [
+          "平负"
+        ],
+        "score": [
+          "0:2"
+        ]
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三006",
+      "time": "10-29 01:30",
+      "league": "意甲",
+      "teams": "AC米兰 vs 博洛尼亚",
+      "recommended": true,
+      "recommendationHit": false,
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
+      "resultPick": "推荐：胜｜博：让平",
+      "goalsPick": "2/3/1",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2:0/2:1/1:0",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "2:4",
+      "halfScore": "2:1",
+      "hits": {
+        "result": false,
+        "speculative": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "speculative": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三007",
+      "time": "10-29 01:30",
+      "league": "意甲",
+      "teams": "帕尔马 vs 乌迪内斯",
+      "recommended": true,
+      "recommendationHit": true,
+      "recommendedPick": "平/负",
+      "speculativePick": "平",
+      "resultPick": "推荐：平/负｜博：平",
+      "goalsPick": "2/1/3",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1:1/0:1/1:2",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "red",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "0:0",
+      "halfScore": "0:0",
+      "hits": {
+        "result": true,
+        "speculative": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "推荐：平"
+        ],
+        "speculative": [
+          "博：平"
+        ],
+        "goals": [],
+        "halfFull": [
+          "平平"
+        ],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三008",
+      "time": "10-29 01:45",
+      "league": "荷兰杯",
+      "teams": "鹿特丹斯巴达 vs 福图纳锡塔德",
+      "recommended": true,
+      "recommendationHit": true,
+      "recommendedPick": "胜/平",
+      "speculativePick": "胜",
+      "resultPick": "推荐：胜/平｜博：胜",
+      "goalsPick": "2/3/1",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "1:0/1:1/2:1",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "2:2",
+      "halfScore": "1:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "推荐：平"
+        ],
+        "speculative": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三009",
+      "time": "10-29 02:00",
+      "league": "瑞超",
+      "teams": "布鲁马波卡纳 vs 赫根",
+      "recommended": true,
+      "recommendationHit": false,
+      "recommendedPick": "负",
+      "speculativePick": "让平",
+      "resultPick": "推荐：负｜博：让平",
+      "goalsPick": "3/2/4",
+      "halfFullPick": "负负/平负",
+      "scorePick": "1:2/0:2/1:3",
+      "projectStars": {
+        "direction": 2,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "0:0",
+      "halfScore": "0:0",
+      "hits": {
+        "result": false,
+        "speculative": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "speculative": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三010",
+      "time": "10-29 03:45",
+      "league": "英联赛杯",
+      "teams": "桑德兰 vs 布伦特福德",
+      "recommended": true,
+      "recommendationHit": false,
+      "recommendedPick": "负/平",
+      "speculativePick": "负",
+      "resultPick": "推荐：负/平｜博：负",
+      "goalsPick": "2/3/1",
+      "halfFullPick": "平负/平平",
+      "scorePick": "0:1/1:1/1:2",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "3:2",
+      "halfScore": "3:1",
+      "hits": {
+        "result": false,
+        "speculative": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "speculative": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三011",
+      "time": "10-29 03:45",
+      "league": "英联赛杯",
+      "teams": "伯恩茅斯 vs 阿斯顿维拉",
+      "recommended": true,
+      "recommendationHit": true,
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
+      "resultPick": "推荐：胜｜博：让平",
+      "goalsPick": "3/2/4",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2:1/1:0/3:1",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "3:0",
+      "halfScore": "1:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "推荐：胜"
+        ],
+        "speculative": [],
+        "goals": [
+          "3"
+        ],
         "halfFull": [
           "胜胜"
         ],
@@ -520,59 +552,301 @@
       "settlementStatus": "赛果已核验"
     },
     {
-      "number": "周二010",
-      "time": "10-28 03:45",
-      "league": "意甲",
-      "teams": "都灵 vs 科莫",
+      "number": "周三012",
+      "time": "10-29 03:45",
+      "league": "英联赛杯",
+      "teams": "富勒姆 vs 水晶宫",
       "recommended": true,
-      "recommendationHit": true,
-      "recommendedPick": "负",
+      "recommendationHit": false,
+      "recommendedPick": "胜",
       "speculativePick": "让平",
-      "resultPick": "推荐：负｜博：让平",
-      "goalsPick": "3/2/4",
-      "halfFullPick": "平负/负负",
-      "scorePick": "1:2/0:2/1:3",
+      "resultPick": "推荐：胜｜博：让平",
+      "goalsPick": "2/3/1",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2:0/1:0/2:1",
       "projectStars": {
-        "direction": 2,
+        "direction": 1,
         "speculative": 0,
-        "goals": 1,
+        "goals": 0,
         "halfFull": 0,
         "score": 0
       },
       "projectStarColors": {
         "direction": "red",
         "speculative": "none",
-        "goals": "white",
+        "goals": "none",
         "halfFull": "none",
         "score": "none"
       },
-      "projectStarAudit": {
-        "direction": "普通方向2星：科莫近期前场夺球、边路输送及终结有比赛过程支撑，都灵失球提供对位依据；科莫短休、都灵反击与较长休息限制信心，普通方向2星，不标净胜球。 按新评级标准复核：攻防对位和赛程证据共同支持普通胜负；已有反证降低上限但尚不足推翻方向，评2星，不升级精确净胜球，不评3星。",
-        "speculative": "主+1让平观察科莫恰胜1球：都灵近期有进攻、休息较长，科莫优势不等于净胜2球，故普通负优先。 精确边界未达红星门槛。",
-        "goals": "科莫压迫和边路终结、都灵近期能进球也失球，支持3/2/4范围，轻度看好白1星；短休降节奏及双方门前效率造成尾部风险。",
-        "halfFull": "按主剧本给出平负/负负，无独立半场强证据，0星。",
-        "score": "同一主剧本附近情景1:2/0:2/1:3，不倒推方向，不标星。"
-      },
-      "actualScore": "1:3",
-      "halfScore": "1:0",
+      "actualScore": "0:1",
+      "halfScore": "0:1",
       "hits": {
-        "result": true,
+        "result": false,
         "speculative": false,
         "goals": true,
         "halfFull": false,
-        "score": true
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "speculative": [],
+        "goals": [
+          "1"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三013",
+      "time": "10-29 03:45",
+      "league": "意甲",
+      "teams": "蒙扎 vs 那不勒斯",
+      "recommended": true,
+      "recommendationHit": true,
+      "recommendedPick": "负/平",
+      "speculativePick": "负",
+      "resultPick": "推荐：负/平｜博：负",
+      "goalsPick": "3/4/5",
+      "halfFullPick": "平负/平平",
+      "scorePick": "1:2/2:2/2:3",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "red",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "1:4",
+      "halfScore": "1:1",
+      "hits": {
+        "result": true,
+        "speculative": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
       },
       "hitLabels": {
         "result": [
           "推荐：负"
         ],
+        "speculative": [
+          "博：负"
+        ],
+        "goals": [
+          "5"
+        ],
+        "halfFull": [
+          "平负"
+        ],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三014",
+      "time": "10-29 03:45",
+      "league": "意甲",
+      "teams": "热那亚 vs 尤文图斯",
+      "recommended": true,
+      "recommendationHit": false,
+      "recommendedPick": "负/平",
+      "speculativePick": "负",
+      "resultPick": "推荐：负/平｜博：负",
+      "goalsPick": "2/1/3",
+      "halfFullPick": "平负/平平",
+      "scorePick": "0:1/1:1/0:2",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "red",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "2:0",
+      "halfScore": "2:0",
+      "hits": {
+        "result": false,
+        "speculative": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "speculative": [],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三015",
+      "time": "10-29 04:00",
+      "league": "英联赛杯",
+      "teams": "利物浦 vs 切尔西",
+      "recommended": true,
+      "recommendationHit": false,
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
+      "resultPick": "推荐：胜｜博：让平",
+      "goalsPick": "3/2/4",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2:1/1:0/3:1",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "1:1",
+      "halfScore": "1:1",
+      "hits": {
+        "result": false,
+        "speculative": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "speculative": [],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三016",
+      "time": "10-29 06:30",
+      "league": "巴甲",
+      "teams": "弗鲁米嫩塞 vs 巴西国际",
+      "recommended": true,
+      "recommendationHit": true,
+      "recommendedPick": "胜/平",
+      "speculativePick": "平",
+      "resultPick": "推荐：胜/平｜博：平",
+      "goalsPick": "2/3/1",
+      "halfFullPick": "平平/平胜",
+      "scorePick": "1:1/2:1/2:2",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "2:1",
+      "halfScore": "0:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "推荐：胜"
+        ],
+        "speculative": [],
+        "goals": [
+          "3"
+        ],
+        "halfFull": [
+          "平胜"
+        ],
+        "score": [
+          "2:1"
+        ]
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周三017",
+      "time": "10-29 07:30",
+      "league": "美职",
+      "teams": "迈阿密国际 vs 辛辛那提FC",
+      "recommended": true,
+      "recommendationHit": true,
+      "recommendedPick": "胜/平",
+      "speculativePick": "胜",
+      "resultPick": "推荐：胜/平｜博：胜",
+      "goalsPick": "4/5/3",
+      "halfFullPick": "胜胜/平平",
+      "scorePick": "3:1/3:2/2:2",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "red",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "2:2",
+      "halfScore": "0:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "推荐：平"
+        ],
         "speculative": [],
         "goals": [
           "4"
         ],
-        "halfFull": [],
+        "halfFull": [
+          "平平"
+        ],
         "score": [
-          "1:3"
+          "2:2"
         ]
       },
       "settlementStatus": "赛果已核验"
@@ -580,205 +854,352 @@
   ],
   "statistics": {
     "result": {
-      "hit": 8,
-      "total": 10,
+      "hit": 10,
+      "total": 17,
       "pending": 0
     },
     "speculative": {
-      "hit": 3,
-      "total": 10,
+      "hit": 5,
+      "total": 17,
       "pending": 0
     },
     "goals": {
-      "hit": 4,
-      "total": 10,
+      "hit": 10,
+      "total": 17,
       "pending": 0
     },
     "halfFull": {
-      "hit": 5,
-      "total": 10,
+      "hit": 8,
+      "total": 17,
       "pending": 0
     },
     "score": {
-      "hit": 2,
-      "total": 10,
+      "hit": 5,
+      "total": 17,
       "pending": 0
     }
   },
   "ticketReview": [
     {
-      "id": "2026-10-27-user-correction-1505-core20",
-      "date": "2026-10-27",
+      "id": "2026-10-28-final-core20",
+      "date": "2026-10-28",
       "name": "2.0版2串1",
       "sessionLabel": "中晚场",
       "category": "core20",
-      "originalSelectionText": "周二001[胜] × 周二010[负]",
-      "status": "命中",
-      "hit": true,
-      "cost": 2,
-      "returned": 3.683,
-      "net": 1.6829999999999998,
-      "settledSubTickets": [
-        "周二001[胜] × 周二010[负]"
-      ],
-      "detail": "周二001[胜]×周二010[负]两腿均中；整串中。原成本2元，返还3.683元，净+1.683元。",
-      "trackingSettlement": { "stake": 1000, "returned": 1841.5, "net": 841.5 }
-    },
-    {
-      "id": "2026-10-27-user-correction-1505-core30",
-      "date": "2026-10-27",
-      "name": "3.0版2串1",
-      "sessionLabel": "中晚场",
-      "category": "core30",
-      "originalSelectionText": "周二006[主+1让胜] × 周二008[主-1让负]",
+      "originalSelectionText": "周三005[负] × 周三009[负]",
       "status": "未中",
       "hit": false,
       "cost": 2,
       "returned": 0,
       "net": -2,
+      "legHits": [
+        {
+          "number": "周三005",
+          "pick": "负",
+          "hit": true
+        },
+        {
+          "number": "周三009",
+          "pick": "负",
+          "hit": false
+        }
+      ],
+      "hitCount": 1,
+      "totalLegs": 2,
       "settledSubTickets": [],
-      "detail": "周二006[主+1让胜]中、周二008[主-1让负]错；整串错，返还0元。",
-      "trackingSettlement": { "stake": 1000, "returned": 0, "net": -1000 }
+      "detail": "1中2；0/1子票命中；按赛前最终原票结算。"
     },
     {
-      "id": "2026-10-27-user-correction-1505-goals3",
-      "date": "2026-10-27",
-      "name": "全进球数梦想3串1",
+      "id": "2026-10-28-final-core30",
+      "date": "2026-10-28",
+      "name": "3.0版2串1",
       "sessionLabel": "中晚场",
-      "category": "goals3",
-      "dreamHitText": "3中0",
-      "originalSelectionText": "周二005[3/2/4] × 周二006[2/1/3] × 周二008[2/1/0]",
+      "category": "core30",
+      "originalSelectionText": "周三006[胜] × 周三012[胜]",
       "status": "未中",
       "hit": false,
-      "cost": 54,
+      "cost": 2,
       "returned": 0,
-      "net": -54,
+      "net": -2,
+      "legHits": [
+        {
+          "number": "周三006",
+          "pick": "胜",
+          "hit": false
+        },
+        {
+          "number": "周三012",
+          "pick": "胜",
+          "hit": false
+        }
+      ],
+      "hitCount": 0,
+      "totalLegs": 2,
       "settledSubTickets": [],
-      "detail": "005/006/008实际总进球为8/4/5，3中0；27注全部未中，整串错，返还0元，净-54元。"
+      "detail": "0中2；0/1子票命中；按赛前最终原票结算。"
     },
     {
-      "id": "2026-10-27-user-correction-1505-goals4",
-      "date": "2026-10-27",
-      "name": "全进球数梦想4串1",
+      "id": "2026-10-28-final-dream6",
+      "date": "2026-10-28",
+      "name": "6场梦想串",
+      "sessionLabel": "中晚场",
+      "category": "dream6",
+      "originalSelectionText": "周三005[让负] × 周三006[胜] × 周三007[平] × 周三009[负] × 周三012[胜] × 周三017[胜]",
+      "status": "未中",
+      "hit": false,
+      "cost": 84,
+      "returned": 0,
+      "net": -84,
+      "legHits": [
+        {
+          "number": "周三005",
+          "pick": "让负",
+          "hit": true
+        },
+        {
+          "number": "周三006",
+          "pick": "胜",
+          "hit": false
+        },
+        {
+          "number": "周三007",
+          "pick": "平",
+          "hit": true
+        },
+        {
+          "number": "周三009",
+          "pick": "负",
+          "hit": false
+        },
+        {
+          "number": "周三012",
+          "pick": "胜",
+          "hit": false
+        },
+        {
+          "number": "周三017",
+          "pick": "胜",
+          "hit": false
+        }
+      ],
+      "hitCount": 2,
+      "totalLegs": 6,
+      "settledSubTickets": [],
+      "detail": "2中6；0/42子票命中；按赛前最终原票结算。"
+    },
+    {
+      "id": "2026-10-28-final-goals4",
+      "date": "2026-10-28",
+      "name": "进球数梦想4串1",
       "sessionLabel": "中晚场",
       "category": "goals4",
-      "dreamHitText": "4中1",
-      "originalSelectionText": "周二005[3/2/4] × 周二006[2/1/3] × 周二008[2/1/0] × 周二010[3/2/4]",
+      "originalSelectionText": "周三005[3/4/2] × 周三007[2/1/3] × 周三013[3/4/5] × 周三017[4/5/3]",
       "status": "未中",
       "hit": false,
       "cost": 162,
       "returned": 0,
       "net": -162,
+      "legHits": [
+        {
+          "number": "周三005",
+          "pick": "3/4/2",
+          "hit": false
+        },
+        {
+          "number": "周三007",
+          "pick": "2/1/3",
+          "hit": false
+        },
+        {
+          "number": "周三013",
+          "pick": "3/4/5",
+          "hit": false
+        },
+        {
+          "number": "周三017",
+          "pick": "4/5/3",
+          "hit": false
+        }
+      ],
+      "hitCount": 0,
+      "totalLegs": 4,
       "settledSubTickets": [],
-      "detail": "005/006/008/010实际总进球为8/4/5/4，4中1；前3腿全错，81注全部未中，整串错，返还0元，净-162元。"
+      "detail": "0中4；0/81子票命中；按赛前最终原票结算。"
     }
   ],
-  "trackingHistory": {
-    "two": [
-      {
-        "id": "2026-10-26-final-core20",
-        "date": "2026-10-26",
-        "name": "晚场2.0版2串1",
-        "sessionLabel": "晚场",
-        "category": "core20",
-        "originalSelectionText": "周一003[胜] × 周一004[胜]",
-        "selectionText": "周一003[胜] × 周一004[胜]",
-        "status": "命中",
-        "cost": 2,
-        "returned": 3.9984,
-        "trackingSettlement": { "stake": 1000, "returned": 1999.2, "net": 999.2 }
-      }
-    ],
-    "three": [
-      {
-        "id": "2026-10-26-final-core30",
-        "date": "2026-10-26",
-        "name": "晚场3.0版2串1",
-        "sessionLabel": "晚场",
-        "category": "core30",
-        "originalSelectionText": "周一001[负] × 周一002[平]",
-        "selectionText": "周一001[负] × 周一002[平]",
-        "status": "命中",
-        "cost": 2,
-        "returned": 7.442,
-        "trackingSettlement": { "stake": 1000, "returned": 3721, "net": 2721 }
-      }
-    ]
-  },
   "combinations": [
     {
-      "id": "2026-10-27-user-correction-1505-core20",
-      "date": "2026-10-27",
+      "id": "2026-10-28-final-core20",
+      "date": "2026-10-28",
       "name": "2.0版2串1",
       "sessionLabel": "中晚场",
       "category": "core20",
-      "originalSelectionText": "周二001[胜] × 周二010[负]",
-      "status": "命中",
-      "hit": true,
-      "cost": 2,
-      "returned": 3.683,
-      "net": 1.6829999999999998,
-      "settledSubTickets": [
-        "周二001[胜] × 周二010[负]"
-      ],
-      "detail": "1/1子票命中；按赛前原票成本结算。"
-    },
-    {
-      "id": "2026-10-27-user-correction-1505-core30",
-      "date": "2026-10-27",
-      "name": "3.0版2串1",
-      "sessionLabel": "中晚场",
-      "category": "core30",
-      "originalSelectionText": "周二006[主+1让胜] × 周二008[主-1让负]",
+      "originalSelectionText": "周三005[负] × 周三009[负]",
       "status": "未中",
       "hit": false,
       "cost": 2,
       "returned": 0,
       "net": -2,
+      "legHits": [
+        {
+          "number": "周三005",
+          "pick": "负",
+          "hit": true
+        },
+        {
+          "number": "周三009",
+          "pick": "负",
+          "hit": false
+        }
+      ],
+      "hitCount": 1,
+      "totalLegs": 2,
       "settledSubTickets": [],
-      "detail": "0/1子票命中；按赛前原票成本结算。"
+      "detail": "1中2；0/1子票命中；按赛前最终原票结算。"
     },
     {
-      "id": "2026-10-27-user-correction-1505-goals3",
-      "date": "2026-10-27",
-      "name": "全进球数梦想3串1",
+      "id": "2026-10-28-final-core30",
+      "date": "2026-10-28",
+      "name": "3.0版2串1",
       "sessionLabel": "中晚场",
-      "category": "goals3",
-      "dreamHitText": "3中0",
-      "originalSelectionText": "周二005[3/2/4] × 周二006[2/1/3] × 周二008[2/1/0]",
+      "category": "core30",
+      "originalSelectionText": "周三006[胜] × 周三012[胜]",
       "status": "未中",
       "hit": false,
-      "cost": 54,
+      "cost": 2,
       "returned": 0,
-      "net": -54,
+      "net": -2,
+      "legHits": [
+        {
+          "number": "周三006",
+          "pick": "胜",
+          "hit": false
+        },
+        {
+          "number": "周三012",
+          "pick": "胜",
+          "hit": false
+        }
+      ],
+      "hitCount": 0,
+      "totalLegs": 2,
       "settledSubTickets": [],
-      "detail": "0/27子票命中；按赛前原票成本结算。"
+      "detail": "0中2；0/1子票命中；按赛前最终原票结算。"
     },
     {
-      "id": "2026-10-27-user-correction-1505-goals4",
-      "date": "2026-10-27",
-      "name": "全进球数梦想4串1",
+      "id": "2026-10-28-final-dream6",
+      "date": "2026-10-28",
+      "name": "6场梦想串",
+      "sessionLabel": "中晚场",
+      "category": "dream6",
+      "originalSelectionText": "周三005[让负] × 周三006[胜] × 周三007[平] × 周三009[负] × 周三012[胜] × 周三017[胜]",
+      "status": "未中",
+      "hit": false,
+      "cost": 84,
+      "returned": 0,
+      "net": -84,
+      "legHits": [
+        {
+          "number": "周三005",
+          "pick": "让负",
+          "hit": true
+        },
+        {
+          "number": "周三006",
+          "pick": "胜",
+          "hit": false
+        },
+        {
+          "number": "周三007",
+          "pick": "平",
+          "hit": true
+        },
+        {
+          "number": "周三009",
+          "pick": "负",
+          "hit": false
+        },
+        {
+          "number": "周三012",
+          "pick": "胜",
+          "hit": false
+        },
+        {
+          "number": "周三017",
+          "pick": "胜",
+          "hit": false
+        }
+      ],
+      "hitCount": 2,
+      "totalLegs": 6,
+      "settledSubTickets": [],
+      "detail": "2中6；0/42子票命中；按赛前最终原票结算。"
+    },
+    {
+      "id": "2026-10-28-final-goals4",
+      "date": "2026-10-28",
+      "name": "进球数梦想4串1",
       "sessionLabel": "中晚场",
       "category": "goals4",
-      "dreamHitText": "4中1",
-      "originalSelectionText": "周二005[3/2/4] × 周二006[2/1/3] × 周二008[2/1/0] × 周二010[3/2/4]",
+      "originalSelectionText": "周三005[3/4/2] × 周三007[2/1/3] × 周三013[3/4/5] × 周三017[4/5/3]",
       "status": "未中",
       "hit": false,
       "cost": 162,
       "returned": 0,
       "net": -162,
+      "legHits": [
+        {
+          "number": "周三005",
+          "pick": "3/4/2",
+          "hit": false
+        },
+        {
+          "number": "周三007",
+          "pick": "2/1/3",
+          "hit": false
+        },
+        {
+          "number": "周三013",
+          "pick": "3/4/5",
+          "hit": false
+        },
+        {
+          "number": "周三017",
+          "pick": "4/5/3",
+          "hit": false
+        }
+      ],
+      "hitCount": 0,
+      "totalLegs": 4,
       "settledSubTickets": [],
-      "detail": "0/81子票命中；按赛前原票成本结算。"
+      "detail": "0中4；0/81子票命中；按赛前最终原票结算。"
     }
   ],
-  "sources": [
+  "tracking": [
     {
-      "name": "Google Sports 赛事最终比分卡",
-      "checkedAt": "2026-10-28T00:26:31.179Z"
+      "category": "core20",
+      "name": "2.0版2串1",
+      "originalSelectionText": "周三005[负] × 周三009[负]",
+      "status": "未中",
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
     },
     {
-      "name": "ESPN 最终比分卡",
-      "checkedAt": "2026-10-28T00:26:31.179Z"
+      "category": "core30",
+      "name": "3.0版2串1",
+      "originalSelectionText": "周三006[胜] × 周三012[胜]",
+      "status": "未中",
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    }
+  ],
+  "trackingRule": "仅2.0与3.0分开累计；每张按1000元本金折算；梦想串不登记。",
+  "sources": [
+    {
+      "name": "FotMob scoreboard and match details",
+      "checkedAt": "2026-10-29T02:40:23.455Z"
     }
   ]
 }
