@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-30",
+  "stage": "local_checks_passed_pending_publish",
+  "completedSteps": [
+    "preflight",
+    "official_snapshot",
+    "mirror_snapshot",
+    "prior_report_state_loaded",
+    "source_research",
+    "all_match_analysis",
+    "ticket_generation",
+    "ticket_math",
+    "render",
+    "build",
+    "local_phone_verify"
+  ],
+  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": false,
+  "updatedAt": "2026-10-30T06:27:35.643Z",
+  "scanCount": 12,
+  "ticketCounts": {
+    "core20": 1,
+    "core30": 1,
+    "dream6": 1,
+    "goals4": 1
+  },
+  "blockers": []
+}
