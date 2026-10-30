@@ -1,6 +1,7 @@
 {
   "date": "2026-10-30",
-  "stage": "local_checks_passed_pending_publish",
+  "stage": "completed",
+  "status": "completed",
   "completedSteps": [
     "preflight",
     "official_snapshot",
@@ -12,12 +13,14 @@
     "ticket_math",
     "render",
     "build",
-    "local_phone_verify"
+    "local_phone_verify",
+    "publish",
+    "online_verify"
   ],
-  "completed": false,
+  "completed": true,
   "finalLocked": true,
-  "mobileVerified": false,
-  "updatedAt": "2026-10-30T06:27:35.643Z",
+  "mobileVerified": true,
+  "updatedAt": "2026-10-30T06:29:40.087Z",
   "scanCount": 12,
   "ticketCounts": {
     "core20": 1,
@@ -25,5 +28,9 @@
     "dream6": 1,
     "goals4": 1
   },
+  "localBuildPassed": true,
+  "onlineImageHttp200": true,
+  "fourButtonMappingCorrect": true,
+  "reviewAt": "2026-10-31T09:25:00+08:00",
   "blockers": []
 }
