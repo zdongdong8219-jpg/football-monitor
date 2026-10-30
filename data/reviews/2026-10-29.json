@@ -1,0 +1,744 @@
+{
+  "date": "2026-10-29",
+  "title": "FT足球竞彩模型 · 2026-10-29最终复盘",
+  "stage": "final",
+  "completed": true,
+  "mobileVerified": false,
+  "reviewedAt": "2026-10-30T04:31:43.224Z",
+  "publishedAt": "2026-10-30T04:31:43.226Z",
+  "originalPublishedAt": "2026-10-29T07:31:51.884Z",
+  "summary": "7场完成结算；推荐6/7，博1/7，总进球4/7，半全场3/7，比分3/7。",
+  "verification": "FotMob实时scoreboard与逐场matchDetails核验终场、半场；杯赛按90分钟含补时。",
+  "rows": [
+    {
+      "number": "周四001",
+      "time": "10-29 20:15",
+      "league": "亚冠乙",
+      "teams": "上海申花 vs 町田泽维亚",
+      "recommendedPick": "负",
+      "speculativePick": "让负",
+      "resultPick": "推荐：负｜博：让负",
+      "goalsPick": "2/3/1",
+      "halfFullPick": "平负/负负",
+      "scorePick": "0:2/1:2/0:1",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "町田官方赛程显示近四轮1:0京都、3:0福冈、5:0清水、0:0神户，攻守持续性支持普通客胜；亚冠前两轮2:0柴桢、1:0淡滨尼不能直接证明深盘优势。 主判断客胜；没有足够申花破局或町田终结受损证据支持机械防平，名单缺口降低评级而不自动双选。 评级1星，缺口见阵容。",
+        "speculative": "近四轮10球且连续零封使客胜两球以上有一定基础，主+1让负是进取边界；客场亚冠此前仅1:0提示单球胜风险，博不进入核心。 精准边界独立评级0星。",
+        "goals": "町田官方赛程显示近四轮1:0京都、3:0福冈、5:0清水、0:0神户，攻守持续性支持普通客胜；亚冠前两轮2:0柴桢、1:0淡滨尼不能直接证明深盘优势。 结合官方进球赔率，候选2/3/1；双方阵容/节奏证据不完整，不标星。",
+        "halfFull": "候选平负/负负；依据主剧本与可能中场调整，只作低信心观察，无充分半场时序数据，不标星。",
+        "score": "候选0:2/1:2/0:1；基于上游攻防形成邻近情景，不反推方向，无精确比分优势证据，不标星。"
+      },
+      "actualScore": "0:1",
+      "halfScore": "0:1",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "负"
+        ],
+        "speculative": [],
+        "goals": [
+          "1"
+        ],
+        "halfFull": [
+          "负负"
+        ],
+        "score": [
+          "0:1"
+        ]
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周四002",
+      "time": "10-30 00:00",
+      "league": "芬超",
+      "teams": "国际图尔库 vs 赫尔辛基",
+      "recommendedPick": "让负",
+      "speculativePick": "平",
+      "resultPick": "推荐：让负｜博：平",
+      "goalsPick": "2/1/3",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1:1/0:1/0:0",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "HJK争冠组保持不败，落后国际图尔3分需要争胜；国际图尔争冠组7场仅失3球但进攻困难。HJK上轮对KuPS先被压制、后追回2:2，不能只凭战意押客胜。 推荐主-1让负，实际覆盖国际图尔平或负；依据HJK不败序列及主队中场停赛，保留平局因主队防守强。 评级1星，缺口见阵容。",
+        "speculative": "国际图尔低失球与进攻瓶颈对上HJK近期不败，平局是客队不败覆盖内的精准边界；HJK必须争胜增加后段破局可能，不给高星。 精准边界独立评级1星。",
+        "goals": "HJK争冠组保持不败，落后国际图尔3分需要争胜；国际图尔争冠组7场仅失3球但进攻困难。HJK上轮对KuPS先被压制、后追回2:2，不能只凭战意押客胜。 结合官方进球赔率，候选2/1/3；进球节奏有一定证据，但尾部风险不支持高星。",
+        "halfFull": "候选平平/平负；依据主剧本与可能中场调整，只作低信心观察，无充分半场时序数据，不标星。",
+        "score": "候选1:1/0:1/0:0；基于上游攻防形成邻近情景，不反推方向，无精确比分优势证据，不标星。"
+      },
+      "actualScore": "2:4",
+      "halfScore": "1:2",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "让负"
+        ],
+        "speculative": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周四003",
+      "time": "10-30 01:30",
+      "league": "意甲",
+      "teams": "弗洛西诺内 vs 莱切",
+      "recommendedPick": "胜",
+      "speculativePick": "让胜",
+      "resultPick": "推荐：胜｜博：让胜",
+      "goalsPick": "3/2/4",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "3:1/2:0/2:1",
+      "projectStars": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "弗洛西诺内客场4:4亚特兰大并非靠弱队刷分，Schmid、Calò及两翼多点威胁，比赛尾段仍能制造机会。莱切8轮输5场，含罗马/米兰/尤文强敌，但也0:1卡利亚里和1:2博洛尼亚；不能只用总失球解释。 普通胜为最可能方向；莱切客胜乌迪内斯3:0说明仍有突袭能力，但当前减员与主队创造力未形成必须防平的具体均势证据，单选并降风险评级。 评级2星，缺口见阵容。",
+        "speculative": "主队多点进攻与莱切中前场减员提供净胜2球可能；主队刚失4球且Falcone可用，穿盘低于普通胜信心，仅作博。 精准边界独立评级1星。",
+        "goals": "弗洛西诺内客场4:4亚特兰大并非靠弱队刷分，Schmid、Calò及两翼多点威胁，比赛尾段仍能制造机会。莱切8轮输5场，含罗马/米兰/尤文强敌，但也0:1卡利亚里和1:2博洛尼亚；不能只用总失球解释。 结合官方进球赔率，候选3/2/4；进球节奏有一定证据，但尾部风险不支持高星。",
+        "halfFull": "候选胜胜/平胜；依据主剧本与可能中场调整，只作低信心观察，无充分半场时序数据，不标星。",
+        "score": "候选3:1/2:0/2:1；基于上游攻防形成邻近情景，不反推方向，无精确比分优势证据，不标星。"
+      },
+      "actualScore": "5:1",
+      "halfScore": "2:0",
+      "hits": {
+        "result": true,
+        "speculative": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "speculative": [
+          "让胜"
+        ],
+        "goals": [],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周四004",
+      "time": "10-30 01:30",
+      "league": "瑞超",
+      "teams": "哈马比 vs 天狼星",
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
+      "resultPick": "推荐：胜｜博：让平",
+      "goalsPick": "3/2/4",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "2:1/3:1/2:0",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "哈马比官方对手分析指出天狼星领先优势由14分缩至6分：曾被米亚尔比从0:3逆转4:3、0:3负赫根，最近2:2埃尔夫斯堡和1:2AIK。近期防守稳定性下降支持主队主场争胜；天狼星Bjerkebo14球10助与Persson连续得分构成反证。 主胜优先；天狼星反击威胁存在但近期多次守不住领先，尚不以一般风险机械防平。客队攻击质量已进入风险与降星。 评级1星，缺口见阵容。",
+        "speculative": "天狼星仍有Bjerkebo与Persson的明确进攻威胁，其多场一球分差说明仅赢一球是合理进取边界；让平不是由比分投票得出，低于普通胜。 精准边界独立评级1星。",
+        "goals": "哈马比官方对手分析指出天狼星领先优势由14分缩至6分：曾被米亚尔比从0:3逆转4:3、0:3负赫根，最近2:2埃尔夫斯堡和1:2AIK。近期防守稳定性下降支持主队主场争胜；天狼星Bjerkebo14球10助与Persson连续得分构成反证。 结合官方进球赔率，候选3/2/4；进球节奏有一定证据，但尾部风险不支持高星。",
+        "halfFull": "候选胜胜/平胜；依据主剧本与可能中场调整，只作低信心观察，无充分半场时序数据，不标星。",
+        "score": "候选2:1/3:1/2:0；基于上游攻防形成邻近情景，不反推方向，无精确比分优势证据，不标星。"
+      },
+      "actualScore": "2:0",
+      "halfScore": "1:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "胜"
+        ],
+        "speculative": [],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [
+          "胜胜"
+        ],
+        "score": [
+          "2:0"
+        ]
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周四005",
+      "time": "10-30 03:45",
+      "league": "英联赛杯",
+      "teams": "埃弗顿 vs 纽卡斯尔联",
+      "recommendedPick": "让负",
+      "speculativePick": "负",
+      "resultPick": "推荐：让负｜博：负",
+      "goalsPick": "2/3/1",
+      "halfFullPick": "平平/平负",
+      "scorePick": "1:1/1:2/0:1",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "纽卡上轮客场2:0水晶宫，教练强调夺回球权后更积极并改善控球结构，杯赛明确派最强可用阵容；这一具体近期表现支持客队不败，不能仅因杯赛就押冷门。埃弗顿主场有盘面优势，未取得完整主队赛前攻防资料。 主-1让负覆盖平/客胜；保留平因为埃弗顿主场盘面更强与客队两名球员存疑，不能用单挑客胜冒充保险。 评级1星，缺口见阵容。",
+        "speculative": "客队前场抢回球权后的进攻改善支持从不败收窄到客胜；主场市场反向和客队伤疑限制为轻度倾向。 精准边界独立评级0星。",
+        "goals": "纽卡上轮客场2:0水晶宫，教练强调夺回球权后更积极并改善控球结构，杯赛明确派最强可用阵容；这一具体近期表现支持客队不败，不能仅因杯赛就押冷门。埃弗顿主场有盘面优势，未取得完整主队赛前攻防资料。 结合官方进球赔率，候选2/3/1；双方阵容/节奏证据不完整，不标星。",
+        "halfFull": "候选平平/平负；依据主剧本与可能中场调整，只作低信心观察，无充分半场时序数据，不标星。",
+        "score": "候选1:1/1:2/0:1；基于上游攻防形成邻近情景，不反推方向，无精确比分优势证据，不标星。"
+      },
+      "actualScore": "3:1",
+      "halfScore": "2:0",
+      "hits": {
+        "result": false,
+        "speculative": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [],
+        "speculative": [],
+        "goals": [],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周四006",
+      "time": "10-30 03:45",
+      "league": "意甲",
+      "teams": "佛罗伦萨 vs 亚特兰大",
+      "recommendedPick": "胜/平",
+      "speculativePick": "胜",
+      "resultPick": "推荐：胜/平｜博：胜",
+      "goalsPick": "3/4/2",
+      "halfFullPick": "平胜/平平",
+      "scorePick": "2:1/2:2/3:1",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "佛罗伦萨上轮仅1:2负国米，不能按败绩直接降档；亚特兰大上轮4:4显示De Ketelaere、Krstović、Éderson持续创造，但后防空间和多名防守球员缺阵给主队进攻机会。两边后防问题决定主胜必须防平。 主胜在前、平局保险：客队Krstović等攻击骨架可用且上轮创造持续，主队Pongracic受伤；因此核心若采用必须保留胜/平全部子票。 评级1星，缺口见阵容。",
+        "speculative": "客队多位置防守缺员比主队单处已确认损失更广，主场攻破替代防线有依据；博普通胜是主胜/平中更窄主情景，不升为净胜球盘。 精准边界独立评级1星。",
+        "goals": "佛罗伦萨上轮仅1:2负国米，不能按败绩直接降档；亚特兰大上轮4:4显示De Ketelaere、Krstović、Éderson持续创造，但后防空间和多名防守球员缺阵给主队进攻机会。两边后防问题决定主胜必须防平。 结合官方进球赔率，候选3/4/2；进球节奏有一定证据，但尾部风险不支持高星。",
+        "halfFull": "候选平胜/平平；依据主剧本与可能中场调整，只作低信心观察，无充分半场时序数据，不标星。",
+        "score": "候选2:1/2:2/3:1；基于上游攻防形成邻近情景，不反推方向，无精确比分优势证据，不标星。"
+      },
+      "actualScore": "2:2",
+      "halfScore": "0:1",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": false,
+        "score": true
+      },
+      "hitLabels": {
+        "result": [
+          "平"
+        ],
+        "speculative": [],
+        "goals": [
+          "4"
+        ],
+        "halfFull": [],
+        "score": [
+          "2:2"
+        ]
+      },
+      "settlementStatus": "赛果已核验"
+    },
+    {
+      "number": "周四007",
+      "time": "10-30 08:30",
+      "league": "巴甲",
+      "teams": "格雷米奥 vs 巴拉纳竞技",
+      "recommendedPick": "让胜",
+      "speculativePick": "平",
+      "resultPick": "推荐：让胜｜博：平",
+      "goalsPick": "2/1/3",
+      "halfFullPick": "平平/平胜",
+      "scorePick": "1:1/1:0/2:1",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "格雷米奥定位球已进12球，巴竞技32轮定位球丢17球/总38球，是主队不败的具体对位；但客队近9个联赛客场只输1场，主队刚以1:0科里蒂巴结束7场不胜，不能升格稳胜。 主+1让胜覆盖格雷米奥胜/平，已有定位球克制、客队前锋伤疑证据；不再重复普通双选，保留客队9战仅1负的反证。 评级1星，缺口见阵容。",
+        "speculative": "主队定位球优势与客队客场韧性互相制约，平局为主+1让胜覆盖内的精准结果，不用保级战意单独证明。 精准边界独立评级1星。",
+        "goals": "格雷米奥定位球已进12球，巴竞技32轮定位球丢17球/总38球，是主队不败的具体对位；但客队近9个联赛客场只输1场，主队刚以1:0科里蒂巴结束7场不胜，不能升格稳胜。 结合官方进球赔率，候选2/1/3；双方阵容/节奏证据不完整，不标星。",
+        "halfFull": "候选平平/平胜；依据主剧本与可能中场调整，只作低信心观察，无充分半场时序数据，不标星。",
+        "score": "候选1:1/1:0/2:1；基于上游攻防形成邻近情景，不反推方向，无精确比分优势证据，不标星。"
+      },
+      "actualScore": "2:0",
+      "halfScore": "1:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": false,
+        "score": false
+      },
+      "hitLabels": {
+        "result": [
+          "让胜"
+        ],
+        "speculative": [],
+        "goals": [
+          "2"
+        ],
+        "halfFull": [],
+        "score": []
+      },
+      "settlementStatus": "赛果已核验"
+    }
+  ],
+  "statistics": {
+    "result": {
+      "hit": 6,
+      "total": 7,
+      "pending": 0
+    },
+    "speculative": {
+      "hit": 1,
+      "total": 7,
+      "pending": 0
+    },
+    "goals": {
+      "hit": 4,
+      "total": 7,
+      "pending": 0
+    },
+    "halfFull": {
+      "hit": 3,
+      "total": 7,
+      "pending": 0
+    },
+    "score": {
+      "hit": 3,
+      "total": 7,
+      "pending": 0
+    }
+  },
+  "ticketReview": [
+    {
+      "id": "2026-10-29-final-core20",
+      "date": "2026-10-29",
+      "name": "2.0版2串1",
+      "category": "core20",
+      "originalSelectionText": "周四003[胜] × 周四004[胜]",
+      "status": "命中",
+      "hit": true,
+      "cost": 2,
+      "returned": 4.03,
+      "net": 2.0300000000000002,
+      "legHits": [
+        {
+          "number": "周四003",
+          "pick": "胜",
+          "hit": true
+        },
+        {
+          "number": "周四004",
+          "pick": "胜",
+          "hit": true
+        }
+      ],
+      "hitCount": 2,
+      "totalLegs": 2,
+      "settledSubTickets": [
+        "2026-10-29-final-core20-1"
+      ],
+      "detail": "2中2；1/1子票命中；按赛前最终原票结算。"
+    },
+    {
+      "id": "2026-10-29-final-core30",
+      "date": "2026-10-29",
+      "name": "3.0版2串1",
+      "category": "core30",
+      "originalSelectionText": "周四001[负] × 周四005[主-1让负]",
+      "status": "未中",
+      "hit": false,
+      "cost": 2,
+      "returned": 0,
+      "net": -2,
+      "legHits": [
+        {
+          "number": "周四001",
+          "pick": "负",
+          "hit": true
+        },
+        {
+          "number": "周四005",
+          "pick": "让负",
+          "hit": false
+        }
+      ],
+      "hitCount": 1,
+      "totalLegs": 2,
+      "settledSubTickets": [],
+      "detail": "2中1；0/1子票命中；按赛前最终原票结算。"
+    },
+    {
+      "id": "2026-10-29-final-dream6",
+      "date": "2026-10-29",
+      "name": "6场梦想串",
+      "category": "dream6",
+      "originalSelectionText": "周四001[主+1让负] × 周四002[平] × 周四003[主-1让胜] × 周四004[主-1让平] × 周四005[负] × 周四007[平]",
+      "status": "未中",
+      "hit": false,
+      "cost": 84,
+      "returned": 0,
+      "net": -84,
+      "legHits": [
+        {
+          "number": "周四001",
+          "pick": "让负",
+          "hit": false
+        },
+        {
+          "number": "周四002",
+          "pick": "平",
+          "hit": false
+        },
+        {
+          "number": "周四003",
+          "pick": "让胜",
+          "hit": true
+        },
+        {
+          "number": "周四004",
+          "pick": "让平",
+          "hit": false
+        },
+        {
+          "number": "周四005",
+          "pick": "负",
+          "hit": false
+        },
+        {
+          "number": "周四007",
+          "pick": "平",
+          "hit": false
+        }
+      ],
+      "hitCount": 1,
+      "totalLegs": 6,
+      "settledSubTickets": [],
+      "detail": "6中1；0/42子票命中；按赛前最终原票结算。"
+    },
+    {
+      "id": "2026-10-29-final-goals4",
+      "date": "2026-10-29",
+      "name": "进球数梦想4串1",
+      "category": "goals4",
+      "originalSelectionText": "周四002[2/1/3] × 周四003[3/2/4] × 周四004[3/2/4] × 周四006[3/4/2]",
+      "status": "未中",
+      "hit": false,
+      "cost": 162,
+      "returned": 0,
+      "net": -162,
+      "legHits": [
+        {
+          "number": "周四002",
+          "pick": "2/1/3",
+          "hit": false
+        },
+        {
+          "number": "周四003",
+          "pick": "3/2/4",
+          "hit": false
+        },
+        {
+          "number": "周四004",
+          "pick": "3/2/4",
+          "hit": true
+        },
+        {
+          "number": "周四006",
+          "pick": "3/4/2",
+          "hit": true
+        }
+      ],
+      "hitCount": 2,
+      "totalLegs": 4,
+      "settledSubTickets": [],
+      "detail": "4中2；0/81子票命中；按赛前最终原票结算。"
+    }
+  ],
+  "combinations": [
+    {
+      "id": "2026-10-29-final-core20",
+      "date": "2026-10-29",
+      "name": "2.0版2串1",
+      "category": "core20",
+      "originalSelectionText": "周四003[胜] × 周四004[胜]",
+      "status": "命中",
+      "hit": true,
+      "cost": 2,
+      "returned": 4.03,
+      "net": 2.0300000000000002,
+      "legHits": [
+        {
+          "number": "周四003",
+          "pick": "胜",
+          "hit": true
+        },
+        {
+          "number": "周四004",
+          "pick": "胜",
+          "hit": true
+        }
+      ],
+      "hitCount": 2,
+      "totalLegs": 2,
+      "settledSubTickets": [
+        "2026-10-29-final-core20-1"
+      ],
+      "detail": "2中2；1/1子票命中；按赛前最终原票结算。"
+    },
+    {
+      "id": "2026-10-29-final-core30",
+      "date": "2026-10-29",
+      "name": "3.0版2串1",
+      "category": "core30",
+      "originalSelectionText": "周四001[负] × 周四005[主-1让负]",
+      "status": "未中",
+      "hit": false,
+      "cost": 2,
+      "returned": 0,
+      "net": -2,
+      "legHits": [
+        {
+          "number": "周四001",
+          "pick": "负",
+          "hit": true
+        },
+        {
+          "number": "周四005",
+          "pick": "让负",
+          "hit": false
+        }
+      ],
+      "hitCount": 1,
+      "totalLegs": 2,
+      "settledSubTickets": [],
+      "detail": "2中1；0/1子票命中；按赛前最终原票结算。"
+    },
+    {
+      "id": "2026-10-29-final-dream6",
+      "date": "2026-10-29",
+      "name": "6场梦想串",
+      "category": "dream6",
+      "originalSelectionText": "周四001[主+1让负] × 周四002[平] × 周四003[主-1让胜] × 周四004[主-1让平] × 周四005[负] × 周四007[平]",
+      "status": "未中",
+      "hit": false,
+      "cost": 84,
+      "returned": 0,
+      "net": -84,
+      "legHits": [
+        {
+          "number": "周四001",
+          "pick": "让负",
+          "hit": false
+        },
+        {
+          "number": "周四002",
+          "pick": "平",
+          "hit": false
+        },
+        {
+          "number": "周四003",
+          "pick": "让胜",
+          "hit": true
+        },
+        {
+          "number": "周四004",
+          "pick": "让平",
+          "hit": false
+        },
+        {
+          "number": "周四005",
+          "pick": "负",
+          "hit": false
+        },
+        {
+          "number": "周四007",
+          "pick": "平",
+          "hit": false
+        }
+      ],
+      "hitCount": 1,
+      "totalLegs": 6,
+      "settledSubTickets": [],
+      "detail": "6中1；0/42子票命中；按赛前最终原票结算。"
+    },
+    {
+      "id": "2026-10-29-final-goals4",
+      "date": "2026-10-29",
+      "name": "进球数梦想4串1",
+      "category": "goals4",
+      "originalSelectionText": "周四002[2/1/3] × 周四003[3/2/4] × 周四004[3/2/4] × 周四006[3/4/2]",
+      "status": "未中",
+      "hit": false,
+      "cost": 162,
+      "returned": 0,
+      "net": -162,
+      "legHits": [
+        {
+          "number": "周四002",
+          "pick": "2/1/3",
+          "hit": false
+        },
+        {
+          "number": "周四003",
+          "pick": "3/2/4",
+          "hit": false
+        },
+        {
+          "number": "周四004",
+          "pick": "3/2/4",
+          "hit": true
+        },
+        {
+          "number": "周四006",
+          "pick": "3/4/2",
+          "hit": true
+        }
+      ],
+      "hitCount": 2,
+      "totalLegs": 4,
+      "settledSubTickets": [],
+      "detail": "4中2；0/81子票命中；按赛前最终原票结算。"
+    }
+  ],
+  "tracking": [
+    {
+      "category": "core20",
+      "name": "2.0版2串1",
+      "originalSelectionText": "周四003[胜] × 周四004[胜]",
+      "status": "命中",
+      "stake": 1000,
+      "returned": 2015,
+      "net": 1015
+    },
+    {
+      "category": "core30",
+      "name": "3.0版2串1",
+      "originalSelectionText": "周四001[负] × 周四005[主-1让负]",
+      "status": "未中",
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    }
+  ],
+  "trackingRule": "仅2.0与3.0分开累计；每张按1000元折算；梦想串不登记。",
+  "sources": [
+    {
+      "name": "FotMob live scoreboard and matchDetails",
+      "checkedAt": "2026-10-30T04:31:43.226Z"
+    }
+  ]
+}
