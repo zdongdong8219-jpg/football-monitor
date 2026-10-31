@@ -16,8 +16,9 @@ export function validateReviewConsistency(projectRoot) {
     if (!scan) throw Error(`Review ${row.number}: immutable scan row missing`);
     const [home, away] = row.actualScore.split(':').map(Number);
     const ordinary = sign(home, away);
-    const handicapNumber = Number(String(scan.officialHandicap).match(/\d+/)?.[0] || 0);
-    const adjustedHome = home + (/受让/.test(scan.officialHandicap) ? handicapNumber : -handicapNumber);
+    const rawHandicap = scan.officialHandicap ?? scan.handicap ?? 0;
+    const handicapNumber = Number(String(rawHandicap).match(/\d+/)?.[0] || 0);
+    const adjustedHome = typeof rawHandicap === 'number' ? home + rawHandicap : home + (/受让/.test(rawHandicap) ? handicapNumber : -handicapNumber);
     const handicap = '让' + sign(adjustedHome, away);
     const expected = {
       result: options(scan.buy).includes(String(scan.buy).startsWith('让') ? handicap : ordinary),
