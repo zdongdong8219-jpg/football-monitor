@@ -1,13 +1,19 @@
 {
   "date": "2026-10-31",
-  "stage": "early_ready_to_publish",
+  "stage": "early_delivered_middle_late_pending",
   "earlyBatchLocked": true,
+  "earlyBatchCompleted": true,
+  "earlyMobileVerified": true,
   "finalLocked": false,
+  "mobileVerified": true,
+  "mobileVerifiedScope": "early_batch_only",
   "completed": false,
-  "mobileVerified": false,
   "todayCoreCount": 2,
   "scanAnalyzed": 6,
-  "allSaleMatches": 28,
-  "updatedAt": "2026-10-31T04:36:14.768Z",
-  "nextStage": "13:00继续中晚场分析，最早14:00第二次发布，保留早票"
+  "horizontalComparisonCount": 28,
+  "publishedAt": "2026-10-31T04:37:26.311Z",
+  "onlineVerifiedAt": "2026-10-31T04:38:53.257Z",
+  "nextRun": "2026-10-31T13:00:00+08:00",
+  "earliestSecondPublish": "2026-10-31T14:00:00+08:00",
+  "preserveEarlyOriginal": true
 }

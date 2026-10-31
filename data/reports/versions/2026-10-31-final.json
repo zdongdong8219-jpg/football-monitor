@@ -4,7 +4,7 @@
   "rulesVersion": "2026-10-31-user-current",
   "generatedAt": "2026-10-31T04:34:10.633Z",
   "edition": "第一次发布·早场原票锁定",
-  "status": "early_locked_pending_verification",
+  "status": "early_delivered_middle_late_pending",
   "summary": "早场001—005与入票晚场024扫盘；2.0与3.0各一张。两票共用001，集中风险。其余中晚场第二批最早14:00发布。",
   "deliveryStage": "early",
   "batchFinal": true,
@@ -20,7 +20,7 @@
     }
   ],
   "finalLocked": false,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "completed": false,
   "researchComplete": false,
   "evidenceComplete": false,
@@ -1491,7 +1491,12 @@
     }
   ],
   "deliveryValidation": {
-    "mobileVerified": false
+    "earlyBatch": true,
+    "mobileVerified": true,
+    "onlineDateVerified": true,
+    "fourButtonMappingCorrect": true,
+    "nonBlackVerified": true,
+    "wholeDayComplete": false
   },
   "reviewSchedule": {
     "lastScheduledKickoff": "2026-11-01T04:00:00+08:00",
@@ -1513,12 +1518,13 @@
       "deadlineType": "kickoff_only_actual_close_unknown",
       "locked": true,
       "lockedAt": "2026-10-31T04:34:10.633Z",
-      "publishedAt": null,
+      "publishedAt": "2026-10-31T04:37:26.311Z",
       "ticketIds": [
         "2026-10-31-early-1-core20",
         "2026-10-31-early-1-core30"
       ],
-      "immutableVersion": "data/reports/versions/2026-10-31-early-original.json"
+      "immutableVersion": "data/reports/versions/2026-10-31-early-original.json",
+      "mobileVerified": true
     }
   ],
   "exposureAudit": {
@@ -1573,5 +1579,9 @@
       "actualCloseTime": null,
       "checkedAt": "2026-10-31T04:36:14.768Z"
     }
-  ]
+  ],
+  "publishedAt": "2026-10-31T04:37:26.311Z",
+  "earlyPublishedAt": "2026-10-31T04:37:26.311Z",
+  "earlyMobileVerified": true,
+  "mobileVerifiedScope": "early_batch_only"
 }
