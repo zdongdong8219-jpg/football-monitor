@@ -1,4 +1,35 @@
 {
+  "pixelChecks": [
+    {
+      "file": "2026-10-30-review-scan.png",
+      "width": 1244,
+      "height": 2714,
+      "nonBlack": true,
+      "litPixels": 9251
+    },
+    {
+      "file": "2026-10-31-final-tracking.png",
+      "width": 1244,
+      "height": 2054,
+      "nonBlack": true,
+      "litPixels": 9236
+    },
+    {
+      "file": "2026-10-30-review-tracking.png",
+      "width": 1244,
+      "height": 1784,
+      "nonBlack": true,
+      "litPixels": 9173
+    },
+    {
+      "file": "2026-10-31-final-scan.png",
+      "width": 1244,
+      "height": 4290,
+      "nonBlack": true,
+      "litPixels": 9027
+    }
+  ],
+  "allNonBlack": true,
   "mappingCorrect": true,
   "date": "2026-10-31",
   "finalLocked": false,
@@ -8,25 +39,25 @@
   "images": [
     {
       "alt": "2026-10-31 推荐扫盘",
-      "src": "http://127.0.0.1:9351/cards/2026-10-31-final-scan-preview.jpg?v=20261031-early-1",
+      "src": "http://127.0.0.1:9351/cards/2026-10-31-final-scan-preview.jpg?v=20261031-middle-late-1",
       "width": 720,
-      "height": 2101
+      "height": 2483
     },
     {
       "alt": "2026-10-31 今日跟踪",
-      "src": "http://127.0.0.1:9351/cards/2026-10-31-final-tracking-preview.jpg?v=20261031-early-1",
+      "src": "http://127.0.0.1:9351/cards/2026-10-31-final-tracking-preview.jpg?v=20261031-middle-late-1",
       "width": 720,
-      "height": 1111
+      "height": 1189
     },
     {
       "alt": "2026-10-30 复盘扫盘",
-      "src": "http://127.0.0.1:9351/cards/2026-10-30-review-scan-preview.jpg?v=20261031-early-1",
+      "src": "http://127.0.0.1:9351/cards/2026-10-30-review-scan-preview.jpg?v=20261031-middle-late-1",
       "width": 720,
       "height": 1571
     },
     {
       "alt": "2026-10-30 复盘跟踪",
-      "src": "http://127.0.0.1:9351/cards/2026-10-30-review-tracking-preview.jpg?v=20261031-early-1",
+      "src": "http://127.0.0.1:9351/cards/2026-10-30-review-tracking-preview.jpg?v=20261031-middle-late-1",
       "width": 1080,
       "height": 1549
     }
@@ -34,13 +65,13 @@
   "copies": [
     {
       "type": "image/png",
-      "size": 1875350,
-      "hash": "108,55,244,45,69,189,162,209,45,234,122,98,252,123,236,179,49,161,84,33,109,11,145,155,76,129,0,8,13,27,254,226"
+      "size": 2882174,
+      "hash": "7,251,195,121,13,6,124,142,142,129,8,77,80,177,104,105,183,138,11,122,203,221,94,55,198,237,174,91,46,193,177,230"
     },
     {
       "type": "image/png",
-      "size": 2299763,
-      "hash": "50,219,135,237,25,28,201,48,228,214,46,158,92,172,156,54,236,73,248,146,194,38,118,116,185,114,134,177,13,185,108,180"
+      "size": 2318802,
+      "hash": "50,171,63,60,195,83,203,237,115,92,43,246,94,0,247,79,66,106,187,237,198,28,3,238,161,181,73,79,22,240,122,140"
     },
     {
       "type": "image/png",
