@@ -1,24 +1,24 @@
 {
   "date": "2026-10-31",
-  "stage": "second_batch_pending_images",
+  "stage": "final_locked_mobile_verified",
   "earlyBatchLocked": true,
   "earlyBatchCompleted": true,
   "earlyMobileVerified": true,
-  "finalLocked": false,
-  "mobileVerified": false,
-  "mobileVerifiedScope": "pending_second_batch",
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "mobileVerifiedScope": "all_four_images_and_two_batches",
+  "completed": true,
   "todayCoreCount": 4,
   "scanAnalyzed": 28,
   "horizontalComparisonCount": 28,
   "publishedAt": "2026-10-31T04:37:26.311Z",
-  "onlineVerifiedAt": "2026-10-31T04:38:53.257Z",
+  "onlineVerifiedAt": "2026-10-31T07:18:41.169Z",
   "nextRun": "2026-10-31T13:00:00+08:00",
   "earliestSecondPublish": "2026-10-31T14:00:00+08:00",
   "preserveEarlyOriginal": true,
   "runStartedAt": "2026-10-31T15:05:06.3172236+08:00",
-  "lastProgressAt": "2026-10-31T07:16:48.086Z",
-  "runPhase": "middle_late_ready_to_publish",
+  "lastProgressAt": "2026-10-31T07:18:41.169Z",
+  "runPhase": "final_locked",
   "completedSteps": [
     "early_delivery",
     "network_verified",
@@ -26,8 +26,13 @@
     "middle_late_ticket_math",
     "fixed_muse_images",
     "local_four_button_verified",
-    "prepublish_selling_verified"
+    "prepublish_selling_verified",
+    "phone_v2_published",
+    "online_four_button_verified",
+    "immutable_early_verified",
+    "final_delivery"
   ],
   "networkVerifiedAt": "2026-10-31T15:05:33.5448812+08:00",
-  "withheldCount": 7
+  "withheldCount": 7,
+  "secondBatchPublishedAt": "2026-10-31T07:17:26.346Z"
 }

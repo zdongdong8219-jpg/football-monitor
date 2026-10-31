@@ -4,15 +4,15 @@
   "rulesVersion": "2026-10-31-user-current",
   "generatedAt": "2026-10-31T07:14:04.737Z",
   "edition": "第二次发布·全日扫盘与中晚场原票",
-  "status": "middle_late_pending_verification",
+  "status": "final_locked_mobile_verified",
   "summary": "28场逐场审核，其中7场证据不足明确观望；早批两票原样保留，第二批新增2.0/3.0、6场梦想拆关及进球数4串1。",
   "deliveryStage": "final",
   "batchFinal": true,
   "earlyBatchLocked": true,
   "ticketClassStatus": [],
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
   "recommendations": [
@@ -11207,8 +11207,11 @@
   ],
   "deliveryValidation": {
     "earlyBatch": true,
-    "wholeDayComplete": false,
-    "mobileVerified": false
+    "wholeDayComplete": true,
+    "mobileVerified": true,
+    "fourButtonMappingCorrect": true,
+    "nonBlackVerified": true,
+    "onlineDateVerified": true
   },
   "reviewSchedule": {
     "lastScheduledKickoff": "2026-11-01T04:00:00+08:00",
@@ -11266,14 +11269,15 @@
       ],
       "locked": true,
       "lockedAt": "2026-10-31T07:14:04.737Z",
-      "publishedAt": null,
+      "publishedAt": "2026-10-31T07:17:26.346Z",
       "ticketIds": [
         "2026-10-31-middle-late-core20",
         "2026-10-31-middle-late-core30",
         "2026-10-31-middle-late-dream6",
         "2026-10-31-middle-late-goals4"
       ],
-      "immutableEarlyPreserved": true
+      "immutableEarlyPreserved": true,
+      "mobileVerified": true
     }
   ],
   "exposureAudit": {
@@ -11449,10 +11453,10 @@
       "actualCloseTime": null
     }
   ],
-  "publishedAt": "2026-10-31T04:37:26.311Z",
+  "publishedAt": "2026-10-31T07:17:26.346Z",
   "earlyPublishedAt": "2026-10-31T04:37:26.311Z",
   "earlyMobileVerified": true,
-  "mobileVerifiedScope": "pending_second_batch",
+  "mobileVerifiedScope": "all_four_images_and_two_batches",
   "scanDecisionComplete": true,
   "analyzedCount": 28,
   "withheldNumbers": [
@@ -11482,5 +11486,7 @@
       ]
     },
     "bestMeans": "在当前可核证据与合法赔率中相对选择，非已校准最高中奖概率或正期望证明"
-  }
+  },
+  "secondBatchPublishedAt": "2026-10-31T07:17:26.346Z",
+  "onlineVerifiedAt": "2026-10-31T07:18:41.169Z"
 }
