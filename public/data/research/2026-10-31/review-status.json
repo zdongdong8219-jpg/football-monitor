@@ -1,10 +1,12 @@
 {
   "date": "2026-10-31",
-  "status": "built_pending_publish",
-  "completed": false,
-  "mobileVerified": false,
-  "updatedAt": "2026-11-01T01:31:34.467Z",
+  "status": "completed",
+  "completed": true,
+  "mobileVerified": true,
+  "updatedAt": "2026-11-01T01:40:15.424Z",
   "resultVerification": "FotMob scoreboard + matchDetails",
   "settledMatches": 28,
-  "pendingMatches": 0
+  "pendingMatches": 0,
+  "onlineVerifiedAt": "2026-11-01T01:40:15.424Z",
+  "phoneAudit": "phone-1031.mjs --online passed"
 }
