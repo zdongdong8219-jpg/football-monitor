@@ -1,0 +1,840 @@
+[
+  {
+    "n": "001",
+    "buy": "早批未交付",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "articles:0"
+    ],
+    "attack": "07:51已有赛前草案但未发布；最早早场12:00截止已错过，14:00后不回填该场方向，不用赛中信息补票。",
+    "availability": "当场双边核心可用性未完整核验",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "未核齐，不按中性放行",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "002",
+    "buy": "早批未交付",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "korea:0"
+    ],
+    "attack": "07:51草案未发布；12:00首次交付截止已错过，原草案独立保存，不转成已锁定原票。",
+    "availability": "当场双边核心可用性未完整核验",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "未核齐，不按中性放行",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "003",
+    "buy": "胜/平",
+    "spec": "胜",
+    "goals": "2/3/1",
+    "half": "平胜/平平",
+    "score": "1:0/1:1/2:1",
+    "rating": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "articles:1",
+      "articles:2",
+      "articles:3"
+    ],
+    "attack": "町田10月7场零封，定位球及相马创造支持主倾向；大阪宇佐美连续3场进球，亚战16射，不能忽略反向创造。",
+    "availability": "大阪一森停赛由东口替代；东口高球经验能限制主队传中。双方完整临场名单待核。",
+    "strength": "町田防守表现升权，但上海轮休战不能等同联赛强对抗；大阪过程改善升权，完整序列待核。",
+    "rotation": "町田上海客场中2日，大阪亚洲主场中3日；町田虽轮休仍有旅途负担，中高风险。",
+    "insurance": "保留早晨草案已识别的平局风险，改为胜/平；不入本批新票。",
+    "risk": "宇佐美进球令主胜失败；短休末段失守；东口扑救压低主队进球",
+    "specReason": "博胜是胜/平内的收窄，无精确净胜球证据，不再博让平。"
+  },
+  {
+    "n": "004",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [],
+    "attack": "首尔官方403、仁川无有效当场正文，缺双边攻击、防守和替代者资料；赔率不能替代证据。",
+    "availability": "当场双边核心可用性未完整核验",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "未核齐，不按中性放行",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "005",
+    "buy": "让胜",
+    "spec": "胜",
+    "goals": "3/4/2",
+    "half": "平胜/平平",
+    "score": "2:1/2:2/1:1",
+    "rating": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "red",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "articles:4",
+      "articles:5",
+      "articles:6",
+      "articles:7",
+      "articles:8",
+      "articles:9"
+    ],
+    "attack": "珀斯两场1:2后迎来球员回归，阿德莱德周四0:2狮城暴露角球与转换防守；双方后防缺员与客队Goodwin/Burkitt威胁支持双向进球。",
+    "availability": "珀斯Freney回归、Kucharski与De Abreu训练改善；Kaltak、Shamoon等缺席。阿德莱德Vriends、Pierias等缺阵，不等于客队攻击消失。",
+    "strength": "珀斯两场败绩不能按弱旅处理，过程与回归升权；阿德莱德亚洲败绩只支持恢复风险，跨联赛强度待核。",
+    "rotation": "客队中2日并赴珀斯再新加坡，恢复压力高；珀斯休息较充分。",
+    "insurance": "主+1让胜覆盖珀斯胜平，保留客队进攻反证；不入第二批中晚场票。",
+    "risk": "客队边路打穿缺员后防；珀斯压上被反击；回归球员体能不足",
+    "specReason": "博普通胜严格落在主+1让胜内。"
+  },
+  {
+    "n": "006",
+    "buy": "胜",
+    "spec": "无",
+    "goals": "3/2/4",
+    "half": "平胜/胜胜",
+    "score": "2:1/1:0/3:1",
+    "rating": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "red",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "middle-articles:0",
+      "middle-articles:1",
+      "middle-articles:2",
+      "middle-articles:3",
+      "middle-articles:4"
+    ],
+    "attack": "兹沃勒4:1逆转前进之鹰、客场乌德勒支1:1且创造后手机会，支持主场进攻；海牙对海伦芬失3球但Thomas梅开二度，主队后防并非无风险。",
+    "availability": "Floranus此前受伤、Van der Haar顶替；Namli杯赛回归45分钟，不能默认打满。海牙Pozo杯赛伤退；双方最终名单待核。",
+    "strength": "兹沃勒对乌德勒支过程升权；杯赛负低级别TOP Oss降权。海牙对海伦芬两度追赶说明攻击尚存；杯赛对业余队1:1不作为强度加分。",
+    "rotation": "双方周中杯赛；海牙踢120分钟但轮换10人，不能夸大全主力疲劳；兹沃勒亦有轮换，中等风险。",
+    "insurance": "主场进攻与客方防区失误支持单胜作为进取判断；Thomas反击和平局是明确失效路径，非低波动稳胆，不用于2.0。",
+    "risk": "Thomas转换进球；主队杯赛守角球问题复现；迟迟不进球形成平局",
+    "specReason": "没有独立精准优势，博无。"
+  },
+  {
+    "n": "007",
+    "buy": "胜",
+    "spec": "无",
+    "goals": "3/4/2",
+    "half": "胜胜/平胜",
+    "score": "2:0/3:1/2:1",
+    "rating": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "extra-articles:4",
+      "extra-articles:3",
+      "middle-articles:5",
+      "middle-articles:6",
+      "middle-articles:7"
+    ],
+    "attack": "科莫在都灵由Ramon、Paz、Baturina末段连入3球逆转，创造及替补改变有证据；威尼斯0:2国米并非全场崩盘，主帅认可纪律性。",
+    "availability": "科莫Kean官方伤情为胫骨治疗约5周，Douvikas、Paz等上轮可用；最新全名单待核。威尼斯28人名单含Akor Adams、Yeboah、Busio、Juan Jesus。",
+    "strength": "科莫客战都灵逆转升权但不能忽略80分钟前落后；威尼斯遇国米失利应按强对手降惩罚。",
+    "rotation": "科莫周二联赛、威尼斯周三联赛，双方约4至5天恢复；科莫后续欧冠可能影响用人，待核。",
+    "insurance": "普通胜保留实力方向；Kean缺席和威尼斯防守纪律限制净胜推断，不升级-1让胜。",
+    "risk": "主队缺锋影响破门；威尼斯反击先入球；欧冠前调整削弱强度",
+    "specReason": "无充分穿盘边界证据，博无。"
+  },
+  {
+    "n": "008",
+    "buy": "让胜",
+    "spec": "平",
+    "goals": "2/1/3",
+    "half": "平平/平胜",
+    "score": "1:1/1:0/0:0",
+    "rating": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "red",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "supplement-articles:4",
+      "supplement-articles:5",
+      "supplement-articles:6"
+    ],
+    "attack": "塞维利亚教练确认赫塔费主场2胜3平且直接进攻、身体压迫很强，不能按弱客场表现评估主场。塞维利亚中卫配合和旧班底进步，直接单挑主胜也不充分。",
+    "availability": "塞维利亚Kike Salas、Suazo、Agoume、Stassin重返24人名单；官网称24人但文字列出23名，名单数量不作精确依据。赫塔费完整当场伤停未齐，仍有缺口。",
+    "strength": "赫塔费主客场差异明显，主场表现升权但五个对手序列未完整核齐；塞维利亚胜奥萨苏纳有价值，杯赛低级别对手胜利降权。",
+    "rotation": "塞维利亚12天4赛、周四杯赛；教练称踢满90分钟者难再首发，60分钟者可以，4名回归者提升新鲜度，不能假设全队疲劳。",
+    "insurance": "主+1让胜覆盖赫塔费胜平；主场直接对抗与客队短休支持保险，塞维利亚复归者及防守改善构成客胜全损路径。",
+    "risk": "Stassin回归与边路进攻形成客胜；主队直传被成熟中卫化解；赫塔费未核伤停改变对位",
+    "specReason": "博平是主+1让胜内的精准收窄，双方各有支撑且主队主场3平；仅梦想用途，不冒充保证。"
+  },
+  {
+    "n": "009",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "middle-articles:8",
+      "middle-articles:10",
+      "hammarby-clean:0"
+    ],
+    "attack": "马尔默Jansson等伤缺确认，但对Elfsborg0:0、Halmstad3:0体现近期防守回稳；客队官方特别警惕Olsen扑救、Gregersen可能复出和Christiansen回归。哈马比刚2:0胜Sirius，但当场自身名单与机会分布不足，维持观望而非追客1.45。",
+    "availability": "马尔默Sjöstrand、Busuladzic、Jansson、Noah John缺席；Gregersen脚踝待评估，Olsen可用证据来自近期比赛。哈马比核心当场名单待核。",
+    "strength": "马尔默3:0Halmstad为保级对手，应降权；对Elfsborg0:0和Olsen表现升权。不能只看七名排名。",
+    "rotation": "哈马比周四Sirius到周日短休；完整旅行与名单待核。",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "010",
+    "buy": "负/平",
+    "spec": "负",
+    "goals": "3/4/2",
+    "half": "平负/平平",
+    "score": "1:2/2:2/1:1",
+    "rating": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "red",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "middle-articles:12",
+      "middle-articles:13",
+      "articles:12",
+      "articles:13"
+    ],
+    "attack": "特温特刚胜AZ，进攻层次支持客倾向；精英高强度逼抢、Yegoian与Sliti创造，以及对Ajax和NEC的2:2构成防平依据。",
+    "availability": "特温特Lemkin、Unnerstall、Thorvaldsen、Bruns缺席，Weidmann停赛由Van den Belt替代；精英上轮阵容可核，最终伤停未齐。",
+    "strength": "特温特胜AZ升权；精英胜MVV是弱对手结果不高估，客战Fortuna仅补时失球且有单刀，不能按排名轻视。",
+    "rotation": "特温特本轮至欧战再联赛连续三赛，门将及后卫替代磨合；精英周三杯赛，中等偏高风险。",
+    "insurance": "必须保留平局，不能把客1.40赔率当稳胜；梦想票单负属于收窄进取且单独提示。",
+    "risk": "替代门将防线被逼抢击穿；精英单刀转化；客队无法连续压制形成平局",
+    "specReason": "博负只收窄客不败，不新增主胜。"
+  },
+  {
+    "n": "011",
+    "buy": "负/平",
+    "spec": "负",
+    "goals": "4/3/5",
+    "half": "平负/平平",
+    "score": "1:2/2:2/2:3",
+    "rating": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "red",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "middle-articles:14",
+      "middle-articles:15"
+    ],
+    "attack": "莫尔德近两轮11球、Breivik10球10助，夏窗攻击补强；布兰Eriksen与Holm上轮都有进球，两队高控球与前压造成转换空间。",
+    "availability": "布兰门将Dyngeland及Mathisen、Soltvedt、Sørensen近期伤情，多名长期伤员；莫尔德Stenevik伤缺。具体首发稍后公布。",
+    "strength": "布兰虽欧战杯赛前进，联赛负利勒斯特罗姆应纳入；莫尔德11球对手强度未完整校正，不据此单挑大胜。",
+    "rotation": "布兰密集多线，本轮主场省旅行但恢复仍有压力；莫尔德完整周负荷待核，中高波动。",
+    "insurance": "布兰本季曾在莫尔德客场取胜且仍有攻击力，负/平保留保险，不进核心。",
+    "risk": "布兰主场反压迫成功；莫尔德强数据含弱对手放大；两队对攻偶发事件",
+    "specReason": "博负收窄负/平，不能当核心保险。"
+  },
+  {
+    "n": "012",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "middle-articles:16",
+      "extra-articles:4"
+    ],
+    "attack": "弗洛西诺内26人名单可核，都灵上轮80分钟后连失3球；缺主队近期对手强度及本场都灵替代者资料，暂不定胜负。",
+    "availability": "当场双边核心可用性未完整核验",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "未核齐，不按中性放行",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "013",
+    "buy": "胜",
+    "spec": "无",
+    "goals": "3/2/4",
+    "half": "胜胜/平胜",
+    "score": "2:0/2:1/3:1",
+    "rating": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "red",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "articles:15",
+      "articles:16",
+      "articles:14",
+      "articles:17"
+    ],
+    "attack": "卡利亚里教练确认拉齐奥精力、阵容深度与身体对抗强；客队传中防守站位及盯人出现问题，三赛两客影响防守注意力。那不勒斯官方数据提及拉齐奥已有12名不同进球者，进攻来源分散。",
+    "availability": "Winks刚恢复合练并入选，Maldini有轻微炎症、Fadera待医疗评估，Fazzini可能首发；拉齐奥完整伤停未齐，不标高星。",
+    "strength": "卡利亚里近期遇尤文和罗马，不把败绩全部归咎弱；教练具体防区失误和恢复负担仍支持主胜。",
+    "rotation": "客队一周三赛双客并可能调整，教练明确中场替补不厚；主队恢复与轮换全貌待核，中等风险。",
+    "insurance": "普通胜只要求赢球，保留客队Winks回归和Nzola支点威胁，不升级穿盘；主胜是相对判断，存在平局全损风险。",
+    "risk": "Winks改善出球破解压迫；拉齐奥轮换致效率下降；客队支点或定位球先入球",
+    "specReason": "穿盘缺充分分差依据，博无。"
+  },
+  {
+    "n": "014",
+    "buy": "负/平",
+    "spec": "负",
+    "goals": "2/3/1",
+    "half": "平负/平平",
+    "score": "1:2/1:1/0:1",
+    "rating": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "union-articles:0",
+      "union-articles:1",
+      "union-articles:2"
+    ],
+    "attack": "科隆杯赛5:0同一对手，El Mala、Maina及替补进攻体现对位；联合前半小时也有高压机会，回主场应恢复紧凑，不能机械重演5:0。",
+    "availability": "联合Uduokhai、Skov、Ilic、Nsoki本场缺席，影响后防及支点；杯赛Raab替Ronn ow属门将轮换，不能直接把5失球归本场门将。科隆最终完整名单未齐。",
+    "strength": "联合此前对Elversberg、BVB、奥格斯堡取5分有实际抵抗；科隆杯赛前对法兰克福和沙尔克连续不进球。杯赛大胜不能吞掉联赛反证。",
+    "rotation": "双方周二杯赛到周日5天恢复，联合换3个首发而非全替补；主客转换和调整增加本场不确定性。",
+    "insurance": "客方对位与联合缺员支持负，但科隆此前连续哑火及联合回主场要求保留平局；不入核心单负。",
+    "risk": "联合主场高压制造先入球；科隆联赛终结再次低迷；复赛战术调整令杯赛对位失效",
+    "specReason": "博负收窄负/平，不追加客队净胜边界。"
+  },
+  {
+    "n": "015",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "groningen-clean:2",
+      "groningen-clean:3"
+    ],
+    "attack": "格罗宁根周四主场0:2负Emmen，教练明确传球不准、创造不足并失误丢球；斯巴达当场攻击与名单仍缺，观望，不由1.60主胜放行。",
+    "availability": "Groningen缺后卫Van der Laan、Mercera和前锋Metu，Hernes杯赛伤退待医院检查、预计缺席；斯巴达待核。",
+    "strength": "负次级别Emmen需降权，不能把主场控球等同高质量创造；双方完整联赛对手序列不足。",
+    "rotation": "周四杯赛至周日中2日，教练要求同时身体和心理恢复，风险明确；不视作已恢复。",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "016",
+    "buy": "让胜",
+    "spec": "平",
+    "goals": "2/3/1",
+    "half": "平平/平胜",
+    "score": "1:1/2:1/1:0",
+    "rating": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "extra-articles:0"
+    ],
+    "attack": "利物浦近阶段取胜势头与安菲尔德支持抗衡，但密集赛程及右路缺员使单胜不够稳；阿森纳Saka尚未复出、Madueke待评估，翼侧终结存在缺口。",
+    "availability": "利物浦Munoz、Szoboszlai可能回归但未确认；Frimpong、Bradley、Ekitike、Leoni伤缺。阿森纳Rice、Calafiori、Tzolis训练可用；Dowman停赛。",
+    "strength": "双方杯赛均1:1后点球晋级，不能算90分钟胜或强进攻证据；阿森纳对低级别Fleetwood应降权，利物浦对Chelsea对抗更强但轮换多。",
+    "rotation": "利物浦28天9赛中第7场，杯赛轮换7人；阿森纳周二杯赛多一天恢复，主队风险中高。",
+    "insurance": "主+1让胜实际覆盖主胜或平，只接受这一保险；阿森纳强中场与利物浦边后卫缺阵意味着客胜仍会全损。",
+    "risk": "Rice回归控制中场；阿森纳打穿替代边路；主队连续赛程体能下滑",
+    "specReason": "博平是主+1让胜内的窄场景，无半场时序优势，不标星。"
+  },
+  {
+    "n": "017",
+    "buy": "胜/平",
+    "spec": "胜",
+    "goals": "3/2/4",
+    "half": "平胜/平平",
+    "score": "2:1/1:1/2:2",
+    "rating": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "red",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "supplement-articles:0",
+      "supplement-articles:1",
+      "supplement-articles:2",
+      "supplement-articles:3"
+    ],
+    "attack": "法兰克福杯赛客场3:1汉堡，传中与替补Ebnoutalib终结支持主倾向；汉堡前半场和末段仍创造单刀与近距离机会，比分不能代表全程压制。",
+    "availability": "汉堡Capaldo、Remberg、Vieira、Nadir、Poulsen伤缺，Vuskovic尚无资格；Bornauw待定，Torunarigha回归。法兰克福完整名单缺口。",
+    "strength": "直接杯赛对位应参考机会而非只看3:1；法兰克福联赛开局2胜2平3负，不能靠一场杯赛消除防守问题；汉堡十月3胜有恢复迹象。",
+    "rotation": "双方周二杯赛后5天恢复；法兰克福已轮换并有新鲜替补，汉堡阵容受限但后卫回归；中等风险。",
+    "insurance": "汉堡未把创造转化且后卫回归，主队单胜有实质平局反证，胜/平，不入核心单胜。",
+    "risk": "汉堡机会转化恢复；Torunarigha提升防守；法兰克福联赛问题复现",
+    "specReason": "博胜只收窄胜/平，不因为3:1强行博穿盘。"
+  },
+  {
+    "n": "018",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "remaining-articles:0",
+      "remaining-articles:1",
+      "remaining-articles:2",
+      "middle-articles:19",
+      "middle-articles:20"
+    ],
+    "attack": "莱切Geubbels伤缺，名单无Ilic、Berisha、Coulibaly、Pierotti；攻击和中场创造受影响。热那亚Ellertsson恢复、周内训练无新增问题，但缺足够当前攻击过程，不只凭客队赔率给方向。",
+    "availability": "莱切Geubbels右内收肌低度损伤；N’Dri单练后入名单，不能继续列为确定缺席。Genoa Ellertsson恢复，其余长期伤员未具名，不能猜测全员健康。",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "莱切周四赴Frosinone赛后回程，到周日短休；Genoa本场为8天第3场并客场旅行，双边恢复风险。",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "019",
+    "buy": "胜/平",
+    "spec": "胜",
+    "goals": "2/1/3",
+    "half": "平胜/平平",
+    "score": "1:0/1:1/2:1",
+    "rating": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "red",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "middle-articles:24",
+      "middle-articles:25",
+      "middle-articles:26",
+      "extra-articles:1",
+      "extra-articles:2"
+    ],
+    "attack": "埃尔切对塞尔塔、比利亚雷亚尔连续0:0后客场3:0巴列卡诺，防守与内线控球改善；巴伦西亚主帅亦认可主队自动化与边路速度，但客队中段防守已有改善。",
+    "availability": "巴伦西亚Foulquier、Sadiq回归，Copete、Otorbi、门将Van Oevelen缺席；上轮Dimitrievski出场，不能把Van Oevelen缺阵夸大为无人守门。埃尔切完整伤停待核。",
+    "strength": "埃尔切对黄潜零封升权，杯赛击败Pinatar不当强队能力证明；巴伦西亚对黄潜失利与毕巴0:0不能只按低排名轻视。",
+    "rotation": "埃尔切周二杯赛后约5天恢复；巴伦西亚本周负荷和最终名单未全部齐，德比情绪增加波动。",
+    "insurance": "主队防守支持不败，但客方Sadiq回归及低中位调整要求保留平局，拒绝核心单胜。",
+    "risk": "客队回归锋线打破零封；德比红牌；主队主场进球不足导致0:0",
+    "specReason": "博胜收窄胜/平，只用于梦想进取腿。"
+  },
+  {
+    "n": "020",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [],
+    "attack": "维塞乌与里奥阿维现有页面主要票务与非一队新闻，双方本场攻击和替代者缺口，观望。",
+    "availability": "当场双边核心可用性未完整核验",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "未核齐，不按中性放行",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "021",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "articles:17"
+    ],
+    "attack": "尤文场均仅被射正2.7次，但近4场仅1胜；那不勒斯10名不同进球者、De Bruyne4球，双方强弱与本场阵容尚不足以单押方向。",
+    "availability": "当场双边核心可用性未完整核验",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "未核齐，不按中性放行",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "022",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "homepages:43"
+    ],
+    "attack": "马赛近期4:3勒阿弗尔只说明该场高波动，图卢兹当前攻防/名单缺口；官方统计页面正文缺失，不机械套大球。",
+    "availability": "当场双边核心可用性未完整核验",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "未核齐，不按中性放行",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "023",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "middle-articles:30"
+    ],
+    "attack": "皇家社会2:1莱万特创造多但被反击追平，不能等同客战毕巴强度；毕巴官网403，当场双边名单与德比节奏待核。",
+    "availability": "当场双边核心可用性未完整核验",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "未核齐，不按中性放行",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "024",
+    "buy": "观望",
+    "spec": "无",
+    "goals": "—",
+    "half": "—",
+    "score": "—",
+    "rating": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "colors": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "middle-articles:33"
+    ],
+    "attack": "米内罗周四负克鲁塞罗、Vitão送医，本场巴西杯半决赛首回合，不能错用联赛赛制；格雷米奥当场阵容与攻击缺口，暂不下注方向。",
+    "availability": "当场双边核心可用性未完整核验",
+    "strength": "缺少完整对手序列，待核；不按排名替代",
+    "rotation": "未核齐，不按中性放行",
+    "insurance": "证据不足或早场已错过交付，禁止由赔率自动生成保险",
+    "risk": "未核实阵容造成方向偏误；对手强度失真；赛程或赛制误判",
+    "specReason": "不生成无依据博法"
+  },
+  {
+    "n": "025",
+    "buy": "负/平",
+    "spec": "负",
+    "goals": "3/4/2",
+    "half": "平负/平平",
+    "score": "1:2/2:2/1:1",
+    "rating": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "colors": [
+      "red",
+      "none",
+      "red",
+      "none",
+      "none"
+    ],
+    "refs": [
+      "articles:18",
+      "articles:19"
+    ],
+    "attack": "迈阿密32场75球，Messi25球、De Paul16助，Suarez及Fillipi上轮进球；新英格兰主场强、Gil13球13助，Turner上周14次扑救，客队不能单胜作胆。",
+    "availability": "核心进攻球员有近期出场依据，双方当场全伤停/首发未齐；不得据新闻未提伤情推定全员健康。",
+    "strength": "新英格兰近9场7胜但本场对手攻击更强；迈阿密连续对纽约红牛及辛辛那提未胜，需保留平局。两官网胜场及排名描述有小冲突，不用冲突值定方向。",
+    "rotation": "双方周三出赛，迈阿密赴Foxborough；末轮前争季后赛排位，强度高、恢复中等。",
+    "insurance": "75球攻击给客方向，但主队主场和Turner扑救是实质保险依据，负/平，不进核心。",
+    "risk": "Turner高水准扑救压低客进球；Gil反击；客方后防失位导致主胜",
+    "specReason": "博负仅收窄客不败，非稳胜。"
+  }
+]
