@@ -4,13 +4,13 @@
   "rulesVersion": "2026-10-31-user-current",
   "generatedAt": "2026-11-01T06:01:05.502Z",
   "edition": "中晚批最终方案·早批未交付",
-  "status": "final_content_pending_online_verification",
+  "status": "final_locked_mobile_verified",
   "deliveryStage": "final",
   "batchFinal": true,
   "summary": "25场逐场决策：13场有方向，10场资料不足观望，001/002早批未交付不回填；中晚批四类票高风险，中晚批最终内容。",
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "researchComplete": true,
   "scanDecisionComplete": true,
   "evidenceComplete": false,
@@ -10834,7 +10834,7 @@
         "周日025"
       ],
       "locked": true,
-      "publishedAt": null,
+      "publishedAt": "2026-11-01T06:02:21.268Z",
       "ticketIds": [
         "2026-11-01-middle-late-core20",
         "2026-11-01-middle-late-core30",
@@ -10843,12 +10843,17 @@
       ],
       "earliestPublishAt": "2026-11-01T14:00:00+08:00",
       "earlyDeliveryMissed": true,
-      "lockedAt": "2026-11-01T06:01:05.421Z"
+      "lockedAt": "2026-11-01T06:01:05.421Z",
+      "mobileVerified": true
     }
   ],
   "deliveryValidation": {
-    "mobileVerified": false,
-    "wholeDayComplete": false
+    "mobileVerified": true,
+    "wholeDayComplete": true,
+    "earlyDeliveryMissed": true,
+    "onlineDateVerified": true,
+    "nonBlackVerified": true,
+    "fourButtonMappingCorrect": true
   },
   "reviewSchedule": {
     "lastScheduledKickoff": "2026-11-02T08:00:00+08:00",
@@ -11012,5 +11017,8 @@
       "oddsUnchanged": true,
       "actualCloseTime": null
     }
-  ]
+  ],
+  "publishedAt": "2026-11-01T06:02:21.268Z",
+  "onlineVerifiedAt": "2026-11-01T06:03:47.263Z",
+  "mobileVerifiedScope": "430px_browser_four_images_and_copy_mapping"
 }

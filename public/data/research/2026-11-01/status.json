@@ -1,8 +1,8 @@
 {
   "date": "2026-11-01",
   "runStartedAt": "2026-11-01T12:47:14.1400417+08:00",
-  "lastProgressAt": "2026-11-01T06:01:33.668Z",
-  "runPhase": "local_final_images_verified",
+  "lastProgressAt": "2026-11-01T06:03:47.263Z",
+  "runPhase": "final_verified_pending_metadata",
   "completedSteps": [
     "state_rules_loaded",
     "official_snapshot",
@@ -30,12 +30,16 @@
     "remote_latest_merged",
     "removed_started_fixtures_preserved_scan_only",
     "live_eligibility_and_odds_refreshed",
-    "final_local_phone_verified"
+    "final_local_phone_verified",
+    "content_pushed",
+    "content_deployed",
+    "online_four_button_verified",
+    "final_delivery"
   ],
   "taskRunId": "13-14-20261101-1245",
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "earlyDeadline": "2026-11-01T12:00:00+08:00",
   "earlyCount": 5,
   "middleCount": 8,
@@ -62,5 +66,7 @@
   "earlyDeadlineMissed": true,
   "earliestPublicationAt": "2026-11-01T14:00:00+08:00",
   "scanDirectionCount": 13,
-  "observationCount": 10
+  "observationCount": 10,
+  "publishedAt": "2026-11-01T06:02:21.268Z",
+  "onlineVerifiedAt": "2026-11-01T06:03:47.263Z"
 }
