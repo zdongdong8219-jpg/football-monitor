@@ -14,6 +14,23 @@ const readProjectFile = relativePath =>
 for (const file of ['data/state.json', 'data/latest.json', 'data/review-latest.json']) {
   JSON.parse(readProjectFile(file));
 }
+
+const latestReport = JSON.parse(readProjectFile('data/latest.json'));
+const latestReview = JSON.parse(readProjectFile('data/review-latest.json'));
+if (latestReview.completed === true && latestReview.date < latestReport.date) {
+  const reviewTracking = Array.isArray(latestReview.tracking)
+    ? latestReview.tracking.filter(ticket => ['core20', 'core30'].includes(ticket.category))
+    : [];
+  const publishedTracking = [
+    ...(latestReport.trackingHistory?.two || []),
+    ...(latestReport.trackingHistory?.three || []),
+  ];
+  for (const ticket of reviewTracking) {
+    if (!publishedTracking.some(item => item.id === ticket.id)) {
+      throw Error(`Tracking history missing settled review ticket: ${ticket.id}`);
+    }
+  }
+}
 validateReviewConsistency(projectRoot);
 validateFormalReport(projectRoot);
 validateTicketMath(projectRoot);
