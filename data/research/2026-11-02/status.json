@@ -1,5 +1,5 @@
 {
-  "runPhase": "formal_analysis_missing",
+  "runPhase": "astra_formal_report_built",
   "runStartedAt": "2026-11-02T12:46:52.6001232+08:00",
   "completedSteps": [
     "startup_status",
@@ -16,16 +16,18 @@
     "local_build_passed",
     "content_deployed",
     "online_four_button_verified",
-    "final_locked"
+    "final_locked",
+    "astra_formal_analysis_received",
+    "astra_formal_report_built"
   ],
   "taskRunId": "13-14-20261102-1245",
-  "lastProgressAt": "2026-11-02T06:54:11.015Z",
+  "lastProgressAt": "2026-11-02T07:21:04.808Z",
   "recoveryAt": "2026-11-02T13:12:12.574+08:00",
   "recoveryPhase": "middle_late_delivery",
   "retryUsed": true,
   "recoveryAttemptedButNotExecuted": true,
-  "failedPhase": "formal_astra_analysis",
-  "lastError": "应急草稿由当前线程基于赔率快照生成，不是GPT-6 Astra正式深度分析；已撤销完成标记。",
+  "failedPhase": null,
+  "lastError": null,
   "morningCompleted": true,
   "morningCompletedAt": "2026-11-01T23:49:09.708Z",
   "earlyCount": 0,
