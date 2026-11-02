@@ -1,5 +1,5 @@
 {
-  "runPhase": "astra_formal_report_built",
+  "runPhase": "final_locked",
   "runStartedAt": "2026-11-02T12:46:52.6001232+08:00",
   "completedSteps": [
     "startup_status",
@@ -18,10 +18,13 @@
     "online_four_button_verified",
     "final_locked",
     "astra_formal_analysis_received",
-    "astra_formal_report_built"
+    "astra_formal_report_built",
+    "astra_images_rendered",
+    "pages_deployed",
+    "mobile_mapping_verified"
   ],
   "taskRunId": "13-14-20261102-1245",
-  "lastProgressAt": "2026-11-02T07:21:04.808Z",
+  "lastProgressAt": "2026-11-02T07:35:09.773Z",
   "recoveryAt": "2026-11-02T13:12:12.574+08:00",
   "recoveryPhase": "middle_late_delivery",
   "retryUsed": true,
@@ -36,9 +39,9 @@
   "totalMatches": 9,
   "nextRunAt": "2026-11-02T12:45:00+08:00",
   "publicationNotBefore": "2026-11-02T14:00:00+08:00",
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "recoveredErrors": [
     {
       "phase": "remote_snapshot_decode",
@@ -46,6 +49,6 @@
       "resolution": "Same-commit raw HTTP fetch and successful JSON parsing"
     }
   ],
-  "completedAt": null,
-  "finalVerifiedAt": null
+  "completedAt": "2026-11-02T07:35:09.773Z",
+  "finalVerifiedAt": "2026-11-02T07:35:09.773Z"
 }
