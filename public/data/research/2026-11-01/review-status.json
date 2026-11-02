@@ -1,10 +1,10 @@
 {
   "date": "2026-11-01",
-  "stage": "v6-full-cell-rework",
+  "stage": "v6-publishing-awaiting-online",
   "completed": false,
   "mobileVerified": false,
-  "lastProgressAt": "2026-11-02T05:27:54.304Z",
-  "currentAction": "用户否决v5文字小框，撤销完成，制作整字段矩形v6",
+  "lastProgressAt": "2026-11-02T05:29:39.117Z",
+  "currentAction": "全新v6模拟与9项故障拦截通过，最终图已提升为canonical，正在发布并等待线上验证",
   "settledMatches": 25,
   "pendingMatches": 0,
   "auditPath": "data/research/2026-11-01/review-result-audit.json",
@@ -15,15 +15,17 @@
   "completedAt": "2026-11-02T04:53:30.499Z",
   "e2e": {
     "passed": true,
-    "path": "data/research/2026-11-01/full-flow-simulation-v5.json"
+    "path": "data/research/2026-11-01/full-flow-simulation-v6.json"
   },
   "onlineVerification": {
     "passed": true,
     "path": "data/research/2026-11-01/online-phone-verification.json"
   },
   "visualAcceptance": {
-    "passed": false,
-    "publicationAllowed": false
+    "passed": true,
+    "publicationAllowed": true,
+    "shape": "rectangle",
+    "auditPath": "data/research/2026-11-01/review-visual-rework-v6-audit.json"
   },
   "passed": true,
   "wouldComplete": true,

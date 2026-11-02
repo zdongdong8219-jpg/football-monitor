@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-01",
+  "mode": "simulation-v6",
+  "checkedAt": "2026-11-02T05:29:17.508Z",
+  "completed": true,
+  "buttons": [
+    {
+      "index": 1,
+      "title": "推荐扫盘",
+      "url": "http://127.0.0.1:9391/cards/2026-11-01-final-scan.png?v=20261102-simulation-v6",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 3620,
+        "nonblackFraction": 0.9990613508376117,
+        "pixelHash": "f0f4162a10005e711f1da97872b830dbcc0c989eb653c524b3a37d882c8f5a7a"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 2,
+      "title": "今日跟踪",
+      "url": "http://127.0.0.1:9391/cards/2026-11-01-final-tracking.png?v=20261102-simulation-v6",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 2189,
+        "nonblackFraction": 0.9773766523350456,
+        "pixelHash": "2154173fc6a0bf82c94d145fd5f52c41129ed3b4553202d87a5b3cfab77a8db4"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 3,
+      "title": "复盘扫盘",
+      "url": "http://127.0.0.1:9391/cards/2026-11-01-review-scan.png?v=20261102-simulation-v6",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 3620,
+        "nonblackFraction": 0.9990613508376117,
+        "pixelHash": "d8cee1340b2cc4fe508652ed5f038585091cbbd7671ebb03543894bede21d2f3"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 4,
+      "title": "复盘跟踪",
+      "url": "http://127.0.0.1:9391/cards/2026-11-01-review-tracking.png?v=20261102-simulation-v6",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 2189,
+        "nonblackFraction": 0.9773766523350456,
+        "pixelHash": "1329b64246844181b37c0e05e0a169e9e64e3b172f497fe6be29b6c2aadf18c0"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    }
+  ],
+  "images": [
+    {
+      "alt": "2026-11-01 推荐扫盘",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9391/cards/2026-11-01-final-scan.png?v=20261102-simulation-v6",
+      "png": {
+        "width": 1244,
+        "height": 3620,
+        "nonblackFraction": 0.9990613508376117,
+        "pixelHash": "f0f4162a10005e711f1da97872b830dbcc0c989eb653c524b3a37d882c8f5a7a"
+      },
+      "bytes": 2079419,
+      "fileHash": "2033f6e88b9eeb9bd139566ddbac39ca5f57b3f98077f398d9d6228cffe80205",
+      "matchesLocal": true
+    },
+    {
+      "alt": "2026-11-01 今日跟踪",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9391/cards/2026-11-01-final-tracking.png?v=20261102-simulation-v6",
+      "png": {
+        "width": 1244,
+        "height": 2189,
+        "nonblackFraction": 0.9773766523350456,
+        "pixelHash": "2154173fc6a0bf82c94d145fd5f52c41129ed3b4553202d87a5b3cfab77a8db4"
+      },
+      "bytes": 2340496,
+      "fileHash": "8a3b7f7edb51b8ba72d82c1582532d53d78d2be8e929ea9e9dbff1884deab555",
+      "matchesLocal": true
+    },
+    {
+      "alt": "2026-11-01 复盘扫盘",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9391/cards/2026-11-01-review-scan.png?v=20261102-simulation-v6",
+      "png": {
+        "width": 1244,
+        "height": 3620,
+        "nonblackFraction": 0.9990613508376117,
+        "pixelHash": "d8cee1340b2cc4fe508652ed5f038585091cbbd7671ebb03543894bede21d2f3"
+      },
+      "bytes": 2067535,
+      "fileHash": "40684fa31f22dc16b443ad64cb4bd25d1a3dff52933744ccffb5aa1a86136ee7",
+      "matchesLocal": true
+    },
+    {
+      "alt": "2026-11-01 复盘跟踪",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9391/cards/2026-11-01-review-tracking.png?v=20261102-simulation-v6",
+      "png": {
+        "width": 1244,
+        "height": 2189,
+        "nonblackFraction": 0.9773766523350456,
+        "pixelHash": "1329b64246844181b37c0e05e0a169e9e64e3b172f497fe6be29b6c2aadf18c0"
+      },
+      "bytes": 2350057,
+      "fileHash": "950a639f4a08c6155e8a07cb17c394729d31670afa16d4cefc0e03ccff723f3c",
+      "matchesLocal": true
+    }
+  ],
+  "page": {
+    "viewport": 430,
+    "scrollWidth": 430,
+    "dates": [
+      "2026-11-01",
+      "2026-11-01",
+      "2026-11-01",
+      "2026-11-01"
+    ],
+    "titles": [
+      "推荐扫盘",
+      "今日跟踪",
+      "复盘扫盘",
+      "复盘跟踪"
+    ]
+  }
+}
