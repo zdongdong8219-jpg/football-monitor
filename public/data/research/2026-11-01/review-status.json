@@ -1,25 +1,25 @@
 {
   "date": "2026-11-01",
-  "stage": "completed-with-three-pending-results",
-  "completed": true,
-  "mobileVerified": true,
-  "checkedAt": "2026-11-02T02:47:25.084Z",
-  "settledMatches": 22,
-  "pendingMatches": 3,
-  "resultVerification": "Google赛事卡逐场终场赛果与ESPN、联赛/俱乐部或可靠赛果摘要交叉核验；未取到可靠终场的比赛独立待定。",
-  "lastProgressAt": "2026-11-02T02:54:09.5692792Z",
-  "onlineVerification": {
-    "verifiedAt": "2026-11-02T02:54:27.4550559Z",
-    "reviewDate": "2026-11-01",
-    "reviewImagesLoaded": true,
-    "copyButtonsTested": 4,
-    "completed": true,
-    "reason": "Online phone-v2 verification succeeded for the 22-match settled portion; three fixtures remain independently unverified and are marked pending."
-  },
-  "pendingFixtures": [
-    { "number": "周日009", "teams": "马尔默 vs 哈马比", "reason": "No reliable cross-verified full-time result was obtained." },
-    { "number": "周日011", "teams": "布兰 vs 莫尔德", "reason": "No reliable cross-verified full-time result was obtained." },
-    { "number": "周日014", "teams": "柏林联合 vs 科隆", "reason": "No reliable cross-verified full-time result was obtained." }
-  ],
-  "completionScope": "The 22 independently verified final-score rows and their unaffected ticket settlement are complete. Pending fixtures remain excluded and may be incrementally settled later."
+  "stage": "publishing-audited-images",
+  "completed": false,
+  "mobileVerified": false,
+  "lastProgressAt": "2026-11-02T04:49:08.974Z",
+  "currentAction": "黄色椭圆圈32处原尺寸逐行检查通过，本地430px四个真实剪贴板PNG全部逐像素哈希对应；正在发布线上待验收版本",
+  "settledMatches": 25,
+  "pendingMatches": 0,
+  "auditPath": "data/research/2026-11-01/review-result-audit.json",
+  "nativeVisualCheck": {
+    "passed": true,
+    "rows": 25,
+    "markers": 32,
+    "shape": "ellipse",
+    "checkedAt": "2026-11-02T04:49:08.974Z",
+    "crops": [
+      "review-rows-1.png",
+      "review-rows-2.png",
+      "review-rows-3.png",
+      "review-rows-4.png",
+      "review-rows-5.png"
+    ]
+  }
 }

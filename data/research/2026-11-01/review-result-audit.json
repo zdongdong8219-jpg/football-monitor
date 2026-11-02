@@ -1,0 +1,2068 @@
+{
+  "date": "2026-11-01",
+  "stage": "results-verified",
+  "createdAt": "2026-11-02T04:07:46.079Z",
+  "policy": "Do not settle a fixture unless a source record identifies the exact match date, home team, away team, full-time and half-time. Key formal-ticket legs require two independent reliable sources.",
+  "visualAcceptance": {
+    "baseImage": "Use only the immutable locked original-ticket image as the review scan base; do not redraw it.",
+    "markerRule": "Each hit marker must be centered around the exact hit text, with a consistent size and stroke. Never circle an entire table cell.",
+    "columnScope": {
+      "recommended": "Circle only the hit text in the recommendation column.",
+      "speculative": "Circle only the hit text in the speculative column.",
+      "goals": "Circle only the specific hit goal-count number.",
+      "halfFull": "Circle only the specific hit half/full text.",
+      "score": "Circle only the specific hit score text."
+    },
+    "collisionRule": "Markers must not overlap stars, actual result text, adjacent columns, or other markers.",
+    "verification": "Before publication, inspect every marker's coordinates at original PNG resolution and correct any offset before publishing."
+  },
+  "fixtures": [
+    {
+      "number": "周日001",
+      "scheduledKickoff": "2026-11-01T13:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "日职",
+      "home": "长崎航海",
+      "away": "东京绿茵",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5803646",
+          "sourceMatchDate": "2026-11-01T05:00:00.000Z",
+          "sourceHome": "V-Varen Nagasaki",
+          "sourceAway": "Tokyo Verdy",
+          "fullTime": "1:2",
+          "halfTime": "0:1",
+          "finished": true,
+          "gender": "male",
+          "league": "J. League",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5803646.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 1,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 2,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:49.019Z"
+        }
+      ],
+      "verifiedFullTime": "1:2",
+      "verifiedHalfTime": "0:1",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "1:2",
+        "halfTime": "0:1",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "V-Varen Nagasaki",
+        "away": "Tokyo Verdy"
+      }
+    },
+    {
+      "number": "周日002",
+      "scheduledKickoff": "2026-11-01T13:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "韩职",
+      "home": "蔚山现代",
+      "away": "江原FC",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=6503833",
+          "sourceMatchDate": "2026-11-01T05:00:00.000Z",
+          "sourceHome": "Ulsan HD FC",
+          "sourceAway": "Gangwon FC",
+          "fullTime": "2:1",
+          "halfTime": "0:1",
+          "finished": true,
+          "gender": "male",
+          "league": "K-League 1 Final Group A",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-6503833.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 1,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:49.069Z"
+        }
+      ],
+      "verifiedFullTime": "2:1",
+      "verifiedHalfTime": "0:1",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "2:1",
+        "halfTime": "0:1",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Ulsan HD FC",
+        "away": "Gangwon FC"
+      }
+    },
+    {
+      "number": "周日003",
+      "scheduledKickoff": "2026-11-01T15:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "日职",
+      "home": "町田泽维亚",
+      "away": "大阪钢巴",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5803642",
+          "sourceMatchDate": "2026-11-01T07:00:00.000Z",
+          "sourceHome": "Machida Zelvia",
+          "sourceAway": "Gamba Osaka",
+          "fullTime": "0:0",
+          "halfTime": "0:0",
+          "finished": true,
+          "gender": "male",
+          "league": "J. League",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5803642.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 0,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:49.525Z"
+        }
+      ],
+      "verifiedFullTime": "0:0",
+      "verifiedHalfTime": "0:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "0:0",
+        "halfTime": "0:0",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Machida Zelvia",
+        "away": "Gamba Osaka"
+      }
+    },
+    {
+      "number": "周日004",
+      "scheduledKickoff": "2026-11-01T15:30:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "韩职",
+      "home": "首尔FC",
+      "away": "仁川联",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=6503834",
+          "sourceMatchDate": "2026-11-01T07:30:00.000Z",
+          "sourceHome": "FC Seoul",
+          "sourceAway": "Incheon United",
+          "fullTime": "0:1",
+          "halfTime": "0:0",
+          "finished": true,
+          "gender": "male",
+          "league": "K-League 1 Final Group A",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-6503834.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:49.584Z"
+        }
+      ],
+      "verifiedFullTime": "0:1",
+      "verifiedHalfTime": "0:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "FC Seoul",
+        "away": "Incheon United"
+      }
+    },
+    {
+      "number": "周日005",
+      "scheduledKickoff": "2026-11-01T16:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "澳超",
+      "home": "珀斯光荣",
+      "away": "阿德莱德联",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=1000017574",
+          "sourceMatchDate": "2026-11-01T08:00:00.000Z",
+          "sourceHome": "Perth Glory",
+          "sourceAway": "Adelaide United",
+          "fullTime": "4:0",
+          "halfTime": "3:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Australian A-League Men",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-1000017574.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 3,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 4,
+            "awayScore": 0,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:49.654Z"
+        }
+      ],
+      "verifiedFullTime": "4:0",
+      "verifiedHalfTime": "3:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "4:0",
+        "halfTime": "3:0",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Perth Glory",
+        "away": "Adelaide United"
+      }
+    },
+    {
+      "number": "周日006",
+      "scheduledKickoff": "2026-11-01T19:15:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "荷甲",
+      "home": "兹沃勒",
+      "away": "海牙",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5781792",
+          "sourceMatchDate": "2026-11-01T11:15:00.000Z",
+          "sourceHome": "PEC Zwolle",
+          "sourceAway": "ADO Den Haag",
+          "fullTime": "1:0",
+          "halfTime": "1:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Eredivisie",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5781792.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 0,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:49.964Z"
+        },
+        {
+          "sourceUrl": "https://peczwolle.nl/nieuws/pec-zwolle-komt-met-reactie-tegen-ado-den-haag-en-wint",
+          "sourceMatchDate": "2026-11-01",
+          "sourceHome": "PEC Zwolle",
+          "sourceAway": "ADO Den Haag",
+          "fullTime": "1:0",
+          "halfTime": "1:0",
+          "finished": true,
+          "rawFile": "data/research/2026-11-01/audit-official-006.html",
+          "sha256": "fb5ee65e259c0d11c4ec90088d20e90b5d853b2635c749e4ce124f3f0ef8b5da",
+          "quote": "PEC Zwolle - ADO Den Haag: 1-0 (1-0)",
+          "verificationNotes": "Official full/half score line; publication datetime 2026-11-01T14:14:00+01:00.",
+          "checkedAt": "2026-11-02T04:45:56.965Z"
+        }
+      ],
+      "verifiedFullTime": "1:0",
+      "verifiedHalfTime": "1:0",
+      "auditStatus": "two-independent-sources-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "1:0",
+        "halfTime": "待核",
+        "priorSettlementStatus": "终场已核验；半场待核"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "PEC Zwolle",
+        "away": "ADO Den Haag"
+      }
+    },
+    {
+      "number": "周日007",
+      "scheduledKickoff": "2026-11-01T19:30:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "意甲",
+      "home": "科莫",
+      "away": "威尼斯",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5749733",
+          "sourceMatchDate": "2026-11-01T11:30:00.000Z",
+          "sourceHome": "Como",
+          "sourceAway": "Venezia",
+          "fullTime": "1:0",
+          "halfTime": "1:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Serie A",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5749733.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 0,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:50.162Z"
+        }
+      ],
+      "verifiedFullTime": "1:0",
+      "verifiedHalfTime": "1:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "1:0",
+        "halfTime": "待核",
+        "priorSettlementStatus": "终场已核验；半场待核"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Como",
+        "away": "Venezia"
+      }
+    },
+    {
+      "number": "周日008",
+      "scheduledKickoff": "2026-11-01T21:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "西甲",
+      "home": "赫塔费",
+      "away": "塞维利亚",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5868116",
+          "sourceMatchDate": "2026-11-01T13:00:00.000Z",
+          "sourceHome": "Getafe",
+          "sourceAway": "Sevilla",
+          "fullTime": "3:1",
+          "halfTime": "0:1",
+          "finished": true,
+          "gender": "male",
+          "league": "LaLiga",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5868116.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 1,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 3,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:50.223Z"
+        },
+        {
+          "sourceUrl": "https://www.getafecf.com/partidos/temporada-2026-2027-laliga-ea-sports-11-getafe-cf-vs-sevilla-fc-3025",
+          "sourceMatchDate": "2026-11-01",
+          "sourceHome": "Getafe",
+          "sourceAway": "Sevilla",
+          "fullTime": "3:1",
+          "halfTime": "0:1",
+          "finished": true,
+          "rawFile": "data/research/2026-11-01/audit-official-008.html",
+          "sha256": "7a315e0e6dbf2082e4220b71f229d13da26cc264b453034189619da652234745",
+          "quote": "Final del partido, Getafe 3, Sevilla 1.",
+          "verificationNotes": "Explicit half-time: Final primera parte, Getafe 0, Sevilla 1. Dated live events 2026-11-01.",
+          "checkedAt": "2026-11-02T04:45:56.965Z"
+        }
+      ],
+      "verifiedFullTime": "3:1",
+      "verifiedHalfTime": "0:1",
+      "auditStatus": "two-independent-sources-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "3:1",
+        "halfTime": "0:1",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Getafe",
+        "away": "Sevilla"
+      }
+    },
+    {
+      "number": "周日009",
+      "scheduledKickoff": "2026-11-01T21:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "瑞超",
+      "home": "马尔默",
+      "away": "哈马比",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5107649",
+          "sourceMatchDate": "2026-11-01T13:00:00.000Z",
+          "sourceHome": "Malmö FF",
+          "sourceAway": "Hammarby",
+          "fullTime": "1:2",
+          "halfTime": "1:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Swedish Allsvenskan",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5107649.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 2,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:50.837Z"
+        }
+      ],
+      "verifiedFullTime": "1:2",
+      "verifiedHalfTime": "1:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "待定",
+        "halfTime": "待定",
+        "priorSettlementStatus": "待定：未取得可交叉核验终场赛果"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Malmö FF",
+        "away": "Hammarby"
+      }
+    },
+    {
+      "number": "周日010",
+      "scheduledKickoff": "2026-11-01T21:30:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "荷甲",
+      "home": "SBV精英",
+      "away": "特温特",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [
+        {
+          "url": "https://www.espn.com/soccer/match/_/gameId/401875559/fc-twente-excelsior",
+          "outcome": "direct-access-blocked",
+          "note": "Browser connection closed; Google result excerpt is not accepted as settlement evidence."
+        }
+      ],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5781794",
+          "sourceMatchDate": "2026-11-01T13:30:00.000Z",
+          "sourceHome": "Excelsior",
+          "sourceAway": "FC Twente",
+          "fullTime": "0:9",
+          "halfTime": "0:5",
+          "finished": true,
+          "gender": "male",
+          "league": "Eredivisie",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5781794.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 5,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 9,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:51.043Z"
+        },
+        {
+          "sourceUrl": "https://fctwente.nl/nieuws/liveblog-fc-twente-op-woudestein-tegen-excelsior",
+          "sourceMatchDate": "2026-11-01",
+          "sourceHome": "Excelsior",
+          "sourceAway": "FC Twente",
+          "fullTime": "0:9",
+          "halfTime": "0:5",
+          "finished": true,
+          "rawFile": "data/research/2026-11-01/audit-official-010.html",
+          "sha256": "a2ab51c70b3eaa79af253e6119f75c9588beb35e79f169615c0c33c2c2b7de0a",
+          "quote": "01-11-2026 - Excelsior Rotterdam - FC Twente 0-9",
+          "verificationNotes": "Official liveblog: Bij rust stond het al 5-0 (away team narrative); explicit Rust 0-5. Metadata initial publication predates liveblog; visible fixture date and final result used.",
+          "checkedAt": "2026-11-02T04:45:56.965Z"
+        }
+      ],
+      "verifiedFullTime": "0:9",
+      "verifiedHalfTime": "0:5",
+      "auditStatus": "two-independent-sources-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "0:9",
+        "halfTime": "0:6",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Excelsior",
+        "away": "FC Twente"
+      }
+    },
+    {
+      "number": "周日011",
+      "scheduledKickoff": "2026-11-01T21:30:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "挪超",
+      "home": "布兰",
+      "away": "莫尔德",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5105036",
+          "sourceMatchDate": "2026-11-01T13:30:00.000Z",
+          "sourceHome": "Brann",
+          "sourceAway": "Molde",
+          "fullTime": "3:2",
+          "halfTime": "1:1",
+          "finished": true,
+          "gender": "male",
+          "league": "Eliteserien",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5105036.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 1,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 3,
+            "awayScore": 2,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:51.465Z"
+        },
+        {
+          "sourceUrl": "https://www.brann.no/nyheter/seier-mot-molde-pa-stadion",
+          "sourceMatchDate": "2026-11-01",
+          "sourceHome": "Brann",
+          "sourceAway": "Molde",
+          "fullTime": "3:2",
+          "halfTime": "1:1",
+          "finished": true,
+          "rawFile": "data/research/2026-11-01/audit-official-011.html",
+          "sha256": "66d9a1f1bad6402985e7d7c91461a1535ea829d9cfd5ef031ebeb12386b43217",
+          "quote": "Brann–Molde 3–2 (1–1)",
+          "verificationNotes": "Published 01.11.2026; explicit full/half score line.",
+          "checkedAt": "2026-11-02T04:45:56.965Z"
+        }
+      ],
+      "verifiedFullTime": "3:2",
+      "verifiedHalfTime": "1:1",
+      "auditStatus": "two-independent-sources-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "待定",
+        "halfTime": "待定",
+        "priorSettlementStatus": "待定：未取得可交叉核验终场赛果"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Brann",
+        "away": "Molde"
+      }
+    },
+    {
+      "number": "周日012",
+      "scheduledKickoff": "2026-11-01T22:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "意甲",
+      "home": "弗洛西诺内",
+      "away": "都灵",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5749734",
+          "sourceMatchDate": "2026-11-01T14:00:00.000Z",
+          "sourceHome": "Frosinone",
+          "sourceAway": "Torino",
+          "fullTime": "2:0",
+          "halfTime": "0:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Serie A",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5749734.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 0,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:51.674Z"
+        }
+      ],
+      "verifiedFullTime": "2:0",
+      "verifiedHalfTime": "0:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "2:0",
+        "halfTime": "待核",
+        "priorSettlementStatus": "终场已核验；半场待核"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Frosinone",
+        "away": "Torino"
+      }
+    },
+    {
+      "number": "周日013",
+      "scheduledKickoff": "2026-11-01T22:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "意甲",
+      "home": "拉齐奥",
+      "away": "卡利亚里",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5749736",
+          "sourceMatchDate": "2026-11-01T14:00:00.000Z",
+          "sourceHome": "Lazio",
+          "sourceAway": "Cagliari",
+          "fullTime": "2:1",
+          "halfTime": "1:1",
+          "finished": true,
+          "gender": "male",
+          "league": "Serie A",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5749736.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 1,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:51.739Z"
+        },
+        {
+          "sourceUrl": "https://www.sslazio.it/news/match-report/serie-a-enilive-or-lazio-cagliari-le-formazioni-ufficiali-aok",
+          "sourceMatchDate": "2026-11-01",
+          "sourceHome": "Lazio",
+          "sourceAway": "Cagliari",
+          "fullTime": "2:1",
+          "halfTime": "1:1",
+          "finished": true,
+          "rawFile": "data/research/2026-11-01/audit-official-013.html",
+          "sha256": "7858dd1c619d91a89d3dca7ac9fe48394c8b4d8ed91e4ea95f39c0594560dc00",
+          "quote": "LAZIO - CAGLIARI 2-1",
+          "verificationNotes": "Complete three-goal match report: 21 Nzola(C),36 Isaksen(L),83 Pinamonti(L), hence HT1:1; explicit Domenica 1 novembre 2026 ore15:00.",
+          "checkedAt": "2026-11-02T04:45:56.965Z"
+        }
+      ],
+      "verifiedFullTime": "2:1",
+      "verifiedHalfTime": "1:1",
+      "auditStatus": "two-independent-sources-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "2:1",
+        "halfTime": "1:1",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Lazio",
+        "away": "Cagliari"
+      }
+    },
+    {
+      "number": "周日014",
+      "scheduledKickoff": "2026-11-01T22:30:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "德甲",
+      "home": "柏林联合",
+      "away": "科隆",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5881213",
+          "sourceMatchDate": "2026-11-01T14:30:00.000Z",
+          "sourceHome": "Union Berlin",
+          "sourceAway": "1. FC Köln",
+          "fullTime": "1:1",
+          "halfTime": "1:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Bundesliga",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5881213.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:51.798Z"
+        }
+      ],
+      "verifiedFullTime": "1:1",
+      "verifiedHalfTime": "1:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "待定",
+        "halfTime": "待定",
+        "priorSettlementStatus": "待定：未取得可交叉核验终场赛果"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Union Berlin",
+        "away": "1. FC Köln"
+      }
+    },
+    {
+      "number": "周日015",
+      "scheduledKickoff": "2026-11-01T23:45:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "荷甲",
+      "home": "格罗宁根",
+      "away": "鹿特丹斯巴达",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5781789",
+          "sourceMatchDate": "2026-11-01T15:45:00.000Z",
+          "sourceHome": "FC Groningen",
+          "sourceAway": "Sparta Rotterdam",
+          "fullTime": "2:3",
+          "halfTime": "2:2",
+          "finished": true,
+          "gender": "male",
+          "league": "Eredivisie",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5781789.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 2,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 3,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:52.028Z"
+        }
+      ],
+      "verifiedFullTime": "2:3",
+      "verifiedHalfTime": "2:2",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "2:3",
+        "halfTime": "1:2",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "FC Groningen",
+        "away": "Sparta Rotterdam"
+      }
+    },
+    {
+      "number": "周日016",
+      "scheduledKickoff": "2026-11-02T00:30:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "英超",
+      "home": "利物浦",
+      "away": "阿森纳",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5795501",
+          "sourceMatchDate": "2026-11-01T16:30:00.000Z",
+          "sourceHome": "Liverpool",
+          "sourceAway": "Arsenal",
+          "fullTime": "0:1",
+          "halfTime": "0:1",
+          "finished": true,
+          "gender": "male",
+          "league": "Premier League",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5795501.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 1,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:52.346Z"
+        }
+      ],
+      "verifiedFullTime": "0:1",
+      "verifiedHalfTime": "0:1",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "0:1",
+        "halfTime": "0:1",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Liverpool",
+        "away": "Arsenal"
+      }
+    },
+    {
+      "number": "周日017",
+      "scheduledKickoff": "2026-11-02T00:30:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "德甲",
+      "home": "法兰克福",
+      "away": "汉堡",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5881210",
+          "sourceMatchDate": "2026-11-01T16:30:00.000Z",
+          "sourceHome": "Eintracht Frankfurt",
+          "sourceAway": "Hamburger SV",
+          "fullTime": "3:1",
+          "halfTime": "1:1",
+          "finished": true,
+          "gender": "male",
+          "league": "Bundesliga",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5881210.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 1,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 3,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:52.561Z"
+        }
+      ],
+      "verifiedFullTime": "3:1",
+      "verifiedHalfTime": "1:1",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "3:1",
+        "halfTime": "待核",
+        "priorSettlementStatus": "终场已核验；半场待核"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Eintracht Frankfurt",
+        "away": "Hamburger SV"
+      }
+    },
+    {
+      "number": "周日018",
+      "scheduledKickoff": "2026-11-02T01:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "意甲",
+      "home": "莱切",
+      "away": "热那亚",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5749737",
+          "sourceMatchDate": "2026-11-01T17:00:00.000Z",
+          "sourceHome": "Lecce",
+          "sourceAway": "Genoa",
+          "fullTime": "1:2",
+          "halfTime": "1:2",
+          "finished": true,
+          "gender": "male",
+          "league": "Serie A",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5749737.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 2,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 2,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:52.775Z"
+        }
+      ],
+      "verifiedFullTime": "1:2",
+      "verifiedHalfTime": "1:2",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "1:2",
+        "halfTime": "待核",
+        "priorSettlementStatus": "终场已核验；半场待核"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Lecce",
+        "away": "Genoa"
+      }
+    },
+    {
+      "number": "周日019",
+      "scheduledKickoff": "2026-11-02T01:30:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "西甲",
+      "home": "埃尔切",
+      "away": "巴伦西亚",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5868114",
+          "sourceMatchDate": "2026-11-01T17:30:00.000Z",
+          "sourceHome": "Elche",
+          "sourceAway": "Valencia",
+          "fullTime": "0:1",
+          "halfTime": "0:0",
+          "finished": true,
+          "gender": "male",
+          "league": "LaLiga",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5868114.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:52.885Z"
+        },
+        {
+          "sourceUrl": "https://www.elchecf.es/partidos/temporada-2026-2027-laliga-ea-sports-11-elche-cf-vs-valencia-cf-3024",
+          "sourceMatchDate": "2026-11-01",
+          "sourceHome": "Elche",
+          "sourceAway": "Valencia",
+          "fullTime": "0:1",
+          "halfTime": "0:0",
+          "finished": true,
+          "rawFile": "data/research/2026-11-01/audit-official-019.html",
+          "sha256": "f37c9f6d46a7de6ef60f5ff60db36abdf99ba5a226a558318bd0dc321e482ecc",
+          "quote": "Final del partido, Elche 0, Valencia 1.",
+          "verificationNotes": "Explicit half-time: Final primera parte, Elche 0, Valencia 0. Dated live events 2026-11-01.",
+          "checkedAt": "2026-11-02T04:45:56.965Z"
+        }
+      ],
+      "verifiedFullTime": "0:1",
+      "verifiedHalfTime": "0:0",
+      "auditStatus": "two-independent-sources-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "0:1",
+        "halfTime": "0:0",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Elche",
+        "away": "Valencia"
+      }
+    },
+    {
+      "number": "周日020",
+      "scheduledKickoff": "2026-11-02T02:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "葡超",
+      "home": "维塞乌",
+      "away": "里奥阿维",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5887663",
+          "sourceMatchDate": "2026-11-01T18:00:00.000Z",
+          "sourceHome": "Académico Viseu",
+          "sourceAway": "Rio Ave",
+          "fullTime": "2:1",
+          "halfTime": "0:1",
+          "finished": true,
+          "gender": "male",
+          "league": "Liga Portugal",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5887663.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 1,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:53.117Z"
+        }
+      ],
+      "verifiedFullTime": "2:1",
+      "verifiedHalfTime": "0:1",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "2:1",
+        "halfTime": "0:1",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Académico Viseu",
+        "away": "Rio Ave"
+      }
+    },
+    {
+      "number": "周日021",
+      "scheduledKickoff": "2026-11-02T03:45:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "意甲",
+      "home": "尤文图斯",
+      "away": "那不勒斯",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5749735",
+          "sourceMatchDate": "2026-11-01T19:45:00.000Z",
+          "sourceHome": "Juventus",
+          "sourceAway": "Napoli",
+          "fullTime": "2:0",
+          "halfTime": "0:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Serie A",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5749735.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 0,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:53.398Z"
+        }
+      ],
+      "verifiedFullTime": "2:0",
+      "verifiedHalfTime": "0:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "2:0",
+        "halfTime": "待核",
+        "priorSettlementStatus": "终场已核验；半场待核"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Juventus",
+        "away": "Napoli"
+      }
+    },
+    {
+      "number": "周日022",
+      "scheduledKickoff": "2026-11-02T03:45:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "法甲",
+      "home": "马赛",
+      "away": "图卢兹",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5802977",
+          "sourceMatchDate": "2026-11-01T19:45:00.000Z",
+          "sourceHome": "Marseille",
+          "sourceAway": "Toulouse",
+          "fullTime": "2:0",
+          "halfTime": "2:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Ligue 1",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5802977.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 0,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:53.677Z"
+        }
+      ],
+      "verifiedFullTime": "2:0",
+      "verifiedHalfTime": "2:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "2:0",
+        "halfTime": "待核",
+        "priorSettlementStatus": "终场已核验；半场待核"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Marseille",
+        "away": "Toulouse"
+      }
+    },
+    {
+      "number": "周日023",
+      "scheduledKickoff": "2026-11-02T04:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "西甲",
+      "home": "毕尔巴鄂竞技",
+      "away": "皇家社会",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5868111",
+          "sourceMatchDate": "2026-11-01T20:00:00.000Z",
+          "sourceHome": "Athletic Club",
+          "sourceAway": "Real Sociedad",
+          "fullTime": "2:1",
+          "halfTime": "2:1",
+          "finished": true,
+          "gender": "male",
+          "league": "LaLiga",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5868111.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 1,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 1,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:53.941Z"
+        }
+      ],
+      "verifiedFullTime": "2:1",
+      "verifiedHalfTime": "2:1",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "2:1",
+        "halfTime": "2:1",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Athletic Club",
+        "away": "Real Sociedad"
+      }
+    },
+    {
+      "number": "周日024",
+      "scheduledKickoff": "2026-11-02T05:30:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "巴西杯",
+      "home": "格雷米奥",
+      "away": "米内罗竞技",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=1000019468",
+          "sourceMatchDate": "2026-11-01T21:30:00.000Z",
+          "sourceHome": "Grêmio",
+          "sourceAway": "Atlético-MG",
+          "fullTime": "2:0",
+          "halfTime": "1:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Copa do Brazil",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-1000019468.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 2,
+            "awayScore": 0,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:54.196Z"
+        }
+      ],
+      "verifiedFullTime": "2:0",
+      "verifiedHalfTime": "1:0",
+      "auditStatus": "primary-source-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "2:0",
+        "halfTime": "1:0",
+        "priorSettlementStatus": "终场/半场已核验"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "Grêmio",
+        "away": "Atlético-MG"
+      }
+    },
+    {
+      "number": "周日025",
+      "scheduledKickoff": "2026-11-02T08:00:00+08:00",
+      "saleDate": "2026-11-01",
+      "league": "美职",
+      "home": "新英格兰革命",
+      "away": "迈阿密国际",
+      "requiredEvidence": [
+        "sourceUrl",
+        "sourceMatchDate",
+        "sourceHome",
+        "sourceAway",
+        "fullTime",
+        "halfTime"
+      ],
+      "sourceAttempts": [],
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5071483",
+          "sourceMatchDate": "2026-11-02T00:00:00.000Z",
+          "sourceHome": "New England Revolution",
+          "sourceAway": "Inter Miami CF",
+          "fullTime": "1:2",
+          "halfTime": "0:0",
+          "finished": true,
+          "gender": "male",
+          "league": "Major League Soccer",
+          "scheduledDeltaMinutes": 0,
+          "rawFile": "data/research/2026-11-01/audit-detail-5071483.json",
+          "htEvent": {
+            "reactKey": "undefined45HalfNaNundefinedundefined",
+            "timeStr": 45,
+            "type": "Half",
+            "time": 45,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 0,
+            "awayScore": 0,
+            "halfStrShort": "HT",
+            "halfStrKey": "halftime_short"
+          },
+          "ftEvent": {
+            "reactKey": "undefined90HalfNaNundefinedundefined",
+            "timeStr": 90,
+            "type": "Half",
+            "time": 90,
+            "overloadTime": null,
+            "player": {
+              "id": null,
+              "profileUrl": ""
+            },
+            "homeScore": 1,
+            "awayScore": 2,
+            "halfStrShort": "FT",
+            "halfStrKey": "fulltime_short"
+          },
+          "checkedAt": "2026-11-02T04:36:54.405Z"
+        },
+        {
+          "sourceUrl": "https://www.intermiamicf.com/news/match-recap-inter-miami-cf-secures-1-2-comeback-victory-on-the-road-over-new-england-revolution",
+          "sourceMatchDate": "2026-11-01T19:00:00-05:00",
+          "sourceHome": "New England Revolution",
+          "sourceAway": "Inter Miami CF",
+          "fullTime": "1:2",
+          "halfTime": "0:0",
+          "finished": true,
+          "rawFile": "data/research/2026-11-01/audit-official-025.html",
+          "sha256": "96bb29c68b0625a626442707747b7a4e94bd82abcaa3216477ed5b2d437eb8b1",
+          "quote": "The 1-2 scoreline then held through the final whistle",
+          "verificationNotes": "Explicit scoreless half. Recap publication 2026-11-02T03:14:16.07Z. Recap weekday Saturday is inconsistent; linked official preview explicitly Sunday Nov1 7pm ET, matching original kickoff. Preview and lineup raw HTML retained.",
+          "checkedAt": "2026-11-02T04:45:56.965Z",
+          "dateCorroborationUrl": "https://www.intermiamicf.com/news/match-preview-inter-miami-cf-visits-the-new-england-revolution-on-sunday",
+          "dateCorroborationFile": "data/research/2026-11-01/audit-miami-preview.html"
+        }
+      ],
+      "verifiedFullTime": "1:2",
+      "verifiedHalfTime": "0:0",
+      "auditStatus": "two-independent-sources-verified",
+      "settlementAllowed": true,
+      "withdrawnCandidate": {
+        "fullTime": "1:2",
+        "halfTime": "待核",
+        "priorSettlementStatus": "终场已核验；半场待核"
+      },
+      "rejectionReason": null,
+      "aliases": {
+        "home": "New England Revolution",
+        "away": "Inter Miami CF"
+      }
+    }
+  ],
+  "errorList": [
+    {
+      "severity": "critical",
+      "issue": "All previously settled scores have been withdrawn from settlement use because their per-match source URL/date/home/away/full-time/half-time records were absent."
+    },
+    {
+      "severity": "critical",
+      "fixture": "周日010",
+      "issue": "The prior 0:9 value is not accepted for settlement. An exact ESPN URL was identified, but direct access was blocked and the prior Google excerpt is not admissible evidence."
+    },
+    {
+      "severity": "critical",
+      "issue": "Existing review scan and tracking images were produced from withdrawn candidates and must not be reused or republished."
+    }
+  ],
+  "updatedAt": "2026-11-02T04:45:56.965Z"
+}
