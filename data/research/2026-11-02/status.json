@@ -1,0 +1,43 @@
+{
+  "runPhase": "manual_recovery_report_built",
+  "runStartedAt": "2026-11-02T12:46:52.6001232+08:00",
+  "completedSteps": [
+    "startup_status",
+    "latest_fixed_rules",
+    "automation_configuration_verified",
+    "official_snapshot_saved",
+    "remote_snapshot_saved",
+    "schedule_crosscheck",
+    "grouping_saved",
+    "morning_no_early_complete",
+    "handoff_saved",
+    "manual_recovery_analysis",
+    "report_built"
+  ],
+  "taskRunId": "13-14-20261102-1245",
+  "lastProgressAt": "2026-11-02T06:49:14.343Z",
+  "recoveryAt": "2026-11-02T13:12:12.574+08:00",
+  "recoveryPhase": "middle_late_delivery",
+  "retryUsed": true,
+  "recoveryAttemptedButNotExecuted": true,
+  "failedPhase": null,
+  "lastError": null,
+  "morningCompleted": true,
+  "morningCompletedAt": "2026-11-01T23:49:09.708Z",
+  "earlyCount": 0,
+  "middleCount": 0,
+  "lateCount": 9,
+  "totalMatches": 9,
+  "nextRunAt": "2026-11-02T12:45:00+08:00",
+  "publicationNotBefore": "2026-11-02T14:00:00+08:00",
+  "finalLocked": false,
+  "mobileVerified": false,
+  "completed": false,
+  "recoveredErrors": [
+    {
+      "phase": "remote_snapshot_decode",
+      "resolvedAt": "2026-11-01T23:49:09.708Z",
+      "resolution": "Same-commit raw HTTP fetch and successful JSON parsing"
+    }
+  ]
+}
