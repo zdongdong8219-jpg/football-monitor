@@ -17,6 +17,14 @@ for (const file of ['data/state.json', 'data/latest.json', 'data/review-latest.j
 
 const latestReport = JSON.parse(readProjectFile('data/latest.json'));
 const latestReview = JSON.parse(readProjectFile('data/review-latest.json'));
+if (latestReport.finalLocked === true) {
+  const starProjects = ['direction', 'speculative', 'goals', 'halfFull', 'score'];
+  for (const project of starProjects) {
+    if (!(latestReport.scanTable || []).some(row => Number(row.projectStars?.[project]) > 0)) {
+      throw Error(`Final scan has no starred ${project} selection`);
+    }
+  }
+}
 if (latestReview.completed === true && latestReview.date < latestReport.date) {
   const reviewTracking = Array.isArray(latestReview.tracking)
     ? latestReview.tracking.filter(ticket => ['core20', 'core30'].includes(ticket.category))

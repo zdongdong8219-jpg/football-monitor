@@ -6739,14 +6739,14 @@
       "confidenceStars": 0,
       "projectStars": {
         "direction": 0,
-        "speculative": 0,
+        "speculative": 1,
         "goals": 0,
         "halfFull": 0,
         "score": 0
       },
       "projectStarColors": {
         "direction": "none",
-        "speculative": "none",
+        "speculative": "white",
         "goals": "none",
         "halfFull": "none",
         "score": "none"
@@ -6880,17 +6880,17 @@
       "stars": 0,
       "confidenceStars": 0,
       "projectStars": {
-        "direction": 0,
-        "speculative": 0,
+        "direction": 2,
+        "speculative": 1,
         "goals": 0,
-        "halfFull": 0,
+        "halfFull": 1,
         "score": 0
       },
       "projectStarColors": {
-        "direction": "none",
-        "speculative": "none",
+        "direction": "red",
+        "speculative": "white",
         "goals": "none",
-        "halfFull": "none",
+        "halfFull": "white",
         "score": "none"
       },
       "projectStarAudit": {
@@ -6954,18 +6954,18 @@
       "stars": 0,
       "confidenceStars": 0,
       "projectStars": {
-        "direction": 0,
-        "speculative": 0,
-        "goals": 0,
-        "halfFull": 0,
-        "score": 0
+        "direction": 3,
+        "speculative": 2,
+        "goals": 2,
+        "halfFull": 2,
+        "score": 1
       },
       "projectStarColors": {
-        "direction": "none",
-        "speculative": "none",
-        "goals": "none",
-        "halfFull": "none",
-        "score": "none"
+        "direction": "red",
+        "speculative": "red",
+        "goals": "red",
+        "halfFull": "red",
+        "score": "red"
       },
       "projectStarAudit": {
         "direction": "已判断：普通胜与让胜近期同向缩短，普通胜保留一球赢法，因此优先核心普通胜。 但资料仅有赔率，缺独立攻防及阵容验证，0星。",
@@ -7029,15 +7029,15 @@
       "confidenceStars": 0,
       "projectStars": {
         "direction": 0,
-        "speculative": 0,
-        "goals": 0,
+        "speculative": 1,
+        "goals": 1,
         "halfFull": 0,
         "score": 0
       },
       "projectStarColors": {
         "direction": "none",
-        "speculative": "none",
-        "goals": "none",
+        "speculative": "white",
+        "goals": "white",
         "halfFull": "none",
         "score": "none"
       },
@@ -7172,15 +7172,15 @@
       "confidenceStars": 0,
       "projectStars": {
         "direction": 0,
-        "speculative": 0,
-        "goals": 0,
+        "speculative": 1,
+        "goals": 1,
         "halfFull": 0,
         "score": 0
       },
       "projectStarColors": {
         "direction": "none",
-        "speculative": "none",
-        "goals": "none",
+        "speculative": "white",
+        "goals": "white",
         "halfFull": "none",
         "score": "none"
       },
@@ -7244,18 +7244,18 @@
       "stars": 0,
       "confidenceStars": 0,
       "projectStars": {
-        "direction": 0,
-        "speculative": 0,
-        "goals": 0,
-        "halfFull": 0,
-        "score": 0
+        "direction": 1,
+        "speculative": 2,
+        "goals": 2,
+        "halfFull": 2,
+        "score": 2
       },
       "projectStarColors": {
-        "direction": "none",
-        "speculative": "none",
-        "goals": "none",
-        "halfFull": "none",
-        "score": "none"
+        "direction": "white",
+        "speculative": "red",
+        "goals": "red",
+        "halfFull": "red",
+        "score": "red"
       },
       "projectStarAudit": {
         "direction": "已判断：扫盘普通胜仅是预测，HAD不可出票；博主-2让胜要求至少净胜三球，作为梦想进取边界。 但资料仅有赔率，缺独立攻防及阵容验证，0星。",
@@ -7317,14 +7317,14 @@
       "stars": 0,
       "confidenceStars": 0,
       "projectStars": {
-        "direction": 0,
+        "direction": 1,
         "speculative": 0,
         "goals": 0,
         "halfFull": 0,
         "score": 0
       },
       "projectStarColors": {
-        "direction": "none",
+        "direction": "white",
         "speculative": "none",
         "goals": "none",
         "halfFull": "none",
@@ -8475,5 +8475,10 @@
   ],
   "publishedAt": "2026-11-02T07:35:09.773Z",
   "onlineVerifiedAt": "2026-11-02T07:35:09.773Z",
-  "mobileVerifiedScope": "Pages部署成功；本地430px四张非黑图与四个不同PNG复制映射通过；线上数据日期与Astra版次通过"
+  "mobileVerifiedScope": "Pages部署成功；本地430px四张非黑图与四个不同PNG复制映射通过；线上数据日期与Astra版次通过",
+  "starReview": {
+    "policy": "核心腿/梦想腿/进球梦想腿及相容场景分项目标星；红星为更看好，白星为次一级；不改原方向。",
+    "restoredAt": "2026-11-02T07:55:16.178Z",
+    "source": "Astra coreLegRanking and locked ticket selections"
+  }
 }
