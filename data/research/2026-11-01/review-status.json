@@ -1,10 +1,10 @@
 {
   "date": "2026-11-01",
-  "stage": "v5-publishing-awaiting-online",
-  "completed": false,
-  "mobileVerified": false,
-  "lastProgressAt": "2026-11-02T05:20:23.149Z",
-  "currentAction": "全新v5模拟与9项故障拦截通过，最终图已提升为canonical，正在发布并等待线上验证",
+  "stage": "completed-v5-rectangle-standard",
+  "completed": true,
+  "mobileVerified": true,
+  "lastProgressAt": "2026-11-02T05:22:37.866Z",
+  "currentAction": "v5标准矩形复盘已发布，线上430px四按钮真实剪贴板和新图哈希全部通过",
   "settledMatches": 25,
   "pendingMatches": 0,
   "auditPath": "data/research/2026-11-01/review-result-audit.json",
@@ -18,8 +18,8 @@
     "path": "data/research/2026-11-01/full-flow-simulation-v5.json"
   },
   "onlineVerification": {
-    "passed": false,
-    "reason": "Previous images rejected; new local drafts not published"
+    "passed": true,
+    "path": "data/research/2026-11-01/online-phone-verification.json"
   },
   "visualAcceptance": {
     "passed": true,
@@ -38,5 +38,13 @@
   "wouldComplete": false,
   "invalidatedAt": "2026-11-02T05:09:34.066Z",
   "invalidationReason": "v2视觉批准已撤销：用户要求正圆，完整模拟暂停",
-  "publicationAllowed": false
+  "publicationAllowed": false,
+  "verifiedAt": "2026-11-02T05:22:37.866Z",
+  "acceptance": {
+    "passed": true,
+    "simulation": "data/research/2026-11-01/full-flow-simulation-v5.json",
+    "visual": "data/research/2026-11-01/review-visual-rework-v5-audit.json",
+    "online": "data/research/2026-11-01/online-phone-verification.json",
+    "cacheVersion": "20261102-final-v5"
+  }
 }
