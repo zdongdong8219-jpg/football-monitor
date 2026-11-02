@@ -3,14 +3,14 @@
   "saleDate": "2026-11-02",
   "rulesVersion": "2026-10-31-user-current",
   "generatedAt": "2026-11-02T06:49:14.343Z",
-  "edition": "final-recovery",
-  "status": "final",
+  "edition": "应急草稿·非Astra正式分析",
+  "status": "emergency_draft_not_formal",
   "deliveryStage": "final",
   "batchFinal": true,
   "summary": "2026-11-02晚场9场赛前赛事分析",
-  "finalLocked": true,
-  "mobileVerified": true,
-  "completed": true,
+  "finalLocked": false,
+  "mobileVerified": false,
+  "completed": false,
   "researchComplete": false,
   "scanDecisionComplete": true,
   "evidenceComplete": false,
@@ -8078,7 +8078,8 @@
   "limitations": [
     "仅供赛事信息分析",
     "临场阵容未完全确认",
-    "不自动下注"
+    "不自动下注",
+    "本版仅基于已保存赔率快照恢复，不是GPT-6 Astra中等推理完成的正式深度分析，不得视作最终原票。"
   ],
   "ticketClassStatus": [
     {
@@ -8312,6 +8313,6 @@
     }
   ],
   "publishedAt": "2026-11-02T06:52:50.956Z",
-  "onlineVerifiedAt": "2026-11-02T06:52:50.956Z",
-  "mobileVerifiedScope": "430px browser four distinct PNG clipboard mappings"
+  "onlineVerifiedAt": null,
+  "mobileVerifiedScope": null
 }
