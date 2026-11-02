@@ -2,8 +2,8 @@
   "date": "2026-11-01",
   "title": "FT足球竞彩模型 · 2026-11-01最终复盘",
   "stage": "final",
-  "completed": false,
-  "mobileVerified": false,
+  "completed": true,
+  "mobileVerified": true,
   "reviewedAt": "2026-11-02T04:45:56.965Z",
   "summary": "25场终场和半场已核验；推荐10/25，博4/25，进球数8/25，半全场6/25，比分4/25。分母为全日场数；观望与未交付无命中，不等同预测错误。",
   "verification": "25场FotMob精确球队与开球时间匹配；7个正式票涉及比赛均有俱乐部官方第二来源。",
@@ -2087,5 +2087,12 @@
     "data/reports/2026-11-01.json": "d11721e52d19534853eafe2bf835f359f20c244f12ef57da3809433f64e91f94",
     "public/cards/2026-11-01-final-scan.png": "2033f6e88b9eeb9bd139566ddbac39ca5f57b3f98077f398d9d6228cffe80205",
     "public/cards/2026-11-01-final-tracking.png": "8a3b7f7edb51b8ba72d82c1582532d53d78d2be8e929ea9e9dbff1884deab555"
+  },
+  "verifiedAt": "2026-11-02T04:53:30.499Z",
+  "acceptance": {
+    "e2ePath": "data/research/2026-11-01/review-e2e-check.json",
+    "checksPassed": 13,
+    "onlineVerification": "data/research/2026-11-01/online-phone-verification.json",
+    "immutableBaseUnchangedOutsideOverlays": true
   }
 }

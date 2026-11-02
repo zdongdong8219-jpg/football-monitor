@@ -1,10 +1,10 @@
 {
   "date": "2026-11-01",
-  "stage": "publishing-audited-images",
-  "completed": false,
-  "mobileVerified": false,
-  "lastProgressAt": "2026-11-02T04:49:08.974Z",
-  "currentAction": "黄色椭圆圈32处原尺寸逐行检查通过，本地430px四个真实剪贴板PNG全部逐像素哈希对应；正在发布线上待验收版本",
+  "stage": "completed",
+  "completed": true,
+  "mobileVerified": true,
+  "lastProgressAt": "2026-11-02T04:53:30.499Z",
+  "currentAction": "已完成25场核验、原票叠加、手机四按钮真实剪贴板验证与13项E2E干跑；提交完成状态",
   "settledMatches": 25,
   "pendingMatches": 0,
   "auditPath": "data/research/2026-11-01/review-result-audit.json",
@@ -21,5 +21,15 @@
       "review-rows-4.png",
       "review-rows-5.png"
     ]
+  },
+  "completedAt": "2026-11-02T04:53:30.499Z",
+  "e2e": {
+    "passed": true,
+    "path": "data/research/2026-11-01/review-e2e-check.json",
+    "checks": 13
+  },
+  "onlineVerification": {
+    "passed": true,
+    "path": "data/research/2026-11-01/online-phone-verification.json"
   }
 }

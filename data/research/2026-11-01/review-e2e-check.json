@@ -1,0 +1,332 @@
+{
+  "date": "2026-11-01",
+  "mode": "dry-run",
+  "entryPoint": "scripts/review-trigger.mjs",
+  "checkedAt": "2026-11-02T04:52:59.868Z",
+  "snapshot": {
+    "date": "2026-11-01",
+    "originalReportSha256": "d11721e52d19534853eafe2bf835f359f20c244f12ef57da3809433f64e91f94",
+    "resultAuditSha256": "c0fad2e0400b7cebf27611dff54dbcf8c89de19d0e3d7feb1efc7f88922871b7",
+    "reviewSha256": "cae40f253e9567bda0cf342993f93d7e5f56432e969b11cd8a0a959f89aba61e",
+    "scanSha256": "252b1cc74f5454b916cf1679b0502a93ff05aa03cafee33cf41409ef27cf3153",
+    "trackingSha256": "7934d8d879ca98d5a0958937644ff7b4b3c4b3dc62b5f92182cfdff747448bc1"
+  },
+  "checks": [
+    {
+      "name": "trigger_and_schedule",
+      "status": "pass",
+      "evidence": {
+        "target": "2026-11-01",
+        "cwd": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-06\\new-chat\\football-monitor",
+        "reviewAt": "2026-11-02T10:25:00+08:00",
+        "beijingTime": "10:25",
+        "rruleVerified": true
+      }
+    },
+    {
+      "name": "exact_fixture_identity_and_full_time",
+      "status": "pass",
+      "evidence": {
+        "fixtures": 25,
+        "source": "FotMob raw matchDetails",
+        "audit": "data/research/2026-11-01/review-result-audit.json"
+      }
+    },
+    {
+      "name": "explicit_half_time",
+      "status": "pass",
+      "evidence": {
+        "fixtures": 25,
+        "corrections": {
+          "010": "0:5",
+          "015": "2:2"
+        }
+      }
+    },
+    {
+      "name": "formal_leg_independent_sources",
+      "status": "pass",
+      "evidence": {
+        "count": 7,
+        "numbers": [
+          "周日013",
+          "周日008",
+          "周日006",
+          "周日010",
+          "周日011",
+          "周日019",
+          "周日025"
+        ]
+      }
+    },
+    {
+      "name": "all_five_prediction_hits",
+      "status": "pass",
+      "evidence": {
+        "result": {
+          "hit": 10,
+          "total": 25,
+          "pending": 0
+        },
+        "speculative": {
+          "hit": 4,
+          "total": 25,
+          "pending": 0
+        },
+        "goals": {
+          "hit": 8,
+          "total": 25,
+          "pending": 0
+        },
+        "halfFull": {
+          "hit": 6,
+          "total": 25,
+          "pending": 0
+        },
+        "score": {
+          "hit": 4,
+          "total": 25,
+          "pending": 0
+        }
+      }
+    },
+    {
+      "name": "four_ticket_settlements",
+      "status": "pass",
+      "evidence": [
+        {
+          "category": "core20",
+          "hitCount": 2,
+          "totalLegs": 2,
+          "winningSubTickets": 1,
+          "returned": 3.87,
+          "net": 1.87
+        },
+        {
+          "category": "core30",
+          "hitCount": 2,
+          "totalLegs": 2,
+          "winningSubTickets": 1,
+          "returned": 6.01,
+          "net": 4.01
+        },
+        {
+          "category": "dream6",
+          "hitCount": 3,
+          "totalLegs": 6,
+          "winningSubTickets": 1,
+          "returned": 7.03,
+          "net": -76.97
+        },
+        {
+          "category": "goals4",
+          "hitCount": 2,
+          "totalLegs": 4,
+          "winningSubTickets": 0,
+          "returned": 0,
+          "net": -162
+        }
+      ]
+    },
+    {
+      "name": "separate_1000_tracking_and_cumulative",
+      "status": "pass",
+      "evidence": [
+        {
+          "category": "core20",
+          "stake": 8000,
+          "returned": 11305.7,
+          "net": 3305.7,
+          "tickets": 8
+        },
+        {
+          "category": "core30",
+          "stake": 8000,
+          "returned": 9666,
+          "net": 1666,
+          "tickets": 8
+        }
+      ]
+    },
+    {
+      "name": "immutable_originals",
+      "status": "pass",
+      "evidence": {
+        "data/reports/2026-11-01.json": "d11721e52d19534853eafe2bf835f359f20c244f12ef57da3809433f64e91f94",
+        "public/cards/2026-11-01-final-scan.png": "2033f6e88b9eeb9bd139566ddbac39ca5f57b3f98077f398d9d6228cffe80205",
+        "public/cards/2026-11-01-final-tracking.png": "8a3b7f7edb51b8ba72d82c1582532d53d78d2be8e929ea9e9dbff1884deab555"
+      }
+    },
+    {
+      "name": "ellipse_coordinates_and_native_visual_inspection",
+      "status": "pass",
+      "evidence": {
+        "markers": 32,
+        "shape": "ellipse",
+        "coordinates": "data/research/2026-11-01/review-overlay-coordinates.json",
+        "nativeVisualCheck": {
+          "passed": true,
+          "rows": 25,
+          "markers": 32,
+          "shape": "ellipse",
+          "checkedAt": "2026-11-02T04:49:08.974Z",
+          "crops": [
+            "review-rows-1.png",
+            "review-rows-2.png",
+            "review-rows-3.png",
+            "review-rows-4.png",
+            "review-rows-5.png"
+          ]
+        }
+      }
+    },
+    {
+      "name": "local_mobile_images_and_real_clipboard",
+      "status": "pass",
+      "evidence": {
+        "evidence": "data/research/2026-11-01/local-phone-verification.json",
+        "dates": [
+          "2026-11-01",
+          "2026-11-01",
+          "2026-11-01",
+          "2026-11-01"
+        ],
+        "buttons": [
+          {
+            "title": "推荐扫盘",
+            "pixelHash": "f0f4162a10005e711f1da97872b830dbcc0c989eb653c524b3a37d882c8f5a7a"
+          },
+          {
+            "title": "今日跟踪",
+            "pixelHash": "2154173fc6a0bf82c94d145fd5f52c41129ed3b4553202d87a5b3cfab77a8db4"
+          },
+          {
+            "title": "复盘扫盘",
+            "pixelHash": "fb22bdc6f5f8576cece1508c2737500b3e0689c33425275bc9344d0a436c0b94"
+          },
+          {
+            "title": "复盘跟踪",
+            "pixelHash": "5d510d238e31d3bedf15e91bb0e859bd155d26c69a1a123a3543a78ade138fe9"
+          }
+        ],
+        "reviewImages": [
+          {
+            "alt": "2026-11-01 复盘扫盘",
+            "previewLoaded": true,
+            "url": "http://127.0.0.1:9391/cards/2026-11-01-review-scan.png?v=20261102-audited-review-1101",
+            "png": {
+              "width": 1244,
+              "height": 3620,
+              "nonblackFraction": 0.9991064290916842,
+              "pixelHash": "fb22bdc6f5f8576cece1508c2737500b3e0689c33425275bc9344d0a436c0b94"
+            },
+            "bytes": 2132451,
+            "fileHash": "252b1cc74f5454b916cf1679b0502a93ff05aa03cafee33cf41409ef27cf3153",
+            "matchesLocal": true
+          },
+          {
+            "alt": "2026-11-01 复盘跟踪",
+            "previewLoaded": true,
+            "url": "http://127.0.0.1:9391/cards/2026-11-01-review-tracking.png?v=20261102-audited-review-1101",
+            "png": {
+              "width": 1244,
+              "height": 1780,
+              "nonblackFraction": 1,
+              "pixelHash": "5d510d238e31d3bedf15e91bb0e859bd155d26c69a1a123a3543a78ade138fe9"
+            },
+            "bytes": 324260,
+            "fileHash": "7934d8d879ca98d5a0958937644ff7b4b3c4b3dc62b5f92182cfdff747448bc1",
+            "matchesLocal": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "online_mobile_images_and_real_clipboard",
+      "status": "pass",
+      "evidence": {
+        "evidence": "data/research/2026-11-01/online-phone-verification.json",
+        "dates": [
+          "2026-11-01",
+          "2026-11-01",
+          "2026-11-01",
+          "2026-11-01"
+        ],
+        "buttons": [
+          {
+            "title": "推荐扫盘",
+            "pixelHash": "f0f4162a10005e711f1da97872b830dbcc0c989eb653c524b3a37d882c8f5a7a"
+          },
+          {
+            "title": "今日跟踪",
+            "pixelHash": "2154173fc6a0bf82c94d145fd5f52c41129ed3b4553202d87a5b3cfab77a8db4"
+          },
+          {
+            "title": "复盘扫盘",
+            "pixelHash": "fb22bdc6f5f8576cece1508c2737500b3e0689c33425275bc9344d0a436c0b94"
+          },
+          {
+            "title": "复盘跟踪",
+            "pixelHash": "5d510d238e31d3bedf15e91bb0e859bd155d26c69a1a123a3543a78ade138fe9"
+          }
+        ],
+        "reviewImages": [
+          {
+            "alt": "2026-11-01 复盘扫盘",
+            "previewLoaded": true,
+            "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-01-review-scan.png?v=20261102-audited-review-1101",
+            "png": {
+              "width": 1244,
+              "height": 3620,
+              "nonblackFraction": 0.9991064290916842,
+              "pixelHash": "fb22bdc6f5f8576cece1508c2737500b3e0689c33425275bc9344d0a436c0b94"
+            },
+            "bytes": 2132451,
+            "fileHash": "252b1cc74f5454b916cf1679b0502a93ff05aa03cafee33cf41409ef27cf3153",
+            "matchesLocal": true
+          },
+          {
+            "alt": "2026-11-01 复盘跟踪",
+            "previewLoaded": true,
+            "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-01-review-tracking.png?v=20261102-audited-review-1101",
+            "png": {
+              "width": 1244,
+              "height": 1780,
+              "nonblackFraction": 1,
+              "pixelHash": "5d510d238e31d3bedf15e91bb0e859bd155d26c69a1a123a3543a78ade138fe9"
+            },
+            "bytes": 324260,
+            "fileHash": "7934d8d879ca98d5a0958937644ff7b4b3c4b3dc62b5f92182cfdff747448bc1",
+            "matchesLocal": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "pixel_preservation_outside_overlays",
+      "status": "pass",
+      "evidence": {
+        "changedPixels": 253920,
+        "changedOutsideAllowedOverlays": 0,
+        "first": [],
+        "pass": true
+      }
+    },
+    {
+      "name": "completion_gate",
+      "status": "pass",
+      "evidence": {
+        "completed": false,
+        "mobileVerified": false,
+        "policy": "Only allow final commit after all checks pass"
+      }
+    }
+  ],
+  "passed": true,
+  "completionAllowed": true,
+  "sideEffects": {
+    "published": false,
+    "immutableModified": false,
+    "completionFlagsModified": false
+  }
+}
