@@ -1,10 +1,10 @@
 {
   "date": "2026-11-01",
-  "stage": "completed-v5-rectangle-standard",
-  "completed": true,
-  "mobileVerified": true,
-  "lastProgressAt": "2026-11-02T05:22:37.866Z",
-  "currentAction": "v5标准矩形复盘已发布，线上430px四按钮真实剪贴板和新图哈希全部通过",
+  "stage": "v6-full-cell-rework",
+  "completed": false,
+  "mobileVerified": false,
+  "lastProgressAt": "2026-11-02T05:27:54.304Z",
+  "currentAction": "用户否决v5文字小框，撤销完成，制作整字段矩形v6",
   "settledMatches": 25,
   "pendingMatches": 0,
   "auditPath": "data/research/2026-11-01/review-result-audit.json",
@@ -22,29 +22,15 @@
     "path": "data/research/2026-11-01/online-phone-verification.json"
   },
   "visualAcceptance": {
-    "passed": true,
-    "publicationAllowed": true,
-    "shape": "rectangle",
-    "auditPath": "data/research/2026-11-01/review-visual-rework-v5-audit.json"
+    "passed": false,
+    "publicationAllowed": false
   },
-  "fullFlowSimulationRequest": {
-    "output": "data/research/2026-11-01/full-flow-simulation-v2.json",
-    "approvalRequired": true,
-    "approvalReceived": false,
-    "noPublish": true,
-    "canonicalMustRemainFalse": true
-  },
-  "passed": false,
-  "wouldComplete": false,
-  "invalidatedAt": "2026-11-02T05:09:34.066Z",
-  "invalidationReason": "v2视觉批准已撤销：用户要求正圆，完整模拟暂停",
-  "publicationAllowed": false,
+  "passed": true,
+  "wouldComplete": true,
+  "publicationAllowed": true,
   "verifiedAt": "2026-11-02T05:22:37.866Z",
   "acceptance": {
-    "passed": true,
-    "simulation": "data/research/2026-11-01/full-flow-simulation-v5.json",
-    "visual": "data/research/2026-11-01/review-visual-rework-v5-audit.json",
-    "online": "data/research/2026-11-01/online-phone-verification.json",
-    "cacheVersion": "20261102-final-v5"
+    "passed": false,
+    "reason": "v5 rejected: text-sized markers instead of full cells"
   }
 }
