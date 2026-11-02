@@ -1,5 +1,5 @@
 {
-  "runPhase": "manual_recovery_report_built",
+  "runPhase": "final_locked",
   "runStartedAt": "2026-11-02T12:46:52.6001232+08:00",
   "completedSteps": [
     "startup_status",
@@ -12,10 +12,14 @@
     "morning_no_early_complete",
     "handoff_saved",
     "manual_recovery_analysis",
-    "report_built"
+    "report_built",
+    "local_build_passed",
+    "content_deployed",
+    "online_four_button_verified",
+    "final_locked"
   ],
   "taskRunId": "13-14-20261102-1245",
-  "lastProgressAt": "2026-11-02T06:49:14.343Z",
+  "lastProgressAt": "2026-11-02T06:52:50.956Z",
   "recoveryAt": "2026-11-02T13:12:12.574+08:00",
   "recoveryPhase": "middle_late_delivery",
   "retryUsed": true,
@@ -30,14 +34,16 @@
   "totalMatches": 9,
   "nextRunAt": "2026-11-02T12:45:00+08:00",
   "publicationNotBefore": "2026-11-02T14:00:00+08:00",
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "recoveredErrors": [
     {
       "phase": "remote_snapshot_decode",
       "resolvedAt": "2026-11-01T23:49:09.708Z",
       "resolution": "Same-commit raw HTTP fetch and successful JSON parsing"
     }
-  ]
+  ],
+  "completedAt": "2026-11-02T06:52:50.956Z",
+  "finalVerifiedAt": "2026-11-02T06:52:50.956Z"
 }
