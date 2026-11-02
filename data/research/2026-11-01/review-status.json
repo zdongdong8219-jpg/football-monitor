@@ -1,10 +1,10 @@
 {
   "date": "2026-11-01",
-  "stage": "v6-publishing-awaiting-online",
-  "completed": false,
-  "mobileVerified": false,
-  "lastProgressAt": "2026-11-02T05:29:39.117Z",
-  "currentAction": "全新v6模拟与9项故障拦截通过，最终图已提升为canonical，正在发布并等待线上验证",
+  "stage": "completed-v6-rectangle-standard",
+  "completed": true,
+  "mobileVerified": true,
+  "lastProgressAt": "2026-11-02T05:31:26.165Z",
+  "currentAction": "v6标准矩形复盘已发布，线上430px四按钮真实剪贴板和新图哈希全部通过",
   "settledMatches": 25,
   "pendingMatches": 0,
   "auditPath": "data/research/2026-11-01/review-result-audit.json",
@@ -30,9 +30,12 @@
   "passed": true,
   "wouldComplete": true,
   "publicationAllowed": true,
-  "verifiedAt": "2026-11-02T05:22:37.866Z",
+  "verifiedAt": "2026-11-02T05:31:26.165Z",
   "acceptance": {
-    "passed": false,
-    "reason": "v5 rejected: text-sized markers instead of full cells"
+    "passed": true,
+    "simulation": "data/research/2026-11-01/full-flow-simulation-v6.json",
+    "visual": "data/research/2026-11-01/review-visual-rework-v6-audit.json",
+    "online": "data/research/2026-11-01/online-phone-verification.json",
+    "cacheVersion": "20261102-final-v6"
   }
 }
