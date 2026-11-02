@@ -1,10 +1,10 @@
 {
   "date": "2026-11-01",
-  "stage": "completed",
-  "completed": true,
-  "mobileVerified": true,
-  "lastProgressAt": "2026-11-02T04:53:30.499Z",
-  "currentAction": "已完成25场核验、原票叠加、手机四按钮真实剪贴板验证与13项E2E干跑；提交完成状态",
+  "stage": "visual-rework-awaiting-approval",
+  "completed": false,
+  "mobileVerified": false,
+  "lastProgressAt": "2026-11-02T04:57:06.353Z",
+  "currentAction": "用户否决当前视觉；已撤销完成状态，按11月1日不可变原票视觉返工；新图仅本地待主线程确认，禁止发布",
   "settledMatches": 25,
   "pendingMatches": 0,
   "auditPath": "data/research/2026-11-01/review-result-audit.json",
@@ -31,5 +31,10 @@
   "onlineVerification": {
     "passed": true,
     "path": "data/research/2026-11-01/online-phone-verification.json"
+  },
+  "visualAcceptance": {
+    "passed": false,
+    "reason": "User screenshot rejected previous visuals",
+    "publicationAllowed": false
   }
 }
