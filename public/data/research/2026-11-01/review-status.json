@@ -1,40 +1,42 @@
 {
   "date": "2026-11-01",
-  "stage": "visual-rework-awaiting-approval",
+  "stage": "v5-publishing-awaiting-online",
   "completed": false,
   "mobileVerified": false,
-  "lastProgressAt": "2026-11-02T04:57:06.353Z",
-  "currentAction": "用户否决当前视觉；已撤销完成状态，按11月1日不可变原票视觉返工；新图仅本地待主线程确认，禁止发布",
+  "lastProgressAt": "2026-11-02T05:20:23.149Z",
+  "currentAction": "全新v5模拟与9项故障拦截通过，最终图已提升为canonical，正在发布并等待线上验证",
   "settledMatches": 25,
   "pendingMatches": 0,
   "auditPath": "data/research/2026-11-01/review-result-audit.json",
   "nativeVisualCheck": {
-    "passed": true,
-    "rows": 25,
-    "markers": 32,
-    "shape": "ellipse",
-    "checkedAt": "2026-11-02T04:49:08.974Z",
-    "crops": [
-      "review-rows-1.png",
-      "review-rows-2.png",
-      "review-rows-3.png",
-      "review-rows-4.png",
-      "review-rows-5.png"
-    ]
+    "passed": false,
+    "supersededBy": "data/research/2026-11-01/review-visual-rework-audit.json"
   },
   "completedAt": "2026-11-02T04:53:30.499Z",
   "e2e": {
     "passed": true,
-    "path": "data/research/2026-11-01/review-e2e-check.json",
-    "checks": 13
+    "path": "data/research/2026-11-01/full-flow-simulation-v5.json"
   },
   "onlineVerification": {
-    "passed": true,
-    "path": "data/research/2026-11-01/online-phone-verification.json"
+    "passed": false,
+    "reason": "Previous images rejected; new local drafts not published"
   },
   "visualAcceptance": {
-    "passed": false,
-    "reason": "User screenshot rejected previous visuals",
-    "publicationAllowed": false
-  }
+    "passed": true,
+    "publicationAllowed": true,
+    "shape": "rectangle",
+    "auditPath": "data/research/2026-11-01/review-visual-rework-v5-audit.json"
+  },
+  "fullFlowSimulationRequest": {
+    "output": "data/research/2026-11-01/full-flow-simulation-v2.json",
+    "approvalRequired": true,
+    "approvalReceived": false,
+    "noPublish": true,
+    "canonicalMustRemainFalse": true
+  },
+  "passed": false,
+  "wouldComplete": false,
+  "invalidatedAt": "2026-11-02T05:09:34.066Z",
+  "invalidationReason": "v2视觉批准已撤销：用户要求正圆，完整模拟暂停",
+  "publicationAllowed": false
 }

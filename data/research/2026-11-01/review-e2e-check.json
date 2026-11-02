@@ -322,11 +322,13 @@
       }
     }
   ],
-  "passed": true,
-  "completionAllowed": true,
+  "passed": false,
+  "completionAllowed": false,
   "sideEffects": {
     "published": false,
     "immutableModified": false,
     "completionFlagsModified": false
-  }
+  },
+  "invalidatedAt": "2026-11-02T05:01:49.642Z",
+  "invalidationReason": "User rejected visual template; new drafts require explicit approval before E2E and publication"
 }

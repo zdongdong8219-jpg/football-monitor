@@ -57,7 +57,9 @@
         "goals": "07:51已有赛前草案但未发布；最早早场12:00截止已错过，14:00后不回填该场方向，不用赛中信息补票。 结合官方进球赔率，候选—；双方阵容/节奏证据不完整，不标星。",
         "halfFull": "候选—；依据主剧本与可能中场调整，只作低信心观察，无充分半场时序数据，不标星。",
         "score": "候选—；基于上游攻防形成邻近情景，不反推方向，无精确比分优势证据，不标星。"
-      }
+      },
+      "reviewDisplayPick": "未交付",
+      "excludedFromPredictionReview": true
     },
     {
       "number": "周日002",
@@ -108,7 +110,9 @@
         "goals": "07:51草案未发布；12:00首次交付截止已错过，原草案独立保存，不转成已锁定原票。 结合官方进球赔率，候选—；双方阵容/节奏证据不完整，不标星。",
         "halfFull": "候选—；依据主剧本与可能中场调整，只作低信心观察，无充分半场时序数据，不标星。",
         "score": "候选—；基于上游攻防形成邻近情景，不反推方向，无精确比分优势证据，不标星。"
-      }
+      },
+      "reviewDisplayPick": "未交付",
+      "excludedFromPredictionReview": true
     },
     {
       "number": "周日003",
@@ -1451,8 +1455,8 @@
       "category": "dream6",
       "sessionLabel": "中晚场混串",
       "originalSelectionText": "周日006[胜] × 周日008[平] × 周日010[负] × 周日011[负] × 周日013[胜] × 周日019[胜]",
-      "status": "命中",
-      "hit": true,
+      "status": "6中3",
+      "hit": false,
       "cost": 84,
       "returned": 7.03,
       "net": -76.97,
@@ -1500,7 +1504,9 @@
         "2026-11-01-middle-late-dream6-6"
       ],
       "totalSubTickets": 42,
-      "detail": "6场中3场；1/42子票命中；原票模拟返还7.03元，净-76.97元。"
+      "detail": "6场中3场；1/42子票命中；原票模拟返还7.03元，净-76.97元。",
+      "wholeTicketHit": false,
+      "subTicketHit": true
     },
     {
       "id": "2026-11-01-middle-late-goals4",
@@ -1509,7 +1515,7 @@
       "category": "goals4",
       "sessionLabel": "中晚场混串",
       "originalSelectionText": "周日006[3/2/4] × 周日010[3/4/2] × 周日011[4/3/5] × 周日025[3/4/2]",
-      "status": "未中",
+      "status": "4中2",
       "hit": false,
       "cost": 162,
       "returned": 0,
@@ -1544,7 +1550,9 @@
       "totalLegs": 4,
       "settledSubTickets": [],
       "totalSubTickets": 81,
-      "detail": "4场中2场；0/81子票命中；原票模拟返还0元，净-162.00元。"
+      "detail": "4场中2场；0/81子票命中；原票模拟返还0元，净-162.00元。",
+      "wholeTicketHit": false,
+      "subTicketHit": false
     }
   ],
   "combinations": [
@@ -1623,8 +1631,8 @@
       "category": "dream6",
       "sessionLabel": "中晚场混串",
       "originalSelectionText": "周日006[胜] × 周日008[平] × 周日010[负] × 周日011[负] × 周日013[胜] × 周日019[胜]",
-      "status": "命中",
-      "hit": true,
+      "status": "6中3",
+      "hit": false,
       "cost": 84,
       "returned": 7.03,
       "net": -76.97,
@@ -1672,7 +1680,9 @@
         "2026-11-01-middle-late-dream6-6"
       ],
       "totalSubTickets": 42,
-      "detail": "6场中3场；1/42子票命中；原票模拟返还7.03元，净-76.97元。"
+      "detail": "6场中3场；1/42子票命中；原票模拟返还7.03元，净-76.97元。",
+      "wholeTicketHit": false,
+      "subTicketHit": true
     },
     {
       "id": "2026-11-01-middle-late-goals4",
@@ -1681,7 +1691,7 @@
       "category": "goals4",
       "sessionLabel": "中晚场混串",
       "originalSelectionText": "周日006[3/2/4] × 周日010[3/4/2] × 周日011[4/3/5] × 周日025[3/4/2]",
-      "status": "未中",
+      "status": "4中2",
       "hit": false,
       "cost": 162,
       "returned": 0,
@@ -1716,7 +1726,9 @@
       "totalLegs": 4,
       "settledSubTickets": [],
       "totalSubTickets": 81,
-      "detail": "4场中2场；0/81子票命中；原票模拟返还0元，净-162.00元。"
+      "detail": "4场中2场；0/81子票命中；原票模拟返还0元，净-162.00元。",
+      "wholeTicketHit": false,
+      "subTicketHit": false
     }
   ],
   "tracking": [
@@ -2090,12 +2102,11 @@
   },
   "verifiedAt": "2026-11-02T04:53:30.499Z",
   "acceptance": {
-    "e2ePath": "data/research/2026-11-01/review-e2e-check.json",
-    "checksPassed": 13,
-    "onlineVerification": "data/research/2026-11-01/online-phone-verification.json",
-    "immutableBaseUnchangedOutsideOverlays": true
+    "passed": false,
+    "userApprovalRequired": true,
+    "reason": "Previous visual acceptance rejected by user; drafts awaiting confirmation"
   },
-  "lastProgressAt": "2026-11-02T04:57:06.350Z",
+  "lastProgressAt": "2026-11-02T04:57:06.345Z",
   "currentAction": "用户否决当前视觉；已撤销完成状态，按11月1日不可变原票视觉返工；新图仅本地待主线程确认，禁止发布",
   "visualAcceptance": {
     "passed": false,
