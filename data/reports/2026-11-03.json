@@ -2154,35 +2154,60 @@
       "starColor": "white"
     },
     {
-      "id": "2026-11-03-final-core30",
+      "id": "2026-11-03-core30-r1",
       "date": "2026-11-03",
       "category": "core30",
-      "name": "稳健候选B",
+      "name": "3.0版2串1",
       "sessionLabel": "中晚场",
       "legs": [
         {
-          "number": "周二002",
-          "teams": "柏太阳神 : 大田市民",
-          "kickoff": "2026-11-03T18:00:00+08:00",
-          "selection": "胜",
-          "selectionReason": "柏太阳神主场方向占优；亚足联前瞻确认柏上轮被叻丕逼平，大田此前不败被神户终结。主队优势主要来自当前市场与主场条件，不能把近期失分当作强势证明。"
+          "number": "周二003",
+          "teams": "曼谷港务 : 北京国安",
+          "kickoff": "2026-11-03T20:15:00+08:00",
+          "selection": "负",
+          "odds": 1.62,
+          "selectionReason": "亚足联明确曼谷港务亚冠三连败、北京国安处于较好晋级位置；普通客胜市场领先，方向仍偏国安。主队比赛身份由亚足联及官方赛程双重确认。"
         },
         {
-          "number": "周二007",
-          "teams": "费耶诺德 : 国际米兰",
-          "kickoff": "2026-11-04T04:00:00+08:00",
-          "selection": "负/平",
-          "selectionReason": "国米对费耶诺德的分析指出其高位进攻后边后卫身后和中场防线间隙可被利用；欧冠3场丢8球。国米技术和转换优势支持客队方向；费耶诺德荷甲11场不败、33球，且国米刚输德比，需显式保留平局。"
+          "number": "周二004",
+          "teams": "加拉塔萨 : 斯图加特",
+          "kickoff": "2026-11-04T01:45:00+08:00",
+          "selection": "胜",
+          "odds": 1.9,
+          "selectionReason": "加拉塔萨雷教练称阵容接近完整，近期进攻配合改善，客胜里尔4:2；斯图加特中路双前锋与前腰、翼卫参与进攻，同时留下转换空间。主场小幅倾向加拉塔萨雷，不能忽视客队欧冠2胜1平。"
         }
       ],
-      "selectionText": "002[胜] · 007[负/平]",
-      "oddsText": "信息组合 · 不计算联合胜率或资金收益",
-      "cardNote": "002主场相对优势、007客队方向并防平；证据强度弱于A，费耶诺德进攻不可低估。",
-      "status": "赛前情景",
-      "confidenceText": "偏低",
-      "riskLabel": "节奏/反击",
-      "stars": 0,
-      "starColor": "white"
+      "selectionText": "周二003[负] · 周二004[胜] · R1",
+      "oddsText": "R1｜整票条件倍数 3.0780（含本金）",
+      "cardNote": "11-03 16:44修订。两场全中1.62×1.90；任一未中为0。国安客场、斯图加特强攻风险；旧版留档。",
+      "status": "赛前修订情景",
+      "confidenceText": "有限",
+      "riskLabel": "客场/强攻",
+      "stars": 1,
+      "starColor": "white",
+      "revision": "R1",
+      "replaces": "2026-11-03-final-core30",
+      "revisedAt": "2026-11-03T08:46:08.470Z",
+      "starReason": "两腿原主方向有依据，但国安阵容待定、斯图加特欧冠强攻，整串一般看好",
+      "wholeTicketAudit": {
+        "legs": [
+          "003负",
+          "004胜"
+        ],
+        "odds": [
+          1.62,
+          1.9
+        ],
+        "winningBranches": [
+          {
+            "condition": "003客胜且004主胜",
+            "wholeTicketEffective": 3.078
+          }
+        ],
+        "otherOutcomesEffective": 0,
+        "formula": "全单选唯一分支：整票条件返还/整票总投入=1.62×1.90=3.0780；含本金，非净利倍数",
+        "probabilityCaveat": "赔率不代表真实胜率；阵容和客场反证保留"
+      }
     },
     {
       "id": "2026-11-03-final-dream6",
@@ -2761,8 +2786,8 @@
   "reviewScheduleVerifiedAt": "2026-11-03T05:21:08.061Z",
   "reviewAutomationId": "automation-2",
   "imageFiles": {
-    "scan": "2026-11-03-final-locked-scan.png",
-    "tracking": "2026-11-03-final-locked-tracking.png"
+    "scan": "2026-11-03-core30-r1-scan.png",
+    "tracking": "2026-11-03-core30-r1-tracking.png"
   },
   "originalImages": [
     "public/cards/2026-11-03-final-locked-scan.png",
@@ -2773,5 +2798,22 @@
   "originalImageHashes": {
     "scan": "b176cc9799cff39bfce7b3175f6029defce58a8e128de5be601c633047ed2942",
     "tracking": "7f8ad3c6a60b83823f41f63de6affe730c964e84e32b463d54cc4b89e86d6288"
+  },
+  "revision": {
+    "id": "2026-11-03-core30-r1",
+    "scope": "core30 only",
+    "replaces": "2026-11-03-final-core30",
+    "revisedAt": "2026-11-03T08:46:08.470Z",
+    "publishedAt": "2026-11-03T08:47:54.035Z",
+    "finalLocked": false,
+    "mobileVerified": false,
+    "completed": false,
+    "auditFile": "research/2026-11-03/core30-r1/math-audit.json",
+    "priorReport": "reports/versions/2026-11-03-before-core30-r1.json",
+    "priorImages": {
+      "scan": "2026-11-03-final-locked-scan.png",
+      "tracking": "2026-11-03-final-locked-tracking.png"
+    },
+    "contentCommit": "2115460f780ae69112b141cff8e5b29671ef4aa6"
   }
 }

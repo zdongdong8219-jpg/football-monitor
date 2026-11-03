@@ -1,0 +1,133 @@
+{
+  "revisionId": "2026-11-03-core30-r1",
+  "checkedAt": "2026-11-03T08:46:08.479Z",
+  "officialSnapshotAt": "2026-11-03T08:39:20.844Z",
+  "oldId": "2026-11-03-final-core30",
+  "screenshotClaim": {
+    "basis": "用户截图转述；非原始票据重新识别",
+    "total": 200,
+    "branchReturns": [
+      294.28,
+      300.78
+    ],
+    "effectiveMultiples": [
+      1.4713999999999998,
+      1.5038999999999998
+    ]
+  },
+  "oldCurrentMarket": {
+    "odds": [
+      1.31,
+      1.56,
+      4.1
+    ],
+    "equalBranchEffective": [
+      1.0218,
+      2.6854999999999998
+    ],
+    "bestPossibleMinimum": 1.48034628975265,
+    "explanation": "互斥分支返还除以整套合计；截图出票价和分配未知，当前价不冒充原票"
+  },
+  "replacement": {
+    "legs": [
+      "003负",
+      "004胜"
+    ],
+    "odds": [
+      1.62,
+      1.9
+    ],
+    "winningBranches": [
+      {
+        "condition": "003客胜且004主胜",
+        "wholeTicketEffective": 3.078
+      }
+    ],
+    "otherOutcomesEffective": 0,
+    "formula": "全单选唯一分支：整票条件返还/整票总投入=1.62×1.90=3.0780；含本金，非净利倍数",
+    "probabilityCaveat": "赔率不代表真实胜率；阵容和客场反证保留"
+  },
+  "pools": [
+    {
+      "number": "周二003",
+      "kickoff": "2026-11-03T20:15:00+08:00",
+      "status": "Selling",
+      "allUp": 1,
+      "bettingAllup": 1,
+      "closeTimeKnown": false
+    },
+    {
+      "number": "周二004",
+      "kickoff": "2026-11-04T01:45:00+08:00",
+      "status": "Selling",
+      "allUp": 1,
+      "bettingAllup": 1,
+      "closeTimeKnown": false
+    }
+  ],
+  "channelConflict": "c端allUp=1/bettingAllup=1且Selling；m端allUp=0但bettingAllup=1且Selling；list也Selling。保留接口差异，不保证实际终端出票。",
+  "shortlist": [
+    {
+      "pair": "003负×004胜",
+      "decision": "维持已分析的单选主方向；国安面对三连败对手，加拉塔萨雷近完整阵容、进攻配合及对手连续客场转换空间；客场和客队攻击反证仍强，仅一星"
+    },
+    {
+      "pair": "004胜×006胜",
+      "effective": 2.328,
+      "decision": "2.328，未达3.0，不升级让球凑倍率"
+    },
+    {
+      "pair": "008胜×006胜",
+      "effective": 2.6519999999999997,
+      "decision": "2.652，008微弱倾向且主队近况反证"
+    },
+    {
+      "pair": "008胜×003负",
+      "effective": 3.5802,
+      "decision": "3.5802，但008胜负接近且主队状态反证，证据弱于004"
+    },
+    {
+      "pair": "005/007/011双选",
+      "decision": "保留必要保险，不裁成单选迎合倍率"
+    },
+    {
+      "pair": "010负",
+      "decision": "攻防资料缺口，不凭赔率入核心"
+    },
+    {
+      "pair": "001",
+      "decision": "已开赛排除，未读取赛中赛果"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/preview-port-fc-tha-v-beijing-fc-chn",
+      "http": 200,
+      "at": "2026-11-03T08:40:31.405Z",
+      "length": 44127,
+      "text": " AFC Champions League Elite - Preview: Port FC (THA) v Beijing FC (CHN) Preview: Port FC (THA) v Beijing FC (CHN) Mon, 02 Nov, 2026 Preview: Port FC (THA) v Beijing FC (CHN) Pathum Thani: The odds looked stacked against Port FC going into their AFC Champions League Elite 2026/2027™ clash with Beijing FC on Tuesday. Thailand's Port FC are on a three-match losing run while China PR's Beijing are well placed to advance to the Round of 16. https://www.the-afc.com/en/club/afc_champions_league_elite.html/video/aclelite-preview-matchday-4 Preview: Cong An Ha Noi FC (VIE) v Kyoto Sanga FC (JPN) Mon, 02 Nov, 2026 Preview: Cong An Ha Noi FC (VIE) v Kyoto Sanga FC (JPN) Hanoi: Cong An Ha Noi FC and Kyoto Sanga FC are set for a blockbuster AFC Champions League Elite 2026/2027™ showdown on Tuesday. Both enjoyed morale-boosting victories last week and will be equally determined to continue from where they left off. Preview: Jeonbuk Hyundai Motors FC (KOR) v Johor Darul Ta’zim (MAS) Mon, 02 Nov, 2026 Preview: Jeonbuk Hyundai Motors FC (KOR) v Johor Darul Ta’zim (MAS) Jeonju: Jeonbuk Hyundai Motors FC know they will have to be on their toes against Johor Darul Ta’zim in the AFC Champions League Elite 2026/2027™ on Tuesday. Korea Republic's Jeonbuk will head into the tie having collected just one point from their last two matches while Malaysia's JDT are unbeaten three games into the season. Preview: Vissel Kobe (JPN) v Ratchaburi FC (THA) Mon, 02 Nov, 2026 Preview: Vissel Kobe (JPN) v Ratchaburi FC (THA) Kobe: Victory will be Vissel Kobe's only expectation when they host Ratchaburi FC in the AFC Champions League Elite 2026/2027™ on Tuesday. Japan's Vissel are on a run of three consecutive victories while Thailand's Ratchaburi only have a point to their name. Preview: Kashiwa Reysol (JP"
+    },
+    {
+      "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/maca-dogru-galatasaray-stuttgart/61284",
+      "http": 200,
+      "at": "2026-11-03T08:40:33.807Z",
+      "length": 1282,
+      "text": " GALATASARAY.ORG 500 HATA! ARADIĞINIZ SAYFAYA TEKNİK SORUNLARDAN DOLAYI ŞU ANDA ULAŞILAMIYOR. LÜTFEN DAHA SONRA TEKRAR DENEYİNİZ. ANASAYFAYA DÖN >> "
+    },
+    {
+      "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/teknik-direktorumuz-okan-buruk-yukariya-dogru-ilerlemek-istiyoruz/61288",
+      "http": 200,
+      "at": "2026-11-03T08:40:33.879Z",
+      "length": 38592,
+      "text": " Teknik Direkt&#246;r&#252;m&#252;z Okan Buruk: &quot;Yukarıya doğru ilerlemek istiyoruz&quot; - GALATASARAY.ORG Facebook Twitter Instagram Video Tiktok T&#252;rk&#231;e English DİL SEÇİNİZ: #AslanGibiSponsor kampanyasına HEMEN DESTEK OL --> KULLANICI ADI YA DA E-POSTA ADRESİ ŞİFRE BENİ.red_button HATIRLA ŞİFREMİ UNUTTUM E-POSTA ADRESİ GS TV GALATASARAY SK KULÜP SPOR OKULLARI SPORTİF A.Ş. FUTBOL ERKEK FUTBOL TAKIMI GALATASARAY KADIN FUTBOL TAKIMI FUTBOL AKADEMİSİ BASKETBOL GALATASARAY MCT TECHNIC GALATASARAY ÇAĞDAŞ FAKTORING BASKETBOL AKADEMİ SAĞLIK RAPORU VOLEYBOL GALATASARAY MADEŞ MOBİLYA ERKEK VOLEYBOL GALATASARAY DAIKIN KADIN VOLEYBOL BRANŞLAR OTİZM YÜZME YÜZME SUTOPU KÜREK YELKEN TS BASKETBOL ATLETİZM JUDO BİNİCİLİK BRİÇ ESPORTS TENİS SATRANÇ TESİSLER GSSTORE ÜRÜNLER MAĞAZALAR TARİHÇE TARAFTAR KİŞİSEL VERİLERİN KORUNMASI TARAFTAR DERNEKLERİ İLETİŞİM 2 Kasım 2026 Pazartesi 13:52 Teknik Direkt&#246;r&#252;m&#252;z Okan Buruk: &quot;Yukarıya doğru ilerlemek istiyoruz&quot; Galatasaray Futbol A Takımı Teknik Direkt&#246;r&#252; Okan Buruk, UEFA Şampiyonlar Ligi&#39;nde oynayacağımız Stuttgart ma&#231;ı &#246;ncesinde d&#252;zenlenen basın toplantısında medya mensuplarının sorularını yanıtladı. Hocamızın değerlendirmeleri şu şekilde: Şampiyonlar Ligi, sadece futbolcularımız için değil, bütün taraftarlarımız için de ayrı bir motivasyon kaynağı. Burada kazanmak için birçok nedenimiz var. Bireysel olarak, kulüp olarak ve taraftarlarımız açısından önemli nedenlerimiz bulunuyor. Türk futbolunun da bu tür galibiyetlere ve Şampiyonlar Ligi'nde ilerlemeye çok ihtiyacı var. Bu nedenle oyuncularımla birlikte maça en iyi şekilde hazırlandık. Arka arkaya çok fazla maç oynadığımız için oyuncularımızı biraz daha dinlendirmeye ve bir sonraki karşılaşmaya hazırlamaya çalışıyoruz. Bugün"
+    }
+  ],
+  "sourceFailure": "Gala61284本轮HTTP200内嵌500，复用13:00前成功快照；61288及AFC本轮正文成功",
+  "prepublicationPriceChange": {
+    "at": "2026-11-03T08:46:08.479Z",
+    "match": "004",
+    "from": 1.94,
+    "to": 1.9,
+    "decision": "方向与反证不变，条件倍数仍3.078；重出图"
+  }
+}
