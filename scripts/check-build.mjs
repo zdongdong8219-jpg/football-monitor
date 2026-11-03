@@ -17,7 +17,7 @@ for (const file of ['data/state.json', 'data/latest.json', 'data/review-latest.j
 
 const latestReport = JSON.parse(readProjectFile('data/latest.json'));
 const latestReview = JSON.parse(readProjectFile('data/review-latest.json'));
-if (latestReport.finalLocked === true) {
+if (latestReport.finalLocked === true && latestReport.infoOnly !== true) {
   const starProjects = ['direction', 'speculative', 'goals', 'halfFull', 'score'];
   for (const project of starProjects) {
     if (!(latestReport.scanTable || []).some(row => Number(row.projectStars?.[project]) > 0)) {
@@ -89,4 +89,5 @@ if (categoryOrder.some((position, index) =>
 )) throw Error('Recommendation priority order incorrect');
 
 console.log('Football mobile build verified');
+
 

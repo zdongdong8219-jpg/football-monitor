@@ -286,8 +286,450 @@
     "阵容尚未完全核实；不把赔率归一化值称为真实胜率"
   ],
   "trackingHistory": {
-    "two": [],
-    "three": []
+    "two": [
+      {
+        "id": "2026-10-26-final-core20",
+        "date": "2026-10-26",
+        "name": "晚场2.0版2串1",
+        "sessionLabel": "晚场",
+        "category": "core20",
+        "originalSelectionText": "周一003[胜] × 周一004[胜]",
+        "selectionText": "周一003[胜] × 周一004[胜]",
+        "status": "命中",
+        "cost": 2,
+        "returned": 3.9984,
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 1999.2,
+          "net": 999.2
+        }
+      },
+      {
+        "id": "2026-10-27-user-correction-1505-core20",
+        "date": "2026-10-27",
+        "name": "2.0版2串1",
+        "sessionLabel": "中晚场",
+        "category": "core20",
+        "originalSelectionText": "周二001[胜] × 周二010[负]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 3.683,
+        "net": 1.6829999999999998,
+        "settledSubTickets": [
+          "周二001[胜] × 周二010[负]"
+        ],
+        "detail": "周二001[胜]×周二010[负]两腿均中；整串中。原成本2元，返还3.683元，净+1.683元。",
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 1841.5,
+          "net": 841.5
+        },
+        "selectionText": "周二001[胜] × 周二010[负]"
+      },
+      {
+        "id": "2026-10-28-final-core20",
+        "date": "2026-10-28",
+        "name": "2.0版2串1",
+        "sessionLabel": "中晚场",
+        "category": "core20",
+        "originalSelectionText": "周三005[负] × 周三009[负]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周三005",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周三009",
+            "pick": "负",
+            "hit": false
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "1中2；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周三005[负] × 周三009[负]"
+      },
+      {
+        "id": "2026-10-29-final-core20",
+        "date": "2026-10-29",
+        "name": "2.0版2串1",
+        "category": "core20",
+        "originalSelectionText": "周四003[胜] × 周四004[胜]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 4.03,
+        "net": 2.0300000000000002,
+        "legHits": [
+          {
+            "number": "周四003",
+            "pick": "胜",
+            "hit": true
+          },
+          {
+            "number": "周四004",
+            "pick": "胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 2,
+        "totalLegs": 2,
+        "settledSubTickets": [
+          "2026-10-29-final-core20-1"
+        ],
+        "detail": "2中2；1/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周四003[胜] × 周四004[胜]"
+      },
+      {
+        "id": "2026-10-30-final-core20",
+        "date": "2026-10-30",
+        "name": "2.0版2串1",
+        "category": "core20",
+        "originalSelectionText": "周五004[负] × 周五001[主+1让胜]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 3.31,
+        "net": 1.31,
+        "legHits": [
+          {
+            "number": "周五004",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周五001",
+            "pick": "让胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 2,
+        "totalLegs": 2,
+        "settledSubTickets": [
+          "2026-10-30-final-core20-1"
+        ],
+        "detail": "2中2；1/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周五004[负] × 周五001[主+1让胜]"
+      },
+      {
+        "id": "2026-10-31-early-1-core20",
+        "date": "2026-10-31",
+        "name": "2.0版2串1",
+        "category": "core20",
+        "originalSelectionText": "周六001[负] × 周六024[胜]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 3.72,
+        "net": 1.7200000000000002,
+        "legHits": [
+          {
+            "number": "周六001",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周六024",
+            "pick": "胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 2,
+        "totalLegs": 2,
+        "settledSubTickets": [
+          "2026-10-31-early-1235-core20-1"
+        ],
+        "detail": "2中2；1/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周六001[负] × 周六024[胜]"
+      },
+      {
+        "id": "2026-10-31-middle-late-core20",
+        "date": "2026-10-31",
+        "name": "2.0版2串1",
+        "category": "core20",
+        "originalSelectionText": "周六024[胜] × 周六027[让负]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周六024",
+            "pick": "胜",
+            "hit": true
+          },
+          {
+            "number": "周六027",
+            "pick": "让负",
+            "hit": false
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "2中1；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周六024[胜] × 周六027[让负]"
+      },
+      {
+        "id": "2026-11-01-middle-late-core20",
+        "date": "2026-11-01",
+        "name": "2.0版2串1",
+        "sessionLabel": "中场",
+        "category": "core20",
+        "originalSelectionText": "周日013[胜] × 周日008[让胜]",
+        "selectionText": "周日013[胜] × 周日008[让胜]",
+        "status": "命中",
+        "hit": true,
+        "stake": 1000,
+        "returned": 1935,
+        "net": 935,
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 1935,
+          "net": 935
+        }
+      },
+      {
+        "id": "2026-11-02-astra-core20",
+        "date": "2026-11-02",
+        "category": "core20",
+        "name": "2.0版2串1",
+        "selectionText": "周一004[胜] × 周一003[胜]",
+        "sessionLabel": "晚场",
+        "status": "2中1",
+        "stake": 1000,
+        "returned": 0,
+        "net": -1000
+      }
+    ],
+    "three": [
+      {
+        "id": "2026-10-26-final-core30",
+        "date": "2026-10-26",
+        "name": "晚场3.0版2串1",
+        "sessionLabel": "晚场",
+        "category": "core30",
+        "originalSelectionText": "周一001[负] × 周一002[平]",
+        "selectionText": "周一001[负] × 周一002[平]",
+        "status": "命中",
+        "cost": 2,
+        "returned": 7.442,
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 3721,
+          "net": 2721
+        }
+      },
+      {
+        "id": "2026-10-27-user-correction-1505-core30",
+        "date": "2026-10-27",
+        "name": "3.0版2串1",
+        "sessionLabel": "中晚场",
+        "category": "core30",
+        "originalSelectionText": "周二006[主+1让胜] × 周二008[主-1让负]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "settledSubTickets": [],
+        "detail": "周二006[主+1让胜]中、周二008[主-1让负]错；整串错，返还0元。",
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 0,
+          "net": -1000
+        },
+        "selectionText": "周二006[主+1让胜] × 周二008[主-1让负]"
+      },
+      {
+        "id": "2026-10-28-final-core30",
+        "date": "2026-10-28",
+        "name": "3.0版2串1",
+        "sessionLabel": "中晚场",
+        "category": "core30",
+        "originalSelectionText": "周三006[胜] × 周三012[胜]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周三006",
+            "pick": "胜",
+            "hit": false
+          },
+          {
+            "number": "周三012",
+            "pick": "胜",
+            "hit": false
+          }
+        ],
+        "hitCount": 0,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "0中2；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周三006[胜] × 周三012[胜]"
+      },
+      {
+        "id": "2026-10-29-final-core30",
+        "date": "2026-10-29",
+        "name": "3.0版2串1",
+        "category": "core30",
+        "originalSelectionText": "周四001[负] × 周四005[主-1让负]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周四001",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周四005",
+            "pick": "让负",
+            "hit": false
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "2中1；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周四001[负] × 周四005[主-1让负]"
+      },
+      {
+        "id": "2026-10-30-final-core30",
+        "date": "2026-10-30",
+        "name": "3.0版2串1",
+        "category": "core30",
+        "originalSelectionText": "周五009[胜] × 周五007[主+1让胜]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周五009",
+            "pick": "胜",
+            "hit": false
+          },
+          {
+            "number": "周五007",
+            "pick": "让胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "2中1；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周五009[胜] × 周五007[主+1让胜]"
+      },
+      {
+        "id": "2026-10-31-early-1-core30",
+        "date": "2026-10-31",
+        "name": "3.0版2串1",
+        "category": "core30",
+        "originalSelectionText": "周六001[负] × 周六003[胜]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 5.88,
+        "net": 3.88,
+        "legHits": [
+          {
+            "number": "周六001",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周六003",
+            "pick": "胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 2,
+        "totalLegs": 2,
+        "settledSubTickets": [
+          "2026-10-31-early-1235-core30-1"
+        ],
+        "detail": "2中2；1/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周六001[负] × 周六003[胜]"
+      },
+      {
+        "id": "2026-10-31-middle-late-core30",
+        "date": "2026-10-31",
+        "name": "3.0版2串1",
+        "category": "core30",
+        "originalSelectionText": "周六006[胜] × 周六012[让胜]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周六006",
+            "pick": "胜",
+            "hit": true
+          },
+          {
+            "number": "周六012",
+            "pick": "让胜",
+            "hit": false
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "2中1；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周六006[胜] × 周六012[让胜]"
+      },
+      {
+        "id": "2026-11-01-middle-late-core30",
+        "date": "2026-11-01",
+        "name": "3.0版2串1",
+        "sessionLabel": "中场",
+        "category": "core30",
+        "originalSelectionText": "周日006[胜] × 周日008[让胜]",
+        "selectionText": "周日006[胜] × 周日008[让胜]",
+        "status": "命中",
+        "hit": true,
+        "stake": 1000,
+        "returned": 3005,
+        "net": 2005,
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 3005,
+          "net": 2005
+        }
+      },
+      {
+        "id": "2026-11-02-astra-core30",
+        "date": "2026-11-02",
+        "category": "core30",
+        "name": "3.0版2串1",
+        "selectionText": "周一003[胜] × 周一009[胜]",
+        "sessionLabel": "晚场",
+        "status": "2中2",
+        "stake": 1000,
+        "returned": 3190,
+        "net": 2190
+      }
+    ]
   },
   "reviewAt": "2026-11-04T06:25:00+08:00",
   "lastKickoff": "2026-11-04T04:00:00+08:00",
