@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-03",
+  "saleDate": "2026-11-03",
+  "infoOnly": true,
+  "generatedAt": "2026-11-03T04:58:14.381Z",
+  "publishedAt": "2026-11-03T05:05:25.846Z",
+  "analysisAsOf": "2026-11-03T04:58:14.381Z",
+  "edition": "early",
+  "batchLabel": "早场补发",
+  "deliveryStage": "early",
+  "batchFinal": true,
+  "finalLocked": false,
+  "mobileVerified": false,
+  "completed": false,
+  "earlyPublished": true,
+  "earlyDeadlineMissed": false,
+  "morningScheduledPublicationMissed": true,
+  "researchComplete": true,
+  "evidenceComplete": false,
+  "scanDecisionComplete": true,
+  "summary": "早场001赛前分析；07:45批次未发布，本次按真实时间补发。中晚场另批，不早于14:00。",
+  "scanTable": [
+    {
+      "number": "周二001",
+      "officialMatchId": 2042495,
+      "id": "2042495",
+      "home": "纽喷气机",
+      "away": "上海海港",
+      "teams": "纽喷气机 : 上海海港",
+      "league": "亚冠精英",
+      "kickoff": "2026-11-03T15:45:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "早场",
+      "primaryPick": "负",
+      "buy": "负",
+      "selection": "负",
+      "speculative": "让负",
+      "handicap": 1,
+      "spf": {
+        "win": 3.61,
+        "draw": 4.08,
+        "lose": 1.62
+      },
+      "rqspf": {
+        "win": 1.96,
+        "draw": 3.76,
+        "lose": 2.75
+      },
+      "goals": "3/4/2",
+      "halfFull": "平负/负负",
+      "score": "1:2/1:3/0:2",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "主队短休及近期被打身后，市场客胜领先；海港名单缺失限制信心。",
+        "speculative": "客胜2球以上是疲劳后段失球的条件情景，缺乏海港净胜样本，不升星。",
+        "goals": "官方总进球排序3、4、2与主队近期防线波动同向。",
+        "halfFull": "半场走势证据有限，列条件情景不评级。",
+        "score": "比分是条件例子，未拟合精确比分概率。"
+      },
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 24.3,
+        "d": 21.5,
+        "a": 54.2
+      },
+      "probabilityMethod": "同一时点普通胜平负倒数归一化；为市场隐含参考，非模型真实胜率。",
+      "analysis": "纽喷气机三天恢复、14天五赛中的第四场；最近对惠灵顿两次后段被打身后失球。海港方向居前，但Wood的得分威胁及主场反击使主队胜出不能忽略。",
+      "risk": "海港当前名单与近期对手强度未独立核实；主队轮换可能改善体能。若客队压迫无效或先失球，客胜判断失效。",
+      "highVarianceScenario": "海港净胜至少2球（主+1让负）；严格属于普通客胜。",
+      "insuranceAudit": {
+        "original": "负",
+        "considered": [
+          "胜",
+          "平"
+        ],
+        "decision": "保留单一相对方向，不宣称覆盖；市场主胜反而略高于平局，不能机械写负/平。",
+        "boundary": "普通客胜；高方差为客胜2球以上"
+      },
+      "evidence": [
+        "纽喷气机11月2日官方预告：三天恢复、14天五赛中的第四场，预计轮换。",
+        "10月31日0:3负惠灵顿：14分钟被反越位，87分钟再次被打身后，补时再失球；两次晚失球，不把比分直接等同全场被压制。",
+        "10月27日对京都2:5，Wood两球；本场预告记录Wood亚冠进球表现，主队反击和得分能力不能忽略。",
+        "预告介绍海港创造力，但18次助攻为两季合计、武磊200球为生涯数据，均不作当下出场或状态证明。",
+        "亚足联11月2日前瞻：纽喷气机亚冠三连败；海港上轮结束此前不败。"
+      ],
+      "sources": [
+        {
+          "url": "https://newcastlejetsfc.com.au/news/acle-match-preview-jets-vs-shanghai-port-fc/",
+          "http": 200
+        },
+        {
+          "url": "https://newcastlejetsfc.com.au/news/alm-match-report-newcastle-jets-vs-wellington-phoenix/",
+          "http": 200
+        },
+        {
+          "url": "https://newcastlejetsfc.com.au/news/squad-news-alm-and-alw-mw3/",
+          "http": 200
+        },
+        {
+          "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/preview-newcastle-jets-fc-aus-v-shanghai-port-fc-chn",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T04:58:14.381Z"
+    }
+  ],
+  "matchAnalysis": [
+    {
+      "number": "周二001",
+      "officialMatchId": 2042495,
+      "id": "2042495",
+      "home": "纽喷气机",
+      "away": "上海海港",
+      "teams": "纽喷气机 : 上海海港",
+      "league": "亚冠精英",
+      "kickoff": "2026-11-03T15:45:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "早场",
+      "primaryPick": "负",
+      "buy": "负",
+      "selection": "负",
+      "speculative": "让负",
+      "handicap": 1,
+      "spf": {
+        "win": 3.61,
+        "draw": 4.08,
+        "lose": 1.62
+      },
+      "rqspf": {
+        "win": 1.96,
+        "draw": 3.76,
+        "lose": 2.75
+      },
+      "goals": "3/4/2",
+      "halfFull": "平负/负负",
+      "score": "1:2/1:3/0:2",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "主队短休及近期被打身后，市场客胜领先；海港名单缺失限制信心。",
+        "speculative": "客胜2球以上是疲劳后段失球的条件情景，缺乏海港净胜样本，不升星。",
+        "goals": "官方总进球排序3、4、2与主队近期防线波动同向。",
+        "halfFull": "半场走势证据有限，列条件情景不评级。",
+        "score": "比分是条件例子，未拟合精确比分概率。"
+      },
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 24.3,
+        "d": 21.5,
+        "a": 54.2
+      },
+      "probabilityMethod": "同一时点普通胜平负倒数归一化；为市场隐含参考，非模型真实胜率。",
+      "analysis": "纽喷气机三天恢复、14天五赛中的第四场；最近对惠灵顿两次后段被打身后失球。海港方向居前，但Wood的得分威胁及主场反击使主队胜出不能忽略。",
+      "risk": "海港当前名单与近期对手强度未独立核实；主队轮换可能改善体能。若客队压迫无效或先失球，客胜判断失效。",
+      "highVarianceScenario": "海港净胜至少2球（主+1让负）；严格属于普通客胜。",
+      "insuranceAudit": {
+        "original": "负",
+        "considered": [
+          "胜",
+          "平"
+        ],
+        "decision": "保留单一相对方向，不宣称覆盖；市场主胜反而略高于平局，不能机械写负/平。",
+        "boundary": "普通客胜；高方差为客胜2球以上"
+      },
+      "evidence": [
+        "纽喷气机11月2日官方预告：三天恢复、14天五赛中的第四场，预计轮换。",
+        "10月31日0:3负惠灵顿：14分钟被反越位，87分钟再次被打身后，补时再失球；两次晚失球，不把比分直接等同全场被压制。",
+        "10月27日对京都2:5，Wood两球；本场预告记录Wood亚冠进球表现，主队反击和得分能力不能忽略。",
+        "预告介绍海港创造力，但18次助攻为两季合计、武磊200球为生涯数据，均不作当下出场或状态证明。"
+      ],
+      "sources": [
+        {
+          "url": "https://newcastlejetsfc.com.au/news/acle-match-preview-jets-vs-shanghai-port-fc/",
+          "http": 200
+        },
+        {
+          "url": "https://newcastlejetsfc.com.au/news/alm-match-report-newcastle-jets-vs-wellington-phoenix/",
+          "http": 200
+        },
+        {
+          "url": "https://newcastlejetsfc.com.au/news/squad-news-alm-and-alw-mw3/",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T04:58:14.381Z"
+    }
+  ],
+  "scenarioLabels": {
+    "core20": "早场方向",
+    "core30": "概率排序",
+    "dream6": "高方差情景",
+    "goals4": "进球情景"
+  },
+  "recommendations": [
+    {
+      "id": "2026-11-03-early-core20",
+      "date": "2026-11-03",
+      "category": "core20",
+      "name": "早场方向",
+      "sessionLabel": "早场",
+      "selectionText": "001 上海海港方向",
+      "cardNote": "纽喷气机三天恢复、14天五赛中的第四场；最近对惠灵顿两次后段被打身后失球。海港方向居前，但Wood的得分威胁及主场反击使主队胜出不能忽略。",
+      "oddsText": "赛事信息分析 · 低信心",
+      "legs": [],
+      "status": "赛前情景",
+      "stars": 0
+    },
+    {
+      "id": "2026-11-03-early-core30",
+      "date": "2026-11-03",
+      "category": "core30",
+      "name": "概率排序",
+      "sessionLabel": "早场",
+      "selectionText": "客胜54.2% > 主胜24.3% > 平21.5%",
+      "cardNote": "倒数归一化的市场隐含概率，不是模型真实胜率；主要反证：主队主场和Wood得分威胁。",
+      "oddsText": "赛事信息分析 · 低信心",
+      "legs": [],
+      "status": "赛前情景",
+      "stars": 0
+    },
+    {
+      "id": "2026-11-03-early-dream6",
+      "date": "2026-11-03",
+      "category": "dream6",
+      "name": "高方差情景",
+      "sessionLabel": "早场",
+      "selectionText": "001 客队净胜至少2球",
+      "cardNote": "仅在海港先取得主动、主队后段体能下降时成立；双方首发及客队近况未齐，风险高。",
+      "oddsText": "赛事信息分析 · 低信心",
+      "legs": [],
+      "status": "赛前情景",
+      "stars": 0
+    },
+    {
+      "id": "2026-11-03-early-goals4",
+      "date": "2026-11-03",
+      "category": "goals4",
+      "name": "进球情景",
+      "sessionLabel": "早场",
+      "selectionText": "001 总进球 3 / 4 / 2",
+      "cardNote": "排序来自赛前进球市场并参考主队近期防线波动；比分1:2、1:3、0:2仅为同剧本示例。",
+      "oddsText": "赛事信息分析 · 低信心",
+      "legs": [],
+      "status": "赛前情景",
+      "stars": 0
+    }
+  ],
+  "limitations": [
+    "未读取FT模型数据",
+    "仅为赛前公开信息分析，非下注或资金建议",
+    "阵容尚未完全核实；不把赔率归一化值称为真实胜率"
+  ],
+  "trackingHistory": {
+    "two": [],
+    "three": []
+  },
+  "reviewAt": "2026-11-04T06:25:00+08:00",
+  "lastKickoff": "2026-11-04T04:00:00+08:00",
+  "estimatedLastEnd": "2026-11-04T06:00:00+08:00",
+  "publicationTimestampMeaning": "上传提交时间；页面部署可见时间另行核验"
+}
