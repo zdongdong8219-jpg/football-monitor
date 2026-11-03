@@ -2805,15 +2805,18 @@
     "replaces": "2026-11-03-final-core30",
     "revisedAt": "2026-11-03T08:46:08.470Z",
     "publishedAt": "2026-11-03T08:47:54.035Z",
-    "finalLocked": false,
-    "mobileVerified": false,
-    "completed": false,
+    "finalLocked": true,
+    "mobileVerified": true,
+    "completed": true,
     "auditFile": "research/2026-11-03/core30-r1/math-audit.json",
     "priorReport": "reports/versions/2026-11-03-before-core30-r1.json",
     "priorImages": {
       "scan": "2026-11-03-final-locked-scan.png",
       "tracking": "2026-11-03-final-locked-tracking.png"
     },
-    "contentCommit": "2115460f780ae69112b141cff8e5b29671ef4aa6"
+    "contentCommit": "2115460f780ae69112b141cff8e5b29671ef4aa6",
+    "onlineVerifiedAt": "2026-11-03T08:50:15.478Z",
+    "verificationScope": "430px Edge浏览器模拟；四次真实点击和剪贴板PNG像素哈希核对，非实体手机",
+    "geometryFile": "research/2026-11-03/core30-r1/scan-geometry.json"
   }
 }
