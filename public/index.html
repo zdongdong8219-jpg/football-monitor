@@ -273,6 +273,7 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       $('reportHeading').dataset.finalLocked=String(report.finalLocked===true);
       $('summary').textContent=(report.date?report.date+' · ':'')+(report.summary||'尚未发布今日综合方案。')+(report.edition?' 批次：'+report.edition:'');currentReportDate=report.date||'';
       const rows=report.recommendations||[];
+      if(report.infoOnly){$('reportHeading').textContent=report.date+' · '+(report.batchLabel||'赛事信息分析');$('recommendations').innerHTML=rows.map(r=>'<article class="recommendation"><h3>'+esc(r.name)+'</h3><strong>'+esc(r.selectionText)+'</strong><p>'+esc(r.cardNote)+'</p><small>仅为分析情景；不提供下注金额或资金配置。</small></article>').join('');$('summary').textContent=report.summary+(report.publishedAt?' 实际提交：'+new Date(report.publishedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false}):'');return;}
       const sections=[
         ['two','普通2串1 · 首要推荐','重点约3.0倍；有独立依据的4.0、5.0倍及胜＋让平拆票方案也可入选。合格就多出，不凑数量。'],
         ['half_full','半全场2串1 · 重点推荐','平平、平胜、平负等按比赛走势筛选；有依据就多出。单关＋2串1须核验单关可售和总投入，命中一场不一定保本。'],
@@ -379,7 +380,7 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
       if(recommendationGroup(r)==='dream')return [ticketLines(r)[0],r.passSizes?.length?'可选 '+r.passSizes.join('/')+'关':'',r.totalCost!=null?'所列方案全买总成本：'+r.totalCost+'元（按实际所选关数投入）':'','高风险梦想单，拆关容错不保证回本。'].filter(Boolean);
       return [ticketLines(r)[0],r.name||r.type||'',ticketLines(r)[1],r.structureText||r.passType||'',...(r.legs||[]).map(l=>[l.number,l.selection,l.odds?'@'+l.odds:'',l.halfTimePrediction?'半场 '+l.halfTimePrediction:'',l.predictedScore?'比分 '+l.predictedScore:'',l.goalRange?'进球 '+l.goalRange:'',l.selectionReason||''].filter(Boolean).join(' · ')),...recommendationDetails(r),r.risk?'风险：'+r.risk:''].filter(Boolean);
     }
-    renderReport=function(report){posterReport=report;originalRenderReport(report);$('copyTracking').disabled=false;
+    renderReport=function(report){posterReport=report;originalRenderReport(report);$('copyTracking').disabled=false;if(report.infoOnly)return;
       $('recommendations').innerHTML='<div class="poster-heading"><small>FT足球竞彩模型</small><h2>✦ 今日推荐 ✦</h2><p>'+esc(report.date||'')+' · 栏目内优先展示看好的方案</p></div><div class="poster-list">'+posterTickets().map((r,i)=>'<details class="poster-ticket"><summary><span class="poster-rank">'+(i+1)+'</span><span class="poster-type">'+esc(ticketLabel(r))+'</span><div><strong>'+esc(ticketLines(r)[0])+'</strong>'+(r.stronglyRecommended?'<span class="strong-badge">★ 强烈建议</span>':r.betSingleRecommended?'<span class="strong-badge">☆ 博单建议</span>':'')+'<p>'+esc(ticketLines(r)[1])+' · 总投入 '+esc(r.totalCost??'待核')+'元</p></div></summary>'+recommendationCard(r)+'</details>').join('')+'</div><p class="scan-note">点击方案查看子票、条件返还与风险。★为已标记的相对信心。</p>';
     };
     const originalScan=renderScanTable;
@@ -416,13 +417,13 @@ function renderMatches(state,report){const day=state.days?.[state.currentDate],l
     for(const id of ['copyPoster','copyTracking','copyReview','copyReviewTracking']){$(id).addEventListener('click',event=>{event.preventDefault();event.stopImmediatePropagation();copyStaticImage(event.currentTarget)},true)}
     load();setInterval(load,5*60*1000);
   </script>
-  <script src="muse-cards.js?v=2026-10-27-user-insurance"></script>
+  <script src="muse-cards.js?v=20261103-info-final"></script>
   <script>
   (()=>{
     const center=document.querySelector('#deliveryCenter .delivery-grid'),status=document.getElementById('deliveryStatus');
-    const copyUrl=async(button,url)=>{const original=button.textContent,fallback=window.open('about:blank','_blank');button.disabled=true;button.textContent='正在复制高清图';try{if(!(navigator.clipboard?.write&&window.ClipboardItem))throw Error('unsupported');const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw Error('image');const blob=await response.blob();await navigator.clipboard.write([new ClipboardItem({'image/png':blob})]);fallback?.close();button.textContent='✓ 高清图已复制'}catch{if(fallback)fallback.location.replace(url);else location.href=url;button.textContent='已打开高清图，请长按复制'}finally{setTimeout(()=>{button.textContent=original;button.disabled=false},4000)}};
-    const add=({title,date,file})=>{const article=document.createElement('article'),url=`cards/${file}?v=2026-10-27-user-insurance`,preview=`cards/${file.replace('.png','-preview.jpg')}?v=2026-10-27-user-insurance`;article.innerHTML='<h3></h3><p></p><a target="_blank" rel="noopener"><img loading="eager" decoding="async"></a><button type="button"></button><small>页面显示轻量预览；复制和点开均为高清原图</small>';article.querySelector('h3').textContent=title;article.querySelector('p').textContent=date;const img=article.querySelector('img');img.src=preview;img.alt=`${date} ${title}`;img.onerror=()=>{img.onerror=null;img.src=url};article.querySelector('a').href=url;const button=article.querySelector('button');button.textContent=`复制${title}高清图`;button.addEventListener('click',()=>copyUrl(button,url));center.append(article)};
-    (async()=>{try{const [today,review]=await Promise.all([fetch(`data/latest.json?v=${Date.now()}`,{cache:'no-store'}).then(r=>r.json()),fetch(`data/review-latest.json?v=${Date.now()}`,{cache:'no-store'}).then(r=>r.json())]);[{title:'推荐扫盘',date:today.date,file:`${today.date}-final-scan.png`},{title:'今日跟踪',date:today.date,file:`${today.date}-final-tracking.png`},{title:'复盘扫盘',date:review.date,file:`${review.date}-review-scan.png`},{title:'复盘跟踪',date:review.date,file:`${review.date}-review-tracking.png`}].forEach(add);status.textContent='四张图可直接查看、复制或长按保存。'}catch{status.textContent='读取失败，请刷新。'}})();
+    const copyUrl=async(button,url)=>{const original=button.textContent,fallback=window.open('about:blank','_blank');button.disabled=true;button.textContent='正在复制高清图';try{if(!(navigator.clipboard?.write&&window.ClipboardItem))throw Error('unsupported');const pending=fetch(url,{cache:'no-store'}).then(response=>{if(!response.ok)throw Error('image');return response.blob()});await navigator.clipboard.write([new ClipboardItem({'image/png':pending})]);fallback?.close();button.textContent='✓ 高清图已复制'}catch{if(fallback)fallback.location.replace(url);else location.href=url;button.textContent='已打开高清图，请长按复制'}finally{setTimeout(()=>{button.textContent=original;button.disabled=false},4000)}};
+    const add=({title,date,file})=>{const article=document.createElement('article'),url=`cards/${file}?v=20261103-info-final`,preview=`cards/${file.replace('.png','-preview.jpg')}?v=20261103-info-final`;article.innerHTML='<h3></h3><p></p><a target="_blank" rel="noopener"><img loading="eager" decoding="async"></a><button type="button"></button><small>页面显示轻量预览；复制和点开均为高清原图</small>';article.querySelector('h3').textContent=title;article.querySelector('p').textContent=date;const img=article.querySelector('img');img.src=preview;img.alt=`${date} ${title}`;img.onerror=()=>{img.onerror=null;img.src=url};article.querySelector('a').href=url;const button=article.querySelector('button');button.textContent=`复制${title}高清图`;button.addEventListener('click',()=>copyUrl(button,url));center.append(article)};
+    (async()=>{try{const [today,review]=await Promise.all([fetch(`data/latest.json?v=${Date.now()}`,{cache:'no-store'}).then(r=>r.json()),fetch(`data/review-latest.json?v=${Date.now()}`,{cache:'no-store'}).then(r=>r.json())]);[{title:'推荐扫盘',date:today.date,file:today.imageFiles?.scan||`${today.date}-final-scan.png`},{title:'今日跟踪',date:today.date,file:today.imageFiles?.tracking||`${today.date}-final-tracking.png`},{title:'复盘扫盘',date:review.date,file:`${review.date}-review-scan.png`},{title:'复盘跟踪',date:review.date,file:`${review.date}-review-tracking.png`}].forEach(add);status.textContent='四张图可直接查看、复制或长按保存。'}catch{status.textContent='读取失败，请刷新。'}})();
   })();
   </script>
 <style>
@@ -437,3 +438,4 @@ header{background:#f7fcfa}.odd,button{background:#eef7f4;color:#254e3e}.analysis
 </style>
 </body>
 </html>
+

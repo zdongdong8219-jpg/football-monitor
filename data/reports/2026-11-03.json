@@ -2,12 +2,12 @@
   "date": "2026-11-03",
   "saleDate": "2026-11-03",
   "infoOnly": true,
-  "generatedAt": "2026-11-03T04:58:14.381Z",
-  "publishedAt": "2026-11-03T05:05:25.846Z",
-  "analysisAsOf": "2026-11-03T04:58:14.381Z",
-  "edition": "early",
-  "batchLabel": "早场补发",
-  "deliveryStage": "early",
+  "generatedAt": "2026-11-03T05:15:36.611Z",
+  "publishedAt": "2026-11-03T06:00:06.776Z",
+  "analysisAsOf": "2026-11-03T05:15:36.611Z",
+  "edition": "final",
+  "batchLabel": "中晚场终版",
+  "deliveryStage": "final",
   "batchFinal": true,
   "finalLocked": false,
   "mobileVerified": false,
@@ -18,7 +18,7 @@
   "researchComplete": true,
   "evidenceComplete": false,
   "scanDecisionComplete": true,
-  "summary": "早场001赛前分析；07:45批次未发布，本次按真实时间补发。中晚场另批，不早于14:00。",
+  "summary": "11场赛前赛事信息分析；早场原始方向与图已锁定保留。中晚场终版不早于14:00。",
   "scanTable": [
     {
       "number": "周二001",
@@ -120,6 +120,951 @@
         }
       ],
       "analysisAt": "2026-11-03T04:58:14.381Z"
+    },
+    {
+      "number": "周二002",
+      "id": "2042496",
+      "officialMatchId": 2042496,
+      "home": "柏太阳神",
+      "away": "大田市民",
+      "teams": "柏太阳神 : 大田市民",
+      "league": "亚冠精英",
+      "kickoff": "2026-11-03T18:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "中场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让平",
+      "handicap": -1,
+      "spf": {
+        "win": 1.37,
+        "draw": 4.3,
+        "lose": 5.65
+      },
+      "rqspf": {
+        "win": 2.22,
+        "draw": 3.5,
+        "lose": 2.48
+      },
+      "goals": "3/2/4",
+      "halfFull": "胜胜/平胜",
+      "score": "2:1/2:0/3:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "柏太阳神主场方向占优；亚足联前瞻确认柏上轮被叻丕逼平，大田此前不败被神户终结。主队优势主要来自当前市场与主场条件，不能把近期失分当作强势证明。",
+        "speculative": "主-1让平仅表示柏恰好赢1球；两队上轮遇阻、未确认主队持续净胜能力，窄胜作为高方差分支，不推大胜。",
+        "goals": "进球排序为市场参考，双边攻防证据不足以增加评级。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "marketImpliedProbability": {
+        "h": 64.1,
+        "d": 20.4,
+        "a": 15.5
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "柏太阳神主场方向占优；亚足联前瞻确认柏上轮被叻丕逼平，大田此前不败被神户终结。主队优势主要来自当前市场与主场条件，不能把近期失分当作强势证明。",
+      "risk": "大田此前不败说明其竞争力；柏对叻丕未能取胜，若创造机会仍不足则平局风险上升。双方当前伤停未齐。",
+      "highVarianceScenario": "主-1让平仅表示柏恰好赢1球；两队上轮遇阻、未确认主队持续净胜能力，窄胜作为高方差分支，不推大胜。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-1让平仅表示柏恰好赢1球；两队上轮遇阻、未确认主队持续净胜能力，窄胜作为高方差分支，不推大胜。"
+      },
+      "sources": [
+        {
+          "url": "https://www.reysol.co.jp/news/event/113vitoriavol527.html",
+          "checkedAt": "2026-11-03T04:51:09.458Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/preview-kashiwa-reysol-jpn-v-daejeon-hana-citizen-fc-kor",
+          "checkedAt": "2026-11-03T05:08:51.126Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二003",
+      "id": "2042497",
+      "officialMatchId": 2042497,
+      "home": "曼谷港务",
+      "away": "北京国安",
+      "teams": "曼谷港务 : 北京国安",
+      "league": "亚冠精英",
+      "kickoff": "2026-11-03T20:15:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "中场",
+      "primaryPick": "负",
+      "buy": "负",
+      "selection": "负",
+      "speculative": "让平",
+      "handicap": 1,
+      "spf": {
+        "win": 3.67,
+        "draw": 3.95,
+        "lose": 1.63
+      },
+      "rqspf": {
+        "win": 1.94,
+        "draw": 3.7,
+        "lose": 2.83
+      },
+      "goals": "3/4/2",
+      "halfFull": "平负/负负",
+      "score": "1:2/1:3/0:2",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "亚足联明确曼谷港务亚冠三连败、北京国安处于较好晋级位置；普通客胜市场领先，方向仍偏国安。主队比赛身份由亚足联及官方赛程双重确认。",
+        "speculative": "主+1让平为国安恰胜1球；市场客队赢2球并非压倒性优势，客场控节奏窄胜是独立窄化分支。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 23.9,
+        "d": 22.2,
+        "a": 53.9
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "亚足联明确曼谷港务亚冠三连败、北京国安处于较好晋级位置；普通客胜市场领先，方向仍偏国安。主队比赛身份由亚足联及官方赛程双重确认。",
+      "risk": "国安客场旅途、湿热环境与未核实的轮换仍可能削弱优势；曼谷港务主场抢开局可改变比赛。",
+      "highVarianceScenario": "主+1让平为国安恰胜1球；市场客队赢2球并非压倒性优势，客场控节奏窄胜是独立窄化分支。",
+      "insuranceAudit": {
+        "original": "负",
+        "considered": [
+          "负",
+          "胜",
+          "平"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主+1让平为国安恰胜1球；市场客队赢2球并非压倒性优势，客场控节奏窄胜是独立窄化分支。"
+      },
+      "sources": [
+        {
+          "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/preview-port-fc-tha-v-beijing-fc-chn",
+          "checkedAt": "2026-11-03T05:08:51.134Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二004",
+      "id": "2042498",
+      "officialMatchId": 2042498,
+      "home": "加拉塔萨",
+      "away": "斯图加特",
+      "teams": "加拉塔萨 : 斯图加特",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T01:45:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让平",
+      "handicap": -1,
+      "spf": {
+        "win": 2.1,
+        "draw": 3.85,
+        "lose": 2.48
+      },
+      "rqspf": {
+        "win": 4,
+        "draw": 4.25,
+        "lose": 1.53
+      },
+      "goals": "3/4/5",
+      "halfFull": "平胜/胜胜",
+      "score": "2:1/3:2/3:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "加拉塔萨雷教练称阵容接近完整，近期进攻配合改善，客胜里尔4:2；斯图加特中路双前锋与前腰、翼卫参与进攻，同时留下转换空间。主场小幅倾向加拉塔萨雷，不能忽视客队欧冠2胜1平。",
+        "speculative": "主-1让平即主队赢1球；对手欧冠不败且进攻强，小胜较大胜更符合对抗。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "负",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 41.8,
+        "d": 22.8,
+        "a": 35.4
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "加拉塔萨雷教练称阵容接近完整，近期进攻配合改善，客胜里尔4:2；斯图加特中路双前锋与前腰、翼卫参与进攻，同时留下转换空间。主场小幅倾向加拉塔萨雷，不能忽视客队欧冠2胜1平。",
+      "risk": "斯图加特欧冠进攻表现与联赛不一致，不能用联赛5负低估；主队防线若被中路三人组打穿，方向失效。",
+      "highVarianceScenario": "主-1让平即主队赢1球；对手欧冠不败且进攻强，小胜较大胜更符合对抗。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "负",
+          "平"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-1让平即主队赢1球；对手欧冠不败且进攻强，小胜较大胜更符合对抗。"
+      },
+      "sources": [
+        {
+          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/maca-dogru-galatasaray-stuttgart/61284",
+          "checkedAt": "2026-11-03T05:00:03.644Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/teknik-direktorumuz-okan-buruk-yukariya-dogru-ilerlemek-istiyoruz/61288",
+          "checkedAt": "2026-11-03T05:00:03.674Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二005",
+      "id": "2042499",
+      "officialMatchId": 2042499,
+      "home": "马竞",
+      "away": "拜仁",
+      "teams": "马竞 : 拜仁",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "负/胜",
+      "buy": "负/胜",
+      "selection": "负/胜",
+      "speculative": "让平",
+      "handicap": 1,
+      "spf": {
+        "win": 2.52,
+        "draw": 3.85,
+        "lose": 2.07
+      },
+      "rqspf": {
+        "win": 1.54,
+        "draw": 4.2,
+        "lose": 3.97
+      },
+      "goals": "3/4/2",
+      "halfFull": "平负/平胜",
+      "score": "1:2/2:1/2:2",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "拜仁方向略先，但马竞已连续联赛获胜、刚2:0胜莱万特，主场胜出必须列为必要防范。拜仁近两场欧冠3:3、2:2，Kane连续欧冠进球体现攻击质量，也说明不能假定防守封锁。",
+        "speculative": "主+1让平为拜仁恰胜1球，只属于主要双选中的客胜分支；以Kane终结能力对抗马竞主场防线为条件。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 34.8,
+        "d": 22.8,
+        "a": 42.4
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "拜仁方向略先，但马竞已连续联赛获胜、刚2:0胜莱万特，主场胜出必须列为必要防范。拜仁近两场欧冠3:3、2:2，Kane连续欧冠进球体现攻击质量，也说明不能假定防守封锁。",
+      "risk": "这是一组高波动强强对话；双选未覆盖平局，而两队最近欧冠均有平局。马竞若低位控制有效，平局可使展示情景失败。",
+      "highVarianceScenario": "主+1让平为拜仁恰胜1球，只属于主要双选中的客胜分支；以Kane终结能力对抗马竞主场防线为条件。",
+      "insuranceAudit": {
+        "original": "负/胜",
+        "considered": [
+          "负",
+          "胜",
+          "平"
+        ],
+        "decision": "基于上述具体反证列第二结果；顺序按综合倾向",
+        "boundary": "主+1让平为拜仁恰胜1球，只属于主要双选中的客胜分支；以Kane终结能力对抗马竞主场防线为条件。"
+      },
+      "sources": [
+        {
+          "url": "https://en.atleticodemadrid.com/noticias/a-great-night-of-football-awaits",
+          "checkedAt": "2026-11-03T04:51:10.844Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二006",
+      "id": "2042500",
+      "officialMatchId": 2042500,
+      "home": "LASK林茨",
+      "away": "布拉迪斯",
+      "teams": "LASK林茨 : 布拉迪斯",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让胜",
+      "handicap": -1,
+      "spf": {
+        "win": 1.26,
+        "draw": 5.25,
+        "lose": 6.45
+      },
+      "rqspf": {
+        "win": 1.83,
+        "draw": 3.95,
+        "lose": 2.95
+      },
+      "goals": "4/3/5",
+      "halfFull": "胜胜/平胜",
+      "score": "3:1/3:0/2:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 1,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "white",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "LASK进攻具持续产量，欧冠客场3:2胜葡萄牙体育；Slovan前三场1:6、0:3、0:4，客队预告确认Yirajang和Čerepkai缺阵、Kucharevič不在欧战名单。主队进攻面对客队防线是较明确优势。",
+        "speculative": "主-1让胜为主队赢至少2球；客队欧战连续大比分失利及攻击人员缺口支持该分支，但主队防线波动限制信心。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "主队进攻与对手防线/人员差异提供持续压制依据，但半场偶然性仍大。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "marketImpliedProbability": {
+        "h": 69.7,
+        "d": 16.7,
+        "a": 13.6
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "LASK进攻具持续产量，欧冠客场3:2胜葡萄牙体育；Slovan前三场1:6、0:3、0:4，客队预告确认Yirajang和Čerepkai缺阵、Kucharevič不在欧战名单。主队进攻面对客队防线是较明确优势。",
+      "risk": "LASK自身欧冠曾3:6负利物浦，杯赛5:4且赛程密集；不能把对方强敌惨败全量外推。主队体能与后防失位可缩小差距。",
+      "highVarianceScenario": "主-1让胜为主队赢至少2球；客队欧战连续大比分失利及攻击人员缺口支持该分支，但主队防线波动限制信心。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-1让胜为主队赢至少2球；客队欧战连续大比分失利及攻击人员缺口支持该分支，但主队防线波动限制信心。"
+      },
+      "sources": [
+        {
+          "url": "https://www.skslovan.com/clanok13930-Pred_LASK_Budeme_hrat_aj_za_nasich_fanusikov.htm",
+          "checkedAt": "2026-11-03T05:08:52.195Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.lask.at/en",
+          "checkedAt": "2026-11-03T04:49:06.225Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二007",
+      "id": "2042501",
+      "officialMatchId": 2042501,
+      "home": "费耶诺德",
+      "away": "国际米兰",
+      "teams": "费耶诺德 : 国际米兰",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "负/平",
+      "buy": "负/平",
+      "selection": "负/平",
+      "speculative": "让平",
+      "handicap": 1,
+      "spf": {
+        "win": 3.94,
+        "draw": 4.1,
+        "lose": 1.56
+      },
+      "rqspf": {
+        "win": 2.04,
+        "draw": 3.75,
+        "lose": 2.62
+      },
+      "goals": "3/4/2",
+      "halfFull": "平负/负负",
+      "score": "1:2/2:2/1:3",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "国米对费耶诺德的分析指出其高位进攻后边后卫身后和中场防线间隙可被利用；欧冠3场丢8球。国米技术和转换优势支持客队方向；费耶诺德荷甲11场不败、33球，且国米刚输德比，需显式保留平局。",
+        "speculative": "主+1让平即国米恰赢1球，主队有持续得分能力，使小胜比默认穿深边界更合理。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "负",
+        "平",
+        "胜"
+      ],
+      "marketImpliedProbability": {
+        "h": 22.3,
+        "d": 21.4,
+        "a": 56.3
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "国米对费耶诺德的分析指出其高位进攻后边后卫身后和中场防线间隙可被利用；欧冠3场丢8球。国米技术和转换优势支持客队方向；费耶诺德荷甲11场不败、33球，且国米刚输德比，需显式保留平局。",
+      "risk": "荷甲进攻数据不能直接当作欧冠同等输出，但其主场高压与边路一对一可拖入对攻；国米短休、德比消耗和阵容待定均可能降低效率。",
+      "highVarianceScenario": "主+1让平即国米恰赢1球，主队有持续得分能力，使小胜比默认穿深边界更合理。",
+      "insuranceAudit": {
+        "original": "负/平",
+        "considered": [
+          "负",
+          "平",
+          "胜"
+        ],
+        "decision": "基于上述具体反证列第二结果；顺序按综合倾向",
+        "boundary": "主+1让平即国米恰赢1球，主队有持续得分能力，使小胜比默认穿深边界更合理。"
+      },
+      "sources": [
+        {
+          "url": "https://www.inter.it/en/news/analysis-opposition-feyenoord-inter-champions-league-2026-27",
+          "checkedAt": "2026-11-03T04:51:09.819Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.inter.it/en/news/feyenoord-inter-previous-facts-guide-champions-league-2026-27",
+          "checkedAt": "2026-11-03T04:51:13.298Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.inter.it/en/news",
+          "checkedAt": "2026-11-03T04:49:06.053Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二008",
+      "id": "2042502",
+      "officialMatchId": 2042502,
+      "home": "曼联",
+      "away": "罗马",
+      "teams": "曼联 : 罗马",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让平",
+      "handicap": -1,
+      "spf": {
+        "win": 2.25,
+        "draw": 3.96,
+        "lose": 2.26
+      },
+      "rqspf": {
+        "win": 4.36,
+        "draw": 4.35,
+        "lose": 1.47
+      },
+      "goals": "3/2/4",
+      "halfFull": "平胜/胜胜",
+      "score": "2:1/1:0/2:2",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "普通胜负市场几乎持平。罗马发布会确认Pellegrini、Dybala、Koné缺阵，中场短缺；前场尚有Malen/Castro，Mora可用。曼联主场与对方中场缺员构成微弱主队倾向，优势很小。",
+        "speculative": "主-1让平只表示曼联恰胜1球；实力差有限、客队仍有锋线替代者，窄胜是条件分支。",
+        "goals": "进球排序为市场参考，双边攻防证据不足以增加评级。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "负",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 39,
+        "d": 22.2,
+        "a": 38.8
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "普通胜负市场几乎持平。罗马发布会确认Pellegrini、Dybala、Koné缺阵，中场短缺；前场尚有Malen/Castro，Mora可用。曼联主场与对方中场缺员构成微弱主队倾向，优势很小。",
+      "risk": "罗马近期状态良好，教练称17名可用球员准备就绪；曼联自身状态不佳，不能把客队伤停直接等同主胜。",
+      "highVarianceScenario": "主-1让平只表示曼联恰胜1球；实力差有限、客队仍有锋线替代者，窄胜是条件分支。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "负",
+          "平"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-1让平只表示曼联恰胜1球；实力差有限、客队仍有锋线替代者，窄胜是条件分支。"
+      },
+      "sources": [
+        {
+          "url": "https://www.asroma.com/en/news/76173/gasperini-addresses-the-media-before-manchester-united-clash",
+          "checkedAt": "2026-11-03T04:51:09.863Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.manutd.com/en/news",
+          "checkedAt": "2026-11-03T04:49:06.360Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二009",
+      "id": "2042503",
+      "officialMatchId": 2042503,
+      "home": "巴萨",
+      "away": "维拉",
+      "teams": "巴萨 : 维拉",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让平",
+      "handicap": -2,
+      "spf": {
+        "win": 1.13,
+        "draw": 7,
+        "lose": 9
+      },
+      "rqspf": {
+        "win": 2.14,
+        "draw": 4.4,
+        "lose": 2.25
+      },
+      "goals": "4/5/3",
+      "halfFull": "胜胜/平胜",
+      "score": "3:1/3:2/4:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 1,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "white",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "巴萨刚6:1胜阿拉维斯，Raphinha和Yamal各两球，进攻恢复；主场和当前市场支持主胜。反向看维拉欧冠前三场全胜，Flick强调其攻守结构明确，巴萨仍缺多名后卫。",
+        "speculative": "主-2让平只对应巴萨净胜2球；进攻强但对方结构和主队防线隐患压低大胜确定性，不把3球以上胜差视为稳健。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "主队进攻与对手防线/人员差异提供持续压制依据，但半场偶然性仍大。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "marketImpliedProbability": {
+        "h": 77.7,
+        "d": 12.5,
+        "a": 9.8
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "巴萨刚6:1胜阿拉维斯，Raphinha和Yamal各两球，进攻恢复；主场和当前市场支持主胜。反向看维拉欧冠前三场全胜，Flick强调其攻守结构明确，巴萨仍缺多名后卫。",
+      "risk": "不能用对阿拉维斯大胜证明对维拉同样碾压；后防人员不足、两场之间只有两次训练，客队转换可能制造失球或平局。",
+      "highVarianceScenario": "主-2让平只对应巴萨净胜2球；进攻强但对方结构和主队防线隐患压低大胜确定性，不把3球以上胜差视为稳健。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-2让平只对应巴萨净胜2球；进攻强但对方结构和主队防线隐患压低大胜确定性，不把3球以上胜差视为稳健。"
+      },
+      "sources": [
+        {
+          "url": "https://www.fcbarcelona.com/en/football/first-team/news/4603044/hansi-flick-aiming-for-top-eight",
+          "checkedAt": "2026-11-03T04:51:10.164Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.fcbarcelona.com/en/football/first-team/news/4603029/ready-for-aston-villa",
+          "checkedAt": "2026-11-03T04:51:10.232Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.fcbarcelona.com/en/football/first-team/news",
+          "checkedAt": "2026-11-03T04:49:08.156Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二010",
+      "id": "2042504",
+      "officialMatchId": 2042504,
+      "home": "比利亚雷",
+      "away": "巴黎圣曼",
+      "teams": "比利亚雷 : 巴黎圣曼",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "负",
+      "buy": "负",
+      "selection": "负",
+      "speculative": "让平",
+      "handicap": 1,
+      "spf": {
+        "win": 4.3,
+        "draw": 4.6,
+        "lose": 1.45
+      },
+      "rqspf": {
+        "win": 2.25,
+        "draw": 3.95,
+        "lose": 2.27
+      },
+      "goals": "3/4/5",
+      "halfFull": "平负/负负",
+      "score": "1:2/1:3/2:3",
+      "recommended": true,
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "目前可用证据以官方赛前市场为主：客胜明显领先，主+1市场显示客队大胜并非无争议。两家球队网页未返回可用新闻正文，不将球队名气写成已核实的攻防或名单依据。相对方向仍列巴黎，低信心。",
+        "speculative": "主+1让平为巴黎恰胜1球；仅作为市场优势范围内的窄胜情景，不声称已有独立净胜模型验证。",
+        "goals": "进球排序为市场参考，双边攻防证据不足以增加评级。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 20.4,
+        "d": 19.1,
+        "a": 60.5
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "目前可用证据以官方赛前市场为主：客胜明显领先，主+1市场显示客队大胜并非无争议。两家球队网页未返回可用新闻正文，不将球队名气写成已核实的攻防或名单依据。相对方向仍列巴黎，低信心。",
+      "risk": "双边近期对位与伤停资料缺口最大，主队主场及巴黎轮换均可能推翻市场方向；此场不进入稳健候选。",
+      "highVarianceScenario": "主+1让平为巴黎恰胜1球；仅作为市场优势范围内的窄胜情景，不声称已有独立净胜模型验证。",
+      "insuranceAudit": {
+        "original": "负",
+        "considered": [
+          "负",
+          "胜",
+          "平"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主+1让平为巴黎恰胜1球；仅作为市场优势范围内的窄胜情景，不声称已有独立净胜模型验证。"
+      },
+      "sources": [
+        {
+          "url": "https://villarrealcf.es/en/news/",
+          "checkedAt": "2026-11-03T04:49:07.758Z",
+          "http": 200
+        },
+        {
+          "url": "https://en.psg.fr/teams/first-team/content",
+          "checkedAt": "2026-11-03T04:49:07.413Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二011",
+      "id": "2042505",
+      "officialMatchId": 2042505,
+      "home": "博德闪耀",
+      "away": "里尔",
+      "teams": "博德闪耀 : 里尔",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜/平",
+      "buy": "胜/平",
+      "selection": "胜/平",
+      "speculative": "让平",
+      "handicap": -1,
+      "spf": {
+        "win": 1.5,
+        "draw": 4.2,
+        "lose": 4.26
+      },
+      "rqspf": {
+        "win": 2.45,
+        "draw": 3.8,
+        "lose": 2.14
+      },
+      "goals": "3/4/2",
+      "halfFull": "平胜/胜胜",
+      "score": "2:1/2:2/3:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "博德闪耀主场刚3:2胜维京，教练强调高压、尽量掌球，里尔前场速度会攻击空间。主队病情总体好转但尚非全员恢复；里尔法甲9场18分、刚零封朗斯，故保留平局而不只看其欧冠零分。",
+        "speculative": "主-1让平即主队恰赢1球；主场压迫可提供小幅优势，但病后体能与里尔门将表现不支持默认大胜。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "marketImpliedProbability": {
+        "h": 58.5,
+        "d": 20.9,
+        "a": 20.6
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "博德闪耀主场刚3:2胜维京，教练强调高压、尽量掌球，里尔前场速度会攻击空间。主队病情总体好转但尚非全员恢复；里尔法甲9场18分、刚零封朗斯，故保留平局而不只看其欧冠零分。",
+      "risk": "病后体能与湿冷场地影响高压持续性；主队对多特末段曾难以摆脱低位，里尔若持续控球，后段失球风险加大。",
+      "highVarianceScenario": "主-1让平即主队恰赢1球；主场压迫可提供小幅优势，但病后体能与里尔门将表现不支持默认大胜。",
+      "insuranceAudit": {
+        "original": "胜/平",
+        "considered": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "decision": "基于上述具体反证列第二结果；顺序按综合倾向",
+        "boundary": "主-1让平即主队恰赢1球；主场压迫可提供小幅优势，但病后体能与里尔门将表现不支持默认大胜。"
+      },
+      "sources": [
+        {
+          "url": "https://www.glimt.no/nyheter/det-er-to-lag-som-har-sine-planer",
+          "checkedAt": "2026-11-03T04:51:10.115Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.glimt.no/nyheter/et-glimt-lag-pa-bedringens-vei-forrige-uke-var-brutal",
+          "checkedAt": "2026-11-03T04:51:09.797Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.losc.fr/actualites/2026-11-02/18-points-apres-9-matchs-sur-les-bases-dun-debut-de-saison-record",
+          "checkedAt": "2026-11-03T04:51:10.020Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
     }
   ],
   "matchAnalysis": [
@@ -201,7 +1146,8 @@
         "纽喷气机11月2日官方预告：三天恢复、14天五赛中的第四场，预计轮换。",
         "10月31日0:3负惠灵顿：14分钟被反越位，87分钟再次被打身后，补时再失球；两次晚失球，不把比分直接等同全场被压制。",
         "10月27日对京都2:5，Wood两球；本场预告记录Wood亚冠进球表现，主队反击和得分能力不能忽略。",
-        "预告介绍海港创造力，但18次助攻为两季合计、武磊200球为生涯数据，均不作当下出场或状态证明。"
+        "预告介绍海港创造力，但18次助攻为两季合计、武磊200球为生涯数据，均不作当下出场或状态证明。",
+        "亚足联11月2日前瞻：纽喷气机亚冠三连败；海港上轮结束此前不败。"
       ],
       "sources": [
         {
@@ -215,75 +1161,1140 @@
         {
           "url": "https://newcastlejetsfc.com.au/news/squad-news-alm-and-alw-mw3/",
           "http": 200
+        },
+        {
+          "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/preview-newcastle-jets-fc-aus-v-shanghai-port-fc-chn",
+          "http": 200
         }
       ],
       "analysisAt": "2026-11-03T04:58:14.381Z"
+    },
+    {
+      "number": "周二002",
+      "id": "2042496",
+      "officialMatchId": 2042496,
+      "home": "柏太阳神",
+      "away": "大田市民",
+      "teams": "柏太阳神 : 大田市民",
+      "league": "亚冠精英",
+      "kickoff": "2026-11-03T18:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "中场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让平",
+      "handicap": -1,
+      "spf": {
+        "win": 1.37,
+        "draw": 4.3,
+        "lose": 5.65
+      },
+      "rqspf": {
+        "win": 2.22,
+        "draw": 3.5,
+        "lose": 2.48
+      },
+      "goals": "3/2/4",
+      "halfFull": "胜胜/平胜",
+      "score": "2:1/2:0/3:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "柏太阳神主场方向占优；亚足联前瞻确认柏上轮被叻丕逼平，大田此前不败被神户终结。主队优势主要来自当前市场与主场条件，不能把近期失分当作强势证明。",
+        "speculative": "主-1让平仅表示柏恰好赢1球；两队上轮遇阻、未确认主队持续净胜能力，窄胜作为高方差分支，不推大胜。",
+        "goals": "进球排序为市场参考，双边攻防证据不足以增加评级。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "marketImpliedProbability": {
+        "h": 64.1,
+        "d": 20.4,
+        "a": 15.5
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "柏太阳神主场方向占优；亚足联前瞻确认柏上轮被叻丕逼平，大田此前不败被神户终结。主队优势主要来自当前市场与主场条件，不能把近期失分当作强势证明。",
+      "risk": "大田此前不败说明其竞争力；柏对叻丕未能取胜，若创造机会仍不足则平局风险上升。双方当前伤停未齐。",
+      "highVarianceScenario": "主-1让平仅表示柏恰好赢1球；两队上轮遇阻、未确认主队持续净胜能力，窄胜作为高方差分支，不推大胜。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-1让平仅表示柏恰好赢1球；两队上轮遇阻、未确认主队持续净胜能力，窄胜作为高方差分支，不推大胜。"
+      },
+      "sources": [
+        {
+          "url": "https://www.reysol.co.jp/news/event/113vitoriavol527.html",
+          "checkedAt": "2026-11-03T04:51:09.458Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/preview-kashiwa-reysol-jpn-v-daejeon-hana-citizen-fc-kor",
+          "checkedAt": "2026-11-03T05:08:51.126Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二003",
+      "id": "2042497",
+      "officialMatchId": 2042497,
+      "home": "曼谷港务",
+      "away": "北京国安",
+      "teams": "曼谷港务 : 北京国安",
+      "league": "亚冠精英",
+      "kickoff": "2026-11-03T20:15:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "中场",
+      "primaryPick": "负",
+      "buy": "负",
+      "selection": "负",
+      "speculative": "让平",
+      "handicap": 1,
+      "spf": {
+        "win": 3.67,
+        "draw": 3.95,
+        "lose": 1.63
+      },
+      "rqspf": {
+        "win": 1.94,
+        "draw": 3.7,
+        "lose": 2.83
+      },
+      "goals": "3/4/2",
+      "halfFull": "平负/负负",
+      "score": "1:2/1:3/0:2",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "亚足联明确曼谷港务亚冠三连败、北京国安处于较好晋级位置；普通客胜市场领先，方向仍偏国安。主队比赛身份由亚足联及官方赛程双重确认。",
+        "speculative": "主+1让平为国安恰胜1球；市场客队赢2球并非压倒性优势，客场控节奏窄胜是独立窄化分支。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 23.9,
+        "d": 22.2,
+        "a": 53.9
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "亚足联明确曼谷港务亚冠三连败、北京国安处于较好晋级位置；普通客胜市场领先，方向仍偏国安。主队比赛身份由亚足联及官方赛程双重确认。",
+      "risk": "国安客场旅途、湿热环境与未核实的轮换仍可能削弱优势；曼谷港务主场抢开局可改变比赛。",
+      "highVarianceScenario": "主+1让平为国安恰胜1球；市场客队赢2球并非压倒性优势，客场控节奏窄胜是独立窄化分支。",
+      "insuranceAudit": {
+        "original": "负",
+        "considered": [
+          "负",
+          "胜",
+          "平"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主+1让平为国安恰胜1球；市场客队赢2球并非压倒性优势，客场控节奏窄胜是独立窄化分支。"
+      },
+      "sources": [
+        {
+          "url": "https://www.the-afc.com/en/club/afc_champions_league_elite.html/news/preview-port-fc-tha-v-beijing-fc-chn",
+          "checkedAt": "2026-11-03T05:08:51.134Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二004",
+      "id": "2042498",
+      "officialMatchId": 2042498,
+      "home": "加拉塔萨",
+      "away": "斯图加特",
+      "teams": "加拉塔萨 : 斯图加特",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T01:45:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让平",
+      "handicap": -1,
+      "spf": {
+        "win": 2.1,
+        "draw": 3.85,
+        "lose": 2.48
+      },
+      "rqspf": {
+        "win": 4,
+        "draw": 4.25,
+        "lose": 1.53
+      },
+      "goals": "3/4/5",
+      "halfFull": "平胜/胜胜",
+      "score": "2:1/3:2/3:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "加拉塔萨雷教练称阵容接近完整，近期进攻配合改善，客胜里尔4:2；斯图加特中路双前锋与前腰、翼卫参与进攻，同时留下转换空间。主场小幅倾向加拉塔萨雷，不能忽视客队欧冠2胜1平。",
+        "speculative": "主-1让平即主队赢1球；对手欧冠不败且进攻强，小胜较大胜更符合对抗。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "负",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 41.8,
+        "d": 22.8,
+        "a": 35.4
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "加拉塔萨雷教练称阵容接近完整，近期进攻配合改善，客胜里尔4:2；斯图加特中路双前锋与前腰、翼卫参与进攻，同时留下转换空间。主场小幅倾向加拉塔萨雷，不能忽视客队欧冠2胜1平。",
+      "risk": "斯图加特欧冠进攻表现与联赛不一致，不能用联赛5负低估；主队防线若被中路三人组打穿，方向失效。",
+      "highVarianceScenario": "主-1让平即主队赢1球；对手欧冠不败且进攻强，小胜较大胜更符合对抗。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "负",
+          "平"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-1让平即主队赢1球；对手欧冠不败且进攻强，小胜较大胜更符合对抗。"
+      },
+      "sources": [
+        {
+          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/maca-dogru-galatasaray-stuttgart/61284",
+          "checkedAt": "2026-11-03T05:00:03.644Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/teknik-direktorumuz-okan-buruk-yukariya-dogru-ilerlemek-istiyoruz/61288",
+          "checkedAt": "2026-11-03T05:00:03.674Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二005",
+      "id": "2042499",
+      "officialMatchId": 2042499,
+      "home": "马竞",
+      "away": "拜仁",
+      "teams": "马竞 : 拜仁",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "负/胜",
+      "buy": "负/胜",
+      "selection": "负/胜",
+      "speculative": "让平",
+      "handicap": 1,
+      "spf": {
+        "win": 2.52,
+        "draw": 3.85,
+        "lose": 2.07
+      },
+      "rqspf": {
+        "win": 1.54,
+        "draw": 4.2,
+        "lose": 3.97
+      },
+      "goals": "3/4/2",
+      "halfFull": "平负/平胜",
+      "score": "1:2/2:1/2:2",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "拜仁方向略先，但马竞已连续联赛获胜、刚2:0胜莱万特，主场胜出必须列为必要防范。拜仁近两场欧冠3:3、2:2，Kane连续欧冠进球体现攻击质量，也说明不能假定防守封锁。",
+        "speculative": "主+1让平为拜仁恰胜1球，只属于主要双选中的客胜分支；以Kane终结能力对抗马竞主场防线为条件。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 34.8,
+        "d": 22.8,
+        "a": 42.4
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "拜仁方向略先，但马竞已连续联赛获胜、刚2:0胜莱万特，主场胜出必须列为必要防范。拜仁近两场欧冠3:3、2:2，Kane连续欧冠进球体现攻击质量，也说明不能假定防守封锁。",
+      "risk": "这是一组高波动强强对话；双选未覆盖平局，而两队最近欧冠均有平局。马竞若低位控制有效，平局可使展示情景失败。",
+      "highVarianceScenario": "主+1让平为拜仁恰胜1球，只属于主要双选中的客胜分支；以Kane终结能力对抗马竞主场防线为条件。",
+      "insuranceAudit": {
+        "original": "负/胜",
+        "considered": [
+          "负",
+          "胜",
+          "平"
+        ],
+        "decision": "基于上述具体反证列第二结果；顺序按综合倾向",
+        "boundary": "主+1让平为拜仁恰胜1球，只属于主要双选中的客胜分支；以Kane终结能力对抗马竞主场防线为条件。"
+      },
+      "sources": [
+        {
+          "url": "https://en.atleticodemadrid.com/noticias/a-great-night-of-football-awaits",
+          "checkedAt": "2026-11-03T04:51:10.844Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二006",
+      "id": "2042500",
+      "officialMatchId": 2042500,
+      "home": "LASK林茨",
+      "away": "布拉迪斯",
+      "teams": "LASK林茨 : 布拉迪斯",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让胜",
+      "handicap": -1,
+      "spf": {
+        "win": 1.26,
+        "draw": 5.25,
+        "lose": 6.45
+      },
+      "rqspf": {
+        "win": 1.83,
+        "draw": 3.95,
+        "lose": 2.95
+      },
+      "goals": "4/3/5",
+      "halfFull": "胜胜/平胜",
+      "score": "3:1/3:0/2:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 1,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "white",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "LASK进攻具持续产量，欧冠客场3:2胜葡萄牙体育；Slovan前三场1:6、0:3、0:4，客队预告确认Yirajang和Čerepkai缺阵、Kucharevič不在欧战名单。主队进攻面对客队防线是较明确优势。",
+        "speculative": "主-1让胜为主队赢至少2球；客队欧战连续大比分失利及攻击人员缺口支持该分支，但主队防线波动限制信心。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "主队进攻与对手防线/人员差异提供持续压制依据，但半场偶然性仍大。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "marketImpliedProbability": {
+        "h": 69.7,
+        "d": 16.7,
+        "a": 13.6
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "LASK进攻具持续产量，欧冠客场3:2胜葡萄牙体育；Slovan前三场1:6、0:3、0:4，客队预告确认Yirajang和Čerepkai缺阵、Kucharevič不在欧战名单。主队进攻面对客队防线是较明确优势。",
+      "risk": "LASK自身欧冠曾3:6负利物浦，杯赛5:4且赛程密集；不能把对方强敌惨败全量外推。主队体能与后防失位可缩小差距。",
+      "highVarianceScenario": "主-1让胜为主队赢至少2球；客队欧战连续大比分失利及攻击人员缺口支持该分支，但主队防线波动限制信心。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-1让胜为主队赢至少2球；客队欧战连续大比分失利及攻击人员缺口支持该分支，但主队防线波动限制信心。"
+      },
+      "sources": [
+        {
+          "url": "https://www.skslovan.com/clanok13930-Pred_LASK_Budeme_hrat_aj_za_nasich_fanusikov.htm",
+          "checkedAt": "2026-11-03T05:08:52.195Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.lask.at/en",
+          "checkedAt": "2026-11-03T04:49:06.225Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二007",
+      "id": "2042501",
+      "officialMatchId": 2042501,
+      "home": "费耶诺德",
+      "away": "国际米兰",
+      "teams": "费耶诺德 : 国际米兰",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "负/平",
+      "buy": "负/平",
+      "selection": "负/平",
+      "speculative": "让平",
+      "handicap": 1,
+      "spf": {
+        "win": 3.94,
+        "draw": 4.1,
+        "lose": 1.56
+      },
+      "rqspf": {
+        "win": 2.04,
+        "draw": 3.75,
+        "lose": 2.62
+      },
+      "goals": "3/4/2",
+      "halfFull": "平负/负负",
+      "score": "1:2/2:2/1:3",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "国米对费耶诺德的分析指出其高位进攻后边后卫身后和中场防线间隙可被利用；欧冠3场丢8球。国米技术和转换优势支持客队方向；费耶诺德荷甲11场不败、33球，且国米刚输德比，需显式保留平局。",
+        "speculative": "主+1让平即国米恰赢1球，主队有持续得分能力，使小胜比默认穿深边界更合理。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "负",
+        "平",
+        "胜"
+      ],
+      "marketImpliedProbability": {
+        "h": 22.3,
+        "d": 21.4,
+        "a": 56.3
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "国米对费耶诺德的分析指出其高位进攻后边后卫身后和中场防线间隙可被利用；欧冠3场丢8球。国米技术和转换优势支持客队方向；费耶诺德荷甲11场不败、33球，且国米刚输德比，需显式保留平局。",
+      "risk": "荷甲进攻数据不能直接当作欧冠同等输出，但其主场高压与边路一对一可拖入对攻；国米短休、德比消耗和阵容待定均可能降低效率。",
+      "highVarianceScenario": "主+1让平即国米恰赢1球，主队有持续得分能力，使小胜比默认穿深边界更合理。",
+      "insuranceAudit": {
+        "original": "负/平",
+        "considered": [
+          "负",
+          "平",
+          "胜"
+        ],
+        "decision": "基于上述具体反证列第二结果；顺序按综合倾向",
+        "boundary": "主+1让平即国米恰赢1球，主队有持续得分能力，使小胜比默认穿深边界更合理。"
+      },
+      "sources": [
+        {
+          "url": "https://www.inter.it/en/news/analysis-opposition-feyenoord-inter-champions-league-2026-27",
+          "checkedAt": "2026-11-03T04:51:09.819Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.inter.it/en/news/feyenoord-inter-previous-facts-guide-champions-league-2026-27",
+          "checkedAt": "2026-11-03T04:51:13.298Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.inter.it/en/news",
+          "checkedAt": "2026-11-03T04:49:06.053Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二008",
+      "id": "2042502",
+      "officialMatchId": 2042502,
+      "home": "曼联",
+      "away": "罗马",
+      "teams": "曼联 : 罗马",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让平",
+      "handicap": -1,
+      "spf": {
+        "win": 2.25,
+        "draw": 3.96,
+        "lose": 2.26
+      },
+      "rqspf": {
+        "win": 4.36,
+        "draw": 4.35,
+        "lose": 1.47
+      },
+      "goals": "3/2/4",
+      "halfFull": "平胜/胜胜",
+      "score": "2:1/1:0/2:2",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "普通胜负市场几乎持平。罗马发布会确认Pellegrini、Dybala、Koné缺阵，中场短缺；前场尚有Malen/Castro，Mora可用。曼联主场与对方中场缺员构成微弱主队倾向，优势很小。",
+        "speculative": "主-1让平只表示曼联恰胜1球；实力差有限、客队仍有锋线替代者，窄胜是条件分支。",
+        "goals": "进球排序为市场参考，双边攻防证据不足以增加评级。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "负",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 39,
+        "d": 22.2,
+        "a": 38.8
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "普通胜负市场几乎持平。罗马发布会确认Pellegrini、Dybala、Koné缺阵，中场短缺；前场尚有Malen/Castro，Mora可用。曼联主场与对方中场缺员构成微弱主队倾向，优势很小。",
+      "risk": "罗马近期状态良好，教练称17名可用球员准备就绪；曼联自身状态不佳，不能把客队伤停直接等同主胜。",
+      "highVarianceScenario": "主-1让平只表示曼联恰胜1球；实力差有限、客队仍有锋线替代者，窄胜是条件分支。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "负",
+          "平"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-1让平只表示曼联恰胜1球；实力差有限、客队仍有锋线替代者，窄胜是条件分支。"
+      },
+      "sources": [
+        {
+          "url": "https://www.asroma.com/en/news/76173/gasperini-addresses-the-media-before-manchester-united-clash",
+          "checkedAt": "2026-11-03T04:51:09.863Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.manutd.com/en/news",
+          "checkedAt": "2026-11-03T04:49:06.360Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二009",
+      "id": "2042503",
+      "officialMatchId": 2042503,
+      "home": "巴萨",
+      "away": "维拉",
+      "teams": "巴萨 : 维拉",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让平",
+      "handicap": -2,
+      "spf": {
+        "win": 1.13,
+        "draw": 7,
+        "lose": 9
+      },
+      "rqspf": {
+        "win": 2.14,
+        "draw": 4.4,
+        "lose": 2.25
+      },
+      "goals": "4/5/3",
+      "halfFull": "胜胜/平胜",
+      "score": "3:1/3:2/4:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 1,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "white",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "巴萨刚6:1胜阿拉维斯，Raphinha和Yamal各两球，进攻恢复；主场和当前市场支持主胜。反向看维拉欧冠前三场全胜，Flick强调其攻守结构明确，巴萨仍缺多名后卫。",
+        "speculative": "主-2让平只对应巴萨净胜2球；进攻强但对方结构和主队防线隐患压低大胜确定性，不把3球以上胜差视为稳健。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "主队进攻与对手防线/人员差异提供持续压制依据，但半场偶然性仍大。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "marketImpliedProbability": {
+        "h": 77.7,
+        "d": 12.5,
+        "a": 9.8
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "巴萨刚6:1胜阿拉维斯，Raphinha和Yamal各两球，进攻恢复；主场和当前市场支持主胜。反向看维拉欧冠前三场全胜，Flick强调其攻守结构明确，巴萨仍缺多名后卫。",
+      "risk": "不能用对阿拉维斯大胜证明对维拉同样碾压；后防人员不足、两场之间只有两次训练，客队转换可能制造失球或平局。",
+      "highVarianceScenario": "主-2让平只对应巴萨净胜2球；进攻强但对方结构和主队防线隐患压低大胜确定性，不把3球以上胜差视为稳健。",
+      "insuranceAudit": {
+        "original": "胜",
+        "considered": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主-2让平只对应巴萨净胜2球；进攻强但对方结构和主队防线隐患压低大胜确定性，不把3球以上胜差视为稳健。"
+      },
+      "sources": [
+        {
+          "url": "https://www.fcbarcelona.com/en/football/first-team/news/4603044/hansi-flick-aiming-for-top-eight",
+          "checkedAt": "2026-11-03T04:51:10.164Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.fcbarcelona.com/en/football/first-team/news/4603029/ready-for-aston-villa",
+          "checkedAt": "2026-11-03T04:51:10.232Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.fcbarcelona.com/en/football/first-team/news",
+          "checkedAt": "2026-11-03T04:49:08.156Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二010",
+      "id": "2042504",
+      "officialMatchId": 2042504,
+      "home": "比利亚雷",
+      "away": "巴黎圣曼",
+      "teams": "比利亚雷 : 巴黎圣曼",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "负",
+      "buy": "负",
+      "selection": "负",
+      "speculative": "让平",
+      "handicap": 1,
+      "spf": {
+        "win": 4.3,
+        "draw": 4.6,
+        "lose": 1.45
+      },
+      "rqspf": {
+        "win": 2.25,
+        "draw": 3.95,
+        "lose": 2.27
+      },
+      "goals": "3/4/5",
+      "halfFull": "平负/负负",
+      "score": "1:2/1:3/2:3",
+      "recommended": true,
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "目前可用证据以官方赛前市场为主：客胜明显领先，主+1市场显示客队大胜并非无争议。两家球队网页未返回可用新闻正文，不将球队名气写成已核实的攻防或名单依据。相对方向仍列巴黎，低信心。",
+        "speculative": "主+1让平为巴黎恰胜1球；仅作为市场优势范围内的窄胜情景，不声称已有独立净胜模型验证。",
+        "goals": "进球排序为市场参考，双边攻防证据不足以增加评级。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "marketImpliedProbability": {
+        "h": 20.4,
+        "d": 19.1,
+        "a": 60.5
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "目前可用证据以官方赛前市场为主：客胜明显领先，主+1市场显示客队大胜并非无争议。两家球队网页未返回可用新闻正文，不将球队名气写成已核实的攻防或名单依据。相对方向仍列巴黎，低信心。",
+      "risk": "双边近期对位与伤停资料缺口最大，主队主场及巴黎轮换均可能推翻市场方向；此场不进入稳健候选。",
+      "highVarianceScenario": "主+1让平为巴黎恰胜1球；仅作为市场优势范围内的窄胜情景，不声称已有独立净胜模型验证。",
+      "insuranceAudit": {
+        "original": "负",
+        "considered": [
+          "负",
+          "胜",
+          "平"
+        ],
+        "decision": "保留单一相对主方向；反向结果仍可能发生，不宣称覆盖",
+        "boundary": "主+1让平为巴黎恰胜1球；仅作为市场优势范围内的窄胜情景，不声称已有独立净胜模型验证。"
+      },
+      "sources": [
+        {
+          "url": "https://villarrealcf.es/en/news/",
+          "checkedAt": "2026-11-03T04:49:07.758Z",
+          "http": 200
+        },
+        {
+          "url": "https://en.psg.fr/teams/first-team/content",
+          "checkedAt": "2026-11-03T04:49:07.413Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
+    },
+    {
+      "number": "周二011",
+      "id": "2042505",
+      "officialMatchId": 2042505,
+      "home": "博德闪耀",
+      "away": "里尔",
+      "teams": "博德闪耀 : 里尔",
+      "league": "欧冠",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "saleDate": "2026-11-03",
+      "batch": "晚场",
+      "primaryPick": "胜/平",
+      "buy": "胜/平",
+      "selection": "胜/平",
+      "speculative": "让平",
+      "handicap": -1,
+      "spf": {
+        "win": 1.5,
+        "draw": 4.2,
+        "lose": 4.26
+      },
+      "rqspf": {
+        "win": 2.45,
+        "draw": 3.8,
+        "lose": 2.14
+      },
+      "goals": "3/4/2",
+      "halfFull": "平胜/胜胜",
+      "score": "2:1/2:2/3:1",
+      "recommended": true,
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "projectStarAudit": {
+        "direction": "博德闪耀主场刚3:2胜维京，教练强调高压、尽量掌球，里尔前场速度会攻击空间。主队病情总体好转但尚非全员恢复；里尔法甲9场18分、刚零封朗斯，故保留平局而不只看其欧冠零分。",
+        "speculative": "主-1让平即主队恰赢1球；主场压迫可提供小幅优势，但病后体能与里尔门将表现不支持默认大胜。",
+        "goals": "市场进球分布结合上述攻防与失球路径支持前三项排序；非精确概率。",
+        "halfFull": "半场独立样本有限，仅列条件情景不加星。",
+        "score": "三个比分为主剧本附近示例，未拟合比分分布，不加星。"
+      },
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "marketImpliedProbability": {
+        "h": 58.5,
+        "d": 20.9,
+        "a": 20.6
+      },
+      "probabilityMethod": "普通胜平负赔率倒数归一化，非模型真实胜率；定性排序可因公开对位和阵容证据调整，明确记录理由。",
+      "analysis": "博德闪耀主场刚3:2胜维京，教练强调高压、尽量掌球，里尔前场速度会攻击空间。主队病情总体好转但尚非全员恢复；里尔法甲9场18分、刚零封朗斯，故保留平局而不只看其欧冠零分。",
+      "risk": "病后体能与湿冷场地影响高压持续性；主队对多特末段曾难以摆脱低位，里尔若持续控球，后段失球风险加大。",
+      "highVarianceScenario": "主-1让平即主队恰赢1球；主场压迫可提供小幅优势，但病后体能与里尔门将表现不支持默认大胜。",
+      "insuranceAudit": {
+        "original": "胜/平",
+        "considered": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "decision": "基于上述具体反证列第二结果；顺序按综合倾向",
+        "boundary": "主-1让平即主队恰赢1球；主场压迫可提供小幅优势，但病后体能与里尔门将表现不支持默认大胜。"
+      },
+      "sources": [
+        {
+          "url": "https://www.glimt.no/nyheter/det-er-to-lag-som-har-sine-planer",
+          "checkedAt": "2026-11-03T04:51:10.115Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.glimt.no/nyheter/et-glimt-lag-pa-bedringens-vei-forrige-uke-var-brutal",
+          "checkedAt": "2026-11-03T04:51:09.797Z",
+          "http": 200
+        },
+        {
+          "url": "https://www.losc.fr/actualites/2026-11-02/18-points-apres-9-matchs-sur-les-bases-dun-debut-de-saison-record",
+          "checkedAt": "2026-11-03T04:51:10.020Z",
+          "http": 200
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-03T04:49:04.863Z",
+          "http": 200
+        }
+      ],
+      "analysisAt": "2026-11-03T05:15:36.611Z"
     }
   ],
   "scenarioLabels": {
-    "core20": "早场方向",
-    "core30": "概率排序",
-    "dream6": "高方差情景",
-    "goals4": "进球情景"
+    "core20": "稳健候选A",
+    "core30": "稳健候选B",
+    "dream6": "6场高方差",
+    "goals4": "4场进球情景"
   },
   "recommendations": [
     {
-      "id": "2026-11-03-early-core20",
+      "id": "2026-11-03-final-core20",
       "date": "2026-11-03",
       "category": "core20",
-      "name": "早场方向",
-      "sessionLabel": "早场",
-      "selectionText": "001 上海海港方向",
-      "cardNote": "纽喷气机三天恢复、14天五赛中的第四场；最近对惠灵顿两次后段被打身后失球。海港方向居前，但Wood的得分威胁及主场反击使主队胜出不能忽略。",
-      "oddsText": "赛事信息分析 · 低信心",
-      "legs": [],
+      "name": "稳健候选A",
+      "sessionLabel": "晚场",
+      "legs": [
+        {
+          "number": "周二006",
+          "teams": "LASK林茨 : 布拉迪斯",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "胜",
+          "selectionReason": "LASK进攻具持续产量，欧冠客场3:2胜葡萄牙体育；Slovan前三场1:6、0:3、0:4，客队预告确认Yirajang和Čerepkai缺阵、Kucharevič不在欧战名单。主队进攻面对客队防线是较明确优势。"
+        },
+        {
+          "number": "周二009",
+          "teams": "巴萨 : 维拉",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "胜",
+          "selectionReason": "巴萨刚6:1胜阿拉维斯，Raphinha和Yamal各两球，进攻恢复；主场和当前市场支持主胜。反向看维拉欧冠前三场全胜，Flick强调其攻守结构明确，巴萨仍缺多名后卫。"
+        }
+      ],
+      "selectionText": "006[胜] · 009[胜]",
+      "oddsText": "信息组合 · 不计算联合胜率或资金收益",
+      "cardNote": "006攻击对位与009主场进攻相对更清晰；共同风险是强队后防与短休，不代表稳胜。",
       "status": "赛前情景",
-      "stars": 0
+      "confidenceText": "中等",
+      "riskLabel": "后防/体能",
+      "stars": 1,
+      "starColor": "white"
     },
     {
-      "id": "2026-11-03-early-core30",
+      "id": "2026-11-03-final-core30",
       "date": "2026-11-03",
       "category": "core30",
-      "name": "概率排序",
-      "sessionLabel": "早场",
-      "selectionText": "客胜54.2% > 主胜24.3% > 平21.5%",
-      "cardNote": "倒数归一化的市场隐含概率，不是模型真实胜率；主要反证：主队主场和Wood得分威胁。",
-      "oddsText": "赛事信息分析 · 低信心",
-      "legs": [],
+      "name": "稳健候选B",
+      "sessionLabel": "中晚场",
+      "legs": [
+        {
+          "number": "周二002",
+          "teams": "柏太阳神 : 大田市民",
+          "kickoff": "2026-11-03T18:00:00+08:00",
+          "selection": "胜",
+          "selectionReason": "柏太阳神主场方向占优；亚足联前瞻确认柏上轮被叻丕逼平，大田此前不败被神户终结。主队优势主要来自当前市场与主场条件，不能把近期失分当作强势证明。"
+        },
+        {
+          "number": "周二007",
+          "teams": "费耶诺德 : 国际米兰",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "负/平",
+          "selectionReason": "国米对费耶诺德的分析指出其高位进攻后边后卫身后和中场防线间隙可被利用；欧冠3场丢8球。国米技术和转换优势支持客队方向；费耶诺德荷甲11场不败、33球，且国米刚输德比，需显式保留平局。"
+        }
+      ],
+      "selectionText": "002[胜] · 007[负/平]",
+      "oddsText": "信息组合 · 不计算联合胜率或资金收益",
+      "cardNote": "002主场相对优势、007客队方向并防平；证据强度弱于A，费耶诺德进攻不可低估。",
       "status": "赛前情景",
-      "stars": 0
+      "confidenceText": "偏低",
+      "riskLabel": "节奏/反击",
+      "stars": 0,
+      "starColor": "white"
     },
     {
-      "id": "2026-11-03-early-dream6",
+      "id": "2026-11-03-final-dream6",
       "date": "2026-11-03",
       "category": "dream6",
-      "name": "高方差情景",
-      "sessionLabel": "早场",
-      "selectionText": "001 客队净胜至少2球",
-      "cardNote": "仅在海港先取得主动、主队后段体能下降时成立；双方首发及客队近况未齐，风险高。",
-      "oddsText": "赛事信息分析 · 低信心",
-      "legs": [],
+      "name": "6场高方差情景",
+      "sessionLabel": "中晚场",
+      "legs": [
+        {
+          "number": "周二003",
+          "teams": "曼谷港务 : 北京国安",
+          "kickoff": "2026-11-03T20:15:00+08:00",
+          "selection": "让平",
+          "selectionReason": "主+1让平为国安恰胜1球；市场客队赢2球并非压倒性优势，客场控节奏窄胜是独立窄化分支。"
+        },
+        {
+          "number": "周二004",
+          "teams": "加拉塔萨 : 斯图加特",
+          "kickoff": "2026-11-04T01:45:00+08:00",
+          "selection": "让平",
+          "selectionReason": "主-1让平即主队赢1球；对手欧冠不败且进攻强，小胜较大胜更符合对抗。"
+        },
+        {
+          "number": "周二006",
+          "teams": "LASK林茨 : 布拉迪斯",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "让胜",
+          "selectionReason": "主-1让胜为主队赢至少2球；客队欧战连续大比分失利及攻击人员缺口支持该分支，但主队防线波动限制信心。"
+        },
+        {
+          "number": "周二007",
+          "teams": "费耶诺德 : 国际米兰",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "让平",
+          "selectionReason": "主+1让平即国米恰赢1球，主队有持续得分能力，使小胜比默认穿深边界更合理。"
+        },
+        {
+          "number": "周二009",
+          "teams": "巴萨 : 维拉",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "让平",
+          "selectionReason": "主-2让平只对应巴萨净胜2球；进攻强但对方结构和主队防线隐患压低大胜确定性，不把3球以上胜差视为稳健。"
+        },
+        {
+          "number": "周二011",
+          "teams": "博德闪耀 : 里尔",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "让平",
+          "selectionReason": "主-1让平即主队恰赢1球；主场压迫可提供小幅优势，但病后体能与里尔门将表现不支持默认大胜。"
+        }
+      ],
+      "selectionText": "003[让平] · 004[让平] · 006[让胜] · 007[让平] · 009[让平] · 011[让平]",
+      "oddsText": "信息组合 · 不计算联合胜率或资金收益",
+      "cardNote": "六场均是各自主方向的更窄边界；精确胜差容易落空，不是下注组合，也不计算串关收益。",
       "status": "赛前情景",
-      "stars": 0
+      "confidenceText": "偏低",
+      "riskLabel": "节奏/反击",
+      "stars": 0,
+      "starColor": "white"
     },
     {
-      "id": "2026-11-03-early-goals4",
+      "id": "2026-11-03-final-goals4",
       "date": "2026-11-03",
       "category": "goals4",
-      "name": "进球情景",
-      "sessionLabel": "早场",
-      "selectionText": "001 总进球 3 / 4 / 2",
-      "cardNote": "排序来自赛前进球市场并参考主队近期防线波动；比分1:2、1:3、0:2仅为同剧本示例。",
-      "oddsText": "赛事信息分析 · 低信心",
-      "legs": [],
+      "name": "4场进球情景",
+      "sessionLabel": "晚场",
+      "legs": [
+        {
+          "number": "周二004",
+          "teams": "加拉塔萨 : 斯图加特",
+          "kickoff": "2026-11-04T01:45:00+08:00",
+          "selection": "3/4/5",
+          "selectionReason": "加拉塔萨雷教练称阵容接近完整，近期进攻配合改善，客胜里尔4:2；斯图加特中路双前锋与前腰、翼卫参与进攻，同时留下转换空间。主场小幅倾向加拉塔萨雷，不能忽视客队欧冠2胜1平。"
+        },
+        {
+          "number": "周二006",
+          "teams": "LASK林茨 : 布拉迪斯",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "4/3/5",
+          "selectionReason": "LASK进攻具持续产量，欧冠客场3:2胜葡萄牙体育；Slovan前三场1:6、0:3、0:4，客队预告确认Yirajang和Čerepkai缺阵、Kucharevič不在欧战名单。主队进攻面对客队防线是较明确优势。"
+        },
+        {
+          "number": "周二009",
+          "teams": "巴萨 : 维拉",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "4/5/3",
+          "selectionReason": "巴萨刚6:1胜阿拉维斯，Raphinha和Yamal各两球，进攻恢复；主场和当前市场支持主胜。反向看维拉欧冠前三场全胜，Flick强调其攻守结构明确，巴萨仍缺多名后卫。"
+        },
+        {
+          "number": "周二011",
+          "teams": "博德闪耀 : 里尔",
+          "kickoff": "2026-11-04T04:00:00+08:00",
+          "selection": "3/4/2",
+          "selectionReason": "博德闪耀主场刚3:2胜维京，教练强调高压、尽量掌球，里尔前场速度会攻击空间。主队病情总体好转但尚非全员恢复；里尔法甲9场18分、刚零封朗斯，故保留平局而不只看其欧冠零分。"
+        }
+      ],
+      "selectionText": "004[3/4/5] · 006[4/3/5] · 009[4/5/3] · 011[3/4/2]",
+      "oddsText": "信息组合 · 不计算联合胜率或资金收益",
+      "cardNote": "开放转换、弱防线与巴萨进攻提供依据；任一场节奏收缩或红牌可改变分布。",
       "status": "赛前情景",
-      "stars": 0
+      "confidenceText": "偏低",
+      "riskLabel": "节奏/反击",
+      "stars": 0,
+      "starColor": "white"
     }
   ],
   "limitations": [
-    "未读取FT模型数据",
-    "仅为赛前公开信息分析，非下注或资金建议",
-    "阵容尚未完全核实；不把赔率归一化值称为真实胜率"
+    "仅供赛事信息分析，不提供下注金额或资金配置",
+    "概率百分数为市场隐含参考；综合定性排序不是校准模型",
+    "010缺少可用双边新闻正文，方向仅为低信心市场参考",
+    "所有比分、半全场和精确胜差均是高方差情景",
+    "07:45未完成发布；早场13:05提交、13:13线上核验，按真实时间保留"
   ],
   "trackingHistory": {
     "two": [
@@ -734,5 +2745,27 @@
   "reviewAt": "2026-11-04T06:25:00+08:00",
   "lastKickoff": "2026-11-04T04:00:00+08:00",
   "estimatedLastEnd": "2026-11-04T06:00:00+08:00",
-  "publicationTimestampMeaning": "上传提交时间；页面部署可见时间另行核验"
+  "publicationTimestampMeaning": "上传提交时间；页面部署可见时间另行核验",
+  "earlyBatchLocked": true,
+  "earlyOnlineVerifiedAt": "2026-11-03T05:13:13.066Z",
+  "earlyOriginalReport": "data/reports/versions/2026-11-03-early.json",
+  "earlyOriginalImages": [
+    "cards/2026-11-03-early-locked-scan.png",
+    "cards/2026-11-03-early-locked-tracking.png"
+  ],
+  "observationCount": 0,
+  "marketOnlyRows": [
+    "周二010"
+  ],
+  "reviewScheduleUpdated": true,
+  "reviewScheduleVerifiedAt": "2026-11-03T05:21:08.061Z",
+  "reviewAutomationId": "automation-2",
+  "imageFiles": {
+    "scan": "2026-11-03-final-locked-scan.png",
+    "tracking": "2026-11-03-final-locked-tracking.png"
+  },
+  "originalImages": [
+    "public/cards/2026-11-03-final-locked-scan.png",
+    "public/cards/2026-11-03-final-locked-tracking.png"
+  ]
 }
