@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 export function validateFormalReport(root){
   const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
   const report=read('data/latest.json');
@@ -14,7 +15,19 @@ export function validateFormalReport(root){
   }
   const review=read('data/review-latest.json');
   if(review.date>='2026-10-26'){
-    const original=read(`data/reports/${review.date}.json`),byNumber=new Map(original.scanTable.map(r=>[r.number,r]));
+    let original=read(`data/reports/${review.date}.json`);
+    if(review.originalSnapshot){
+      const expectedPath=`data/research/${review.date}/remote-current-latest.json`;
+      if(review.originalSnapshot.path!==expectedPath)throw Error('Invalid original snapshot path');
+      const bytes=fs.readFileSync(path.join(root,expectedPath));
+      if(crypto.createHash('sha256').update(bytes).digest('hex')!==review.originalSnapshot.sha256)throw Error('Original snapshot hash mismatch');
+      const snapshot=JSON.parse(bytes),restored=Date.parse(snapshot.starReview?.restoredAt),firstKickoff=Math.min(...original.scanTable.map(r=>Date.parse(r.kickoff)));
+      if(snapshot.date!==review.date||snapshot.finalLocked!==true||!Number.isFinite(restored)||restored>=firstKickoff)throw Error('Snapshot must be locked and restored before kickoff');
+      if(snapshot.scanTable.length!==original.scanTable.length||JSON.stringify(snapshot.recommendations)!==JSON.stringify(original.recommendations))throw Error('Snapshot changed original tickets');
+      for(let i=0;i<original.scanTable.length;i++)for(const key of ['number','teams','kickoff','buy','primaryPick','speculative','goals','halfFull','score','handicap'])if(snapshot.scanTable[i][key]!==original.scanTable[i][key])throw Error('Snapshot changed original pick '+key);
+      original=snapshot;
+    }
+    const byNumber=new Map(original.scanTable.map(r=>[r.number,r]));
     for(const row of review.rows||[]){const before=byNumber.get(row.number);if(!before)throw Error('Missing original scan '+row.number);validateRow(row);for(const key of keys){if(row.projectStars[key]!==before.projectStars[key]||row.projectStarColors[key]!==before.projectStarColors[key])throw Error('Changed pre-match star '+row.number+' '+key);}for(const [reviewKey,originalKey] of [['recommendedPick','primaryPick'],['speculativePick','speculative'],['goalsPick','goals'],['halfFullPick','halfFull'],['scorePick','score']]){if(row[reviewKey]!==before[originalKey])throw Error('Changed pre-match pick or order '+row.number+' '+reviewKey);}}
   }
   return true;

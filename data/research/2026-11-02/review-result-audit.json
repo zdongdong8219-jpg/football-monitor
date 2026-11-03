@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-02",
+  "fixtures": [
+    {
+      "number": "周一001",
+      "teams": "国际图尔 vs 赫尔火花",
+      "scheduledKickoff": "2026-11-03T00:00:00+08:00",
+      "aliases": {
+        "home": "FC Inter Turku",
+        "away": "IF Gnistan"
+      },
+      "verifiedFullTime": "4:3",
+      "verifiedHalfTime": "1:1",
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=6145891",
+          "sourceMatchDate": "2026-11-02T16:00:00.000Z",
+          "sourceHome": "FC Inter Turku",
+          "sourceAway": "IF Gnistan",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/audit-detail-6145891.json",
+          "fullTime": "4:3",
+          "halfTime": "1:1",
+          "scheduledDeltaMinutes": 0,
+          "sha256": "e100f76e84e4832bc36f0d52b53671f423030a14d105ed8b0ab18266f66e218c"
+        },
+        {
+          "sourceUrl": "https://www.futbol24.com/match/2026/11/02/national/Finland/Veikkausliiga/2026/Inter-Turku/vs/Gnistan",
+          "sourceMatchDate": "2026-11-03T00:00:00+08:00",
+          "sourceHome": "FC Inter Turku",
+          "sourceAway": "IF Gnistan",
+          "fullTime": "4:3",
+          "halfTime": "1:1",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/secondary-001.html",
+          "sha256": "222c16b441e610da56b4df699e3f74006870e01dd0053384a73b90b46327c6fd",
+          "verificationNotes": "Explicit FT/HT observed in source body; date and teams checked.",
+          "checkedAt": "2026-11-03T01:41:19.436Z"
+        }
+      ],
+      "settlementAllowed": true,
+      "auditStatus": "two-independent-sources-verified"
+    },
+    {
+      "number": "周一002",
+      "teams": "萨索洛 vs 佛罗伦萨",
+      "scheduledKickoff": "2026-11-03T01:30:00+08:00",
+      "aliases": {
+        "home": "Sassuolo",
+        "away": "Fiorentina"
+      },
+      "verifiedFullTime": "2:4",
+      "verifiedHalfTime": "1:1",
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5749738",
+          "sourceMatchDate": "2026-11-02T17:30:00.000Z",
+          "sourceHome": "Sassuolo",
+          "sourceAway": "Fiorentina",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/audit-detail-5749738.json",
+          "fullTime": "2:4",
+          "halfTime": "1:1",
+          "scheduledDeltaMinutes": 0,
+          "sha256": "f1b35eee0bf9dc1aa172a1c34488b6e0567de795c3454d2d2f842e8ec3841b66"
+        }
+      ],
+      "settlementAllowed": true,
+      "auditStatus": "primary-source-verified"
+    },
+    {
+      "number": "周一003",
+      "teams": "盖斯 vs 索尔纳",
+      "scheduledKickoff": "2026-11-03T02:00:00+08:00",
+      "aliases": {
+        "home": "GAIS",
+        "away": "AIK"
+      },
+      "verifiedFullTime": "2:1",
+      "verifiedHalfTime": "1:0",
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5107646",
+          "sourceMatchDate": "2026-11-02T18:00:00.000Z",
+          "sourceHome": "GAIS",
+          "sourceAway": "AIK",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/audit-detail-5107646.json",
+          "fullTime": "2:1",
+          "halfTime": "1:0",
+          "scheduledDeltaMinutes": 0,
+          "sha256": "5958bcbe2ca966fa90dda4c825ad798e83f151e637c07b2a4b778553d07dd59e"
+        },
+        {
+          "sourceUrl": "https://www.futbol24.com/match/2026/11/02/national/Sweden/Allsvenskan/2026/GAIS/vs/AIK",
+          "sourceMatchDate": "2026-11-03T02:00:00+08:00",
+          "sourceHome": "GAIS",
+          "sourceAway": "AIK",
+          "fullTime": "2:1",
+          "halfTime": "1:0",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/secondary-003.html",
+          "sha256": "529063b0d0456c5252b22c819b286df8dfb19c2ffc5021389e0ae989a7a8a137",
+          "verificationNotes": "Explicit FT/HT observed in source body; date and teams checked.",
+          "checkedAt": "2026-11-03T01:41:19.440Z"
+        }
+      ],
+      "settlementAllowed": true,
+      "auditStatus": "two-independent-sources-verified"
+    },
+    {
+      "number": "周一004",
+      "teams": "亚特兰大 vs 帕尔马",
+      "scheduledKickoff": "2026-11-03T03:45:00+08:00",
+      "aliases": {
+        "home": "Atalanta",
+        "away": "Parma"
+      },
+      "verifiedFullTime": "0:3",
+      "verifiedHalfTime": "0:1",
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5749731",
+          "sourceMatchDate": "2026-11-02T19:45:00.000Z",
+          "sourceHome": "Atalanta",
+          "sourceAway": "Parma",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/audit-detail-5749731.json",
+          "fullTime": "0:3",
+          "halfTime": "0:1",
+          "scheduledDeltaMinutes": 0,
+          "sha256": "46547e46069b1b5aa095120324dc749ea194460e51256ba6a08bac3d6b41747f"
+        },
+        {
+          "sourceUrl": "https://www.atalanta.it/news/il-parma-passa-a-bergamo",
+          "sourceMatchDate": "2026-11-03T03:45:00+08:00",
+          "sourceHome": "Atalanta",
+          "sourceAway": "Parma",
+          "fullTime": "0:3",
+          "halfTime": "0:1",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/secondary-004.html",
+          "sha256": "ca9e7200fb560663e7f7097db1314d854f1ae6ba02d5810249d6ee5d0579b826",
+          "verificationNotes": "Official dated report; all three goals 41,47,58 minutes, HT0:1",
+          "checkedAt": "2026-11-03T01:41:19.441Z"
+        }
+      ],
+      "settlementAllowed": true,
+      "auditStatus": "two-independent-sources-verified"
+    },
+    {
+      "number": "周一005",
+      "teams": "圣旺红星 vs 南锡",
+      "scheduledKickoff": "2026-11-03T03:45:00+08:00",
+      "aliases": {
+        "home": "Red Star",
+        "away": "Nancy"
+      },
+      "verifiedFullTime": "1:4",
+      "verifiedHalfTime": "1:2",
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5803305",
+          "sourceMatchDate": "2026-11-02T19:45:00.000Z",
+          "sourceHome": "Red Star",
+          "sourceAway": "Nancy",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/audit-detail-5803305.json",
+          "fullTime": "1:4",
+          "halfTime": "1:2",
+          "scheduledDeltaMinutes": 0,
+          "sha256": "55ed8a185e4d0f77575705307597e3eeb39faec064294e8396914b2da43e2963"
+        },
+        {
+          "sourceUrl": "https://www.tntsports.co.uk/football/ligue-2-bkt/2026-2027/live-red-star-fc-as-nancy-lorraine_mtc21875264/live.shtml",
+          "sourceMatchDate": "2026-11-03T03:45:00+08:00",
+          "sourceHome": "Red Star",
+          "sourceAway": "Nancy",
+          "fullTime": "1:4",
+          "halfTime": "1:2",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/secondary-005.html",
+          "sha256": "388030fac2e1ae6470a68269b6af8c2ff91ccb01c3ec3ed82c34887cd69a9c84",
+          "verificationNotes": "Dated TNT finished match with complete scorers 31;22,45+5,62,87 gives HT1:2",
+          "checkedAt": "2026-11-03T01:41:19.445Z"
+        }
+      ],
+      "settlementAllowed": true,
+      "auditStatus": "two-independent-sources-verified"
+    },
+    {
+      "number": "周一006",
+      "teams": "纽卡斯尔 vs 埃弗顿",
+      "scheduledKickoff": "2026-11-03T04:00:00+08:00",
+      "aliases": {
+        "home": "Newcastle United",
+        "away": "Everton"
+      },
+      "verifiedFullTime": "0:1",
+      "verifiedHalfTime": "0:0",
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5795503",
+          "sourceMatchDate": "2026-11-02T20:00:00.000Z",
+          "sourceHome": "Newcastle United",
+          "sourceAway": "Everton",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/audit-detail-5795503.json",
+          "fullTime": "0:1",
+          "halfTime": "0:0",
+          "scheduledDeltaMinutes": 0,
+          "sha256": "fe6fc5f7eab740b0fc875936aa0fd14d92949129db7f6e2cc3285e7bdabc3840"
+        }
+      ],
+      "settlementAllowed": true,
+      "auditStatus": "primary-source-verified"
+    },
+    {
+      "number": "周一007",
+      "teams": "拉科 vs 奥萨苏纳",
+      "scheduledKickoff": "2026-11-03T04:00:00+08:00",
+      "aliases": {
+        "home": "Deportivo A Coruña",
+        "away": "Osasuna"
+      },
+      "verifiedFullTime": "2:1",
+      "verifiedHalfTime": "0:1",
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5868113",
+          "sourceMatchDate": "2026-11-02T20:00:00.000Z",
+          "sourceHome": "Deportivo A Coruña",
+          "sourceAway": "Osasuna",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/audit-detail-5868113.json",
+          "fullTime": "2:1",
+          "halfTime": "0:1",
+          "scheduledDeltaMinutes": 0,
+          "sha256": "fea7b51b54b0f36d348dc8b780a878e363280cad76b2754e73d0b0ab2d7aed32"
+        },
+        {
+          "sourceUrl": "https://www.futbol24.com/match/2026/11/02/national/Spain/Primera-Division/2026-2027/Dep-A-Coruna/vs/Osasuna",
+          "sourceMatchDate": "2026-11-03T04:00:00+08:00",
+          "sourceHome": "Deportivo A Coruña",
+          "sourceAway": "Osasuna",
+          "fullTime": "2:1",
+          "halfTime": "0:1",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/secondary-007.html",
+          "sha256": "e9d8975745b1473770b1882931094be7c623e2ddbd2acbb395048c9beaf45f63",
+          "verificationNotes": "Explicit FT/HT observed in source body; date and teams checked.",
+          "checkedAt": "2026-11-03T01:41:19.448Z"
+        }
+      ],
+      "settlementAllowed": true,
+      "auditStatus": "two-independent-sources-verified"
+    },
+    {
+      "number": "周一008",
+      "teams": "本菲卡 vs 阿尔维卡",
+      "scheduledKickoff": "2026-11-03T04:15:00+08:00",
+      "aliases": {
+        "home": "Benfica",
+        "away": "Alverca"
+      },
+      "verifiedFullTime": "1:0",
+      "verifiedHalfTime": "0:0",
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5887671",
+          "sourceMatchDate": "2026-11-02T20:15:00.000Z",
+          "sourceHome": "Benfica",
+          "sourceAway": "Alverca",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/audit-detail-5887671.json",
+          "fullTime": "1:0",
+          "halfTime": "0:0",
+          "scheduledDeltaMinutes": 0,
+          "sha256": "bdceb1c03ed278bf9ef2dd18d2b2c7fb381fd1e6f2c71cc8ed4dab05331773c8"
+        },
+        {
+          "sourceUrl": "https://www.slbenfica.pt/pt-pt/futebol/match-center/benfica-alverca-2-novembro-2026",
+          "sourceMatchDate": "2026-11-03T04:15:00+08:00",
+          "sourceHome": "Benfica",
+          "sourceAway": "Alverca",
+          "fullTime": "1:0",
+          "halfTime": "0:0",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/secondary-008.html",
+          "sha256": "134b8b7e8e344c8667226eada84a771b28003d1dbcb53fa1eb5f034ba4763e4d",
+          "verificationNotes": "Explicit FT/HT observed in source body; date and teams checked.",
+          "checkedAt": "2026-11-03T01:41:19.455Z"
+        }
+      ],
+      "settlementAllowed": true,
+      "auditStatus": "two-independent-sources-verified"
+    },
+    {
+      "number": "周一009",
+      "teams": "布拉干RB vs 桑托斯",
+      "scheduledKickoff": "2026-11-03T07:00:00+08:00",
+      "aliases": {
+        "home": "RB Bragantino",
+        "away": "Santos"
+      },
+      "verifiedFullTime": "2:1",
+      "verifiedHalfTime": "2:1",
+      "verifiedSources": [
+        {
+          "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5103698",
+          "sourceMatchDate": "2026-11-02T23:00:00.000Z",
+          "sourceHome": "RB Bragantino",
+          "sourceAway": "Santos",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/audit-detail-5103698.json",
+          "fullTime": "2:1",
+          "halfTime": "2:1",
+          "scheduledDeltaMinutes": 0,
+          "sha256": "1ff10eceff781057839c1904ff76bff8a3438dfe8e3f6347ab54d217fcf44fc0"
+        },
+        {
+          "sourceUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/02/rb-bragantino-x-santos-brasileirao.ghtm",
+          "sourceMatchDate": "2026-11-03T07:00:00+08:00",
+          "sourceHome": "RB Bragantino",
+          "sourceAway": "Santos",
+          "fullTime": "2:1",
+          "halfTime": "2:1",
+          "finished": true,
+          "rawFile": "data/research/2026-11-02/secondary-009.html",
+          "sha256": "608dd1636d062f9213b76be888e482beee9cef54bc2ce34187b90324822f8ac1",
+          "verificationNotes": "Dated UOL report and complete goals, all first half; FT and HT2:1",
+          "checkedAt": "2026-11-03T01:41:19.457Z"
+        }
+      ],
+      "settlementAllowed": true,
+      "auditStatus": "two-independent-sources-verified"
+    }
+  ],
+  "updatedAt": "2026-11-03T01:41:19.457Z"
+}
