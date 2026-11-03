@@ -1,9 +1,9 @@
 {
   "date": "2026-11-02",
   "title": "FT足球竞彩模型 · 2026-11-02最终复盘",
-  "stage": "final",
-  "completed": false,
-  "mobileVerified": false,
+  "stage": "completed-v6-full-cell",
+  "completed": true,
+  "mobileVerified": true,
   "reviewedAt": "2026-11-03T01:41:19.596Z",
   "summary": "9场终场和半场已核验；推荐5/9，博1/9，进球数4/9，半全场4/9，比分3/9。9场均已交付并完成结算。",
   "verification": "9场FotMob精确球队与开球时间匹配；7个正式票涉及比赛均有独立第二来源。",
@@ -1165,12 +1165,16 @@
     "data/research/2026-11-02/remote-current-latest.json": "d12cacf438568175d285daa6a851f993a062719b064fcd8bf970677f0256c720"
   },
   "acceptance": {
-    "localPassed": true,
-    "onlinePassed": false,
-    "template": "2026-11-02-final-v6"
+    "passed": true,
+    "visual": "data/research/2026-11-02/review-visual-v6-audit.json",
+    "local": "data/research/2026-11-02/local-phone-verification.json",
+    "online": "data/research/2026-11-02/online-phone-verification.json",
+    "files": "data/research/2026-11-02/online-file-verification.json",
+    "templateLockVersion": "2026-11-02-final-v6"
   },
   "originalSnapshot": {
     "path": "data/research/2026-11-02/remote-current-latest.json",
     "sha256": "d12cacf438568175d285daa6a851f993a062719b064fcd8bf970677f0256c720"
-  }
+  },
+  "verifiedAt": "2026-11-03T02:01:08.965Z"
 }

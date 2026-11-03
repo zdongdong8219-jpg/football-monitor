@@ -1,10 +1,19 @@
 {
   "date": "2026-11-02",
-  "completed": false,
-  "mobileVerified": false,
-  "stage": "local-gates-passed-awaiting-online",
+  "completed": true,
+  "mobileVerified": true,
+  "stage": "completed-v6-full-cell",
   "reviewAt": "2026-11-03T01:25:00.000Z",
   "lastProgressAt": "2026-11-03T01:53:35.433Z",
   "settledMatches": 9,
-  "pendingMatches": 0
+  "pendingMatches": 0,
+  "verifiedAt": "2026-11-03T02:01:08.969Z",
+  "acceptance": {
+    "passed": true,
+    "visual": "data/research/2026-11-02/review-visual-v6-audit.json",
+    "local": "data/research/2026-11-02/local-phone-verification.json",
+    "online": "data/research/2026-11-02/online-phone-verification.json",
+    "files": "data/research/2026-11-02/online-file-verification.json",
+    "templateLockVersion": "2026-11-02-final-v6"
+  }
 }
