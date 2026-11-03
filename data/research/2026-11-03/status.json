@@ -1,0 +1,69 @@
+{
+  "lastProgressAt": "2026-11-03T06:01:38.877Z",
+  "taskRunId": "13-14-20261103-1245",
+  "mobileVerified": true,
+  "runStartedAt": "2026-11-03T12:48:12.2468648+08:00",
+  "completed": true,
+  "finalLocked": true,
+  "runPhase": "final_locked",
+  "date": "2026-11-03",
+  "remoteHead": "d5c3ca8b02bd37e5ca8bea6a1c14d683a0d0cd0a",
+  "groups": {
+    "early": [
+      "周二001"
+    ],
+    "middle": [
+      "周二002",
+      "周二003"
+    ],
+    "late": [
+      "周二004",
+      "周二005",
+      "周二006",
+      "周二007",
+      "周二008",
+      "周二009",
+      "周二010",
+      "周二011"
+    ]
+  },
+  "totalMatches": 11,
+  "failedPhase": null,
+  "lastError": null,
+  "earlyCount": 1,
+  "middleCount": 2,
+  "lateCount": 8,
+  "completedSteps": [
+    "startup_status",
+    "rules_and_memory_read",
+    "configured_astra_medium_verified",
+    "five_cloud_snapshots_saved",
+    "web_calculator_checked",
+    "official_list_checked",
+    "mobile_calculator_checked",
+    "complete_schedule_corrected",
+    "early_club_prematch_evidence_saved",
+    "failure_recorded",
+    "1245_startup",
+    "1245_official_all_11_restored",
+    "early_analysis_built",
+    "early_published",
+    "early_online_four_png_verified",
+    "full_11_match_analysis",
+    "four_information_scenarios",
+    "local_four_distinct_png_verified",
+    "review_schedule_verified",
+    "final_published_after_1400",
+    "online_four_distinct_png_verified",
+    "final_locked"
+  ],
+  "earlyPublished": true,
+  "nextRunAt": "2026-11-03T12:45:00+08:00",
+  "publicationNotBefore": "2026-11-03T14:00:00+08:00",
+  "reviewAt": "2026-11-04T06:25:00+08:00",
+  "reviewScheduleUpdated": true,
+  "earlyMobileVerified": true,
+  "earlyBatchLocked": true,
+  "earlyPublishedAt": "2026-11-03T05:05:25.846Z",
+  "earlyOnlineVerifiedAt": "2026-11-03T05:13:13.066Z"
+}

@@ -9,9 +9,9 @@
   "batchLabel": "中晚场终版",
   "deliveryStage": "final",
   "batchFinal": true,
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "earlyPublished": true,
   "earlyDeadlineMissed": false,
   "morningScheduledPublicationMissed": true,
@@ -2767,5 +2767,11 @@
   "originalImages": [
     "public/cards/2026-11-03-final-locked-scan.png",
     "public/cards/2026-11-03-final-locked-tracking.png"
-  ]
+  ],
+  "onlineVerifiedAt": "2026-11-03T06:01:38.877Z",
+  "verificationScope": "Edge browser 430px emulation with actual clipboard PNG readback; physical phone not tested",
+  "originalImageHashes": {
+    "scan": "b176cc9799cff39bfce7b3175f6029defce58a8e128de5be601c633047ed2942",
+    "tracking": "7f8ad3c6a60b83823f41f63de6affe730c964e84e32b463d54cc4b89e86d6288"
+  }
 }
