@@ -2545,6 +2545,55 @@
         "stake": 1000,
         "returned": 0,
         "net": -1000
+      },
+      {
+        "id": "2026-11-03-final-core20",
+        "date": "2026-11-03",
+        "category": "core20",
+        "name": "2.0版2串1",
+        "sessionLabel": "晚场",
+        "selectionText": "006[胜] · 009[胜]",
+        "originalSelectionText": "006[胜] · 009[胜]",
+        "status": "命中",
+        "hit": true,
+        "hitCount": 2,
+        "totalLegs": 2,
+        "stake": 1000,
+        "returned": 1423.8,
+        "net": 423.8,
+        "legs": [
+          {
+            "number": "周二006",
+            "teams": "LASK林茨 : 布拉迪斯",
+            "kickoff": "2026-11-04T04:00:00+08:00",
+            "selection": "胜",
+            "selectionReason": "LASK进攻具持续产量，欧冠客场3:2胜葡萄牙体育；Slovan前三场1:6、0:3、0:4，客队预告确认Yirajang和Čerepkai缺阵、Kucharevič不在欧战名单。主队进攻面对客队防线是较明确优势。",
+            "odds": 1.26,
+            "hit": true,
+            "actualScore": "4:0",
+            "halfScore": "3:0"
+          },
+          {
+            "number": "周二009",
+            "teams": "巴萨 : 维拉",
+            "kickoff": "2026-11-04T04:00:00+08:00",
+            "selection": "胜",
+            "selectionReason": "巴萨刚6:1胜阿拉维斯，Raphinha和Yamal各两球，进攻恢复；主场和当前市场支持主胜。反向看维拉欧冠前三场全胜，Flick强调其攻守结构明确，巴萨仍缺多名后卫。",
+            "odds": 1.13,
+            "hit": true,
+            "actualScore": "3:0",
+            "halfScore": "1:0"
+          }
+        ],
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 1423.8,
+          "net": 423.8,
+          "cumulativeNet": 2729.5,
+          "oddsSource": "data/reports/versions/2026-11-03-core30-r1.json",
+          "oddsSourceSha256": "76e11bc6f1136d1667012f90425b8ccb9f2686ef2b38fa3f35fd8414f06b8a46"
+        }
       }
     ],
     "three": [
@@ -2764,6 +2813,55 @@
         "stake": 1000,
         "returned": 3190,
         "net": 2190
+      },
+      {
+        "id": "2026-11-03-core30-r1",
+        "date": "2026-11-03",
+        "category": "core30",
+        "name": "3.0版2串1",
+        "sessionLabel": "中晚场",
+        "selectionText": "周二003[负] · 周二004[胜] · R1",
+        "originalSelectionText": "周二003[负] · 周二004[胜] · R1",
+        "status": "未中",
+        "hit": false,
+        "hitCount": 1,
+        "totalLegs": 2,
+        "stake": 1000,
+        "returned": 0,
+        "net": -1000,
+        "legs": [
+          {
+            "number": "周二003",
+            "teams": "曼谷港务 : 北京国安",
+            "kickoff": "2026-11-03T20:15:00+08:00",
+            "selection": "负",
+            "odds": 1.62,
+            "selectionReason": "亚足联明确曼谷港务亚冠三连败、北京国安处于较好晋级位置；普通客胜市场领先，方向仍偏国安。主队比赛身份由亚足联及官方赛程双重确认。",
+            "hit": false,
+            "actualScore": "7:4",
+            "halfScore": "3:4"
+          },
+          {
+            "number": "周二004",
+            "teams": "加拉塔萨 : 斯图加特",
+            "kickoff": "2026-11-04T01:45:00+08:00",
+            "selection": "胜",
+            "odds": 1.9,
+            "selectionReason": "加拉塔萨雷教练称阵容接近完整，近期进攻配合改善，客胜里尔4:2；斯图加特中路双前锋与前腰、翼卫参与进攻，同时留下转换空间。主场小幅倾向加拉塔萨雷，不能忽视客队欧冠2胜1平。",
+            "hit": true,
+            "actualScore": "2:0",
+            "halfScore": "2:0"
+          }
+        ],
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 0,
+          "net": -1000,
+          "cumulativeNet": 2856,
+          "oddsSource": "data/reports/versions/2026-11-03-core30-r1.json",
+          "oddsSourceSha256": "76e11bc6f1136d1667012f90425b8ccb9f2686ef2b38fa3f35fd8414f06b8a46"
+        }
       }
     ]
   },
@@ -2818,5 +2916,6 @@
     "onlineVerifiedAt": "2026-11-03T08:50:15.478Z",
     "verificationScope": "430px Edge浏览器模拟；四次真实点击和剪贴板PNG像素哈希核对，非实体手机",
     "geometryFile": "research/2026-11-03/core30-r1/scan-geometry.json"
-  }
+  },
+  "trackingPolicy": "用户明确指定：2.0与3.0每票1000元模拟跟踪，独立累计；infoOnly不删除该模拟台账；不代表实际下注。梦想情景不入账。"
 }
