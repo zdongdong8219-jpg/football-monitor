@@ -1,0 +1,2060 @@
+[
+  {
+    "number": "周三001",
+    "identity": {
+      "number": "周三001",
+      "home": "浦项制铁",
+      "away": "大阪钢巴",
+      "kickoff": "2026-11-04T18:00:00+08:00",
+      "handicap": 1
+    },
+    "sources": [
+      {
+        "url": "https://www.gamba-osaka.net/english/gameinfo/news/no/21203/",
+        "checkedAt": "2026-11-04T04:47:43.542Z",
+        "http": 200,
+        "sha256": "c77151ce52a850c78f9e667c4672507315489a016c58ad124c68082e9943391f"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "浦项临时主帅可能提高主场投入，巴西攻击手及定位球仍有威胁；钢巴周末还有德比，疲劳与效率可令客胜落空。",
+    "cleanSheetAssessment": "浦项前三场仅进1使钢巴零封有路径，但定位球和客队负荷使零封非确定。",
+    "marginAssessment": "主+1：普通负=客赢至少1；穿盘让负=客赢至少2；让平=客恰赢1。客队连续不进球反对高估两球胜差，浦项进球弱不自动证明钢巴恰赢1。普通客胜优先，穿盘与让平都缺独立增量依据，不选精确边界。",
+    "speculativeRationale": "主+1：普通负=客赢至少1；穿盘让负=客赢至少2；让平=客恰赢1。客队连续不进球反对高估两球胜差，浦项进球弱不自动证明钢巴恰赢1。普通客胜优先，穿盘与让平都缺独立增量依据，不选精确边界。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.3,
+        "p": 0.24177769329400617
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.6,
+        "p": 0.2216295521861723
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 5.3,
+        "p": 0.15054082790004158
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 5.3,
+        "p": 0.15054082790004158
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 9.25,
+        "p": 0.0862558257156995
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 13,
+        "p": 0.06137433752847849
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 15,
+        "p": 0.053191092524681356
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 23,
+        "p": 0.034689842950879145
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.3,
+        "p": 0.24177769329400617
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.6,
+        "p": 0.2216295521861723
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 5.3,
+        "p": 0.15054082790004158
+      }
+    ],
+    "goalsRationale": "钢巴有射门量但近期效率低，浦项得分有限；中低进球的市场排序可参考，0/1不可删，反击与换帅使4+仍可能。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s01s01",
+        "label": "1:1",
+        "odds": 6.5,
+        "p": 0.10915084222842095
+      },
+      {
+        "key": "s01s02",
+        "label": "1:2",
+        "odds": 6.75,
+        "p": 0.10510821844218313
+      },
+      {
+        "key": "s00s01",
+        "label": "0:1",
+        "odds": 8,
+        "p": 0.08868505931059201
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "浦项临时主帅可能提高主场投入，巴西攻击手及定位球仍有威胁；钢巴周末还有德比，疲劳与效率可令客胜落空。",
+    "confidence": "moderate",
+    "starsAudit": {
+      "values": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "钢巴官方前瞻记录近两场分别16和14次射门、但连续两场未进球；浦项亚冠三连败仅入1球且10月30日解约主帅。钢巴创造机会能力与对手困境支持客队先，持续不进球和密集九连赛要求防平。",
+        "speculative": "主+1：普通负=客赢至少1；穿盘让负=客赢至少2；让平=客恰赢1。客队连续不进球反对高估两球胜差，浦项进球弱不自动证明钢巴恰赢1。普通客胜优先，穿盘与让平都缺独立增量依据，不选精确边界。",
+        "goals": "钢巴有射门量但近期效率低，浦项得分有限；中低进球的市场排序可参考，0/1不可删，反击与换帅使4+仍可能。",
+        "halfFull": "客胜相关半全场由市场排序列出，钢巴开局终结不稳，不加星。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": true,
+      "reason": "市场差异明显，结合基本面比较，不由低赔推稳定",
+      "officialHandicap": 1,
+      "ordinaryVsCoverVsExactDraw": "主+1：普通负=客赢至少1；穿盘让负=客赢至少2；让平=客恰赢1。客队连续不进球反对高估两球胜差，浦项进球弱不自动证明钢巴恰赢1。普通客胜优先，穿盘与让平都缺独立增量依据，不选精确边界。",
+      "afterLeadExpansion": "钢巴官方前瞻记录近两场分别16和14次射门、但连续两场未进球；浦项亚冠三连败仅入1球且10月30日解约主帅。钢巴创造机会能力与对手困境支持客队先，持续不进球和密集九连赛要求防平。",
+      "opponentCounterThreat": "浦项临时主帅可能提高主场投入，巴西攻击手及定位球仍有威胁；钢巴周末还有德比，疲劳与效率可令客胜落空。",
+      "selected": "负"
+    }
+  },
+  {
+    "number": "周三002",
+    "identity": {
+      "number": "周三002",
+      "home": "布里兰",
+      "away": "鹿岛鹿角",
+      "kickoff": "2026-11-04T20:15:00+08:00",
+      "handicap": 1
+    },
+    "sources": [
+      {
+        "url": "https://www.antlers.co.jp/ja-world/blogs/news/261103wg2eng",
+        "checkedAt": "2026-11-04T04:49:05.022Z",
+        "http": 200,
+        "sha256": "f71a489b20a1c4ff1200a982b3cd6566bea921c63111e5ff745907431d4b6048"
+      },
+      {
+        "url": "https://www.antlers.co.jp/ja-world/blogs/news/261029hb37vq",
+        "checkedAt": "2026-11-04T04:49:05.013Z",
+        "http": 200,
+        "sha256": "7f8074e6b649dc8e2bded581bed3919b7f4f1d1d4ec7a47929652fea85c66532"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "金泰贤伤情公告、鹿岛连续作赛和泰国客场环境；布里兰当前阵容与定位球数据不全，不能以1.55判断稳定。",
+    "cleanSheetAssessment": "主队主场反击与客队防线伤情使零封依据不足。",
+    "marginAssessment": "主+1：客胜至少1、让负至少2、让平恰1。实力差为市场显示，鹿岛教练未提供压制或扩大比分证据；普通客胜先于精确边界，既不硬推穿盘也不默认让平。",
+    "speculativeRationale": "主+1：客胜至少1、让负至少2、让平恰1。实力差为市场显示，鹿岛教练未提供压制或扩大比分证据；普通客胜先于精确边界，既不硬推穿盘也不默认让平。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.5,
+        "p": 0.22788511044210955
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.8,
+        "p": 0.20989418067036406
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.8,
+        "p": 0.16616622636403822
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 5.8,
+        "p": 0.13751687699092818
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 8,
+        "p": 0.09969973581842292
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 13,
+        "p": 0.06135368358056796
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 15,
+        "p": 0.053173192436492225
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 18,
+        "p": 0.044310993697076854
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.5,
+        "p": 0.22788511044210955
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.8,
+        "p": 0.20989418067036406
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.8,
+        "p": 0.16616622636403822
+      }
+    ],
+    "goalsRationale": "双方当前攻防细节不足，完整0至7+仅用市场去水分布；不因热门客队强行抬高总进球。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s01s01",
+        "label": "1:1",
+        "odds": 7,
+        "p": 0.10136111525728772
+      },
+      {
+        "key": "s01s02",
+        "label": "1:2",
+        "odds": 7,
+        "p": 0.10136111525728772
+      },
+      {
+        "key": "s00s01",
+        "label": "0:1",
+        "odds": 8,
+        "p": 0.08869097585012675
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "金泰贤伤情公告、鹿岛连续作赛和泰国客场环境；布里兰当前阵容与定位球数据不全，不能以1.55判断稳定。",
+    "confidence": "limited",
+    "starsAudit": {
+      "values": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "鹿岛赛前会确认11月4日当地19:15比赛（北京20:15），教练强调连续比赛下身体状态与针对对手长处准备。客胜市场领先，保留鹿岛相对方向；公开前瞻缺双方当前机会质量，信心仅一般。",
+        "speculative": "主+1：客胜至少1、让负至少2、让平恰1。实力差为市场显示，鹿岛教练未提供压制或扩大比分证据；普通客胜先于精确边界，既不硬推穿盘也不默认让平。",
+        "goals": "双方当前攻防细节不足，完整0至7+仅用市场去水分布；不因热门客队强行抬高总进球。",
+        "halfFull": "连续赛程可能影响开局；市场半全场排序只作观察。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": true,
+      "reason": "市场差异明显，结合基本面比较，不由低赔推稳定",
+      "officialHandicap": 1,
+      "ordinaryVsCoverVsExactDraw": "主+1：客胜至少1、让负至少2、让平恰1。实力差为市场显示，鹿岛教练未提供压制或扩大比分证据；普通客胜先于精确边界，既不硬推穿盘也不默认让平。",
+      "afterLeadExpansion": "鹿岛赛前会确认11月4日当地19:15比赛（北京20:15），教练强调连续比赛下身体状态与针对对手长处准备。客胜市场领先，保留鹿岛相对方向；公开前瞻缺双方当前机会质量，信心仅一般。",
+      "opponentCounterThreat": "金泰贤伤情公告、鹿岛连续作赛和泰国客场环境；布里兰当前阵容与定位球数据不全，不能以1.55判断稳定。",
+      "selected": "负"
+    }
+  },
+  {
+    "number": "周三003",
+    "identity": {
+      "number": "周三003",
+      "home": "雷恩",
+      "away": "奥林匹亚",
+      "kickoff": "2026-11-04T23:30:00+08:00",
+      "handicap": -1
+    },
+    "sources": [
+      {
+        "url": "https://www.staderennais.com/actualites/uefa-europa-league/le-passeport-04-olympiacos-fc",
+        "checkedAt": "2026-11-04T04:47:44.014Z",
+        "http": 200,
+        "sha256": "ba7c71c0baf17451bfcfb0b1cd97ecddf6b6599988cc4b9eb964c3c3b47ecf88"
+      },
+      {
+        "url": "https://www.staderennais.com/actualites/uefa-europa-league/xc",
+        "checkedAt": "2026-11-04T04:47:44.055Z",
+        "http": 200,
+        "sha256": "97420dc41d2a10da005dfa56a8e3a03c5c97801926293f694c318393d0cff41c"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "双选不含平局；两队欧战不败与客队防守可导致平局。雷恩打OFI落后后逆转、都灵2:2体现韧性，不能等同稳定压制。",
+    "cleanSheetAssessment": "客队防守可信但雷恩主场逆转能力存在；双方零封均非强结论。",
+    "marginAssessment": "主-1：普通胜至少1、让胜至少2、让平恰1。不是明显强弱场；客队九连胜防守反对穿盘，缺精确小胜分布也不能选让平。博普通主胜是双选的窄分支。",
+    "speculativeRationale": "主-1：普通胜至少1、让胜至少2、让平恰1。不是明显强弱场；客队九连胜防守反对穿盘，缺精确小胜分布也不能选让平。博普通主胜是双选的窄分支。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.35,
+        "p": 0.23807812573666445
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.45,
+        "p": 0.2311773104979206
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 5.1,
+        "p": 0.15638465121918158
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 5.3,
+        "p": 0.1504833436260049
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 8.5,
+        "p": 0.09383079073150893
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 14,
+        "p": 0.056968694372701856
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 17.5,
+        "p": 0.045574955498161485
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 29,
+        "p": 0.02750212831785607
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.35,
+        "p": 0.23807812573666445
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.45,
+        "p": 0.2311773104979206
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 5.1,
+        "p": 0.15638465121918158
+      }
+    ],
+    "goalsRationale": "奥林匹亚欧联三战仅失1且雷恩近期有2:2；市场中段优先但保留低比分和开放尾部，不能按九连胜直接加大。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s01s01",
+        "label": "1:1",
+        "odds": 7,
+        "p": 0.10135664573420579
+      },
+      {
+        "key": "s02s01",
+        "label": "2:1",
+        "odds": 7.5,
+        "p": 0.09459953601859208
+      },
+      {
+        "key": "s01s02",
+        "label": "1:2",
+        "odds": 8.5,
+        "p": 0.08347017883993418
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "双选不含平局；两队欧战不败与客队防守可导致平局。雷恩打OFI落后后逆转、都灵2:2体现韧性，不能等同稳定压制。",
+    "confidence": "moderate",
+    "starsAudit": {
+      "values": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "雷恩主场和当前市场提供轻微主胜倾向；官方前瞻称双方欧联不败，奥林匹亚九连胜、欧联三战全胜仅失1球，客胜是必须体现在推荐中的反向保险。客胜市场概率亦高于平局，排序胜/负。",
+        "speculative": "主-1：普通胜至少1、让胜至少2、让平恰1。不是明显强弱场；客队九连胜防守反对穿盘，缺精确小胜分布也不能选让平。博普通主胜是双选的窄分支。",
+        "goals": "奥林匹亚欧联三战仅失1且雷恩近期有2:2；市场中段优先但保留低比分和开放尾部，不能按九连胜直接加大。",
+        "halfFull": "客队防守与主场开局走势冲突，半全场不评级。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": false,
+      "reason": "对手接近或反证强，仍比较三边界",
+      "officialHandicap": -1,
+      "ordinaryVsCoverVsExactDraw": "主-1：普通胜至少1、让胜至少2、让平恰1。不是明显强弱场；客队九连胜防守反对穿盘，缺精确小胜分布也不能选让平。博普通主胜是双选的窄分支。",
+      "afterLeadExpansion": "雷恩主场和当前市场提供轻微主胜倾向；官方前瞻称双方欧联不败，奥林匹亚九连胜、欧联三战全胜仅失1球，客胜是必须体现在推荐中的反向保险。客胜市场概率亦高于平局，排序胜/负。",
+      "opponentCounterThreat": "双选不含平局；两队欧战不败与客队防守可导致平局。雷恩打OFI落后后逆转、都灵2:2体现韧性，不能等同稳定压制。",
+      "selected": "胜"
+    }
+  },
+  {
+    "number": "周三004",
+    "identity": {
+      "number": "周三004",
+      "home": "费内巴切",
+      "away": "利物浦",
+      "kickoff": "2026-11-05T01:45:00+08:00",
+      "handicap": 1
+    },
+    "sources": [
+      {
+        "url": "https://www.liverpoolfc.com/news/fenerbahce-v-liverpool-team-news-champions-league",
+        "checkedAt": "2026-11-04T04:47:43.163Z",
+        "http": 200,
+        "sha256": "5acfce9c1d6288aac068cfca9a17149d6e9468d9a053bac86c49452145ff2e8b"
+      },
+      {
+        "url": "https://www.liverpoolfc.com/news/andoni-iraola-press-conference-fenerbahce-challenge-istanbul-trey-nyoni",
+        "checkedAt": "2026-11-04T04:47:43.147Z",
+        "http": 200,
+        "sha256": "9f07ca47051cecb463f949983da79be81afa69cedc748ffd0dfeff0455250899"
+      },
+      {
+        "url": "https://www.liverpoolfc.com/news/the-opposition-lowdown-fenerbahce-champions-league",
+        "checkedAt": "2026-11-04T04:47:43.178Z",
+        "http": 200,
+        "sha256": "147900d535ceff36d2f1e070813cf3f1f4581ddbdfe78b42e8da1dfe42042486"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "利物浦Gravenberch脚跟骨折，Frimpong及多名长期伤员缺席；费内巴切19场仅两场未进球，中场技术、主场和换帅情绪可缩小胜差。",
+    "cleanSheetAssessment": "主队19场仅两次未进球，不能默认利物浦零封；客胜可与双方进球并存。",
+    "marginAssessment": "主+1：负至少赢1、让负至少赢2、让平恰赢1。前三欧冠12球及主队中卫缺员支持持续施压，穿盘列高方差；对手多数比赛得分和客队中场缺员令普通负仍优先。没有独立恰赢1证据，拒绝用1:2比分反推让平。",
+    "speculativeRationale": "主+1：负至少赢1、让负至少赢2、让平恰赢1。前三欧冠12球及主队中卫缺员支持持续施压，穿盘列高方差；对手多数比赛得分和客队中场缺员令普通负仍优先。没有独立恰赢1证据，拒绝用1:2比分反推让平。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.6,
+        "p": 0.2214304871554118
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.1,
+        "p": 0.1944267692096299
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 4.8,
+        "p": 0.16607286536655885
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 5.8,
+        "p": 0.13743961271715216
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 8.9,
+        "p": 0.0895673880628632
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 9,
+        "p": 0.08857219486216472
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 10.5,
+        "p": 0.07591902416756975
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 30,
+        "p": 0.026571658458649415
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.6,
+        "p": 0.2214304871554118
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.1,
+        "p": 0.1944267692096299
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 4.8,
+        "p": 0.16607286536655885
+      }
+    ],
+    "goalsRationale": "高压进攻与主队19场17场得分支持3附近及4+尾部，利物浦缺员也可降低控制；7+不归零，不以昨日极值校准。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s01s02",
+        "label": "1:2",
+        "odds": 6.7,
+        "p": 0.10588378108195486
+      },
+      {
+        "key": "s00s02",
+        "label": "0:2",
+        "odds": 9,
+        "p": 0.07882459258323306
+      },
+      {
+        "key": "s00s01",
+        "label": "0:1",
+        "odds": 9.5,
+        "p": 0.07467592981569447
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "利物浦Gravenberch脚跟骨折，Frimpong及多名长期伤员缺席；费内巴切19场仅两场未进球，中场技术、主场和换帅情绪可缩小胜差。",
+    "confidence": "moderate",
+    "starsAudit": {
+      "values": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 1,
+        "score": 0
+      },
+      "colors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "white",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "利物浦欧冠前三场全胜进12球，教练明确要求高压夺回控制；费内巴切欧冠2平1负曾客场0:6，国内连续1:2，且Ake、Asensio缺阵、Oppong存疑。客队进攻对主队防线支持普通客胜，并为客赢2+提供独立候选依据。",
+        "speculative": "主+1：负至少赢1、让负至少赢2、让平恰赢1。前三欧冠12球及主队中卫缺员支持持续施压，穿盘列高方差；对手多数比赛得分和客队中场缺员令普通负仍优先。没有独立恰赢1证据，拒绝用1:2比分反推让平。",
+        "goals": "高压进攻与主队19场17场得分支持3附近及4+尾部，利物浦缺员也可降低控制；7+不归零，不以昨日极值校准。",
+        "halfFull": "利物浦强调强势开局且主队后防缺员，客队领先延续的半全场有轻度依据。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": true,
+      "reason": "市场差异明显，结合基本面比较，不由低赔推稳定",
+      "officialHandicap": 1,
+      "ordinaryVsCoverVsExactDraw": "主+1：负至少赢1、让负至少赢2、让平恰赢1。前三欧冠12球及主队中卫缺员支持持续施压，穿盘列高方差；对手多数比赛得分和客队中场缺员令普通负仍优先。没有独立恰赢1证据，拒绝用1:2比分反推让平。",
+      "afterLeadExpansion": "利物浦欧冠前三场全胜进12球，教练明确要求高压夺回控制；费内巴切欧冠2平1负曾客场0:6，国内连续1:2，且Ake、Asensio缺阵、Oppong存疑。客队进攻对主队防线支持普通客胜，并为客赢2+提供独立候选依据。",
+      "opponentCounterThreat": "利物浦Gravenberch脚跟骨折，Frimpong及多名长期伤员缺席；费内巴切19场仅两场未进球，中场技术、主场和换帅情绪可缩小胜差。",
+      "selected": "让负"
+    }
+  },
+  {
+    "number": "周三005",
+    "identity": {
+      "number": "周三005",
+      "home": "莱红牛",
+      "away": "曼城",
+      "kickoff": "2026-11-05T04:00:00+08:00",
+      "handicap": 1
+    },
+    "sources": [
+      {
+        "url": "https://rbleipzig.com/en/news/press-conference-rb-leipzig-manchester-city-martin-demichelis",
+        "checkedAt": "2026-11-04T04:50:17.988Z",
+        "http": 200,
+        "sha256": "8f11e526da18df8e34c51634fcc03981282d7f356b2ec1a05351a82f3c562989"
+      },
+      {
+        "url": "https://rbleipzig.com/en/news/rb-leipzig-squad-update-2026-27-season-team-news-injuries-suspensions",
+        "checkedAt": "2026-11-04T04:50:17.948Z",
+        "http": 200,
+        "sha256": "6d9a9e141562e7215463bee7c09ce3c7cc5266196b5d94a1d4b314cbd9a1808d"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "莱比锡主场转换与Baumgartner复出；曼城官网403，当前名单未取得，方向信心一般、暂不入核心。",
+    "cleanSheetAssessment": "Baumgartner和Nusa转换可使曼城失球，曼城名单缺口不允许自信零封。",
+    "marginAssessment": "主+1：普通负、客赢2+让负、客恰赢1让平。阵容缺口支持客胜，但莱比锡防守改善和复出攻击点反对机械扩大胜差。普通负先，穿盘/让平均无足够独立净胜依据。",
+    "speculativeRationale": "主+1：普通负、客赢2+让负、客恰赢1让平。阵容缺口支持客胜，但莱比锡防守改善和复出攻击点反对机械扩大胜差。普通负先，穿盘/让平均无足够独立净胜依据。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.9,
+        "p": 0.20458970547010025
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4,
+        "p": 0.19947496283334773
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 5.25,
+        "p": 0.15198092406350303
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 5.4,
+        "p": 0.14775923172840572
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 8,
+        "p": 0.09973748141667386
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 8.5,
+        "p": 0.09387057074510481
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 10,
+        "p": 0.0797899851333391
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 35,
+        "p": 0.022797138609525452
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.9,
+        "p": 0.20458970547010025
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4,
+        "p": 0.19947496283334773
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 5.25,
+        "p": 0.15198092406350303
+      }
+    ],
+    "goalsRationale": "主队防守改善和前场复出方向相反，保留市场全分布，不把曼城名气当作4+证据。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s01s02",
+        "label": "1:2",
+        "odds": 7,
+        "p": 0.10135210866550952
+      },
+      {
+        "key": "s01s03",
+        "label": "1:3",
+        "odds": 8.5,
+        "p": 0.0834664424304196
+      },
+      {
+        "key": "s01s01",
+        "label": "1:1",
+        "odds": 10.5,
+        "p": 0.06756807244367301
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "莱比锡主场转换与Baumgartner复出；曼城官网403，当前名单未取得，方向信心一般、暂不入核心。",
+    "confidence": "limited",
+    "starsAudit": {
+      "values": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "曼城客胜市场明显领先；莱比锡官方确认Finkgräfe大腿伤、Ouédraogo肩伤、Guiu肌肉伤缺阵，削弱轮换。反面是Baumgartner确定复出首发、Estève完成训练，教练称近三场更稳，不能只按名气看穿盘。",
+        "speculative": "主+1：普通负、客赢2+让负、客恰赢1让平。阵容缺口支持客胜，但莱比锡防守改善和复出攻击点反对机械扩大胜差。普通负先，穿盘/让平均无足够独立净胜依据。",
+        "goals": "主队防守改善和前场复出方向相反，保留市场全分布，不把曼城名气当作4+证据。",
+        "halfFull": "莱比锡改善与曼城压制的半场路径不明，不加星。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": true,
+      "reason": "市场差异明显，结合基本面比较，不由低赔推稳定",
+      "officialHandicap": 1,
+      "ordinaryVsCoverVsExactDraw": "主+1：普通负、客赢2+让负、客恰赢1让平。阵容缺口支持客胜，但莱比锡防守改善和复出攻击点反对机械扩大胜差。普通负先，穿盘/让平均无足够独立净胜依据。",
+      "afterLeadExpansion": "曼城客胜市场明显领先；莱比锡官方确认Finkgräfe大腿伤、Ouédraogo肩伤、Guiu肌肉伤缺阵，削弱轮换。反面是Baumgartner确定复出首发、Estève完成训练，教练称近三场更稳，不能只按名气看穿盘。",
+      "opponentCounterThreat": "莱比锡主场转换与Baumgartner复出；曼城官网403，当前名单未取得，方向信心一般、暂不入核心。",
+      "selected": "负"
+    }
+  },
+  {
+    "number": "周三006",
+    "identity": {
+      "number": "周三006",
+      "home": "波尔图",
+      "away": "那不勒斯",
+      "kickoff": "2026-11-05T04:00:00+08:00",
+      "handicap": -1
+    },
+    "sources": [
+      {
+        "url": "https://www.fcporto.pt/en/news/20261031-en-ten-out-of-ten-for-the-champions",
+        "checkedAt": "2026-11-04T04:47:44.401Z",
+        "http": 200,
+        "sha256": "126ca5c23c05cee89f1682ba74fbf4c3193405862199f3fd6bc1e309585c1ebf"
+      },
+      {
+        "url": "https://www.fcporto.pt/en/news/20261031-en-we-were-an-aggressive-team-determined-to-keep-scoring-more-and-more",
+        "checkedAt": "2026-11-04T04:47:43.593Z",
+        "http": 200,
+        "sha256": "7598bddbec07401b4c5c278de4a6910502ad8dccbc71cfd774ed7b1753d29ec8"
+      },
+      {
+        "url": "https://sscnapoli.it/en/sscn-report-allenamento-2-novembre/",
+        "checkedAt": "2026-11-04T04:47:43.943Z",
+        "http": 200,
+        "sha256": "414e9f48f6e6becbad9db02f65cfdd5850eceb0146f8a59385659d4f270b3ebe"
+      },
+      {
+        "url": "https://sscnapoli.it/en/match-report-juventus-napoli/",
+        "checkedAt": "2026-11-04T04:47:44.030Z",
+        "http": 200,
+        "sha256": "f1f2d4da228a15cd3bd84a945b9bcc0f8a803e4aea4e8c8b4c3eb982d182c735"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "4:0对手是葡超垫底，不能等量外推欧冠；波尔图自己承认欧冠不及联赛，刚被PSV击败。那不勒斯对尤文前60分钟均衡且有机会，第二球发生在少打一人后。",
+    "cleanSheetAssessment": "客队前60分钟有机会，不默认主队零封；人员缺口降低其进攻上限但尚未确认全名单。",
+    "marginAssessment": "主-1：胜至少1、让胜至少2、让平恰1。领先后仍进攻及替补增产、客队边后卫检查支持穿盘候选，但对手强度与欧战反证使普通胜优先；精确让平无独立增量证据。",
+    "speculativeRationale": "主-1：胜至少1、让胜至少2、让平恰1。领先后仍进攻及替补增产、客队边后卫检查支持穿盘候选，但对手强度与欧战反证使普通胜优先；精确让平无独立增量证据。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.5,
+        "p": 0.2277079398163225
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.8,
+        "p": 0.20973099719924443
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.75,
+        "p": 0.16778479775939553
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 5.75,
+        "p": 0.13860483293167458
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 7.5,
+        "p": 0.10626370524761718
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 14,
+        "p": 0.05692698495408063
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 15,
+        "p": 0.05313185262380859
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 20,
+        "p": 0.039848889467856446
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.5,
+        "p": 0.2277079398163225
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.8,
+        "p": 0.20973099719924443
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.75,
+        "p": 0.16778479775939553
+      }
+    ],
+    "goalsRationale": "波尔图持续攻势与客队后卫伤情支持中段和4+；那不勒斯曾前60分钟均衡，低进球不能删。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s01s01",
+        "label": "1:1",
+        "odds": 6.5,
+        "p": 0.1091267998538219
+      },
+      {
+        "key": "s02s01",
+        "label": "2:1",
+        "odds": 7,
+        "p": 0.10133202843569175
+      },
+      {
+        "key": "s01s00",
+        "label": "1:0",
+        "odds": 8.5,
+        "p": 0.08344990577056968
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "4:0对手是葡超垫底，不能等量外推欧冠；波尔图自己承认欧冠不及联赛，刚被PSV击败。那不勒斯对尤文前60分钟均衡且有机会，第二球发生在少打一人后。",
+    "confidence": "moderate",
+    "starsAudit": {
+      "values": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "波尔图联赛十战全胜，上轮4:0且领先后继续制造机会、不同球员得分；那不勒斯刚负尤文，Di Lorenzo肌肉问题和Olivera回队检查，Hojlund与Milinkovic-Savic单独训练。主场攻势与客队人员、恢复负担支持主胜。",
+        "speculative": "主-1：胜至少1、让胜至少2、让平恰1。领先后仍进攻及替补增产、客队边后卫检查支持穿盘候选，但对手强度与欧战反证使普通胜优先；精确让平无独立增量证据。",
+        "goals": "波尔图持续攻势与客队后卫伤情支持中段和4+；那不勒斯曾前60分钟均衡，低进球不能删。",
+        "halfFull": "波尔图上轮早入球不足以外推强敌，半全场无额外评级。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": true,
+      "reason": "市场差异明显，结合基本面比较，不由低赔推稳定",
+      "officialHandicap": -1,
+      "ordinaryVsCoverVsExactDraw": "主-1：胜至少1、让胜至少2、让平恰1。领先后仍进攻及替补增产、客队边后卫检查支持穿盘候选，但对手强度与欧战反证使普通胜优先；精确让平无独立增量证据。",
+      "afterLeadExpansion": "波尔图联赛十战全胜，上轮4:0且领先后继续制造机会、不同球员得分；那不勒斯刚负尤文，Di Lorenzo肌肉问题和Olivera回队检查，Hojlund与Milinkovic-Savic单独训练。主场攻势与客队人员、恢复负担支持主胜。",
+      "opponentCounterThreat": "4:0对手是葡超垫底，不能等量外推欧冠；波尔图自己承认欧冠不及联赛，刚被PSV击败。那不勒斯对尤文前60分钟均衡且有机会，第二球发生在少打一人后。",
+      "selected": "让胜"
+    }
+  },
+  {
+    "number": "周三007",
+    "identity": {
+      "number": "周三007",
+      "home": "埃因霍温",
+      "away": "布鲁日",
+      "kickoff": "2026-11-05T04:00:00+08:00",
+      "handicap": -1
+    },
+    "sources": [
+      {
+        "url": "https://www.psv.nl/en/media/artikel/persconferentie-ze-hebben-een-herkenbare-manier-van-spelen",
+        "checkedAt": "2026-11-04T04:47:43.558Z",
+        "http": 200,
+        "sha256": "7001be496f7a6c4fca945524585c57eee9dbda7d3f0edd2f4f149995ac58a94c"
+      },
+      {
+        "url": "https://www.psv.nl/en/media/artikel/alles-over-psv-treft-club-brugge-in-vorm",
+        "checkedAt": "2026-11-04T04:47:43.618Z",
+        "http": 200,
+        "sha256": "36c2f303699a29105cd6dcbec959e5d1203f3adf89bc7f487236d89c45aa3f7b"
+      },
+      {
+        "url": "https://www.psv.nl/en/media/artikel/persconferentie-dat-fenomeen-heb-je-vanavond-aan-het-werk-gezien",
+        "checkedAt": "2026-11-04T04:47:43.765Z",
+        "http": 200,
+        "sha256": "e1f11dd249697fd62b5f000f8dfbefdf583fd5d306a3c681b7d23e17b5aa3ca0"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "双选不含平；双方高状态也可抵消为平。PSV对弱队7:0不能证明欧冠大胜，Pepi刚回归是否首发不明。",
+    "cleanSheetAssessment": "两队均有强得分点，不给任一零封高信心。",
+    "marginAssessment": "主-1：胜至少1、让胜至少2、让平恰1。接近对手非强弱场；布鲁日边卫压上、内切翼锋和支点能力有反击威胁。普通主胜作为窄分支，不机械选让平。",
+    "speculativeRationale": "主-1：胜至少1、让胜至少2、让平恰1。接近对手非强弱场；布鲁日边卫压上、内切翼锋和支点能力有反击威胁。普通主胜作为窄分支，不机械选让平。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.6,
+        "p": 0.2214841121242862
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.15,
+        "p": 0.19213079605962174
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 5.3,
+        "p": 0.15044203842404347
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 5.4,
+        "p": 0.14765607474952414
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 8.5,
+        "p": 0.0938050357232271
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 9.5,
+        "p": 0.0839308214365716
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 9.6,
+        "p": 0.08305654204660733
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 29,
+        "p": 0.027494579436118285
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.6,
+        "p": 0.2214841121242862
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.15,
+        "p": 0.19213079605962174
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 5.3,
+        "p": 0.15044203842404347
+      }
+    ],
+    "goalsRationale": "布鲁日三场欧冠总进球3/7/5且PSV攻势强支持开放环境；仍按完整市场分布排序，不从单场7:0拟合均值。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s02s01",
+        "label": "2:1",
+        "odds": 7.5,
+        "p": 0.09457689075310712
+      },
+      {
+        "key": "s01s01",
+        "label": "1:1",
+        "odds": 8.5,
+        "p": 0.0834501977233298
+      },
+      {
+        "key": "s01s02",
+        "label": "1:2",
+        "odds": 9.5,
+        "p": 0.07466596638403193
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "双选不含平；双方高状态也可抵消为平。PSV对弱队7:0不能证明欧冠大胜，Pepi刚回归是否首发不明。",
+    "confidence": "moderate",
+    "starsAudit": {
+      "values": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "PSV刚7:0胜威廉二世、1:1费耶诺德和客场1:0波尔图，主场轻倾胜；布鲁日联赛十场九胜、欧冠3:0朗斯4:3国米，Tresoldi欧冠三场4球。攻击与市场均要求把客胜列为第二方向。",
+        "speculative": "主-1：胜至少1、让胜至少2、让平恰1。接近对手非强弱场；布鲁日边卫压上、内切翼锋和支点能力有反击威胁。普通主胜作为窄分支，不机械选让平。",
+        "goals": "布鲁日三场欧冠总进球3/7/5且PSV攻势强支持开放环境；仍按完整市场分布排序，不从单场7:0拟合均值。",
+        "halfFull": "上半场先手难独立判定，不加星。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": false,
+      "reason": "对手接近或反证强，仍比较三边界",
+      "officialHandicap": -1,
+      "ordinaryVsCoverVsExactDraw": "主-1：胜至少1、让胜至少2、让平恰1。接近对手非强弱场；布鲁日边卫压上、内切翼锋和支点能力有反击威胁。普通主胜作为窄分支，不机械选让平。",
+      "afterLeadExpansion": "PSV刚7:0胜威廉二世、1:1费耶诺德和客场1:0波尔图，主场轻倾胜；布鲁日联赛十场九胜、欧冠3:0朗斯4:3国米，Tresoldi欧冠三场4球。攻击与市场均要求把客胜列为第二方向。",
+      "opponentCounterThreat": "双选不含平；双方高状态也可抵消为平。PSV对弱队7:0不能证明欧冠大胜，Pepi刚回归是否首发不明。",
+      "selected": "胜"
+    }
+  },
+  {
+    "number": "周三008",
+    "identity": {
+      "number": "周三008",
+      "home": "多特蒙德",
+      "away": "贝蒂斯",
+      "kickoff": "2026-11-05T04:00:00+08:00",
+      "handicap": -1
+    },
+    "sources": [
+      {
+        "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/11/3/Kovac-Ahead-of-Betis-Theres-Only-One-Way-to-Go.html",
+        "checkedAt": "2026-11-04T04:49:04.879Z",
+        "http": 200,
+        "sha256": "4ec2abf7dd0d0e2c1062884995635d5775814a93236d6d46f775dc5d8f116d87"
+      },
+      {
+        "url": "https://www.bvb.de/de/en/news/news-overview/news.html/2026/11/3/Real-Betis-A-Club-With-Tradition-and-a-Green-Soul.html",
+        "checkedAt": "2026-11-04T04:49:06.759Z",
+        "http": 200,
+        "sha256": "cdbd2c85d4cea5020f9fe95cd12a6324c2d5c743ee469bfc8f612c60d54c64f4"
+      },
+      {
+        "url": "https://en.realbetisbalompie.es/noticias/noticias/convocatoria-del-real-betis-para-el-encuentro-ante-el-borussia-dortmund-32807",
+        "checkedAt": "2026-11-04T04:47:43.990Z",
+        "http": 200,
+        "sha256": "229f191d143002822cf7d8bea32174a583cb2c4d47025728a37054258361c1e4"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "贝蒂斯欧冠3胜、已胜里尔/波尔图/费耶诺德；Isco、Antony等仍可用，Bernal回归。多特三周七赛、欧冠赢球均只差一球，不能默认大胜。",
+    "cleanSheetAssessment": "贝蒂斯仍有Isco、Antony、Parrott等，缺Cucho不等于无攻击；多特零封不高信心。",
+    "marginAssessment": "主-1：普通胜至少1、让胜至少2、让平恰1。多特转换与阵容优于对手，但对手三连胜、技术反击及主队负荷压低穿盘证据。过去一球胜不是本场恰胜1的独立分布，选普通胜，不选让平。",
+    "speculativeRationale": "主-1：普通胜至少1、让胜至少2、让平恰1。多特转换与阵容优于对手，但对手三连胜、技术反击及主队负荷压低穿盘证据。过去一球胜不是本场恰胜1的独立分布，选普通胜，不选让平。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.6,
+        "p": 0.22137195613560315
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.2,
+        "p": 0.1897473909733741
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 4.6,
+        "p": 0.17324761784525464
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 6,
+        "p": 0.13282317368136187
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 7.7,
+        "p": 0.10349857689456769
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 10,
+        "p": 0.07969390420881713
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 12,
+        "p": 0.06641158684068094
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 24,
+        "p": 0.03320579342034047
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.6,
+        "p": 0.22137195613560315
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.2,
+        "p": 0.1897473909733741
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 4.6,
+        "p": 0.17324761784525464
+      }
+    ],
+    "goalsRationale": "主队进攻与贝蒂斯缺前锋可拉低或抬高不同尾部；采用市场完整分布且不额外加星。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s02s01",
+        "label": "2:1",
+        "odds": 6.5,
+        "p": 0.10911718866529134
+      },
+      {
+        "key": "s01s01",
+        "label": "1:1",
+        "odds": 8,
+        "p": 0.08865771579054921
+      },
+      {
+        "key": "s03s01",
+        "label": "3:1",
+        "odds": 10,
+        "p": 0.07092617263243937
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "贝蒂斯欧冠3胜、已胜里尔/波尔图/费耶诺德；Isco、Antony等仍可用，Bernal回归。多特三周七赛、欧冠赢球均只差一球，不能默认大胜。",
+    "confidence": "moderate",
+    "starsAudit": {
+      "values": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "多特联赛与拜仁同18分，刚2:2且可切换三后卫/四后卫，教练称除长期伤员阵容齐整；贝蒂斯官方确认Cucho、Junior Firpo、Fidalgo、Losada缺阵。主场与可用阵容支持多特普通胜。",
+        "speculative": "主-1：普通胜至少1、让胜至少2、让平恰1。多特转换与阵容优于对手，但对手三连胜、技术反击及主队负荷压低穿盘证据。过去一球胜不是本场恰胜1的独立分布，选普通胜，不选让平。",
+        "goals": "主队进攻与贝蒂斯缺前锋可拉低或抬高不同尾部；采用市场完整分布且不额外加星。",
+        "halfFull": "贝蒂斯中场技术可能拖慢开局，半全场无额外评级。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": true,
+      "reason": "市场差异明显，结合基本面比较，不由低赔推稳定",
+      "officialHandicap": -1,
+      "ordinaryVsCoverVsExactDraw": "主-1：普通胜至少1、让胜至少2、让平恰1。多特转换与阵容优于对手，但对手三连胜、技术反击及主队负荷压低穿盘证据。过去一球胜不是本场恰胜1的独立分布，选普通胜，不选让平。",
+      "afterLeadExpansion": "多特联赛与拜仁同18分，刚2:2且可切换三后卫/四后卫，教练称除长期伤员阵容齐整；贝蒂斯官方确认Cucho、Junior Firpo、Fidalgo、Losada缺阵。主场与可用阵容支持多特普通胜。",
+      "opponentCounterThreat": "贝蒂斯欧冠3胜、已胜里尔/波尔图/费耶诺德；Isco、Antony等仍可用，Bernal回归。多特三周七赛、欧冠赢球均只差一球，不能默认大胜。",
+      "selected": "胜"
+    }
+  },
+  {
+    "number": "周三009",
+    "identity": {
+      "number": "周三009",
+      "home": "维京",
+      "away": "萨巴赫",
+      "kickoff": "2026-11-05T04:00:00+08:00",
+      "handicap": -1
+    },
+    "sources": [
+      {
+        "url": "https://www.vikingfotball.no/nyheter/bli-kjent-med-viking-sabah-oppgjoret",
+        "checkedAt": "2026-11-04T04:49:05.117Z",
+        "http": 200,
+        "sha256": "cba2ad5b67d8c77b225e39300538930b695fb02d8da2c6a0abc919d66a197d29"
+      },
+      {
+        "url": "https://sabahfc.az/",
+        "checkedAt": "2026-11-04T04:48:37.222Z",
+        "http": 200,
+        "sha256": "382f67f6aef0591473b9e14e4af3c842bb0d38192f1f3412bd3abaf88c30092e"
+      },
+      {
+        "url": "https://www.vikingfotball.no/",
+        "checkedAt": "2026-11-04T04:48:34.737Z",
+        "http": 200,
+        "sha256": "1919608034d1678d6f1739c1b8b540aecdfc7ff6d4b36c03c5d1ae63e2811f80"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "维京欧冠三场均失3球；萨巴赫Mickels、Simić与Puchacz具攻击威胁。客队最近国内0:0强敌、2:3失利不能简单视弱旅。",
+    "cleanSheetAssessment": "主队欧冠每场失3，不能默认为零封；客队压低节奏亦可能。",
+    "marginAssessment": "主-1：普通胜至少1、让胜至少2、让平恰1。维京主场连续三球显示扩大比分能力，客队强敌客场4球失守支持穿盘情景；自身欧冠每场失3强烈反证，故博让胜仅零星高方差，普通胜仍先，不凭低赔加星。",
+    "speculativeRationale": "主-1：普通胜至少1、让胜至少2、让平恰1。维京主场连续三球显示扩大比分能力，客队强敌客场4球失守支持穿盘情景；自身欧冠每场失3强烈反证，故博让胜仅零星高方差，普通胜仍先，不凭低赔加星。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.6,
+        "p": 0.2215898574417426
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.15,
+        "p": 0.1922225269374152
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 5,
+        "p": 0.15954469735805465
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 5.7,
+        "p": 0.13995148891057424
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 8.7,
+        "p": 0.09169235480347969
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 9,
+        "p": 0.08863594297669702
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 10,
+        "p": 0.07977234867902733
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 30,
+        "p": 0.026590782893009108
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.6,
+        "p": 0.2215898574417426
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.15,
+        "p": 0.1922225269374152
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 5,
+        "p": 0.15954469735805465
+      }
+    ],
+    "goalsRationale": "主队三场欧冠均丢3且可进球，客队反击能力使4+尾部重要；7+保留但不强入前三。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s02s01",
+        "label": "2:1",
+        "odds": 6.7,
+        "p": 0.10590156093216038
+      },
+      {
+        "key": "s02s00",
+        "label": "2:0",
+        "odds": 8.5,
+        "p": 0.08347534802887936
+      },
+      {
+        "key": "s03s01",
+        "label": "3:1",
+        "odds": 8.5,
+        "p": 0.08347534802887936
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "维京欧冠三场均失3球；萨巴赫Mickels、Simić与Puchacz具攻击威胁。客队最近国内0:0强敌、2:3失利不能简单视弱旅。",
+    "confidence": "moderate",
+    "starsAudit": {
+      "values": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "维京主场3:1萨格勒布、3:3拜仁说明面对较强队仍能创造多球；萨巴赫欧冠客场0:4曼联但主场胜斯拉维亚、仅1:2多特。普通主胜有主场与进攻依据，不能仅因1.23入核心。",
+        "speculative": "主-1：普通胜至少1、让胜至少2、让平恰1。维京主场连续三球显示扩大比分能力，客队强敌客场4球失守支持穿盘情景；自身欧冠每场失3强烈反证，故博让胜仅零星高方差，普通胜仍先，不凭低赔加星。",
+        "goals": "主队三场欧冠均丢3且可进球，客队反击能力使4+尾部重要；7+保留但不强入前三。",
+        "halfFull": "主队攻强守弱，开局与后段反转均可能，不加星。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": true,
+      "reason": "市场差异明显，结合基本面比较，不由低赔推稳定",
+      "officialHandicap": -1,
+      "ordinaryVsCoverVsExactDraw": "主-1：普通胜至少1、让胜至少2、让平恰1。维京主场连续三球显示扩大比分能力，客队强敌客场4球失守支持穿盘情景；自身欧冠每场失3强烈反证，故博让胜仅零星高方差，普通胜仍先，不凭低赔加星。",
+      "afterLeadExpansion": "维京主场3:1萨格勒布、3:3拜仁说明面对较强队仍能创造多球；萨巴赫欧冠客场0:4曼联但主场胜斯拉维亚、仅1:2多特。普通主胜有主场与进攻依据，不能仅因1.23入核心。",
+      "opponentCounterThreat": "维京欧冠三场均失3球；萨巴赫Mickels、Simić与Puchacz具攻击威胁。客队最近国内0:0强敌、2:3失利不能简单视弱旅。",
+      "selected": "让胜"
+    }
+  },
+  {
+    "number": "周三010",
+    "identity": {
+      "number": "周三010",
+      "home": "朗斯",
+      "away": "科莫",
+      "kickoff": "2026-11-05T04:00:00+08:00",
+      "handicap": 1
+    },
+    "sources": [
+      {
+        "url": "https://www.rclens.fr/fr/conference-de-presse-rclens-como1907-ligue-des-champions-j4-20261103",
+        "checkedAt": "2026-11-04T04:47:43.947Z",
+        "http": 200,
+        "sha256": "3958c47360581afcf1bf268cc7784b3054385ddbe39dcf50cfa3a46235fc9131"
+      },
+      {
+        "url": "https://comofootball.com/en/",
+        "checkedAt": "2026-11-04T04:48:34.969Z",
+        "http": 200,
+        "sha256": "ecca5661233232660f60bb706f0ff087ca1bb4024b39f06ea754d2c33398a65d"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "朗斯Bollaert主场和三后卫结构、Aguilar状态可强化对抗；科莫客场压制若无法转化则主胜/平风险。",
+    "cleanSheetAssessment": "朗斯主场和定位球使科莫零封未获支持。",
+    "marginAssessment": "主+1：普通负至少1、让负至少2、让平恰1。控球完整不等于大胜，未取得持续净胜资料，普通负先于精确边界；不由1:2反推让平。",
+    "speculativeRationale": "主+1：普通负至少1、让负至少2、让平恰1。控球完整不等于大胜，未取得持续净胜资料，普通负先于精确边界；不由1:2反推让平。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.5,
+        "p": 0.2276967041169678
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.1,
+        "p": 0.1943752352218018
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 4.45,
+        "p": 0.17908729537289603
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 6.5,
+        "p": 0.12260591760144422
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 7.5,
+        "p": 0.10625846192125164
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 11,
+        "p": 0.0724489513099443
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 13,
+        "p": 0.06130295880072211
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 22,
+        "p": 0.03622447565497215
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.5,
+        "p": 0.2276967041169678
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.1,
+        "p": 0.1943752352218018
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 4.45,
+        "p": 0.17908729537289603
+      }
+    ],
+    "goalsRationale": "控球可压低节奏也可制造高质量机会，缺独立量化数据，使用完整市场排序而不加星。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s01s02",
+        "label": "1:2",
+        "odds": 7,
+        "p": 0.10137523981921821
+      },
+      {
+        "key": "s01s01",
+        "label": "1:1",
+        "odds": 7.8,
+        "p": 0.09097777932493943
+      },
+      {
+        "key": "s00s01",
+        "label": "0:1",
+        "odds": 10.5,
+        "p": 0.06758349321281214
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "朗斯Bollaert主场和三后卫结构、Aguilar状态可强化对抗；科莫客场压制若无法转化则主胜/平风险。",
+    "confidence": "limited",
+    "starsAudit": {
+      "values": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "朗斯教练明确科莫控球、无球移动和空间利用完整，客胜市场领先；朗斯Nawrocki、Ganiou、Sima仍复健。科莫技术控制为客胜提供对位依据，但没有完整客队伤停，仅一般信心。",
+        "speculative": "主+1：普通负至少1、让负至少2、让平恰1。控球完整不等于大胜，未取得持续净胜资料，普通负先于精确边界；不由1:2反推让平。",
+        "goals": "控球可压低节奏也可制造高质量机会，缺独立量化数据，使用完整市场排序而不加星。",
+        "halfFull": "客队控球并不保证半场领先，不加星。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": true,
+      "reason": "市场差异明显，结合基本面比较，不由低赔推稳定",
+      "officialHandicap": 1,
+      "ordinaryVsCoverVsExactDraw": "主+1：普通负至少1、让负至少2、让平恰1。控球完整不等于大胜，未取得持续净胜资料，普通负先于精确边界；不由1:2反推让平。",
+      "afterLeadExpansion": "朗斯教练明确科莫控球、无球移动和空间利用完整，客胜市场领先；朗斯Nawrocki、Ganiou、Sima仍复健。科莫技术控制为客胜提供对位依据，但没有完整客队伤停，仅一般信心。",
+      "opponentCounterThreat": "朗斯Bollaert主场和三后卫结构、Aguilar状态可强化对抗；科莫客场压制若无法转化则主胜/平风险。",
+      "selected": "负"
+    }
+  },
+  {
+    "number": "周三011",
+    "identity": {
+      "number": "周三011",
+      "home": "斯拉维亚",
+      "away": "阿森纳",
+      "kickoff": "2026-11-05T04:00:00+08:00",
+      "handicap": 2
+    },
+    "sources": [
+      {
+        "url": "https://www.slavia.cz/cze/article/jsou-konzistentni-musime-byt-nebezpecni-dopredu-a-rice",
+        "checkedAt": "2026-11-04T04:49:06.304Z",
+        "http": 200,
+        "sha256": "3951a967b60f1c57e07c100af7dac3037931c9ad6f1b795cfa598cc09a75ddfc"
+      },
+      {
+        "url": "https://www.slavia.cz/cze/article/chceme-utocit-na-jejich-slaba-mista-snad-jsme-se-poucili",
+        "checkedAt": "2026-11-04T04:49:06.315Z",
+        "http": 200,
+        "sha256": "2c2932a86a11e8c939520da0f1d1a55bdbeead42c8ae42ed7462a6f02917c53f"
+      },
+      {
+        "url": "https://www.slavia.cz/cze/article/arsenal-presne-rok-pote",
+        "checkedAt": "2026-11-04T04:49:06.343Z",
+        "http": 200,
+        "sha256": "12a6c4afb350d94a099f053ba4e000eb8195c56e4b2051ff02fc6f98c19f9dd9"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "主队希望提高持球、用速度攻击并改善替补，阿森纳刚打利物浦存在轮换。阿森纳官方页面未取得最新名单；主队教练赞誉不能替代全部客队确认。",
+    "cleanSheetAssessment": "阿森纳防守结构和主队年轻阵容支持客队零封路径，但主队速度与主场逼抢是反证。",
+    "marginAssessment": "主+2：普通负至少1、让负至少3、让平恰2。定位球/空中优势对身高下降年轻主队、节奏与替补深度支持拉开分差候选，但客场轮换和领先控节奏使3+非核心。让平恰2没有独立集中证据，不因0:2示例倒推。",
+    "speculativeRationale": "主+2：普通负至少1、让负至少3、让平恰2。定位球/空中优势对身高下降年轻主队、节奏与替补深度支持拉开分差候选，但客场轮换和领先控节奏使3+非核心。让平恰2没有独立集中证据，不因0:2示例倒推。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.5,
+        "p": 0.2279614388120371
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 4.15,
+        "p": 0.19225663514268188
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.5,
+        "p": 0.1773033412982511
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 6.25,
+        "p": 0.1276584057347408
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 7.2,
+        "p": 0.11081458831140693
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 12,
+        "p": 0.06648875298684416
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 15,
+        "p": 0.05319100238947533
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 18,
+        "p": 0.04432583532456277
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.5,
+        "p": 0.2279614388120371
+      },
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 4.15,
+        "p": 0.19225663514268188
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 4.5,
+        "p": 0.1773033412982511
+      }
+    ],
+    "goalsRationale": "强客队可控节奏、主队低位与前压两路径并存，市场2/3附近优先并保留高尾部；不自动扩大到4/5。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s00s02",
+        "label": "0:2",
+        "odds": 6,
+        "p": 0.11825527776366368
+      },
+      {
+        "key": "s00s03",
+        "label": "0:3",
+        "odds": 7,
+        "p": 0.10136166665456887
+      },
+      {
+        "key": "s00s01",
+        "label": "0:1",
+        "odds": 7.25,
+        "p": 0.09786643676992857
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "主队希望提高持球、用速度攻击并改善替补，阿森纳刚打利物浦存在轮换。阿森纳官方页面未取得最新名单；主队教练赞誉不能替代全部客队确认。",
+    "confidence": "moderate",
+    "starsAudit": {
+      "values": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 0,
+        "halfFull": 1,
+        "score": 1
+      },
+      "colors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "none",
+        "halfFull": "white",
+        "score": "white"
+      },
+      "reasons": {
+        "direction": "斯拉维亚教练强调阿森纳战术平衡、节奏控制、定位球和17至18名可用深度优势；主队预计多名年轻球员欧冠首秀、身高较去年下降，Provod获准出场但不首发。客胜依据来自对位与阵容层级，不是1.10本身。",
+        "speculative": "主+2：普通负至少1、让负至少3、让平恰2。定位球/空中优势对身高下降年轻主队、节奏与替补深度支持拉开分差候选，但客场轮换和领先控节奏使3+非核心。让平恰2没有独立集中证据，不因0:2示例倒推。",
+        "goals": "强客队可控节奏、主队低位与前压两路径并存，市场2/3附近优先并保留高尾部；不自动扩大到4/5。",
+        "halfFull": "定位球和成熟控节奏支持客队领先延续的市场半全场候选，轻度加星。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": true,
+      "reason": "市场差异明显，结合基本面比较，不由低赔推稳定",
+      "officialHandicap": 2,
+      "ordinaryVsCoverVsExactDraw": "主+2：普通负至少1、让负至少3、让平恰2。定位球/空中优势对身高下降年轻主队、节奏与替补深度支持拉开分差候选，但客场轮换和领先控节奏使3+非核心。让平恰2没有独立集中证据，不因0:2示例倒推。",
+      "afterLeadExpansion": "斯拉维亚教练强调阿森纳战术平衡、节奏控制、定位球和17至18名可用深度优势；主队预计多名年轻球员欧冠首秀、身高较去年下降，Provod获准出场但不首发。客胜依据来自对位与阵容层级，不是1.10本身。",
+      "opponentCounterThreat": "主队希望提高持球、用速度攻击并改善替补，阿森纳刚打利物浦存在轮换。阿森纳官方页面未取得最新名单；主队教练赞誉不能替代全部客队确认。",
+      "selected": "让负"
+    }
+  },
+  {
+    "number": "周三012",
+    "identity": {
+      "number": "周三012",
+      "home": "布城",
+      "away": "伍尔弗",
+      "kickoff": "2026-11-05T04:00:00+08:00",
+      "handicap": 1
+    },
+    "sources": [
+      {
+        "url": "https://www.bcfc.co.uk/city-men-news/preview-wolverhampton-wanderers-h-2/",
+        "checkedAt": "2026-11-04T04:47:44.141Z",
+        "http": 200,
+        "sha256": "e1884a7eb8bd088288c9d589fa5207b014cff7a64400cbf99ff299eb7be4c125"
+      },
+      {
+        "url": "https://www.wolves.co.uk/news/features/20261103-the-preview-bristol-city-vs-wolves/",
+        "checkedAt": "2026-11-04T04:47:43.158Z",
+        "http": 200,
+        "sha256": "3fcadb3d7877d6c6a7af38518b6d704eb58b03277f62fc476c3c585da7dd3b45"
+      },
+      {
+        "url": "https://www.wolves.co.uk/news/mens-first-team/20261103-peixoto-we-have-to-maintain-our-focus-on-our-big-goal/",
+        "checkedAt": "2026-11-04T04:47:44.286Z",
+        "http": 200,
+        "sha256": "48d06b154e6895d011198cb377c683b50aff4dbc8a72892caa3df5f9e1b42708"
+      },
+      {
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "checkedAt": "2026-11-04T04:46:45.575Z",
+        "http": 200,
+        "sha256": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784"
+      }
+    ],
+    "oppositionAttack": "狼队需把主场状态带到客场；布城Tolaj有伤后负荷疑问但斗志与后段进球存在，双选仍不覆盖主胜。布城文章联赛败场数字内部矛盾，不采用其总败场统计。",
+    "cleanSheetAssessment": "布城后段进球能力与狼队中场缺员反对高信心客队零封。",
+    "marginAssessment": "主+1：普通负至少1、让负至少2、让平恰1。狼队上轮三次头球支持定位球威胁，但主队后卫回归和客队中场伤病限制穿盘；普通客胜是负/平中的窄分支，恰赢1没有独立证据。",
+    "speculativeRationale": "主+1：普通负至少1、让负至少2、让平恰1。狼队上轮三次头球支持定位球威胁，但主队后卫回归和客队中场伤病限制穿盘；普通客胜是负/平中的窄分支，恰赢1没有独立证据。",
+    "compatibility": "待程序枚举核验",
+    "goals0to7plus": [
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.2,
+        "p": 0.24923000296860168
+      },
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.55,
+        "p": 0.2246580308449367
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 5,
+        "p": 0.15950720189990508
+      },
+      {
+        "key": "s4",
+        "label": "4",
+        "odds": 5.45,
+        "p": 0.1463368824769771
+      },
+      {
+        "key": "s5",
+        "label": "5",
+        "odds": 10.5,
+        "p": 0.07595581042852621
+      },
+      {
+        "key": "s0",
+        "label": "0",
+        "odds": 11,
+        "p": 0.07250327359086595
+      },
+      {
+        "key": "s6",
+        "label": "6",
+        "odds": 18,
+        "p": 0.04430755608330696
+      },
+      {
+        "key": "s7",
+        "label": "7+",
+        "odds": 29,
+        "p": 0.027501241706880182
+      }
+    ],
+    "goalsTop3": [
+      {
+        "key": "s2",
+        "label": "2",
+        "odds": 3.2,
+        "p": 0.24923000296860168
+      },
+      {
+        "key": "s3",
+        "label": "3",
+        "odds": 3.55,
+        "p": 0.2246580308449367
+      },
+      {
+        "key": "s1",
+        "label": "1",
+        "odds": 5,
+        "p": 0.15950720189990508
+      }
+    ],
+    "goalsRationale": "客队近期进攻与布城逆转支持中段，后卫回归和客队中场缺员可压低节奏；不由3:0/3:2直接拟合本场。",
+    "historicalBaseline": {
+      "status": "not_established",
+      "sampleSize": 0,
+      "reason": "无预先定义同联赛相近市场完整样本；未用昨日极值拟合"
+    },
+    "jointScoreBasis": "全比分官方市场含胜/平/负其他共31项去水。取具体比分排序前三，不删除反向比分，不以这些比分推导博。类别市场与总进球市场独立，未声称已拟合相容的联合分布。",
+    "scoreTop3": [
+      {
+        "key": "s01s01",
+        "label": "1:1",
+        "odds": 6,
+        "p": 0.1182574952288643
+      },
+      {
+        "key": "s01s02",
+        "label": "1:2",
+        "odds": 7,
+        "p": 0.10136356733902654
+      },
+      {
+        "key": "s00s01",
+        "label": "0:1",
+        "odds": 7.5,
+        "p": 0.09460599618309144
+      }
+    ],
+    "jointMarginalLimitations": "比分其他类别无法唯一分摊到各总进球；不伪造一致边际，保留两个市场及差异人工审阅。",
+    "probabilityBasis": "official_market_implied_not_calibrated",
+    "counterEvidence": "狼队需把主场状态带到客场；布城Tolaj有伤后负荷疑问但斗志与后段进球存在，双选仍不覆盖主胜。布城文章联赛败场数字内部矛盾，不采用其总败场统计。",
+    "confidence": "moderate",
+    "starsAudit": {
+      "values": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "colors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "reasons": {
+        "direction": "狼队近四场3胜1平、刚3:0，布城近五主场三负；客胜先。但狼队Jordan James可能缺、Konan与Jimenez缺阵，布城Rob Dickie恢复训练可选且刚逆转博尔顿，应保留平局。",
+        "speculative": "主+1：普通负至少1、让负至少2、让平恰1。狼队上轮三次头球支持定位球威胁，但主队后卫回归和客队中场伤病限制穿盘；普通客胜是负/平中的窄分支，恰赢1没有独立证据。",
+        "goals": "客队近期进攻与布城逆转支持中段，后卫回归和客队中场缺员可压低节奏；不由3:0/3:2直接拟合本场。",
+        "halfFull": "两队后段变化及轮换显著，半全场不加星。",
+        "score": "精确比分市场排序，仅011零封有额外轻度依据。"
+      }
+    },
+    "marketCandidateComparison": {
+      "applies": false,
+      "reason": "对手接近或反证强，仍比较三边界",
+      "officialHandicap": 1,
+      "ordinaryVsCoverVsExactDraw": "主+1：普通负至少1、让负至少2、让平恰1。狼队上轮三次头球支持定位球威胁，但主队后卫回归和客队中场伤病限制穿盘；普通客胜是负/平中的窄分支，恰赢1没有独立证据。",
+      "afterLeadExpansion": "狼队近四场3胜1平、刚3:0，布城近五主场三负；客胜先。但狼队Jordan James可能缺、Konan与Jimenez缺阵，布城Rob Dickie恢复训练可选且刚逆转博尔顿，应保留平局。",
+      "opponentCounterThreat": "狼队需把主场状态带到客场；布城Tolaj有伤后负荷疑问但斗志与后段进球存在，双选仍不覆盖主胜。布城文章联赛败场数字内部矛盾，不采用其总败场统计。",
+      "selected": "负"
+    }
+  }
+]

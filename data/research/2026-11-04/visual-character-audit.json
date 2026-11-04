@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-11-04T05:04:49.203Z",
+  "stage": "local_visual_repair_acceptance_complete_online_pending",
+  "repairWriterThread": "01a1a4e0-123a-7bb0-85e3-d38bbde6529f",
+  "publicationBlocked": true,
+  "files": [
+    {
+      "path": "public/assets/muse-hero.jpg",
+      "sha256": "3e2fcc847b4f6f27626346b16bb8af9386fe0cbdb3852527adaa04390843ffac"
+    },
+    {
+      "path": "work/stage-1104/public/assets/muse-hero.jpg",
+      "sha256": "3e2fcc847b4f6f27626346b16bb8af9386fe0cbdb3852527adaa04390843ffac"
+    },
+    {
+      "path": "work/release-1026/public/assets/muse-hero.jpg",
+      "sha256": "1203431d9c13b009f58b0de30578408e529e1d4a576928ebd77d79522d1f6045"
+    },
+    {
+      "path": "work/correction-1027/public/assets/muse-hero.jpg",
+      "sha256": "1203431d9c13b009f58b0de30578408e529e1d4a576928ebd77d79522d1f6045"
+    },
+    {
+      "path": "public/cards/2026-10-26-final-scan.png",
+      "sha256": "d5c5680def51fde51865e9b557d6ffa9f04c4ddbbc6fc7c37129c070eafd10b5"
+    },
+    {
+      "path": "work/stage-1104/public/cards/2026-11-04-final-scan.png",
+      "sha256": "5a44ed0ac044885ab87fa02b50b344e0c561330795c79bcb5c9a396b044a9a80"
+    },
+    {
+      "path": "work/stage-1104/public/cards/2026-11-04-final-tracking.png",
+      "sha256": "7c7e988af46a41deef001b47c8c9517786ebc331b0e3a9967e6fffcb6f198e87"
+    },
+    {
+      "path": "data/review-template-lock.json",
+      "sha256": "eaa3f2807ccc94b8004e54f2463beb82a276390357f12a62d80ea10f985348c2"
+    }
+  ],
+  "currentAsset": {
+    "size": [
+      800,
+      533
+    ],
+    "sourceCrop": [
+      600,
+      0,
+      200,
+      533
+    ]
+  },
+  "historicalAsset": {
+    "path": "work/release-1026/public/assets/muse-hero.jpg",
+    "size": [
+      1635,
+      918
+    ],
+    "sourceCrop": [
+      600,
+      0,
+      1035,
+      560
+    ]
+  },
+  "renderParameters": {
+    "alpha": 0.44,
+    "artWidthFactor": 1.7,
+    "mirrored": true
+  },
+  "finding": "Historical absolute crop x600 was used against replacement800px asset, taking only rightmost200px and losing face. Historical1635px asset same fixed crop retains face/hand.",
+  "manualInspection": [
+    "Today scan-preview shows enlarged texture, no identifiable character",
+    "11-03 scan also texture, not a valid correct-character reference",
+    "Current800px asset contains whole characters; loss occurs at crop",
+    "Historical1635px asset visually inspected; matches original composition"
+  ],
+  "reference": {
+    "path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-e6d54f10-5ce8-4e92-b413-2078e74bc1bf.png",
+    "sha256": "0990780de937937aaac007d0833b27702c637b465eecde426c75da1a879bd90c",
+    "scope": "User2026-11-02 explicitly approved rectangle markers; screenshot itself has texture background and cannot establish valid character crop"
+  },
+  "fixScope": "Restore scan-only historical asset binding, keep existing crop/geometry and normal tracking asset. Unique writer implements and verifies, no recommendations/star/report modifications by this audit.",
+  "pending": [
+    "Publisher must meet14:00 timing and other report gates",
+    "Online four-button date/image/clipboard verification before completion"
+  ],
+  "verified": false,
+  "repairVisualCheck": {
+    "checkedAt": "2026-11-04T05:05:30.575Z",
+    "passed": true,
+    "scope": "Independent view of repaired720px preview: face visible on right, hand on left; not whole publication acceptance",
+    "scanSha256": "5a44ed0ac044885ab87fa02b50b344e0c561330795c79bcb5c9a396b044a9a80",
+    "asset": "work/stage-1104/public/assets/muse-scan-hero.jpg",
+    "assetSha256": "1203431d9c13b009f58b0de30578408e529e1d4a576928ebd77d79522d1f6045"
+  },
+  "localVerified": true,
+  "linkedAudits": [
+    {
+      "path": "data/research/2026-11-04/visual-repair-pixel-audit.json",
+      "sha256": "852bf756bbdb8af3a8cf7a13fd0e6d3c018dbeebda31b5361bbcc322a42250c8"
+    },
+    {
+      "path": "work/stage-1104/data/research/2026-11-04/local-phone-verification.json",
+      "sha256": "a0aac97eec7564d57e3c46c18db0aef2ea3e8d7bc2bd354c432b77631d2fe50a"
+    }
+  ],
+  "reconciledAt": "2026-11-04T05:06:43.247Z",
+  "beforeScanSha256": "6707f58b1e3ba15f9808d4550f8bfbd11167bfb451a51a18c7afcf04ca9c2bf3",
+  "afterScanSha256": "5a44ed0ac044885ab87fa02b50b344e0c561330795c79bcb5c9a396b044a9a80",
+  "hashSamplingNote": "Initial files[] inventory was captured after concurrent writer repair; its scan hash is the repaired version, not the pre-repair preview. True pre-repair hash taken from writer visual-before pixel audit."
+}

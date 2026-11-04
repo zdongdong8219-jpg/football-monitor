@@ -5,6 +5,8 @@
   const FONT='"Microsoft YaHei",system-ui,sans-serif';
   const asset=new Image();asset.src='assets/muse-hero.jpg';
   const assetReady=asset.decode().catch(()=>{});
+  const scanAsset=new Image();scanAsset.src='assets/muse-scan-hero.jpg';
+  const scanAssetReady=scanAsset.decode();
   const money=n=>n==null?'—':(Number(n)>0?'+':'')+Number(n).toFixed(2);
   const plain=v=>String(v??'').replace(/<[^>]*>/g,'');
   const reviewPick=r=>plain(r.primaryPick||r.buy||r.resultPick||'待分析').replace(/｜/g,'\n');
@@ -32,7 +34,8 @@
   function selections(r){const kind=formalKind(r);return r.selectionText||(r.legs||[]).map(l=>{const scan=(kind==='goals3'||kind==='goals4')&&currentScanRows?.find(x=>x.number===l.number),selection=scan?.goals||scan?.goalRange||l.selection||'—';return `${l.number||''}[${selection}]`}).join(' × ')}
   const png=canvas=>new Promise((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(Error('图片生成失败')),'image/png'));
   async function poster(reviewMode){
-    await assetReady;
+    await scanAssetReady;
+    const asset=scanAsset;
     const report=reviewMode?currentReview:liveReport();if(!report)throw Error('没有可用复盘');
     const raw=reviewMode?(report.ticketReview?.length?report.ticketReview:report.combinations||[]):report.recommendations||[];
     const tickets=report.date>=TRACKING_RESET_DATE?formalTickets(raw,report):reviewMode?raw.map(r=>({r,label:r.name||labels[slot(r)],i:slot(r)})).sort((a,b)=>[0,2,1,3,4,5,6].indexOf(a.i)-[0,2,1,3,4,5,6].indexOf(b.i)):orderedTickets(raw);
