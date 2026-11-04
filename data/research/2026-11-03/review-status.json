@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "runStartedAt": "2026-11-03T22:27:45.274Z",
+  "lastProgressAt": "2026-11-04T00:12:10.374Z",
+  "runPhase": "ready_to_publish",
+  "completed": false,
+  "mobileVerified": false,
+  "reviewAt": "2026-11-04T06:25:00+08:00",
+  "completedSteps": [
+    "template_lock_read",
+    "schedule_verified",
+    "all_11_ft_ht_verified",
+    "8_secondary_sources_verified",
+    "early_final_r1_provenance_preserved",
+    "info_only_scenarios_reviewed",
+    "v6_overlay_generated",
+    "native_five_segments_inspected",
+    "zero_outside_pixels_verified",
+    "r1_active_original_verified",
+    "local_real_clipboard_passed"
+  ],
+  "published": false,
+  "blockers": [],
+  "previousFailureClass": "verification_environment",
+  "resumeVerifier": "work/verify-review-1103.mjs"
+}

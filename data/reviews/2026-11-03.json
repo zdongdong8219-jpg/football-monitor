@@ -1,0 +1,792 @@
+{
+  "date": "2026-11-03",
+  "infoOnly": true,
+  "completed": false,
+  "mobileVerified": false,
+  "generatedAt": "2026-11-03T22:32:44.792Z",
+  "reviewAt": "2026-11-04T06:25:00+08:00",
+  "originalReport": "data/reports/versions/2026-11-03-core30-r1.json",
+  "originalImages": [
+    "public/cards/2026-11-03-core30-r1-scan.png",
+    "public/cards/2026-11-03-core30-r1-tracking.png"
+  ],
+  "immutableHashes": {
+    "data/reports/versions/2026-11-03-final.json": "e8089e953a9e35bf2613432af9b54f99fe1ceb61d3a68b322eebeb8c8f029f06",
+    "data/reports/versions/2026-11-03-early.json": "6d68142743bc0330070a135cf7a3214474d2539faacf340d390acaab2dd8e18a",
+    "data/reports/2026-11-03.json": "76e11bc6f1136d1667012f90425b8ccb9f2686ef2b38fa3f35fd8414f06b8a46",
+    "data/reports/versions/2026-11-03-core30-r1.json": "76e11bc6f1136d1667012f90425b8ccb9f2686ef2b38fa3f35fd8414f06b8a46",
+    "data/review-template-lock.json": "eaa3f2807ccc94b8004e54f2463beb82a276390357f12a62d80ea10f985348c2",
+    "data/research/2026-11-03/scan-geometry.json": "987b8aab4bec35fafcdd4e63e76aa4e373de0c68cd13b5340fc1e6d6792ab460",
+    "public/cards/2026-11-03-final-locked-scan.png": "0b13f2851e9bc2c5c3ef519f4bf6b4c1da503f01e25c75f817f9efe433959cb9",
+    "public/cards/2026-11-03-final-locked-tracking.png": "6893e34dde677d11a6115b2215c4915e231af557c7b95b98d3a4bff7dc99fbfb",
+    "public/cards/2026-11-03-early-locked-scan.png": "b55ed6e8d469247a86106dc912cbb1795e08e40a369c158c88ba033e886a6efc",
+    "public/cards/2026-11-03-early-locked-tracking.png": "b27adee2d5e205b3a593a3a3de43b6f66f691ac75f3f47e948a51a731f2c1ea2",
+    "public/cards/2026-11-03-core30-r1-scan.png": "a14c6410ae2973127a68b22f3858353bb55f9397d6722b0ab84784f7c01041b4",
+    "public/cards/2026-11-03-core30-r1-tracking.png": "14aa3052df5960767d091d6e60645b18fe902a82f5c70dc2ce253e283d543bc3",
+    "data/research/2026-11-03/core30-r1/scan-geometry.json": "987b8aab4bec35fafcdd4e63e76aa4e373de0c68cd13b5340fc1e6d6792ab460"
+  },
+  "rows": [
+    {
+      "number": "周二001",
+      "teams": "纽喷气机 : 上海海港",
+      "kickoff": "2026-11-03T15:45:00+08:00",
+      "recommendedPick": "负",
+      "speculativePick": "让负",
+      "goalsPick": "3/4/2",
+      "halfFullPick": "平负/负负",
+      "scorePick": "1:2/1:3/0:2",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "2:4",
+      "halfScore": "0:2",
+      "hits": {
+        "result": true,
+        "speculative": true,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      }
+    },
+    {
+      "number": "周二002",
+      "teams": "柏太阳神 : 大田市民",
+      "kickoff": "2026-11-03T18:00:00+08:00",
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
+      "goalsPick": "3/2/4",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "2:1/2:0/3:1",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "2:0",
+      "halfScore": "0:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": true,
+        "score": true
+      }
+    },
+    {
+      "number": "周二003",
+      "teams": "曼谷港务 : 北京国安",
+      "kickoff": "2026-11-03T20:15:00+08:00",
+      "recommendedPick": "负",
+      "speculativePick": "让平",
+      "goalsPick": "3/4/2",
+      "halfFullPick": "平负/负负",
+      "scorePick": "1:2/1:3/0:2",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "7:4",
+      "halfScore": "3:4",
+      "hits": {
+        "result": false,
+        "speculative": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      }
+    },
+    {
+      "number": "周二004",
+      "teams": "加拉塔萨 : 斯图加特",
+      "kickoff": "2026-11-04T01:45:00+08:00",
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
+      "goalsPick": "3/4/5",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2:1/3:2/3:1",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "2:0",
+      "halfScore": "2:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      }
+    },
+    {
+      "number": "周二005",
+      "teams": "马竞 : 拜仁",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "recommendedPick": "负/胜",
+      "speculativePick": "让平",
+      "goalsPick": "3/4/2",
+      "halfFullPick": "平负/平胜",
+      "scorePick": "1:2/2:1/2:2",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "0:2",
+      "halfScore": "0:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      }
+    },
+    {
+      "number": "周二006",
+      "teams": "LASK林茨 : 布拉迪斯",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "recommendedPick": "胜",
+      "speculativePick": "让胜",
+      "goalsPick": "4/3/5",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "3:1/3:0/2:1",
+      "projectStars": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 1,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "white",
+        "score": "none"
+      },
+      "actualScore": "4:0",
+      "halfScore": "3:0",
+      "hits": {
+        "result": true,
+        "speculative": true,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      }
+    },
+    {
+      "number": "周二007",
+      "teams": "费耶诺德 : 国际米兰",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "recommendedPick": "负/平",
+      "speculativePick": "让平",
+      "goalsPick": "3/4/2",
+      "halfFullPick": "平负/负负",
+      "scorePick": "1:2/2:2/1:3",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "0:3",
+      "halfScore": "0:2",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      }
+    },
+    {
+      "number": "周二008",
+      "teams": "曼联 : 罗马",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
+      "goalsPick": "3/2/4",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2:1/1:0/2:2",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "3:2",
+      "halfScore": "0:2",
+      "hits": {
+        "result": true,
+        "speculative": true,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      }
+    },
+    {
+      "number": "周二009",
+      "teams": "巴萨 : 维拉",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "recommendedPick": "胜",
+      "speculativePick": "让平",
+      "goalsPick": "4/5/3",
+      "halfFullPick": "胜胜/平胜",
+      "scorePick": "3:1/3:2/4:1",
+      "projectStars": {
+        "direction": 2,
+        "speculative": 1,
+        "goals": 1,
+        "halfFull": 1,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "red",
+        "speculative": "white",
+        "goals": "white",
+        "halfFull": "white",
+        "score": "none"
+      },
+      "actualScore": "3:0",
+      "halfScore": "1:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": true,
+        "halfFull": true,
+        "score": false
+      }
+    },
+    {
+      "number": "周二010",
+      "teams": "比利亚雷 : 巴黎圣曼",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "recommendedPick": "负",
+      "speculativePick": "让平",
+      "goalsPick": "3/4/5",
+      "halfFullPick": "平负/负负",
+      "scorePick": "1:2/1:3/2:3",
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "0:6",
+      "halfScore": "0:4",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": false,
+        "halfFull": true,
+        "score": false
+      }
+    },
+    {
+      "number": "周二011",
+      "teams": "博德闪耀 : 里尔",
+      "kickoff": "2026-11-04T04:00:00+08:00",
+      "recommendedPick": "胜/平",
+      "speculativePick": "让平",
+      "goalsPick": "3/4/2",
+      "halfFullPick": "平胜/胜胜",
+      "scorePick": "2:1/2:2/3:1",
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 1,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "white",
+        "speculative": "none",
+        "goals": "white",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "actualScore": "0:0",
+      "halfScore": "0:0",
+      "hits": {
+        "result": true,
+        "speculative": false,
+        "goals": false,
+        "halfFull": false,
+        "score": false
+      }
+    }
+  ],
+  "statistics": {
+    "result": {
+      "hit": 10,
+      "total": 11,
+      "pending": 0
+    },
+    "speculative": {
+      "hit": 3,
+      "total": 11,
+      "pending": 0
+    },
+    "goals": {
+      "hit": 5,
+      "total": 11,
+      "pending": 0
+    },
+    "halfFull": {
+      "hit": 8,
+      "total": 11,
+      "pending": 0
+    },
+    "score": {
+      "hit": 1,
+      "total": 11,
+      "pending": 0
+    }
+  },
+  "scenarioReview": [
+    {
+      "id": "2026-11-03-final-core20",
+      "category": "core20",
+      "name": "稳健候选A",
+      "legs": [
+        {
+          "number": "周二006",
+          "selection": "胜",
+          "occurred": true
+        },
+        {
+          "number": "周二009",
+          "selection": "胜",
+          "occurred": true
+        }
+      ],
+      "totalLegs": 2,
+      "hitCount": 2,
+      "hit": true,
+      "status": "2中2",
+      "infoOnly": true
+    },
+    {
+      "id": "2026-11-03-core30-r1",
+      "category": "core30",
+      "name": "3.0版2串1",
+      "legs": [
+        {
+          "number": "周二003",
+          "selection": "负",
+          "occurred": false
+        },
+        {
+          "number": "周二004",
+          "selection": "胜",
+          "occurred": true
+        }
+      ],
+      "totalLegs": 2,
+      "hitCount": 1,
+      "hit": false,
+      "status": "2中1",
+      "infoOnly": true
+    },
+    {
+      "id": "2026-11-03-final-dream6",
+      "category": "dream6",
+      "name": "6场高方差情景",
+      "legs": [
+        {
+          "number": "周二003",
+          "selection": "让平",
+          "occurred": false
+        },
+        {
+          "number": "周二004",
+          "selection": "让平",
+          "occurred": false
+        },
+        {
+          "number": "周二006",
+          "selection": "让胜",
+          "occurred": true
+        },
+        {
+          "number": "周二007",
+          "selection": "让平",
+          "occurred": false
+        },
+        {
+          "number": "周二009",
+          "selection": "让平",
+          "occurred": false
+        },
+        {
+          "number": "周二011",
+          "selection": "让平",
+          "occurred": false
+        }
+      ],
+      "totalLegs": 6,
+      "hitCount": 1,
+      "hit": false,
+      "status": "6中1",
+      "infoOnly": true
+    },
+    {
+      "id": "2026-11-03-final-goals4",
+      "category": "goals4",
+      "name": "4场进球情景",
+      "legs": [
+        {
+          "number": "周二004",
+          "selection": "3/4/5",
+          "occurred": false
+        },
+        {
+          "number": "周二006",
+          "selection": "4/3/5",
+          "occurred": true
+        },
+        {
+          "number": "周二009",
+          "selection": "4/5/3",
+          "occurred": true
+        },
+        {
+          "number": "周二011",
+          "selection": "3/4/2",
+          "occurred": false
+        }
+      ],
+      "totalLegs": 4,
+      "hitCount": 2,
+      "hit": false,
+      "status": "4中2",
+      "infoOnly": true
+    }
+  ],
+  "editionReviews": {
+    "early": {
+      "originalReport": "data/reports/versions/2026-11-03-early.json",
+      "originalImages": [
+        "cards/2026-11-03-early-locked-scan.png",
+        "cards/2026-11-03-early-locked-tracking.png"
+      ],
+      "rows": [
+        {
+          "number": "周二001",
+          "teams": "纽喷气机 : 上海海港",
+          "kickoff": "2026-11-03T15:45:00+08:00",
+          "recommendedPick": "负",
+          "speculativePick": "让负",
+          "goalsPick": "3/4/2",
+          "halfFullPick": "平负/负负",
+          "scorePick": "1:2/1:3/0:2",
+          "projectStars": {
+            "direction": 1,
+            "speculative": 0,
+            "goals": 1,
+            "halfFull": 0,
+            "score": 0
+          },
+          "projectStarColors": {
+            "direction": "white",
+            "speculative": "none",
+            "goals": "white",
+            "halfFull": "none",
+            "score": "none"
+          },
+          "actualScore": "2:4",
+          "halfScore": "0:2",
+          "hits": {
+            "result": true,
+            "speculative": true,
+            "goals": false,
+            "halfFull": true,
+            "score": false
+          }
+        }
+      ],
+      "scenarioReview": [
+        {
+          "id": "2026-11-03-early-core20",
+          "category": "core20",
+          "name": "早场方向",
+          "legs": [],
+          "totalLegs": 0,
+          "hitCount": 0,
+          "hit": false,
+          "status": "无情景",
+          "infoOnly": true
+        },
+        {
+          "id": "2026-11-03-early-core30",
+          "category": "core30",
+          "name": "概率排序",
+          "legs": [],
+          "totalLegs": 0,
+          "hitCount": 0,
+          "hit": false,
+          "status": "无情景",
+          "infoOnly": true
+        },
+        {
+          "id": "2026-11-03-early-dream6",
+          "category": "dream6",
+          "name": "高方差情景",
+          "legs": [],
+          "totalLegs": 0,
+          "hitCount": 0,
+          "hit": false,
+          "status": "无情景",
+          "infoOnly": true
+        },
+        {
+          "id": "2026-11-03-early-goals4",
+          "category": "goals4",
+          "name": "进球情景",
+          "legs": [],
+          "totalLegs": 0,
+          "hitCount": 0,
+          "hit": false,
+          "status": "无情景",
+          "infoOnly": true
+        }
+      ]
+    },
+    "final": {
+      "originalReport": "data/reports/versions/2026-11-03-final.json",
+      "originalImages": [
+        "public/cards/2026-11-03-final-locked-scan.png",
+        "public/cards/2026-11-03-final-locked-tracking.png"
+      ],
+      "scenarioReview": [
+        {
+          "id": "2026-11-03-final-core20",
+          "category": "core20",
+          "name": "稳健候选A",
+          "legs": [
+            {
+              "number": "周二006",
+              "selection": "胜",
+              "occurred": true
+            },
+            {
+              "number": "周二009",
+              "selection": "胜",
+              "occurred": true
+            }
+          ],
+          "totalLegs": 2,
+          "hitCount": 2,
+          "hit": true,
+          "status": "2中2",
+          "infoOnly": true
+        },
+        {
+          "id": "2026-11-03-core30-r1",
+          "category": "core30",
+          "name": "3.0版2串1",
+          "legs": [
+            {
+              "number": "周二003",
+              "selection": "负",
+              "occurred": false
+            },
+            {
+              "number": "周二004",
+              "selection": "胜",
+              "occurred": true
+            }
+          ],
+          "totalLegs": 2,
+          "hitCount": 1,
+          "hit": false,
+          "status": "2中1",
+          "infoOnly": true
+        },
+        {
+          "id": "2026-11-03-final-dream6",
+          "category": "dream6",
+          "name": "6场高方差情景",
+          "legs": [
+            {
+              "number": "周二003",
+              "selection": "让平",
+              "occurred": false
+            },
+            {
+              "number": "周二004",
+              "selection": "让平",
+              "occurred": false
+            },
+            {
+              "number": "周二006",
+              "selection": "让胜",
+              "occurred": true
+            },
+            {
+              "number": "周二007",
+              "selection": "让平",
+              "occurred": false
+            },
+            {
+              "number": "周二009",
+              "selection": "让平",
+              "occurred": false
+            },
+            {
+              "number": "周二011",
+              "selection": "让平",
+              "occurred": false
+            }
+          ],
+          "totalLegs": 6,
+          "hitCount": 1,
+          "hit": false,
+          "status": "6中1",
+          "infoOnly": true
+        },
+        {
+          "id": "2026-11-03-final-goals4",
+          "category": "goals4",
+          "name": "4场进球情景",
+          "legs": [
+            {
+              "number": "周二004",
+              "selection": "3/4/5",
+              "occurred": false
+            },
+            {
+              "number": "周二006",
+              "selection": "4/3/5",
+              "occurred": true
+            },
+            {
+              "number": "周二009",
+              "selection": "4/5/3",
+              "occurred": true
+            },
+            {
+              "number": "周二011",
+              "selection": "3/4/2",
+              "occurred": false
+            }
+          ],
+          "totalLegs": 4,
+          "hitCount": 2,
+          "hit": false,
+          "status": "4中2",
+          "infoOnly": true
+        }
+      ]
+    },
+    "core30R1": {
+      "originalReport": "data/reports/versions/2026-11-03-core30-r1.json",
+      "scenarioReview": [
+        {
+          "id": "2026-11-03-core30-r1",
+          "category": "core30",
+          "name": "3.0版2串1",
+          "legs": [
+            {
+              "number": "周二003",
+              "selection": "负",
+              "occurred": false
+            },
+            {
+              "number": "周二004",
+              "selection": "胜",
+              "occurred": true
+            }
+          ],
+          "totalLegs": 2,
+          "hitCount": 1,
+          "hit": false,
+          "status": "2中1",
+          "infoOnly": true
+        }
+      ]
+    }
+  },
+  "trackingPolicy": "infoOnly: verify scenarios only; do not add stakes, returns, profits, or simulated 1000 yuan. Preserve locked history.",
+  "acceptance": {
+    "sources": true,
+    "visual": true,
+    "localPhone": true,
+    "onlinePhone": false
+  },
+  "geometryFile": "data/research/2026-11-03/core30-r1/scan-geometry.json"
+}
