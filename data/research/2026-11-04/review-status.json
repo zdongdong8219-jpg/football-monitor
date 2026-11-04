@@ -1,0 +1,35 @@
+{
+  "lastProgressAt": "2026-11-04T22:36:20.049Z",
+  "inputHashes": {
+    "data/reports/2026-11-04.json": "0f538dfd995f640775c51e26da6709c4023c0181671c8cf09c21e09e09925a53",
+    "public/cards/2026-11-04-final-tracking.png": "7c7e988af46a41deef001b47c8c9517786ebc331b0e3a9967e6fffcb6f198e87",
+    "public/cards/2026-11-04-bo-r1-scan.png": "405af69bffd6aedd778338aaeaa9e7b11a174aa9bc6f93d8944b1e6156fa9e74",
+    "data/review-template-lock.json": "eaa3f2807ccc94b8004e54f2463beb82a276390357f12a62d80ea10f985348c2",
+    "data/research/2026-11-04/review-result-audit.json": "3c6db53b0285275b708789f28077925006bd0d19ecc08f8d3d2537d721c00308"
+  },
+  "completedSteps": [
+    "template_lock_read",
+    "target_and_true_kickoff_verified",
+    "latest_approved_revision_resolved",
+    "12_exact_FT_HT_verified",
+    "8_secondary_sources_verified",
+    "approved_r1_settlement",
+    "separate_1000_tracking_settled",
+    "native_ten_segments_and_reference_inspected",
+    "outside_allowed_zero_pixels",
+    "original_online_hashes_verified",
+    "local_430px_four_actual_clipboards",
+    "build_and_tests_passed"
+  ],
+  "expectedReviewAt": "2026-11-05T06:25:00.0000000+08:00",
+  "runPhase": "ready_to_publish",
+  "completed": false,
+  "artifacts": {
+    "originalTracking": "public/cards/2026-11-04-final-tracking.png",
+    "originalScan": "public/cards/2026-11-04-bo-r1-scan.png",
+    "review": "data/reviews/2026-11-04.json"
+  },
+  "date": "2026-11-04",
+  "runStartedAt": "2026-11-05T06:28:12.2562445+08:00",
+  "mobileVerified": false
+}
