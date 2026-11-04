@@ -10,9 +10,9 @@
   "batchLabel": "中晚场终版",
   "batchFinal": true,
   "earlyPublished": false,
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
   "scanDecisionComplete": true,
@@ -14472,5 +14472,7 @@
   "analysisContentSha256": "e089081c1ee097087ed8da86a26901e0e06f175c142d832deee3fc46d1cb2711",
   "methodAcceptanceFile": "data/research/2026-11-04/prematch-method-acceptance.json",
   "geometryFile": "data/research/2026-11-04/scan-geometry.json",
-  "deliveryManifest": "data/research/2026-11-04/approved-four-image-manifest.json"
+  "deliveryManifest": "data/research/2026-11-04/approved-four-image-manifest.json",
+  "onlineVerifiedAt": "2026-11-04T06:01:55.657Z",
+  "verificationScope": "Edge430px emulation, real click clipboard PNG RGBA/hash, independent manifest; physical handset not tested"
 }

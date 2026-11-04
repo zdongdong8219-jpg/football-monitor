@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-04",
+  "taskRunId": "13-14-20261104-1245",
+  "runStartedAt": "2026-11-04T12:46:03.0497225+08:00",
+  "lastProgressAt": "2026-11-04T06:01:55.697Z",
+  "runPhase": "publishing_verified_metadata",
+  "completedSteps": [
+    "startup_status",
+    "memory_and_rules_read",
+    "automation_configuration_verified",
+    "remote_snapshots_saved",
+    "official_calculator_saved",
+    "full_official_list_crosschecked",
+    "full_schedule_grouped",
+    "handoff_saved",
+    "prematch_method_diagnosis_and_handoff",
+    "handicap_comparison_acceptance_handoff",
+    "afternoon_official_12_selling_verified",
+    "prematch_sources_saved",
+    "full_12_match_analysis",
+    "method_review_and_core_comparison",
+    "local_build_validation",
+    "character_asset_repaired",
+    "visual_pixels_and_independent_manual_checked",
+    "local_manifest_four_clipboards_verified",
+    "review_schedule_verified",
+    "prepublication_fresh_sale_and_key_news_verified",
+    "final_content_published",
+    "online_four_distinct_expected_png_verified",
+    "visual_completion_gate_passed"
+  ],
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": false,
+  "remoteHead": "f37e13eac2260298f784ce7d8cc03d173328e527",
+  "groups": {
+    "early": [],
+    "middle": [
+      "周三001",
+      "周三002"
+    ],
+    "late": [
+      "周三003",
+      "周三004",
+      "周三005",
+      "周三006",
+      "周三007",
+      "周三008",
+      "周三009",
+      "周三010",
+      "周三011",
+      "周三012"
+    ]
+  },
+  "totalMatches": 12,
+  "earlyCount": 0,
+  "middleCount": 2,
+  "lateCount": 10,
+  "morningCompleted": true,
+  "morningCompletedAt": "2026-11-03T23:47:52.25Z",
+  "nextRunAt": "2026-11-04T12:45:00+08:00",
+  "publicationNotBefore": "2026-11-04T14:00:00+08:00",
+  "lastError": null,
+  "failedPhase": null,
+  "methodImprovement": {
+    "requestedAt": "2026-11-04T00:38:12.721Z",
+    "diagnosisCompleted": true,
+    "methodAuditApplied": true,
+    "requiredBeforePublication": true,
+    "diagnosisFile": "data/research/2026-11-04/PREMATCH-DIAGNOSIS.md",
+    "checklistFile": "data/research/2026-11-04/PREPUBLICATION-CHECKLIST.md",
+    "requiredAcceptanceFile": "data/research/2026-11-04/prematch-method-acceptance.json",
+    "requiredRowsFile": "data/research/2026-11-04/method-review-rows.json",
+    "displayNames": [
+      "2.0",
+      "3.0"
+    ],
+    "pending": [
+      "all-fixture pre-match independent assessments",
+      "method acceptance before final publication"
+    ],
+    "sourceLimitation": "11-03 010 second independent result source unresolved",
+    "handicapComparison": {
+      "rule": "2026-11-04 穿盘与让平必须独立比较",
+      "readAt": "2026-11-04T02:36:41.077Z",
+      "ruleSectionSha256": "ab9c912529d3f05fc5b5775ed8a63edd67878150948fad1004f0f76d1528bb6f",
+      "requirementsFile": "data/research/2026-11-04/handicap-comparison-requirements.json",
+      "requiredBeforePublication": true,
+      "applied": true
+    }
+  },
+  "visualPublicationGate": {
+    "blocked": false,
+    "reason": "用户紧急要求：人物缺失审查，发布暂停，待底图裁切映射与视觉像素核验",
+    "requestedAt": "2026-11-04T13:01:30.2308542+08:00",
+    "sourceThreadId": "01a1a3ce-3fc0-71e3-81de-c7e7cc031196",
+    "pendingScan": "work/stage-1104/public/cards/2026-11-04-final-scan.png",
+    "pendingTracking": "work/stage-1104/public/cards/2026-11-04-final-tracking.png",
+    "published": false,
+    "prepublicationHold": false,
+    "readyForPublication": true,
+    "remaining": [],
+    "localChecksCompletedAt": "2026-11-04T05:07:23.579Z",
+    "scope": "Completion remains blocked until online verification; local publication prerequisites passed",
+    "pixelAudit": "data/research/2026-11-04/visual-repair-pixel-audit.json",
+    "independentAudit": "data/research/2026-11-04/visual-character-audit.json",
+    "onlineVerifiedAt": "2026-11-04T06:01:55.657Z"
+  },
+  "inputHashes": {
+    "pm-calculator.txt": "17599764bac2ab59f80bd964ce034867c9f3c9c669897c88c3c08d1fb9926784",
+    "pm-list.txt": "b6455676491554747d9235e4d9771f2cf58f6ac634040e1ee55fbaad03542713",
+    "pm-sources.json": "a846834b4238fce667c7b3577c810018877fcd142fd3fb38ffc368be5c2b4896",
+    "pm-articles.json": "10ece6d09f04425bc616204fd5897104d8a2987fa02da108bd245cedd46f0688",
+    "pm-secondary.json": "af8ea50104a2ebabc979709ff24a3931e4ca1b971997e1e6275b107d4be681fe",
+    "pm-extra.json": "b42fe9f7b9bc8bbc2ad354212fedb40e12136246e8a0ee1ff803058238d5a154",
+    "pm-leipzig-articles.json": "e4ed069fc4909ce73dc6eb9e6298736e6c8d0d9b79421bb140f5130b453a44d8"
+  },
+  "artifacts": {
+    "draft": "work/stage-1104/data/latest.json",
+    "methodRows": "data/research/2026-11-04/method-review-rows.json",
+    "acceptance": "data/research/2026-11-04/prematch-method-acceptance.json",
+    "manifest": "data/research/2026-11-04/approved-four-image-manifest.json",
+    "stage": "work/stage-1104/",
+    "scan": "work/stage-1104/public/cards/2026-11-04-final-scan.png",
+    "tracking": "work/stage-1104/public/cards/2026-11-04-final-tracking.png"
+  },
+  "reviewAt": "2026-11-05T06:25:00+08:00",
+  "reviewScheduleUpdated": false,
+  "reviewScheduleVerified": true,
+  "contentCommit": "2cd0c211fa4c84ff5038bd74be8d65cb4f94946d"
+}
