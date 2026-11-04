@@ -1,5 +1,5 @@
 {
-  "lastProgressAt": "2026-11-04T22:36:20.049Z",
+  "lastProgressAt": "2026-11-04T22:38:39.644Z",
   "inputHashes": {
     "data/reports/2026-11-04.json": "0f538dfd995f640775c51e26da6709c4023c0181671c8cf09c21e09e09925a53",
     "public/cards/2026-11-04-final-tracking.png": "7c7e988af46a41deef001b47c8c9517786ebc331b0e3a9967e6fffcb6f198e87",
@@ -19,17 +19,48 @@
     "outside_allowed_zero_pixels",
     "original_online_hashes_verified",
     "local_430px_four_actual_clipboards",
-    "build_and_tests_passed"
+    "build_and_tests_passed",
+    "review_content_published",
+    "online_430px_four_actual_clipboards",
+    "online_preview_and_full_png_hashes",
+    "schedule_configuration_readback",
+    "completed"
   ],
   "expectedReviewAt": "2026-11-05T06:25:00.0000000+08:00",
-  "runPhase": "ready_to_publish",
-  "completed": false,
+  "runPhase": "completed",
+  "completed": true,
   "artifacts": {
     "originalTracking": "public/cards/2026-11-04-final-tracking.png",
     "originalScan": "public/cards/2026-11-04-bo-r1-scan.png",
-    "review": "data/reviews/2026-11-04.json"
+    "review": "data/reviews/2026-11-04.json",
+    "manifest": "data/research/2026-11-04/review-four-image-manifest.json",
+    "onlineVerification": "data/research/2026-11-04/review-mobile/online-phone-verification.json",
+    "visualAudit": "data/research/2026-11-04/review-visual-v6-audit.json",
+    "triggerReadback": "data/research/2026-11-04/review-trigger-readback.json"
   },
   "date": "2026-11-04",
   "runStartedAt": "2026-11-05T06:28:12.2562445+08:00",
-  "mobileVerified": false
+  "mobileVerified": true,
+  "publication": {
+    "sha": "89a9cd02d2e21fa134238d7393b8b981e6416e64",
+    "at": "2026-11-04T22:37:08.986Z",
+    "files": [
+      "data/latest.json",
+      "public/data/latest.json",
+      "public/cards/2026-11-04-final-tracking-display-settled.png",
+      "public/cards/2026-11-04-final-tracking-display-settled-preview.jpg",
+      "data/review-latest.json",
+      "data/reviews/2026-11-04.json",
+      "data/research/2026-11-04/review-status.json",
+      "public/data/review-latest.json",
+      "public/data/reviews/2026-11-04.json",
+      "public/data/research/2026-11-04/review-status.json",
+      "public/cards/2026-11-04-review-scan.png",
+      "public/cards/2026-11-04-review-scan-preview.jpg",
+      "public/cards/2026-11-04-review-tracking.png",
+      "public/cards/2026-11-04-review-tracking-preview.jpg",
+      "public/phone-v2.html"
+    ]
+  },
+  "completedAt": "2026-11-04T22:38:39.644Z"
 }
