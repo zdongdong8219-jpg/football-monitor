@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-03",
+  "checkedAt": "2026-11-04T00:15:28.917Z",
+  "passed": true,
+  "consistency": {
+    "date": "2026-11-03",
+    "rows": 11,
+    "statistics": {
+      "result": {
+        "hit": 10,
+        "total": 11,
+        "pending": 0
+      },
+      "speculative": {
+        "hit": 3,
+        "total": 11,
+        "pending": 0
+      },
+      "goals": {
+        "hit": 5,
+        "total": 11,
+        "pending": 0
+      },
+      "halfFull": {
+        "hit": 8,
+        "total": 11,
+        "pending": 0
+      },
+      "score": {
+        "hit": 1,
+        "total": 11,
+        "pending": 0
+      }
+    }
+  },
+  "primaryFixtures": 11,
+  "secondaryFixtures": 8,
+  "criticalLegsVerified": true,
+  "templatePassed": true,
+  "markerCount": 27,
+  "outsidePixels": [
+    0,
+    0
+  ],
+  "originalsPassed": true,
+  "localMobilePassed": true,
+  "published": false
+}

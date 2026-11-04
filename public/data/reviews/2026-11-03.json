@@ -1,8 +1,8 @@
 {
   "date": "2026-11-03",
   "infoOnly": true,
-  "completed": false,
-  "mobileVerified": false,
+  "completed": true,
+  "mobileVerified": true,
   "generatedAt": "2026-11-03T22:32:44.792Z",
   "reviewAt": "2026-11-04T06:25:00+08:00",
   "originalReport": "data/reports/versions/2026-11-03-core30-r1.json",
@@ -863,7 +863,9 @@
     "sources": true,
     "visual": true,
     "localPhone": true,
-    "onlinePhone": false
+    "onlinePhone": true
   },
-  "geometryFile": "data/research/2026-11-03/core30-r1/scan-geometry.json"
+  "geometryFile": "data/research/2026-11-03/core30-r1/scan-geometry.json",
+  "completedAt": "2026-11-04T00:17:28.305Z",
+  "mobileVerificationScope": "Edge 430px browser emulation; four real input clicks and native clipboard PNG pixel hashes; not physical handset"
 }

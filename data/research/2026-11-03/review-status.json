@@ -1,10 +1,10 @@
 {
   "date": "2026-11-03",
   "runStartedAt": "2026-11-03T22:27:45.274Z",
-  "lastProgressAt": "2026-11-04T00:15:28.918Z",
-  "runPhase": "ready_to_publish",
-  "completed": false,
-  "mobileVerified": false,
+  "lastProgressAt": "2026-11-04T00:17:28.305Z",
+  "runPhase": "completed",
+  "completed": true,
+  "mobileVerified": true,
   "reviewAt": "2026-11-04T06:25:00+08:00",
   "completedSteps": [
     "template_lock_read",
@@ -18,11 +18,12 @@
     "zero_outside_pixels_verified",
     "r1_active_original_verified",
     "local_real_clipboard_passed",
-    "r1_active_original_verified",
-    "local_real_clipboard_passed"
+    "published",
+    "online_real_clipboard_passed"
   ],
-  "published": false,
+  "published": true,
   "blockers": [],
   "previousFailureClass": "verification_environment",
-  "resumeVerifier": "work/verify-review-1103.mjs"
+  "resumeVerifier": "work/verify-review-1103.mjs",
+  "completedAt": "2026-11-04T00:17:28.305Z"
 }

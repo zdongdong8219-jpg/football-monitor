@@ -1,0 +1,6 @@
+# November 3 review resume
+Read review-template-lock.json first. Read review-status.json and completedSteps before continuing; reuse hashed result evidence rather than recollecting successful sources.
+Active version is R1 per imageFiles and revision.geometryFile. Keep early and prior-final provenance. infoOnly financial fields remain absent; historical artwork is immutable.
+Use work/verify-review-1103.mjs locally and with --online: actual Edge 430px, real input clicks, native clipboard readback and decoded pixel hashes. No mock clipboard, no virtual clipboard substitute. A missing browser/clipboard capability is a verification_environment failure, not proof of a page defect; keep completion false.
+Run work/review-1103-gate.cjs before first content publication. It checks original hashes, result consistency, all v6 marker parameters, zero outside pixels, manual five-segment inspection and local clipboard audit.
+After deployment succeeds, run online verifier and inspect its four screenshots. Only then run work/complete-review-1103.cjs and publish metadata. Never rerun the prepublication gate after completion: it deliberately clears completion pending online evidence. Verify remote final JSON and image hashes. No schedule changes or repeated high-frequency retries.

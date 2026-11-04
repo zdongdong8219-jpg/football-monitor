@@ -1,0 +1,902 @@
+{
+  "date": "2026-11-03",
+  "templateLockVersion": "2026-11-02-final-v6",
+  "markers": [
+    {
+      "number": "周二001",
+      "column": "result",
+      "x": 510,
+      "y": 1377,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 1374,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二001",
+      "column": "speculative",
+      "x": 640,
+      "y": 1377,
+      "width": 109,
+      "height": 66,
+      "cellX": 637,
+      "cellY": 1374,
+      "cellWidth": 115,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二001",
+      "column": "halfFull",
+      "x": 845,
+      "y": 1377,
+      "width": 104,
+      "height": 66,
+      "cellX": 842,
+      "cellY": 1374,
+      "cellWidth": 110,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二002",
+      "column": "result",
+      "x": 510,
+      "y": 1449,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 1446,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二002",
+      "column": "goals",
+      "x": 755,
+      "y": 1449,
+      "width": 84,
+      "height": 66,
+      "cellX": 752,
+      "cellY": 1446,
+      "cellWidth": 90,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二002",
+      "column": "halfFull",
+      "x": 845,
+      "y": 1449,
+      "width": 104,
+      "height": 66,
+      "cellX": 842,
+      "cellY": 1446,
+      "cellWidth": 110,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二002",
+      "column": "score",
+      "x": 955,
+      "y": 1449,
+      "width": 154,
+      "height": 66,
+      "cellX": 952,
+      "cellY": 1446,
+      "cellWidth": 160,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二004",
+      "column": "result",
+      "x": 510,
+      "y": 1593,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 1590,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二004",
+      "column": "halfFull",
+      "x": 845,
+      "y": 1593,
+      "width": 104,
+      "height": 66,
+      "cellX": 842,
+      "cellY": 1590,
+      "cellWidth": 110,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二005",
+      "column": "result",
+      "x": 510,
+      "y": 1665,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 1662,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二005",
+      "column": "goals",
+      "x": 755,
+      "y": 1665,
+      "width": 84,
+      "height": 66,
+      "cellX": 752,
+      "cellY": 1662,
+      "cellWidth": 90,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二005",
+      "column": "halfFull",
+      "x": 845,
+      "y": 1665,
+      "width": 104,
+      "height": 66,
+      "cellX": 842,
+      "cellY": 1662,
+      "cellWidth": 110,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二006",
+      "column": "result",
+      "x": 510,
+      "y": 1737,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 1734,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二006",
+      "column": "speculative",
+      "x": 640,
+      "y": 1737,
+      "width": 109,
+      "height": 66,
+      "cellX": 637,
+      "cellY": 1734,
+      "cellWidth": 115,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二006",
+      "column": "goals",
+      "x": 755,
+      "y": 1737,
+      "width": 84,
+      "height": 66,
+      "cellX": 752,
+      "cellY": 1734,
+      "cellWidth": 90,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二006",
+      "column": "halfFull",
+      "x": 845,
+      "y": 1737,
+      "width": 104,
+      "height": 66,
+      "cellX": 842,
+      "cellY": 1734,
+      "cellWidth": 110,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二007",
+      "column": "result",
+      "x": 510,
+      "y": 1809,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 1806,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二007",
+      "column": "goals",
+      "x": 755,
+      "y": 1809,
+      "width": 84,
+      "height": 66,
+      "cellX": 752,
+      "cellY": 1806,
+      "cellWidth": 90,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二007",
+      "column": "halfFull",
+      "x": 845,
+      "y": 1809,
+      "width": 104,
+      "height": 66,
+      "cellX": 842,
+      "cellY": 1806,
+      "cellWidth": 110,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二008",
+      "column": "result",
+      "x": 510,
+      "y": 1881,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 1878,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二008",
+      "column": "speculative",
+      "x": 640,
+      "y": 1881,
+      "width": 109,
+      "height": 66,
+      "cellX": 637,
+      "cellY": 1878,
+      "cellWidth": 115,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二009",
+      "column": "result",
+      "x": 510,
+      "y": 1953,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 1950,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二009",
+      "column": "goals",
+      "x": 755,
+      "y": 1953,
+      "width": 84,
+      "height": 66,
+      "cellX": 752,
+      "cellY": 1950,
+      "cellWidth": 90,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二009",
+      "column": "halfFull",
+      "x": 845,
+      "y": 1953,
+      "width": 104,
+      "height": 66,
+      "cellX": 842,
+      "cellY": 1950,
+      "cellWidth": 110,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二010",
+      "column": "result",
+      "x": 510,
+      "y": 2025,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 2022,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二010",
+      "column": "halfFull",
+      "x": 845,
+      "y": 2025,
+      "width": 104,
+      "height": 66,
+      "cellX": 842,
+      "cellY": 2022,
+      "cellWidth": 110,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周二011",
+      "column": "result",
+      "x": 510,
+      "y": 2097,
+      "width": 124,
+      "height": 66,
+      "cellX": 507,
+      "cellY": 2094,
+      "cellWidth": 130,
+      "cellHeight": 72,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    }
+  ],
+  "results": [
+    {
+      "number": "周二001",
+      "x": 1112,
+      "y": 1374,
+      "height": 72,
+      "score": "2:4",
+      "half": "0:2"
+    },
+    {
+      "number": "周二002",
+      "x": 1112,
+      "y": 1446,
+      "height": 72,
+      "score": "2:0",
+      "half": "0:0"
+    },
+    {
+      "number": "周二003",
+      "x": 1112,
+      "y": 1518,
+      "height": 72,
+      "score": "7:4",
+      "half": "3:4"
+    },
+    {
+      "number": "周二004",
+      "x": 1112,
+      "y": 1590,
+      "height": 72,
+      "score": "2:0",
+      "half": "2:0"
+    },
+    {
+      "number": "周二005",
+      "x": 1112,
+      "y": 1662,
+      "height": 72,
+      "score": "0:2",
+      "half": "0:0"
+    },
+    {
+      "number": "周二006",
+      "x": 1112,
+      "y": 1734,
+      "height": 72,
+      "score": "4:0",
+      "half": "3:0"
+    },
+    {
+      "number": "周二007",
+      "x": 1112,
+      "y": 1806,
+      "height": 72,
+      "score": "0:3",
+      "half": "0:2"
+    },
+    {
+      "number": "周二008",
+      "x": 1112,
+      "y": 1878,
+      "height": 72,
+      "score": "3:2",
+      "half": "0:2"
+    },
+    {
+      "number": "周二009",
+      "x": 1112,
+      "y": 1950,
+      "height": 72,
+      "score": "3:0",
+      "half": "1:0"
+    },
+    {
+      "number": "周二010",
+      "x": 1112,
+      "y": 2022,
+      "height": 72,
+      "score": "0:6",
+      "half": "0:4"
+    },
+    {
+      "number": "周二011",
+      "x": 1112,
+      "y": 2094,
+      "height": 72,
+      "score": "0:0",
+      "half": "0:0"
+    }
+  ],
+  "ticketStamps": [
+    {
+      "category": "core20",
+      "seal": "中",
+      "count": "2中2"
+    },
+    {
+      "category": "core30",
+      "seal": "错",
+      "count": "2中1"
+    },
+    {
+      "category": "dream6",
+      "seal": "错",
+      "count": "6中1"
+    },
+    {
+      "category": "goals4",
+      "seal": "错",
+      "count": "4中2"
+    }
+  ],
+  "templateComparison": {
+    "scan": {
+      "width": 1244,
+      "height": 2336,
+      "changedPixels": 278034,
+      "outsideAllowedPixels": 0,
+      "allowed": [
+        {
+          "x": 510,
+          "y": 1377,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 640,
+          "y": 1377,
+          "w": 109,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 1377,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1379,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1449,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1449,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 1449,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 955,
+          "y": 1449,
+          "w": 154,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1451,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 1115,
+          "y": 1523,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1593,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 1593,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1595,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1665,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1665,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 1665,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1667,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1737,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 640,
+          "y": 1737,
+          "w": 109,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1737,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 1737,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1739,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1809,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1809,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 1809,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1811,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1881,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 640,
+          "y": 1881,
+          "w": 109,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1883,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1953,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1953,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 1953,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1955,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 2025,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 2025,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 2027,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 2097,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 2099,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 286,
+          "y": 308,
+          "w": 72,
+          "h": 46
+        },
+        {
+          "x": 276,
+          "y": 357,
+          "w": 94,
+          "h": 30
+        },
+        {
+          "x": 246,
+          "y": 460,
+          "w": 72,
+          "h": 46
+        },
+        {
+          "x": 236,
+          "y": 509,
+          "w": 94,
+          "h": 30
+        },
+        {
+          "x": 286,
+          "y": 668,
+          "w": 72,
+          "h": 46
+        },
+        {
+          "x": 276,
+          "y": 717,
+          "w": 94,
+          "h": 30
+        },
+        {
+          "x": 286,
+          "y": 860,
+          "w": 72,
+          "h": 46
+        },
+        {
+          "x": 276,
+          "y": 909,
+          "w": 94,
+          "h": 30
+        }
+      ]
+    },
+    "tracking": {
+      "width": 1244,
+      "height": 2459,
+      "changedPixels": 10133,
+      "outsideAllowedPixels": 0,
+      "allowed": [
+        {
+          "x": 364,
+          "y": 2202,
+          "w": 71,
+          "h": 115
+        },
+        {
+          "x": 899,
+          "y": 2202,
+          "w": 71,
+          "h": 115
+        }
+      ]
+    }
+  },
+  "manualInspection": {
+    "passed": true,
+    "checkedAt": "2026-11-04T00:15:08.670Z",
+    "segments": [
+      "native-scan-1.png",
+      "native-scan-2.png",
+      "native-scan-3.png",
+      "native-scan-4.png",
+      "native-scan-5.png",
+      "native-tracking-1.png",
+      "native-tracking-2.png",
+      "native-tracking-3.png",
+      "native-tracking-4.png",
+      "native-tracking-5.png"
+    ],
+    "reference": "codex-clipboard-c6361fba-c99b-4e25-b2e6-69dd95324959.png",
+    "notes": "Inspected ten native-size segments. R1 2中1 gray stamp; all27 whole-field rectangles match reference. Original MUSE and history retained. infoOnly amounts not added."
+  },
+  "publicationAllowed": true
+}
