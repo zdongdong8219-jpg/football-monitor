@@ -1,0 +1,95 @@
+{
+  "beforeSha256": "5a44ed0ac044885ab87fa02b50b344e0c561330795c79bcb5c9a396b044a9a80",
+  "afterSha256": "405af69bffd6aedd778338aaeaa9e7b11a174aa9bc6f93d8944b1e6156fa9e74",
+  "allowedBoxes": [
+    {
+      "number": "\u5468\u4e09002",
+      "box": [
+        637,
+        1446,
+        752,
+        1518
+      ]
+    },
+    {
+      "number": "\u5468\u4e09005",
+      "box": [
+        637,
+        1662,
+        752,
+        1734
+      ]
+    },
+    {
+      "number": "\u5468\u4e09008",
+      "box": [
+        637,
+        1878,
+        752,
+        1950
+      ]
+    },
+    {
+      "number": "\u5468\u4e09010",
+      "box": [
+        637,
+        2022,
+        752,
+        2094
+      ]
+    }
+  ],
+  "outsideAllowedPixels": 0,
+  "changedPixels": 1980,
+  "dimensions": [
+    1244,
+    2408
+  ],
+  "geometryIdentical": true,
+  "frozenFiles": [
+    {
+      "path": "package.json",
+      "sha256": "3fdc4437e1153a9d4b760a1c8c911dce42d05db93c805d48f59e6e933531c1d2"
+    },
+    {
+      "path": "data/review-latest.json",
+      "sha256": "1fda1ace23b3b0fc46752566e4839766271d4194a2a92d1250f9b8a5fe9e3cfe"
+    },
+    {
+      "path": "public/muse-cards.js",
+      "sha256": "85fc8214c5bd4c3acc7967bff1090d2cb36498a3829384e65e1e98985d748e4a"
+    },
+    {
+      "path": "public/cards/2026-11-04-final-scan.png",
+      "sha256": "5a44ed0ac044885ab87fa02b50b344e0c561330795c79bcb5c9a396b044a9a80"
+    },
+    {
+      "path": "public/cards/2026-11-04-final-scan-preview.jpg",
+      "sha256": "0df24de70a0905e4020f6d56bb28a476fbaf394e55dd2e542cb65cd7a71946da"
+    },
+    {
+      "path": "public/cards/2026-11-04-final-tracking.png",
+      "sha256": "7c7e988af46a41deef001b47c8c9517786ebc331b0e3a9967e6fffcb6f198e87"
+    },
+    {
+      "path": "public/cards/2026-11-04-final-tracking-preview.jpg",
+      "sha256": "97f39d1dfcc382df692562fbb0f29e632038f026a4d737b554b6038c07aff8d2"
+    },
+    {
+      "path": "public/cards/2026-11-03-review-scan.png",
+      "sha256": "61ddf126d8582d9048b33364f01871fef25b127e25cfad1370e3c109c80cdcc9"
+    },
+    {
+      "path": "public/cards/2026-11-03-review-scan-preview.jpg",
+      "sha256": "f89f76c070241c8d22c2974d9fa9b89ad86549f6c9894f59fe821edee4291a82"
+    },
+    {
+      "path": "public/cards/2026-11-03-review-tracking-display-settled.png",
+      "sha256": "ea83b374698f82bceb27e93ce08aaa4bda572711a2cbede4fd63dcb327149325"
+    },
+    {
+      "path": "public/cards/2026-11-03-review-tracking-display-settled-preview.jpg",
+      "sha256": "41292125a4c65177ee1a068231c79d5583a10aac310e1ef3ef38891136e3f9db"
+    }
+  ]
+}
