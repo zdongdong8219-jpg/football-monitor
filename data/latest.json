@@ -9,9 +9,9 @@
   "deliveryStage": "final",
   "batchLabel": "中晚场终版",
   "batchFinal": true,
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
   "scanDecisionComplete": true,
@@ -11655,5 +11655,8 @@
   },
   "analysisContentSha256": "069da7d1185acbd0fdefda7aff7fe27bf3f72582241906c4715eef689f21c410",
   "geometryFile": "data/research/2026-11-05/scan-geometry.json",
-  "deliveryManifest": "data/research/2026-11-05/approved-four-image-manifest.json"
+  "deliveryManifest": "data/research/2026-11-05/approved-four-image-manifest.json",
+  "onlineVerifiedAt": "2026-11-05T06:09:10.041Z",
+  "verificationScope": "Edge430px emulation, actual clipboard PNG RGBA matches independent manifest; physical handset not tested",
+  "completionScope": "13-match information analysis and two high-variance scenarios; zero core20/core30 scenarios, expressly withheld"
 }
