@@ -1,0 +1,94 @@
+{
+  "saleDate": "2026-11-05",
+  "capturedAt": "2026-11-05T00:00:04.523Z",
+  "beijingTime": "2026-11-05 08:00",
+  "source": "haoyun999 accessible lottery JSON mirror",
+  "sourceScope": "竞彩胜平负、竞彩让球、总进球数、半全场",
+  "snapshotCount": 8,
+  "asianMarket": {
+    "status": "not-verified-this-run",
+    "note": "自动快照仅记录可核对的竞彩数据；同公司亚洲盘、阵容和伤停由综合研究任务另行核验。"
+  },
+  "matches": [
+    {
+      "number": "周四013",
+      "home": "帕梅拉斯",
+      "away": "里莫",
+      "kickoff": "2026-11-06T06:30:00",
+      "spfOpen": {
+        "win": 1.11,
+        "draw": 6,
+        "lose": 14
+      },
+      "spfNow": {
+        "win": 1.11,
+        "draw": 6,
+        "lose": 14
+      },
+      "spfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "handicap": -2,
+      "rqspfOpen": {
+        "win": 2.6,
+        "draw": 3.65,
+        "lose": 2.08
+      },
+      "rqspfNow": {
+        "win": 2.6,
+        "draw": 3.65,
+        "lose": 2.08
+      },
+      "rqspfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "goals": {
+        "0": 18,
+        "1": 6,
+        "2": 3.9,
+        "3": 3.4,
+        "4": 4.6,
+        "5": 7.4,
+        "6": 13.5,
+        "7+": 18
+      },
+      "halfFullOpen": {
+        "winWin": 1.48,
+        "winDraw": 28,
+        "winLose": 125,
+        "drawWin": 3.65,
+        "drawDraw": 8.9,
+        "drawLose": 29,
+        "loseWin": 26,
+        "loseDraw": 28,
+        "loseLose": 25
+      },
+      "halfFullNow": {
+        "winWin": 1.48,
+        "winDraw": 28,
+        "winLose": 125,
+        "drawWin": 3.65,
+        "drawDraw": 8.9,
+        "drawLose": 29,
+        "loseWin": 26,
+        "loseDraw": 28,
+        "loseLose": 25
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    }
+  ]
+}
