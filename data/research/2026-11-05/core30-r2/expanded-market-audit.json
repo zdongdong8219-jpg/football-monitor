@@ -1,0 +1,983 @@
+{
+  "at": "2026-11-05T07:41:38.683Z",
+  "scope": "Expanded actual ordinary/handicap singles on all13:75 saleable single outcomes, plus existing evidence-backed double selections. Outcome-level support/counter/insurance recorded. Not limited to frozen13 directions.",
+  "rows": [
+    {
+      "number": "周四001",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 1.19,
+          "handicap": -1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 5.2,
+          "handicap": -1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 9.35,
+          "handicap": -1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 1.72,
+          "handicap": -1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.7,
+          "handicap": -1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 3.47,
+          "handicap": -1
+        }
+      ],
+      "existingInsurance": "胜",
+      "assessment": "普通胜获独立准入：连续零封是防守体系证据，对手近期产量集中一场，胜并非只凭1.19。低输出和申花长休是反证，泛化平局风险不足以自动追加保险。让胜需至少2球，近期低输出削弱；让平恰1有边界支持但太窄不优于普通胜，其他普通平/负及让负只作反证，不入核心。",
+      "savedEvidence": [
+        {
+          "url": "https://www.zelvia.co.jp/news/news-362560/",
+          "checkedAt": "2026-11-05T04:49:49.222Z",
+          "sha256": "f84710ffa1385f04744378b392453d5ac8b5825b8ee6bf8e4bf0791140cb86ad",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54565849",
+          "checkedAt": "2026-11-05T05:01:20.486Z",
+          "sha256": "07a4f8bc73d0f7c2a544cc1395123bfcd12df0a2e23ace0f952c3b039566852d"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "町田连续8场零封、近5场3胜2平且不失球，先看主胜。对神户和钢巴均0:0，清水5:0与福冈3:0须校正对手，不能直接推成压倒性穿盘；申花近5场11球中7球来自云南一场，不能当持续火力。",
+      "counter": "町田近3场只入1球，申花上场至本场休息更长；两队最新完整名单未取得。主队打不开低位防守、客队定位球偷袭和轮换均会令主胜落空。"
+    },
+    {
+      "number": "周四002",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 1.76,
+          "handicap": -1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 3.45,
+          "handicap": -1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 3.55,
+          "handicap": -1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 3.25,
+          "handicap": -1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.7,
+          "handicap": -1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 1.78,
+          "handicap": -1
+        }
+      ],
+      "existingInsurance": "胜/平",
+      "assessment": "普通胜/平保留。回归与训练是改善迹象但7战2胜和8战25天是具体未修复问题，不能删平。让胜缺扩大差距证据，让平缺独立恰1边界，普通负及让负覆盖客方风险但与主场景相反，不入3.0。",
+      "savedEvidence": [
+        {
+          "url": "https://www.tsg-hoffenheim.de/en/news/overview/2026/11/baumann-its-going-to-be-a-big-challenge",
+          "checkedAt": "2026-11-05T04:49:49.624Z",
+          "sha256": "e1e4061a6637f654987dc3e2c65db60c9018c248c9847ce431f0a701e218bf42",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.tsg-hoffenheim.de/en/news/overview/2026/11/hranac-faellt-aus",
+          "checkedAt": "2026-11-05T04:49:49.781Z",
+          "sha256": "cb2773e161667ae75a22bf088494284cbd12feed3bfad63620a336a0827670f5",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.cpfc.co.uk/news/first-team/sage-reveals-focus-of-training-ahead-of-hoffenheim/",
+          "checkedAt": "2026-11-05T04:50:47.874Z",
+          "sha256": "e121720e53d442581861a49e0bc84f4c6937ed5201b94969b9394a5c4866554a",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.cpfc.co.uk/news/first-team/team-news-updates-on-timber-strand-larsen/",
+          "checkedAt": "2026-11-05T04:50:47.895Z",
+          "sha256": "f1ae62e937018e5f93477531e0c5f64975ef5e6795db1f6709e07e5e419a0747",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579493",
+          "checkedAt": "2026-11-05T04:56:06.936Z",
+          "sha256": "0164273258c142e573d42538f248795f9dbaef22b3f80f47d156fc822519234e",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "水晶宫Timber与Strand Larsen回归，三次训练强化进攻；霍芬海姆Hlozek肌肉伤、Hranac膝手术且此前用五名首秀者。主场阵容边际改善支持胜先，主队近7场仅2胜、进攻连续失效要求保留平。",
+      "counter": "客队此前3:0里昂及勒沃库森，伤缺不能抹去威胁；水晶宫25天第8战，训练改善未等同比赛修复。客队反击先得分或主队久攻不下均能失败。"
+    },
+    {
+      "number": "周四003",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 6.25,
+          "handicap": 1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 4.9,
+          "handicap": 1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 1.29,
+          "handicap": 1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 2.78,
+          "handicap": 1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.65,
+          "handicap": 1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 1.98,
+          "handicap": 1
+        }
+      ],
+      "existingInsurance": "负/平",
+      "assessment": "普通负/平保留；六连胜零封且强对手是实质优势，仍面对明确全队轮换、手术和资格损失。不能证明替代锋线保持2球压制，让负>=客赢2的门槛弱于005；让平恰客赢1也无集中依据。主胜/让胜反向场景不是核心。",
+      "savedEvidence": [
+        {
+          "url": "https://sparta.cz/en/novinky/45303-no-goals-at-dolicek",
+          "checkedAt": "2026-11-05T04:49:49.673Z",
+          "sha256": "4997cbf46dd0e5d918b3a954c2529b68063893493e640ec264672514732c1bf2",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://sparta.cz/en/novinky/45288-brunes-scores-four-against-slovacko",
+          "checkedAt": "2026-11-05T04:49:49.653Z",
+          "sha256": "469b9dc648af84cbeeb7963f9eb62e8969b0d232c52d87fe1ceda6b732b0b327",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579617",
+          "checkedAt": "2026-11-05T04:56:06.878Z",
+          "sha256": "2869db9c8985f2eaf836d4151e582e00d170e0cb818f2b1691cd124d8f709975",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.bbc.com/sport/football/articles/c5vgjyvxmwdvo",
+          "checkedAt": "2026-11-05T04:57:59.222Z",
+          "sha256": "e9d99fc704a54f8435c8e93f38880eb3b3730b4b9a8d48a45133fb10c5e6a281",
+          "scope": "Browser visible article read"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "伯恩茅斯近6战全胜且零封，对手包括曼联、米兰、维拉，强度较町田大胜弱队更有参考性；斯巴达近5场仅1胜，5:1来自倒数队。客胜领先，但Rose明确用全队并继续旅行赴伊普斯维奇，保留平。",
+      "counter": "Toth手术、Juanlu踝伤，Kroupi本轮尚无欧战资格；斯巴达人盯人压迫、边锋单挑与高点前锋会考验替代阵容。零封纪录不能消除轮换风险。"
+    },
+    {
+      "number": "周四004",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 1.61,
+          "handicap": -1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 3.72,
+          "handicap": -1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 4,
+          "handicap": -1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 2.86,
+          "handicap": -1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.45,
+          "handicap": -1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 2,
+          "handicap": -1
+        }
+      ],
+      "existingInsurance": "胜/平",
+      "assessment": "普通胜/平有六场4平的明确依据，不能机械删平。主-1让胜要求2球，与反复失球和对手欧战获胜矛盾；让平未见净胜1集中证据，负及让负虽可覆盖反证但不是优势。",
+      "savedEvidence": [
+        {
+          "url": "https://www.nec-nijmegen.nl/nieuws/nieuws/voorbeschouwing-n.e.c.-omonia-nicosia.htm",
+          "checkedAt": "2026-11-05T04:49:49.767Z",
+          "sha256": "b8e7c5d49049b5d6f077184be190790b4af4943ac4e7a9604d907b209f82fe18",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579559",
+          "checkedAt": "2026-11-05T04:56:06.881Z",
+          "sha256": "1568e362d95ea1a2745b6af392d14e41b05d68e753de88301bc8d2fff99bae99",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "奈梅亨主场与市场轻微支持胜先，欧战客场4:2萨格勒布展示进攻能力；近6场4平及上场0:1海伦芬要求防平。奥莫尼亚欧战赢塞尔塔和采列，中场Eiting长期膝伤缺席，不能将其视作无还手能力。",
+      "counter": "奈梅亨近期对国内中游队也频繁失球；奥莫尼亚刚2:0AEL，上场1:4本菲卡不等于对奈梅亨同样崩盘。双方替补与全部伤停待核。"
+    },
+    {
+      "number": "周四005",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 1.44,
+          "handicap": -1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 4.3,
+          "handicap": -1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 4.7,
+          "handicap": -1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 2.5,
+          "handicap": -1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.28,
+          "handicap": -1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 2.3,
+          "handicap": -1
+        }
+      ],
+      "existingInsurance": "胜",
+      "assessment": "普通胜仍是扫盘主方向；另作3.0独立准入让胜(主-1净胜>=2)：连续8场进球/5场15球，官方对莱万特记录持续创造并扩大优势的机会；里昂对巴黎及霍芬海姆连续客场被压迫失2/3球，与主队持续压迫形成可迁移对位。6:0弱旅大胜已降权，不作唯一依据。普通胜允许仅赢1，风险更低，仍用于2.0；3.0接受明确更窄两球情景，非将博自动升级。浪费机会、防反失球及里昂进攻会令一球胜或不胜，使本腿失败；但未有独立证据使恰1必须合并，拒绝为了显得稳机械双选让平。普通平/负或让负为反证场景；让平无独立恰1集中优势。",
+      "savedEvidence": [
+        {
+          "url": "https://www.realsociedad.eus/en/news/details/plus-three-more",
+          "checkedAt": "2026-11-05T04:49:49.763Z",
+          "sha256": "e224b2e44c0620caf5ea645041efc934280402f43563904a86b35b90d3cfd3b3",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579587",
+          "checkedAt": "2026-11-05T04:56:06.975Z",
+          "sha256": "90b96e209745f2690078ea3e22a31dad20668218044985d5a50f462104e2295c",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "皇家社会近8场连续进球、近5场15球，官方记录对莱万特持续制造扩大优势机会；里昂连续客场0:2巴黎和0:3霍芬海姆暴露客战压迫下风险。主队创造和主场优势支持胜，但6:0利勒斯特罗姆须按较弱对手降权。",
+      "counter": "主队近10场9场至少3球亦反映防线风险，对莱万特被反击且终结浪费；里昂2:1尼斯、3:2水晶宫表明能破门。最新双边名单不全，不升核心资格。"
+    },
+    {
+      "number": "周四006",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 1.16,
+          "handicap": -1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 5.7,
+          "handicap": -1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 9.8,
+          "handicap": -1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 1.64,
+          "handicap": -1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.87,
+          "handicap": -1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 3.68,
+          "handicap": -1
+        }
+      ],
+      "existingInsurance": "胜/平",
+      "assessment": "普通胜/平保留。主帅已确认轮换及手术伤缺、客队欧战全胜不是一般未知。德比表现支持实力但不证明替代阵容净胜2；让胜不优于005的连续创造对位，让平没有独立集中分布。其余反向选项不入核心。",
+      "savedEvidence": [
+        {
+          "url": "https://www.acmilan.com/en/news/articles/media/2026-11-04/official-statement-samuel-chukwueze",
+          "checkedAt": "2026-11-05T04:51:49.283Z",
+          "sha256": "7c890923f38a066e0f9954e014edcef1cc9a6056b47f3ed55abd79f757d4d6c9",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.acmilan.com/en/news/articles/press-conference/2026-11-04/amorim-a-game-we-have-to-win-with-the-right-approach",
+          "checkedAt": "2026-11-05T04:51:48.096Z",
+          "sha256": "d6ef21fae41ddb2d612d5b1b7ed2f4aa3e906e2ce9bfdbc38306ba8b77601007",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.fradi.hu/en/football/men-s/news/another-home-win-we-confidently-defeated-paks",
+          "checkedAt": "2026-11-05T04:50:48.652Z",
+          "sha256": "58ba8506d866eb02713fb8d72eb02ac33030d49938a46ddfcf0b4a2e26aee9f3",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.fradi.hu/en/football/men-s/news/win-by-a-landslide-again-in-the-uel",
+          "checkedAt": "2026-11-05T04:50:48.684Z",
+          "sha256": "aaa7ac00908d98ba34b3b81c2f86ef17a990b1cf9bda924df6b5f0604b7d6a73",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579444",
+          "checkedAt": "2026-11-05T04:56:06.920Z",
+          "sha256": "cefbf982dece1c00831808578aa15c5860729883308a79016fc60b0796fb05e8",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "米兰德比3:1国米且需欧战追分，主场普通胜仍第一；Amorim确认轮换，Chukwueze手术，欧战此前仅3分。费伦茨前三轮9分并连续进球、替补能改变比赛，推荐保留平而不把1.21当稳定。",
+      "counter": "米兰近期2:4博洛尼亚和0:3伯恩茅斯，替代阵容磨合可能放大防线风险；费伦茨4:1葡乙对手须降权，但不等于失去定位球威胁。"
+    },
+    {
+      "number": "周四007",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 2.22,
+          "handicap": -1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 3.6,
+          "handicap": -1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 2.43,
+          "handicap": -1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 4.5,
+          "handicap": -1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 4.1,
+          "handicap": -1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 1.49,
+          "handicap": -1
+        }
+      ],
+      "existingInsurance": "胜/负",
+      "assessment": "普通胜/负由双方得分、替补影响及反证支持，但漏平且胜负接近；单挑任何方、主-1让胜或恰1让平都缺明显相对优势。让负有宽覆盖但含反向场景，不据低价当核心；不为3倍改作单挑。",
+      "savedEvidence": [
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579540",
+          "checkedAt": "2026-11-05T04:56:06.879Z",
+          "sha256": "e9d96bdbe0aef0a91e2a12edeaff1ea77a08ed728c4520aa638390a07a04df26",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.scfreiburg.com/en/latest/first-team/match-reports/2026-27/two-substitutes-strike-to-seal-away-win-at-fc-augsburg/",
+          "checkedAt": "2026-11-05T04:49:50.113Z",
+          "sha256": "5a976732dc9043a5cc2b5c3bcd657e7caa705e08c22020de19d59b359143255a",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.scfreiburg.com/en/latest/first-team/match-reports/2026-27/scf-soundly-defeated-by-clinical-monaco/",
+          "checkedAt": "2026-11-05T04:49:50.285Z",
+          "sha256": "7b7995b749ebc270b673fc25f69100f949041f27114fb280de3ffca78a1b24ef",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "特拉布宗七连胜且击败贝西克塔斯，主场压迫与持续得分支持胜先；弗赖堡在奥格斯堡依靠替补逆转，反向客胜高于平局，保留胜/负而非机械全日防平。",
+      "counter": "主队4:3里泽与4:2古比斯暴露失球，弱对手连胜不能照搬；弗赖堡此前连续面对勒沃库森、摩纳哥、拜仁，三连败需强度校正。双选仍遗漏平局。"
+    },
+    {
+      "number": "周四008",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 1.27,
+          "handicap": -1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 4.66,
+          "handicap": -1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 7.25,
+          "handicap": -1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 1.97,
+          "handicap": -1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.5,
+          "handicap": -1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 2.89,
+          "handicap": -1
+        }
+      ],
+      "existingInsurance": "胜/平",
+      "assessment": "普通胜/平保留：实际中后场伤缺、近期效率、客队Beljo得分均具体。Talbi获资格不是完整替代体系证明。主-1穿盘/让平都弱于005持续创造证据；反向客胜与让负为风险，不入核心。",
+      "savedEvidence": [
+        {
+          "url": "https://www.safc.com/news/2026/november/04/l--bris-provides-team-news-ahead-of-dinamo-zagreb/",
+          "checkedAt": "2026-11-05T04:57:59.222Z",
+          "sha256": "9e2ca831969e164353f9f46a58a31b09b4385ab5bf4dc4cea1d42f1c4bc6bbd4",
+          "scope": "Browser visible article read"
+        },
+        {
+          "url": "https://www.safc.com/news/2026/november/04/preview--sunderland-back-in-europe-on-bonfire-night/",
+          "checkedAt": "2026-11-05T04:57:59.222Z",
+          "sha256": "d4e3ca0be9ec85e806550e8780cd8b02cab14e2e69059b753e1371581907cef0",
+          "scope": "Browser visible article read"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579629",
+          "checkedAt": "2026-11-05T04:56:06.886Z",
+          "sha256": "b15dab6b02781e45ac5aff9ade360b85386167f64cff784547e623611182c4a7",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "桑德兰欧战不败、上轮创造多次机会但1:1，主场对阵刚换临时教练的萨格勒布，胜先但保留平。Diarra、Ballard、Mundle缺阵，Talbi取得欧战资格补充进攻，不能称完整主力。",
+      "counter": "Beljo18场17球且上轮对奈梅亨半场入2球；主队近期0:0利兹、负考文垂，防线与效率均有风险。客队国内上轮对手不同来源冲突，弃用该细节，不影响本场身份。"
+    },
+    {
+      "number": "周四009",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 1.97,
+          "handicap": -1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 3.3,
+          "handicap": -1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 3.05,
+          "handicap": -1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 4,
+          "handicap": -1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.68,
+          "handicap": -1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 1.62,
+          "handicap": -1
+        }
+      ],
+      "existingInsurance": "胜/负",
+      "assessment": "普通胜/负来自主场优势与客队连续得分冲突，任何单挑都弱；让胜无持续进球支持，让平亦无独立边界，让负虽宽并不能修复无优势，不入核心。",
+      "savedEvidence": [
+        {
+          "url": "https://rusg.brussels/en/news/union-hold-ten-men-beat-sk-beveren-1-2",
+          "checkedAt": "2026-11-05T04:49:49.721Z",
+          "sha256": "6e690af42c9e5b550342f4df3696f60f504642bf6ad700b9ad0f08e5e0f70999",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://rusg.brussels/en/news/union-strike-after-break-beat-cercle-brugge",
+          "checkedAt": "2026-11-05T04:49:49.724Z",
+          "sha256": "7fc313a2137d017dc1a0eb8a12a4a1348ce1e5cc85898defd27f3976f4c5d89a",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://rusg.brussels/en/news/union-beat-h-beer-sheva",
+          "checkedAt": "2026-11-05T04:49:49.708Z",
+          "sha256": "839ad8bfbb409a38a59e7d443907dc65dc758a17d25a7e61a8a9ef008940d46c",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579484",
+          "checkedAt": "2026-11-05T04:56:06.869Z",
+          "sha256": "bcbeb79e3cabc09023f381aa7b634cf8917ef650417ee451df0e043e936a78dc",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "塞尔塔主场与市场仍给胜第一，但近两场不进球；圣吉联合四连胜且连续12场得分，10人也能控制中路守胜，客胜是有证据反向分支，列胜/负。",
+      "counter": "圣吉5:2来自垫底且对手被罚下，4:0贝尔谢巴和杯赛弱旅不能等同西甲对抗；自身曾落后0:2。塞尔塔此前赢凯尔特人和阿拉维斯，不因两场哑火判其无攻势。"
+    },
+    {
+      "number": "周四010",
+      "ordinaryUnavailable": true,
+      "singles": [
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 1.88,
+          "handicap": -2
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 4.2,
+          "handicap": -2
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 2.71,
+          "handicap": -2
+        }
+      ],
+      "existingInsurance": "让胜/让平",
+      "assessment": "主-2让胜/让平>=净胜2有依据，但不能删恰2保险改>=3：上轮1:0、短休、对手国内连胜及曾逼平桑德兰是具体反证。普通胜平负未开售，不能用虚构报价替代；让负覆盖净胜<=1是风险情景而非优势。让平独立单挑净胜2无分布集中依据。",
+      "savedEvidence": [
+        {
+          "url": "https://www.slbenfica.pt/en-us/agora/noticias/2026/11/04/futebol-antevisao-kaminski-benfica-lech-poznan-liga-europa-fase-de-liga-4-jornada",
+          "checkedAt": "2026-11-05T04:51:54.254Z",
+          "sha256": "abdc45f4c7ddcfd3b76574357812757f511e800042c8d97695e517c6dc8c38f1",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.slbenfica.pt/en-us/agora/noticias/2026/11/04/futebol-benfica-treino-vespera-lech-poznan-liga-europa-fase-de-liga-4-jornada",
+          "checkedAt": "2026-11-05T04:51:54.072Z",
+          "sha256": "aa1be4f99f167f6946e73f075b2cd53a32dc4057b20dbd25651709ce3bfd57e3",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.lechpoznan.pl/aktualnosci,2,misja-lizbona-rozpoczeta,48485.html",
+          "checkedAt": "2026-11-05T04:51:47.759Z",
+          "sha256": "ef884342f3ef746b213e68cf578ae48dc3dd7b4868904888cb4ba1ca2286fed6",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.lechpoznan.pl/aktualnosci,2,rywale-pod-lupa-sl-benfica,48477.html",
+          "checkedAt": "2026-11-05T04:51:47.765Z",
+          "sha256": "95ab104f3839b1e6f5285e6ef0a63d535d6934d5087d3dd154b03f20e0fc979e",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579466",
+          "checkedAt": "2026-11-05T04:56:06.929Z",
+          "sha256": "f3e79da64d79e19f6c88d9359ae07bbcb8bd2fbb2697c65a5a7d73d06a2d9620",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "本菲卡欧战前三轮10球，Pavlidis本季18球、边锋创造深度与主场控制支持至少赢2球的进取场景；波兹南此前0:4勒沃库森，但已对桑德兰1:1且国内三连胜，不可当无抵抗。010普通胜平负未开售，不补造报价。",
+      "counter": "本菲卡11月2日仅1:0Alverca，本轮短休；Kamiński承认伤后恢复且提醒对方反击。至少赢2也可能失败，不能当稳胆，准确赢2只是覆盖边界。"
+    },
+    {
+      "number": "周四011",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 3.62,
+          "handicap": 1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 3.6,
+          "handicap": 1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 1.71,
+          "handicap": 1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 1.85,
+          "handicap": 1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.43,
+          "handicap": 1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 3.25,
+          "handicap": 1
+        }
+      ],
+      "existingInsurance": "负/平",
+      "assessment": "普通负/平保留：AZ欧战17主场不败、尤文近期客场失利是具体证据，不是模板谨慎。主+1让负需客胜2，比分扩大证据不如005；让平恰客赢1无独立集中支持。主胜/让胜为风险，不为3倍单挑客胜。",
+      "savedEvidence": [
+        {
+          "url": "https://www.juventus.com/en/news/articles/squad-list-az-alkmaar-juventus-05-11-26",
+          "checkedAt": "2026-11-05T04:51:47.294Z",
+          "sha256": "d8de880a8f60e522ea2ad0aa8cb36bc1d89ae4367af704f5deefce6f40f3bf2e",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.juventus.com/en/news/articles/preview-az-alkmaar-juventus-05-11-26",
+          "checkedAt": "2026-11-05T04:51:47.107Z",
+          "sha256": "fd4fc7de6d6d81925b33fae228ff49de57e815a23eec65fb2a03bce0a428d1e5",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579455",
+          "checkedAt": "2026-11-05T04:56:06.865Z",
+          "sha256": "bd4f73baa8388cb7d009533b02bb5444290686409595106073ef119642704532",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "尤文欧战前三轮9球、多点得分且最新名单可核，AZ国内连续两场不进球，客胜先。AZ欧战17个主场不败是具体防平依据，不能仅以客队名气押单。",
+      "counter": "尤文近期输热那亚、拉齐奥，欧战对雷恩2:2；AZ4:0亚美尼亚对手必须降权，但主场组织能力仍在。客队射手表现不能取代防守检查。"
+    },
+    {
+      "number": "周四012",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 1.16,
+          "handicap": -1
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 5.75,
+          "handicap": -1
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 9.65,
+          "handicap": -1
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 1.63,
+          "handicap": -1
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.9,
+          "handicap": -1
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 3.71,
+          "handicap": -1
+        }
+      ],
+      "existingInsurance": "胜/平",
+      "assessment": "普通胜/平保留：主队5场失10球、马赛连续进球与四连胜是实质反证。人员回归有益但不保证消除防守漏洞，让胜/让平均无优于005净胜分布的支撑；其余反向项仅风险。",
+      "savedEvidence": [
+        {
+          "url": "https://www.bayer04.de/en-us/news/europa-league/ahead-of-marseille-match-martinez-sees-upturn-at-om-medina-on-key-factors-against-former-club",
+          "checkedAt": "2026-11-05T04:51:47.718Z",
+          "sha256": "1120900ce10253a2e7b3ef8c229abb468cd1cdcf921881d8312d13ddeaf435b6",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.bayer04.de/en-us/news/europa-league/our-next-opponents-marseille-on-the-up-but-still-struggling-in-the-europa-league",
+          "checkedAt": "2026-11-05T04:51:47.707Z",
+          "sha256": "2e26356323e81c1d77029fa6f88a77daaabd0fe55cfea8cc898df4798b4a8586",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54579460",
+          "checkedAt": "2026-11-05T04:56:06.895Z",
+          "sha256": "b21ad73812c5f68e65e53b8a9afb4a38f9342d051c59292a0230ac82037ab629",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "勒沃库森主场压迫与马赛出球失误对位支持胜先；主帅确认Flekken首发、Badé回归。主队近5场失10球、马赛联赛四连胜且Gouiri/Harit进攻有效，必须保留平。",
+      "counter": "马赛四连胜对手多为中下游须降权，但总进攻仍强；勒沃库森Ben Seghir、Doué缺席，Kofane待定。Emerson膝伤待核不能直接写确定缺阵。"
+    },
+    {
+      "number": "周四013",
+      "ordinaryUnavailable": false,
+      "singles": [
+        {
+          "selection": "胜",
+          "market": "had",
+          "odds": 1.1,
+          "handicap": -2
+        },
+        {
+          "selection": "平",
+          "market": "had",
+          "odds": 6.2,
+          "handicap": -2
+        },
+        {
+          "selection": "负",
+          "market": "had",
+          "odds": 14.5,
+          "handicap": -2
+        },
+        {
+          "selection": "让胜",
+          "market": "hhad",
+          "odds": 2.58,
+          "handicap": -2
+        },
+        {
+          "selection": "让平",
+          "market": "hhad",
+          "odds": 3.6,
+          "handicap": -2
+        },
+        {
+          "selection": "让负",
+          "market": "hhad",
+          "odds": 2.11,
+          "handicap": -2
+        }
+      ],
+      "existingInsurance": "胜/平",
+      "assessment": "普通胜/平保留：近期0:0/1:0和客队6场4不败构成具体低节奏反证。主-2让胜要3球，远比普通胜要求高；让平恰2未有独立边界。让负覆盖小胜/不胜是反证而非进攻优势。",
+      "savedEvidence": [
+        {
+          "url": "https://www.clubedoremo.com.br/noticias/confira-os-relacionados-para-o-duelo-contra-o-palmeiras",
+          "checkedAt": "2026-11-05T04:49:49.540Z",
+          "sha256": "f79c9f6d4a5d8e67153b3df2084b6a378e801c1743a12b1bdc3babfe22501f3f",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://www.clubedoremo.com.br/noticias/clube-do-remo-vence-botafogo-rj-por-2-a-1",
+          "checkedAt": "2026-11-05T04:49:49.563Z",
+          "sha256": "31322531cd250eaa764e1b4453cfb74a622ff7f952f201b38ce858dc48119041",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54338669",
+          "checkedAt": "2026-11-05T04:56:06.897Z",
+          "sha256": "e167e1ad6efab91fbf8a240de08919eec055307245fb01df1b86719bea92fb50",
+          "scope": "公开赛前资料"
+        },
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "checkedAt": "2026-11-05T04:48:00.433Z",
+          "sha256": "a2f3385a1e01de461ec1e90de4d402fec3331ce98ffde445a781429c5f7d2cd0"
+        }
+      ],
+      "support": "帕梅拉斯连续3场零封，整体防守与主场支持胜先；里莫上轮2:1博塔弗戈、有Jajá边路进攻且近6场4次不败，主队近期0:0桑托斯、1:0杯赛使防平有具体依据，1.10不是稳定证明。",
+      "counter": "里莫23人出征名单已核，赛前一天长途抵达；主队最新完整名单未核。帕梅拉斯近期进攻低产、里莫死守与定位球可使主胜失败，双方杯赛/联赛强度不可混为一谈。"
+    }
+  ],
+  "news": [
+    {
+      "url": "https://www.zelvia.co.jp/news/news-362560/",
+      "at": "2026-11-05T07:41:37.940Z",
+      "textUnchanged": true,
+      "sha256": "0d5e850ddadc0114d4bf236128b5375fe57d552d1960bd5f5ceac851c284f232"
+    },
+    {
+      "url": "https://www.realsociedad.eus/en/news/details/plus-three-more",
+      "at": "2026-11-05T07:41:38.682Z",
+      "textUnchanged": true,
+      "sha256": "817a55ac83507530595599423474f999de5dfb4f400e551ba69ee8d5f8b5b07c"
+    }
+  ],
+  "decision": "001普通胜×005主-1让胜。005两球边界获独立进取准入，001普通胜获防守稳定性准入；与原2.0相同比赛但005要求更窄。3.0不是最可能结果或2.0同风险替代。",
+  "relativeComparison": "005是已有穿盘候选中持续创造与对手客战受压同时有证据的一场，优于003/006明确轮换、008关键伤缺、010需3球且短休、012失球多。001普通胜保留较低净胜门槛优于再叠另一穿盘腿。选腿基于两侧证据与风险门槛，价格仅核对实际回报；不选005恰1，不从拟比分倒推。",
+  "insuranceReview": "保留002/003/004/006/008/011/012/013具体防平及010恰2保险。005原主方向本为单胜，其博让胜已独立存在；本次3.0明确接受净胜>=2新准入，普通胜继续留作2.0，不声称两者覆盖相同。没有将概率未知当自动双选。",
+  "reassessment": "新增授权扩大玩法审查，推翻此前只算固定方向的范围结论；未宣称新球员事实或升星。005旧“不升核心资格”因一般名单未知的硬否决此前已撤销；本次另评净胜2准入，不自动沿用博资格。",
+  "math": {
+    "branchCount": 1,
+    "allocation": [
+      {
+        "simulation": 1000,
+        "weight": 1,
+        "selections": [
+          "001胜",
+          "005让胜(-1)"
+        ],
+        "odds": [
+          1.19,
+          2.5
+        ],
+        "product": 2.975,
+        "wholeSetMultiple": 2.975,
+        "gross": 2975,
+        "net": 1975
+      }
+    ],
+    "otherOutcomesGross": 0,
+    "notExpectedValue": true,
+    "noProbabilityAssumption": true
+  },
+  "risk": "001不胜，或005不胜/仅胜1球，整套失败。两档全复用001/005；3.0命中意味着2.0也命中，但2.0命中不保证3.0，不能称分散。"
+}
