@@ -1,9 +1,11 @@
+import {validateSpeculativeNarrowing} from './validate-speculative-narrowing.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 export function validateFormalReport(root){
   const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
   const report=read('data/latest.json');
+  validateSpeculativeNarrowing(report);
   const keys=['direction','speculative','goals','halfFull','score'];
   const validateRow=(r)=>{for(const key of keys){const n=r.projectStars?.[key],color=r.projectStarColors?.[key];if(!Number.isInteger(n)||n<0||n>3||color===undefined||(n>0&&!['red','white'].includes(color))||(n===0&&color!=='none'))throw Error(`${r.number}: invalid ${key} stars`);if(n>0&&!r.projectStarAudit?.[key])throw Error(`${r.number}: missing ${key} evidence`);}};
   if(report.date>='2026-10-26'){

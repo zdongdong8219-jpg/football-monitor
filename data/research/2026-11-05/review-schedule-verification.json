@@ -1,0 +1,12 @@
+{
+  "at": "2026-11-05T05:07:36.813Z",
+  "id": "automation-2",
+  "reviewAt": "2026-11-06T08:55:00+08:00",
+  "rrule": "FREQ=DAILY;BYHOUR=8;BYMINUTE=55;BYSECOND=0",
+  "model": "gpt-6-astra",
+  "reasoning": "medium",
+  "notification": "failed_runs_only",
+  "status": "ACTIVE",
+  "cwdRestored": true,
+  "note": "Native schedule update resets legacy projectless cwd to ~. No saved projects available; restored original cwd field only, preserving prompt/model/notification."
+}

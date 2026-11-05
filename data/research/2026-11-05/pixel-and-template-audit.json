@@ -1,0 +1,45 @@
+{
+  "originalScan": "public\\cards\\2026-11-04-bo-r1-scan.png",
+  "newScan": "work\\stage-1105\\public\\cards\\2026-11-05-final-scan.png",
+  "originalSha256": "405af69bffd6aedd778338aaeaa9e7b11a174aa9bc6f93d8944b1e6156fa9e74",
+  "newSha256": "50f2fe3b0c2a019912865a8d6027299735987d5c33b3c4bd17416d16198636af",
+  "fixedRegions": {
+    "top_title": {
+      "box": [
+        35,
+        20,
+        1205,
+        100
+      ],
+      "changedPixels": 0
+    },
+    "character_panel": {
+      "box": [
+        45,
+        1010,
+        1200,
+        1110
+      ],
+      "changedPixels": 0
+    },
+    "outer_left": {
+      "box": [
+        0,
+        0,
+        18,
+        2300
+      ],
+      "changedPixels": 0
+    }
+  },
+  "note": "New sale-day content differs. Fixed renderer/assets byte-identical; fixed regions compared exactly. Historical originals unchanged.",
+  "trackingChangedPixels": 0,
+  "trackingDiffBounds": null,
+  "trackingReuse": {
+    "source": "public/cards/2026-11-04-final-tracking-display-settled.png",
+    "target": "public/cards/2026-11-05-final-tracking.png",
+    "reason": "No new core tickets; reuse already verified settled tracking without recomputation or new typography",
+    "sha256": "77a515e8ee7d43f2bfcebbd6e0e9be5b177bcbd21a1ebb1bee5da3a4e9633f5d",
+    "changedPixels": 0
+  }
+}

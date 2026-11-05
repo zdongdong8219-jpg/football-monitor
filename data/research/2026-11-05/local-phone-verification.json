@@ -1,0 +1,167 @@
+{
+  "expected": [
+    {
+      "title": "推荐扫盘",
+      "date": "2026-11-05",
+      "file": "2026-11-05-final-scan.png"
+    },
+    {
+      "title": "今日跟踪",
+      "date": "2026-11-05",
+      "file": "2026-11-05-final-tracking.png"
+    },
+    {
+      "title": "复盘扫盘",
+      "date": "2026-11-04",
+      "file": "2026-11-04-review-scan.png"
+    },
+    {
+      "title": "复盘跟踪",
+      "date": "2026-11-04",
+      "file": "2026-11-04-review-tracking.png"
+    }
+  ],
+  "mode": "local",
+  "checkedAt": "2026-11-05T05:08:00.715Z",
+  "completed": true,
+  "buttons": [
+    {
+      "index": 1,
+      "title": "推荐扫盘",
+      "url": "http://127.0.0.1:9433/cards/2026-11-05-final-scan.png?v=20261105-final",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 2480,
+        "nonblackFraction": 0.9991167280365107,
+        "pixelHash": "bb07a2362524e1c91a2342bcbf6c07c284ffee43a896505339031740f85d0852"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 2,
+      "title": "今日跟踪",
+      "url": "http://127.0.0.1:9433/cards/2026-11-05-final-tracking.png?v=20261105-final",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 2594,
+        "nonblackFraction": 0.98090882496585,
+        "pixelHash": "0956ec2ee5c5dfd2b8109c8f9c0c71b52baf003e3020d5dfa4912b47509bef53"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 3,
+      "title": "复盘扫盘",
+      "url": "http://127.0.0.1:9433/cards/2026-11-04-review-scan.png?v=20261105-final",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 2408,
+        "nonblackFraction": 0.9990946576791189,
+        "pixelHash": "8ee2ae9721561c1278003654e7ccf4254eeef27e87c541f140687807cd3d8ee4"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 4,
+      "title": "复盘跟踪",
+      "url": "http://127.0.0.1:9433/cards/2026-11-04-review-tracking.png?v=20261105-final",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 2594,
+        "nonblackFraction": 0.98090882496585,
+        "pixelHash": "0956ec2ee5c5dfd2b8109c8f9c0c71b52baf003e3020d5dfa4912b47509bef53"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    }
+  ],
+  "images": [
+    {
+      "alt": "2026-11-05 推荐扫盘",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-05-final-scan-preview.jpg?v=20261105-final",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-05-final-scan.png?v=20261105-final",
+      "png": {
+        "width": 1244,
+        "height": 2480,
+        "nonblackFraction": 0.9991167280365107,
+        "pixelHash": "bb07a2362524e1c91a2342bcbf6c07c284ffee43a896505339031740f85d0852"
+      },
+      "bytes": 1750326,
+      "fileHash": "50f2fe3b0c2a019912865a8d6027299735987d5c33b3c4bd17416d16198636af",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    },
+    {
+      "alt": "2026-11-05 今日跟踪",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-05-final-tracking-preview.jpg?v=20261105-final",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-05-final-tracking.png?v=20261105-final",
+      "png": {
+        "width": 1244,
+        "height": 2594,
+        "nonblackFraction": 0.98090882496585,
+        "pixelHash": "0956ec2ee5c5dfd2b8109c8f9c0c71b52baf003e3020d5dfa4912b47509bef53"
+      },
+      "bytes": 1849506,
+      "fileHash": "77a515e8ee7d43f2bfcebbd6e0e9be5b177bcbd21a1ebb1bee5da3a4e9633f5d",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    },
+    {
+      "alt": "2026-11-04 复盘扫盘",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-04-review-scan-preview.jpg?v=20261105-final",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-04-review-scan.png?v=20261105-final",
+      "png": {
+        "width": 1244,
+        "height": 2408,
+        "nonblackFraction": 0.9990946576791189,
+        "pixelHash": "8ee2ae9721561c1278003654e7ccf4254eeef27e87c541f140687807cd3d8ee4"
+      },
+      "bytes": 1276082,
+      "fileHash": "1f7796d02d4a25ae8b96385c653938d460b935670493beb01f873277975ec3ca",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    },
+    {
+      "alt": "2026-11-04 复盘跟踪",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-04-review-tracking-preview.jpg?v=20261105-final",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-04-review-tracking.png?v=20261105-final",
+      "png": {
+        "width": 1244,
+        "height": 2594,
+        "nonblackFraction": 0.98090882496585,
+        "pixelHash": "0956ec2ee5c5dfd2b8109c8f9c0c71b52baf003e3020d5dfa4912b47509bef53"
+      },
+      "bytes": 1849506,
+      "fileHash": "77a515e8ee7d43f2bfcebbd6e0e9be5b177bcbd21a1ebb1bee5da3a4e9633f5d",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    }
+  ],
+  "page": {
+    "viewport": 430,
+    "scrollWidth": 430,
+    "dates": [
+      "2026-11-05",
+      "2026-11-05",
+      "2026-11-04",
+      "2026-11-04"
+    ],
+    "titles": [
+      "推荐扫盘",
+      "今日跟踪",
+      "复盘扫盘",
+      "复盘跟踪"
+    ]
+  }
+}

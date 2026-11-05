@@ -1,0 +1,81 @@
+{
+  "at": "2026-11-05T06:06:43.141Z",
+  "sourceSnapshotSha256": "cc5d01e2707d0b3fc80db865e702043d4db0e2d94bb74277d878a900cc41eb17",
+  "news": [
+    {
+      "url": "https://www.acmilan.com/en/news/articles/media/2026-11-04/official-statement-samuel-chukwueze",
+      "at": "2026-11-05T06:06:39.802Z",
+      "sha256": "84b9e49f4b2267f2a11086fa97c9636f6176ec589e22827ccaec623433fd6d02",
+      "savedTextUnchanged": true
+    },
+    {
+      "url": "https://www.acmilan.com/en/news/articles/press-conference/2026-11-04/amorim-a-game-we-have-to-win-with-the-right-approach",
+      "at": "2026-11-05T06:06:41.267Z",
+      "sha256": "0a1692cf9a57bcb536f2101f2c511d9c14a53d530f888d95e9f92f955e62ab30",
+      "savedTextUnchanged": true
+    },
+    {
+      "url": "https://www.bayer04.de/en-us/news/europa-league/ahead-of-marseille-match-martinez-sees-upturn-at-om-medina-on-key-factors-against-former-club",
+      "at": "2026-11-05T06:06:43.130Z",
+      "sha256": "eda64008b78b1b363e4101b8dc5410f09b4f3528887fd4a4330c2a3590cceac0",
+      "savedTextUnchanged": true
+    }
+  ],
+  "decisions": [
+    {
+      "number": "周四006",
+      "market": "had",
+      "oldOdds": {
+        "win": 1.21,
+        "draw": 5.12,
+        "lose": 8.5
+      },
+      "reviewedOdds": {
+        "h": 1.16,
+        "d": 5.7,
+        "a": 9.8
+      },
+      "oldNormalized": [
+        72.53,
+        17.14,
+        10.33
+      ],
+      "newNormalized": [
+        75.65,
+        15.4,
+        8.95
+      ],
+      "handicap": -1,
+      "decision": "retain",
+      "rationale": "主胜参考1.21降至1.16，客胜8.50升至9.80触发15%阈值；普通胜仍第一且市场增强主队，并未形成独立净胜两球或恰一球证据。轮换声明与手术新闻文本未变，仍保留胜/平、博胜、方向1星/博0星。主队防线及替补磨合风险不因赔率降低消失；梦想6场胜仅高方差，进球3/4/2不由胜负价格倒推，两个情景与核心不出决定均不变。"
+    },
+    {
+      "number": "周四012",
+      "market": "had",
+      "oldOdds": {
+        "win": 1.22,
+        "draw": 5.4,
+        "lose": 7.41
+      },
+      "reviewedOdds": {
+        "h": 1.16,
+        "d": 5.75,
+        "a": 9.65
+      },
+      "oldNormalized": [
+        71.91,
+        16.25,
+        11.84
+      ],
+      "newNormalized": [
+        75.65,
+        15.26,
+        9.09
+      ],
+      "handicap": -1,
+      "decision": "retain",
+      "rationale": "主胜1.22降至1.16，客胜7.41升至9.65触发阈值。市场增强主胜但不能排除马赛进攻、主队近5场失10球和伤缺风险；官方赛前阵容说明文本未变。保留胜/平、博胜、方向1星/博0星及进球3/4/2高方差情景，不由低赔升级稳定性或推断净胜边界。"
+    }
+  ],
+  "scope": "Reviewed exact ordinary-market tuples only. Original reference odds/probabilities remain explicitly time-stamped; no threshold increase, no image/content rewrite. Any further over-threshold tuple change requires another review."
+}
