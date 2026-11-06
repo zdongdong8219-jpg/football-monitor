@@ -9,9 +9,9 @@
   "deliveryStage": "final",
   "batchLabel": "早晚场终版",
   "batchFinal": true,
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
   "scanDecisionComplete": true,
@@ -12810,7 +12810,7 @@
   "deliveryManifest": "data/research/2026-11-06/core30-r2/four-image-manifest.json",
   "earlyMobileVerified": true,
   "earlyCompleted": true,
-  "onlineVerifiedAt": null,
+  "onlineVerifiedAt": "2026-11-06T09:05:35.878Z",
   "verificationScope": "Edge430px emulation with realclick clipboard RGBA vs independentmanifest;physicalhandset nottested",
   "completionScope": "14场原分析保留；本次仅改3.0及当日右侧模拟行，早晨漏交与补交时间保留。",
   "revision": {
@@ -12830,9 +12830,9 @@
     "sharedMatchIds": [
       2042557
     ],
-    "finalLocked": false,
-    "mobileVerified": false,
-    "completed": false,
+    "finalLocked": true,
+    "mobileVerified": true,
+    "completed": true,
     "publishedAt": "2026-11-06T09:02:50.788Z",
     "imageHashes": {
       "2026-11-06-core30-r2-scan.png": "89909154f8d6b16c8e4c43952a74e6e9acfacfa7d841045e3825211afc681549",
