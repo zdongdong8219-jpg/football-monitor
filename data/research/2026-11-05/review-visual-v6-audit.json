@@ -1,0 +1,892 @@
+{
+  "date": "2026-11-05",
+  "templateLockVersion": "2026-11-02-final-v6",
+  "markers": [
+    {
+      "number": "周四001",
+      "column": "result",
+      "x": 510,
+      "y": 1377,
+      "width": 124,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四001",
+      "column": "speculative",
+      "x": 640,
+      "y": 1377,
+      "width": 109,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四001",
+      "column": "goals",
+      "x": 755,
+      "y": 1377,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四001",
+      "column": "halfFull",
+      "x": 845,
+      "y": 1377,
+      "width": 104,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四001",
+      "column": "score",
+      "x": 955,
+      "y": 1377,
+      "width": 154,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四002",
+      "column": "result",
+      "x": 510,
+      "y": 1449,
+      "width": 124,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四002",
+      "column": "goals",
+      "x": 755,
+      "y": 1449,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四002",
+      "column": "score",
+      "x": 955,
+      "y": 1449,
+      "width": 154,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四003",
+      "column": "result",
+      "x": 510,
+      "y": 1521,
+      "width": 124,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四003",
+      "column": "speculative",
+      "x": 640,
+      "y": 1521,
+      "width": 109,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四003",
+      "column": "goals",
+      "x": 755,
+      "y": 1521,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四004",
+      "column": "result",
+      "x": 510,
+      "y": 1593,
+      "width": 124,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四004",
+      "column": "speculative",
+      "x": 640,
+      "y": 1593,
+      "width": 109,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四004",
+      "column": "goals",
+      "x": 755,
+      "y": 1593,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四005",
+      "column": "goals",
+      "x": 755,
+      "y": 1665,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四005",
+      "column": "score",
+      "x": 955,
+      "y": 1665,
+      "width": 154,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四006",
+      "column": "goals",
+      "x": 755,
+      "y": 1737,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四007",
+      "column": "result",
+      "x": 510,
+      "y": 1809,
+      "width": 124,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四007",
+      "column": "halfFull",
+      "x": 845,
+      "y": 1809,
+      "width": 104,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四008",
+      "column": "goals",
+      "x": 755,
+      "y": 1881,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四009",
+      "column": "result",
+      "x": 510,
+      "y": 1953,
+      "width": 124,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四009",
+      "column": "speculative",
+      "x": 640,
+      "y": 1953,
+      "width": 109,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四009",
+      "column": "goals",
+      "x": 755,
+      "y": 1953,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四010",
+      "column": "result",
+      "x": 510,
+      "y": 2025,
+      "width": 124,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四010",
+      "column": "goals",
+      "x": 755,
+      "y": 2025,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四010",
+      "column": "halfFull",
+      "x": 845,
+      "y": 2025,
+      "width": 104,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四010",
+      "column": "score",
+      "x": 955,
+      "y": 2025,
+      "width": 154,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四011",
+      "column": "result",
+      "x": 510,
+      "y": 2097,
+      "width": 124,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四011",
+      "column": "speculative",
+      "x": 640,
+      "y": 2097,
+      "width": 109,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四011",
+      "column": "goals",
+      "x": 755,
+      "y": 2097,
+      "width": 84,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四011",
+      "column": "halfFull",
+      "x": 845,
+      "y": 2097,
+      "width": 104,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四011",
+      "column": "score",
+      "x": 955,
+      "y": 2097,
+      "width": 154,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四013",
+      "column": "result",
+      "x": 510,
+      "y": 2241,
+      "width": 124,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四013",
+      "column": "speculative",
+      "x": 640,
+      "y": 2241,
+      "width": 109,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    },
+    {
+      "number": "周四013",
+      "column": "halfFull",
+      "x": 845,
+      "y": 2241,
+      "width": 104,
+      "height": 66,
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "inset": 3,
+      "strokeWidth": 2,
+      "fillAlpha": 0.24
+    }
+  ],
+  "ticketStamps": [
+    {
+      "category": "core20",
+      "seal": "错",
+      "count": "2中1"
+    },
+    {
+      "category": "core30",
+      "seal": "错",
+      "count": "2中1"
+    },
+    {
+      "category": "dream6",
+      "seal": "错",
+      "count": "6中3"
+    },
+    {
+      "category": "goals4",
+      "seal": "错",
+      "count": "4中2"
+    }
+  ],
+  "templateComparison": {
+    "scan": {
+      "width": 1244,
+      "height": 2480,
+      "changedPixels": 349632,
+      "outsideAllowedPixels": 0,
+      "allowed": [
+        {
+          "x": 510,
+          "y": 1377,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 640,
+          "y": 1377,
+          "w": 109,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1377,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 1377,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 955,
+          "y": 1377,
+          "w": 154,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1379,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1449,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1449,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 955,
+          "y": 1449,
+          "w": 154,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1451,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1521,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 640,
+          "y": 1521,
+          "w": 109,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1521,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1523,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1593,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 640,
+          "y": 1593,
+          "w": 109,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1593,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1595,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 755,
+          "y": 1665,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 955,
+          "y": 1665,
+          "w": 154,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1667,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 755,
+          "y": 1737,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1739,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1809,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 1809,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1811,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 755,
+          "y": 1881,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1883,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 1953,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 640,
+          "y": 1953,
+          "w": 109,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 1953,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 1955,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 2025,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 2025,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 2025,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 955,
+          "y": 2025,
+          "w": 154,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 2027,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 2097,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 640,
+          "y": 2097,
+          "w": 109,
+          "h": 66
+        },
+        {
+          "x": 755,
+          "y": 2097,
+          "w": 84,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 2097,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 955,
+          "y": 2097,
+          "w": 154,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 2099,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 1115,
+          "y": 2171,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 510,
+          "y": 2241,
+          "w": 124,
+          "h": 66
+        },
+        {
+          "x": 640,
+          "y": 2241,
+          "w": 109,
+          "h": 66
+        },
+        {
+          "x": 845,
+          "y": 2241,
+          "w": 104,
+          "h": 66
+        },
+        {
+          "x": 1115,
+          "y": 2243,
+          "w": 84,
+          "h": 62
+        },
+        {
+          "x": 286,
+          "y": 308,
+          "w": 72,
+          "h": 46
+        },
+        {
+          "x": 276,
+          "y": 357,
+          "w": 94,
+          "h": 30
+        },
+        {
+          "x": 286,
+          "y": 460,
+          "w": 72,
+          "h": 46
+        },
+        {
+          "x": 276,
+          "y": 509,
+          "w": 94,
+          "h": 30
+        },
+        {
+          "x": 286,
+          "y": 668,
+          "w": 72,
+          "h": 46
+        },
+        {
+          "x": 276,
+          "y": 717,
+          "w": 94,
+          "h": 30
+        },
+        {
+          "x": 286,
+          "y": 860,
+          "w": 72,
+          "h": 46
+        },
+        {
+          "x": 276,
+          "y": 909,
+          "w": 94,
+          "h": 30
+        }
+      ]
+    },
+    "tracking": {
+      "width": 1244,
+      "height": 2729,
+      "changedPixels": 8422,
+      "outsideAllowedPixels": 0,
+      "allowed": [
+        {
+          "x": 364,
+          "y": 2472,
+          "w": 71,
+          "h": 108
+        },
+        {
+          "x": 439,
+          "y": 2472,
+          "w": 106,
+          "h": 108
+        },
+        {
+          "x": 549,
+          "y": 2472,
+          "w": 116,
+          "h": 108
+        },
+        {
+          "x": 899,
+          "y": 2472,
+          "w": 71,
+          "h": 108
+        },
+        {
+          "x": 974,
+          "y": 2472,
+          "w": 106,
+          "h": 108
+        },
+        {
+          "x": 1084,
+          "y": 2472,
+          "w": 116,
+          "h": 108
+        }
+      ]
+    }
+  },
+  "manualInspection": {
+    "passed": true,
+    "checkedAt": "2026-11-06T01:11:47.653Z",
+    "segments": [
+      "native-scan-1.png",
+      "native-scan-2.png",
+      "native-scan-3.png",
+      "native-scan-4.png",
+      "native-scan-5.png",
+      "native-tracking-1.png",
+      "native-tracking-2.png",
+      "native-tracking-3.png",
+      "native-tracking-4.png",
+      "native-tracking-5.png"
+    ],
+    "reference": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-c6361fba-c99b-4e25-b2e6-69dd95324959.png",
+    "notes": "All ten native sections inspected. 35 whole-cell rectangles include candidates/stars; original titles, artwork, geometry, historical rows unchanged. Four stamps 错/错/错/错 with 2中1/2中1/6中3/4中2, no text occlusion. Separate simulated net and cumulative read visually."
+  },
+  "publicationAllowed": true
+}

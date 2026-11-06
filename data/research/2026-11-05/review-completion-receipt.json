@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-05",
+  "completedAt": "2026-11-06T02:33:22.273Z",
+  "statistics": {
+    "result": {
+      "hit": 9,
+      "total": 13,
+      "pending": 0
+    },
+    "speculative": {
+      "hit": 6,
+      "total": 13,
+      "pending": 0
+    },
+    "goals": {
+      "hit": 10,
+      "total": 13,
+      "pending": 0
+    },
+    "halfFull": {
+      "hit": 5,
+      "total": 13,
+      "pending": 0
+    },
+    "score": {
+      "hit": 5,
+      "total": 13,
+      "pending": 0
+    }
+  },
+  "tracking": [
+    {
+      "category": "core20",
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    },
+    {
+      "category": "core30",
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    }
+  ],
+  "cumulative": [
+    {
+      "category": "core20",
+      "tickets": 12,
+      "stake": 12000,
+      "returned": 14731.5,
+      "net": 2731.5
+    },
+    {
+      "category": "core30",
+      "tickets": 12,
+      "stake": 12000,
+      "returned": 15713.4,
+      "net": 3713.4
+    }
+  ],
+  "images": [
+    {
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-05-core30-r2-scan.png?v=20261106-review-1105",
+      "sha256": "b2084ce18e413f2b6533d461087aa2a3e79239ea3b43836f43944a4e89ffba4a"
+    },
+    {
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-05-core30-r2-tracking-display-settled.png?v=20261106-review-1105",
+      "sha256": "9d7a1f06e451b5a3ffc1d657de76d3d73184707692a8c9d36c319b0d0e47d8fa"
+    },
+    {
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-05-review-scan.png?v=20261106-review-1105",
+      "sha256": "4020210e51ef55e1c0a29e503987f2aed437316060870db38993385578595ba8"
+    },
+    {
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-05-review-tracking.png?v=20261106-review-1105",
+      "sha256": "9d7a1f06e451b5a3ffc1d657de76d3d73184707692a8c9d36c319b0d0e47d8fa"
+    }
+  ],
+  "immutableHashes": {
+    "data/reports/2026-11-05.json": "52f00dd19b49a97c55faf68416d3e3941e4d0ecab1d9e73d5f9b56ff7347adde",
+    "data/reports/versions/2026-11-05-core-r1-verified.json": "9332ac91b4fe8809358ad128e5a07faed37d58377e32a621dd7c134afdf3e07f",
+    "data/review-template-lock.json": "eaa3f2807ccc94b8004e54f2463beb82a276390357f12a62d80ea10f985348c2",
+    "data/research/2026-11-05/scan-geometry.json": "e879135836580117a8a3333671b15ff1f2ca9f1ce99180d6228c739a6d5352e1",
+    "public/cards/2026-11-05-core30-r2-scan.png": "b2084ce18e413f2b6533d461087aa2a3e79239ea3b43836f43944a4e89ffba4a",
+    "public/cards/2026-11-05-core30-r2-tracking.png": "1a20b8b44c01670b551badcf0fd23bcaaae4cdb54d8fa3f7ad8908cfc079659d",
+    "public/cards/2026-11-05-final-scan.png": "50f2fe3b0c2a019912865a8d6027299735987d5c33b3c4bd17416d16198636af"
+  },
+  "completed": true,
+  "mobileVerified": true
+}

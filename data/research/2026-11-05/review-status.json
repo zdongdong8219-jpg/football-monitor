@@ -1,11 +1,11 @@
 {
   "date": "2026-11-05",
   "runStartedAt": "2026-11-06T01:02:27.598Z",
-  "lastProgressAt": "2026-11-06T01:13:10.744Z",
+  "lastProgressAt": "2026-11-06T02:33:22.273Z",
   "taskRunId": "automation-2-2026-11-06-review",
-  "runPhase": "ready_to_publish",
-  "completed": false,
-  "mobileVerified": false,
+  "runPhase": "completed",
+  "completed": true,
+  "mobileVerified": true,
   "expectedReviewAt": "2026-11-06T00:55:00.000Z",
   "lastKickoff": "2026-11-06T06:30:00+08:00",
   "lastMatch": "帕梅拉斯 : 里莫",
@@ -23,7 +23,12 @@
     "outside_allowed_zero_pixels",
     "original_online_hashes_verified",
     "local_430px_four_actual_clipboards",
-    "build_and_tests_passed"
+    "build_and_tests_passed",
+    "review_content_published",
+    "online_430px_four_actual_clipboards",
+    "online_preview_and_full_png_hashes",
+    "schedule_configuration_readback",
+    "completed"
   ],
   "inputHashes": {
     "data/review-template-lock.json": "eaa3f2807ccc94b8004e54f2463beb82a276390357f12a62d80ea10f985348c2",
@@ -39,7 +44,12 @@
     "originalTracking": "public/cards/2026-11-05-core30-r2-tracking.png",
     "geometry": "data/research/2026-11-05/scan-geometry.json",
     "results": "data/research/2026-11-05/review-result-audit.json",
-    "review": "data/reviews/2026-11-05.json"
+    "review": "data/reviews/2026-11-05.json",
+    "summary": "data/research/2026-11-05/review-progress-summary.json",
+    "manifest": "data/research/2026-11-05/review-four-image-manifest.json",
+    "onlineVerification": "data/research/2026-11-05/review-mobile/online-phone-verification.json",
+    "visualAudit": "data/research/2026-11-05/review-visual-v6-audit.json",
+    "triggerReadback": "data/research/2026-11-05/review-trigger-readback.json"
   },
   "sourceFailures": [
     {
@@ -50,5 +60,40 @@
       "source": "Sofascore scheduled events",
       "error": "HTTP403"
     }
-  ]
+  ],
+  "publication": {
+    "sha": "717c4a255afa72197e07fc31675d48beb085708e",
+    "at": "2026-11-06T01:13:43.324Z",
+    "files": [
+      "data/latest.json",
+      "public/data/latest.json",
+      "public/cards/2026-11-05-core30-r2-tracking-display-settled.png",
+      "public/cards/2026-11-05-core30-r2-tracking-display-settled-preview.jpg",
+      "data/review-latest.json",
+      "data/reviews/2026-11-05.json",
+      "data/research/2026-11-05/review-status.json",
+      "public/data/review-latest.json",
+      "public/data/reviews/2026-11-05.json",
+      "public/data/research/2026-11-05/review-status.json",
+      "public/cards/2026-11-05-review-scan.png",
+      "public/cards/2026-11-05-review-scan-preview.jpg",
+      "public/cards/2026-11-05-review-tracking.png",
+      "public/cards/2026-11-05-review-tracking-preview.jpg",
+      "public/phone-v2.html"
+    ]
+  },
+  "lastVerificationFailure": {
+    "at": "2026-11-06T01:15:24.923Z",
+    "reason": "Deployment42142393128 still in progress; live review remains November4. Actual width430 passed, date gate correctly blocked.",
+    "artifact": "data/research/2026-11-05/review-mobile/online-before-deployment.json"
+  },
+  "deploymentFailure": {
+    "runId": 42142393128,
+    "reason": "Pages syncing_files timed out after 10 minutes; deployment canceled",
+    "at": "2026-11-06T01:24:09Z",
+    "retryCount": 1,
+    "retryStatus": "pending",
+    "retryCheckedAt": "2026-11-06T01:31:40.124Z"
+  },
+  "completedAt": "2026-11-06T02:33:22.273Z"
 }

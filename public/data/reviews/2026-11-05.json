@@ -1,8 +1,8 @@
 {
   "date": "2026-11-05",
   "infoOnly": true,
-  "completed": false,
-  "mobileVerified": false,
+  "completed": true,
+  "mobileVerified": true,
   "generatedAt": "2026-11-06T01:08:51.270Z",
   "reviewAt": "2026-11-06T00:55:00.000Z",
   "originalReport": "data/reports/2026-11-05.json",
@@ -1832,6 +1832,8 @@
     "sources": true,
     "visual": true,
     "localPhone": true,
-    "onlinePhone": false
-  }
+    "onlinePhone": true
+  },
+  "completedAt": "2026-11-06T02:33:22.273Z",
+  "mobileVerificationScope": "430px browser mobile emulation, four actual clicks + native clipboard PNG decoded RGBA SHA256, independently approved manifest; not a physical handset"
 }
