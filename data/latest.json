@@ -15,7 +15,7 @@
   "researchComplete": true,
   "evidenceComplete": false,
   "scanDecisionComplete": true,
-  "summary": "3.0 R1补齐，003主-1让胜×004胜，整套2.8884；其余原票不变。",
+  "summary": "3.0 R1补齐，003主-1让胜×004胜，整套2.8362；其余原票不变。",
   "scanTable": [
     {
       "number": "周五001",
@@ -12778,7 +12778,7 @@
   "limitations": [
     "全部数值概率为市场倒数归一化参考，非校准真实概率；双方进球区间是定性情景而非数值模型。",
     "002只有主教练具体攻防对位资料，无完整双边序列；其余名单未齐处逐场披露，未伪装伤停已核实。",
-    "双选按综合判断排序；市场参考与分析可能不同，比分/半全场仅市场参考，不反推方向。",
+    "双选按综合判断排序；数字概率为市场参考，比分/半全场为上游进球环境下的定性情景，不反推方向。",
     "早批未交付属于失败；本次仅使用开赛前保存资料，原图原票保留，发布时记录真实时间。",
     "3.0本次修订补齐，净胜2+的进取风险明确，两档全共用场次。",
     "信息情景非下注或资金建议；跟踪只2.0/3.0每张1000元独立模拟。"
@@ -12812,7 +12812,7 @@
   "earlyCompleted": true,
   "onlineVerifiedAt": "2026-11-06T08:25:06.104Z",
   "verificationScope": "Edge430px emulation with realclick clipboard RGBA vs independentmanifest;physicalhandset nottested",
-  "completionScope": "14matchinformationanalysis,onecore20andtwohighvariancescenarios;core30explicitlywithheld;morningwindowmissed",
+  "completionScope": "14场信息分析，2.0/3.0各一组及两类梦想情景；早晨漏交及后续补交时间保留。",
   "revision": {
     "id": "2026-11-06-core30-r1",
     "revisedAt": "2026-11-06T08:12:40.361Z",
@@ -12830,6 +12830,8 @@
     "previousImageHashes": {
       "2026-11-06-final-scan.png": "c09f47fe8a779620631a425c80a33728d3fd3880587da437508bde2dd904efec",
       "2026-11-06-final-tracking.png": "a46fc9b75a0098a7bc8090c910a0a635af70fc6cc0821997095a9bd1109b258c"
-    }
+    },
+    "metadataClarifiedAt": "2026-11-06T08:33:33.365Z",
+    "metadataClarification": "摘要同步临发布真实2.8362及四类实际交付；图片、原票及选项数学不变。"
   }
 }
