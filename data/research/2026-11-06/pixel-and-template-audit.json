@@ -1,0 +1,57 @@
+{
+  "originalScan": "public\\cards\\2026-11-05-core30-r2-scan.png",
+  "newScan": "work\\stage-1106\\public\\cards\\2026-11-06-final-scan.png",
+  "originalSha256": "b2084ce18e413f2b6533d461087aa2a3e79239ea3b43836f43944a4e89ffba4a",
+  "newSha256": "e85a1fd9260cecd950c5589f431700ca7ebccf0d172f514533ef8c9de1373c32",
+  "fixedRegions": {
+    "top_title": {
+      "box": [
+        35,
+        20,
+        1205,
+        100
+      ],
+      "changedPixels": 0
+    },
+    "character_panel": {
+      "box": [
+        45,
+        1010,
+        1200,
+        1110
+      ],
+      "changedPixels": 0
+    },
+    "outer_left": {
+      "box": [
+        0,
+        0,
+        18,
+        2300
+      ],
+      "changedPixels": 0
+    }
+  },
+  "trackingOldSize": [
+    1244,
+    2729
+  ],
+  "trackingNewSize": [
+    1244,
+    2864
+  ],
+  "trackingCommonDiffBounds": [
+    2,
+    2599,
+    1242,
+    2729
+  ],
+  "historicalTrackingChangedPixels": 0,
+  "historicalTrackingPreservedBox": [
+    0,
+    0,
+    1244,
+    2598
+  ],
+  "trackingChanges": "Only11-06 pending core20 row and extendedfooter; original historical pixels retained."
+}
