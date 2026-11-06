@@ -9,9 +9,9 @@
   "deliveryStage": "final",
   "batchLabel": "早晚场终版",
   "batchFinal": true,
-  "finalLocked": false,
-  "mobileVerified": false,
-  "completed": false,
+  "finalLocked": true,
+  "mobileVerified": true,
+  "completed": true,
   "researchComplete": true,
   "evidenceComplete": false,
   "scanDecisionComplete": true,
@@ -12655,7 +12655,7 @@
   "deliveryManifest": "data/research/2026-11-06/approved-four-image-manifest.json",
   "earlyMobileVerified": true,
   "earlyCompleted": true,
-  "onlineVerifiedAt": "2026-11-06T05:15:15.427Z",
+  "onlineVerifiedAt": "2026-11-06T06:01:24.400Z",
   "verificationScope": "Edge430px emulation with realclick clipboard RGBA vs independentmanifest;physicalhandset nottested",
   "completionScope": "14matchinformationanalysis,onecore20andtwohighvariancescenarios;core30explicitlywithheld;morningwindowmissed"
 }
