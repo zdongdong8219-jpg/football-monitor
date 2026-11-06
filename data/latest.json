@@ -14527,10 +14527,8 @@
       },
       {
         "id": "2026-11-05-core-r1-core20",
-        "date": "2026-11-05",
         "category": "core20",
         "name": "2.0版2串1",
-        "sessionLabel": "中晚场",
         "legs": [
           {
             "number": "周四001",
@@ -14546,7 +14544,8 @@
               }
             ],
             "odds": 1.19,
-            "selectionReason": "防守连续性优于006/012；普通胜允许一球，独立一球边界只供博而不选作核心。名单未齐属一般未知，不能断言缺核心；低输出及申花休息优势仍是实质反证。"
+            "selectionReason": "防守连续性优于006/012；普通胜允许一球，独立一球边界只供博而不选作核心。名单未齐属一般未知，不能断言缺核心；低输出及申花休息优势仍是实质反证。",
+            "occurred": true
           },
           {
             "number": "周四005",
@@ -14562,52 +14561,30 @@
               }
             ],
             "odds": 1.44,
-            "selectionReason": "连续八场进球和五场15球，官方机会记录支持持续创造；对手客场被压迫失球提供对位证据。双边名单未全不等于确认核心伤缺，不再机械否决；主队失球、终结浪费及里昂反击保留，普通胜优于扩大胜差。"
+            "selectionReason": "连续八场进球和五场15球，官方机会记录支持持续创造；对手客场被压迫失球提供对位证据。双边名单未全不等于确认核心伤缺，不再机械否决；主队失球、终结浪费及里昂反击保留，普通胜优于扩大胜差。",
+            "occurred": false
           }
         ],
+        "totalLegs": 2,
+        "hitCount": 1,
+        "hit": false,
+        "status": "未中",
+        "infoOnly": true,
+        "date": "2026-11-05",
+        "sessionLabel": "中晚场",
         "selectionText": "001[胜] · 005[胜] · R1",
-        "oddsText": "整套条件倍数1.7136（含本金）",
-        "cardNote": "修订新增；001低输出、005防反风险。共用005，不胜两档均失败。",
-        "status": "待定",
-        "stars": 1,
-        "starColor": "white",
-        "starReason": "相对最佳仍有明确反证，仅一般看好，不因催促上调",
-        "wholeSetMath": {
-          "numbers": [
-            "周四001",
-            "周四005"
-          ],
-          "branchCount": 1,
-          "equalBranchWeight": 1,
-          "branches": [
-            {
-              "selection": [
-                "胜",
-                "胜"
-              ],
-              "product": 1.7136,
-              "wholeSetMultiple": 1.7136
-            }
-          ],
-          "min": 1.7136,
-          "max": 1.7136,
-          "notRankedByOdds": true,
-          "otherOutcomesMultiple": 0,
-          "formula": "互斥子情景等权；命中分支赔率乘积/全部分支数，含模拟本金，非净收益或实际资金建议"
-        },
-        "revisedAt": "2026-11-05T06:57:31.237Z",
+        "originalSelectionText": "001[胜] · 005[胜] · R1",
         "stake": 1000,
-        "simulation": true,
+        "returned": 0,
+        "net": -1000,
         "trackingSettlement": {
           "simulation": true,
           "stake": 1000,
-          "status": "待定",
-          "branchWeights": [
-            1
-          ],
-          "wholeSetMultiples": [
-            1.7136
-          ]
+          "returned": 0,
+          "net": -1000,
+          "cumulativeNet": 2731.5,
+          "oddsSource": "data/reports/2026-11-05.json",
+          "oddsSourceSha256": "52f00dd19b49a97c55faf68416d3e3941e4d0ecab1d9e73d5f9b56ff7347adde"
         }
       }
     ],
@@ -14970,10 +14947,8 @@
       },
       {
         "id": "2026-11-05-core30-r2",
-        "date": "2026-11-05",
         "category": "core30",
         "name": "3.0版2串1",
-        "sessionLabel": "中晚场",
         "legs": [
           {
             "number": "周四001",
@@ -14995,7 +14970,8 @@
               "scope": "user-authorized expanded core30 R2",
               "auditFile": "data/research/2026-11-05/core30-r2/expanded-market-audit.json",
               "risk": "町田近3场只入1球，申花上场至本场休息更长；两队最新完整名单未取得。主队打不开低位防守、客队定位球偷袭和轮换均会令主胜落空。"
-            }
+            },
+            "occurred": true
           },
           {
             "number": "周四005",
@@ -15017,48 +14993,30 @@
               "scope": "user-authorized expanded core30 R2",
               "auditFile": "data/research/2026-11-05/core30-r2/expanded-market-audit.json",
               "risk": "主队近10场9场至少3球亦反映防线风险，对莱万特被反击且终结浪费；里昂2:1尼斯、3:2水晶宫表明能破门。最新双边名单不全，不升核心资格。"
-            }
+            },
+            "occurred": false
           }
         ],
+        "totalLegs": 2,
+        "hitCount": 1,
+        "hit": false,
+        "status": "未中",
+        "infoOnly": true,
+        "date": "2026-11-05",
+        "sessionLabel": "中晚场",
         "selectionText": "001[胜] · 005[让胜(-1)] · R2",
-        "oddsText": "整套2.975倍（含本金）；单注100%模拟",
-        "cardNote": "1.19×2.50；005须净胜2+，仅胜1球也失败。与2.0共用两场，风险集中。",
-        "status": "待定",
-        "stars": 1,
-        "starColor": "white",
-        "starReason": "独立两球进取依据但防反/终结及001低输出反证仍明显，维持一星",
-        "wholeSetMath": {
-          "branchCount": 1,
-          "equalBranchWeight": 1,
-          "branches": [
-            {
-              "selection": [
-                "胜",
-                "让胜"
-              ],
-              "product": 2.975,
-              "wholeSetMultiple": 2.975
-            }
-          ],
-          "min": 2.975,
-          "max": 2.975,
-          "otherOutcomesMultiple": 0,
-          "formula": "1条子情景，1000元模拟全部计入，含本返还2975；未覆盖为0，非期望收益"
-        },
-        "revisedAt": "2026-11-05T07:41:37.541Z",
-        "replaces": "2026-11-05-core-r1-core30",
+        "originalSelectionText": "001[胜] · 005[让胜(-1)] · R2",
         "stake": 1000,
-        "simulation": true,
+        "returned": 0,
+        "net": -1000,
         "trackingSettlement": {
           "simulation": true,
           "stake": 1000,
-          "status": "待定",
-          "branchWeights": [
-            1
-          ],
-          "wholeSetMultiples": [
-            2.975
-          ]
+          "returned": 0,
+          "net": -1000,
+          "cumulativeNet": 3713.4,
+          "oddsSource": "data/reports/2026-11-05.json",
+          "oddsSourceSha256": "52f00dd19b49a97c55faf68416d3e3941e4d0ecab1d9e73d5f9b56ff7347adde"
         }
       }
     ]

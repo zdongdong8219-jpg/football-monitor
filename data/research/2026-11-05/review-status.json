@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-05",
+  "runStartedAt": "2026-11-06T01:02:27.598Z",
+  "lastProgressAt": "2026-11-06T01:13:10.744Z",
+  "taskRunId": "automation-2-2026-11-06-review",
+  "runPhase": "ready_to_publish",
+  "completed": false,
+  "mobileVerified": false,
+  "expectedReviewAt": "2026-11-06T00:55:00.000Z",
+  "lastKickoff": "2026-11-06T06:30:00+08:00",
+  "lastMatch": "帕梅拉斯 : 里莫",
+  "completedSteps": [
+    "template_lock_read",
+    "latest_locked_day_selected",
+    "true_kickoff_and_145_minute_window_verified",
+    "r2_original_paths_and_hashes_verified",
+    "primary_FT_HT_collection_saved",
+    "13_exact_FT_HT_verified",
+    "10_secondary_sources_verified",
+    "approved_r2_settlement",
+    "separate_1000_tracking_settled",
+    "native_ten_segments_and_reference_inspected",
+    "outside_allowed_zero_pixels",
+    "original_online_hashes_verified",
+    "local_430px_four_actual_clipboards",
+    "build_and_tests_passed"
+  ],
+  "inputHashes": {
+    "data/review-template-lock.json": "eaa3f2807ccc94b8004e54f2463beb82a276390357f12a62d80ea10f985348c2",
+    "data/reports/2026-11-05.json": "52f00dd19b49a97c55faf68416d3e3941e4d0ecab1d9e73d5f9b56ff7347adde",
+    "data/research/2026-11-05/scan-geometry.json": "e879135836580117a8a3333671b15ff1f2ca9f1ce99180d6228c739a6d5352e1",
+    "public/cards/2026-11-05-core30-r2-scan.png": "b2084ce18e413f2b6533d461087aa2a3e79239ea3b43836f43944a4e89ffba4a",
+    "public/cards/2026-11-05-core30-r2-tracking.png": "1a20b8b44c01670b551badcf0fd23bcaaae4cdb54d8fa3f7ad8908cfc079659d",
+    "data/research/2026-11-05/review-result-audit.json": "6722acf75f29d8f9138b2ab2a81388c31d73c7f4338e769f5c0fc0bf850fd63e"
+  },
+  "artifacts": {
+    "status": "data/research/2026-11-05/review-status.json",
+    "originalScan": "public/cards/2026-11-05-core30-r2-scan.png",
+    "originalTracking": "public/cards/2026-11-05-core30-r2-tracking.png",
+    "geometry": "data/research/2026-11-05/scan-geometry.json",
+    "results": "data/research/2026-11-05/review-result-audit.json",
+    "review": "data/reviews/2026-11-05.json"
+  },
+  "sourceFailures": [
+    {
+      "source": "ESPN scoreboard",
+      "error": "connect timeout"
+    },
+    {
+      "source": "Sofascore scheduled events",
+      "error": "HTTP403"
+    }
+  ]
+}
