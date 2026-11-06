@@ -10,7 +10,7 @@
   "batchLabel": "早场补交批（含已完成晚场分析）",
   "batchFinal": true,
   "finalLocked": false,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "completed": false,
   "researchComplete": true,
   "evidenceComplete": false,
@@ -12652,5 +12652,10 @@
   },
   "analysisContentSha256": "28b8e260153f4d4d0661cdc29a834d34c72b3dc9d8f9368f6747144d5dc93536",
   "geometryFile": "data/research/2026-11-06/scan-geometry.json",
-  "deliveryManifest": "data/research/2026-11-06/approved-four-image-manifest.json"
+  "deliveryManifest": "data/research/2026-11-06/approved-four-image-manifest.json",
+  "earlyMobileVerified": true,
+  "earlyCompleted": true,
+  "onlineVerifiedAt": "2026-11-06T05:15:15.427Z",
+  "verificationScope": "Edge430px emulation with realclick clipboard RGBA vs independentmanifest;physicalhandset nottested",
+  "completionScope": "14matchinformationanalysis,onecore20andtwohighvariancescenarios;core30explicitlywithheld;morningwindowmissed"
 }
