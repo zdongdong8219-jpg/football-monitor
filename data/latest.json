@@ -4,18 +4,18 @@
   "infoOnly": true,
   "generatedAt": "2026-11-06T05:00:33.535Z",
   "analysisAsOf": "2026-11-06T05:00:33.535Z",
-  "publishedAt": "2026-11-06T06:00:05.108Z",
+  "publishedAt": "2026-11-06T08:21:30.148Z",
   "edition": "final",
   "deliveryStage": "final",
   "batchLabel": "早晚场终版",
   "batchFinal": true,
-  "finalLocked": true,
-  "mobileVerified": true,
-  "completed": true,
+  "finalLocked": false,
+  "mobileVerified": false,
+  "completed": false,
   "researchComplete": true,
   "evidenceComplete": false,
   "scanDecisionComplete": true,
-  "summary": "14场赛前相对方向；2.0一组，3.0无合格组合，两类梦想为高方差情景。早批漏交如实记录。",
+  "summary": "3.0 R1补齐，003主-1让胜×004胜，整套2.8884；其余原票不变。",
   "scanTable": [
     {
       "number": "周五001",
@@ -11511,6 +11511,83 @@
       "oddsAsOf": "2026-11-06T13:10:55+08:00"
     },
     {
+      "id": "2026-11-06-core30-r1",
+      "date": "2026-11-06",
+      "category": "core30",
+      "name": "3.0版2串1",
+      "sessionLabel": "晚场",
+      "revisedAt": "2026-11-06T08:12:40.361Z",
+      "status": "待定",
+      "stars": 1,
+      "starColor": "white",
+      "starReason": "独立净胜依据与反证并存，仅一般看好，不因催促上调",
+      "legs": [
+        {
+          "number": "周五003",
+          "teams": "哈马比 : 埃夫斯堡",
+          "kickoff": "2026-11-07T02:00:00+08:00",
+          "selection": "让胜",
+          "market": "hhad",
+          "handicap": -1,
+          "odds": 1.74,
+          "options": [
+            {
+              "selection": "让胜",
+              "odds": 1.74
+            }
+          ],
+          "selectionReason": "003普通胜有强度校正的近期取胜和低失球；主-1让胜另有对榜首天狼星及米亚尔比连续2:0、4连胜仅失1与客队后场骨折的独立净胜依据。主1至2及3尾、客0至1及2尾；对手7场不败及多平/连续进球反证不可删。恰1无集中依据；穿盘是明确接受普通胜失败部分的一星进取腿，不把其称2.0同风险。胜胜虽可售但缺上半场独立资料，不用。",
+          "independentAdmission": {
+            "approved": true,
+            "auditFile": "data/research/2026-11-06/core30-r1/expanded-market-audit.json",
+            "risk": "埃夫斯堡先前3连平、客场6平且面对天狼星2:2，说明防平风险真实；但哈马比近期对较强对手持续取胜使主胜相对优势仍领先。Wikström骨折确定，替补防线实际实力未完整量化；不能把缺一人等同崩盘。"
+          }
+        },
+        {
+          "number": "周五004",
+          "teams": "蒙彼利埃 : 梅斯",
+          "kickoff": "2026-11-07T03:00:00+08:00",
+          "selection": "胜",
+          "market": "had",
+          "handicap": -1,
+          "odds": 1.63,
+          "options": [
+            {
+              "selection": "胜",
+              "odds": 1.63
+            }
+          ],
+          "selectionReason": "004普通胜保留：近4场10进1失、3次2球以上胜与本季主场不败。对手持续进球及Fall8球，主1至2/3尾对客0至1/2尾，足以支持主胜但不自动支持2+。穿盘同有候选价值，不过近期对手整体不及003击败天狼星/马尔默，梅斯进球威胁须统一折扣，故3.0选普通胜而不选让胜或恰1；胜胜无半场证据。",
+          "independentAdmission": {
+            "approved": true,
+            "auditFile": "data/research/2026-11-06/core30-r1/expanded-market-audit.json",
+            "risk": "梅斯Fall已进8球，近期持续进球，蒙彼利埃近阶段对手整体非顶级，不能将大胜无折扣外推。两队本轮完整名单未核实，只能记一般未知；主队低效率与客队反击可导致平或负。"
+          }
+        }
+      ],
+      "selectionText": "003[让胜(-1)] · 004[胜] · R1",
+      "oddsText": "整套条件倍数2.8362（含本金）",
+      "cardNote": "1.74×1.63；003须净胜2+，仅胜1球失败。两档共用两场，风险集中。",
+      "wholeSetMath": {
+        "branchCount": 1,
+        "equalBranchWeight": 1,
+        "branches": [
+          {
+            "selection": [
+              "让胜",
+              "胜"
+            ],
+            "product": 2.8362,
+            "wholeSetMultiple": 2.8362
+          }
+        ],
+        "min": 2.8362,
+        "max": 2.8362,
+        "otherOutcomesMultiple": 0,
+        "formula": "单分支100%独立1000元模拟；含本返还2836.2，其他0，非期望值"
+      }
+    },
+    {
       "id": "2026-11-06-final-dream6",
       "date": "2026-11-06",
       "category": "dream6",
@@ -11618,8 +11695,7 @@
     },
     {
       "category": "core30",
-      "status": "withheld",
-      "reason": "003穿盘存在对手连续不败/进球强反证，005客胜必须平保险；不能为倍率升级薄弱腿或删保险。"
+      "status": "information_scenario"
     },
     {
       "category": "dream6",
@@ -11655,27 +11731,9 @@
       ]
     },
     "core30": {
-      "selected": null,
-      "compared": [
-        {
-          "legs": "003让胜×004胜",
-          "referenceProduct": 3.0758,
-          "advantage": "003两次2:0和客队后场确定伤情，004攻守连续，价格接近3",
-          "counterEvidence": "003客队7场不败并连续进球、近期对天狼星2:2，穿盘仅进取观察；与2.0重复扩大同一失败暴露，不因倍率升核心"
-        },
-        {
-          "legs": "004胜×005负/平",
-          "referenceProduct": 1.76605,
-          "advantage": "005主队防守持续失球且攻击手确定停赛",
-          "counterEvidence": "客队近10客场仅1胜4平，平保险不能删；等权分支1.76605/2.91525，仍不是整套接近3"
-        },
-        {
-          "legs": "004让胜×011让负",
-          "referenceProduct": 4.672,
-          "advantage": "004净胜候选有攻守共同支持，011保平",
-          "counterEvidence": "004对手持续得分、011防线替补问题同样不能因票档放宽；不选高价代替证据"
-        }
-      ]
+      "selected": "2026-11-06-core30-r1",
+      "audit": "data/research/2026-11-06/core30-r1/expanded-market-audit.json",
+      "decision": "003主-1让胜×004普通胜，单分支整套2.8362倍。"
     },
     "decision": "2.0选003普通胜×004普通胜，3.0本次不出；半全场候选独立半场证据不足。"
   },
@@ -12615,6 +12673,103 @@
           "oddsSource": "data/reports/2026-11-05.json",
           "oddsSourceSha256": "52f00dd19b49a97c55faf68416d3e3941e4d0ecab1d9e73d5f9b56ff7347adde"
         }
+      },
+      {
+        "id": "2026-11-06-core30-r1",
+        "date": "2026-11-06",
+        "category": "core30",
+        "name": "3.0版2串1",
+        "sessionLabel": "晚场",
+        "revisedAt": "2026-11-06T08:12:40.361Z",
+        "status": "待定",
+        "stars": 1,
+        "starColor": "white",
+        "starReason": "独立净胜依据与反证并存，仅一般看好，不因催促上调",
+        "legs": [
+          {
+            "number": "周五003",
+            "teams": "哈马比 : 埃夫斯堡",
+            "kickoff": "2026-11-07T02:00:00+08:00",
+            "selection": "让胜",
+            "market": "hhad",
+            "handicap": -1,
+            "odds": 1.74,
+            "options": [
+              {
+                "selection": "让胜",
+                "odds": 1.74
+              }
+            ],
+            "selectionReason": "003普通胜有强度校正的近期取胜和低失球；主-1让胜另有对榜首天狼星及米亚尔比连续2:0、4连胜仅失1与客队后场骨折的独立净胜依据。主1至2及3尾、客0至1及2尾；对手7场不败及多平/连续进球反证不可删。恰1无集中依据；穿盘是明确接受普通胜失败部分的一星进取腿，不把其称2.0同风险。胜胜虽可售但缺上半场独立资料，不用。",
+            "independentAdmission": {
+              "approved": true,
+              "auditFile": "data/research/2026-11-06/core30-r1/expanded-market-audit.json",
+              "risk": "埃夫斯堡先前3连平、客场6平且面对天狼星2:2，说明防平风险真实；但哈马比近期对较强对手持续取胜使主胜相对优势仍领先。Wikström骨折确定，替补防线实际实力未完整量化；不能把缺一人等同崩盘。"
+            }
+          },
+          {
+            "number": "周五004",
+            "teams": "蒙彼利埃 : 梅斯",
+            "kickoff": "2026-11-07T03:00:00+08:00",
+            "selection": "胜",
+            "market": "had",
+            "handicap": -1,
+            "odds": 1.63,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.63
+              }
+            ],
+            "selectionReason": "004普通胜保留：近4场10进1失、3次2球以上胜与本季主场不败。对手持续进球及Fall8球，主1至2/3尾对客0至1/2尾，足以支持主胜但不自动支持2+。穿盘同有候选价值，不过近期对手整体不及003击败天狼星/马尔默，梅斯进球威胁须统一折扣，故3.0选普通胜而不选让胜或恰1；胜胜无半场证据。",
+            "independentAdmission": {
+              "approved": true,
+              "auditFile": "data/research/2026-11-06/core30-r1/expanded-market-audit.json",
+              "risk": "梅斯Fall已进8球，近期持续进球，蒙彼利埃近阶段对手整体非顶级，不能将大胜无折扣外推。两队本轮完整名单未核实，只能记一般未知；主队低效率与客队反击可导致平或负。"
+            }
+          }
+        ],
+        "selectionText": "003[让胜(-1)] · 004[胜] · R1",
+        "oddsText": "整套条件倍数2.8362（含本金）",
+        "cardNote": "1.74×1.63；003须净胜2+，仅胜1球失败。两档共用两场，风险集中。",
+        "wholeSetMath": {
+          "branchCount": 1,
+          "equalBranchWeight": 1,
+          "branches": [
+            {
+              "selection": [
+                "让胜",
+                "胜"
+              ],
+              "product": 2.8362,
+              "wholeSetMultiple": 2.8362
+            }
+          ],
+          "min": 2.8362,
+          "max": 2.8362,
+          "otherOutcomesMultiple": 0,
+          "formula": "单分支100%独立1000元模拟；含本返还2836.2，其他0，非期望值"
+        },
+        "stake": 1000,
+        "simulation": true,
+        "infoOnly": true,
+        "originalSelectionText": "003[让胜(-1)] · 004[胜] · R1",
+        "totalLegs": 2,
+        "hitCount": 0,
+        "hit": null,
+        "returned": null,
+        "net": null,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "status": "待定",
+          "branchWeights": [
+            1
+          ],
+          "wholeSetMultiples": [
+            2.8362
+          ]
+        }
       }
     ]
   },
@@ -12625,7 +12780,7 @@
     "002只有主教练具体攻防对位资料，无完整双边序列；其余名单未齐处逐场披露，未伪装伤停已核实。",
     "双选按综合判断排序；市场参考与分析可能不同，比分/半全场仅市场参考，不反推方向。",
     "早批未交付属于失败；本次仅使用开赛前保存资料，原图原票保留，发布时记录真实时间。",
-    "3.0未出，不将一张核心说成两档全部完成。",
+    "3.0本次修订补齐，净胜2+的进取风险明确，两档全共用场次。",
     "信息情景非下注或资金建议；跟踪只2.0/3.0每张1000元独立模拟。"
   ],
   "lastKickoff": "2026-11-07T07:00:00+08:00",
@@ -12633,12 +12788,12 @@
   "reviewAt": "2026-11-07T09:25:00+08:00",
   "reviewScheduleUpdated": true,
   "imageFiles": {
-    "scan": "2026-11-06-final-scan.png",
-    "tracking": "2026-11-06-final-tracking.png"
+    "scan": "2026-11-06-core30-r1-scan.png",
+    "tracking": "2026-11-06-core30-r1-tracking.png"
   },
   "originalImages": [
-    "cards/2026-11-06-final-scan.png",
-    "cards/2026-11-06-final-tracking.png"
+    "public/cards/2026-11-06-core30-r1-scan.png",
+    "public/cards/2026-11-06-core30-r1-tracking.png"
   ],
   "reviewScheduleVerified": true,
   "reviewAutomationId": "automation-2",
@@ -12647,15 +12802,34 @@
   "earlyDeliveryNote": "07:45早批未交付；首次实际提交时间见earlyPublishedAt，不冒充准时",
   "earlyPublishedAt": "2026-11-06T05:13:22.444Z",
   "originalImageHashes": {
-    "2026-11-06-final-scan.png": "c09f47fe8a779620631a425c80a33728d3fd3880587da437508bde2dd904efec",
-    "2026-11-06-final-tracking.png": "a46fc9b75a0098a7bc8090c910a0a635af70fc6cc0821997095a9bd1109b258c"
+    "2026-11-06-core30-r1-scan.png": "36780e9da5cc8d07e6dcf5f0966764eee06b9959d7bf6c33b74e971d8af76315",
+    "2026-11-06-core30-r1-tracking.png": "c933494c6e12b5779aaeb3ead57247b922c17891a5c1cc9cf4b319321a4c104e"
   },
-  "analysisContentSha256": "28b8e260153f4d4d0661cdc29a834d34c72b3dc9d8f9368f6747144d5dc93536",
+  "analysisContentSha256": "911f7d91c38e77aac0df1ae15e016c347b6e5227d0e159b389187ca519e94656",
   "geometryFile": "data/research/2026-11-06/scan-geometry.json",
-  "deliveryManifest": "data/research/2026-11-06/approved-four-image-manifest.json",
+  "deliveryManifest": "data/research/2026-11-06/core30-r1/four-image-manifest.json",
   "earlyMobileVerified": true,
   "earlyCompleted": true,
-  "onlineVerifiedAt": "2026-11-06T06:01:24.400Z",
+  "onlineVerifiedAt": null,
   "verificationScope": "Edge430px emulation with realclick clipboard RGBA vs independentmanifest;physicalhandset nottested",
-  "completionScope": "14matchinformationanalysis,onecore20andtwohighvariancescenarios;core30explicitlywithheld;morningwindowmissed"
+  "completionScope": "14matchinformationanalysis,onecore20andtwohighvariancescenarios;core30explicitlywithheld;morningwindowmissed",
+  "revision": {
+    "id": "2026-11-06-core30-r1",
+    "revisedAt": "2026-11-06T08:12:40.361Z",
+    "scope": "Onlycore30andnewrightsimulationrow;allothercontentfrozen",
+    "priorReport": "data/reports/versions/2026-11-06-final-verified.json",
+    "auditFile": "data/research/2026-11-06/core30-r1/expanded-market-audit.json",
+    "finalLocked": false,
+    "mobileVerified": false,
+    "completed": false,
+    "publishedAt": "2026-11-06T08:21:30.148Z",
+    "imageHashes": {
+      "2026-11-06-core30-r1-scan.png": "36780e9da5cc8d07e6dcf5f0966764eee06b9959d7bf6c33b74e971d8af76315",
+      "2026-11-06-core30-r1-tracking.png": "c933494c6e12b5779aaeb3ead57247b922c17891a5c1cc9cf4b319321a4c104e"
+    },
+    "previousImageHashes": {
+      "2026-11-06-final-scan.png": "c09f47fe8a779620631a425c80a33728d3fd3880587da437508bde2dd904efec",
+      "2026-11-06-final-tracking.png": "a46fc9b75a0098a7bc8090c910a0a635af70fc6cc0821997095a9bd1109b258c"
+    }
+  }
 }
