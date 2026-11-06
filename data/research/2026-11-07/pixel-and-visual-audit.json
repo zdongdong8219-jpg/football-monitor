@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-07 morning",
+  "kind": "new_day_early_not_revision",
+  "fixedRegions": {
+    "logo": {
+      "box": [
+        35,
+        20,
+        1205,
+        90
+      ],
+      "changedPixels": 0,
+      "passed": true
+    },
+    "left_edge": {
+      "box": [
+        0,
+        0,
+        18,
+        1600
+      ],
+      "changedPixels": 9746,
+      "explanation": "New-day four-row canvas shorter than prior14-row canvas; translucent underlying art follows approved content-driven artTop. Edge-region pixel changes recorded, not claimed unchanged. Renderer and both original character assets byte-identical."
+    }
+  },
+  "templateIdentical": true,
+  "trackingByteIdentical": true,
+  "visualPassed": true,
+  "visualNotes": "Four complete rows; early heading; no stars; 002 speculative explicitly withheld; no clipping; fixed assets/layout retained.",
+  "originalHashes": {
+    "..\\..\\public\\cards\\2026-11-06-core30-r2-scan.png": "89909154f8d6b16c8e4c43952a74e6e9acfacfa7d841045e3825211afc681549",
+    "..\\..\\public\\cards\\2026-11-06-core30-r2-tracking.png": "dd3faf078a1bd11b0066d8f538419f961402790ab8f218f9387eca8c977efe72"
+  },
+  "passed": true
+}

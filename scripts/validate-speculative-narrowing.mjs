@@ -20,6 +20,7 @@ export function normalizeDirection(value) {
 
 export function inspectSpeculativeNarrowing(row) {
   const primary = normalizeDirection(row.primaryPick ?? row.buy ?? row.selection);
+  if (row.speculative === '无' && typeof row.speculativeWithheldReason === 'string' && row.speculativeWithheldReason.length >= 20 && Number.isSafeInteger(row.handicap)) return {number:row.number, passed:true, code:'explicitly_withheld', basis:row.speculativeWithheldReason};
   const speculative = normalizeDirection(row.speculative);
   const handicap = row.handicap;
   if (typeof handicap !== 'number' || !Number.isSafeInteger(handicap) || Math.abs(handicap) > Number.MAX_SAFE_INTEGER - 2) {
