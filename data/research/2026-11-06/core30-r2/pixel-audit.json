@@ -1,0 +1,30 @@
+{
+  "source": "published immutable core30-r1 PNG",
+  "scanAllowedBox": [
+    369,
+    442,
+    1202,
+    542
+  ],
+  "trackingAllowedBox": [
+    669,
+    2617,
+    885,
+    2725
+  ],
+  "scanOutsideAuthorizedChanged": false,
+  "trackingOutsideAuthorizedChanged": false,
+  "scanChangedBox": [
+    369,
+    448,
+    1035,
+    541
+  ],
+  "trackingChangedBox": [
+    670,
+    2619,
+    875,
+    2705
+  ],
+  "method": "PIL copy original bitmap and draw only authorized text rectangles; no full canvas rendering"
+}

@@ -11,15 +11,16 @@ export function validateInformationReport(report) {
   let frozenRows=null;
   let authorizedCoreNarrowing=false;
   let november6Narrowing=false;
-  if(report.revision?.id==='2026-11-06-core30-r1'){
+  if(['2026-11-06-core30-r1','2026-11-06-core30-r2'].includes(report.revision?.id)){
     const prior=JSON.parse(fs.readFileSync(new URL('../data/reports/versions/2026-11-06-final-verified.json',import.meta.url),'utf8'));
-    const audit=JSON.parse(fs.readFileSync(new URL('../data/research/2026-11-06/core30-r1/expanded-market-audit.json',import.meta.url),'utf8'));
+    const audit=JSON.parse(fs.readFileSync(new URL('../data/research/2026-11-06/'+(report.revision.id.endsWith('r2')?'core30-r2':'core30-r1')+'/expanded-market-audit.json',import.meta.url),'utf8'));
     const t=scenarios.find(x=>x.category==='core30');
     if(JSON.stringify(rows)!==JSON.stringify(prior.scanTable)||JSON.stringify(scenarios.filter(x=>x.category!=='core30'))!==JSON.stringify(prior.recommendations))throw Error('November6 frozen scope changed');
     if(JSON.stringify(report.trackingHistory.two)!==JSON.stringify(prior.trackingHistory.two)||JSON.stringify(report.trackingHistory.three.slice(0,-1))!==JSON.stringify(prior.trackingHistory.three))throw Error('November6 historical tracking changed');
-    if(t?.legs.length!==2||t.legs[0].number!=='周五003'||t.legs[0].selection!=='让胜'||t.legs[1].number!=='周五004'||t.legs[1].selection!=='胜'||!t.legs[0].independentAdmission?.approved||audit.math.branchCount!==1)throw Error('November6 exact admission mismatch');
+    if(t?.legs.length!==2||t.legs[0].number!=='周五003'||t.legs[0].selection!=='让胜'||t.legs[1].number!==(report.revision.id.endsWith('r2')?'周五011':'周五004')||t.legs[1].selection!==(report.revision.id.endsWith('r2')?'让负':'胜')||!t.legs[0].independentAdmission?.approved||audit.math.branchCount!==1)throw Error('November6 exact admission mismatch');
     if(!inspectSpeculativeNarrowing({...rows.find(x=>x.number==='周五003'),speculative:t.legs[0].selection}).passed)throw Error('November6 boundary mismatch');
     const product=t.legs.reduce((n,l)=>n*l.odds,1);if(Math.abs(product-t.wholeSetMath.min)>1e-8||Math.abs(product-t.wholeSetMath.max)>1e-8||Math.abs(product-audit.math.allocation[0].wholeSetMultiple)>1e-8||t.wholeSetMath.branchCount!==1)throw Error('November6 actual whole-set math mismatch');
+    if(report.revision.id.endsWith('r2')){const id=n=>rows.find(x=>x.number===n).officialMatchId;const base=scenarios.find(x=>x.category==='core20').legs.map(x=>id(x.number));if(t.legs.filter(x=>base.includes(id(x.number))).length>1)throw Error('Maximum one shared fixture violated');}
     november6Narrowing=true;
   }
   if(report.revision?.id==='2026-11-05-core30-r2'){
