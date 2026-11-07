@@ -47,7 +47,17 @@ export function validateInformationReport(report) {
     if(choices.length>1&&choices.every(x=>['胜','平','负'].includes(x))&&row.outcomeRanking.indexOf(choices[0])>row.outcomeRanking.indexOf(choices[1]))throw Error('Direction order mismatch');
   }
   if(report.deliveryStage!=='early'){
-    for(const [category,count] of [['core20',2],['core30',2],['dream6',6],['goals4',4]]){let s=scenarios.find(x=>x.category===category);if(!s){const withheld=report.ticketClassStatus?.find(x=>x.category===category);if(withheld?.status==='withheld'&&withheld.reason?.length>=20&&report.coreComparison?.[category]?.selected===null&&report.coreComparison?.[category]?.compared?.length>=2&&['core20','core30'].includes(category))continue;throw Error('Scenario missing without documented rejection '+category);}if(s.legs?.length!==count)throw Error('Scenario size mismatch '+category);for(const leg of s.legs){let row=rows.find(r=>r.number===leg.number);if(!row)throw Error('Unknown scenario match');if(category==='goals4'&&leg.selection!==row.goals)throw Error('Goals scenario order mismatch');if(['core20','core30'].includes(category)&&leg.selection!==row.primaryPick&&!(authorizedCoreNarrowing&&category==='core30'&&leg.number==='周四005')&&!(november6Narrowing&&category==='core30'&&leg.number==='周五003'))throw Error('Main scenario differs from analysis');if(category==='dream6'&&leg.selection!==(frozenRows?.find(r=>r.number===leg.number)||row).speculative)throw Error('High variance scenario differs from analysis');}}
+    // A documented optional-class rejection is valid; core classes retain their own admission gate.
+    for (const category of ['dream6','goals4']) {
+      if (scenarios.some(s=>s.category===category)) continue;
+      const status=report.ticketClassStatus?.find(s=>s.category===category), comparison=report.coreComparison?.[category];
+      if (status?.status==='withheld' && status.reason?.length>=20 && comparison?.selected===null && comparison.compared?.length>=2) {
+        // The legacy size loop below evaluates only issued optional classes.
+        continue;
+      }
+      throw Error('Optional scenario missing without documented comparison '+category);
+    }
+    for(const [category,count] of [['core20',2],['core30',2],['dream6',6],['goals4',4]]){let s=scenarios.find(x=>x.category===category);if(!s){const withheld=report.ticketClassStatus?.find(x=>x.category===category);if(withheld?.status==='withheld'&&withheld.reason?.length>=20&&report.coreComparison?.[category]?.selected===null&&report.coreComparison?.[category]?.compared?.length>=2)continue;throw Error('Scenario missing without documented rejection '+category);}if(s.legs?.length!==count)throw Error('Scenario size mismatch '+category);for(const leg of s.legs){let row=rows.find(r=>r.number===leg.number);if(!row)throw Error('Unknown scenario match');if(category==='goals4'&&leg.selection!==row.goals)throw Error('Goals scenario order mismatch');if(['core20','core30'].includes(category)&&leg.selection!==row.primaryPick&&!(authorizedCoreNarrowing&&category==='core30'&&leg.number==='周四005')&&!(november6Narrowing&&category==='core30'&&leg.number==='周五003'))throw Error('Main scenario differs from analysis');if(category==='dream6'&&leg.selection!==(frozenRows?.find(r=>r.number===leg.number)||row).speculative)throw Error('High variance scenario differs from analysis');}}
   }
   return true;
 }

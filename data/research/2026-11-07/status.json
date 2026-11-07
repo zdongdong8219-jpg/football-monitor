@@ -1,0 +1,1092 @@
+{
+  "completedSteps": [
+    "memory_and_current_rules_read",
+    "schedule_verified",
+    "backup_official_checked",
+    "early_sources_saved",
+    "early4_relative_analysis",
+    "early_local_visual_phone_verified",
+    "early_published",
+    "early_online_four_clipboards_verified",
+    "early_public_metadata_verified",
+    "independent_public_acceptance",
+    "early_core20_supplement_tracked",
+    "early_core20_supplement_local_phone_verified",
+    "early_core20_supplement_published",
+    "early_core20_supplement_online_phone_verified"
+  ],
+  "runPhase": "early_core20_supplement_published_verified",
+  "inputHashes": {
+    "official-0745.json": "2298404ed63fc908d05bf1a31b993837127b877c2ecbf4c34cdadce04e80157d",
+    "official-list.txt": "989a7e3aa0dd739f3f77f1b8634d288c7ed74630020af2d614ef1dc8e496d7b4",
+    "snapshot-0745.json": "b624d82e3b48dacff1e03687ada0fc633dc619cb8e9f756c3b09bec4f09d86b8",
+    "early-sources.json": "741a6a4e30854d214c552a4723add2dd8fd1d532d98a47449e90912fbd47f301",
+    "early-articles.json": "5fa239cb773a888ca6bf041a645a35a2a8be8dc7598ba197b5fef3664c239843",
+    "early-analysis.json": "18cd3b8212f35f6208fbf55b95efa504e0cf26f8735d8cb2f90f1ed25245515f",
+    "early-candidate-comparison.json": "b2f5b139e19a4700492b2e866fa0a3c6b9656e6e23646ef02155b856c1bb965c",
+    "NEXT-RUN.md": "394495a6e2e8fc4fdae273d4e367e5fecc9e7325fb99f02c1e20ed7e35d18400",
+    "approved-four-image-manifest.json": "b1cc9ba9d13bfb46016e7491482fc2d2e2bb1a6a0bda94a72db06c9fff85b383",
+    "pixel-and-visual-audit.json": "844680a9a7764de827361126aea43ea2f3ee7dde569688dfb3a0ac6fc09c9401",
+    "online-phone-verification.json": "821cf961c56282ffb8d43600532cf8ed0ab3c2ab547c2a95bc08211ffabef2af"
+  },
+  "startedAt": "2026-11-07T07:47:19.3644949+08:00",
+  "date": "2026-11-07",
+  "artifacts": [
+    "data/research/2026-11-07/early-analysis.json",
+    "data/research/2026-11-07/early-articles.json",
+    "data/research/2026-11-07/early-candidate-comparison.json",
+    "data/research/2026-11-07/NEXT-RUN.md",
+    "data/research/2026-11-07/approved-four-image-manifest.json",
+    "data/research/2026-11-07/pixel-and-visual-audit.json",
+    "data/research/2026-11-07/online-phone-verification.json",
+    "data/research/2026-11-07/completion-receipt.json",
+    "data/research/2026-11-07/independent-acceptance.json",
+    "data/research/2026-11-07/scan-geometry.json"
+  ],
+  "finalLocked": false,
+  "lastProgressAt": "2026-11-07T06:23:57.176Z",
+  "mobileVerified": false,
+  "completed": false,
+  "remoteHead": "efac826be95eed121660aec5ae8174254bb7949b",
+  "groups": {
+    "early": [
+      "周六001",
+      "周六002",
+      "周六003",
+      "周六004"
+    ],
+    "middle": [
+      "周六005",
+      "周六006",
+      "周六008",
+      "周六009",
+      "周六010"
+    ],
+    "late": [
+      "周六011",
+      "周六012",
+      "周六013",
+      "周六014",
+      "周六015",
+      "周六016",
+      "周六019",
+      "周六020",
+      "周六022",
+      "周六023",
+      "周六024",
+      "周六025",
+      "周六026",
+      "周六027",
+      "周六028"
+    ]
+  },
+  "totalMatches": 24,
+  "failedPhase": null,
+  "lastError": null,
+  "earlyCompleted": true,
+  "earlyMobileVerified": true,
+  "contentCommit": "e54bf1eeaaeba842d596f0cb955d1c10347d5fbe",
+  "metadataCommit": "cdb7f3ae6d33c641848609bc64cc8439b2567d7e",
+  "nextStage": "12:45 middle/late; preserve immutable early rows/PNGs; final not before14:00",
+  "core20SupplementCompleted": true,
+  "core30SupplementDecision": "withheld_no_two_independently_qualified_legs",
+  "supplementContentCommit": "28e0c46e8c935d267dd63d9fa3e9bf5d2db5e692",
+  "supplementMetadataCommit": "b2e5a6ad3236e947dbbb03ab8d59e76d52ff7380",
+  "supplementOnlineVerifiedAt": "2026-11-07T04:44:25.488Z",
+  "researchWorkflow": {
+    "phase": "final_publication_submitting",
+    "owner": "本任务，按用户今天授权采集与分析",
+    "nextAction": "等待部署并进行线上四按钮复制、图片及详情核验",
+    "requiredArtifacts": [
+      "data/research/2026-11-07/final-admission-and-comparison.json",
+      "data/research/2026-11-07/final-stage-selling-gate.json",
+      "public/cards/2026-11-07-final-s1-scan.png",
+      "public/cards/2026-11-07-final-s1-tracking.png"
+    ],
+    "attemptedSources": [
+      {
+        "id": "source-0",
+        "url": "https://m.dongqiudi.com/en/preview/54543924",
+        "checkedAt": "2026-11-07T05:22:13.286Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-1",
+        "url": "https://m.dongqiudi.com/en/preview/54483815",
+        "checkedAt": "2026-11-07T05:22:13.362Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-2",
+        "url": "https://m.dongqiudi.com/en/preview/54490379",
+        "checkedAt": "2026-11-07T05:22:13.363Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-3",
+        "url": "https://m.dongqiudi.com/en/preview/54493409",
+        "checkedAt": "2026-11-07T05:22:13.364Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-4",
+        "url": "https://m.dongqiudi.com/en/preview/54470972",
+        "checkedAt": "2026-11-07T05:22:13.365Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-5",
+        "url": "https://m.dongqiudi.com/en/preview/54470904",
+        "checkedAt": "2026-11-07T05:22:13.366Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-6",
+        "url": "https://m.dongqiudi.com/en/preview/54494591",
+        "checkedAt": "2026-11-07T05:22:13.744Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-7",
+        "url": "https://m.dongqiudi.com/en/preview/54494602",
+        "checkedAt": "2026-11-07T05:22:13.746Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-8",
+        "url": "https://m.dongqiudi.com/en/preview/54494590",
+        "checkedAt": "2026-11-07T05:22:13.746Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-9",
+        "url": "https://m.dongqiudi.com/en/preview/54494599",
+        "checkedAt": "2026-11-07T05:22:13.747Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-10",
+        "url": "https://m.dongqiudi.com/en/preview/54483793",
+        "checkedAt": "2026-11-07T05:22:13.747Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-11",
+        "url": "https://m.dongqiudi.com/en/preview/54483808",
+        "checkedAt": "2026-11-07T05:22:13.747Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-12",
+        "url": "https://m.dongqiudi.com/en/preview/54490384",
+        "checkedAt": "2026-11-07T05:22:13.959Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-13",
+        "url": "https://m.dongqiudi.com/en/preview/54493405",
+        "checkedAt": "2026-11-07T05:22:13.959Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-14",
+        "url": "https://m.dongqiudi.com/en/preview/54475673",
+        "checkedAt": "2026-11-07T05:22:13.960Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-15",
+        "url": "https://m.dongqiudi.com/en/preview/54340576",
+        "checkedAt": "2026-11-07T05:22:13.960Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-16",
+        "url": "https://m.dongqiudi.com/en/preview/54470930",
+        "checkedAt": "2026-11-07T05:22:13.961Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-17",
+        "url": "https://m.dongqiudi.com/en/preview/54483821",
+        "checkedAt": "2026-11-07T05:22:13.961Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-18",
+        "url": "https://m.dongqiudi.com/en/preview/54494593",
+        "checkedAt": "2026-11-07T05:22:14.121Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-19",
+        "url": "https://m.dongqiudi.com/en/preview/54493410",
+        "checkedAt": "2026-11-07T05:22:14.121Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-20",
+        "url": "https://m.dongqiudi.com/en/preview/54473929",
+        "checkedAt": "2026-11-07T05:22:14.121Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-21",
+        "url": "https://m.dongqiudi.com/en/preview/54506835",
+        "checkedAt": "2026-11-07T05:22:14.121Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-22",
+        "url": "https://m.dongqiudi.com/en/preview/54470944",
+        "checkedAt": "2026-11-07T05:22:14.121Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-23",
+        "url": "https://m.dongqiudi.com/en/preview/54328480",
+        "checkedAt": "2026-11-07T05:22:25.113Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-24",
+        "url": "https://m.dongqiudi.com/en/preview/54591846",
+        "checkedAt": "2026-11-07T05:23:03.255Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-25",
+        "url": "https://perthglory.com.au/news/",
+        "checkedAt": "2026-11-07T05:23:37.114Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-26",
+        "url": "https://newcastlejetsfc.com.au/news/",
+        "checkedAt": "2026-11-07T05:23:37.231Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-27",
+        "url": "https://www.leedsunited.com/en/news",
+        "checkedAt": "2026-11-07T05:23:37.239Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-28",
+        "url": "https://www.tottenhamhotspur.com/news/",
+        "checkedAt": "2026-11-07T05:23:37.248Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-29",
+        "url": "https://www.portsmouthfc.co.uk/news",
+        "checkedAt": "2026-11-07T05:23:37.254Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-30",
+        "url": "https://www.stokecityfc.com/news/",
+        "checkedAt": "2026-11-07T05:23:37.257Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-31",
+        "url": "https://www.malagacf.com/noticias",
+        "checkedAt": "2026-11-07T05:23:37.266Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-32",
+        "url": "https://www.realracingclub.es/noticias",
+        "checkedAt": "2026-11-07T05:23:37.272Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-33",
+        "url": "https://www.torinofc.it/news",
+        "checkedAt": "2026-11-07T05:23:40.552Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-34",
+        "url": "https://www.uslecce.it/",
+        "checkedAt": "2026-11-07T05:23:40.555Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-35",
+        "url": "https://cagliaricalcio.com/news/",
+        "checkedAt": "2026-11-07T05:23:40.556Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-36",
+        "url": "https://www.frosinonecalcio.com/",
+        "checkedAt": "2026-11-07T05:23:40.557Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-37",
+        "url": "https://rbleipzig.com/en/news",
+        "checkedAt": "2026-11-07T05:23:40.558Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-38",
+        "url": "https://www.fcaugsburg.de/en/news",
+        "checkedAt": "2026-11-07T05:23:40.562Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-39",
+        "url": "https://www.scp07.de/Newsarchiv/",
+        "checkedAt": "2026-11-07T05:23:40.565Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-40",
+        "url": "https://en.eintracht.de/news/",
+        "checkedAt": "2026-11-07T05:23:40.566Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-41",
+        "url": "https://www.bvb.de/de/de/aktuelles.html",
+        "checkedAt": "2026-11-07T05:23:44.421Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-42",
+        "url": "https://sv07elversberg.de/",
+        "checkedAt": "2026-11-07T05:23:44.422Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-43",
+        "url": "https://www.mainz05.de/news",
+        "checkedAt": "2026-11-07T05:23:44.423Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-44",
+        "url": "https://fcbayern.com/en/news",
+        "checkedAt": "2026-11-07T05:23:44.424Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-45",
+        "url": "https://www.arsenal.com/news",
+        "checkedAt": "2026-11-07T05:23:44.424Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-46",
+        "url": "https://www.wearehullcity.co.uk/news",
+        "checkedAt": "2026-11-07T05:23:44.425Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-47",
+        "url": "https://www.fulhamfc.com/news/",
+        "checkedAt": "2026-11-07T05:23:44.428Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-48",
+        "url": "https://www.newcastleunited.com/en/news",
+        "checkedAt": "2026-11-07T05:23:44.429Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-49",
+        "url": "https://www.bcfc.com/news/all",
+        "checkedAt": "2026-11-07T05:23:48.079Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-50",
+        "url": "https://www.swanseacity.com/news",
+        "checkedAt": "2026-11-07T05:23:48.081Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-51",
+        "url": "https://www.rcdespanyol.com/en/news",
+        "checkedAt": "2026-11-07T05:23:48.081Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-52",
+        "url": "https://www.rcdeportivo.es/noticias",
+        "checkedAt": "2026-11-07T05:23:48.082Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-53",
+        "url": "https://fortunasittard.nl/nieuws",
+        "checkedAt": "2026-11-07T05:23:48.083Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-54",
+        "url": "https://sctelstar.nl/nieuws",
+        "checkedAt": "2026-11-07T05:23:48.084Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-55",
+        "url": "https://www.degerforsif.se/",
+        "checkedAt": "2026-11-07T05:23:48.084Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-56",
+        "url": "https://www.gais.se/",
+        "checkedAt": "2026-11-07T05:23:48.085Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-57",
+        "url": "https://www.parmacalcio1913.com/en/main-news/",
+        "checkedAt": "2026-11-07T05:23:55.255Z",
+        "result": "request_failed",
+        "error": "TimeoutError: The operation was aborted due to timeout"
+      },
+      {
+        "id": "source-58",
+        "url": "https://www.bolognafc.it/en/news/",
+        "checkedAt": "2026-11-07T05:23:55.257Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-59",
+        "url": "https://www.nottinghamforest.co.uk/news",
+        "checkedAt": "2026-11-07T05:23:55.258Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-60",
+        "url": "https://www.mancity.com/news/mens",
+        "checkedAt": "2026-11-07T05:23:55.259Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-61",
+        "url": "https://www.vfb.de/en/vfb/latest/news/",
+        "checkedAt": "2026-11-07T05:23:55.262Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-62",
+        "url": "https://www.werder.de/en/news",
+        "checkedAt": "2026-11-07T05:23:55.263Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-63",
+        "url": "https://www.osasuna.es/noticias",
+        "checkedAt": "2026-11-07T05:23:55.264Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-64",
+        "url": "https://www.athletic-club.eus/en/news",
+        "checkedAt": "2026-11-07T05:23:55.265Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-65",
+        "url": "https://www.aja.fr/actualites/",
+        "checkedAt": "2026-11-07T05:24:09.416Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-66",
+        "url": "https://parisfc.fr/actualites/",
+        "checkedAt": "2026-11-07T05:24:09.417Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-67",
+        "url": "https://fcalvercafutebolsad.pt/",
+        "checkedAt": "2026-11-07T05:24:09.419Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-68",
+        "url": "https://casapiaac.pt/",
+        "checkedAt": "2026-11-07T05:24:09.420Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-69",
+        "url": "https://www.asroma.com/en/news",
+        "checkedAt": "2026-11-07T05:24:09.421Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-70",
+        "url": "https://www.sassuolocalcio.it/news/",
+        "checkedAt": "2026-11-07T05:24:09.422Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-71",
+        "url": "https://atletico.com.br/noticias/",
+        "checkedAt": "2026-11-07T05:24:09.422Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-72",
+        "url": "https://gremio.net/noticias/",
+        "checkedAt": "2026-11-07T05:24:09.423Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-73",
+        "url": "https://www.rsl.com/news/",
+        "checkedAt": "2026-11-07T05:24:13.553Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-74",
+        "url": "https://www.lagalaxy.com/news/",
+        "checkedAt": "2026-11-07T05:24:13.554Z",
+        "result": "directory_only_not_evidence_complete",
+        "error": null
+      },
+      {
+        "id": "source-75",
+        "url": "https://perthglory.com.au/news/alm-match-preview-griff-demands-more-as-glory-look-to-down-reigning-premiers/",
+        "checkedAt": "2026-11-07T06:03:47.579Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-76",
+        "url": "https://newcastlejetsfc.com.au/news/acle-match-report-jets-vs-shanghai-port/",
+        "checkedAt": "2026-11-07T06:03:47.654Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-77",
+        "url": "https://www.leedsunited.com/en/news/leeds-united-vs-tottenham-hotspur-team-news-key-stats-and-everything-you-need-to-know",
+        "checkedAt": "2026-11-07T06:03:47.656Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-78",
+        "url": "https://www.leedsunited.com/en/news/fine-margins-jayden-bogle-reveals-thorp-arch-focus-ahead-of-spurs-visit",
+        "checkedAt": "2026-11-07T06:03:47.657Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-79",
+        "url": "https://www.malagacf.com/noticias/previa-del-malaga-racing0611",
+        "checkedAt": "2026-11-07T06:03:47.658Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-80",
+        "url": "https://www.realracingclub.es/noticias/el-racing-busca-en-malaga-sus-primeros-puntos-a-domicilio-del-curso-2026-27",
+        "checkedAt": "2026-11-07T06:03:47.660Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-81",
+        "url": "https://www.realracingclub.es/noticias/queremos-trasladar-nuestra-personalidad-como-locales-a-los-partidos-fuera-de-casa",
+        "checkedAt": "2026-11-07T06:03:47.661Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-82",
+        "url": "https://www.realracingclub.es/noticias/andres-sufre-una-rotura-de-fibras-en-los-isquiotibiales-del-muslo-izquierdo",
+        "checkedAt": "2026-11-07T06:03:47.662Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-83",
+        "url": "https://www.realracingclub.es/noticias/mantilla-tiene-roto-el-ligamento-cruzado-anterior-de-la-rodilla-derecha1",
+        "checkedAt": "2026-11-07T06:03:49.226Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-84",
+        "url": "https://www.torinofc.it/news#main-content",
+        "checkedAt": "2026-11-07T06:03:49.226Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-85",
+        "url": "https://www.torinofc.it/scuola-calcio",
+        "checkedAt": "2026-11-07T06:03:49.228Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-86",
+        "url": "https://www.torinofc.it/biglietteria/hospitality",
+        "checkedAt": "2026-11-07T06:03:49.230Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-87",
+        "url": "https://www.torinofc.it/stadio/lo-stadio-olimpico-grande-torino",
+        "checkedAt": "2026-11-07T06:03:49.231Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-88",
+        "url": "https://www.torinofc.it/stadio/regolamento-duso",
+        "checkedAt": "2026-11-07T06:03:49.234Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-89",
+        "url": "https://uslecce.it/i-giallorossi-convocati-per-torino-lecce/",
+        "checkedAt": "2026-11-07T06:03:49.235Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-90",
+        "url": "https://uslecce.it/la-conferenza-stampa-di-mister-di-francesco-44/",
+        "checkedAt": "2026-11-07T06:03:49.236Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-91",
+        "url": "https://uslecce.it/domani-la-rifinitura-e-la-partenza-per-torino/",
+        "checkedAt": "2026-11-07T06:03:50.783Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-92",
+        "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+        "checkedAt": "2026-11-07T06:03:50.784Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-93",
+        "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+        "checkedAt": "2026-11-07T06:03:50.785Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-94",
+        "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+        "checkedAt": "2026-11-07T06:03:50.786Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-95",
+        "url": "https://www.frosinonecalcio.com/conferenza-stampa-post-partita-mister-alvini-47/",
+        "checkedAt": "2026-11-07T06:03:50.787Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-96",
+        "url": "https://www.frosinonecalcio.com/conferenza-stampa-post-partita-mister-alvini-46/",
+        "checkedAt": "2026-11-07T06:03:50.788Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-97",
+        "url": "https://www.fcaugsburg.de/en/article/noahkai-banks-suffers-knee-injury-on-international-duty-23518",
+        "checkedAt": "2026-11-07T06:03:50.788Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-98",
+        "url": "https://www.bvb.de/de/de/der-bvb/verantwortung/stiftung/projekte/nordstadtliga-dortmund.html",
+        "checkedAt": "2026-11-07T06:03:50.789Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-99",
+        "url": "https://www.bvb.de/de/de/der-bvb/glossar/bvb-liederbuch/auf-geht-s-dortmund.html",
+        "checkedAt": "2026-11-07T06:03:53.080Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-100",
+        "url": "https://www.bvb.de/de/de/der-bvb/glossar/bvb-liederbuch/ballspielverein-borussia-aus-dortmund.html",
+        "checkedAt": "2026-11-07T06:03:53.081Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-101",
+        "url": "https://sv07elversberg.de/nlz-saar/sportmedizin-und-physiotherapie/",
+        "checkedAt": "2026-11-07T06:03:53.084Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-102",
+        "url": "https://sv07elversberg.de/nlz-saar/kinder-und-jugendschutz/",
+        "checkedAt": "2026-11-07T06:03:53.085Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-103",
+        "url": "https://sv07elversberg.de/teams/frauen/fussballcamp/",
+        "checkedAt": "2026-11-07T06:03:53.086Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-104",
+        "url": "https://sv07elversberg.de/teams/frauen/kinder-und-jugendschutz/",
+        "checkedAt": "2026-11-07T06:03:53.086Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-105",
+        "url": "https://sv07elversberg.de/teams/profis/trainer-und-funktionsteam-profis/",
+        "checkedAt": "2026-11-07T06:03:53.087Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-106",
+        "url": "https://www.mainz05.de/news/vorbericht-bayern-muenchen-zurueck-in-die-spur-finden",
+        "checkedAt": "2026-11-07T06:03:53.089Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-107",
+        "url": "https://www.swanseacity.com/news/birmingham-game-available-stream-unsold-efl-markets-swans-tv-live",
+        "checkedAt": "2026-11-07T06:03:54.092Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-108",
+        "url": "https://www.rcdespanyol.com/en/new/Roberto%20Fern%C3%A1ndez%20called%20up%20for%20Spain/20995",
+        "checkedAt": "2026-11-07T06:03:54.093Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-109",
+        "url": "https://www.rcdespanyol.com/en/new/sarabia-we%E2%80%99re-ready-to-win/21001",
+        "checkedAt": "2026-11-07T06:03:54.094Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-110",
+        "url": "https://www.rcdespanyol.com/en/new/rcd-espanyol-to-hold-training-camp-at-la-garrotxa/20973",
+        "checkedAt": "2026-11-07T06:03:54.095Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-111",
+        "url": "https://www.rcdespanyol.com/en/new/roberto-fernandez-called-up-for-spain/20995",
+        "checkedAt": "2026-11-07T06:03:54.095Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-112",
+        "url": "https://www.rcdespanyol.com/en/new/our-colours-a-story-we-continue-to-write-together/20972",
+        "checkedAt": "2026-11-07T06:03:54.096Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-113",
+        "url": "https://www.rcdeportivo.es/es/noticias/el-depor-visita-al-rcd-espanyol-con-la-preparacion-a-ciegas-por-la-llegada-de-eder-sarabia-al-ba",
+        "checkedAt": "2026-11-07T06:03:54.097Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-114",
+        "url": "https://www.gais.se/nyheter/truppen-till-degerfors-if---gais-7-11",
+        "checkedAt": "2026-11-07T06:03:54.098Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-115",
+        "url": "https://www.osasuna.es/convocatoria-osasunaathletic-2026/27",
+        "checkedAt": "2026-11-07T06:03:56.091Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-116",
+        "url": "https://parisfc.fr/equipe-pro/auxerre-paris-fc-les-infos-supporters-pour-le-deplacement-j10/",
+        "checkedAt": "2026-11-07T06:03:56.092Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-117",
+        "url": "https://parisfc.fr/equipe-pro/auxerre-paris-fc-j10-prenez-part-au-deplacement/",
+        "checkedAt": "2026-11-07T06:03:56.093Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-118",
+        "url": "https://parisfc.fr/equipe-pro/aj-auxerre-paris-fc-coup-denvoi-decale/",
+        "checkedAt": "2026-11-07T06:03:56.094Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-119",
+        "url": "https://www.sassuolocalcio.it/sassuolo-channel-tv/la-conferenza-stampa-di-alberto-aquilani-prima-di-roma-sassuolo/",
+        "checkedAt": "2026-11-07T06:03:56.095Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-120",
+        "url": "https://www.sassuolocalcio.it/prima-squadra/serie-a-enilive-roma-sassuolo-statistiche-e-curiosita/",
+        "checkedAt": "2026-11-07T06:03:56.096Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-121",
+        "url": "https://atletico.com.br/galo-relaciona-14-crias-da-base-para-enfrentar-o-botafogo/",
+        "checkedAt": "2026-11-07T06:03:56.097Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-122",
+        "url": "https://atletico.com.br/servico-de-mobilidade-galo-x-gremio-com-planejamento-da-rua-de-fogo/",
+        "checkedAt": "2026-11-07T06:03:56.098Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-123",
+        "url": "https://atletico.com.br/botafogo-x-atletico-hoje-tem-jogo-do-galo-2/",
+        "checkedAt": "2026-11-07T06:03:59.323Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-124",
+        "url": "https://www.lagalaxy.com/news/match-preview-presented-by-digalert-la-galaxy-at-real-salt-lake-november-7-2026",
+        "checkedAt": "2026-11-07T06:03:59.324Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-125",
+        "url": "https://www.torinofc.it/news/all/news-details",
+        "checkedAt": "2026-11-07T06:03:59.325Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-126",
+        "url": "https://profis.eintracht.de/news/",
+        "checkedAt": "2026-11-07T06:03:59.326Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-127",
+        "url": "https://www.bcfc.com/",
+        "checkedAt": "2026-11-07T06:03:59.326Z",
+        "result": "dynamic_shell_or_empty_text",
+        "error": null
+      },
+      {
+        "id": "source-128",
+        "url": "https://www.parmacalcio1913.com/",
+        "checkedAt": "2026-11-07T06:03:59.327Z",
+        "result": "not_used_for_analysis_navigation_video_or_unreviewed",
+        "error": null
+      },
+      {
+        "id": "source-129",
+        "url": "https://www.bolognafc.it/",
+        "checkedAt": "2026-11-07T06:03:59.328Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-130",
+        "url": "https://www.mancity.com/",
+        "checkedAt": "2026-11-07T06:03:59.329Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-131",
+        "url": "https://www.werder.de/",
+        "checkedAt": "2026-11-07T06:04:04.636Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-132",
+        "url": "https://www.athletic-club.eus/",
+        "checkedAt": "2026-11-07T06:04:04.637Z",
+        "result": "http_failure",
+        "error": null
+      },
+      {
+        "id": "source-133",
+        "url": "https://www.portsmouthfc.co.uk/news/2026/november/06/match-preview--pompey-v-stoke/",
+        "checkedAt": "2026-11-07T06:13:11.914Z",
+        "result": "dynamic_shell_or_empty_text",
+        "error": null
+      },
+      {
+        "id": "source-134",
+        "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+        "checkedAt": "2026-11-07T06:13:11.976Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-135",
+        "url": "https://degerforsif.se/infor-gais-hemma-2/",
+        "checkedAt": "2026-11-07T06:13:11.978Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-136",
+        "url": "https://www.aja.fr/?post_type=post&p=30116",
+        "checkedAt": "2026-11-07T06:13:11.980Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-137",
+        "url": "https://www.scp07.de/Newsarchiv/%22Immer-voll-da-sein%22.html",
+        "checkedAt": "2026-11-07T06:21:29.671Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-138",
+        "url": "https://www.rsl.com/news/rsl-hosts-must-win-matchup-against-storied-rival-la-galaxy-saturday-in-sandy",
+        "checkedAt": "2026-11-07T06:21:29.847Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      },
+      {
+        "id": "source-139",
+        "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+        "checkedAt": "2026-11-07T06:21:29.918Z",
+        "result": "relevant_text_saved_partial_fields_only",
+        "error": null
+      }
+    ],
+    "lastVerifiedAt": "2026-11-07T06:34:16.582Z",
+    "packageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+    "allFieldsVerified": false
+  }
+}
