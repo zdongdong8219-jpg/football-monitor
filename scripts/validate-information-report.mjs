@@ -47,6 +47,13 @@ export function validateInformationReport(report) {
     if(choices.length>1&&choices.every(x=>['胜','平','负'].includes(x))&&row.outcomeRanking.indexOf(choices[0])>row.outcomeRanking.indexOf(choices[1]))throw Error('Direction order mismatch');
   }
   if(report.deliveryStage!=='early'){
+    // A high multiple can come from six ordinary outcomes; it need not force six handicap selections.
+    const ordinaryDreams=scenarios.filter(s=>s.category==='dream6'&&s.construction==='ordinary-sixfold');
+    for(const s of ordinaryDreams){
+      if(s.legs?.length!==6||new Set(s.legs.map(l=>l.number)).size!==6)throw Error('Ordinary dream requires six distinct fixtures');
+      for(const l of s.legs){const row=rows.find(r=>r.number===l.number);if(l.market!=='had'||!['胜','平','负'].includes(l.selection)||l.selection!==row?.primaryPick||!(l.odds>1)||l.selectionReason?.length<20||l.risk?.length<20||l.comparison?.length<20||Date.parse(s.oddsAsOf)>=Date.parse(l.kickoff))throw Error('Ordinary dream evidence or prematch gate failed');}
+      const product=s.legs.reduce((n,l)=>n*l.odds,1);if(Math.abs(product-s.totalOdds)>1e-8||Math.abs(product-s.wholeSetMath?.min)>1e-8||Math.abs(product-s.wholeSetMath?.max)>1e-8)throw Error('Ordinary dream odds arithmetic mismatch');
+    }
     // A documented optional-class rejection is valid; core classes retain their own admission gate.
     for (const category of ['dream6','goals4']) {
       if (scenarios.some(s=>s.category===category)) continue;
@@ -57,7 +64,7 @@ export function validateInformationReport(report) {
       }
       throw Error('Optional scenario missing without documented comparison '+category);
     }
-    for(const [category,count] of [['core20',2],['core30',2],['dream6',6],['goals4',4]]){let s=scenarios.find(x=>x.category===category);if(!s){const withheld=report.ticketClassStatus?.find(x=>x.category===category);if(withheld?.status==='withheld'&&withheld.reason?.length>=20&&report.coreComparison?.[category]?.selected===null&&report.coreComparison?.[category]?.compared?.length>=2)continue;throw Error('Scenario missing without documented rejection '+category);}if(s.legs?.length!==count)throw Error('Scenario size mismatch '+category);for(const leg of s.legs){let row=rows.find(r=>r.number===leg.number);if(!row)throw Error('Unknown scenario match');if(category==='goals4'&&leg.selection!==row.goals)throw Error('Goals scenario order mismatch');if(['core20','core30'].includes(category)&&leg.selection!==row.primaryPick&&!(authorizedCoreNarrowing&&category==='core30'&&leg.number==='周四005')&&!(november6Narrowing&&category==='core30'&&leg.number==='周五003'))throw Error('Main scenario differs from analysis');if(category==='dream6'&&leg.selection!==(frozenRows?.find(r=>r.number===leg.number)||row).speculative)throw Error('High variance scenario differs from analysis');}}
+    for(const [category,count] of [['core20',2],['core30',2],['dream6',6],['goals4',4]]){let s=scenarios.find(x=>x.category===category);if(!s){const withheld=report.ticketClassStatus?.find(x=>x.category===category);if(withheld?.status==='withheld'&&withheld.reason?.length>=20&&report.coreComparison?.[category]?.selected===null&&report.coreComparison?.[category]?.compared?.length>=2)continue;throw Error('Scenario missing without documented rejection '+category);}if(s.legs?.length!==count)throw Error('Scenario size mismatch '+category);for(const leg of s.legs){let row=rows.find(r=>r.number===leg.number);if(!row)throw Error('Unknown scenario match');if(category==='goals4'&&leg.selection!==row.goals)throw Error('Goals scenario order mismatch');if(['core20','core30'].includes(category)&&leg.selection!==row.primaryPick&&!(authorizedCoreNarrowing&&category==='core30'&&leg.number==='周四005')&&!(november6Narrowing&&category==='core30'&&leg.number==='周五003'))throw Error('Main scenario differs from analysis');if(category==='dream6'&&s.construction!=='ordinary-sixfold'&&leg.selection!==(frozenRows?.find(r=>r.number===leg.number)||row).speculative)throw Error('High variance scenario differs from analysis');}}
   }
   return true;
 }
