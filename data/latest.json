@@ -10,8 +10,8 @@
   "batchLabel": "11月7日产品补齐R4 · 主推与博分层",
   "batchFinal": true,
   "finalLocked": true,
-  "mobileVerified": false,
-  "completed": false,
+  "mobileVerified": true,
+  "completed": true,
   "earlyCompleted": true,
   "earlyMobileVerified": true,
   "researchComplete": false,
@@ -15124,12 +15124,12 @@
   "ticketClassStatus": [
     {
       "category": "core20",
-      "status": "prepared",
+      "status": "published",
       "reason": "两组实际1.9205和1.8125，单腿先审，普通选项不缩窄。"
     },
     {
       "category": "core30",
-      "status": "prepared",
+      "status": "published",
       "reason": "保留2.9435复核；3.3901逐腿成立但叠加平局反证与重复核心，作为具体备选而不加票。"
     },
     {
@@ -19659,7 +19659,7 @@
     "2026-11-07-early-tracking.png": "dd3faf078a1bd11b0066d8f538419f961402790ab8f218f9387eca8c977efe72"
   },
   "deliveryManifest": "data/research/2026-11-07/approved-four-image-manifest.json",
-  "onlineVerifiedAt": "2026-11-07T07:25:31.670Z",
+  "onlineVerifiedAt": "2026-11-07T07:46:11.420Z",
   "verificationScope": "430px browser emulation and actual clipboard PNG pixel hashes; not physical handset",
   "supplement": {
     "id": "2026-11-07-early-core20-s1",
@@ -19676,7 +19676,7 @@
     "mobileVerified": true,
     "verificationScope": "430px browser emulation; four real clicks; clipboard PNG decoded pixel hashes"
   },
-  "updatedAt": "2026-11-07T07:44:15.849Z",
+  "updatedAt": "2026-11-07T07:46:11.420Z",
   "admissionIncident": {
     "id": "2026-11-07-early-admission-failure",
     "recordedAt": "2026-11-07T04:53:49.054Z",
@@ -20441,9 +20441,11 @@
   "rulesVersion": "2026-10-12",
   "finalPublication": {
     "publishedAt": "2026-11-07T07:44:15.849Z",
-    "status": "submitted",
+    "status": "published_verified",
     "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
-    "qualificationCheckedAt": "2026-11-07T07:44:15.849Z"
+    "qualificationCheckedAt": "2026-11-07T07:44:15.849Z",
+    "onlineVerifiedAt": "2026-11-07T07:46:11.420Z",
+    "contentCommit": "d737a01cd85747ed84106258f6a707e59fb92b02"
   },
   "coreComparison": {
     "core20": {
@@ -20727,7 +20729,7 @@
   "revision": {
     "id": "2026-11-07-product-r4",
     "publishedAt": "2026-11-07T07:44:15.849Z",
-    "status": "submitted",
+    "status": "published_verified",
     "supersededTicketIds": [
       "2026-11-07-evening-r3-rank1",
       "2026-11-07-evening-r3-rank2",
@@ -20738,7 +20740,9 @@
       "2026-11-07-extra-core30-s1"
     ],
     "reason": "全层产品补齐：星级、逐场博、两组2.0两组3.0、梦想单与独立跟踪；所有旧版本不变",
-    "qualificationCheckedAt": "2026-11-07T07:44:15.849Z"
+    "qualificationCheckedAt": "2026-11-07T07:44:15.849Z",
+    "onlineVerifiedAt": "2026-11-07T07:46:11.420Z",
+    "contentCommit": "d737a01cd85747ed84106258f6a707e59fb92b02"
   },
   "trackingDisplayPairs": [
     [
