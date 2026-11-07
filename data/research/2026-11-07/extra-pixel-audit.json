@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "images": {
+    "scan": {
+      "source": "public\\cards\\2026-11-07-final-s1-scan.png",
+      "sourceSha256": "33ed0c4e161cb43b404aeee8191af64905f01fb15c29f5adb9acda447f8ab6ff",
+      "resultSha256": "e7e20b723703a5f4363261ef63cd591ace91506eb9ddc54b314574c094b83822",
+      "size": [
+        1244,
+        3272
+      ],
+      "masks": [
+        [
+          106,
+          620,
+          962,
+          148
+        ],
+        [
+          106,
+          772,
+          962,
+          155
+        ],
+        [
+          1063,
+          608,
+          135,
+          75
+        ],
+        [
+          360,
+          258,
+          620,
+          39
+        ],
+        [
+          360,
+          410,
+          620,
+          39
+        ],
+        [
+          95,
+          212,
+          1055,
+          28
+        ]
+      ],
+      "changedPixels": 311812,
+      "outsideAllowedPixels": 0
+    },
+    "tracking": {
+      "source": "public\\cards\\2026-11-07-final-s1-tracking.png",
+      "sourceSha256": "134abc5a370d4e3a36c1e1abe2e9008284480cff96050da2c95dd4112ae4ce2b",
+      "resultSha256": "fed06a3f45b6d2ebd96a403c6c11a21b14a1b9328905745cd2dabcb8577833dd",
+      "size": [
+        1244,
+        3134
+      ],
+      "masks": [
+        [
+          36,
+          3004,
+          1172,
+          110
+        ]
+      ],
+      "changedPixels": 108264,
+      "outsideAllowedPixels": 0
+    }
+  },
+  "method": "Original accepted PNG copy, local masks only, unchanged dimensions and exact outside-mask pixels"
+}

@@ -7,11 +7,11 @@
   "publishedAt": "2026-11-06T23:54:38.137Z",
   "edition": "final",
   "deliveryStage": "final",
-  "batchLabel": "11月7日中晚25场终版 · 早场另存历史",
+  "batchLabel": "中晚25场 · 两张原票＋两张补单",
   "batchFinal": true,
   "finalLocked": true,
-  "mobileVerified": true,
-  "completed": true,
+  "mobileVerified": false,
+  "completed": false,
   "earlyCompleted": true,
   "earlyMobileVerified": true,
   "researchComplete": false,
@@ -11455,6 +11455,754 @@
       "totalLegs": 2,
       "hitCount": 0,
       "hit": null
+    },
+    {
+      "id": "2026-11-07-extra-core20-s1",
+      "date": "2026-11-07",
+      "category": "core20",
+      "name": "2.0版2串1",
+      "sessionLabel": "中晚补单",
+      "publishedAt": "2026-11-07T06:53:36.184Z",
+      "status": "待定",
+      "stars": 0,
+      "starColor": "none",
+      "starReason": "普通胜负有相对依据，但短休、持续对方进球及共用腿风险限制评级，不因追加要求升星。",
+      "legs": [
+        {
+          "number": "周六011",
+          "officialMatchId": 2042592,
+          "teams": "莱红牛 : 奥格斯堡",
+          "kickoff": "2026-11-07T22:30:00+08:00",
+          "market": "had",
+          "selection": "胜",
+          "handicap": -1,
+          "odds": 1.25,
+          "options": [
+            {
+              "selection": "胜",
+              "odds": 1.25
+            }
+          ],
+          "selectionReason": "011边路一对一与快速转换能攻击客队三名中卫缺席后的重组防线，且联赛主场4胜；017近10场2.1进0.9失并面对中后场减员。普通胜容纳小胜。前次仅因单组取舍留作替代，不是质量准入失败，本次按多组授权独立登记。",
+          "qualification": {
+            "status": "Selling",
+            "allUp": 1,
+            "bettingAllup": 1,
+            "cbtAllUp": 1,
+            "checkedAt": "2026-11-07T06:46:50.003Z"
+          },
+          "coreAdmission": {
+            "approved": true,
+            "assessedAt": "2026-11-07T06:49:58.055Z",
+            "admittedAt": "2026-11-07T06:49:58.055Z",
+            "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+            "evidence": {
+              "lineupAndReplacements": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "奥格斯堡11月5日官方赛前正文确认：前锋Steve Mounié，以及中卫Juma Bah（停赛）、Calvin Brackelmann（头部伤）、Noahkai Banks（膝韧带伤）缺席，其余人员可选。取代三名中卫的具体组合及莱比锡本场名单未知。此前仅用10月4日伤情无法确认Banks本场缺席的问题，已由最新正文补足。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "tacticalMatchup": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "奥格斯堡主帅明确称莱比锡边路一对一及夺回球权后的快速转换很强，要求己方后防稳定、攻防勇敢。这支持莱比锡攻击客队重组防线的路径，但属于对手评价和预期对位，并非本场已实现。主队轮换质量仅有对手教练评价，缺实际首发验证。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "chanceQuality": {
+                "complete": false,
+                "basis": "unknown",
+                "assessment": "进球、零封和未进球属于结果数据，不是xG或大机会；除明确引用官方过程外，射门位置、禁区触球与机会质量未知。主2至3、客1至2定性范围；主-1让胜有主场产量路径，但对手进球和短休压低可信度，普通胜为主而不单押让平。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "scheduleFitness": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "原始统计正文与奥格斯堡官方预告一致：莱比锡11月4日欧冠2:3曼城；1:4皇马发生于10月21日，不是上一场。主队相较10月31日出赛的奥格斯堡短休。具体分钟负荷与轮换质量未知；对手主帅称其阵容深度好，不能把短休直接等同实力大幅下降。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "marketMovement": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "12:43观察→14:13官方快照（不是最初开盘）：普通 1.27/5.40/6.00 → 1.25/5.60/6.20；让球 1.82/4.08/2.90 → 1.78/4.10/3.00。变化原因未知，不认定诱盘、资金流或独立价值。；本次HAD报价：1.25/5.60/6.20，不由变价反推伤停。",
+                "sources": [
+                  {
+                    "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+                    "checkedAt": "2026-11-07T06:46:50.003Z"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "support": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "莱比锡联赛主场4战全胜、近10主场9胜；奥格斯堡近10场2.4球和0次未进球，进攻并不弱。莱比锡大负拜仁/皇马需强度校正，不能单用失球否定主胜。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "counterEvidence": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              }
+            }
+          }
+        },
+        {
+          "number": "周六017",
+          "officialMatchId": 2042598,
+          "teams": "伯明翰 : 斯旺西",
+          "kickoff": "2026-11-07T23:00:00+08:00",
+          "market": "had",
+          "selection": "胜",
+          "handicap": -1,
+          "odds": 1.67,
+          "options": [
+            {
+              "selection": "胜",
+              "odds": 1.67
+            }
+          ],
+          "selectionReason": "011边路一对一与快速转换能攻击客队三名中卫缺席后的重组防线，且联赛主场4胜；017近10场2.1进0.9失并面对中后场减员。普通胜容纳小胜。前次仅因单组取舍留作替代，不是质量准入失败，本次按多组授权独立登记。",
+          "qualification": {
+            "status": "Selling",
+            "allUp": 1,
+            "bettingAllup": 1,
+            "cbtAllUp": 1,
+            "checkedAt": "2026-11-07T06:46:50.003Z"
+          },
+          "coreAdmission": {
+            "approved": true,
+            "assessedAt": "2026-11-07T06:49:58.055Z",
+            "admittedAt": "2026-11-07T06:49:58.055Z",
+            "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+            "evidence": {
+              "lineupAndReplacements": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "斯旺西官方：Widell腿筋一级伤缺；Burgess、Ronald、Eustaquio缺席；Welsh扫描无大碍但仍待评估，Eom与Yeo两翼恢复可用。伯明翰名单未知，不能称其齐整。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54490384",
+                    "checkedAt": "2026-11-07T05:22:13.959Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                    "checkedAt": "2026-11-07T06:13:11.976Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "tacticalMatchup": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "预测主队持续产量可利用客队中场与后场可用性下降；但恢复的Eom/Yeo能牵制边路、惩罚主队前压，必须保留客队进球路径。具体阵型数字与压迫位置没有证据，不把名单缺口泛化成所有区域崩溃。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54490384",
+                    "checkedAt": "2026-11-07T05:22:13.959Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                    "checkedAt": "2026-11-07T06:13:11.976Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "chanceQuality": {
+                "complete": false,
+                "basis": "unknown",
+                "assessment": "进球、零封和未进球属于结果数据，不是xG或大机会；除明确引用官方过程外，射门位置、禁区触球与机会质量未知。主1至3、客0至2；进攻与防守多个窗口共同偏主，仍不要求零封。主-1让胜需2+，客翼威胁不利穿盘；让平没有独立集中依据，普通胜优先。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54490384",
+                    "checkedAt": "2026-11-07T05:22:13.959Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                    "checkedAt": "2026-11-07T06:13:11.976Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "scheduleFitness": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "双方11月3日出赛，恢复接近；客队连续客场有旅行但负荷未量化。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54490384",
+                    "checkedAt": "2026-11-07T05:22:13.959Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                    "checkedAt": "2026-11-07T06:13:11.976Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "marketMovement": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "12:43观察→14:13官方快照（不是最初开盘）：普通 1.73/3.35/3.80 → 1.67/3.45/3.98；让球 3.25/3.48/1.84 → 3.15/3.45/1.88。变化原因未知，不认定诱盘、资金流或独立价值。；本次HAD报价：1.67/3.45/3.98，不由变价反推伤停。",
+                "sources": [
+                  {
+                    "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+                    "checkedAt": "2026-11-07T06:46:50.003Z"
+                  }
+                ],
+                "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "support": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "伯明翰近10场2.1进0.9失、近5场4胜，近期3:0米尔沃尔、3:1林肯、3:0女王公园；斯旺西1.4进1.5失、近5场3负。双方同26分，不能用积分制造悬殊。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54490384",
+                    "checkedAt": "2026-11-07T05:22:13.959Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                    "checkedAt": "2026-11-07T06:13:11.976Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "counterEvidence": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54490384",
+                    "checkedAt": "2026-11-07T05:22:13.959Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                    "checkedAt": "2026-11-07T06:13:11.976Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              }
+            }
+          }
+        }
+      ],
+      "selectionText": "011[胜] × 017[胜]",
+      "oddsAsOf": "2026-11-07T06:46:50.003Z",
+      "oddsText": "实际条件倍数2.0875（含本金）",
+      "cardNote": "011短休且奥格斯堡持续进球；017主场3胜4平、斯旺西两翼回归。共享017会与原2.0一起失手。 两场均中才返还，任一失手为0。",
+      "wholeSetMath": {
+        "branchCount": 1,
+        "branches": [
+          {
+            "selection": [
+              "胜",
+              "胜"
+            ],
+            "product": 2.0875,
+            "weight": 1,
+            "wholeSetMultiple": 2.0875
+          }
+        ],
+        "min": 2.0875,
+        "max": 2.0875,
+        "otherOutcomesMultiple": 0,
+        "formula": "两腿赔率直接相乘，不是胜率或期望收益"
+      },
+      "infoOnly": true,
+      "totalLegs": 2,
+      "hit": null,
+      "hitCount": 0
+    },
+    {
+      "id": "2026-11-07-extra-core30-s1",
+      "date": "2026-11-07",
+      "category": "core30",
+      "name": "3.0版2串1",
+      "sessionLabel": "中晚补单",
+      "publishedAt": "2026-11-07T06:53:36.184Z",
+      "status": "待定",
+      "stars": 0,
+      "starColor": "none",
+      "starReason": "普通胜负有相对依据，但短休、持续对方进球及共用腿风险限制评级，不因追加要求升星。",
+      "legs": [
+        {
+          "number": "周六010",
+          "officialMatchId": 2042591,
+          "teams": "卡利亚里 : 弗洛西诺",
+          "kickoff": "2026-11-07T22:00:00+08:00",
+          "market": "had",
+          "selection": "负",
+          "handicap": 1,
+          "odds": 2.03,
+          "options": [
+            {
+              "selection": "负",
+              "odds": 2.03
+            }
+          ],
+          "selectionReason": "010边锋对卡利亚里未定左侧及明确缺员有赛前官方对位依据；011有独立防线减员和边路转换依据。双方皆只要求普通胜，不用客净胜或主净胜抬倍数。已有3.0的023对手更低产，但缺双边名单；011材料更具体，可作为另一个有条件合格组合而非覆盖原票。",
+          "qualification": {
+            "status": "Selling",
+            "allUp": 1,
+            "bettingAllup": 1,
+            "cbtAllUp": 1,
+            "checkedAt": "2026-11-07T06:46:50.003Z"
+          },
+          "coreAdmission": {
+            "approved": true,
+            "assessedAt": "2026-11-07T06:49:58.055Z",
+            "admittedAt": "2026-11-07T06:49:58.055Z",
+            "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+            "evidence": {
+              "lineupAndReplacements": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "卡利亚里Fadera、Nzola、Mina、Aurelio伤缺，Obert停赛兼膝部问题，Idrissi、Felici亦缺；Winks恢复，Trepy/Sugamele可能出场，左侧人选未定。弗洛西诺24人名单含Ghedjemis、Kvernadze、Schmid、Birligea；Raimondo未入选，不能称锋线齐整。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54470904",
+                    "checkedAt": "2026-11-07T05:22:13.366Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                    "checkedAt": "2026-11-07T06:03:50.784Z",
+                    "publishedAt": "2026-11-06T18:16:55+00:00"
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                    "checkedAt": "2026-11-07T06:03:50.785Z",
+                    "publishedAt": "2026-11-06T12:24:02+00:00"
+                  },
+                  {
+                    "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                    "checkedAt": "2026-11-07T06:03:50.786Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "tacticalMatchup": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "卡利亚里教练明确对手全场人盯人、边锋重要，同时也会留空间。预测Ghedjemis/Kvernadze攻击尚未稳定的主队边路，盯人限制主队出球；反面是Winks回归、Trepy纵深跑动可绕过盯人，客队回防和中卫被拉开是失手机制。阵型数字未确认。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54470904",
+                    "checkedAt": "2026-11-07T05:22:13.366Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                    "checkedAt": "2026-11-07T06:03:50.784Z",
+                    "publishedAt": "2026-11-06T18:16:55+00:00"
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                    "checkedAt": "2026-11-07T06:03:50.785Z",
+                    "publishedAt": "2026-11-06T12:24:02+00:00"
+                  },
+                  {
+                    "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                    "checkedAt": "2026-11-07T06:03:50.786Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "chanceQuality": {
+                "complete": false,
+                "basis": "unknown",
+                "assessment": "进球、零封和未进球属于结果数据，不是xG或大机会；除明确引用官方过程外，射门位置、禁区触球与机会质量未知。主0至2、客1至3，客胜相对领先而非零封必然；主+1让平需客恰赢1、让负需客2+，两者都比普通负窄，不为倍率强行升级。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54470904",
+                    "checkedAt": "2026-11-07T05:22:13.366Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                    "checkedAt": "2026-11-07T06:03:50.784Z",
+                    "publishedAt": "2026-11-06T18:16:55+00:00"
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                    "checkedAt": "2026-11-07T06:03:50.785Z",
+                    "publishedAt": "2026-11-06T12:24:02+00:00"
+                  },
+                  {
+                    "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                    "checkedAt": "2026-11-07T06:03:50.786Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "scheduleFitness": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "双方11月1日比赛，恢复间隔基本相当；主队频繁人员替换更影响协同，不能等同纯体能差。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54470904",
+                    "checkedAt": "2026-11-07T05:22:13.366Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                    "checkedAt": "2026-11-07T06:03:50.784Z",
+                    "publishedAt": "2026-11-06T18:16:55+00:00"
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                    "checkedAt": "2026-11-07T06:03:50.785Z",
+                    "publishedAt": "2026-11-06T12:24:02+00:00"
+                  },
+                  {
+                    "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                    "checkedAt": "2026-11-07T06:03:50.786Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "marketMovement": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "12:43观察→14:13官方快照（不是最初开盘）：普通 2.50/3.65/2.15 → 2.66/3.70/2.03；让球 1.50/4.20/4.26 → 1.56/4.05/3.98。变化原因未知，不认定诱盘、资金流或独立价值。；本次HAD报价：2.66/3.70/2.03，不由变价反推伤停。",
+                "sources": [
+                  {
+                    "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+                    "checkedAt": "2026-11-07T06:46:50.003Z"
+                  }
+                ],
+                "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "support": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "弗洛西诺近10场2.5进1.4失、6胜3平1负；卡利亚里0.9进1.7失且四连败。强攻有5:1莱切、4:2萨索洛的弱防成分，但4:4亚特兰大说明能对更强对手制造威胁。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54470904",
+                    "checkedAt": "2026-11-07T05:22:13.366Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                    "checkedAt": "2026-11-07T06:03:50.784Z",
+                    "publishedAt": "2026-11-06T18:16:55+00:00"
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                    "checkedAt": "2026-11-07T06:03:50.785Z",
+                    "publishedAt": "2026-11-06T12:24:02+00:00"
+                  },
+                  {
+                    "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                    "checkedAt": "2026-11-07T06:03:50.786Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "counterEvidence": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54470904",
+                    "checkedAt": "2026-11-07T05:22:13.366Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                    "checkedAt": "2026-11-07T06:03:50.784Z",
+                    "publishedAt": "2026-11-06T18:16:55+00:00"
+                  },
+                  {
+                    "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                    "checkedAt": "2026-11-07T06:03:50.785Z",
+                    "publishedAt": "2026-11-06T12:24:02+00:00"
+                  },
+                  {
+                    "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                    "checkedAt": "2026-11-07T06:03:50.786Z",
+                    "publishedAt": null
+                  }
+                ],
+                "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              }
+            }
+          }
+        },
+        {
+          "number": "周六011",
+          "officialMatchId": 2042592,
+          "teams": "莱红牛 : 奥格斯堡",
+          "kickoff": "2026-11-07T22:30:00+08:00",
+          "market": "had",
+          "selection": "胜",
+          "handicap": -1,
+          "odds": 1.25,
+          "options": [
+            {
+              "selection": "胜",
+              "odds": 1.25
+            }
+          ],
+          "selectionReason": "010边锋对卡利亚里未定左侧及明确缺员有赛前官方对位依据；011有独立防线减员和边路转换依据。双方皆只要求普通胜，不用客净胜或主净胜抬倍数。已有3.0的023对手更低产，但缺双边名单；011材料更具体，可作为另一个有条件合格组合而非覆盖原票。",
+          "qualification": {
+            "status": "Selling",
+            "allUp": 1,
+            "bettingAllup": 1,
+            "cbtAllUp": 1,
+            "checkedAt": "2026-11-07T06:46:50.003Z"
+          },
+          "coreAdmission": {
+            "approved": true,
+            "assessedAt": "2026-11-07T06:49:58.055Z",
+            "admittedAt": "2026-11-07T06:49:58.055Z",
+            "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+            "evidence": {
+              "lineupAndReplacements": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "奥格斯堡11月5日官方赛前正文确认：前锋Steve Mounié，以及中卫Juma Bah（停赛）、Calvin Brackelmann（头部伤）、Noahkai Banks（膝韧带伤）缺席，其余人员可选。取代三名中卫的具体组合及莱比锡本场名单未知。此前仅用10月4日伤情无法确认Banks本场缺席的问题，已由最新正文补足。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "tacticalMatchup": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "奥格斯堡主帅明确称莱比锡边路一对一及夺回球权后的快速转换很强，要求己方后防稳定、攻防勇敢。这支持莱比锡攻击客队重组防线的路径，但属于对手评价和预期对位，并非本场已实现。主队轮换质量仅有对手教练评价，缺实际首发验证。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "chanceQuality": {
+                "complete": false,
+                "basis": "unknown",
+                "assessment": "进球、零封和未进球属于结果数据，不是xG或大机会；除明确引用官方过程外，射门位置、禁区触球与机会质量未知。主2至3、客1至2定性范围；主-1让胜有主场产量路径，但对手进球和短休压低可信度，普通胜为主而不单押让平。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "scheduleFitness": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "原始统计正文与奥格斯堡官方预告一致：莱比锡11月4日欧冠2:3曼城；1:4皇马发生于10月21日，不是上一场。主队相较10月31日出赛的奥格斯堡短休。具体分钟负荷与轮换质量未知；对手主帅称其阵容深度好，不能把短休直接等同实力大幅下降。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "marketMovement": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "12:43观察→14:13官方快照（不是最初开盘）：普通 1.27/5.40/6.00 → 1.25/5.60/6.20；让球 1.82/4.08/2.90 → 1.78/4.10/3.00。变化原因未知，不认定诱盘、资金流或独立价值。；本次HAD报价：1.25/5.60/6.20，不由变价反推伤停。",
+                "sources": [
+                  {
+                    "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+                    "checkedAt": "2026-11-07T06:46:50.003Z"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "support": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "莱比锡联赛主场4战全胜、近10主场9胜；奥格斯堡近10场2.4球和0次未进球，进攻并不弱。莱比锡大负拜仁/皇马需强度校正，不能单用失球否定主胜。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              },
+              "counterEvidence": {
+                "complete": false,
+                "basis": "prediction",
+                "assessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。",
+                "sources": [
+                  {
+                    "url": "https://m.dongqiudi.com/en/preview/54494591",
+                    "checkedAt": "2026-11-07T05:22:13.744Z",
+                    "publishedAt": null
+                  },
+                  {
+                    "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                    "checkedAt": "2026-11-07T06:21:29.918Z",
+                    "publishedAt": "2026-11-05T14:30:15+01:00"
+                  }
+                ],
+                "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+              }
+            }
+          }
+        }
+      ],
+      "selectionText": "010[负] × 011[胜]",
+      "oddsAsOf": "2026-11-07T06:46:50.003Z",
+      "oddsText": "实际条件倍数2.5375（含本金）",
+      "cardNote": "010客场5/10平局；011短休和客队连续进球。共享010会与原3.0一起失败，两张补单共享011。 两场均中才返还，任一失手为0。",
+      "wholeSetMath": {
+        "branchCount": 1,
+        "branches": [
+          {
+            "selection": [
+              "负",
+              "胜"
+            ],
+            "product": 2.5374999999999996,
+            "weight": 1,
+            "wholeSetMultiple": 2.5374999999999996
+          }
+        ],
+        "min": 2.5374999999999996,
+        "max": 2.5374999999999996,
+        "otherOutcomesMultiple": 0,
+        "formula": "两腿赔率直接相乘，不是胜率或期望收益"
+      },
+      "infoOnly": true,
+      "totalLegs": 2,
+      "hit": null,
+      "hitCount": 0
     }
   ],
   "scenarioLabels": {
@@ -12464,6 +13212,362 @@
             1.9204999999999999
           ]
         }
+      },
+      {
+        "id": "2026-11-07-extra-core20-s1",
+        "date": "2026-11-07",
+        "category": "core20",
+        "name": "2.0版2串1",
+        "sessionLabel": "中晚补单",
+        "publishedAt": "2026-11-07T06:53:36.184Z",
+        "status": "待定",
+        "stars": 0,
+        "starColor": "none",
+        "starReason": "普通胜负有相对依据，但短休、持续对方进球及共用腿风险限制评级，不因追加要求升星。",
+        "legs": [
+          {
+            "number": "周六011",
+            "officialMatchId": 2042592,
+            "teams": "莱红牛 : 奥格斯堡",
+            "kickoff": "2026-11-07T22:30:00+08:00",
+            "market": "had",
+            "selection": "胜",
+            "handicap": -1,
+            "odds": 1.25,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.25
+              }
+            ],
+            "selectionReason": "011边路一对一与快速转换能攻击客队三名中卫缺席后的重组防线，且联赛主场4胜；017近10场2.1进0.9失并面对中后场减员。普通胜容纳小胜。前次仅因单组取舍留作替代，不是质量准入失败，本次按多组授权独立登记。",
+            "qualification": {
+              "status": "Selling",
+              "allUp": 1,
+              "bettingAllup": 1,
+              "cbtAllUp": 1,
+              "checkedAt": "2026-11-07T06:46:50.003Z"
+            },
+            "coreAdmission": {
+              "approved": true,
+              "assessedAt": "2026-11-07T06:49:58.055Z",
+              "admittedAt": "2026-11-07T06:49:58.055Z",
+              "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+              "evidence": {
+                "lineupAndReplacements": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "奥格斯堡11月5日官方赛前正文确认：前锋Steve Mounié，以及中卫Juma Bah（停赛）、Calvin Brackelmann（头部伤）、Noahkai Banks（膝韧带伤）缺席，其余人员可选。取代三名中卫的具体组合及莱比锡本场名单未知。此前仅用10月4日伤情无法确认Banks本场缺席的问题，已由最新正文补足。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "tacticalMatchup": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "奥格斯堡主帅明确称莱比锡边路一对一及夺回球权后的快速转换很强，要求己方后防稳定、攻防勇敢。这支持莱比锡攻击客队重组防线的路径，但属于对手评价和预期对位，并非本场已实现。主队轮换质量仅有对手教练评价，缺实际首发验证。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "chanceQuality": {
+                  "complete": false,
+                  "basis": "unknown",
+                  "assessment": "进球、零封和未进球属于结果数据，不是xG或大机会；除明确引用官方过程外，射门位置、禁区触球与机会质量未知。主2至3、客1至2定性范围；主-1让胜有主场产量路径，但对手进球和短休压低可信度，普通胜为主而不单押让平。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "scheduleFitness": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "原始统计正文与奥格斯堡官方预告一致：莱比锡11月4日欧冠2:3曼城；1:4皇马发生于10月21日，不是上一场。主队相较10月31日出赛的奥格斯堡短休。具体分钟负荷与轮换质量未知；对手主帅称其阵容深度好，不能把短休直接等同实力大幅下降。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "marketMovement": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "12:43观察→14:13官方快照（不是最初开盘）：普通 1.27/5.40/6.00 → 1.25/5.60/6.20；让球 1.82/4.08/2.90 → 1.78/4.10/3.00。变化原因未知，不认定诱盘、资金流或独立价值。；本次HAD报价：1.25/5.60/6.20，不由变价反推伤停。",
+                  "sources": [
+                    {
+                      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+                      "checkedAt": "2026-11-07T06:46:50.003Z"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "support": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "莱比锡联赛主场4战全胜、近10主场9胜；奥格斯堡近10场2.4球和0次未进球，进攻并不弱。莱比锡大负拜仁/皇马需强度校正，不能单用失球否定主胜。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "counterEvidence": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                }
+              }
+            }
+          },
+          {
+            "number": "周六017",
+            "officialMatchId": 2042598,
+            "teams": "伯明翰 : 斯旺西",
+            "kickoff": "2026-11-07T23:00:00+08:00",
+            "market": "had",
+            "selection": "胜",
+            "handicap": -1,
+            "odds": 1.67,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.67
+              }
+            ],
+            "selectionReason": "011边路一对一与快速转换能攻击客队三名中卫缺席后的重组防线，且联赛主场4胜；017近10场2.1进0.9失并面对中后场减员。普通胜容纳小胜。前次仅因单组取舍留作替代，不是质量准入失败，本次按多组授权独立登记。",
+            "qualification": {
+              "status": "Selling",
+              "allUp": 1,
+              "bettingAllup": 1,
+              "cbtAllUp": 1,
+              "checkedAt": "2026-11-07T06:46:50.003Z"
+            },
+            "coreAdmission": {
+              "approved": true,
+              "assessedAt": "2026-11-07T06:49:58.055Z",
+              "admittedAt": "2026-11-07T06:49:58.055Z",
+              "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+              "evidence": {
+                "lineupAndReplacements": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "斯旺西官方：Widell腿筋一级伤缺；Burgess、Ronald、Eustaquio缺席；Welsh扫描无大碍但仍待评估，Eom与Yeo两翼恢复可用。伯明翰名单未知，不能称其齐整。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54490384",
+                      "checkedAt": "2026-11-07T05:22:13.959Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                      "checkedAt": "2026-11-07T06:13:11.976Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "tacticalMatchup": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "预测主队持续产量可利用客队中场与后场可用性下降；但恢复的Eom/Yeo能牵制边路、惩罚主队前压，必须保留客队进球路径。具体阵型数字与压迫位置没有证据，不把名单缺口泛化成所有区域崩溃。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54490384",
+                      "checkedAt": "2026-11-07T05:22:13.959Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                      "checkedAt": "2026-11-07T06:13:11.976Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "chanceQuality": {
+                  "complete": false,
+                  "basis": "unknown",
+                  "assessment": "进球、零封和未进球属于结果数据，不是xG或大机会；除明确引用官方过程外，射门位置、禁区触球与机会质量未知。主1至3、客0至2；进攻与防守多个窗口共同偏主，仍不要求零封。主-1让胜需2+，客翼威胁不利穿盘；让平没有独立集中依据，普通胜优先。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54490384",
+                      "checkedAt": "2026-11-07T05:22:13.959Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                      "checkedAt": "2026-11-07T06:13:11.976Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "scheduleFitness": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "双方11月3日出赛，恢复接近；客队连续客场有旅行但负荷未量化。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54490384",
+                      "checkedAt": "2026-11-07T05:22:13.959Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                      "checkedAt": "2026-11-07T06:13:11.976Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "marketMovement": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "12:43观察→14:13官方快照（不是最初开盘）：普通 1.73/3.35/3.80 → 1.67/3.45/3.98；让球 3.25/3.48/1.84 → 3.15/3.45/1.88。变化原因未知，不认定诱盘、资金流或独立价值。；本次HAD报价：1.67/3.45/3.98，不由变价反推伤停。",
+                  "sources": [
+                    {
+                      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+                      "checkedAt": "2026-11-07T06:46:50.003Z"
+                    }
+                  ],
+                  "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "support": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "伯明翰近10场2.1进0.9失、近5场4胜，近期3:0米尔沃尔、3:1林肯、3:0女王公园；斯旺西1.4进1.5失、近5场3负。双方同26分，不能用积分制造悬殊。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54490384",
+                      "checkedAt": "2026-11-07T05:22:13.959Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                      "checkedAt": "2026-11-07T06:13:11.976Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "counterEvidence": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54490384",
+                      "checkedAt": "2026-11-07T05:22:13.959Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.swanseacity.com/news/moussa-yeo-and-jisung-eom-return-birmingham-city-swansea-city-get-stephen-welsh-injury-boost",
+                      "checkedAt": "2026-11-07T06:13:11.976Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "伯明翰联赛主场3胜4平，单胜有明确平局风险；斯旺西近10客场6胜，两翼回归可改善转换。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                }
+              }
+            }
+          }
+        ],
+        "selectionText": "011[胜] × 017[胜]",
+        "oddsAsOf": "2026-11-07T06:46:50.003Z",
+        "oddsText": "实际条件倍数2.0875（含本金）",
+        "cardNote": "011短休且奥格斯堡持续进球；017主场3胜4平、斯旺西两翼回归。共享017会与原2.0一起失手。 两场均中才返还，任一失手为0。",
+        "wholeSetMath": {
+          "branchCount": 1,
+          "branches": [
+            {
+              "selection": [
+                "胜",
+                "胜"
+              ],
+              "product": 2.0875,
+              "weight": 1,
+              "wholeSetMultiple": 2.0875
+            }
+          ],
+          "min": 2.0875,
+          "max": 2.0875,
+          "otherOutcomesMultiple": 0,
+          "formula": "两腿赔率直接相乘，不是胜率或期望收益"
+        },
+        "infoOnly": true,
+        "totalLegs": 2,
+        "hit": null,
+        "hitCount": 0,
+        "simulation": true,
+        "stake": 1000,
+        "returned": null,
+        "net": null,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "status": "待定",
+          "wholeSetMultiples": [
+            2.0875
+          ]
+        }
       }
     ],
     "three": [
@@ -13382,6 +14486,422 @@
             2.9435
           ]
         }
+      },
+      {
+        "id": "2026-11-07-extra-core30-s1",
+        "date": "2026-11-07",
+        "category": "core30",
+        "name": "3.0版2串1",
+        "sessionLabel": "中晚补单",
+        "publishedAt": "2026-11-07T06:53:36.184Z",
+        "status": "待定",
+        "stars": 0,
+        "starColor": "none",
+        "starReason": "普通胜负有相对依据，但短休、持续对方进球及共用腿风险限制评级，不因追加要求升星。",
+        "legs": [
+          {
+            "number": "周六010",
+            "officialMatchId": 2042591,
+            "teams": "卡利亚里 : 弗洛西诺",
+            "kickoff": "2026-11-07T22:00:00+08:00",
+            "market": "had",
+            "selection": "负",
+            "handicap": 1,
+            "odds": 2.03,
+            "options": [
+              {
+                "selection": "负",
+                "odds": 2.03
+              }
+            ],
+            "selectionReason": "010边锋对卡利亚里未定左侧及明确缺员有赛前官方对位依据；011有独立防线减员和边路转换依据。双方皆只要求普通胜，不用客净胜或主净胜抬倍数。已有3.0的023对手更低产，但缺双边名单；011材料更具体，可作为另一个有条件合格组合而非覆盖原票。",
+            "qualification": {
+              "status": "Selling",
+              "allUp": 1,
+              "bettingAllup": 1,
+              "cbtAllUp": 1,
+              "checkedAt": "2026-11-07T06:46:50.003Z"
+            },
+            "coreAdmission": {
+              "approved": true,
+              "assessedAt": "2026-11-07T06:49:58.055Z",
+              "admittedAt": "2026-11-07T06:49:58.055Z",
+              "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+              "evidence": {
+                "lineupAndReplacements": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "卡利亚里Fadera、Nzola、Mina、Aurelio伤缺，Obert停赛兼膝部问题，Idrissi、Felici亦缺；Winks恢复，Trepy/Sugamele可能出场，左侧人选未定。弗洛西诺24人名单含Ghedjemis、Kvernadze、Schmid、Birligea；Raimondo未入选，不能称锋线齐整。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54470904",
+                      "checkedAt": "2026-11-07T05:22:13.366Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                      "checkedAt": "2026-11-07T06:03:50.784Z",
+                      "publishedAt": "2026-11-06T18:16:55+00:00"
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                      "checkedAt": "2026-11-07T06:03:50.785Z",
+                      "publishedAt": "2026-11-06T12:24:02+00:00"
+                    },
+                    {
+                      "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                      "checkedAt": "2026-11-07T06:03:50.786Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "tacticalMatchup": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "卡利亚里教练明确对手全场人盯人、边锋重要，同时也会留空间。预测Ghedjemis/Kvernadze攻击尚未稳定的主队边路，盯人限制主队出球；反面是Winks回归、Trepy纵深跑动可绕过盯人，客队回防和中卫被拉开是失手机制。阵型数字未确认。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54470904",
+                      "checkedAt": "2026-11-07T05:22:13.366Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                      "checkedAt": "2026-11-07T06:03:50.784Z",
+                      "publishedAt": "2026-11-06T18:16:55+00:00"
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                      "checkedAt": "2026-11-07T06:03:50.785Z",
+                      "publishedAt": "2026-11-06T12:24:02+00:00"
+                    },
+                    {
+                      "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                      "checkedAt": "2026-11-07T06:03:50.786Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "chanceQuality": {
+                  "complete": false,
+                  "basis": "unknown",
+                  "assessment": "进球、零封和未进球属于结果数据，不是xG或大机会；除明确引用官方过程外，射门位置、禁区触球与机会质量未知。主0至2、客1至3，客胜相对领先而非零封必然；主+1让平需客恰赢1、让负需客2+，两者都比普通负窄，不为倍率强行升级。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54470904",
+                      "checkedAt": "2026-11-07T05:22:13.366Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                      "checkedAt": "2026-11-07T06:03:50.784Z",
+                      "publishedAt": "2026-11-06T18:16:55+00:00"
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                      "checkedAt": "2026-11-07T06:03:50.785Z",
+                      "publishedAt": "2026-11-06T12:24:02+00:00"
+                    },
+                    {
+                      "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                      "checkedAt": "2026-11-07T06:03:50.786Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "scheduleFitness": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "双方11月1日比赛，恢复间隔基本相当；主队频繁人员替换更影响协同，不能等同纯体能差。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54470904",
+                      "checkedAt": "2026-11-07T05:22:13.366Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                      "checkedAt": "2026-11-07T06:03:50.784Z",
+                      "publishedAt": "2026-11-06T18:16:55+00:00"
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                      "checkedAt": "2026-11-07T06:03:50.785Z",
+                      "publishedAt": "2026-11-06T12:24:02+00:00"
+                    },
+                    {
+                      "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                      "checkedAt": "2026-11-07T06:03:50.786Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "marketMovement": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "12:43观察→14:13官方快照（不是最初开盘）：普通 2.50/3.65/2.15 → 2.66/3.70/2.03；让球 1.50/4.20/4.26 → 1.56/4.05/3.98。变化原因未知，不认定诱盘、资金流或独立价值。；本次HAD报价：2.66/3.70/2.03，不由变价反推伤停。",
+                  "sources": [
+                    {
+                      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+                      "checkedAt": "2026-11-07T06:46:50.003Z"
+                    }
+                  ],
+                  "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "support": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "弗洛西诺近10场2.5进1.4失、6胜3平1负；卡利亚里0.9进1.7失且四连败。强攻有5:1莱切、4:2萨索洛的弱防成分，但4:4亚特兰大说明能对更强对手制造威胁。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54470904",
+                      "checkedAt": "2026-11-07T05:22:13.366Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                      "checkedAt": "2026-11-07T06:03:50.784Z",
+                      "publishedAt": "2026-11-06T18:16:55+00:00"
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                      "checkedAt": "2026-11-07T06:03:50.785Z",
+                      "publishedAt": "2026-11-06T12:24:02+00:00"
+                    },
+                    {
+                      "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                      "checkedAt": "2026-11-07T06:03:50.786Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "counterEvidence": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54470904",
+                      "checkedAt": "2026-11-07T05:22:13.366Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/cagliari-frosinone-i-convocati-di-mister-pisacane-serie-a-unipoldomus/",
+                      "checkedAt": "2026-11-07T06:03:50.784Z",
+                      "publishedAt": "2026-11-06T18:16:55+00:00"
+                    },
+                    {
+                      "url": "https://cagliaricalcio.com/news/sala-stampa-pisacane-alla-vigilia-di-cagliari-frosinone/",
+                      "checkedAt": "2026-11-07T06:03:50.785Z",
+                      "publishedAt": "2026-11-06T12:24:02+00:00"
+                    },
+                    {
+                      "url": "https://www.frosinonecalcio.com/cagliari-frosinone-i-convocati-4/",
+                      "checkedAt": "2026-11-07T06:03:50.786Z",
+                      "publishedAt": null
+                    }
+                  ],
+                  "riskAssessment": "弗洛西诺联赛客场1胜2平1负，近10客场5平；4:4也暴露守领先问题，不能把火力当稳胜。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                }
+              }
+            }
+          },
+          {
+            "number": "周六011",
+            "officialMatchId": 2042592,
+            "teams": "莱红牛 : 奥格斯堡",
+            "kickoff": "2026-11-07T22:30:00+08:00",
+            "market": "had",
+            "selection": "胜",
+            "handicap": -1,
+            "odds": 1.25,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.25
+              }
+            ],
+            "selectionReason": "010边锋对卡利亚里未定左侧及明确缺员有赛前官方对位依据；011有独立防线减员和边路转换依据。双方皆只要求普通胜，不用客净胜或主净胜抬倍数。已有3.0的023对手更低产，但缺双边名单；011材料更具体，可作为另一个有条件合格组合而非覆盖原票。",
+            "qualification": {
+              "status": "Selling",
+              "allUp": 1,
+              "bettingAllup": 1,
+              "cbtAllUp": 1,
+              "checkedAt": "2026-11-07T06:46:50.003Z"
+            },
+            "coreAdmission": {
+              "approved": true,
+              "assessedAt": "2026-11-07T06:49:58.055Z",
+              "admittedAt": "2026-11-07T06:49:58.055Z",
+              "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+              "evidence": {
+                "lineupAndReplacements": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "奥格斯堡11月5日官方赛前正文确认：前锋Steve Mounié，以及中卫Juma Bah（停赛）、Calvin Brackelmann（头部伤）、Noahkai Banks（膝韧带伤）缺席，其余人员可选。取代三名中卫的具体组合及莱比锡本场名单未知。此前仅用10月4日伤情无法确认Banks本场缺席的问题，已由最新正文补足。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "tacticalMatchup": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "奥格斯堡主帅明确称莱比锡边路一对一及夺回球权后的快速转换很强，要求己方后防稳定、攻防勇敢。这支持莱比锡攻击客队重组防线的路径，但属于对手评价和预期对位，并非本场已实现。主队轮换质量仅有对手教练评价，缺实际首发验证。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "chanceQuality": {
+                  "complete": false,
+                  "basis": "unknown",
+                  "assessment": "进球、零封和未进球属于结果数据，不是xG或大机会；除明确引用官方过程外，射门位置、禁区触球与机会质量未知。主2至3、客1至2定性范围；主-1让胜有主场产量路径，但对手进球和短休压低可信度，普通胜为主而不单押让平。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "scheduleFitness": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "原始统计正文与奥格斯堡官方预告一致：莱比锡11月4日欧冠2:3曼城；1:4皇马发生于10月21日，不是上一场。主队相较10月31日出赛的奥格斯堡短休。具体分钟负荷与轮换质量未知；对手主帅称其阵容深度好，不能把短休直接等同实力大幅下降。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "marketMovement": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "12:43观察→14:13官方快照（不是最初开盘）：普通 1.27/5.40/6.00 → 1.25/5.60/6.20；让球 1.82/4.08/2.90 → 1.78/4.10/3.00。变化原因未知，不认定诱盘、资金流或独立价值。；本次HAD报价：1.25/5.60/6.20，不由变价反推伤停。",
+                  "sources": [
+                    {
+                      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+                      "checkedAt": "2026-11-07T06:46:50.003Z"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "support": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "莱比锡联赛主场4战全胜、近10主场9胜；奥格斯堡近10场2.4球和0次未进球，进攻并不弱。莱比锡大负拜仁/皇马需强度校正，不能单用失球否定主胜。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                },
+                "counterEvidence": {
+                  "complete": false,
+                  "basis": "prediction",
+                  "assessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。",
+                  "sources": [
+                    {
+                      "url": "https://m.dongqiudi.com/en/preview/54494591",
+                      "checkedAt": "2026-11-07T05:22:13.744Z",
+                      "publishedAt": null
+                    },
+                    {
+                      "url": "https://www.fcaugsburg.de/en/article/baum-we-need-to-be-brave-in-defence-and-attack-23659",
+                      "checkedAt": "2026-11-07T06:21:29.918Z",
+                      "publishedAt": "2026-11-05T14:30:15+01:00"
+                    }
+                  ],
+                  "riskAssessment": "客队曾2:2拜仁、近期持续进球；主队欧冠负荷可让普通胜变平，穿盘风险更大。 新资料支持客队防线减员，但并未解决主队名单、短休与对手持续进球；不据此自动升级穿盘。 完整首发、机会质量与分钟负荷仍有缺口，条件推演可能失效，不能将其标为已核实。"
+                }
+              }
+            }
+          }
+        ],
+        "selectionText": "010[负] × 011[胜]",
+        "oddsAsOf": "2026-11-07T06:46:50.003Z",
+        "oddsText": "实际条件倍数2.5375（含本金）",
+        "cardNote": "010客场5/10平局；011短休和客队连续进球。共享010会与原3.0一起失败，两张补单共享011。 两场均中才返还，任一失手为0。",
+        "wholeSetMath": {
+          "branchCount": 1,
+          "branches": [
+            {
+              "selection": [
+                "负",
+                "胜"
+              ],
+              "product": 2.5374999999999996,
+              "weight": 1,
+              "wholeSetMultiple": 2.5374999999999996
+            }
+          ],
+          "min": 2.5374999999999996,
+          "max": 2.5374999999999996,
+          "otherOutcomesMultiple": 0,
+          "formula": "两腿赔率直接相乘，不是胜率或期望收益"
+        },
+        "infoOnly": true,
+        "totalLegs": 2,
+        "hit": null,
+        "hitCount": 0,
+        "simulation": true,
+        "stake": 1000,
+        "returned": null,
+        "net": null,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "status": "待定",
+          "wholeSetMultiples": [
+            2.5374999999999996
+          ]
+        }
       }
     ]
   },
@@ -13394,8 +14914,8 @@
     "中晚原约定14:00交付已迟到；本版按实际提交与线上核验时间记录，不倒填。"
   ],
   "imageFiles": {
-    "scan": "2026-11-07-final-s1-scan.png",
-    "tracking": "2026-11-07-final-s1-tracking.png"
+    "scan": "2026-11-07-extra-s1-scan.png",
+    "tracking": "2026-11-07-extra-s1-tracking.png"
   },
   "earlyBatchLocked": true,
   "originalImageHashes": {
@@ -13420,7 +14940,7 @@
     "mobileVerified": true,
     "verificationScope": "430px browser emulation; four real clicks; clipboard PNG decoded pixel hashes"
   },
-  "updatedAt": "2026-11-07T06:35:55.919Z",
+  "updatedAt": "2026-11-07T06:53:36.184Z",
   "admissionIncident": {
     "id": "2026-11-07-early-admission-failure",
     "recordedAt": "2026-11-07T04:53:49.054Z",
@@ -14366,6 +15886,157 @@
     [
       "2026-11-07-final-core20-s1",
       "2026-11-07-final-core30-s1"
+    ],
+    [
+      "2026-11-07-extra-core20-s1",
+      "2026-11-07-extra-core30-s1"
     ]
+  ],
+  "additionalPublication": {
+    "id": "2026-11-07-extra-s1",
+    "status": "submitted",
+    "publishedAt": "2026-11-07T06:53:36.184Z",
+    "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+    "ranking": [
+      {
+        "rank": 1,
+        "id": "2026-11-07-final-core20-s1",
+        "selection": "014[负] × 017[胜]",
+        "reason": "014强攻、强敌表现与对方后防减员；017攻防同步改善，综合风险收益优先。"
+      },
+      {
+        "rank": 2,
+        "id": "2026-11-07-extra-core20-s1",
+        "selection": "011[胜] × 017[胜]",
+        "reason": "011对位资料具体，普通胜保留小胜；与第1共用017，独立性扣分。"
+      },
+      {
+        "rank": 3,
+        "id": "2026-11-07-extra-core30-s1",
+        "selection": "010[负] × 011[胜]",
+        "reason": "011资料强于名单空缺的023，但010客场平局及共享011使它低于前两组。"
+      },
+      {
+        "rank": 4,
+        "id": "2026-11-07-final-core30-s1",
+        "selection": "010[负] × 023[负]",
+        "reason": "保留原票；010客场平多与023短休、名单空缺叠加，赔率更高不等于更优。"
+      }
+    ],
+    "exposure": {
+      "周六014": {
+        "count": 1,
+        "tickets": [
+          "2026-11-07-final-core20-s1"
+        ],
+        "fraction": 0.25
+      },
+      "周六017": {
+        "count": 2,
+        "tickets": [
+          "2026-11-07-final-core20-s1",
+          "2026-11-07-extra-core20-s1"
+        ],
+        "fraction": 0.5
+      },
+      "周六010": {
+        "count": 2,
+        "tickets": [
+          "2026-11-07-final-core30-s1",
+          "2026-11-07-extra-core30-s1"
+        ],
+        "fraction": 0.5
+      },
+      "周六023": {
+        "count": 1,
+        "tickets": [
+          "2026-11-07-final-core30-s1"
+        ],
+        "fraction": 0.25
+      },
+      "周六011": {
+        "count": 2,
+        "tickets": [
+          "2026-11-07-extra-core20-s1",
+          "2026-11-07-extra-core30-s1"
+        ],
+        "fraction": 0.5
+      }
+    },
+    "intersections": [
+      {
+        "a": "2026-11-07-final-core20-s1",
+        "b": "2026-11-07-final-core30-s1",
+        "shared": [],
+        "sharedFailure": "无共用比赛，不等于统计独立"
+      },
+      {
+        "a": "2026-11-07-final-core20-s1",
+        "b": "2026-11-07-extra-core20-s1",
+        "shared": [
+          "周六017"
+        ],
+        "sharedFailure": "共享场失手会同时击穿两张票；不视为独立概率"
+      },
+      {
+        "a": "2026-11-07-final-core20-s1",
+        "b": "2026-11-07-extra-core30-s1",
+        "shared": [],
+        "sharedFailure": "无共用比赛，不等于统计独立"
+      },
+      {
+        "a": "2026-11-07-final-core30-s1",
+        "b": "2026-11-07-extra-core20-s1",
+        "shared": [],
+        "sharedFailure": "无共用比赛，不等于统计独立"
+      },
+      {
+        "a": "2026-11-07-final-core30-s1",
+        "b": "2026-11-07-extra-core30-s1",
+        "shared": [
+          "周六010"
+        ],
+        "sharedFailure": "共享场失手会同时击穿两张票；不视为独立概率"
+      },
+      {
+        "a": "2026-11-07-extra-core20-s1",
+        "b": "2026-11-07-extra-core30-s1",
+        "shared": [
+          "周六011"
+        ],
+        "sharedFailure": "共享场失手会同时击穿两张票；不视为独立概率"
+      }
+    ],
+    "originalImageFiles": {
+      "scan": "2026-11-07-final-s1-scan.png",
+      "tracking": "2026-11-07-final-s1-tracking.png"
+    },
+    "qualificationCheckedAt": "2026-11-07T06:53:36.184Z"
+  },
+  "currentRecommendationRanking": [
+    {
+      "rank": 1,
+      "id": "2026-11-07-final-core20-s1",
+      "selection": "014[负] × 017[胜]",
+      "reason": "014强攻、强敌表现与对方后防减员；017攻防同步改善，综合风险收益优先。"
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-07-extra-core20-s1",
+      "selection": "011[胜] × 017[胜]",
+      "reason": "011对位资料具体，普通胜保留小胜；与第1共用017，独立性扣分。"
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-07-extra-core30-s1",
+      "selection": "010[负] × 011[胜]",
+      "reason": "011资料强于名单空缺的023，但010客场平局及共享011使它低于前两组。"
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-07-final-core30-s1",
+      "selection": "010[负] × 023[负]",
+      "reason": "保留原票；010客场平多与023短休、名单空缺叠加，赔率更高不等于更优。"
+    }
   ]
 }
