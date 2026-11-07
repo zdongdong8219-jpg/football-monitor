@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-06",
+  "runStartedAt": "2026-11-07T01:27:21.595Z",
+  "lastProgressAt": "2026-11-07T01:34:27.965Z",
+  "taskRunId": "automation-2-2026-11-07-review",
+  "runPhase": "blocked_verification_environment",
+  "completed": false,
+  "mobileVerified": false,
+  "expectedReviewAt": "2026-11-07T09:25:00+08:00",
+  "lastKickoff": "2026-11-07T07:00:00+08:00",
+  "completedSteps": [
+    "template_lock_read",
+    "latest_r2_original_selected",
+    "14_FT_HT_saved",
+    "10_secondary_FT_HT_verified",
+    "003_kickoff_discrepancy_recorded",
+    "14_exact_FT_HT_verified",
+    "10_secondary_sources_verified",
+    "approved_r2_settlement",
+    "separate_1000_tracking_settled",
+    "content_acceptance_passed",
+    "24_v6_full_cell_overlays",
+    "ten_native_segments_and_reference_inspected",
+    "zero_outside_allowed_pixels"
+  ],
+  "artifacts": {
+    "originalReport": "data/reports/2026-11-06.json",
+    "geometry": "data/research/2026-11-06/scan-geometry.json",
+    "results": "data/research/2026-11-06/review-result-audit.json",
+    "secondary": "data/research/2026-11-06/review-secondary-index.json",
+    "review": "data/reviews/2026-11-06.json",
+    "visual": "data/research/2026-11-06/review-visual-v6-audit.json",
+    "gate": "data/research/2026-11-06/prepublication-gate.json",
+    "environment": "data/research/2026-11-06/review-verification-environment.json",
+    "resume": "data/research/2026-11-06/REVIEW-RESUME.md"
+  },
+  "sourceFailures": [],
+  "inputHashes": {
+    "data/research/2026-11-06/review-result-audit.json": "6724e328ea6e58aa2ce4af544562545247c17062fd89d2a145314cda5cbd7951"
+  },
+  "blocker": "Viewport override did not apply; actual PNG clipboard cannot be read. Existing native Edge/CDP verifier not run because this session only exposes cua UI control and no Edge browser surface. No false pass from button text."
+}
