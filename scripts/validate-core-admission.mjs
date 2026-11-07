@@ -18,7 +18,10 @@ export function validateCoreAdmission(report, root) {
       if (!audit?.approved || !Number.isFinite(assessed) || !Number.isFinite(admitted) || !Number.isFinite(kickoff) || assessed > admitted || admitted >= kickoff) throw Error('Core admission missing or not prematch: '+leg.number);
       for (const key of requiredEvidence) {
         const e = audit.evidence?.[key];
-        if (e?.complete !== true || typeof e.assessment !== 'string' || e.assessment.trim().length < 20 || !Array.isArray(e.sources) || !e.sources.length) throw Error('Core evidence incomplete: '+leg.number+'/'+key);
+        if (!e || typeof e.assessment !== 'string' || e.assessment.trim().length < 20 || !Array.isArray(e.sources)) throw Error('Core evidence incomplete: '+leg.number+'/'+key);
+        if (e.complete !== true) {
+          if (!['prediction','unknown'].includes(e.basis) || typeof e.riskAssessment !== 'string' || e.riskAssessment.trim().length < 20) throw Error('Core evidence incomplete: unreviewed uncertainty '+leg.number+'/'+key);
+        } else if (!e.sources.length) throw Error('Confirmed core fact has no source: '+leg.number+'/'+key);
         for (const source of e.sources) {
           const at = Date.parse(source.checkedAt);
           if (!/^https?:\/\//.test(source.url || '') || !Number.isFinite(at) || at > assessed || at >= kickoff) throw Error('Core source missing or not prematch: '+leg.number+'/'+key);

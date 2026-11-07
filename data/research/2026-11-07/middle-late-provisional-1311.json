@@ -1,0 +1,1820 @@
+{
+  "date": "2026-11-07",
+  "createdAt": "2026-11-07T05:14:21.861Z",
+  "policy": "missing_fields_are_risks_not_automatic_exclusions",
+  "scope": "25场中晚场现有资料预测",
+  "factsLimit": "已保存赛程/报价可核实；没有新增球队实况资料。方向为报价先验，不冒充全面基本面预测。",
+  "rows": [
+    {
+      "number": "周六005",
+      "teams": "珀斯—纽喷气机",
+      "kickoff": "2026-11-07T18:45:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 2.08,
+          "draw": 3.65,
+          "lose": 2.6
+        },
+        "hhad": {
+          "win": 4.02,
+          "draw": 4,
+          "lose": 1.56
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜2.08比客胜2.60仅小幅领先；总进球报价以3球最低，倾向主队小优。",
+        "failurePath": "客胜价格接近，若客队先取得进球，主胜假设容易失效；并非已核实客队能先得分。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 4.02,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 4,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.56,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六006",
+      "teams": "利兹联—热刺",
+      "kickoff": "2026-11-07T20:30:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "负",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 2.65,
+          "draw": 3.2,
+          "lose": 2.23
+        },
+        "hhad": {
+          "win": 6,
+          "draw": 4.65,
+          "lose": 1.32
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "客胜2.23为单项最低，但主胜2.65仍接近，倾向客队小优。",
+        "failurePath": "平局3.20及主胜均有竞争力，客胜不足以支持客队大胜；主-1让负覆盖客不败而非客赢2+。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 6,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 4.65,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.32,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六007",
+      "teams": "朴次茅斯—斯托克城",
+      "kickoff": "2026-11-07T20:30:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 2.22,
+          "draw": 2.95,
+          "lose": 2.86
+        },
+        "hhad": {
+          "win": 4.95,
+          "draw": 3.82,
+          "lose": 1.48
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜2.22最低，胜负两端差距有限；2球总量报价最低。",
+        "failurePath": "低总量若兑现，平局或一球反转足以击穿单胜，不能因主让一球就推穿盘。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 4.95,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.82,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.48,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六008",
+      "teams": "马拉加—桑坦德",
+      "kickoff": "2026-11-07T21:00:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 2.25,
+          "draw": 3.3,
+          "lose": 2.55
+        },
+        "hhad": {
+          "win": 4.68,
+          "draw": 4.15,
+          "lose": 1.46
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜2.25略低于客胜2.55，只给很弱主倾向。",
+        "failurePath": "主客报价接近，是市场内竞争最强的一组；任何阵容偏差都可能改变方向。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 4.68,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 4.15,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.46,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六009",
+      "teams": "都灵—莱切",
+      "kickoff": "2026-11-07T22:00:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.6,
+          "draw": 3.55,
+          "lose": 4.3
+        },
+        "hhad": {
+          "win": 3.05,
+          "draw": 3.3,
+          "lose": 1.97
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜1.60与平3.55、客4.30有差距，普通胜市场支持明确。",
+        "failurePath": "让负1.97为让球最低项，说明不能把主胜直接升级净胜2+；平局是主要失败路径。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 3.05,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.3,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.97,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六010",
+      "teams": "卡利亚里—弗洛西诺",
+      "kickoff": "2026-11-07T22:00:00+08:00",
+      "handicap": 1,
+      "provisionalDirection": "负",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 2.57,
+          "draw": 3.65,
+          "lose": 2.1
+        },
+        "hhad": {
+          "win": 1.52,
+          "draw": 4.15,
+          "lose": 4.15
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "客胜从12:43的2.15降到2.10、主胜2.50升2.57，现有观察偏客。",
+        "failurePath": "主+1让胜1.52覆盖主胜或平局，为客胜方向的反证；客队恰赢1是让平，赢2+才让负。小幅价格变化不能当确定阵容利好。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > -1（整数至少0）",
+        "handicapDraw": "主净胜球 = -1",
+        "handicapLoss": "主净胜球 < -1（整数至多-2）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 1.52,
+          "boundary": "主净胜球 > -1（整数至少0）"
+        },
+        "draw": {
+          "odds": 4.15,
+          "boundary": "主净胜球 = -1"
+        },
+        "lose": {
+          "odds": 4.15,
+          "boundary": "主净胜球 < -1（整数至多-2）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六011",
+      "teams": "莱红牛—奥格斯堡",
+      "kickoff": "2026-11-07T22:30:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.27,
+          "draw": 5.4,
+          "lose": 6
+        },
+        "hhad": {
+          "win": 1.82,
+          "draw": 4.08,
+          "lose": 2.9
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "普通主胜1.27；主-1让胜1.82低于让负2.90，市场另有净胜2+倾向。",
+        "failurePath": "总进球3/4同价4.00不说明客队必被零封；对方进球可能使主胜成立但穿盘失败。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 1.82,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 4.08,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 2.9,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六012",
+      "teams": "帕德博恩—法兰克福",
+      "kickoff": "2026-11-07T22:30:00+08:00",
+      "handicap": 1,
+      "provisionalDirection": "负",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 2.8,
+          "draw": 3.61,
+          "lose": 1.98
+        },
+        "hhad": {
+          "win": 1.62,
+          "draw": 4.1,
+          "lose": 3.6
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "客胜1.98领先；总量3球报价最低，偏客胜但不推客队零封。",
+        "failurePath": "主+1让胜1.62仍是该盘最低项，主不败风险不可忽略，客胜不等于客赢2+。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > -1（整数至少0）",
+        "handicapDraw": "主净胜球 = -1",
+        "handicapLoss": "主净胜球 < -1（整数至多-2）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 1.62,
+          "boundary": "主净胜球 > -1（整数至少0）"
+        },
+        "draw": {
+          "odds": 4.1,
+          "boundary": "主净胜球 = -1"
+        },
+        "lose": {
+          "odds": 3.6,
+          "boundary": "主净胜球 < -1（整数至多-2）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六013",
+      "teams": "多特蒙德—埃沃斯堡",
+      "kickoff": "2026-11-07T22:30:00+08:00",
+      "handicap": -2,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.15,
+          "draw": 6.1,
+          "lose": 9.5
+        },
+        "hhad": {
+          "win": 2.53,
+          "draw": 4.1,
+          "lose": 2
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "普通胜1.15市场优势突出；主-2为本场真实边界。",
+        "failurePath": "让负2.00低于让胜2.53，主赢1仍让负，主赢2只是让平，不能用主胜优势推净胜3+。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 2（整数至少3）",
+        "handicapDraw": "主净胜球 = 2",
+        "handicapLoss": "主净胜球 < 2（整数至多1）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 2.53,
+          "boundary": "主净胜球 > 2（整数至少3）"
+        },
+        "draw": {
+          "odds": 4.1,
+          "boundary": "主净胜球 = 2"
+        },
+        "lose": {
+          "odds": 2,
+          "boundary": "主净胜球 < 2（整数至多1）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六014",
+      "teams": "美因茨—拜仁",
+      "kickoff": "2026-11-07T22:30:00+08:00",
+      "handicap": 2,
+      "provisionalDirection": "负",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 7.5,
+          "draw": 6.3,
+          "lose": 1.18
+        },
+        "hhad": {
+          "win": 2.06,
+          "draw": 4.4,
+          "lose": 2.35
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "客胜1.18有明确市场优势；主+2意味着客赢3+才让负。",
+        "failurePath": "让胜2.06低于让负2.35，市场并未同等支持拜仁赢3+；高总量也不等于净胜差大。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > -2（整数至少-1）",
+        "handicapDraw": "主净胜球 = -2",
+        "handicapLoss": "主净胜球 < -2（整数至多-3）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 2.06,
+          "boundary": "主净胜球 > -2（整数至少-1）"
+        },
+        "draw": {
+          "odds": 4.4,
+          "boundary": "主净胜球 = -2"
+        },
+        "lose": {
+          "odds": 2.35,
+          "boundary": "主净胜球 < -2（整数至多-3）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六015",
+      "teams": "阿森纳—赫尔城",
+      "kickoff": "2026-11-07T23:00:00+08:00",
+      "handicap": -2,
+      "provisionalDirection": "胜（非可出票报价）",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": null,
+          "draw": null,
+          "lose": null
+        },
+        "hhad": {
+          "win": 2,
+          "draw": 3.88,
+          "lose": 2.62
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "仅依据主-2让胜2.00、让平3.88、让负2.62，市场支持主队占优的假设。",
+        "failurePath": "普通胜平负报价缺失，不能报价或直接入HAD串；让负涵盖一球主胜，不能视为仅客不败。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 2（整数至少3）",
+        "handicapDraw": "主净胜球 = 2",
+        "handicapLoss": "主净胜球 < 2（整数至多1）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 2,
+          "boundary": "主净胜球 > 2（整数至少3）"
+        },
+        "draw": {
+          "odds": 3.88,
+          "boundary": "主净胜球 = 2"
+        },
+        "lose": {
+          "odds": 2.62,
+          "boundary": "主净胜球 < 2（整数至多1）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六016",
+      "teams": "富勒姆—纽卡斯尔",
+      "kickoff": "2026-11-07T23:00:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.93,
+          "draw": 3.45,
+          "lose": 3.02
+        },
+        "hhad": {
+          "win": 3.75,
+          "draw": 3.85,
+          "lose": 1.63
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜1.93优于客胜3.02，给主胜倾向。",
+        "failurePath": "让负1.63最低；若客队持续制造机会，普通主胜亦可能失败，暂无球队过程资料证明反证被压制。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 3.75,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.85,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.63,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六017",
+      "teams": "伯明翰—斯旺西",
+      "kickoff": "2026-11-07T23:00:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.73,
+          "draw": 3.35,
+          "lose": 3.8
+        },
+        "hhad": {
+          "win": 3.25,
+          "draw": 3.48,
+          "lose": 1.84
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜1.73，平3.35、客3.80；主胜市场优势弱于009，强于007。",
+        "failurePath": "总量2/3报价接近，若局面低产，平局反证突出；这是假设而不是已证实双方踢法。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 3.25,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.48,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.84,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六019",
+      "teams": "西班牙人—拉科",
+      "kickoff": "2026-11-07T23:15:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 2.18,
+          "draw": 3.05,
+          "lose": 2.83
+        },
+        "hhad": {
+          "win": 4.75,
+          "draw": 3.9,
+          "lose": 1.49
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜2.18最低，平3.05、客2.83仍有竞争力。",
+        "failurePath": "让负1.49最低；客胜价格比平局更低，不可无依据只防平却忽略客胜。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 4.75,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.9,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.49,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六020",
+      "teams": "福图纳—特尔斯达",
+      "kickoff": "2026-11-07T23:30:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.82,
+          "draw": 3.55,
+          "lose": 3.25
+        },
+        "hhad": {
+          "win": 3.4,
+          "draw": 3.7,
+          "lose": 1.74
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜1.82领先客胜3.25，偏主；总量3球报价最低。",
+        "failurePath": "客胜3.25低于平3.55，反向不能只讲平局；市场未提供独立阵容或战术优势。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 3.4,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.7,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.74,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六021",
+      "teams": "代格福什—盖斯",
+      "kickoff": "2026-11-08T00:30:00+08:00",
+      "handicap": 1,
+      "provisionalDirection": "负",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 2.95,
+          "draw": 3.25,
+          "lose": 2.03
+        },
+        "hhad": {
+          "win": 1.56,
+          "draw": 3.75,
+          "lose": 4.32
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "客胜2.03领先主胜2.95、平3.25，偏客。",
+        "failurePath": "主+1让胜1.56最低，主不败仍是宽覆盖；没有证据支持精确客赢1或客赢2+。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > -1（整数至少0）",
+        "handicapDraw": "主净胜球 = -1",
+        "handicapLoss": "主净胜球 < -1（整数至多-2）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 1.56,
+          "boundary": "主净胜球 > -1（整数至少0）"
+        },
+        "draw": {
+          "odds": 3.75,
+          "boundary": "主净胜球 = -1"
+        },
+        "lose": {
+          "odds": 4.32,
+          "boundary": "主净胜球 < -1（整数至多-2）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六022",
+      "teams": "帕尔马—博洛尼亚",
+      "kickoff": "2026-11-08T01:00:00+08:00",
+      "handicap": 1,
+      "provisionalDirection": "负",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 4.45,
+          "draw": 3.25,
+          "lose": 1.65
+        },
+        "hhad": {
+          "win": 1.91,
+          "draw": 3.2,
+          "lose": 3.3
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "客胜1.65领先，普通客胜比客赢2+边界宽。",
+        "failurePath": "平3.25为主要反向；1球总量报价4.00、2球3.25，打不开局面是情景风险，不能称确定小球。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > -1（整数至少0）",
+        "handicapDraw": "主净胜球 = -1",
+        "handicapLoss": "主净胜球 < -1（整数至多-2）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 1.91,
+          "boundary": "主净胜球 > -1（整数至少0）"
+        },
+        "draw": {
+          "odds": 3.2,
+          "boundary": "主净胜球 = -1"
+        },
+        "lose": {
+          "odds": 3.3,
+          "boundary": "主净胜球 < -1（整数至多-2）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六023",
+      "teams": "诺丁汉—曼城",
+      "kickoff": "2026-11-08T01:30:00+08:00",
+      "handicap": 1,
+      "provisionalDirection": "负",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 4.85,
+          "draw": 4.2,
+          "lose": 1.44
+        },
+        "hhad": {
+          "win": 2.28,
+          "draw": 3.7,
+          "lose": 2.32
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "客胜1.44市场领先，普通客胜可容许只赢1。",
+        "failurePath": "主+1让胜2.28与让负2.32接近，主不败与客赢2+并无压倒性报价差；不追穿盘。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > -1（整数至少0）",
+        "handicapDraw": "主净胜球 = -1",
+        "handicapLoss": "主净胜球 < -1（整数至多-2）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 2.28,
+          "boundary": "主净胜球 > -1（整数至少0）"
+        },
+        "draw": {
+          "odds": 3.7,
+          "boundary": "主净胜球 = -1"
+        },
+        "lose": {
+          "odds": 2.32,
+          "boundary": "主净胜球 < -1（整数至多-2）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六024",
+      "teams": "斯图加特—不来梅",
+      "kickoff": "2026-11-08T01:30:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.51,
+          "draw": 4.35,
+          "lose": 4.05
+        },
+        "hhad": {
+          "win": 2.44,
+          "draw": 3.88,
+          "lose": 2.12
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜1.51领先平4.35、客4.05，普通主胜倾向。",
+        "failurePath": "客胜价低于平局，主队失利不能被默认平局保险涵盖；高总量不证明主队单侧产量或穿盘。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 2.44,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.88,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 2.12,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六025",
+      "teams": "奥萨苏纳—毕尔巴鄂",
+      "kickoff": "2026-11-08T01:30:00+08:00",
+      "handicap": 1,
+      "provisionalDirection": "负",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 3.7,
+          "draw": 3.2,
+          "lose": 1.8
+        },
+        "hhad": {
+          "win": 1.75,
+          "draw": 3.4,
+          "lose": 3.65
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "客胜1.80最低，平3.20次之，偏客胜。",
+        "failurePath": "低量分布若兑现会强化平局路径；主+1让平恰客赢1并不天然更稳。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > -1（整数至少0）",
+        "handicapDraw": "主净胜球 = -1",
+        "handicapLoss": "主净胜球 < -1（整数至多-2）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 1.75,
+          "boundary": "主净胜球 > -1（整数至少0）"
+        },
+        "draw": {
+          "odds": 3.4,
+          "boundary": "主净胜球 = -1"
+        },
+        "lose": {
+          "odds": 3.65,
+          "boundary": "主净胜球 < -1（整数至多-2）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六026",
+      "teams": "欧塞尔—巴黎FC",
+      "kickoff": "2026-11-08T02:00:00+08:00",
+      "handicap": 1,
+      "provisionalDirection": "负",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 4.1,
+          "draw": 3.7,
+          "lose": 1.6
+        },
+        "hhad": {
+          "win": 1.99,
+          "draw": 3.5,
+          "lose": 2.85
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "客胜1.60领先主4.10、平3.70，客胜市场支持较清楚。",
+        "failurePath": "主+1让胜1.99最低，普通客胜仍可能被平局破坏；没有实际对位证据排除主队反击。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > -1（整数至少0）",
+        "handicapDraw": "主净胜球 = -1",
+        "handicapLoss": "主净胜球 < -1（整数至多-2）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 1.99,
+          "boundary": "主净胜球 > -1（整数至少0）"
+        },
+        "draw": {
+          "odds": 3.5,
+          "boundary": "主净胜球 = -1"
+        },
+        "lose": {
+          "odds": 2.85,
+          "boundary": "主净胜球 < -1（整数至多-2）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六027",
+      "teams": "阿尔维卡—卡萨皮亚",
+      "kickoff": "2026-11-08T02:00:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.63,
+          "draw": 3.35,
+          "lose": 4.4
+        },
+        "hhad": {
+          "win": 3.15,
+          "draw": 3.3,
+          "lose": 1.93
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜1.63领先平3.35、客4.40，偏主胜，市场结构与009接近。",
+        "failurePath": "平局价格低于009，主-1让负1.93最低；不根据低赔宣称稳定或升级让胜。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 3.15,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.3,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.93,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六028",
+      "teams": "罗马—萨索洛",
+      "kickoff": "2026-11-08T03:45:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.16,
+          "draw": 6,
+          "lose": 9
+        },
+        "hhad": {
+          "win": 1.59,
+          "draw": 4.1,
+          "lose": 3.75
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜1.16最低且主-1让胜1.59最低，市场同时倾向主胜及净胜2+。",
+        "failurePath": "两项来自同一报价系统，并非两类独立证据；主赢1将令穿盘失败。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 1.59,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 4.1,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 3.75,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六029",
+      "teams": "米竞技—格雷米奥",
+      "kickoff": "2026-11-08T05:00:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.4,
+          "draw": 4,
+          "lose": 5.7
+        },
+        "hhad": {
+          "win": 2.38,
+          "draw": 3.27,
+          "lose": 2.42
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜1.40明显领先，普通胜优先。",
+        "failurePath": "让胜2.38与让负2.42接近，不能把普通主胜优势等同两球优势；让平3.27亦不能机械首选。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 2.38,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.27,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 2.42,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    },
+    {
+      "number": "周六030",
+      "teams": "盐湖城—洛城银河",
+      "kickoff": "2026-11-08T08:00:00+08:00",
+      "handicap": -1,
+      "provisionalDirection": "胜",
+      "classification": "market_based_prediction_not_formal_ticket",
+      "verifiedFacts": {
+        "source": "1303.json plus saved official identity",
+        "spf": {
+          "win": 1.6,
+          "draw": 4.1,
+          "lose": 3.7
+        },
+        "hhad": {
+          "win": 2.7,
+          "draw": 3.79,
+          "lose": 1.98
+        },
+        "sourceCapturedAt": "2026-11-07T05:03:36.213Z"
+      },
+      "prediction": {
+        "reason": "主胜1.60优于客3.70、平4.10，偏主。",
+        "failurePath": "客胜比平局价格低，客队取胜必须保留为强反向；总量高不等于主队扩大比分。"
+      },
+      "lineup": {
+        "status": "unknown",
+        "predictedXI": null,
+        "reason": "没有预计名单的可追溯依据，不编造球员"
+      },
+      "tactics": {
+        "status": "unknown",
+        "conditionalScenariosOnly": true
+      },
+      "fitness": {
+        "status": "unknown"
+      },
+      "chanceQuality": {
+        "status": "unknown",
+        "goalPricesNotXG": true
+      },
+      "boundaries": {
+        "handicapWin": "主净胜球 > 1（整数至少2）",
+        "handicapDraw": "主净胜球 = 1",
+        "handicapLoss": "主净胜球 < 1（整数至多0）",
+        "formula": "主进球−客进球+主队让球；大于0让胜、等于0让平、小于0让负",
+        "independentAnalysisStatus": "未完成；仅核算边界，不凭价格或边界生成方向"
+      },
+      "handicapComparison": {
+        "win": {
+          "odds": 2.7,
+          "boundary": "主净胜球 > 1（整数至少2）"
+        },
+        "draw": {
+          "odds": 3.79,
+          "boundary": "主净胜球 = 1"
+        },
+        "lose": {
+          "odds": 1.98,
+          "boundary": "主净胜球 < 1（整数至多0）"
+        },
+        "decision": "三方向均已比较边界与报价；未把市场排序当独立穿盘依据"
+      },
+      "missingInformationTreatment": "逐项风险，非自动排除",
+      "formalAdmission": "not_decided",
+      "sources": [
+        "1303.json",
+        "official-supplement-prepublish.json"
+      ]
+    }
+  ],
+  "candidateCombinations": [
+    {
+      "class": "core20",
+      "legs": [
+        "009胜",
+        "024胜"
+      ],
+      "product": 2.416,
+      "comparison": "两腿普通胜报价1.60/1.51，边界比各自主-1让胜宽；仅从报价看更集中于主胜。最强备选027胜×023负为2.3472：023客胜报价更低，而027主胜略高，无法仅按整串倍率证明009/024更优。",
+      "status": "comparison_only_not_published",
+      "allLegsRetainedForReview": true
+    },
+    {
+      "class": "core20",
+      "legs": [
+        "027胜",
+        "023负"
+      ],
+      "product": 2.3472,
+      "comparison": "与009/024比较，普通负避免要求曼城客赢2+；但市场之外没有同尺度对位支持，不把更低某腿赔率当稳定证据。",
+      "status": "comparison_only_not_published",
+      "allLegsRetainedForReview": true
+    },
+    {
+      "class": "core20",
+      "legs": [
+        "011胜",
+        "029胜"
+      ],
+      "product": 1.778,
+      "comparison": "报价均更偏向普通胜，倍率较低不是自动淘汰理由；不能为达到2倍把011改让胜。",
+      "status": "comparison_only_not_published",
+      "allLegsRetainedForReview": true
+    },
+    {
+      "class": "core30",
+      "legs": [
+        "020胜",
+        "022负"
+      ],
+      "product": 3.003,
+      "comparison": "与两套2.0候选均无重复比赛，普通胜负无需穿盘；但更接近3倍不构成准入理由。最强市场替代017胜×026负为2.768，不能因不到3倍排除。",
+      "status": "comparison_only_not_published",
+      "allLegsRetainedForReview": true
+    },
+    {
+      "class": "core30",
+      "legs": [
+        "017胜",
+        "026负"
+      ],
+      "product": 2.768,
+      "comparison": "两条普通方向都有市场倾向，仍有平局与阵容未知风险。无法凭现有同源报价判定其实际对位优于020/022。",
+      "status": "comparison_only_not_published",
+      "allLegsRetainedForReview": true
+    }
+  ],
+  "formalTickets": [],
+  "decision": "已继续方向判断及候选比较，没有因单个缺项自动排除。但仅同源赔率不能证明入选组合优于最强备选，暂不声称独立核心准入完成。",
+  "publicationStatus": "not_published",
+  "oldTicketsUnchanged": true
+}
