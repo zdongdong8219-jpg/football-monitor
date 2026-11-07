@@ -10,8 +10,8 @@
   "batchLabel": "11月7日R5 · 早场历史恢复 / 红白星级重审",
   "batchFinal": true,
   "finalLocked": true,
-  "mobileVerified": false,
-  "completed": false,
+  "mobileVerified": true,
+  "completed": true,
   "earlyCompleted": true,
   "earlyMobileVerified": true,
   "researchComplete": false,
@@ -20184,7 +20184,7 @@
     "2026-11-07-early-tracking.png": "dd3faf078a1bd11b0066d8f538419f961402790ab8f218f9387eca8c977efe72"
   },
   "deliveryManifest": "data/research/2026-11-07/approved-four-image-manifest.json",
-  "onlineVerifiedAt": "2026-11-07T07:46:11.420Z",
+  "onlineVerifiedAt": "2026-11-07T08:00:47.475Z",
   "verificationScope": "430px browser emulation and actual clipboard PNG pixel hashes; not physical handset",
   "supplement": {
     "id": "2026-11-07-early-core20-s1",
@@ -20201,7 +20201,7 @@
     "mobileVerified": true,
     "verificationScope": "430px browser emulation; four real clicks; clipboard PNG decoded pixel hashes"
   },
-  "updatedAt": "2026-11-07T07:58:54.335Z",
+  "updatedAt": "2026-11-07T08:00:47.475Z",
   "admissionIncident": {
     "id": "2026-11-07-early-admission-failure",
     "recordedAt": "2026-11-07T04:53:49.054Z",
@@ -20966,11 +20966,11 @@
   "rulesVersion": "2026-10-12",
   "finalPublication": {
     "publishedAt": "2026-11-07T07:58:54.335Z",
-    "status": "submitted",
+    "status": "published_verified",
     "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
     "qualificationCheckedAt": "2026-11-07T07:58:54.335Z",
-    "onlineVerifiedAt": "2026-11-07T07:46:11.420Z",
-    "contentCommit": "d737a01cd85747ed84106258f6a707e59fb92b02"
+    "onlineVerifiedAt": "2026-11-07T08:00:47.475Z",
+    "contentCommit": "73165cd594fc167f634df4da509f45b1e8ecb9d8"
   },
   "coreComparison": {
     "core20": {
@@ -21254,9 +21254,11 @@
   "revision": {
     "id": "2026-11-07-display-r5",
     "publishedAt": "2026-11-07T07:58:54.335Z",
-    "status": "submitted",
+    "status": "published_verified",
     "reason": "恢复早场历史入口与原图；主推/博相对星级重新分层。仅展示修订，无新增票、无新增本金。",
-    "qualificationCheckedAt": "2026-11-07T07:58:54.335Z"
+    "qualificationCheckedAt": "2026-11-07T07:58:54.335Z",
+    "onlineVerifiedAt": "2026-11-07T08:00:47.475Z",
+    "contentCommit": "73165cd594fc167f634df4da509f45b1e8ecb9d8"
   },
   "trackingDisplayPairs": [
     [
