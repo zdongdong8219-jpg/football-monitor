@@ -1995,5 +1995,97 @@
     "publication": "资格、报价及430px四按钮验证成功，不代表分析合格；保留原票与跟踪，照原票复盘",
     "noPostKickoffEvidence": true,
     "reportUrl": "admission-incident-2026-11-07.html"
+  },
+  "currentAnalysisReview": {
+    "id": "2026-11-07-early-full-invalidation",
+    "recordedAt": "2026-11-07T05:02:00.898Z",
+    "status": "blocked_missing_source_snapshot",
+    "priorAnalysisValidity": "invalidated_for_current_recommendation",
+    "currentRecommendations": [],
+    "newTickets": [],
+    "scope": [
+      "周六001",
+      "周六002",
+      "周六003",
+      "周六004"
+    ],
+    "historicalTicketsPreserved": true,
+    "noInPlayInformationUsed": true,
+    "sourcePackageFound": false,
+    "reason": "未找到主任务新增完整赛前资料包，现有基础预览及单侧官方报道无法完成全面新分析。",
+    "matches": [
+      {
+        "number": "周六001",
+        "decision": "删除当前推荐资格；原分析作废待重审",
+        "newDirection": null,
+        "kickoff": "2026-11-07T13:00:00+08:00",
+        "excludedFromNewTicket": true,
+        "missing": [
+          "双方本场阵容/伤停与实际替代者",
+          "战术对位与机会质量原始证据",
+          "分钟负荷、轮换与旅行影响",
+          "最初开盘及变化背景（07:45只是观察快照）",
+          "当前开赛/在售/资格快照",
+          "横滨11月5日伤情公告正文、影响和替代者；对手强度实质校正"
+        ],
+        "strongestCounter": "近期连续平局、主队伤情线索未核实；冈山客场并非仅有弱势样本"
+      },
+      {
+        "number": "周六002",
+        "decision": "删除当前推荐资格；原分析作废待重审",
+        "newDirection": null,
+        "kickoff": "2026-11-07T13:00:00+08:00",
+        "excludedFromNewTicket": true,
+        "missing": [
+          "双方本场阵容/伤停与实际替代者",
+          "战术对位与机会质量原始证据",
+          "分钟负荷、轮换与旅行影响",
+          "最初开盘及变化背景（07:45只是观察快照）",
+          "当前开赛/在售/资格快照",
+          "鸟栖官方赛前正文（原采集403）；主强客强冲突解释"
+        ],
+        "strongestCounter": "鸟栖近10主场8胜2负，市场向鸟栖移动；杯赛4:0不能在无阵容资料下自动降权"
+      },
+      {
+        "number": "周六003",
+        "decision": "删除当前推荐资格；原分析及让胜作废待重审",
+        "newDirection": null,
+        "kickoff": "2026-11-07T15:00:00+08:00",
+        "excludedFromNewTicket": true,
+        "missing": [
+          "双方本场阵容/伤停与实际替代者",
+          "战术对位与机会质量原始证据",
+          "分钟负荷、轮换与旅行影响",
+          "最初开盘及变化背景（07:45只是观察快照）",
+          "当前开赛/在售/资格快照",
+          "柏实际轮换与体能影响；双方官方赛前实质资料；对手强度校正"
+        ],
+        "strongestCounter": "川崎连续17场进球且多两天恢复；柏零封和大胜不能直接证明本场穿盘"
+      },
+      {
+        "number": "周六004",
+        "decision": "删除当前推荐资格；原分析作废待重审",
+        "newDirection": null,
+        "kickoff": "2026-11-07T15:30:00+08:00",
+        "excludedFromNewTicket": true,
+        "missing": [
+          "双方本场阵容/伤停与实际替代者",
+          "战术对位与机会质量原始证据",
+          "分钟负荷、轮换与旅行影响",
+          "最初开盘及变化背景（07:45只是观察快照）",
+          "当前开赛/在售/资格快照",
+          "安养官方正文（原采集失败）；双边近期及主客场完整分布与对手强度"
+        ],
+        "strongestCounter": "五场不败不证明客胜优先；金泉中场取胜路径未排除"
+      }
+    ],
+    "handicapAudit": {
+      "homeHandicap": -1,
+      "handicapWin": "主队净胜至少2球",
+      "handicapDraw": "主队恰好净胜1球",
+      "handicapLoss": "平局或客胜",
+      "conclusion": "四场三方向边界已复核；没有资料支持自动反选、普通胜升级穿盘或默认让平。"
+    },
+    "outcome": "原始资料复核与缺口检查完成；全面新分析未完成；2.0/3.0均无合格新票。"
   }
 }
