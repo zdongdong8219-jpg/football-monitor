@@ -12,8 +12,8 @@
   "finalLocked": false,
   "mobileVerified": false,
   "completed": false,
-  "earlyCompleted": false,
-  "earlyMobileVerified": false,
+  "earlyCompleted": true,
+  "earlyMobileVerified": true,
   "researchComplete": false,
   "scanDecisionComplete": true,
   "summary": "4场早场相对方向。官方过关字段冲突，2.0/3.0及梦想组合暂未发布；中晚场12:45继续，终版不早于14:00。",
@@ -1744,5 +1744,7 @@
     "2026-11-07-early-scan.png": "7a748a9c8b95c40741bd5f9c9b2b5a55dbb02bf36fc52b8f1b5240fd2709dffc",
     "2026-11-07-early-tracking.png": "dd3faf078a1bd11b0066d8f538419f961402790ab8f218f9387eca8c977efe72"
   },
-  "deliveryManifest": "data/research/2026-11-07/approved-four-image-manifest.json"
+  "deliveryManifest": "data/research/2026-11-07/approved-four-image-manifest.json",
+  "onlineVerifiedAt": "2026-11-07T00:01:13.210Z",
+  "verificationScope": "430px browser emulation and actual clipboard PNG pixel hashes; not physical handset"
 }

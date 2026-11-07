@@ -1,0 +1,1750 @@
+{
+  "date": "2026-11-07",
+  "saleDate": "2026-11-07",
+  "infoOnly": true,
+  "generatedAt": "2026-11-06T23:50:07.702Z",
+  "analysisAsOf": "2026-11-06T23:50:07.702Z",
+  "publishedAt": "2026-11-06T23:54:38.137Z",
+  "edition": "early",
+  "deliveryStage": "early",
+  "batchLabel": "07:45早场批 · 资格冲突仅扫盘",
+  "batchFinal": true,
+  "finalLocked": false,
+  "mobileVerified": false,
+  "completed": false,
+  "earlyCompleted": true,
+  "earlyMobileVerified": true,
+  "researchComplete": false,
+  "scanDecisionComplete": true,
+  "summary": "4场早场相对方向。官方过关字段冲突，2.0/3.0及梦想组合暂未发布；中晚场12:45继续，终版不早于14:00。",
+  "scanTable": [
+    {
+      "number": "周六001",
+      "id": "2042582",
+      "officialMatchId": 2042582,
+      "home": "横滨水手",
+      "away": "冈山绿雉",
+      "teams": "横滨水手 : 冈山绿雉",
+      "league": "日职",
+      "kickoff": "2026-11-07T13:00:00+08:00",
+      "saleDate": "2026-11-07",
+      "batch": "早场",
+      "primaryPick": "胜/平",
+      "buy": "胜/平",
+      "selection": "胜/平",
+      "speculative": "胜",
+      "handicap": -1,
+      "spf": {
+        "win": 2.16,
+        "draw": 3.3,
+        "lose": 2.68
+      },
+      "goals": "3/2/4",
+      "halfFull": "平胜/平平",
+      "score": "2:1/1:1/2:2",
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "analysis": "横滨近5场进9失6，冈山进6失12；先评主队1至2球中心、3球尾，客队0至1球中心及2球反击尾。横滨对川崎4:2及冈山连续丢多球支持主胜优先，但横滨近5场3平、曾对千叶0:0、对东京绿茵2:2，破门停滞和领先守不住均使平局保险必要。",
+      "risk": "冈山2:0水户只说明能击败较弱对手；对东京0:4和神户0:3有对手强度影响。横滨最近4:2不能掩盖6失球，冈山先得分可推翻主场景。",
+      "highVarianceScenario": "主-1：普通胜需净胜1+，穿盘需2+，让平恰1。横滨守局与连续平局不支持净胜2+优于普通胜；也无独立证据把恰1集中为首选。博普通胜严格收窄胜/平，非比分反推。",
+      "rotationAssessment": "公开新闻已查，未取得完整首发；未知不冒充伤停。",
+      "insuranceAudit": {
+        "decision": "横滨近5场进9失6，冈山进6失12；先评主队1至2球中心、3球尾，客队0至1球中心及2球反击尾。横滨对川崎4:2及冈山连续丢多球支持主胜优先，但横滨近5场3平、曾对千叶0:0、对东京绿茵2:2，破门停滞和领先守不住均使平局保险必要。",
+        "counterEvidence": "冈山2:0水户只说明能击败较弱对手；对东京0:4和神户0:3有对手强度影响。横滨最近4:2不能掩盖6失球，冈山先得分可推翻主场景。"
+      },
+      "analysisAt": "2026-11-06T23:50:07.702Z",
+      "sources": [
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54480021",
+          "checkedAt": "2026-11-06T23:48:36.248Z",
+          "sha256": "710fb8115ad0e4133164f76bfca9a61ecee36d8cf49efb3ce72f5ddc2610ae49"
+        }
+      ],
+      "methodReview": {
+        "analysisSequence": "双方进球能力→区间→胜负→净胜边界→候选",
+        "goalsRationale": "横滨近5场进9失6，冈山进6失12；先评主队1至2球中心、3球尾，客队0至1球中心及2球反击尾。横滨对川崎4:2及冈山连续丢多球支持主胜优先，但横滨近5场3平、曾对千叶0:0、对东京绿茵2:2，破门停滞和领先守不住均使平局保险必要。",
+        "marginAssessment": "主-1：普通胜需净胜1+，穿盘需2+，让平恰1。横滨守局与连续平局不支持净胜2+优于普通胜；也无独立证据把恰1集中为首选。博普通胜严格收窄胜/平，非比分反推。",
+        "halfFullCandidateAudit": "无独立半场数据，展示仅剧本，不入核心"
+      },
+      "probabilityMethod": "分析仅定性排序；marketImpliedProbability为官方报价倒数归一化市场参考，非校准胜率。",
+      "eligibility": "两官方端点过关字段冲突，仅扫盘，未确认可组合",
+      "projectStarAudit": {
+        "direction": "冈山2:0水户只说明能击败较弱对手；对东京0:4和神户0:3有对手强度影响。横滨最近4:2不能掩盖6失球，冈山先得分可推翻主场景。",
+        "speculative": "主-1：普通胜需净胜1+，穿盘需2+，让平恰1。横滨守局与连续平局不支持净胜2+优于普通胜；也无独立证据把恰1集中为首选。博普通胜严格收窄胜/平，非比分反推。",
+        "goals": "定性场景无校准",
+        "halfFull": "无独立半场数据",
+        "score": "低权重展示场景，未反推方向"
+      },
+      "marketImpliedProbability": {
+        "h": 40.64,
+        "d": 26.6,
+        "a": 32.76
+      }
+    },
+    {
+      "number": "周六002",
+      "id": "2042583",
+      "officialMatchId": 2042583,
+      "home": "鸟栖沙岩",
+      "away": "富山胜利",
+      "teams": "鸟栖沙岩 : 富山胜利",
+      "league": "日乙",
+      "kickoff": "2026-11-07T13:00:00+08:00",
+      "saleDate": "2026-11-07",
+      "batch": "早场",
+      "primaryPick": "负",
+      "buy": "负",
+      "selection": "负",
+      "speculative": "无",
+      "handicap": -1,
+      "spf": {
+        "win": 2.21,
+        "draw": 3.31,
+        "lose": 2.6
+      },
+      "goals": "2/3/1",
+      "halfFull": "平负/负负",
+      "score": "0:1/1:2/0:2",
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "analysis": "鸟栖近5场6进5失、本季15轮15球，主队0至1球为中心。富山近5场8进4失、本季27进14失，客场6胜1负，客队1至2球中心。富山最近客胜新潟3:2与大宫3:0支持客队进攻，鸟栖主场5胜2负则是明确反证。相对客胜先，主胜次；双方近期均少平，不机械加平。",
+      "risk": "鸟栖主场近10场8胜2负及八月杯赛4:0富山不可忽略；杯赛阵容不同，不能单场外推。富山对札幌0:1说明仍有零进球尾。双方均11月3日出赛，短休可能降低输出。",
+      "highVarianceScenario": "主-1让负覆盖主不胜，范围大于推荐客胜，不能作博。官方主-1下客胜没有合法更窄让球方向；本场不提供无据博方向。",
+      "rotationAssessment": "公开新闻已查，未取得完整首发；未知不冒充伤停。",
+      "insuranceAudit": {
+        "decision": "鸟栖近5场6进5失、本季15轮15球，主队0至1球为中心。富山近5场8进4失、本季27进14失，客场6胜1负，客队1至2球中心。富山最近客胜新潟3:2与大宫3:0支持客队进攻，鸟栖主场5胜2负则是明确反证。相对客胜先，主胜次；双方近期均少平，不机械加平。",
+        "counterEvidence": "鸟栖主场近10场8胜2负及八月杯赛4:0富山不可忽略；杯赛阵容不同，不能单场外推。富山对札幌0:1说明仍有零进球尾。双方均11月3日出赛，短休可能降低输出。"
+      },
+      "analysisAt": "2026-11-06T23:50:07.702Z",
+      "sources": [
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54480408",
+          "checkedAt": "2026-11-06T23:48:35.785Z",
+          "sha256": "f1b4f77c96485e833e9711a349b5441b7ed134552ec90ba10a84df91db3c51e1"
+        }
+      ],
+      "methodReview": {
+        "analysisSequence": "双方进球能力→区间→胜负→净胜边界→候选",
+        "goalsRationale": "鸟栖近5场6进5失、本季15轮15球，主队0至1球为中心。富山近5场8进4失、本季27进14失，客场6胜1负，客队1至2球中心。富山最近客胜新潟3:2与大宫3:0支持客队进攻，鸟栖主场5胜2负则是明确反证。相对客胜先，主胜次；双方近期均少平，不机械加平。",
+        "marginAssessment": "主-1让负覆盖主不胜，范围大于推荐客胜，不能作博。官方主-1下客胜没有合法更窄让球方向；本场不提供无据博方向。",
+        "halfFullCandidateAudit": "无独立半场数据，展示仅剧本，不入核心"
+      },
+      "probabilityMethod": "分析仅定性排序；marketImpliedProbability为官方报价倒数归一化市场参考，非校准胜率。",
+      "eligibility": "两官方端点过关字段冲突，仅扫盘，未确认可组合",
+      "projectStarAudit": {
+        "direction": "鸟栖主场近10场8胜2负及八月杯赛4:0富山不可忽略；杯赛阵容不同，不能单场外推。富山对札幌0:1说明仍有零进球尾。双方均11月3日出赛，短休可能降低输出。",
+        "speculative": "主-1让负覆盖主不胜，范围大于推荐客胜，不能作博。官方主-1下客胜没有合法更窄让球方向；本场不提供无据博方向。",
+        "goals": "定性场景无校准",
+        "halfFull": "无独立半场数据",
+        "score": "低权重展示场景，未反推方向"
+      },
+      "marketImpliedProbability": {
+        "h": 39.72,
+        "d": 26.52,
+        "a": 33.76
+      },
+      "speculativeWithheldReason": "主-1让负覆盖主不胜，范围大于推荐客胜，不能作博。官方主-1下客胜没有合法更窄让球方向；本场不提供无据博方向。"
+    },
+    {
+      "number": "周六003",
+      "id": "2042584",
+      "officialMatchId": 2042584,
+      "home": "柏太阳神",
+      "away": "川崎前锋",
+      "teams": "柏太阳神 : 川崎前锋",
+      "league": "日职",
+      "kickoff": "2026-11-07T15:00:00+08:00",
+      "saleDate": "2026-11-07",
+      "batch": "早场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让胜",
+      "handicap": -1,
+      "spf": {
+        "win": 2.02,
+        "draw": 3.7,
+        "lose": 2.67
+      },
+      "goals": "3/4/2",
+      "halfFull": "平胜/胜胜",
+      "score": "2:1/3:1/3:2",
+      "outcomeRanking": [
+        "胜",
+        "负",
+        "平"
+      ],
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "analysis": "柏近5场9进2失、近10场场均2.8进1.2失；川崎近5场14进8失且连续17场进球。主队1至3球、客队1至2球为主要定性区间，不能假定双方进球独立。柏连续零封与胜鹿岛/浦和支持主胜略先，川崎客场防线暴露但对神户也能胜，客胜反证强于一般防平，零星观察。",
+      "risk": "柏11月3日参加亚冠，川崎11月1日后休息更长；柏零封含不同赛事和弱攻对手，不能直接外推零封川崎。未确认首发轮换。",
+      "highVarianceScenario": "主-1普通胜与净胜2+分开。柏4:0浦和及2:0大田、近期高进球提供扩大优势路径，因此让胜只作低信心高方差情景；川崎17场连续进球和柏短休使穿盘显著脆弱，不入核心。恰1让平无独立集中边界。",
+      "rotationAssessment": "公开新闻已查，未取得完整首发；未知不冒充伤停。",
+      "insuranceAudit": {
+        "decision": "柏近5场9进2失、近10场场均2.8进1.2失；川崎近5场14进8失且连续17场进球。主队1至3球、客队1至2球为主要定性区间，不能假定双方进球独立。柏连续零封与胜鹿岛/浦和支持主胜略先，川崎客场防线暴露但对神户也能胜，客胜反证强于一般防平，零星观察。",
+        "counterEvidence": "柏11月3日参加亚冠，川崎11月1日后休息更长；柏零封含不同赛事和弱攻对手，不能直接外推零封川崎。未确认首发轮换。"
+      },
+      "analysisAt": "2026-11-06T23:50:07.702Z",
+      "sources": [
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54479962",
+          "checkedAt": "2026-11-06T23:48:35.716Z",
+          "sha256": "6d7bf0ac09b6cf26d9278e7fc4334a5fcefc82ff01558d40c5bc12e4af82527f"
+        }
+      ],
+      "methodReview": {
+        "analysisSequence": "双方进球能力→区间→胜负→净胜边界→候选",
+        "goalsRationale": "柏近5场9进2失、近10场场均2.8进1.2失；川崎近5场14进8失且连续17场进球。主队1至3球、客队1至2球为主要定性区间，不能假定双方进球独立。柏连续零封与胜鹿岛/浦和支持主胜略先，川崎客场防线暴露但对神户也能胜，客胜反证强于一般防平，零星观察。",
+        "marginAssessment": "主-1普通胜与净胜2+分开。柏4:0浦和及2:0大田、近期高进球提供扩大优势路径，因此让胜只作低信心高方差情景；川崎17场连续进球和柏短休使穿盘显著脆弱，不入核心。恰1让平无独立集中边界。",
+        "halfFullCandidateAudit": "无独立半场数据，展示仅剧本，不入核心"
+      },
+      "probabilityMethod": "分析仅定性排序；marketImpliedProbability为官方报价倒数归一化市场参考，非校准胜率。",
+      "eligibility": "两官方端点过关字段冲突，仅扫盘，未确认可组合",
+      "projectStarAudit": {
+        "direction": "柏11月3日参加亚冠，川崎11月1日后休息更长；柏零封含不同赛事和弱攻对手，不能直接外推零封川崎。未确认首发轮换。",
+        "speculative": "主-1普通胜与净胜2+分开。柏4:0浦和及2:0大田、近期高进球提供扩大优势路径，因此让胜只作低信心高方差情景；川崎17场连续进球和柏短休使穿盘显著脆弱，不入核心。恰1让平无独立集中边界。",
+        "goals": "定性场景无校准",
+        "halfFull": "无独立半场数据",
+        "score": "低权重展示场景，未反推方向"
+      },
+      "marketImpliedProbability": {
+        "h": 43.43,
+        "d": 23.71,
+        "a": 32.86
+      }
+    },
+    {
+      "number": "周六004",
+      "id": "2042585",
+      "officialMatchId": 2042585,
+      "home": "金泉尚武",
+      "away": "安养FC",
+      "teams": "金泉尚武 : 安养FC",
+      "league": "韩职",
+      "kickoff": "2026-11-07T15:30:00+08:00",
+      "saleDate": "2026-11-07",
+      "batch": "早场",
+      "primaryPick": "负/平",
+      "buy": "负/平",
+      "selection": "负/平",
+      "speculative": "负",
+      "handicap": -1,
+      "spf": {
+        "win": 2.23,
+        "draw": 3.15,
+        "lose": 2.68
+      },
+      "goals": "2/3/1",
+      "halfFull": "平负/平平",
+      "score": "1:2/1:1/0:1",
+      "outcomeRanking": [
+        "负",
+        "平",
+        "胜"
+      ],
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "analysis": "金泉官方赛前明确安养5场不败，外援与本土球员共同形成攻击威胁；金泉需依靠朴泰俊等控制中场及卞俊殊、金民奎、安俊洙防线集中。双方都有进球路径，仅作主0至1、客1至2的低信心区间，缺完整双边数量序列。倾向安养不败，客胜先，金泉中场控制与安养不败不等于连胜使平局保险保留。",
+      "risk": "金泉主场及新兵可能出场构成上行，不能将安养不败夸成净胜能力；安养官网抓取失败，名单及客场独立序列未补齐。",
+      "highVarianceScenario": "主-1让负包含主不胜，普通负/平表达实际排序；博负收窄主场景。缺安养净胜集中边界，不选穿盘；让平为金泉恰赢1，与主场景不相容。",
+      "rotationAssessment": "公开新闻已查，未取得完整首发；未知不冒充伤停。",
+      "insuranceAudit": {
+        "decision": "金泉官方赛前明确安养5场不败，外援与本土球员共同形成攻击威胁；金泉需依靠朴泰俊等控制中场及卞俊殊、金民奎、安俊洙防线集中。双方都有进球路径，仅作主0至1、客1至2的低信心区间，缺完整双边数量序列。倾向安养不败，客胜先，金泉中场控制与安养不败不等于连胜使平局保险保留。",
+        "counterEvidence": "金泉主场及新兵可能出场构成上行，不能将安养不败夸成净胜能力；安养官网抓取失败，名单及客场独立序列未补齐。"
+      },
+      "analysisAt": "2026-11-06T23:50:07.702Z",
+      "sources": [
+        {
+          "url": "https://www.gimcheonfc.com/bd/bd_v.php?page=1&wr_id=484&buid=news05&s_field=wr_subject&s_value=",
+          "checkedAt": "2026-11-06T23:48:36.078Z",
+          "sha256": "c9dab4d96aff29cf8574d6335e12061d5e7ca2dd39feb3bc669bc06bb91514db"
+        }
+      ],
+      "methodReview": {
+        "analysisSequence": "双方进球能力→区间→胜负→净胜边界→候选",
+        "goalsRationale": "金泉官方赛前明确安养5场不败，外援与本土球员共同形成攻击威胁；金泉需依靠朴泰俊等控制中场及卞俊殊、金民奎、安俊洙防线集中。双方都有进球路径，仅作主0至1、客1至2的低信心区间，缺完整双边数量序列。倾向安养不败，客胜先，金泉中场控制与安养不败不等于连胜使平局保险保留。",
+        "marginAssessment": "主-1让负包含主不胜，普通负/平表达实际排序；博负收窄主场景。缺安养净胜集中边界，不选穿盘；让平为金泉恰赢1，与主场景不相容。",
+        "halfFullCandidateAudit": "无独立半场数据，展示仅剧本，不入核心"
+      },
+      "probabilityMethod": "分析仅定性排序；marketImpliedProbability为官方报价倒数归一化市场参考，非校准胜率。",
+      "eligibility": "两官方端点过关字段冲突，仅扫盘，未确认可组合",
+      "projectStarAudit": {
+        "direction": "金泉主场及新兵可能出场构成上行，不能将安养不败夸成净胜能力；安养官网抓取失败，名单及客场独立序列未补齐。",
+        "speculative": "主-1让负包含主不胜，普通负/平表达实际排序；博负收窄主场景。缺安养净胜集中边界，不选穿盘；让平为金泉恰赢1，与主场景不相容。",
+        "goals": "定性场景无校准",
+        "halfFull": "无独立半场数据",
+        "score": "低权重展示场景，未反推方向"
+      },
+      "marketImpliedProbability": {
+        "h": 39.37,
+        "d": 27.87,
+        "a": 32.76
+      }
+    }
+  ],
+  "matchAnalysis": [
+    {
+      "number": "周六001",
+      "id": "2042582",
+      "officialMatchId": 2042582,
+      "home": "横滨水手",
+      "away": "冈山绿雉",
+      "teams": "横滨水手 : 冈山绿雉",
+      "league": "日职",
+      "kickoff": "2026-11-07T13:00:00+08:00",
+      "saleDate": "2026-11-07",
+      "batch": "早场",
+      "primaryPick": "胜/平",
+      "buy": "胜/平",
+      "selection": "胜/平",
+      "speculative": "胜",
+      "handicap": -1,
+      "spf": {
+        "win": 2.16,
+        "draw": 3.3,
+        "lose": 2.68
+      },
+      "goals": "3/2/4",
+      "halfFull": "平胜/平平",
+      "score": "2:1/1:1/2:2",
+      "outcomeRanking": [
+        "胜",
+        "平",
+        "负"
+      ],
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "analysis": "横滨近5场进9失6，冈山进6失12；先评主队1至2球中心、3球尾，客队0至1球中心及2球反击尾。横滨对川崎4:2及冈山连续丢多球支持主胜优先，但横滨近5场3平、曾对千叶0:0、对东京绿茵2:2，破门停滞和领先守不住均使平局保险必要。",
+      "risk": "冈山2:0水户只说明能击败较弱对手；对东京0:4和神户0:3有对手强度影响。横滨最近4:2不能掩盖6失球，冈山先得分可推翻主场景。",
+      "highVarianceScenario": "主-1：普通胜需净胜1+，穿盘需2+，让平恰1。横滨守局与连续平局不支持净胜2+优于普通胜；也无独立证据把恰1集中为首选。博普通胜严格收窄胜/平，非比分反推。",
+      "rotationAssessment": "公开新闻已查，未取得完整首发；未知不冒充伤停。",
+      "insuranceAudit": {
+        "decision": "横滨近5场进9失6，冈山进6失12；先评主队1至2球中心、3球尾，客队0至1球中心及2球反击尾。横滨对川崎4:2及冈山连续丢多球支持主胜优先，但横滨近5场3平、曾对千叶0:0、对东京绿茵2:2，破门停滞和领先守不住均使平局保险必要。",
+        "counterEvidence": "冈山2:0水户只说明能击败较弱对手；对东京0:4和神户0:3有对手强度影响。横滨最近4:2不能掩盖6失球，冈山先得分可推翻主场景。"
+      },
+      "analysisAt": "2026-11-06T23:50:07.702Z",
+      "sources": [
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54480021",
+          "checkedAt": "2026-11-06T23:48:36.248Z",
+          "sha256": "710fb8115ad0e4133164f76bfca9a61ecee36d8cf49efb3ce72f5ddc2610ae49"
+        }
+      ],
+      "methodReview": {
+        "analysisSequence": "双方进球能力→区间→胜负→净胜边界→候选",
+        "goalsRationale": "横滨近5场进9失6，冈山进6失12；先评主队1至2球中心、3球尾，客队0至1球中心及2球反击尾。横滨对川崎4:2及冈山连续丢多球支持主胜优先，但横滨近5场3平、曾对千叶0:0、对东京绿茵2:2，破门停滞和领先守不住均使平局保险必要。",
+        "marginAssessment": "主-1：普通胜需净胜1+，穿盘需2+，让平恰1。横滨守局与连续平局不支持净胜2+优于普通胜；也无独立证据把恰1集中为首选。博普通胜严格收窄胜/平，非比分反推。",
+        "halfFullCandidateAudit": "无独立半场数据，展示仅剧本，不入核心"
+      },
+      "probabilityMethod": "分析仅定性排序；marketImpliedProbability为官方报价倒数归一化市场参考，非校准胜率。",
+      "eligibility": "两官方端点过关字段冲突，仅扫盘，未确认可组合",
+      "projectStarAudit": {
+        "direction": "冈山2:0水户只说明能击败较弱对手；对东京0:4和神户0:3有对手强度影响。横滨最近4:2不能掩盖6失球，冈山先得分可推翻主场景。",
+        "speculative": "主-1：普通胜需净胜1+，穿盘需2+，让平恰1。横滨守局与连续平局不支持净胜2+优于普通胜；也无独立证据把恰1集中为首选。博普通胜严格收窄胜/平，非比分反推。",
+        "goals": "定性场景无校准",
+        "halfFull": "无独立半场数据",
+        "score": "低权重展示场景，未反推方向"
+      },
+      "marketImpliedProbability": {
+        "h": 40.64,
+        "d": 26.6,
+        "a": 32.76
+      }
+    },
+    {
+      "number": "周六002",
+      "id": "2042583",
+      "officialMatchId": 2042583,
+      "home": "鸟栖沙岩",
+      "away": "富山胜利",
+      "teams": "鸟栖沙岩 : 富山胜利",
+      "league": "日乙",
+      "kickoff": "2026-11-07T13:00:00+08:00",
+      "saleDate": "2026-11-07",
+      "batch": "早场",
+      "primaryPick": "负",
+      "buy": "负",
+      "selection": "负",
+      "speculative": "无",
+      "handicap": -1,
+      "spf": {
+        "win": 2.21,
+        "draw": 3.31,
+        "lose": 2.6
+      },
+      "goals": "2/3/1",
+      "halfFull": "平负/负负",
+      "score": "0:1/1:2/0:2",
+      "outcomeRanking": [
+        "负",
+        "胜",
+        "平"
+      ],
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "analysis": "鸟栖近5场6进5失、本季15轮15球，主队0至1球为中心。富山近5场8进4失、本季27进14失，客场6胜1负，客队1至2球中心。富山最近客胜新潟3:2与大宫3:0支持客队进攻，鸟栖主场5胜2负则是明确反证。相对客胜先，主胜次；双方近期均少平，不机械加平。",
+      "risk": "鸟栖主场近10场8胜2负及八月杯赛4:0富山不可忽略；杯赛阵容不同，不能单场外推。富山对札幌0:1说明仍有零进球尾。双方均11月3日出赛，短休可能降低输出。",
+      "highVarianceScenario": "主-1让负覆盖主不胜，范围大于推荐客胜，不能作博。官方主-1下客胜没有合法更窄让球方向；本场不提供无据博方向。",
+      "rotationAssessment": "公开新闻已查，未取得完整首发；未知不冒充伤停。",
+      "insuranceAudit": {
+        "decision": "鸟栖近5场6进5失、本季15轮15球，主队0至1球为中心。富山近5场8进4失、本季27进14失，客场6胜1负，客队1至2球中心。富山最近客胜新潟3:2与大宫3:0支持客队进攻，鸟栖主场5胜2负则是明确反证。相对客胜先，主胜次；双方近期均少平，不机械加平。",
+        "counterEvidence": "鸟栖主场近10场8胜2负及八月杯赛4:0富山不可忽略；杯赛阵容不同，不能单场外推。富山对札幌0:1说明仍有零进球尾。双方均11月3日出赛，短休可能降低输出。"
+      },
+      "analysisAt": "2026-11-06T23:50:07.702Z",
+      "sources": [
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54480408",
+          "checkedAt": "2026-11-06T23:48:35.785Z",
+          "sha256": "f1b4f77c96485e833e9711a349b5441b7ed134552ec90ba10a84df91db3c51e1"
+        }
+      ],
+      "methodReview": {
+        "analysisSequence": "双方进球能力→区间→胜负→净胜边界→候选",
+        "goalsRationale": "鸟栖近5场6进5失、本季15轮15球，主队0至1球为中心。富山近5场8进4失、本季27进14失，客场6胜1负，客队1至2球中心。富山最近客胜新潟3:2与大宫3:0支持客队进攻，鸟栖主场5胜2负则是明确反证。相对客胜先，主胜次；双方近期均少平，不机械加平。",
+        "marginAssessment": "主-1让负覆盖主不胜，范围大于推荐客胜，不能作博。官方主-1下客胜没有合法更窄让球方向；本场不提供无据博方向。",
+        "halfFullCandidateAudit": "无独立半场数据，展示仅剧本，不入核心"
+      },
+      "probabilityMethod": "分析仅定性排序；marketImpliedProbability为官方报价倒数归一化市场参考，非校准胜率。",
+      "eligibility": "两官方端点过关字段冲突，仅扫盘，未确认可组合",
+      "projectStarAudit": {
+        "direction": "鸟栖主场近10场8胜2负及八月杯赛4:0富山不可忽略；杯赛阵容不同，不能单场外推。富山对札幌0:1说明仍有零进球尾。双方均11月3日出赛，短休可能降低输出。",
+        "speculative": "主-1让负覆盖主不胜，范围大于推荐客胜，不能作博。官方主-1下客胜没有合法更窄让球方向；本场不提供无据博方向。",
+        "goals": "定性场景无校准",
+        "halfFull": "无独立半场数据",
+        "score": "低权重展示场景，未反推方向"
+      },
+      "marketImpliedProbability": {
+        "h": 39.72,
+        "d": 26.52,
+        "a": 33.76
+      },
+      "speculativeWithheldReason": "主-1让负覆盖主不胜，范围大于推荐客胜，不能作博。官方主-1下客胜没有合法更窄让球方向；本场不提供无据博方向。"
+    },
+    {
+      "number": "周六003",
+      "id": "2042584",
+      "officialMatchId": 2042584,
+      "home": "柏太阳神",
+      "away": "川崎前锋",
+      "teams": "柏太阳神 : 川崎前锋",
+      "league": "日职",
+      "kickoff": "2026-11-07T15:00:00+08:00",
+      "saleDate": "2026-11-07",
+      "batch": "早场",
+      "primaryPick": "胜",
+      "buy": "胜",
+      "selection": "胜",
+      "speculative": "让胜",
+      "handicap": -1,
+      "spf": {
+        "win": 2.02,
+        "draw": 3.7,
+        "lose": 2.67
+      },
+      "goals": "3/4/2",
+      "halfFull": "平胜/胜胜",
+      "score": "2:1/3:1/3:2",
+      "outcomeRanking": [
+        "胜",
+        "负",
+        "平"
+      ],
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "analysis": "柏近5场9进2失、近10场场均2.8进1.2失；川崎近5场14进8失且连续17场进球。主队1至3球、客队1至2球为主要定性区间，不能假定双方进球独立。柏连续零封与胜鹿岛/浦和支持主胜略先，川崎客场防线暴露但对神户也能胜，客胜反证强于一般防平，零星观察。",
+      "risk": "柏11月3日参加亚冠，川崎11月1日后休息更长；柏零封含不同赛事和弱攻对手，不能直接外推零封川崎。未确认首发轮换。",
+      "highVarianceScenario": "主-1普通胜与净胜2+分开。柏4:0浦和及2:0大田、近期高进球提供扩大优势路径，因此让胜只作低信心高方差情景；川崎17场连续进球和柏短休使穿盘显著脆弱，不入核心。恰1让平无独立集中边界。",
+      "rotationAssessment": "公开新闻已查，未取得完整首发；未知不冒充伤停。",
+      "insuranceAudit": {
+        "decision": "柏近5场9进2失、近10场场均2.8进1.2失；川崎近5场14进8失且连续17场进球。主队1至3球、客队1至2球为主要定性区间，不能假定双方进球独立。柏连续零封与胜鹿岛/浦和支持主胜略先，川崎客场防线暴露但对神户也能胜，客胜反证强于一般防平，零星观察。",
+        "counterEvidence": "柏11月3日参加亚冠，川崎11月1日后休息更长；柏零封含不同赛事和弱攻对手，不能直接外推零封川崎。未确认首发轮换。"
+      },
+      "analysisAt": "2026-11-06T23:50:07.702Z",
+      "sources": [
+        {
+          "url": "https://m.dongqiudi.com/en/preview/54479962",
+          "checkedAt": "2026-11-06T23:48:35.716Z",
+          "sha256": "6d7bf0ac09b6cf26d9278e7fc4334a5fcefc82ff01558d40c5bc12e4af82527f"
+        }
+      ],
+      "methodReview": {
+        "analysisSequence": "双方进球能力→区间→胜负→净胜边界→候选",
+        "goalsRationale": "柏近5场9进2失、近10场场均2.8进1.2失；川崎近5场14进8失且连续17场进球。主队1至3球、客队1至2球为主要定性区间，不能假定双方进球独立。柏连续零封与胜鹿岛/浦和支持主胜略先，川崎客场防线暴露但对神户也能胜，客胜反证强于一般防平，零星观察。",
+        "marginAssessment": "主-1普通胜与净胜2+分开。柏4:0浦和及2:0大田、近期高进球提供扩大优势路径，因此让胜只作低信心高方差情景；川崎17场连续进球和柏短休使穿盘显著脆弱，不入核心。恰1让平无独立集中边界。",
+        "halfFullCandidateAudit": "无独立半场数据，展示仅剧本，不入核心"
+      },
+      "probabilityMethod": "分析仅定性排序；marketImpliedProbability为官方报价倒数归一化市场参考，非校准胜率。",
+      "eligibility": "两官方端点过关字段冲突，仅扫盘，未确认可组合",
+      "projectStarAudit": {
+        "direction": "柏11月3日参加亚冠，川崎11月1日后休息更长；柏零封含不同赛事和弱攻对手，不能直接外推零封川崎。未确认首发轮换。",
+        "speculative": "主-1普通胜与净胜2+分开。柏4:0浦和及2:0大田、近期高进球提供扩大优势路径，因此让胜只作低信心高方差情景；川崎17场连续进球和柏短休使穿盘显著脆弱，不入核心。恰1让平无独立集中边界。",
+        "goals": "定性场景无校准",
+        "halfFull": "无独立半场数据",
+        "score": "低权重展示场景，未反推方向"
+      },
+      "marketImpliedProbability": {
+        "h": 43.43,
+        "d": 23.71,
+        "a": 32.86
+      }
+    },
+    {
+      "number": "周六004",
+      "id": "2042585",
+      "officialMatchId": 2042585,
+      "home": "金泉尚武",
+      "away": "安养FC",
+      "teams": "金泉尚武 : 安养FC",
+      "league": "韩职",
+      "kickoff": "2026-11-07T15:30:00+08:00",
+      "saleDate": "2026-11-07",
+      "batch": "早场",
+      "primaryPick": "负/平",
+      "buy": "负/平",
+      "selection": "负/平",
+      "speculative": "负",
+      "handicap": -1,
+      "spf": {
+        "win": 2.23,
+        "draw": 3.15,
+        "lose": 2.68
+      },
+      "goals": "2/3/1",
+      "halfFull": "平负/平平",
+      "score": "1:2/1:1/0:1",
+      "outcomeRanking": [
+        "负",
+        "平",
+        "胜"
+      ],
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "projectStarColors": {
+        "direction": "none",
+        "speculative": "none",
+        "goals": "none",
+        "halfFull": "none",
+        "score": "none"
+      },
+      "analysis": "金泉官方赛前明确安养5场不败，外援与本土球员共同形成攻击威胁；金泉需依靠朴泰俊等控制中场及卞俊殊、金民奎、安俊洙防线集中。双方都有进球路径，仅作主0至1、客1至2的低信心区间，缺完整双边数量序列。倾向安养不败，客胜先，金泉中场控制与安养不败不等于连胜使平局保险保留。",
+      "risk": "金泉主场及新兵可能出场构成上行，不能将安养不败夸成净胜能力；安养官网抓取失败，名单及客场独立序列未补齐。",
+      "highVarianceScenario": "主-1让负包含主不胜，普通负/平表达实际排序；博负收窄主场景。缺安养净胜集中边界，不选穿盘；让平为金泉恰赢1，与主场景不相容。",
+      "rotationAssessment": "公开新闻已查，未取得完整首发；未知不冒充伤停。",
+      "insuranceAudit": {
+        "decision": "金泉官方赛前明确安养5场不败，外援与本土球员共同形成攻击威胁；金泉需依靠朴泰俊等控制中场及卞俊殊、金民奎、安俊洙防线集中。双方都有进球路径，仅作主0至1、客1至2的低信心区间，缺完整双边数量序列。倾向安养不败，客胜先，金泉中场控制与安养不败不等于连胜使平局保险保留。",
+        "counterEvidence": "金泉主场及新兵可能出场构成上行，不能将安养不败夸成净胜能力；安养官网抓取失败，名单及客场独立序列未补齐。"
+      },
+      "analysisAt": "2026-11-06T23:50:07.702Z",
+      "sources": [
+        {
+          "url": "https://www.gimcheonfc.com/bd/bd_v.php?page=1&wr_id=484&buid=news05&s_field=wr_subject&s_value=",
+          "checkedAt": "2026-11-06T23:48:36.078Z",
+          "sha256": "c9dab4d96aff29cf8574d6335e12061d5e7ca2dd39feb3bc669bc06bb91514db"
+        }
+      ],
+      "methodReview": {
+        "analysisSequence": "双方进球能力→区间→胜负→净胜边界→候选",
+        "goalsRationale": "金泉官方赛前明确安养5场不败，外援与本土球员共同形成攻击威胁；金泉需依靠朴泰俊等控制中场及卞俊殊、金民奎、安俊洙防线集中。双方都有进球路径，仅作主0至1、客1至2的低信心区间，缺完整双边数量序列。倾向安养不败，客胜先，金泉中场控制与安养不败不等于连胜使平局保险保留。",
+        "marginAssessment": "主-1让负包含主不胜，普通负/平表达实际排序；博负收窄主场景。缺安养净胜集中边界，不选穿盘；让平为金泉恰赢1，与主场景不相容。",
+        "halfFullCandidateAudit": "无独立半场数据，展示仅剧本，不入核心"
+      },
+      "probabilityMethod": "分析仅定性排序；marketImpliedProbability为官方报价倒数归一化市场参考，非校准胜率。",
+      "eligibility": "两官方端点过关字段冲突，仅扫盘，未确认可组合",
+      "projectStarAudit": {
+        "direction": "金泉主场及新兵可能出场构成上行，不能将安养不败夸成净胜能力；安养官网抓取失败，名单及客场独立序列未补齐。",
+        "speculative": "主-1让负包含主不胜，普通负/平表达实际排序；博负收窄主场景。缺安养净胜集中边界，不选穿盘；让平为金泉恰赢1，与主场景不相容。",
+        "goals": "定性场景无校准",
+        "halfFull": "无独立半场数据",
+        "score": "低权重展示场景，未反推方向"
+      },
+      "marketImpliedProbability": {
+        "h": 39.37,
+        "d": 27.87,
+        "a": 32.76
+      }
+    }
+  ],
+  "recommendations": [],
+  "scenarioLabels": {
+    "core20": "2.0版2串1",
+    "core30": "3.0版2串1",
+    "dream6": "6场梦想串",
+    "goals4": "进球数梦想4串1"
+  },
+  "ticketClassStatus": [
+    {
+      "category": "core20",
+      "status": "blocked",
+      "reason": "两处官方过关资格标志冲突，组合暂未发布；不影响早场信息扫盘。"
+    },
+    {
+      "category": "core30",
+      "status": "blocked",
+      "reason": "两处官方过关资格标志冲突，组合暂未发布；不影响早场信息扫盘。"
+    },
+    {
+      "category": "dream6",
+      "status": "blocked",
+      "reason": "两处官方过关资格标志冲突，组合暂未发布；不影响早场信息扫盘。"
+    },
+    {
+      "category": "goals4",
+      "status": "blocked",
+      "reason": "两处官方过关资格标志冲突，组合暂未发布；不影响早场信息扫盘。"
+    }
+  ],
+  "trackingHistory": {
+    "two": [
+      {
+        "id": "2026-10-26-final-core20",
+        "date": "2026-10-26",
+        "name": "2.0版2串1",
+        "sessionLabel": "晚场",
+        "category": "core20",
+        "originalSelectionText": "周一003[胜] × 周一004[胜]",
+        "selectionText": "周一003[胜] × 周一004[胜]",
+        "status": "命中",
+        "cost": 2,
+        "returned": 3.9984,
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 1999.2,
+          "net": 999.2
+        }
+      },
+      {
+        "id": "2026-10-27-user-correction-1505-core20",
+        "date": "2026-10-27",
+        "name": "2.0版2串1",
+        "sessionLabel": "中晚场",
+        "category": "core20",
+        "originalSelectionText": "周二001[胜] × 周二010[负]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 3.683,
+        "net": 1.6829999999999998,
+        "settledSubTickets": [
+          "周二001[胜] × 周二010[负]"
+        ],
+        "detail": "周二001[胜]×周二010[负]两腿均中；整串中。原成本2元，返还3.683元，净+1.683元。",
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 1841.5,
+          "net": 841.5
+        },
+        "selectionText": "周二001[胜] × 周二010[负]"
+      },
+      {
+        "id": "2026-10-28-final-core20",
+        "date": "2026-10-28",
+        "name": "2.0版2串1",
+        "sessionLabel": "中晚场",
+        "category": "core20",
+        "originalSelectionText": "周三005[负] × 周三009[负]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周三005",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周三009",
+            "pick": "负",
+            "hit": false
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "1中2；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周三005[负] × 周三009[负]"
+      },
+      {
+        "id": "2026-10-29-final-core20",
+        "date": "2026-10-29",
+        "name": "2.0版2串1",
+        "category": "core20",
+        "originalSelectionText": "周四003[胜] × 周四004[胜]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 4.03,
+        "net": 2.0300000000000002,
+        "legHits": [
+          {
+            "number": "周四003",
+            "pick": "胜",
+            "hit": true
+          },
+          {
+            "number": "周四004",
+            "pick": "胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 2,
+        "totalLegs": 2,
+        "settledSubTickets": [
+          "2026-10-29-final-core20-1"
+        ],
+        "detail": "2中2；1/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周四003[胜] × 周四004[胜]"
+      },
+      {
+        "id": "2026-10-30-final-core20",
+        "date": "2026-10-30",
+        "name": "2.0版2串1",
+        "category": "core20",
+        "originalSelectionText": "周五004[负] × 周五001[主+1让胜]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 3.31,
+        "net": 1.31,
+        "legHits": [
+          {
+            "number": "周五004",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周五001",
+            "pick": "让胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 2,
+        "totalLegs": 2,
+        "settledSubTickets": [
+          "2026-10-30-final-core20-1"
+        ],
+        "detail": "2中2；1/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周五004[负] × 周五001[主+1让胜]"
+      },
+      {
+        "id": "2026-10-31-early-1-core20",
+        "date": "2026-10-31",
+        "name": "2.0版2串1",
+        "category": "core20",
+        "originalSelectionText": "周六001[负] × 周六024[胜]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 3.72,
+        "net": 1.7200000000000002,
+        "legHits": [
+          {
+            "number": "周六001",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周六024",
+            "pick": "胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 2,
+        "totalLegs": 2,
+        "settledSubTickets": [
+          "2026-10-31-early-1235-core20-1"
+        ],
+        "detail": "2中2；1/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周六001[负] × 周六024[胜]"
+      },
+      {
+        "id": "2026-10-31-middle-late-core20",
+        "date": "2026-10-31",
+        "name": "2.0版2串1",
+        "category": "core20",
+        "originalSelectionText": "周六024[胜] × 周六027[让负]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周六024",
+            "pick": "胜",
+            "hit": true
+          },
+          {
+            "number": "周六027",
+            "pick": "让负",
+            "hit": false
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "2中1；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周六024[胜] × 周六027[让负]"
+      },
+      {
+        "id": "2026-11-01-middle-late-core20",
+        "date": "2026-11-01",
+        "name": "2.0版2串1",
+        "sessionLabel": "中场",
+        "category": "core20",
+        "originalSelectionText": "周日013[胜] × 周日008[让胜]",
+        "selectionText": "周日013[胜] × 周日008[让胜]",
+        "status": "命中",
+        "hit": true,
+        "stake": 1000,
+        "returned": 1935,
+        "net": 935,
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 1935,
+          "net": 935
+        }
+      },
+      {
+        "id": "2026-11-02-astra-core20",
+        "date": "2026-11-02",
+        "category": "core20",
+        "name": "2.0版2串1",
+        "selectionText": "周一004[胜] × 周一003[胜]",
+        "sessionLabel": "晚场",
+        "status": "2中1",
+        "stake": 1000,
+        "returned": 0,
+        "net": -1000
+      },
+      {
+        "id": "2026-11-03-final-core20",
+        "date": "2026-11-03",
+        "category": "core20",
+        "name": "2.0版2串1",
+        "sessionLabel": "晚场",
+        "selectionText": "006[胜] · 009[胜]",
+        "originalSelectionText": "006[胜] · 009[胜]",
+        "status": "命中",
+        "hit": true,
+        "hitCount": 2,
+        "totalLegs": 2,
+        "stake": 1000,
+        "returned": 1423.8,
+        "net": 423.8,
+        "legs": [
+          {
+            "number": "周二006",
+            "teams": "LASK林茨 : 布拉迪斯",
+            "kickoff": "2026-11-04T04:00:00+08:00",
+            "selection": "胜",
+            "selectionReason": "LASK进攻具持续产量，欧冠客场3:2胜葡萄牙体育；Slovan前三场1:6、0:3、0:4，客队预告确认Yirajang和Čerepkai缺阵、Kucharevič不在欧战名单。主队进攻面对客队防线是较明确优势。",
+            "odds": 1.26,
+            "hit": true,
+            "actualScore": "4:0",
+            "halfScore": "3:0"
+          },
+          {
+            "number": "周二009",
+            "teams": "巴萨 : 维拉",
+            "kickoff": "2026-11-04T04:00:00+08:00",
+            "selection": "胜",
+            "selectionReason": "巴萨刚6:1胜阿拉维斯，Raphinha和Yamal各两球，进攻恢复；主场和当前市场支持主胜。反向看维拉欧冠前三场全胜，Flick强调其攻守结构明确，巴萨仍缺多名后卫。",
+            "odds": 1.13,
+            "hit": true,
+            "actualScore": "3:0",
+            "halfScore": "1:0"
+          }
+        ],
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 1423.8,
+          "net": 423.8,
+          "cumulativeNet": 2729.5,
+          "oddsSource": "data/reports/versions/2026-11-03-core30-r1.json",
+          "oddsSourceSha256": "76e11bc6f1136d1667012f90425b8ccb9f2686ef2b38fa3f35fd8414f06b8a46"
+        }
+      },
+      {
+        "id": "2026-11-04-final-core20",
+        "category": "core20",
+        "name": "2.0版2串1",
+        "legs": [
+          {
+            "number": "周三006",
+            "teams": "波尔图 : 那不勒斯",
+            "kickoff": "2026-11-05T04:00:00+08:00",
+            "selection": "胜",
+            "selectionReason": "波尔图联赛十战全胜，上轮4:0且领先后继续制造机会、不同球员得分；那不勒斯刚负尤文，Di Lorenzo肌肉问题和Olivera回队检查，Hojlund与Milinkovic-Savic单独训练。主场攻势与客队人员、恢复负担支持主胜。",
+            "odds": 1.82,
+            "coreCandidateAudit": {
+              "alternatives": [
+                "004客胜",
+                "009主胜",
+                "012客胜/平"
+              ],
+              "advantage": "相较009自身每场失3、012伤病且需平保险，006有持续创造和对方边后卫检查两侧证据；相比004，006少面对主队19场17场进球的反证，欧战落差仍是核心风险。",
+              "counter": "对垫底4:0不能复制欧冠，刚负PSV；那不勒斯前60分钟有机会。",
+              "market": "普通胜允许一球；让胜仍需要放大差距，未把博自动入核心。",
+              "independentAdmission": true,
+              "oddsDrivenWeakLeg": false,
+              "necessaryInsuranceReview": {
+                "original": "胜",
+                "considered": [
+                  "胜",
+                  "平",
+                  "负"
+                ],
+                "decision": "普通主方向领先，不因未知或足球有平局而机械双选；反向风险已写明",
+                "boundary": "主-1：胜至少1、让胜至少2、让平恰1。领先后仍进攻及替补增产、客队边后卫检查支持穿盘候选，但对手强度与欧战反证使普通胜优先；精确让平无独立增量证据。"
+              }
+            },
+            "occurred": true
+          },
+          {
+            "number": "周三011",
+            "teams": "斯拉维亚 : 阿森纳",
+            "kickoff": "2026-11-05T04:00:00+08:00",
+            "selection": "负",
+            "selectionReason": "斯拉维亚教练强调阿森纳战术平衡、节奏控制、定位球和17至18名可用深度优势；主队预计多名年轻球员欧冠首秀、身高较去年下降，Provod获准出场但不首发。客胜依据来自对位与阵容层级，不是1.10本身。",
+            "odds": 1.1,
+            "coreCandidateAudit": {
+              "alternatives": [
+                "004客胜",
+                "005客胜",
+                "009主胜"
+              ],
+              "advantage": "对手教练与后卫具体描述客队控节奏、定位球、深度及自身年轻首秀/身高下降；比009防守波动、005单侧名单不足更明确。1.10不是理由。",
+              "counter": "客队最新名单未取得、短休轮换；主队有速度和主场。",
+              "market": "普通负不要求赢2或3；让平/穿盘额外窄边界不入核心。",
+              "independentAdmission": true,
+              "oddsDrivenWeakLeg": false,
+              "necessaryInsuranceReview": {
+                "original": "负",
+                "considered": [
+                  "负",
+                  "平",
+                  "胜"
+                ],
+                "decision": "普通主方向领先，不因未知或足球有平局而机械双选；反向风险已写明",
+                "boundary": "主+2：普通负至少1、让负至少3、让平恰2。定位球/空中优势对身高下降年轻主队、节奏与替补深度支持拉开分差候选，但客场轮换和领先控节奏使3+非核心。让平恰2没有独立集中证据，不因0:2示例倒推。"
+              }
+            },
+            "occurred": true
+          }
+        ],
+        "totalLegs": 2,
+        "hitCount": 2,
+        "hit": true,
+        "status": "命中",
+        "infoOnly": true,
+        "date": "2026-11-04",
+        "sessionLabel": "晚场",
+        "selectionText": "006[胜] · 011[负]",
+        "originalSelectionText": "006[胜] · 011[负]",
+        "stake": 1000,
+        "returned": 2002,
+        "net": 1002,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 2002,
+          "net": 1002,
+          "cumulativeNet": 3731.5,
+          "oddsSource": "data/reports/2026-11-04.json",
+          "oddsSourceSha256": "0f538dfd995f640775c51e26da6709c4023c0181671c8cf09c21e09e09925a53"
+        }
+      },
+      {
+        "id": "2026-11-05-core-r1-core20",
+        "category": "core20",
+        "name": "2.0版2串1",
+        "legs": [
+          {
+            "number": "周四001",
+            "teams": "町田泽维 : 上海申花",
+            "kickoff": "2026-11-05T18:00:00+08:00",
+            "selection": "胜",
+            "market": "had",
+            "handicap": -1,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.19
+              }
+            ],
+            "odds": 1.19,
+            "selectionReason": "防守连续性优于006/012；普通胜允许一球，独立一球边界只供博而不选作核心。名单未齐属一般未知，不能断言缺核心；低输出及申花休息优势仍是实质反证。",
+            "occurred": true
+          },
+          {
+            "number": "周四005",
+            "teams": "皇家社会 : 里昂",
+            "kickoff": "2026-11-06T01:45:00+08:00",
+            "selection": "胜",
+            "market": "had",
+            "handicap": -1,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.44
+              }
+            ],
+            "odds": 1.44,
+            "selectionReason": "连续八场进球和五场15球，官方机会记录支持持续创造；对手客场被压迫失球提供对位证据。双边名单未全不等于确认核心伤缺，不再机械否决；主队失球、终结浪费及里昂反击保留，普通胜优于扩大胜差。",
+            "occurred": false
+          }
+        ],
+        "totalLegs": 2,
+        "hitCount": 1,
+        "hit": false,
+        "status": "未中",
+        "infoOnly": true,
+        "date": "2026-11-05",
+        "sessionLabel": "中晚场",
+        "selectionText": "001[胜] · 005[胜] · R1",
+        "originalSelectionText": "001[胜] · 005[胜] · R1",
+        "stake": 1000,
+        "returned": 0,
+        "net": -1000,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 0,
+          "net": -1000,
+          "cumulativeNet": 2731.5,
+          "oddsSource": "data/reports/2026-11-05.json",
+          "oddsSourceSha256": "52f00dd19b49a97c55faf68416d3e3941e4d0ecab1d9e73d5f9b56ff7347adde"
+        }
+      },
+      {
+        "id": "2026-11-06-final-core20",
+        "date": "2026-11-06",
+        "category": "core20",
+        "name": "2.0版2串1",
+        "sessionLabel": "晚场",
+        "legs": [
+          {
+            "number": "周五003",
+            "teams": "哈马比 : 埃夫斯堡",
+            "kickoff": "2026-11-07T02:00:00+08:00",
+            "selection": "胜",
+            "selectionReason": "主-1：普通胜1+优于净胜2+要求。哈马比近期连续两场2:0、强度不全是弱旅，且对手后场伤缺，为让胜提供独立进取依据；客队持续进球和不败构成强反证，故仅一星博，不升核心。恰1让平不因一球常见而选。",
+            "market": "had",
+            "handicap": -1,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.22
+              }
+            ],
+            "odds": 1.22
+          },
+          {
+            "number": "周五004",
+            "teams": "蒙彼利埃 : 梅斯",
+            "kickoff": "2026-11-07T03:00:00+08:00",
+            "selection": "胜",
+            "selectionReason": "主-1：普通胜1+优先，净胜2+有连续多球胜与低失球共同支持，但梅斯得分威胁使让胜仅进取观察。恰1让平没有独立集中边界，不选。核心保留普通胜，不为约3倍主动提高净胜要求。",
+            "market": "had",
+            "handicap": -1,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.69
+              }
+            ],
+            "odds": 1.69
+          }
+        ],
+        "selectionText": "003[胜] · 004[胜]",
+        "oddsText": "参考条件倍数2.0618（含本金）",
+        "cardNote": "003客队不败能力、004梅斯反击是失效路径；不是低赔保稳。",
+        "status": "待定",
+        "stars": 1,
+        "starColor": "white",
+        "starReason": "两腿攻守证据相对靠前，但阵容与对手反击反证尚在，整串仅一星",
+        "wholeSetMath": {
+          "numbers": [
+            "周五003",
+            "周五004"
+          ],
+          "branchCount": 1,
+          "equalBranchWeight": 1,
+          "branches": [
+            {
+              "selection": [
+                "胜",
+                "胜"
+              ],
+              "product": 2.0618,
+              "wholeSetMultiple": 2.0618
+            }
+          ],
+          "min": 2.0618,
+          "max": 2.0618,
+          "otherOutcomesMultiple": 0,
+          "formula": "单一分支赔率乘积，含模拟本金；不是命中概率或期望收益"
+        },
+        "totalLegs": 2,
+        "hitCount": 0,
+        "hit": null,
+        "infoOnly": true,
+        "originalSelectionText": "003[胜] · 004[胜]",
+        "stake": 1000,
+        "returned": null,
+        "net": null,
+        "oddsAsOf": "2026-11-06T13:10:55+08:00"
+      }
+    ],
+    "three": [
+      {
+        "id": "2026-10-26-final-core30",
+        "date": "2026-10-26",
+        "name": "3.0版2串1",
+        "sessionLabel": "晚场",
+        "category": "core30",
+        "originalSelectionText": "周一001[负] × 周一002[平]",
+        "selectionText": "周一001[负] × 周一002[平]",
+        "status": "命中",
+        "cost": 2,
+        "returned": 7.442,
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 3721,
+          "net": 2721
+        }
+      },
+      {
+        "id": "2026-10-27-user-correction-1505-core30",
+        "date": "2026-10-27",
+        "name": "3.0版2串1",
+        "sessionLabel": "中晚场",
+        "category": "core30",
+        "originalSelectionText": "周二006[主+1让胜] × 周二008[主-1让负]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "settledSubTickets": [],
+        "detail": "周二006[主+1让胜]中、周二008[主-1让负]错；整串错，返还0元。",
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 0,
+          "net": -1000
+        },
+        "selectionText": "周二006[主+1让胜] × 周二008[主-1让负]"
+      },
+      {
+        "id": "2026-10-28-final-core30",
+        "date": "2026-10-28",
+        "name": "3.0版2串1",
+        "sessionLabel": "中晚场",
+        "category": "core30",
+        "originalSelectionText": "周三006[胜] × 周三012[胜]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周三006",
+            "pick": "胜",
+            "hit": false
+          },
+          {
+            "number": "周三012",
+            "pick": "胜",
+            "hit": false
+          }
+        ],
+        "hitCount": 0,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "0中2；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周三006[胜] × 周三012[胜]"
+      },
+      {
+        "id": "2026-10-29-final-core30",
+        "date": "2026-10-29",
+        "name": "3.0版2串1",
+        "category": "core30",
+        "originalSelectionText": "周四001[负] × 周四005[主-1让负]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周四001",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周四005",
+            "pick": "让负",
+            "hit": false
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "2中1；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周四001[负] × 周四005[主-1让负]"
+      },
+      {
+        "id": "2026-10-30-final-core30",
+        "date": "2026-10-30",
+        "name": "3.0版2串1",
+        "category": "core30",
+        "originalSelectionText": "周五009[胜] × 周五007[主+1让胜]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周五009",
+            "pick": "胜",
+            "hit": false
+          },
+          {
+            "number": "周五007",
+            "pick": "让胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "2中1；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周五009[胜] × 周五007[主+1让胜]"
+      },
+      {
+        "id": "2026-10-31-early-1-core30",
+        "date": "2026-10-31",
+        "name": "3.0版2串1",
+        "category": "core30",
+        "originalSelectionText": "周六001[负] × 周六003[胜]",
+        "status": "命中",
+        "hit": true,
+        "cost": 2,
+        "returned": 5.88,
+        "net": 3.88,
+        "legHits": [
+          {
+            "number": "周六001",
+            "pick": "负",
+            "hit": true
+          },
+          {
+            "number": "周六003",
+            "pick": "胜",
+            "hit": true
+          }
+        ],
+        "hitCount": 2,
+        "totalLegs": 2,
+        "settledSubTickets": [
+          "2026-10-31-early-1235-core30-1"
+        ],
+        "detail": "2中2；1/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周六001[负] × 周六003[胜]"
+      },
+      {
+        "id": "2026-10-31-middle-late-core30",
+        "date": "2026-10-31",
+        "name": "3.0版2串1",
+        "category": "core30",
+        "originalSelectionText": "周六006[胜] × 周六012[让胜]",
+        "status": "未中",
+        "hit": false,
+        "cost": 2,
+        "returned": 0,
+        "net": -2,
+        "legHits": [
+          {
+            "number": "周六006",
+            "pick": "胜",
+            "hit": true
+          },
+          {
+            "number": "周六012",
+            "pick": "让胜",
+            "hit": false
+          }
+        ],
+        "hitCount": 1,
+        "totalLegs": 2,
+        "settledSubTickets": [],
+        "detail": "2中1；0/1子票命中；按赛前最终原票结算。",
+        "selectionText": "周六006[胜] × 周六012[让胜]"
+      },
+      {
+        "id": "2026-11-01-middle-late-core30",
+        "date": "2026-11-01",
+        "name": "3.0版2串1",
+        "sessionLabel": "中场",
+        "category": "core30",
+        "originalSelectionText": "周日006[胜] × 周日008[让胜]",
+        "selectionText": "周日006[胜] × 周日008[让胜]",
+        "status": "命中",
+        "hit": true,
+        "stake": 1000,
+        "returned": 3005,
+        "net": 2005,
+        "trackingSettlement": {
+          "stake": 1000,
+          "returned": 3005,
+          "net": 2005
+        }
+      },
+      {
+        "id": "2026-11-02-astra-core30",
+        "date": "2026-11-02",
+        "category": "core30",
+        "name": "3.0版2串1",
+        "selectionText": "周一003[胜] × 周一009[胜]",
+        "sessionLabel": "晚场",
+        "status": "2中2",
+        "stake": 1000,
+        "returned": 3190,
+        "net": 2190
+      },
+      {
+        "id": "2026-11-03-core30-r1",
+        "date": "2026-11-03",
+        "category": "core30",
+        "name": "3.0版2串1",
+        "sessionLabel": "中晚场",
+        "selectionText": "周二003[负] · 周二004[胜] · R1",
+        "originalSelectionText": "周二003[负] · 周二004[胜] · R1",
+        "status": "未中",
+        "hit": false,
+        "hitCount": 1,
+        "totalLegs": 2,
+        "stake": 1000,
+        "returned": 0,
+        "net": -1000,
+        "legs": [
+          {
+            "number": "周二003",
+            "teams": "曼谷港务 : 北京国安",
+            "kickoff": "2026-11-03T20:15:00+08:00",
+            "selection": "负",
+            "odds": 1.62,
+            "selectionReason": "亚足联明确曼谷港务亚冠三连败、北京国安处于较好晋级位置；普通客胜市场领先，方向仍偏国安。主队比赛身份由亚足联及官方赛程双重确认。",
+            "hit": false,
+            "actualScore": "7:4",
+            "halfScore": "3:4"
+          },
+          {
+            "number": "周二004",
+            "teams": "加拉塔萨 : 斯图加特",
+            "kickoff": "2026-11-04T01:45:00+08:00",
+            "selection": "胜",
+            "odds": 1.9,
+            "selectionReason": "加拉塔萨雷教练称阵容接近完整，近期进攻配合改善，客胜里尔4:2；斯图加特中路双前锋与前腰、翼卫参与进攻，同时留下转换空间。主场小幅倾向加拉塔萨雷，不能忽视客队欧冠2胜1平。",
+            "hit": true,
+            "actualScore": "2:0",
+            "halfScore": "2:0"
+          }
+        ],
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 0,
+          "net": -1000,
+          "cumulativeNet": 2856,
+          "oddsSource": "data/reports/versions/2026-11-03-core30-r1.json",
+          "oddsSourceSha256": "76e11bc6f1136d1667012f90425b8ccb9f2686ef2b38fa3f35fd8414f06b8a46"
+        }
+      },
+      {
+        "id": "2026-11-04-final-core30",
+        "category": "core30",
+        "name": "3.0版2串1",
+        "legs": [
+          {
+            "number": "周三006",
+            "teams": "波尔图 : 那不勒斯",
+            "kickoff": "2026-11-05T04:00:00+08:00",
+            "selection": "胜",
+            "selectionReason": "波尔图联赛十战全胜，上轮4:0且领先后继续制造机会、不同球员得分；那不勒斯刚负尤文，Di Lorenzo肌肉问题和Olivera回队检查，Hojlund与Milinkovic-Savic单独训练。主场攻势与客队人员、恢复负担支持主胜。",
+            "odds": 1.82,
+            "coreCandidateAudit": {
+              "alternatives": [
+                "004客胜",
+                "009主胜",
+                "012客胜/平"
+              ],
+              "advantage": "相较009自身每场失3、012伤病且需平保险，006有持续创造和对方边后卫检查两侧证据；相比004，006少面对主队19场17场进球的反证，欧战落差仍是核心风险。",
+              "counter": "对垫底4:0不能复制欧冠，刚负PSV；那不勒斯前60分钟有机会。",
+              "market": "普通胜允许一球；让胜仍需要放大差距，未把博自动入核心。",
+              "independentAdmission": true,
+              "oddsDrivenWeakLeg": false,
+              "necessaryInsuranceReview": {
+                "original": "胜",
+                "considered": [
+                  "胜",
+                  "平",
+                  "负"
+                ],
+                "decision": "普通主方向领先，不因未知或足球有平局而机械双选；反向风险已写明",
+                "boundary": "主-1：胜至少1、让胜至少2、让平恰1。领先后仍进攻及替补增产、客队边后卫检查支持穿盘候选，但对手强度与欧战反证使普通胜优先；精确让平无独立增量证据。"
+              }
+            },
+            "occurred": true
+          },
+          {
+            "number": "周三008",
+            "teams": "多特蒙德 : 贝蒂斯",
+            "kickoff": "2026-11-05T04:00:00+08:00",
+            "selection": "胜",
+            "selectionReason": "多特联赛与拜仁同18分，刚2:2且可切换三后卫/四后卫，教练称除长期伤员阵容齐整；贝蒂斯官方确认Cucho、Junior Firpo、Fidalgo、Losada缺阵。主场与可用阵容支持多特普通胜。",
+            "odds": 1.57,
+            "coreCandidateAudit": {
+              "alternatives": [
+                "012客胜",
+                "007主胜/负",
+                "004客胜"
+              ],
+              "advantage": "主队官方阵容近齐、对手四人缺阵及主场形态可核验；012需要防平且客队中场伤、007两端攻击强且需双选，不能为3.0换这两条弱化边界。",
+              "counter": "贝蒂斯欧冠全胜、仍有核心创造者，多特三周七赛。",
+              "market": "普通胜，未删已有保险；该场独立分析本就普通胜，拒绝精确让平。",
+              "independentAdmission": true,
+              "oddsDrivenWeakLeg": false,
+              "necessaryInsuranceReview": {
+                "original": "胜",
+                "considered": [
+                  "胜",
+                  "平",
+                  "负"
+                ],
+                "decision": "普通主方向领先，不因未知或足球有平局而机械双选；反向风险已写明",
+                "boundary": "主-1：普通胜至少1、让胜至少2、让平恰1。多特转换与阵容优于对手，但对手三连胜、技术反击及主队负荷压低穿盘证据。过去一球胜不是本场恰胜1的独立分布，选普通胜，不选让平。"
+              }
+            },
+            "occurred": true
+          }
+        ],
+        "totalLegs": 2,
+        "hitCount": 2,
+        "hit": true,
+        "status": "命中",
+        "infoOnly": true,
+        "date": "2026-11-04",
+        "sessionLabel": "晚场",
+        "selectionText": "006[胜] · 008[胜]",
+        "originalSelectionText": "006[胜] · 008[胜]",
+        "stake": 1000,
+        "returned": 2857.4,
+        "net": 1857.4,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 2857.4,
+          "net": 1857.4,
+          "cumulativeNet": 4713.4,
+          "oddsSource": "data/reports/2026-11-04.json",
+          "oddsSourceSha256": "0f538dfd995f640775c51e26da6709c4023c0181671c8cf09c21e09e09925a53"
+        }
+      },
+      {
+        "id": "2026-11-05-core30-r2",
+        "category": "core30",
+        "name": "3.0版2串1",
+        "legs": [
+          {
+            "number": "周四001",
+            "teams": "町田泽维 : 上海申花",
+            "kickoff": "2026-11-05T18:00:00+08:00",
+            "selection": "胜",
+            "market": "had",
+            "handicap": -1,
+            "odds": 1.19,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.19
+              }
+            ],
+            "selectionReason": "普通胜获独立准入：连续零封是防守体系证据，对手近期产量集中一场，胜并非只凭1.19。低输出和申花长休是反证，泛化平局风险不足以自动追加保险。让胜需至少2球，近期低输出削弱；让平恰1有边界支持但太窄不优于普通胜，其他普通平/负及让负只作反证，不入核心。",
+            "independentAdmission": {
+              "approved": true,
+              "scope": "user-authorized expanded core30 R2",
+              "auditFile": "data/research/2026-11-05/core30-r2/expanded-market-audit.json",
+              "risk": "町田近3场只入1球，申花上场至本场休息更长；两队最新完整名单未取得。主队打不开低位防守、客队定位球偷袭和轮换均会令主胜落空。"
+            },
+            "occurred": true
+          },
+          {
+            "number": "周四005",
+            "teams": "皇家社会 : 里昂",
+            "kickoff": "2026-11-06T01:45:00+08:00",
+            "selection": "让胜",
+            "market": "hhad",
+            "handicap": -1,
+            "odds": 2.5,
+            "options": [
+              {
+                "selection": "让胜",
+                "odds": 2.5
+              }
+            ],
+            "selectionReason": "普通胜仍是扫盘主方向；另作3.0独立准入让胜(主-1净胜>=2)：连续8场进球/5场15球，官方对莱万特记录持续创造并扩大优势的机会；里昂对巴黎及霍芬海姆连续客场被压迫失2/3球，与主队持续压迫形成可迁移对位。6:0弱旅大胜已降权，不作唯一依据。普通胜允许仅赢1，风险更低，仍用于2.0；3.0接受明确更窄两球情景，非将博自动升级。浪费机会、防反失球及里昂进攻会令一球胜或不胜，使本腿失败；但未有独立证据使恰1必须合并，拒绝为了显得稳机械双选让平。普通平/负或让负为反证场景；让平无独立恰1集中优势。",
+            "independentAdmission": {
+              "approved": true,
+              "scope": "user-authorized expanded core30 R2",
+              "auditFile": "data/research/2026-11-05/core30-r2/expanded-market-audit.json",
+              "risk": "主队近10场9场至少3球亦反映防线风险，对莱万特被反击且终结浪费；里昂2:1尼斯、3:2水晶宫表明能破门。最新双边名单不全，不升核心资格。"
+            },
+            "occurred": false
+          }
+        ],
+        "totalLegs": 2,
+        "hitCount": 1,
+        "hit": false,
+        "status": "未中",
+        "infoOnly": true,
+        "date": "2026-11-05",
+        "sessionLabel": "中晚场",
+        "selectionText": "001[胜] · 005[让胜(-1)] · R2",
+        "originalSelectionText": "001[胜] · 005[让胜(-1)] · R2",
+        "stake": 1000,
+        "returned": 0,
+        "net": -1000,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 0,
+          "net": -1000,
+          "cumulativeNet": 3713.4,
+          "oddsSource": "data/reports/2026-11-05.json",
+          "oddsSourceSha256": "52f00dd19b49a97c55faf68416d3e3941e4d0ecab1d9e73d5f9b56ff7347adde"
+        }
+      },
+      {
+        "id": "2026-11-06-core30-r2",
+        "date": "2026-11-06",
+        "category": "core30",
+        "name": "3.0版2串1",
+        "sessionLabel": "晚场",
+        "revisedAt": "2026-11-06T08:56:35.789Z",
+        "status": "待定",
+        "stars": 1,
+        "starColor": "white",
+        "starReason": "独立净胜依据与反证并存，仅一般看好，不因催促上调",
+        "legs": [
+          {
+            "number": "周五003",
+            "teams": "哈马比 : 埃夫斯堡",
+            "kickoff": "2026-11-07T02:00:00+08:00",
+            "selection": "让胜",
+            "market": "hhad",
+            "handicap": -1,
+            "odds": 1.74,
+            "options": [
+              {
+                "selection": "让胜",
+                "odds": 1.74
+              }
+            ],
+            "selectionReason": "003普通胜有强度校正的近期取胜和低失球；主-1让胜另有对榜首天狼星及米亚尔比连续2:0、4连胜仅失1与客队后场骨折的独立净胜依据。主1至2及3尾、客0至1及2尾；对手7场不败及多平/连续进球反证不可删。恰1无集中依据；穿盘是明确接受普通胜失败部分的一星进取腿，不把其称2.0同风险。胜胜虽可售但缺上半场独立资料，不用。",
+            "independentAdmission": {
+              "approved": true,
+              "auditFile": "data/research/2026-11-06/core30-r2/expanded-market-audit.json",
+              "risk": "埃夫斯堡先前3连平、客场6平且面对天狼星2:2，说明防平风险真实；但哈马比近期对较强对手持续取胜使主胜相对优势仍领先。Wikström骨折确定，替补防线实际实力未完整量化；不能把缺一人等同崩盘。"
+            }
+          },
+          {
+            "number": "周五011",
+            "teams": "德比郡 : 博尔顿",
+            "kickoff": "2026-11-07T04:00:00+08:00",
+            "selection": "让负",
+            "market": "hhad",
+            "handicap": -1,
+            "odds": 1.36,
+            "options": [
+              {
+                "selection": "让负",
+                "odds": 1.36
+              }
+            ],
+            "selectionReason": "003穿盘已有连续净胜与低失球、对手骨折的独立依据；003与004两场同时使用现明确排除。非重复腿中011主队近10场不胜、主场0胜2平5负、近5场3进14失并确认头号得分手膝手术，客方近期客胜及客场3胜2平2负支持客不败。比002单侧访谈、006主客矛盾和休息劣势、007小样本修复、008双边低产弱防、014四场不胜更完整。013防守连续性可比但近期对手偏弱、法马利康得分上限及官方伤停资料过期，使011的具体进攻缺口证据优先。未因013或002更接近3倍调换。005/009/010/012实质平保险保留，分支整套倍数逐一列出。004穿盘虽有近期大胜，面对持续得分的梅斯及较弱样本，不为避重或加倍取代003穿盘。",
+            "independentAdmission": {
+              "approved": true,
+              "auditFile": "data/research/2026-11-06/core30-r2/expanded-market-audit.json",
+              "risk": "博尔顿10月31日对布里斯托尔城领先后两丢球，Forino抽筋、Davies腿筋紧张的后续状态未核实，不当作本轮确定缺阵。德比郡反弹及双方短休可失效。"
+            }
+          }
+        ],
+        "selectionText": "003[让胜(-1)] · 011[让负(-1)] · R2",
+        "oddsText": "整套实际倍数2.3664（含本金，低于3倍）",
+        "cardNote": "003净胜2+；011客不败。仅共用003，共同失手风险仍在。",
+        "wholeSetMath": {
+          "branchCount": 1,
+          "equalBranchWeight": 1,
+          "branches": [
+            {
+              "selection": [
+                "让胜",
+                "让负"
+              ],
+              "product": 2.3664,
+              "wholeSetMultiple": 2.3664
+            }
+          ],
+          "min": 2.3664,
+          "max": 2.3664,
+          "otherOutcomesMultiple": 0,
+          "formula": "单分支100%独立1000元模拟；含本返还2366.40，其他0，非期望值"
+        },
+        "stake": 1000,
+        "simulation": true,
+        "infoOnly": true,
+        "originalSelectionText": "003[让胜(-1)] · 011[让负(-1)] · R2",
+        "totalLegs": 2,
+        "hitCount": 0,
+        "hit": null,
+        "returned": null,
+        "net": null,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "status": "待定",
+          "branchWeights": [
+            1
+          ],
+          "wholeSetMultiples": [
+            2.3664
+          ]
+        }
+      }
+    ]
+  },
+  "trackingPolicy": "用户明确指定：2.0与3.0每票1000元模拟跟踪，独立累计；infoOnly不删除该模拟台账；不代表实际下注。梦想情景不入账。",
+  "observationCount": 0,
+  "limitations": [
+    "仅赛前信息；无下注或资金建议。",
+    "没有完整首发或校准概率，未加星；半全场和比分仅展示情景。",
+    "2.0/3.0未完成，非全天终版。"
+  ],
+  "imageFiles": {
+    "scan": "2026-11-07-early-scan.png",
+    "tracking": "2026-11-07-early-tracking.png"
+  },
+  "earlyBatchLocked": true,
+  "originalImageHashes": {
+    "2026-11-07-early-scan.png": "7a748a9c8b95c40741bd5f9c9b2b5a55dbb02bf36fc52b8f1b5240fd2709dffc",
+    "2026-11-07-early-tracking.png": "dd3faf078a1bd11b0066d8f538419f961402790ab8f218f9387eca8c977efe72"
+  },
+  "deliveryManifest": "data/research/2026-11-07/approved-four-image-manifest.json",
+  "onlineVerifiedAt": "2026-11-07T00:01:13.210Z",
+  "verificationScope": "430px browser emulation and actual clipboard PNG pixel hashes; not physical handset"
+}
