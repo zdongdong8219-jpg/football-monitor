@@ -1,0 +1,112 @@
+{
+  "completed": true,
+  "allFieldsVerified": false,
+  "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
+  "submissionStartedAt": "2026-11-07T06:53:36.184Z",
+  "onlineVerifiedAt": "2026-11-07T06:55:13.770Z",
+  "contentCommit": "d1252203dd345dcd7df9fe03cf27fd2d70cfd476",
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "2026-11-07-final-core20-s1",
+      "selection": "014[负] × 017[胜]",
+      "reason": "014强攻、强敌表现与对方后防减员；017攻防同步改善，综合风险收益优先。"
+    },
+    {
+      "rank": 2,
+      "id": "2026-11-07-extra-core20-s1",
+      "selection": "011[胜] × 017[胜]",
+      "reason": "011对位资料具体，普通胜保留小胜；与第1共用017，独立性扣分。"
+    },
+    {
+      "rank": 3,
+      "id": "2026-11-07-extra-core30-s1",
+      "selection": "010[负] × 011[胜]",
+      "reason": "011资料强于名单空缺的023，但010客场平局及共享011使它低于前两组。"
+    },
+    {
+      "rank": 4,
+      "id": "2026-11-07-final-core30-s1",
+      "selection": "010[负] × 023[负]",
+      "reason": "保留原票；010客场平多与023短休、名单空缺叠加，赔率更高不等于更优。"
+    }
+  ],
+  "added": [
+    {
+      "id": "2026-11-07-extra-core20-s1",
+      "selection": "011[胜] × 017[胜]",
+      "multiple": 2.0875
+    },
+    {
+      "id": "2026-11-07-extra-core30-s1",
+      "selection": "010[负] × 011[胜]",
+      "multiple": 2.5374999999999996
+    }
+  ],
+  "exposure": {
+    "周六014": {
+      "count": 1,
+      "tickets": [
+        "2026-11-07-final-core20-s1"
+      ],
+      "fraction": 0.25
+    },
+    "周六017": {
+      "count": 2,
+      "tickets": [
+        "2026-11-07-final-core20-s1",
+        "2026-11-07-extra-core20-s1"
+      ],
+      "fraction": 0.5
+    },
+    "周六010": {
+      "count": 2,
+      "tickets": [
+        "2026-11-07-final-core30-s1",
+        "2026-11-07-extra-core30-s1"
+      ],
+      "fraction": 0.5
+    },
+    "周六023": {
+      "count": 1,
+      "tickets": [
+        "2026-11-07-final-core30-s1"
+      ],
+      "fraction": 0.25
+    },
+    "周六011": {
+      "count": 2,
+      "tickets": [
+        "2026-11-07-extra-core20-s1",
+        "2026-11-07-extra-core30-s1"
+      ],
+      "fraction": 0.5
+    }
+  },
+  "originalTicketsUnchanged": true,
+  "originalTrackingUnchanged": true,
+  "pixelAuditPassed": true,
+  "hashes": [
+    {
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-07-extra-s1-scan.png?v=20261107-extra-s1",
+      "fileHash": "e7e20b723703a5f4363261ef63cd591ace91506eb9ddc54b314574c094b83822",
+      "pixelHash": "058c35b76ebf1292b81b9396095b4cf5e3e277194dcccfb59deaa718d8043c3e"
+    },
+    {
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-07-extra-s1-tracking.png?v=20261107-extra-s1",
+      "fileHash": "fed06a3f45b6d2ebd96a403c6c11a21b14a1b9328905745cd2dabcb8577833dd",
+      "pixelHash": "251baf4a7c78559977e3fc6c64b5b672b82533566a6b939c02c21eeed4802c19"
+    },
+    {
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-05-review-scan.png?v=20261107-extra-s1",
+      "fileHash": "4020210e51ef55e1c0a29e503987f2aed437316060870db38993385578595ba8",
+      "pixelHash": "88e231593d5f232c1f42ad9e205ada580e93bd63e3b4279395c680e90c9d8172"
+    },
+    {
+      "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-05-review-tracking.png?v=20261107-extra-s1",
+      "fileHash": "9d7a1f06e451b5a3ffc1d657de76d3d73184707692a8c9d36c319b0d0e47d8fa",
+      "pixelHash": "2b4659aa34a3a261401b1ec0df1ef381d80f7595ee7f4c682a6cfd3ecd84a736"
+    }
+  ],
+  "verificationScope": "430px桌面浏览器模拟、四次真实按钮点击、真实剪贴板PNG哈希及线上原图/预览/详情比对，不声称实物手机验证"
+}

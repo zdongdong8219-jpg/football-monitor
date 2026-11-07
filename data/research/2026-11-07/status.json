@@ -94,18 +94,14 @@
   "supplementMetadataCommit": "b2e5a6ad3236e947dbbb03ab8d59e76d52ff7380",
   "supplementOnlineVerifiedAt": "2026-11-07T04:44:25.488Z",
   "researchWorkflow": {
-    "phase": "final_published_verified",
-    "owner": "本任务，按用户今天授权采集与分析",
+    "phase": "additional_combinations_published_verified",
+    "owner": "本任务",
     "nextAction": null,
     "requiredArtifacts": [
-      "public/cards/2026-11-07-final-s1-scan.png",
-      "public/cards/2026-11-07-final-s1-scan-preview.jpg",
-      "public/cards/2026-11-07-final-s1-tracking.png",
-      "public/cards/2026-11-07-final-s1-tracking-preview.jpg",
-      "data/reports/versions/2026-11-07-final-s1.json",
-      "public/info-2026-11-07-final.html",
-      "data/research/2026-11-07/final-phone/online-phone-verification.json",
-      "data/research/2026-11-07/final-completion-receipt.json"
+      "data/research/2026-11-07/additional-combinations-review.json",
+      "data/research/2026-11-07/extra-pixel-audit.json",
+      "data/research/2026-11-07/extra-phone/online-phone-verification.json",
+      "data/research/2026-11-07/extra-completion-receipt.json"
     ],
     "attemptedSources": [
       {
@@ -1089,7 +1085,7 @@
         "error": null
       }
     ],
-    "lastVerifiedAt": "2026-11-07T06:35:55.919Z",
+    "lastVerifiedAt": "2026-11-07T06:55:13.770Z",
     "packageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
     "allFieldsVerified": false
   }

@@ -10,8 +10,8 @@
   "batchLabel": "中晚25场 · 两张原票＋两张补单",
   "batchFinal": true,
   "finalLocked": true,
-  "mobileVerified": false,
-  "completed": false,
+  "mobileVerified": true,
+  "completed": true,
   "earlyCompleted": true,
   "earlyMobileVerified": true,
   "researchComplete": false,
@@ -14940,7 +14940,7 @@
     "mobileVerified": true,
     "verificationScope": "430px browser emulation; four real clicks; clipboard PNG decoded pixel hashes"
   },
-  "updatedAt": "2026-11-07T06:53:36.184Z",
+  "updatedAt": "2026-11-07T06:55:13.770Z",
   "admissionIncident": {
     "id": "2026-11-07-early-admission-failure",
     "recordedAt": "2026-11-07T04:53:49.054Z",
@@ -15894,7 +15894,7 @@
   ],
   "additionalPublication": {
     "id": "2026-11-07-extra-s1",
-    "status": "submitted",
+    "status": "published_verified",
     "publishedAt": "2026-11-07T06:53:36.184Z",
     "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
     "ranking": [
@@ -16011,7 +16011,10 @@
       "scan": "2026-11-07-final-s1-scan.png",
       "tracking": "2026-11-07-final-s1-tracking.png"
     },
-    "qualificationCheckedAt": "2026-11-07T06:53:36.184Z"
+    "qualificationCheckedAt": "2026-11-07T06:53:36.184Z",
+    "onlineVerifiedAt": "2026-11-07T06:55:13.770Z",
+    "contentCommit": "d1252203dd345dcd7df9fe03cf27fd2d70cfd476",
+    "mobileVerified": true
   },
   "currentRecommendationRanking": [
     {
