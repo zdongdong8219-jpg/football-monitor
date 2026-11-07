@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T04:42:47.167Z",
+  "candidateComparisonSource": "data/research/2026-11-07/early-candidate-comparison.json",
+  "ticket": {
+    "id": "2026-11-07-early-core20-s1",
+    "date": "2026-11-07",
+    "category": "core20",
+    "name": "2.0版2串1",
+    "sessionLabel": "早场补单",
+    "publishedAt": "2026-11-07T04:42:47.167Z",
+    "status": "待定",
+    "stars": 0,
+    "starColor": "none",
+    "starReason": "003相对优势领先，但川崎连续进球与柏短休构成强反证；001必须保留平局保险，不因临场催促升星。",
+    "legs": [
+      {
+        "number": "周六001",
+        "teams": "横滨水手 : 冈山绿雉",
+        "kickoff": "2026-11-07T13:00:00+08:00",
+        "selection": "胜/平",
+        "market": "had",
+        "handicap": -1,
+        "options": [
+          {
+            "selection": "胜",
+            "odds": 1.78
+          },
+          {
+            "selection": "平",
+            "odds": 3.6
+          }
+        ],
+        "selectionReason": "横滨近5场进9失6，冈山近5场失12；冈山连续被东京和神户零封且丢多球，主场方向优先。但横滨近5场3平、破密集与守住领先均不稳定，平局是有证据的必要保险，不能为倍率删除。主-1下让胜需净胜2+，让平只命中恰胜1，让负覆盖横滨不胜；三方向均已比较，普通胜/平比任一让球单选更符合当前分布。",
+        "independentAdmission": {
+          "approved": true,
+          "scope": "2026-11-07 early supplement",
+          "risk": "冈山仍有反击与定位球路径；横滨若先丢球或继续出现领先后失球，主场不败也会失败。"
+        }
+      },
+      {
+        "number": "周六003",
+        "teams": "柏太阳神 : 川崎前锋",
+        "kickoff": "2026-11-07T15:00:00+08:00",
+        "selection": "胜",
+        "market": "had",
+        "handicap": -1,
+        "options": [
+          {
+            "selection": "胜",
+            "odds": 1.83
+          }
+        ],
+        "odds": 1.83,
+        "selectionReason": "柏近5场9进2失并有连续零封，近期胜鹿岛、浦和形成较完整攻守证据，四场早场横评中普通主胜相对领先。川崎连续17场进球且休息更多是强反证，因此只取普通胜，不升级主-1让胜；让平恰胜1没有独立集中依据，让负与主方向相反。",
+        "independentAdmission": {
+          "approved": true,
+          "scope": "2026-11-07 early supplement",
+          "risk": "柏短休且未确认完整轮换；川崎稳定进球可把比赛带入平局或客胜。"
+        }
+      }
+    ],
+    "selectionText": "001[胜/平] · 003[胜] · S1",
+    "originalSelectionText": "001[胜/平] · 003[胜] · S1",
+    "oddsAsOf": "2026-11-07T04:42:47.167Z",
+    "oddsText": "整套实际条件倍数2.1797（等返还配注，含本金）",
+    "cardNote": "001保留胜/平；003只取普通胜。两分支等返还，未用高方差让胜或弱腿凑倍率。",
+    "wholeSetMath": {
+      "branchCount": 2,
+      "equalBranchWeight": false,
+      "allocationMethod": "按各分支赔率倒数归一，使两条命中分支返还相同",
+      "branches": [
+        {
+          "selection": [
+            "胜",
+            "胜"
+          ],
+          "product": 3.2574,
+          "weight": 0.6691449814126395,
+          "wholeSetMultiple": 2.1796728624535318
+        },
+        {
+          "selection": [
+            "平",
+            "胜"
+          ],
+          "product": 6.588,
+          "weight": 0.3308550185873606,
+          "wholeSetMultiple": 2.1796728624535318
+        }
+      ],
+      "min": 2.1796728624535318,
+      "max": 2.1796728624535318,
+      "otherOutcomesMultiple": 0,
+      "formula": "1000元模拟投入按669.14/330.86分配；任一命中分支含本返还约2263.05元，其他结果0；不是命中概率或期望值"
+    },
+    "simulation": true,
+    "infoOnly": true,
+    "totalLegs": 2,
+    "hitCount": 0,
+    "hit": null
+  },
+  "core30Decision": {
+    "category": "core30",
+    "status": "withheld",
+    "reason": "无两条同时独立合格的早场腿；003让胜为高方差非核心，002/004反证较强，不为凑倍率发布。"
+  },
+  "officialEligibility": "calculator/list endpoints: Selling; HAD allUp=1, bettingAllup=1, cbtAllUp=1",
+  "publishedAt": "2026-11-07T04:43:12.775Z",
+  "officialEligibilityCheckedAt": "2026-11-07T04:43:12.775Z"
+}

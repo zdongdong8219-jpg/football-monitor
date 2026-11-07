@@ -7,7 +7,7 @@
   "publishedAt": "2026-11-06T23:54:38.137Z",
   "edition": "early",
   "deliveryStage": "early",
-  "batchLabel": "07:45早场批 · 资格冲突仅扫盘",
+  "batchLabel": "07:45早场扫盘 · 12:43补2.0",
   "batchFinal": true,
   "finalLocked": false,
   "mobileVerified": false,
@@ -16,7 +16,7 @@
   "earlyMobileVerified": true,
   "researchComplete": false,
   "scanDecisionComplete": true,
-  "summary": "4场早场相对方向。官方过关字段冲突，2.0/3.0及梦想组合暂未发布；中晚场12:45继续，终版不早于14:00。",
+  "summary": "早场4场赛前扫盘保留；官方过关资格恢复后补发2.0版2串1。3.0因无两条独立合格腿暂不发布。",
   "scanTable": [
     {
       "number": "周六001",
@@ -663,7 +663,106 @@
       }
     }
   ],
-  "recommendations": [],
+  "recommendations": [
+    {
+      "id": "2026-11-07-early-core20-s1",
+      "date": "2026-11-07",
+      "category": "core20",
+      "name": "2.0版2串1",
+      "sessionLabel": "早场补单",
+      "publishedAt": "2026-11-07T04:43:12.775Z",
+      "status": "待定",
+      "stars": 0,
+      "starColor": "none",
+      "starReason": "003相对优势领先，但川崎连续进球与柏短休构成强反证；001必须保留平局保险，不因临场催促升星。",
+      "legs": [
+        {
+          "number": "周六001",
+          "teams": "横滨水手 : 冈山绿雉",
+          "kickoff": "2026-11-07T13:00:00+08:00",
+          "selection": "胜/平",
+          "market": "had",
+          "handicap": -1,
+          "options": [
+            {
+              "selection": "胜",
+              "odds": 1.78
+            },
+            {
+              "selection": "平",
+              "odds": 3.6
+            }
+          ],
+          "selectionReason": "横滨近5场进9失6，冈山近5场失12；冈山连续被东京和神户零封且丢多球，主场方向优先。但横滨近5场3平、破密集与守住领先均不稳定，平局是有证据的必要保险，不能为倍率删除。主-1下让胜需净胜2+，让平只命中恰胜1，让负覆盖横滨不胜；三方向均已比较，普通胜/平比任一让球单选更符合当前分布。",
+          "independentAdmission": {
+            "approved": true,
+            "scope": "2026-11-07 early supplement",
+            "risk": "冈山仍有反击与定位球路径；横滨若先丢球或继续出现领先后失球，主场不败也会失败。"
+          }
+        },
+        {
+          "number": "周六003",
+          "teams": "柏太阳神 : 川崎前锋",
+          "kickoff": "2026-11-07T15:00:00+08:00",
+          "selection": "胜",
+          "market": "had",
+          "handicap": -1,
+          "options": [
+            {
+              "selection": "胜",
+              "odds": 1.83
+            }
+          ],
+          "odds": 1.83,
+          "selectionReason": "柏近5场9进2失并有连续零封，近期胜鹿岛、浦和形成较完整攻守证据，四场早场横评中普通主胜相对领先。川崎连续17场进球且休息更多是强反证，因此只取普通胜，不升级主-1让胜；让平恰胜1没有独立集中依据，让负与主方向相反。",
+          "independentAdmission": {
+            "approved": true,
+            "scope": "2026-11-07 early supplement",
+            "risk": "柏短休且未确认完整轮换；川崎稳定进球可把比赛带入平局或客胜。"
+          }
+        }
+      ],
+      "selectionText": "001[胜/平] · 003[胜] · S1",
+      "originalSelectionText": "001[胜/平] · 003[胜] · S1",
+      "oddsAsOf": "2026-11-07T04:42:47.167Z",
+      "oddsText": "整套实际条件倍数2.1797（等返还配注，含本金）",
+      "cardNote": "001保留胜/平；003只取普通胜。两分支等返还，未用高方差让胜或弱腿凑倍率。",
+      "wholeSetMath": {
+        "branchCount": 2,
+        "equalBranchWeight": false,
+        "allocationMethod": "按各分支赔率倒数归一，使两条命中分支返还相同",
+        "branches": [
+          {
+            "selection": [
+              "胜",
+              "胜"
+            ],
+            "product": 3.2574,
+            "weight": 0.6691449814126395,
+            "wholeSetMultiple": 2.1796728624535318
+          },
+          {
+            "selection": [
+              "平",
+              "胜"
+            ],
+            "product": 6.588,
+            "weight": 0.3308550185873606,
+            "wholeSetMultiple": 2.1796728624535318
+          }
+        ],
+        "min": 2.1796728624535318,
+        "max": 2.1796728624535318,
+        "otherOutcomesMultiple": 0,
+        "formula": "1000元模拟投入按669.14/330.86分配；任一命中分支含本返还约2263.05元，其他结果0；不是命中概率或期望值"
+      },
+      "simulation": true,
+      "infoOnly": true,
+      "totalLegs": 2,
+      "hitCount": 0,
+      "hit": null
+    }
+  ],
   "scenarioLabels": {
     "core20": "2.0版2串1",
     "core30": "3.0版2串1",
@@ -673,23 +772,23 @@
   "ticketClassStatus": [
     {
       "category": "core20",
-      "status": "blocked",
-      "reason": "两处官方过关资格标志冲突，组合暂未发布；不影响早场信息扫盘。"
+      "status": "published",
+      "reason": "官方过关资格恢复；早场补单已发布并进入1000元模拟跟踪。"
     },
     {
       "category": "core30",
-      "status": "blocked",
-      "reason": "两处官方过关资格标志冲突，组合暂未发布；不影响早场信息扫盘。"
+      "status": "withheld",
+      "reason": "无两条同时独立合格的早场腿；003让胜为高方差非核心，002/004反证较强，不为凑倍率发布。"
     },
     {
       "category": "dream6",
-      "status": "blocked",
-      "reason": "两处官方过关资格标志冲突，组合暂未发布；不影响早场信息扫盘。"
+      "status": "not_in_scope",
+      "reason": "本次紧急补单仅处理核心2.0/3.0。"
     },
     {
       "category": "goals4",
-      "status": "blocked",
-      "reason": "两处官方过关资格标志冲突，组合暂未发布；不影响早场信息扫盘。"
+      "status": "not_in_scope",
+      "reason": "本次紧急补单仅处理核心2.0/3.0。"
     }
   ],
   "trackingHistory": {
@@ -1196,6 +1295,122 @@
         "returned": null,
         "net": null,
         "oddsAsOf": "2026-11-06T13:10:55+08:00"
+      },
+      {
+        "id": "2026-11-07-early-core20-s1",
+        "date": "2026-11-07",
+        "category": "core20",
+        "name": "2.0版2串1",
+        "sessionLabel": "早场补单",
+        "publishedAt": "2026-11-07T04:43:12.775Z",
+        "status": "待定",
+        "stars": 0,
+        "starColor": "none",
+        "starReason": "003相对优势领先，但川崎连续进球与柏短休构成强反证；001必须保留平局保险，不因临场催促升星。",
+        "legs": [
+          {
+            "number": "周六001",
+            "teams": "横滨水手 : 冈山绿雉",
+            "kickoff": "2026-11-07T13:00:00+08:00",
+            "selection": "胜/平",
+            "market": "had",
+            "handicap": -1,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.78
+              },
+              {
+                "selection": "平",
+                "odds": 3.6
+              }
+            ],
+            "selectionReason": "横滨近5场进9失6，冈山近5场失12；冈山连续被东京和神户零封且丢多球，主场方向优先。但横滨近5场3平、破密集与守住领先均不稳定，平局是有证据的必要保险，不能为倍率删除。主-1下让胜需净胜2+，让平只命中恰胜1，让负覆盖横滨不胜；三方向均已比较，普通胜/平比任一让球单选更符合当前分布。",
+            "independentAdmission": {
+              "approved": true,
+              "scope": "2026-11-07 early supplement",
+              "risk": "冈山仍有反击与定位球路径；横滨若先丢球或继续出现领先后失球，主场不败也会失败。"
+            }
+          },
+          {
+            "number": "周六003",
+            "teams": "柏太阳神 : 川崎前锋",
+            "kickoff": "2026-11-07T15:00:00+08:00",
+            "selection": "胜",
+            "market": "had",
+            "handicap": -1,
+            "options": [
+              {
+                "selection": "胜",
+                "odds": 1.83
+              }
+            ],
+            "odds": 1.83,
+            "selectionReason": "柏近5场9进2失并有连续零封，近期胜鹿岛、浦和形成较完整攻守证据，四场早场横评中普通主胜相对领先。川崎连续17场进球且休息更多是强反证，因此只取普通胜，不升级主-1让胜；让平恰胜1没有独立集中依据，让负与主方向相反。",
+            "independentAdmission": {
+              "approved": true,
+              "scope": "2026-11-07 early supplement",
+              "risk": "柏短休且未确认完整轮换；川崎稳定进球可把比赛带入平局或客胜。"
+            }
+          }
+        ],
+        "selectionText": "001[胜/平] · 003[胜] · S1",
+        "originalSelectionText": "001[胜/平] · 003[胜] · S1",
+        "oddsAsOf": "2026-11-07T04:42:47.167Z",
+        "oddsText": "整套实际条件倍数2.1797（等返还配注，含本金）",
+        "cardNote": "001保留胜/平；003只取普通胜。两分支等返还，未用高方差让胜或弱腿凑倍率。",
+        "wholeSetMath": {
+          "branchCount": 2,
+          "equalBranchWeight": false,
+          "allocationMethod": "按各分支赔率倒数归一，使两条命中分支返还相同",
+          "branches": [
+            {
+              "selection": [
+                "胜",
+                "胜"
+              ],
+              "product": 3.2574,
+              "weight": 0.6691449814126395,
+              "stake": 669.1449814126395,
+              "wholeSetMultiple": 2.1796728624535318
+            },
+            {
+              "selection": [
+                "平",
+                "胜"
+              ],
+              "product": 6.588,
+              "weight": 0.3308550185873606,
+              "stake": 330.85501858736063,
+              "wholeSetMultiple": 2.1796728624535318
+            }
+          ],
+          "min": 2.1796728624535318,
+          "max": 2.1796728624535318,
+          "otherOutcomesMultiple": 0,
+          "formula": "1000元模拟投入按669.14/330.86分配；任一命中分支含本返还约2263.05元，其他结果0；不是命中概率或期望值"
+        },
+        "stake": 1000,
+        "simulation": true,
+        "infoOnly": true,
+        "totalLegs": 2,
+        "hitCount": 0,
+        "hit": null,
+        "returned": null,
+        "net": null,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "status": "待定",
+          "branchWeights": [
+            0.6691449814126395,
+            0.3308550185873606
+          ],
+          "wholeSetMultiples": [
+            2.1796728624535318,
+            2.1796728624535318
+          ]
+        }
       }
     ],
     "three": [
@@ -1731,13 +1946,13 @@
   "trackingPolicy": "用户明确指定：2.0与3.0每票1000元模拟跟踪，独立累计；infoOnly不删除该模拟台账；不代表实际下注。梦想情景不入账。",
   "observationCount": 0,
   "limitations": [
-    "仅赛前信息；无下注或资金建议。",
-    "没有完整首发或校准概率，未加星；半全场和比分仅展示情景。",
-    "2.0/3.0未完成，非全天终版。"
+    "仅使用保存的赛前资料与发布前官方资格/报价增量核验；无下注或资金建议。",
+    "2.0为1000元模拟跟踪；3.0未强出，不登记模拟投入。",
+    "早场原图、原报告和真实首次发布时间保留，新补单另存S1版本。"
   ],
   "imageFiles": {
-    "scan": "2026-11-07-early-scan.png",
-    "tracking": "2026-11-07-early-tracking.png"
+    "scan": "2026-11-07-early-core20-s1-scan.png",
+    "tracking": "2026-11-07-early-core20-s1-tracking.png"
   },
   "earlyBatchLocked": true,
   "originalImageHashes": {
@@ -1746,5 +1961,18 @@
   },
   "deliveryManifest": "data/research/2026-11-07/approved-four-image-manifest.json",
   "onlineVerifiedAt": "2026-11-07T00:01:13.210Z",
-  "verificationScope": "430px browser emulation and actual clipboard PNG pixel hashes; not physical handset"
+  "verificationScope": "430px browser emulation and actual clipboard PNG pixel hashes; not physical handset",
+  "supplement": {
+    "id": "2026-11-07-early-core20-s1",
+    "publishedAt": "2026-11-07T04:43:12.775Z",
+    "preservedOriginalPublishedAt": "2026-11-06T23:54:38.137Z",
+    "preservedOriginalImages": [
+      "2026-11-07-early-scan.png",
+      "2026-11-07-early-tracking.png"
+    ],
+    "eligibility": "calculator/list endpoints: Selling; HAD allUp=1, bettingAllup=1, cbtAllUp=1",
+    "core30Decision": "withheld_no_two_independently_qualified_legs",
+    "eligibilityCheckedAt": "2026-11-07T04:43:12.775Z"
+  },
+  "updatedAt": "2026-11-07T04:43:12.775Z"
 }
