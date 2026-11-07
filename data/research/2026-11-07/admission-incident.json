@@ -1,0 +1,26 @@
+{
+  "id": "2026-11-07-early-admission-failure",
+  "recordedAt": "2026-11-07T04:53:49.054Z",
+  "status": "failed",
+  "label": "分析证据未达到核心准入，紧急发布流程违规",
+  "scope": [
+    "周六001",
+    "周六002",
+    "周六003",
+    "周六004"
+  ],
+  "ticketId": "2026-11-07-early-core20-s1",
+  "scan": "四场均有关键分析缺口，扫盘方向不等于核心准入",
+  "admission": "001/003从低信心扫盘升级正式2.0属于准入失败，不得称优质2.0",
+  "publication": "资格、报价及430px四按钮验证成功，不代表分析合格；保留原票与跟踪，照原票复盘",
+  "noPostKickoffEvidence": true,
+  "reportUrl": "admission-incident-2026-11-07.html",
+  "preservedHashes": {
+    "data/reports/versions/2026-11-07-early-core20-s1.json": "e47149af7f7c5404bfef7cac2a6ca5e968ff69d943cbfd02dcfd5e8ebda6ef20",
+    "data/reports/versions/2026-11-07-early-core20-s1-verified.json": "c78034fe76b2bbb4ad46af7435d221593da1a9848c7d5077eb0f523f44b06866",
+    "public/cards/2026-11-07-early-core20-s1-scan.png": "4d9645ee099e738fdc33be8334621d9c37553422ea72b32ed0e1e20b249db101",
+    "public/cards/2026-11-07-early-core20-s1-scan-preview.jpg": "e54b2bb1f1c616b750e75ff6e6a2998f402562baacf9cb8b38330bfd39f9cd99",
+    "public/cards/2026-11-07-early-core20-s1-tracking.png": "7bcd01f7a716e85e1172b1f40fa933135bad37d41b78027a51200e6b401063bc",
+    "public/cards/2026-11-07-early-core20-s1-tracking-preview.jpg": "c0e7397c89f492b48f708b75e99335660a53b6d6034487e13d680c8e30ddddf9"
+  }
+}

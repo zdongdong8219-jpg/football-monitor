@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {validateCoreAdmission,requiredEvidence} from '../scripts/validate-core-admission.mjs';
+const fixture=()=>({date:'2026-11-07',recommendations:[{id:'new-ticket',category:'core20',legs:[1,2].map(n=>({number:String(n),kickoff:'2026-11-07T15:00:00+08:00',coreAdmission:{approved:true,assessedAt:'2026-11-07T10:00:00+08:00',admittedAt:'2026-11-07T10:05:00+08:00',evidence:Object.fromEntries(requiredEvidence.map(k=>[k,{complete:true,assessment:'具体独立证据判断必须覆盖该项实际影响以及相关失败路径。',sources:[{url:'https://example.com/prematch',checkedAt:'2026-11-07T09:00:00+08:00'}]}]))}}))}]});
+test('complete prematch audit passes structural gate',()=>assert.equal(validateCoreAdmission(fixture(),'.'),true));
+for(const key of requiredEvidence)test('missing '+key+' blocks both core classes',()=>{for(const category of ['core20','core30']){const r=fixture();r.recommendations[0].category=category;delete r.recommendations[0].legs[1].coreAdmission.evidence[key];assert.throws(()=>validateCoreAdmission(r,'.'),/incomplete/);}});
+test('postkickoff source is blocked',()=>{const r=fixture();r.recommendations[0].legs[0].coreAdmission.evidence.chanceQuality.sources[0].checkedAt='2026-11-07T15:01:00+08:00';assert.throws(()=>validateCoreAdmission(r,'.'),/not prematch/);});
+test('sweep without core tickets is allowed',()=>assert.equal(validateCoreAdmission({date:'2026-11-07',recommendations:[]},'.'),true));
+test('no audit and blank placeholder fail',()=>{const r=fixture();delete r.recommendations[0].legs[0].coreAdmission;assert.throws(()=>validateCoreAdmission(r,'.'));const s=fixture();s.recommendations[0].legs[0].coreAdmission.evidence.support.assessment='未知';assert.throws(()=>validateCoreAdmission(s,'.'));});

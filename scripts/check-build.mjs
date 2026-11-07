@@ -1,4 +1,5 @@
 import { validateTicketMath } from './validate-ticket-math.mjs';
+import { validateCoreAdmission } from './validate-core-admission.mjs';
 import fs from 'node:fs';
 import { validateProjectStars } from './validate-project-stars.mjs';
 import path from 'node:path';
@@ -16,6 +17,7 @@ for (const file of ['data/state.json', 'data/latest.json', 'data/review-latest.j
 }
 
 const latestReport = JSON.parse(readProjectFile('data/latest.json'));
+validateCoreAdmission(latestReport, projectRoot);
 const latestReview = JSON.parse(readProjectFile('data/review-latest.json'));
 if (latestReport.finalLocked === true && latestReport.infoOnly !== true) {
   const starProjects = ['direction', 'speculative', 'goals', 'halfFull', 'score'];
