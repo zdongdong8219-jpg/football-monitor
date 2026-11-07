@@ -4,10 +4,10 @@
   "infoOnly": true,
   "generatedAt": "2026-11-07T07:55:32.570Z",
   "analysisAsOf": "2026-11-07T07:55:32.570Z",
-  "publishedAt": "2026-11-07T08:30:36.407Z",
+  "publishedAt": "2026-11-07T08:43:22.617Z",
   "edition": "final",
   "deliveryStage": "final",
-  "batchLabel": "全天最终版 · 29场完整扫盘",
+  "batchLabel": "全天最终版",
   "batchFinal": true,
   "finalLocked": true,
   "mobileVerified": true,
@@ -16,7 +16,7 @@
   "earlyMobileVerified": true,
   "researchComplete": false,
   "scanDecisionComplete": true,
-  "summary": "25场逐项审阅；保留原两组复核，并新增011胜×023负1.8125倍。按顺序为014负017胜、011胜023负、010负023负；新三组中023出现两次，风险已明示。22场有低信心博项，009/013/015比较后不发行。梦想及进球四串列全候选与具体反证，不硬凑。",
+  "summary": "全天扫盘与五张推荐方案。",
   "scanTable": [
     {
       "number": "周六001",
@@ -15964,7 +15964,7 @@
       "id": "2026-11-07-allday-r7-dream6",
       "date": "2026-11-07",
       "category": "dream6",
-      "name": "6场梦想串",
+      "name": "高倍六串一",
       "sessionLabel": "全天梦想",
       "publishedAt": "2026-11-07T08:30:36.407Z",
       "status": "待定",
@@ -16148,7 +16148,185 @@
         "max": 7.845962687499998,
         "otherOutcomesMultiple": 0
       },
-      "construction": "ordinary-sixfold"
+      "construction": "ordinary-sixfold",
+      "displayLabel": "高倍六串一"
+    },
+    {
+      "id": "2026-11-07-clean-r8-dream6",
+      "date": "2026-11-07",
+      "category": "dream6",
+      "name": "梦想六串一",
+      "displayLabel": "梦想六串一",
+      "sessionLabel": "梦想",
+      "publishedAt": "2026-11-07T08:43:22.617Z",
+      "status": "待定",
+      "stars": 0,
+      "starColor": "none",
+      "legs": [
+        {
+          "number": "周六010",
+          "officialMatchId": 2042591,
+          "teams": "卡利亚里 : 弗洛西诺",
+          "kickoff": "2026-11-07T22:00:00+08:00",
+          "market": "hhad",
+          "handicap": 1,
+          "selection": "让负",
+          "odds": 3.67,
+          "options": [
+            {
+              "selection": "让负",
+              "odds": 3.67
+            }
+          ],
+          "selectionReason": "主+1让负要求弗洛西诺净胜2+；近期2.5进球与卡利亚里0.9进球的产量差、多名缺员和未定边路支持多球上行路径。",
+          "risk": "弗洛西诺客场平多且4:4暴露防守，赢1球也使本项失手；只作高风险博项，不替代普通负。",
+          "sourceIds": [
+            "source-5",
+            "source-92",
+            "source-93",
+            "source-94"
+          ]
+        },
+        {
+          "number": "周六011",
+          "officialMatchId": 2042592,
+          "teams": "莱红牛 : 奥格斯堡",
+          "kickoff": "2026-11-07T22:30:00+08:00",
+          "market": "hhad",
+          "handicap": -1,
+          "selection": "让胜",
+          "odds": 1.78,
+          "options": [
+            {
+              "selection": "让胜",
+              "odds": 1.78
+            }
+          ],
+          "selectionReason": "主-1让胜要求莱比锡净胜2+；主场4胜、客队三中卫同时缺席及边路转换对位支持将普通胜向多球扩大。",
+          "risk": "奥格斯堡近10场持续进球、主队欧战短休；3:2等普通胜仍使本项失败。",
+          "sourceIds": [
+            "source-6",
+            "source-139"
+          ]
+        },
+        {
+          "number": "周六014",
+          "officialMatchId": 2042595,
+          "teams": "美因茨 : 拜仁",
+          "kickoff": "2026-11-07T22:30:00+08:00",
+          "market": "hhad",
+          "handicap": 2,
+          "selection": "让负",
+          "odds": 2.18,
+          "options": [
+            {
+              "selection": "让负",
+              "odds": 2.18
+            }
+          ],
+          "selectionReason": "主+2让负要求拜仁净胜3+；近10场3.5进球、6:1强敌及美因茨多人防线减员提供大比分上行支持。",
+          "risk": "美因茨自身能得分、拜仁短休且仅2次零封；普通赢1至2球仍输此项，置信显著低于普通负。",
+          "sourceIds": [
+            "source-9",
+            "source-106"
+          ]
+        },
+        {
+          "number": "周六017",
+          "officialMatchId": 2042598,
+          "teams": "伯明翰 : 斯旺西",
+          "kickoff": "2026-11-07T23:00:00+08:00",
+          "market": "hhad",
+          "handicap": -1,
+          "selection": "让胜",
+          "odds": 3.15,
+          "options": [
+            {
+              "selection": "让胜",
+              "odds": 3.15
+            }
+          ],
+          "selectionReason": "主-1让胜需伯明翰净胜2+；近期三次3:0/3:1胜局、2.1进0.9失及客方中后场缺员提供多球上行支持。",
+          "risk": "主场3胜4平，斯旺西客场强且两翼回归；这是高风险净胜选择，不把普通胜等同穿盘。",
+          "sourceIds": [
+            "source-12",
+            "source-134"
+          ]
+        },
+        {
+          "number": "周六023",
+          "officialMatchId": 2042604,
+          "teams": "诺丁汉 : 曼城",
+          "kickoff": "2026-11-08T01:30:00+08:00",
+          "market": "hhad",
+          "handicap": 1,
+          "selection": "让负",
+          "odds": 2.36,
+          "options": [
+            {
+              "selection": "让负",
+              "odds": 2.36
+            }
+          ],
+          "selectionReason": "主+1让负要求曼城净胜2+；森林0.6进球和6次未进球、曼城2.9进球与较强客战提供两球差路径。",
+          "risk": "曼城国内近况不佳、短休、防守和人员未知；1球小胜及平局都是失手路径。",
+          "sourceIds": [
+            "source-17"
+          ]
+        },
+        {
+          "number": "周六028",
+          "officialMatchId": 2042609,
+          "teams": "罗马 : 萨索洛",
+          "kickoff": "2026-11-08T03:45:00+08:00",
+          "market": "hhad",
+          "handicap": -1,
+          "selection": "让胜",
+          "odds": 1.53,
+          "options": [
+            {
+              "selection": "让胜",
+              "odds": 1.53
+            }
+          ],
+          "selectionReason": "主-1让胜需罗马净胜2+；近5进18球、对手失17球且长期客场不胜，为多球胜利提供进攻与对手防守双重支持。",
+          "risk": "罗马近4场连续失2至3球、欧战旅行，可能仅赢1球甚至不胜；不视为稳健核心。",
+          "sourceIds": [
+            "source-22"
+          ]
+        }
+      ],
+      "selectionText": "010[让负] × 011[让胜] × 014[让负] × 017[让胜] × 023[让负] × 028[让胜]",
+      "oddsAsOf": "2026-11-07T08:40:40.360Z",
+      "totalOdds": 161.97819225336,
+      "oddsText": "161.9782倍",
+      "infoOnly": true,
+      "simulation": true,
+      "totalLegs": 6,
+      "hitCount": 0,
+      "hit": null,
+      "cardNote": "极高风险 · 六腿让球单选 · 任一腿未中即全失",
+      "wholeSetMath": {
+        "branchCount": 1,
+        "min": 161.97819225336,
+        "max": 161.97819225336,
+        "branches": [
+          {
+            "selection": [
+              "让负",
+              "让胜",
+              "让负",
+              "让胜",
+              "让负",
+              "让胜"
+            ],
+            "product": 161.97819225336,
+            "weight": 1,
+            "wholeSetMultiple": 161.97819225336
+          }
+        ],
+        "otherOutcomesMultiple": 0
+      }
     }
   ],
   "scenarioLabels": {
@@ -20681,7 +20859,7 @@
         "id": "2026-11-07-allday-r7-dream6",
         "date": "2026-11-07",
         "category": "dream6",
-        "name": "6场梦想串",
+        "name": "高倍六串一",
         "sessionLabel": "全天梦想",
         "publishedAt": "2026-11-07T08:30:36.407Z",
         "status": "待定",
@@ -20876,7 +21054,195 @@
           "max": 7.845962687499998,
           "otherOutcomesMultiple": 0
         },
-        "construction": "ordinary-sixfold"
+        "construction": "ordinary-sixfold",
+        "displayLabel": "高倍六串一"
+      },
+      {
+        "id": "2026-11-07-clean-r8-dream6",
+        "date": "2026-11-07",
+        "category": "dream6",
+        "name": "梦想六串一",
+        "displayLabel": "梦想六串一",
+        "sessionLabel": "梦想",
+        "publishedAt": "2026-11-07T08:43:22.617Z",
+        "status": "待定",
+        "stars": 0,
+        "starColor": "none",
+        "legs": [
+          {
+            "number": "周六010",
+            "officialMatchId": 2042591,
+            "teams": "卡利亚里 : 弗洛西诺",
+            "kickoff": "2026-11-07T22:00:00+08:00",
+            "market": "hhad",
+            "handicap": 1,
+            "selection": "让负",
+            "odds": 3.67,
+            "options": [
+              {
+                "selection": "让负",
+                "odds": 3.67
+              }
+            ],
+            "selectionReason": "主+1让负要求弗洛西诺净胜2+；近期2.5进球与卡利亚里0.9进球的产量差、多名缺员和未定边路支持多球上行路径。",
+            "risk": "弗洛西诺客场平多且4:4暴露防守，赢1球也使本项失手；只作高风险博项，不替代普通负。",
+            "sourceIds": [
+              "source-5",
+              "source-92",
+              "source-93",
+              "source-94"
+            ]
+          },
+          {
+            "number": "周六011",
+            "officialMatchId": 2042592,
+            "teams": "莱红牛 : 奥格斯堡",
+            "kickoff": "2026-11-07T22:30:00+08:00",
+            "market": "hhad",
+            "handicap": -1,
+            "selection": "让胜",
+            "odds": 1.78,
+            "options": [
+              {
+                "selection": "让胜",
+                "odds": 1.78
+              }
+            ],
+            "selectionReason": "主-1让胜要求莱比锡净胜2+；主场4胜、客队三中卫同时缺席及边路转换对位支持将普通胜向多球扩大。",
+            "risk": "奥格斯堡近10场持续进球、主队欧战短休；3:2等普通胜仍使本项失败。",
+            "sourceIds": [
+              "source-6",
+              "source-139"
+            ]
+          },
+          {
+            "number": "周六014",
+            "officialMatchId": 2042595,
+            "teams": "美因茨 : 拜仁",
+            "kickoff": "2026-11-07T22:30:00+08:00",
+            "market": "hhad",
+            "handicap": 2,
+            "selection": "让负",
+            "odds": 2.18,
+            "options": [
+              {
+                "selection": "让负",
+                "odds": 2.18
+              }
+            ],
+            "selectionReason": "主+2让负要求拜仁净胜3+；近10场3.5进球、6:1强敌及美因茨多人防线减员提供大比分上行支持。",
+            "risk": "美因茨自身能得分、拜仁短休且仅2次零封；普通赢1至2球仍输此项，置信显著低于普通负。",
+            "sourceIds": [
+              "source-9",
+              "source-106"
+            ]
+          },
+          {
+            "number": "周六017",
+            "officialMatchId": 2042598,
+            "teams": "伯明翰 : 斯旺西",
+            "kickoff": "2026-11-07T23:00:00+08:00",
+            "market": "hhad",
+            "handicap": -1,
+            "selection": "让胜",
+            "odds": 3.15,
+            "options": [
+              {
+                "selection": "让胜",
+                "odds": 3.15
+              }
+            ],
+            "selectionReason": "主-1让胜需伯明翰净胜2+；近期三次3:0/3:1胜局、2.1进0.9失及客方中后场缺员提供多球上行支持。",
+            "risk": "主场3胜4平，斯旺西客场强且两翼回归；这是高风险净胜选择，不把普通胜等同穿盘。",
+            "sourceIds": [
+              "source-12",
+              "source-134"
+            ]
+          },
+          {
+            "number": "周六023",
+            "officialMatchId": 2042604,
+            "teams": "诺丁汉 : 曼城",
+            "kickoff": "2026-11-08T01:30:00+08:00",
+            "market": "hhad",
+            "handicap": 1,
+            "selection": "让负",
+            "odds": 2.36,
+            "options": [
+              {
+                "selection": "让负",
+                "odds": 2.36
+              }
+            ],
+            "selectionReason": "主+1让负要求曼城净胜2+；森林0.6进球和6次未进球、曼城2.9进球与较强客战提供两球差路径。",
+            "risk": "曼城国内近况不佳、短休、防守和人员未知；1球小胜及平局都是失手路径。",
+            "sourceIds": [
+              "source-17"
+            ]
+          },
+          {
+            "number": "周六028",
+            "officialMatchId": 2042609,
+            "teams": "罗马 : 萨索洛",
+            "kickoff": "2026-11-08T03:45:00+08:00",
+            "market": "hhad",
+            "handicap": -1,
+            "selection": "让胜",
+            "odds": 1.53,
+            "options": [
+              {
+                "selection": "让胜",
+                "odds": 1.53
+              }
+            ],
+            "selectionReason": "主-1让胜需罗马净胜2+；近5进18球、对手失17球且长期客场不胜，为多球胜利提供进攻与对手防守双重支持。",
+            "risk": "罗马近4场连续失2至3球、欧战旅行，可能仅赢1球甚至不胜；不视为稳健核心。",
+            "sourceIds": [
+              "source-22"
+            ]
+          }
+        ],
+        "selectionText": "010[让负] × 011[让胜] × 014[让负] × 017[让胜] × 023[让负] × 028[让胜]",
+        "oddsAsOf": "2026-11-07T08:40:40.360Z",
+        "totalOdds": 161.97819225336,
+        "oddsText": "161.9782倍",
+        "infoOnly": true,
+        "simulation": true,
+        "totalLegs": 6,
+        "hitCount": 0,
+        "hit": null,
+        "cardNote": "极高风险 · 六腿让球单选 · 任一腿未中即全失",
+        "wholeSetMath": {
+          "branchCount": 1,
+          "min": 161.97819225336,
+          "max": 161.97819225336,
+          "branches": [
+            {
+              "selection": [
+                "让负",
+                "让胜",
+                "让负",
+                "让胜",
+                "让负",
+                "让胜"
+              ],
+              "product": 161.97819225336,
+              "weight": 1,
+              "wholeSetMultiple": 161.97819225336
+            }
+          ],
+          "otherOutcomesMultiple": 0
+        },
+        "stake": 1000,
+        "net": null,
+        "returned": null,
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "status": "待定",
+          "net": null,
+          "returned": null
+        }
       }
     ]
   },
@@ -20889,8 +21255,8 @@
     "已有相同原票仅复核，不重复计本金；新增票模拟跟踪，梦想单独记账。"
   ],
   "imageFiles": {
-    "scan": "2026-11-07-allday-r7-scan.png",
-    "tracking": "2026-11-07-allday-r7-ledger-tracking.png"
+    "scan": "2026-11-07-clean-r8-scan.png",
+    "tracking": "2026-11-07-clean-r8-tracking.png"
   },
   "earlyBatchLocked": true,
   "originalImageHashes": {
@@ -20915,7 +21281,7 @@
     "mobileVerified": true,
     "verificationScope": "430px browser emulation; four real clicks; clipboard PNG decoded pixel hashes"
   },
-  "updatedAt": "2026-11-07T08:30:36.407Z",
+  "updatedAt": "2026-11-07T08:43:22.617Z",
   "admissionIncident": {
     "id": "2026-11-07-early-admission-failure",
     "recordedAt": "2026-11-07T04:53:49.054Z",
@@ -21679,7 +22045,7 @@
   "researchPackageComplete": true,
   "rulesVersion": "2026-10-12",
   "finalPublication": {
-    "publishedAt": "2026-11-07T08:30:36.407Z",
+    "publishedAt": "2026-11-07T08:43:22.617Z",
     "status": "published",
     "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
     "qualificationCheckedAt": "2026-11-07T07:58:54.335Z",
@@ -21956,28 +22322,20 @@
     },
     {
       "rank": 3,
-      "selection": "010[负] × 023[负]"
-    },
-    {
-      "rank": 4,
-      "selection": "011[胜] × 017[胜]"
-    },
-    {
-      "rank": 5,
-      "selection": "010[负] × 011[胜]"
-    },
-    {
-      "rank": 6,
       "selection": "011[胜] × 023[负]"
     },
     {
-      "rank": 7,
-      "selection": "010[负] × 011[胜] × 014[负] × 017[胜] × 023[负] × 028[胜]"
+      "rank": 4,
+      "selection": "010[负] × 023[负]"
+    },
+    {
+      "rank": 5,
+      "selection": "010[让负] × 011[让胜] × 014[让负] × 017[让胜] × 023[让负] × 028[让胜]"
     }
   ],
   "revision": {
-    "id": "2026-11-07-allday-r7",
-    "publishedAt": "2026-11-07T08:30:36.407Z",
+    "id": "2026-11-07-clean-r8",
+    "publishedAt": "2026-11-07T08:43:22.617Z",
     "status": "published"
   },
   "speculativeTracking": [],
@@ -22043,36 +22401,29 @@
     }
   ],
   "allDayFinal": {
-    "id": "2026-11-07-allday-r7",
-    "createdAt": "2026-11-07T08:28:15.198Z",
-    "earlyScan": "2026-11-07-early-core20-s1-scan.png",
-    "earlyTracking": "2026-11-07-early-core20-s1-tracking.png",
+    "id": "2026-11-07-clean-r8",
+    "publishedAt": "2026-11-07T08:43:22.617Z",
     "rowCount": 29,
-    "missingNumber": "018",
-    "missingNumberReason": "当前官方两接口均无周六018；不编造第30场",
     "formalTicketIds": [
       "2026-11-07-early-core20-s1",
       "2026-11-07-final-core20-s1",
-      "2026-11-07-final-core30-s1",
-      "2026-11-07-extra-core20-s1",
-      "2026-11-07-extra-core30-s1",
       "2026-11-07-product-r4-rank2",
-      "2026-11-07-allday-r7-dream6"
+      "2026-11-07-final-core30-s1",
+      "2026-11-07-clean-r8-dream6"
     ],
-    "reaffirmationIds": [
-      "2026-11-07-evening-r3-rank1",
-      "2026-11-07-product-r4-rank1",
-      "2026-11-07-evening-r3-rank2",
-      "2026-11-07-product-r4-rank3"
+    "formalSimulationStake": 5000
+  },
+  "finalDisplay": {
+    "id": "2026-11-07-clean-r8",
+    "ticketIds": [
+      "2026-11-07-early-core20-s1",
+      "2026-11-07-final-core20-s1",
+      "2026-11-07-product-r4-rank2",
+      "2026-11-07-final-core30-s1",
+      "2026-11-07-clean-r8-dream6"
     ],
-    "cancelledUnpublished": [
-      "2026-11-07-evening-r2-rank1",
-      "2026-11-07-evening-r2-rank2",
-      "2026-11-07-evening-r2-rank3"
-    ],
-    "formalSimulationStake": 7000,
-    "earlyPixelsImmutable": true,
-    "publishedAt": "2026-11-07T08:30:36.407Z",
-    "ledgerImageCorrectedAt": "2026-11-07T08:33:13.321Z"
+    "historicalBaseline": "2026-11-06-core30-r2-verified.json",
+    "rowCount": 29,
+    "simulationStake": 5000
   }
 }
