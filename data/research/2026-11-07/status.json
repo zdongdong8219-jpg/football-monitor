@@ -94,14 +94,13 @@
   "supplementMetadataCommit": "b2e5a6ad3236e947dbbb03ab8d59e76d52ff7380",
   "supplementOnlineVerifiedAt": "2026-11-07T04:44:25.488Z",
   "researchWorkflow": {
-    "phase": "additional_combinations_published_verified",
+    "phase": "evening_r3_published_verified",
     "owner": "本任务",
     "nextAction": null,
     "requiredArtifacts": [
-      "data/research/2026-11-07/additional-combinations-review.json",
-      "data/research/2026-11-07/extra-pixel-audit.json",
-      "data/research/2026-11-07/extra-phone/online-phone-verification.json",
-      "data/research/2026-11-07/extra-completion-receipt.json"
+      "data/research/2026-11-07/2026-11-07-evening-r3-audit.json",
+      "data/research/2026-11-07/2026-11-07-evening-r3-receipt.json",
+      "data/research/2026-11-07/evening-r3-phone/online-phone-verification.json"
     ],
     "attemptedSources": [
       {
@@ -1085,7 +1084,7 @@
         "error": null
       }
     ],
-    "lastVerifiedAt": "2026-11-07T06:55:13.770Z",
+    "lastVerifiedAt": "2026-11-07T07:25:31.670Z",
     "packageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
     "allFieldsVerified": false
   }

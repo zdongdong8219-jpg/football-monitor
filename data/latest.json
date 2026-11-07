@@ -10,8 +10,8 @@
   "batchLabel": "11月7日中晚全表重审R3 · 旧票仅历史",
   "batchFinal": true,
   "finalLocked": true,
-  "mobileVerified": false,
-  "completed": false,
+  "mobileVerified": true,
+  "completed": true,
   "earlyCompleted": true,
   "earlyMobileVerified": true,
   "researchComplete": false,
@@ -13556,12 +13556,12 @@
   "ticketClassStatus": [
     {
       "category": "core20",
-      "status": "prepared",
+      "status": "published",
       "reason": "单腿分析后自然组合1.9205倍，未缩窄玩法。"
     },
     {
       "category": "core30",
-      "status": "prepared",
+      "status": "published",
       "reason": "单腿分析后自然组合2.9435倍，未缩窄玩法。"
     },
     {
@@ -17011,7 +17011,7 @@
     "2026-11-07-early-tracking.png": "dd3faf078a1bd11b0066d8f538419f961402790ab8f218f9387eca8c977efe72"
   },
   "deliveryManifest": "data/research/2026-11-07/approved-four-image-manifest.json",
-  "onlineVerifiedAt": "2026-11-07T06:35:55.919Z",
+  "onlineVerifiedAt": "2026-11-07T07:25:31.670Z",
   "verificationScope": "430px browser emulation and actual clipboard PNG pixel hashes; not physical handset",
   "supplement": {
     "id": "2026-11-07-early-core20-s1",
@@ -17028,7 +17028,7 @@
     "mobileVerified": true,
     "verificationScope": "430px browser emulation; four real clicks; clipboard PNG decoded pixel hashes"
   },
-  "updatedAt": "2026-11-07T07:21:25.145Z",
+  "updatedAt": "2026-11-07T07:25:31.670Z",
   "admissionIncident": {
     "id": "2026-11-07-early-admission-failure",
     "recordedAt": "2026-11-07T04:53:49.054Z",
@@ -17791,9 +17791,11 @@
   "rulesVersion": "2026-10-12",
   "finalPublication": {
     "publishedAt": "2026-11-07T07:21:25.145Z",
-    "status": "submitted",
+    "status": "published_verified",
     "inputPackageSha256": "b7c37090c81ce9d947ace075bd868dbe02e701d19f499d8a30d04454c9ce8d07",
-    "qualificationCheckedAt": "2026-11-07T07:21:25.145Z"
+    "qualificationCheckedAt": "2026-11-07T07:21:25.145Z",
+    "onlineVerifiedAt": "2026-11-07T07:25:31.670Z",
+    "contentCommit": "b553df4b949aaf34bd2de2e4192e10913f034ac6"
   },
   "coreComparison": {
     "core20": {
@@ -18129,7 +18131,7 @@
   "revision": {
     "id": "2026-11-07-evening-r3",
     "publishedAt": "2026-11-07T07:21:25.145Z",
-    "status": "submitted",
+    "status": "published_verified",
     "supersededTicketIds": [
       "2026-11-07-final-core20-s1",
       "2026-11-07-final-core30-s1",
@@ -18138,7 +18140,9 @@
       "2026-11-07-extra-core30-s1"
     ],
     "reason": "用户要求中晚全部重出；旧票、原价格、时间、跟踪不改写。",
-    "qualificationCheckedAt": "2026-11-07T07:21:25.145Z"
+    "qualificationCheckedAt": "2026-11-07T07:21:25.145Z",
+    "onlineVerifiedAt": "2026-11-07T07:25:31.670Z",
+    "contentCommit": "b553df4b949aaf34bd2de2e4192e10913f034ac6"
   },
   "trackingDisplayPairs": [
     [
