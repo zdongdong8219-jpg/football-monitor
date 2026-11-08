@@ -41,7 +41,13 @@ export function validateInformationReport(report) {
 
   for(const row of rows){
     if(!row.analysis||!row.risk||!row.sources?.length||!row.probabilityMethod||!row.outcomeRanking?.length)throw Error('Missing evidence/risk/probability provenance: '+row.number);
-    if(Date.parse(row.analysisAt)>=Date.parse(row.kickoff))throw Error('Analysis must use saved prematch evidence: '+row.number);
+    const analyzedAt=Date.parse(row.analysisAt), kickoffAt=Date.parse(row.kickoff);
+    if(!Number.isFinite(analyzedAt)||!Number.isFinite(kickoffAt))throw Error('Invalid analysis or kickoff time: '+row.number);
+    if(analyzedAt>=kickoffAt){
+      const usedInTicket=scenarios.some(ticket=>(ticket.legs||[]).some(leg=>leg.number===row.number||leg.officialMatchId===row.officialMatchId));
+      const prematchOnly=row.sources.every(source=>Number.isFinite(Date.parse(source.checkedAt))&&Date.parse(source.checkedAt)<kickoffAt);
+      if(row.lateAnalysis!==true||!row.lateLabel?.includes('迟到补扫')||usedInTicket||!prematchOnly)throw Error('Late analysis requires explicit label, prematch sources and no new ticket: '+row.number);
+    }
     const p=row.marketImpliedProbability;if(!p||Math.abs(p.h+p.d+p.a-100)>.2)throw Error('Invalid implied probabilities');
     const choices=normalizeDirection(row.primaryPick);
     if(choices.length>1&&choices.every(x=>['胜','平','负'].includes(x))&&row.outcomeRanking.indexOf(choices[0])>row.outcomeRanking.indexOf(choices[1]))throw Error('Direction order mismatch');
