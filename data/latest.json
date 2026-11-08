@@ -10,7 +10,7 @@
   "batchLabel": "11月8日存档终审 · 1组正式票 · 缺项明示",
   "batchFinal": true,
   "finalLocked": true,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "completed": false,
   "researchComplete": false,
   "scanDecisionComplete": true,
@@ -16507,7 +16507,7 @@
   "ticketClassStatus": [
     {
       "category": "core20",
-      "status": "prepared",
+      "status": "published",
       "reason": "本日相对最优1组，实际1.8084倍，不声称达到2倍。"
     },
     {
@@ -17002,10 +17002,14 @@
     "notice": "昨日原票及事故历史不改；不是今日推荐"
   },
   "finalPublication": {
-    "status": "submitted",
+    "status": "published_verified",
     "publishedAt": "2026-11-08T05:55:08.947Z",
-    "sourceSnapshotAt": "2026-11-08T05:03:45.581Z"
+    "sourceSnapshotAt": "2026-11-08T05:03:45.581Z",
+    "onlineVerifiedAt": "2026-11-08T05:56:51.069Z",
+    "commit": "f3a57d3185e3abef627b6ddeda2b8a58acba9b40"
   },
   "allRequestedFieldsComplete": false,
-  "earlyDeadlineMissed": true
+  "earlyDeadlineMissed": true,
+  "onlineVerifiedAt": "2026-11-08T05:56:51.069Z",
+  "deliveryVerified": true
 }
