@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "ready",
-  "checkedAt": "2026-11-09T10:30:04.401Z",
+  "checkedAt": "2026-11-09T20:57:57.127Z",
   "currentDate": "2026-11-10",
   "days": {
     "2026-10-08": {
@@ -530587,10 +530587,115 @@
               }
             }
           ]
+        },
+        {
+          "checkedAt": "2026-11-09T20:57:57.127Z",
+          "matches": [
+            {
+              "id": 3012847,
+              "number": "周二001",
+              "league": "英锦标赛",
+              "kickoff": "2026-11-11T03:00:00",
+              "home": "伯顿",
+              "away": "诺茨郡",
+              "homeRank": "英甲15",
+              "awayRank": "英甲17",
+              "saleDate": "2026-11-10",
+              "spf": {
+                "win": 2.18,
+                "draw": 3.3,
+                "lose": 2.65
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 4.6,
+                "draw": 3.85,
+                "lose": 1.51
+              },
+              "goals": {
+                "0": 15,
+                "1": 6,
+                "2": 3.55,
+                "3": 3.3,
+                "4": 4.9,
+                "5": 8.3,
+                "6": 15,
+                "7+": 22
+              },
+              "halfFull": {
+                "winWin": 3.7,
+                "winDraw": 14,
+                "winLose": 23,
+                "drawWin": 5.35,
+                "drawDraw": 5.75,
+                "drawLose": 6.2,
+                "loseWin": 21,
+                "loseDraw": 14,
+                "loseLose": 4.4
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 3012997,
+              "number": "周二002",
+              "league": "英锦标赛",
+              "kickoff": "2026-11-11T03:30:00",
+              "home": "布罗姆利",
+              "away": "米尔顿",
+              "homeRank": "英甲24",
+              "awayRank": "英甲12",
+              "saleDate": "2026-11-10",
+              "spf": {
+                "win": 4.11,
+                "draw": 3.92,
+                "lose": 1.56
+              },
+              "handicap": 1,
+              "rqspf": {
+                "win": 2.05,
+                "draw": 3.67,
+                "lose": 2.64
+              },
+              "goals": {
+                "0": 21,
+                "1": 7,
+                "2": 4.15,
+                "3": 3.5,
+                "4": 4.5,
+                "5": 6.6,
+                "6": 11,
+                "7+": 14
+              },
+              "halfFull": {
+                "winWin": 7,
+                "winDraw": 14,
+                "winLose": 17,
+                "drawWin": 10.5,
+                "drawDraw": 7.2,
+                "drawLose": 4.7,
+                "loseWin": 27,
+                "loseDraw": 14,
+                "loseLose": 2.35
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            }
+          ]
         }
       ],
       "latest": {
-        "checkedAt": "2026-11-09T10:30:04.401Z",
+        "checkedAt": "2026-11-09T20:57:57.127Z",
         "matches": [
           {
             "id": 3012847,
@@ -530603,15 +530708,15 @@
             "awayRank": "英甲17",
             "saleDate": "2026-11-10",
             "spf": {
-              "win": 2.2,
-              "draw": 3.38,
-              "lose": 2.57
+              "win": 2.18,
+              "draw": 3.3,
+              "lose": 2.65
             },
             "handicap": -1,
             "rqspf": {
-              "win": 4.55,
-              "draw": 3.95,
-              "lose": 1.5
+              "win": 4.6,
+              "draw": 3.85,
+              "lose": 1.51
             },
             "goals": {
               "0": 15,
@@ -530627,12 +530732,12 @@
               "winWin": 3.7,
               "winDraw": 14,
               "winLose": 23,
-              "drawWin": 5.6,
-              "drawDraw": 6,
+              "drawWin": 5.35,
+              "drawDraw": 5.75,
               "drawLose": 6.2,
               "loseWin": 21,
               "loseDraw": 14,
-              "loseLose": 4.1
+              "loseLose": 4.4
             },
             "single": {
               "spf": false,
@@ -530804,7 +530909,7 @@
           ]
         },
         {
-          "checkedAt": "2026-11-09T10:30:04.401Z",
+          "checkedAt": "2026-11-09T20:57:57.127Z",
           "matches": [
             {
               "id": 3083967,
@@ -530910,7 +531015,7 @@
         }
       ],
       "latest": {
-        "checkedAt": "2026-11-09T10:30:04.401Z",
+        "checkedAt": "2026-11-09T20:57:57.127Z",
         "matches": [
           {
             "id": 3083967,
