@@ -1,8 +1,8 @@
 {
   "date": "2026-11-08",
   "startedAt": "2026-11-09T00:37:21.054Z",
-  "lastProgressAt": "2026-11-09T00:42:02.041Z",
-  "runPhase": "visual_overlay",
+  "lastProgressAt": "2026-11-09T00:49:36.323Z",
+  "runPhase": "deployment_retry_after_build_fix",
   "completed": false,
   "mobileVerified": false,
   "published": false,
@@ -31,5 +31,15 @@
   "artifacts": {
     "review": "data/reviews/2026-11-08.json",
     "results": "data/research/2026-11-08/review-result-audit.json"
+  },
+  "lastError": {
+    "at": "2026-11-09T00:47:25Z",
+    "step": "GitHub Actions: node scripts/check-build.mjs",
+    "commit": "cfc6ef3eb302cd4afc362d3a79ba955b52215fa0",
+    "file": "scripts/validate-review-consistency.mjs",
+    "message": "Unissued row001 result=null rejected as false; then missing copied projectStarAudit in review rows",
+    "resolved": true,
+    "resolvedAt": "2026-11-09T00:49:36.325Z",
+    "resolution": "Explicit exclude-unissued-v1 validation against immutable issue status; copied original star evidence. Full check-build now passes."
   }
 }

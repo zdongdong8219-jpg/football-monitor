@@ -9,6 +9,12 @@ export function validateReviewConsistency(projectRoot) {
   if (!review?.date || !Array.isArray(review.rows)) throw Error('Review rows missing');
   const original = JSON.parse(fs.readFileSync(path.join(projectRoot, `data/reports/${review.date}.json`), 'utf8'));
   const scans = new Map((original.scanTable || []).map(row => [row.number, row]));
+  const excludesUnissued = review.evaluationPolicy === 'exclude-unissued-v1';
+  const pickFields = {result: 'buy', goals: 'goals', score: 'score', halfFull: 'halfFull'};
+  const unissued = (row, key) => {
+    const scan = scans.get(row.number);
+    return excludesUnissued && scan && (scan.lateAnalysis === true || /^(无|资料不足|未交付|)$/.test(String(scan[pickFields[key]] ?? '').trim()));
+  };
 
   for (const row of review.rows) {
     if (!/^\d+\s*:\s*\d+$/.test(String(row.actualScore))) continue;
@@ -31,6 +37,10 @@ export function validateReviewConsistency(projectRoot) {
       expected.halfFull = options(scan.halfFull).includes(sign(halfHome, halfAway) + ordinary);
     }
     for (const key of ['result', 'goals', 'score', 'halfFull']) {
+      if (unissued(row, key)) {
+        if (row.hits?.[key] !== null) throw Error(`Review ${row.number}: unissued ${key} must not be scored`);
+        continue;
+      }
       if (expected[key] !== null && row.hits?.[key] !== expected[key]) {
         throw Error(`Review ${row.number}: ${key}=${row.hits?.[key]} but immutable pick and score require ${expected[key]}`);
       }
@@ -41,12 +51,15 @@ export function validateReviewConsistency(projectRoot) {
     const expected = {
       hit: review.rows.filter(row => row.hits?.[key] === true).length,
       total: review.rows.filter(row => row.hits?.[key] != null).length,
-      pending: review.rows.filter(row => row.hits?.[key] == null).length
+      pending: review.rows.filter(row => row.hits?.[key] == null && !unissued(row, key)).length
     };
     for (const field of ['hit', 'total', 'pending']) {
       if (review.statistics?.[key]?.[field] !== expected[field]) {
         throw Error(`Review statistics ${key}.${field}=${review.statistics?.[key]?.[field]} but rows require ${expected[field]}`);
       }
+    }
+    if (excludesUnissued && review.statistics?.[key]?.notIssued !== review.rows.filter(row => unissued(row, key)).length) {
+      throw Error(`Review statistics ${key}.notIssued does not match immutable issuance records`);
     }
   }
   return {date: review.date, rows: review.rows.length, statistics: review.statistics};
