@@ -1,0 +1,44 @@
+{
+  "version": "2026-11-02-final-v6",
+  "immutableUnlessUserExplicitlyChanges": true,
+  "rule": "Never replace or redesign the user-approved review images or visual language.",
+  "referenceImages": [
+    "codex-clipboard-e6d54f10-5ce8-4e92-b413-2078e74bc1bf.png",
+    "codex-clipboard-c6361fba-c99b-4e25-b2e6-69dd95324959.png"
+  ],
+  "approvedReviewScanSha256": "40684fa31f22dc16b443ad64cb4bd25d1a3dff52933744ccffb5aa1a86136ee7",
+  "approvedReviewTrackingSha256": "950a639f4a08c6155e8a07cb17c394729d31670afa16d4cefc0e03ccff723f3c",
+  "canvasWidth": 1244,
+  "scan": {
+    "base": "corresponding-date final-scan PNG",
+    "markerShape": "rectangle",
+    "markerScope": "full-cell",
+    "rowHeight": 72,
+    "inset": 3,
+    "renderedHeight": 66,
+    "strokeWidth": 2,
+    "fillAlpha": 0.24,
+    "columns": {
+      "result": { "x": 507, "width": 130 },
+      "speculative": { "x": 637, "width": 115 },
+      "goals": { "x": 752, "width": 90 },
+      "halfFull": { "x": 842, "width": 110 },
+      "score": { "x": 952, "width": 160 }
+    },
+    "forbidden": ["text-tight boxes", "circles", "ellipses", "split-character markers", "row-wide highlights", "template redesign"]
+  },
+  "ticketStatus": {
+    "hit": "red square stamp 中",
+    "miss": "gray square stamp 错",
+    "count": "yellow strip below stamp showing X中Y",
+    "dreamPartialReturn": "still 错 unless full ticket wins; show return separately"
+  },
+  "tracking": {
+    "base": "corresponding-date final-tracking PNG",
+    "layout": "approved MUSE/剑妈 image with 2.0 left and 3.0 right",
+    "onlyCategories": ["2.0", "3.0"],
+    "stakePerTicket": 1000,
+    "separateCumulative": true
+  },
+  "publicationGate": "Any visual difference outside approved overlays or any parameter mismatch blocks publication and completion."
+}

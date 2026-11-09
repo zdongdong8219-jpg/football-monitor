@@ -13,6 +13,8 @@ on:
       - 'public/**'
       - 'scripts/**'
       - 'data/workflow-legacy-tracking.json'
+      - 'data/review-template-lock.json'
+      - 'data/tracking-hit-style-lock.json'
       - 'RECOMMENDATION-RULES.md'
       - '.github/workflows/monitor.yml'
 permissions:
