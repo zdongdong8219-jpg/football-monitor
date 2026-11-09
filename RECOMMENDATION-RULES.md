@@ -3,7 +3,7 @@
 - 高倍六串一也属于梦想串；高倍与161.9782两张梦想均不进任何跟踪数组或累计。周六只保留4张core20、2张core30。普通最终正式正金额票才跟踪，新票必须记录issued=true、final=true、stake>0和publishedAt；撤销、草稿、零金额和重复ID禁止发布。
 - scripts/check-build.mjs已接入validate-delivery-workflow.mjs。任一当前finalLocked正式报告必须具备reviewSchedule四项，最后开赛必须与全表一致，reviewAt=estimatedEnd+bufferMinutes。历史赛前分析不回填；2026-11-09起逐行要求analysisAudit：availableEvidence（source、collectedAt、evidence）、gaps、counterevidence、decision（admit/reject）、reason。资料缺口只能限制准入，不能代替整场分析。
 - 早场固定为销售日北京时间18:00前，须按最早开赛前60分钟、停售和当日截止中最早者交付，不能等固定任务时刻错过截止。逾期未实际手机核验交付必须earlyDeliveryMissed=true并写failureReason；迟到补扫不得声明早场交付成功。18:00及之后全日/晚场最晚14:00交付。
-- 正常资料由主任务准备，6中只读分析；执行前运行node scripts/workflow-next-action.mjs research 日期 对应截止时间。requiredArtifacts逐项保存path/sha256，或路径加artifactHashes；真实产物进展写lastRealProgressAt，完成有效交接才标handoff_ready。
+- 正常资料由主任务准备，6中只读分析；执行前运行node scripts/workflow-next-action.mjs research 日期 对应截止时间。researchWorkflow.packet明确记录资料包path/sha256；requiredArtifacts逐项保存path/sha256，或路径加artifactHashes；真实产物进展写lastRealProgressAt，完成有效交接才标handoff_ready。报告记录analysisAsOf及deliveryDeadline用于发布校验。
 - 缺包、缺必需产物、哈希失败、interrupted/failed/backup_required，或未完成资料15分钟无真实进度，自动路由task6最小补采；距交付45分钟仍无有效资料包不得空等。有效完整包禁止task6重复采集。主任务恢复后复用接管产物，只补剩余缺口。
 - 新报告researchExecution记录owner=task6、mode、fetches；接管写failureReason，每次来源记录source、collectedAt、gap、outcome、evidenceUsed，失败另记failureReason。无法取得证据时如实拒绝准入，不编造。发布校验检查路由与执行记录。
 - 每日09:15复盘检查运行node scripts/workflow-next-action.mjs review 前一销售日。按实际reviewSchedule触发：到期缺状态/复盘则恢复；未完赛按nextCheckAt安排15分钟增量心跳；未到期安排reviewAt复查。只补未验场次，全部核验及手机交付前不得completed。

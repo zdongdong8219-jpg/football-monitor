@@ -11,6 +11,10 @@ on:
       - 'data/review-latest.json'
       - 'data/reports/**'
       - 'public/**'
+      - 'scripts/**'
+      - 'data/workflow-legacy-tracking.json'
+      - 'RECOMMENDATION-RULES.md'
+      - '.github/workflows/monitor.yml'
 permissions:
   contents: write
   pages: write
@@ -32,6 +36,7 @@ jobs:
       - if: github.event_name == 'schedule'
         run: node scripts/collect.mjs
       - run: node scripts/check-build.mjs
+      - run: node scripts/test-delivery-workflow.mjs
       - if: github.event_name == 'schedule'
         name: Save monitoring snapshot
         run: |

@@ -82,14 +82,17 @@ export function validateAnalysis(report, now = Date.now()) {
 
 export function routeResearch(workflow, root, now = Date.now(), deadline) {
   const w = workflow || {}, reasons = [];
-  const artifacts = w.requiredArtifacts || [];
+  const artifacts = Array.isArray(w.requiredArtifacts) ? w.requiredArtifacts : [];
+  if (!w.packet?.path || !w.packet?.sha256) reasons.push('missing_packet');
   if (!artifacts.length) reasons.push('missing_requiredArtifacts');
-  for (const entry of artifacts) {
-    const name = typeof entry === 'string' ? entry : entry.path;
-    const expected = typeof entry === 'string' ? w.artifactHashes?.[entry] : entry.sha256;
-    const resolved = name && path.resolve(root, name);
-    if (!resolved || !resolved.startsWith(path.resolve(root)+path.sep) || !fs.existsSync(resolved)) reasons.push('missing_artifact:'+name);
-    else if (!expected || crypto.createHash('sha256').update(fs.readFileSync(resolved)).digest('hex') !== expected) reasons.push('hash_error:'+name);
+  for (const entry of [...artifacts, ...(w.packet?.path ? [w.packet] : [])]) {
+    const name = typeof entry === 'string' ? entry : entry?.path;
+    const expected = typeof entry === 'string' ? w.artifactHashes?.[entry] : entry?.sha256;
+    const resolved = typeof name === 'string' && path.resolve(root, name);
+    try {
+      if (!resolved || !resolved.startsWith(path.resolve(root)+path.sep) || !fs.existsSync(resolved) || !fs.statSync(resolved).isFile()) reasons.push('missing_artifact:'+name);
+      else if (!expected || crypto.createHash('sha256').update(fs.readFileSync(resolved)).digest('hex') !== expected) reasons.push('hash_error:'+name);
+    } catch { reasons.push('unreadable_artifact:'+name); }
   }
   if (/failed|interrupted|backup_required/.test(w.phase || '')) reasons.push('failed_state');
   const stale = !Number.isFinite(time(w.lastRealProgressAt)) || now-time(w.lastRealProgressAt) >= 15*60000;
@@ -129,7 +132,7 @@ export function validateDeliveryWorkflow(root) {
   const report = read('data/latest.json'), review = read('data/review-latest.json');
   const legacy = read('data/workflow-legacy-tracking.json');
   validateTracking(report, legacy); validateTracking(review, legacy);
-  if (report.finalLocked && !report.infoOnly) {
+  if (report.finalLocked) {
     validateSchedule(report); validateAnalysis(report);
     if (report.date >= activationDate) {
       if (!Number.isFinite(time(report.analysisAsOf)) || !Number.isFinite(time(report.deliveryDeadline))) fail('missing analysisAsOf/deliveryDeadline');
