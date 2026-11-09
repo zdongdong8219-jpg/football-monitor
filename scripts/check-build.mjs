@@ -7,9 +7,11 @@ import { fileURLToPath } from 'node:url';
 import { validateReviewConsistency } from './validate-review-consistency.mjs';
 import { validateFormalReport } from './validate-formal-report.mjs';
 import { validateDeliveryWorkflow } from './validate-delivery-workflow.mjs';
+import { validateTrackingHitStyle } from './validate-tracking-hit-style.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 validateDeliveryWorkflow(projectRoot);
+validateTrackingHitStyle(projectRoot);
 validateProjectStars(projectRoot);
 const readProjectFile = relativePath =>
   fs.readFileSync(path.join(projectRoot, relativePath), 'utf8');

@@ -5,6 +5,11 @@
   const FONT='"Microsoft YaHei",system-ui,sans-serif';
   const asset=new Image();asset.src='assets/muse-hero.jpg';
   const assetReady=asset.decode().catch(()=>{});
+  // tracking-hit-style-v1: approved gold 好米, clipped to the existing result cell.
+  const trackingHitAsset=new Image();trackingHitAsset.src='assets/tracking-haomi.png';
+  const trackingHitReady=trackingHitAsset.decode();
+  function drawTrackingHit(ctx,x,y,width){ctx.save();ctx.beginPath();ctx.rect(x+2,y+34,width-4,52);ctx.clip();ctx.drawImage(trackingHitAsset,x+4,y+37,width-8,46);ctx.restore()}
+
   const scanAsset=new Image();scanAsset.src='assets/muse-scan-hero.jpg';
   const scanAssetReady=scanAsset.decode();
   const money=n=>n==null?'—':(Number(n)>0?'+':'')+Number(n).toFixed(2);
@@ -63,7 +68,7 @@
     rows.forEach((r,j)=>{ctx.fillStyle=j%2?'rgba(11,28,52,.92)':'rgba(17,39,69,.92)';ctx.fillRect(42,y,tableWidth,rowHeights[j]);x=42;cells[j].forEach((s,i)=>{const starKey={4:'direction',5:'speculative',6:'goals',7:'halfFull',8:'score'}[i],stars=starKey?(String(s).match(/★+/)?.[0]||''):'',body=stars?String(s).replace(/\s*★+\s*$/,' '):s,color=i===9?'#b4c4d9':'#fff',key=reviewMode?{6:'goals',7:'halfFull',8:'score'}[i]:null,hit=Boolean(key&&r.hits?.[key]===true&&r.hitLabels?.[key]?.length);const yellowBox=()=>{ctx.save();ctx.fillStyle='rgba(244,190,55,.24)';ctx.strokeStyle='rgba(255,211,84,.9)';ctx.lineWidth=2.2;ctx.beginPath();ctx.roundRect(x+4,y+5,widths[i]-8,rowHeights[j]-10,10);ctx.fill();ctx.stroke();ctx.restore()};if(reviewMode&&i===4&&r.recommendationHit===true)yellowBox();else if(reviewMode&&i===5&&r.hits?.speculative===true)yellowBox();else if(hit)yellowBox();if(stars){const value=plain(body).trim(),weight=(i===4||i===5||i===6)?'700 ':'',saved=r.projectStarColors?.[starKey]||'white';let size=18;const measure=()=>{ctx.font=weight+size+'px '+FONT;return ctx.measureText(value).width+5+ctx.measureText(stars).width};while(size>10&&measure()>widths[i]-14)size-=0.5;measure();let xx=x+7;const yy=y+13;if(!reviewMode&&i===6){let index=0;for(const ch of value){ctx.fillStyle=/[0-9]/.test(ch)&&index<2?'#ffb52e':'#fff';ctx.fillText(ch,xx,yy);xx+=ctx.measureText(ch).width;if(ch==='/')index++;}}else{ctx.fillStyle=color;ctx.fillText(value,xx,yy);xx+=ctx.measureText(value).width;}ctx.fillStyle=saved==='red'?'#ff3b30':'#fff';ctx.fillText(stars,xx+5,yy);}else if(!reviewMode&&i===6&&String(body).split('/').length===3){const parts=String(body).split('/'),yy=y+13;ctx.font=`700 18px ${FONT}`;let xx=x+7;parts.forEach((part,index)=>{ctx.fillStyle=index<2?'#ffb52e':'#fff';ctx.fillText(part,xx,yy);xx+=ctx.measureText(part).width;if(index<parts.length-1){ctx.fillStyle='#fff';ctx.fillText('/',xx,yy);xx+=ctx.measureText('/').width}})}else text(ctx,body,x+7,y+13,widths[i]-14,(i===5&&stars)?16:18,color,i===3||i===4||i===5);x+=widths[i]});y+=rowHeights[j]});    centered(ctx,reviewMode?'命中仅按原票与核验赛果标记 · 待定不计战绩':report.earlyDeadlineMissed?'早批未交付 · 中晚场方案 · 未购买':(report.batchFinal&&report.deliveryStage==='early'?'早场不可变原票 · 中晚场另发 · 未购买':report.finalLocked?'当日最终原票 · 未购买':'本地待验收 · 尚未发布 · 未购买'),height-118,23,'#a9c0de');centered(ctx,'⚽ 仅供参考 · 理性购彩 ⚽',height-74,25,'#b8c9e1');edge(ctx,height);return png(canvas);
   }
   async function tracking(reviewMode){
-    await assetReady;const report=reviewMode?currentReview:liveReport();if(!report)throw Error('没有可用复盘');
+    await Promise.all([assetReady,trackingHitReady]);const report=reviewMode?currentReview:liveReport();if(!report)throw Error('没有可用复盘');
     const allRaw=reviewMode?[...((report.trackingHistory?.two)||[]),...((report.trackingHistory?.three)||[]),...(report.ticketReview?.length?report.ticketReview:report.combinations||[])]:[...((report.trackingHistory?.two)||[]),...((report.trackingHistory?.three)||[]),...(report.recommendations||[])];
     const dateOf=r=>String(r?.date||report.date||'');
     const seen=new Set();const raw=allRaw.filter(r=>{if(dateOf(r)<TRACKING_RESET_DATE)return false;const key=r.id||JSON.stringify([dateOf(r),r.name,r.sessionLabel,r.legs]);if(seen.has(key))return false;seen.add(key);return true});
@@ -94,7 +99,7 @@
     return '待定';
   }
     function values(r,i){if(!r)return [report.trackingDisplayPairs?'未出单':`${sessions[i]||'待定'} · 待定`,'—','—','—'];const amount=scaledNet(r),historical=Boolean(r.date&&r.date!==report.date);return [[session(r)||(!historical?sessions[Math.max(0,i-1)]:'')||'',trackingSelections(r)||r.name].filter(Boolean).join(' · '),(reviewMode||historical||r.trackingSettlement?.simulation===true)?trackingResult(r):'待定',money(amount),cumulative.get(r)==null?'—':money(cumulative.get(r))]}
-    for(let i=0;i<count;i++){const y=tableY+80+i*135;ctx.fillStyle=i%2?'#173260':'#203f73';ctx.fillRect(tableX,y,tableWidth,135);const rowDate=(left[i]?.date||right[i]?.date||report.date||'').slice(5).replace('-','.');const rowSession=session(left[i])||session(right[i])||sessions[Math.max(0,i-Math.max(left.length,right.length)+3)]||'';const data=[`${rowDate}${rowSession?' '+rowSession:''}`,...values(left[i],i),...values(right[i],i)];x=tableX;data.forEach((s,j)=>{const isMoney=[3,4,7,8].includes(j),isResult=j===2||j===6,c=isMoney?(String(s).startsWith('+')?'#ff8a74':String(s).startsWith('-')?'#7ee0a5':'#9aafcc'):'#fff';if(isResult&&['命中','未中'].includes(s)){ctx.save();ctx.fillStyle=s==='命中'?'#c94338':'#59677f';ctx.beginPath();ctx.roundRect(x+8,y+38,widths[j]-16,46,8);ctx.fill();ctx.restore();centeredCell(ctx,String(s),x,widths[j],y+48,18,'#fff',true)}else if(isMoney){centeredCell(ctx,String(s),x,widths[j],y+48,18,c,true)}else text(ctx,s,x+7,y+22,widths[j]-14,j===1||j===5?21:18,c,j===1||j===5);x+=widths[j]});ctx.strokeStyle='#58729c';ctx.beginPath();ctx.moveTo(tableX,y+134);ctx.lineTo(tableX+tableWidth,y+134);ctx.stroke()}
+    for(let i=0;i<count;i++){const y=tableY+80+i*135;ctx.fillStyle=i%2?'#173260':'#203f73';ctx.fillRect(tableX,y,tableWidth,135);const rowDate=(left[i]?.date||right[i]?.date||report.date||'').slice(5).replace('-','.');const rowSession=session(left[i])||session(right[i])||sessions[Math.max(0,i-Math.max(left.length,right.length)+3)]||'';const data=[`${rowDate}${rowSession?' '+rowSession:''}`,...values(left[i],i),...values(right[i],i)];x=tableX;data.forEach((s,j)=>{const isMoney=[3,4,7,8].includes(j),isResult=j===2||j===6,c=isMoney?(String(s).startsWith('+')?'#ff8a74':String(s).startsWith('-')?'#7ee0a5':'#9aafcc'):'#fff';if(isResult&&s==='命中'){drawTrackingHit(ctx,x,y,widths[j])}else if(isResult&&s==='未中'){ctx.save();ctx.fillStyle='#59677f';ctx.beginPath();ctx.roundRect(x+8,y+38,widths[j]-16,46,8);ctx.fill();ctx.restore();centeredCell(ctx,String(s),x,widths[j],y+48,18,'#fff',true)}else if(isMoney){centeredCell(ctx,String(s),x,widths[j],y+48,18,c,true)}else text(ctx,s,x+7,y+22,widths[j]-14,j===1||j===5?21:18,c,j===1||j===5);x+=widths[j]});ctx.strokeStyle='#58729c';ctx.beginPath();ctx.moveTo(tableX,y+134);ctx.lineTo(tableX+tableWidth,y+134);ctx.stroke()}
     centered(ctx,!reviewMode&&report.finalLocked&&!tracked.length?'今日2.0与3.0均不出 · 投入0元':'跟踪卡只登记2.0与3.0；梦想串不登记、不计累计',height-125,23,'#b5c6de');centered(ctx,'每张串子固定按1000元投入折算；2.0与3.0自2026-10-26分开累计',height-87,22,'#9bb3d2');centered(ctx,TITLE+' · 仅供参考 · 理性购彩',height-50,22,'#b5c6de');edge(ctx,height);return png(canvas);
   }
   const publishedReview=async kind=>{try{const response=await fetch(`cards/${currentReview?.date}-review-${kind}.png?v=${Date.now()}`,{cache:'no-store'});if(response.ok)return response.blob()}catch{}return kind==='scan'?poster(true):tracking(true)};
@@ -114,10 +119,3 @@
   if(currentReview?.rows?.length)renderReview(currentReview);
   schedule();
 })();
-
-
-
-
-
-
-

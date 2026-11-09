@@ -1,0 +1,37 @@
+{
+  "version": "2026-11-09-haomi-v1",
+  "userApproved": true,
+  "scope": "tracking settled-hit cells only",
+  "inherits": "data/review-template-lock.json",
+  "baseTemplateSha256": "eaa3f2807ccc94b8004e54f2463beb82a276390357f12a62d80ea10f985348c2",
+  "label": "好米",
+  "style": "gold calligraphic, slight slant and restrained glow; no rectangle or reference artwork",
+  "asset": "public/assets/tracking-haomi.png",
+  "assetSha256": "f5ccc1176d7f189e473ff696c072656210b42e5bb8808c86e371282281b43fbe",
+  "statusFunctionSha256": "0862fdcfa3af5bd9e711aea17c6e4f91cafc38c793f3d256c4710e9a812b7e11",
+  "cell": {
+    "width": 75,
+    "drawWidth": 67,
+    "drawHeight": 46,
+    "clipInset": 2
+  },
+  "unchanged": [
+    "miss and pending appearance",
+    "result decision logic",
+    "stake, returns and cumulative",
+    "dates and row order",
+    "tracking scope",
+    "MUSE hero and layout",
+    "existing yellow hit-count strips"
+  ],
+  "references": [
+    "codex-clipboard-a48c9408-892d-4f0b-a5f1-f04565e250d1.png",
+    "codex-clipboard-0c177dd6-71f4-4397-932c-e5a85fffa555.png"
+  ],
+  "acceptance": [
+    "pixel changes only inside previously settled-hit status cells",
+    "430px viewport no overflow",
+    "four real clipboard buttons",
+    "original report and ledger hashes unchanged"
+  ]
+}
