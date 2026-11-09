@@ -1,10 +1,10 @@
 {
   "date": "2026-11-08",
   "startedAt": "2026-11-09T00:37:21.054Z",
-  "lastProgressAt": "2026-11-09T00:50:55.264Z",
-  "runPhase": "completed",
-  "completed": true,
-  "mobileVerified": true,
+  "lastProgressAt": "2026-11-09T00:54:52.193Z",
+  "runPhase": "correcting_historical_settlement_overlay",
+  "completed": false,
+  "mobileVerified": false,
   "published": true,
   "expectedReviewAt": "2026-11-09T06:25:00+08:00",
   "originalReportSha256": "dbf676d56049c8446b4562579e9ab3ea00569ff4a398b91ea80768cac1b0e7a5",
@@ -33,14 +33,8 @@
     "results": "data/research/2026-11-08/review-result-audit.json"
   },
   "lastError": {
-    "at": "2026-11-09T00:47:25Z",
-    "step": "GitHub Actions: node scripts/check-build.mjs",
-    "commit": "cfc6ef3eb302cd4afc362d3a79ba955b52215fa0",
-    "file": "scripts/validate-review-consistency.mjs",
-    "message": "Unissued row001 result=null rejected as false; then missing copied projectStarAudit in review rows",
-    "resolved": true,
-    "resolvedAt": "2026-11-09T00:49:36.325Z",
-    "resolution": "Explicit exclude-unissued-v1 validation against immutable issue status; copied original star evidence. Full check-build now passes."
+    "message": "Verified Friday/Saturday settlements were not propagated into published tracking",
+    "resolved": false
   },
   "onlineVerifiedAt": "2026-11-09T00:50:55.264Z",
   "publicationCommit": "c6146fa59dce8b9d50e3634c4723bc32d6241d75"

@@ -1,0 +1,134 @@
+{
+  "at": "2026-11-09T00:54:52.192Z",
+  "settled": [
+    {
+      "id": "2026-11-06-final-core20",
+      "date": "2026-11-06",
+      "selection": "003[胜] · 004[胜]",
+      "category": "core20",
+      "hitCount": 1,
+      "totalLegs": 2,
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    },
+    {
+      "id": "2026-11-06-core30-r2",
+      "date": "2026-11-06",
+      "selection": "003[让胜(-1)] · 011[让负(-1)] · R2",
+      "category": "core30",
+      "hitCount": 1,
+      "totalLegs": 2,
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    },
+    {
+      "id": "2026-11-07-early-core20-s1",
+      "date": "2026-11-07",
+      "selection": "001[胜/平] · 003[胜] · S1",
+      "category": "core20",
+      "hitCount": 2,
+      "totalLegs": 2,
+      "stake": 1000,
+      "returned": 2179.67,
+      "net": 1179.67
+    },
+    {
+      "id": "2026-11-07-final-core20-s1",
+      "date": "2026-11-07",
+      "selection": "014[负] × 017[胜]",
+      "category": "core20",
+      "hitCount": 2,
+      "totalLegs": 2,
+      "stake": 1000,
+      "returned": 1920.5,
+      "net": 920.5
+    },
+    {
+      "id": "2026-11-07-extra-core20-s1",
+      "date": "2026-11-07",
+      "selection": "011[胜] × 017[胜]",
+      "category": "core20",
+      "hitCount": 2,
+      "totalLegs": 2,
+      "stake": 1000,
+      "returned": 2087.5,
+      "net": 1087.5
+    },
+    {
+      "id": "2026-11-07-product-r4-rank2",
+      "date": "2026-11-07",
+      "selection": "011[胜] × 023[负]",
+      "category": "core20",
+      "hitCount": 1,
+      "totalLegs": 2,
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    },
+    {
+      "id": "2026-11-07-final-core30-s1",
+      "date": "2026-11-07",
+      "selection": "010[负] × 023[负]",
+      "category": "core30",
+      "hitCount": 0,
+      "totalLegs": 2,
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    },
+    {
+      "id": "2026-11-07-extra-core30-s1",
+      "date": "2026-11-07",
+      "selection": "010[负] × 011[胜]",
+      "category": "core30",
+      "hitCount": 1,
+      "totalLegs": 2,
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    },
+    {
+      "id": "2026-11-07-allday-r7-dream6",
+      "date": "2026-11-07",
+      "selection": "010[负] × 011[胜] × 014[负] × 017[胜] × 023[负] × 028[胜]",
+      "category": "high6",
+      "hitCount": 4,
+      "totalLegs": 6,
+      "stake": 1000,
+      "returned": 0,
+      "net": -1000
+    }
+  ],
+  "cumulative": [
+    {
+      "category": "core20",
+      "tickets": 18,
+      "stake": 18000,
+      "net": 4727.57,
+      "returned": 22727.57,
+      "pending": 0,
+      "provisional": false
+    },
+    {
+      "category": "core30",
+      "tickets": 15,
+      "stake": 15000,
+      "net": 713.4,
+      "returned": 15713.4,
+      "pending": 0,
+      "provisional": false
+    }
+  ],
+  "earlyMathNote": "001平×003胜：6.588×0.3308550185873606×1000=2179.67；原票说明2263.05为算术文字错误，不改原票，依已记录分支权重结算",
+  "saturdayTotalNet": -812.33,
+  "originalPicksUnchanged": true,
+  "excludedFromTracking": [
+    "2026-11-07-allday-r7-dream6",
+    "2026-11-07-clean-r8-dream6"
+  ],
+  "saturdayTrackedTickets": 6,
+  "saturdayTrackedNet": 187.67,
+  "userClarification": "不以高倍六串一改名保留梦想类六串一于跟踪卡"
+}
