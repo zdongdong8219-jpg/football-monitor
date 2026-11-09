@@ -1,13 +1,15 @@
 {
-  "version": "2026-11-09-haomi-v1",
+  "version": "2026-11-09-mamlai-v2",
   "userApproved": true,
-  "scope": "tracking settled-hit cells only",
+  "scope": "tracking settled hit and miss status cells only",
   "inherits": "data/review-template-lock.json",
   "baseTemplateSha256": "eaa3f2807ccc94b8004e54f2463beb82a276390357f12a62d80ea10f985348c2",
-  "label": "好米",
+  "label": "妈来",
+  "missLabel": "惜败",
+  "swordDecoration": "clear small sword above/upper-left, entirely inside status cell",
   "style": "gold calligraphic, slight slant and restrained glow; no rectangle or reference artwork",
-  "asset": "public/assets/tracking-haomi.png",
-  "assetSha256": "f5ccc1176d7f189e473ff696c072656210b42e5bb8808c86e371282281b43fbe",
+  "asset": "public/assets/tracking-mamlai.png",
+  "assetSha256": "1d803669c97f533e1e76bfca0cca6bee3e437d6210962b0476da4f9fd88358f0",
   "statusFunctionSha256": "0862fdcfa3af5bd9e711aea17c6e4f91cafc38c793f3d256c4710e9a812b7e11",
   "cell": {
     "width": 75,
@@ -16,7 +18,7 @@
     "clipInset": 2
   },
   "unchanged": [
-    "miss and pending appearance",
+    "neutral miss color and unchanged pending appearance",
     "result decision logic",
     "stake, returns and cumulative",
     "dates and row order",
@@ -29,7 +31,7 @@
     "codex-clipboard-0c177dd6-71f4-4397-932c-e5a85fffa555.png"
   ],
   "acceptance": [
-    "pixel changes only inside previously settled-hit status cells",
+    "pixel changes only inside previously settled hit/miss status cells",
     "430px viewport no overflow",
     "four real clipboard buttons",
     "original report and ledger hashes unchanged"
