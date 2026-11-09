@@ -1,11 +1,11 @@
 {
   "date": "2026-11-08",
   "startedAt": "2026-11-09T00:37:21.054Z",
-  "lastProgressAt": "2026-11-09T00:49:36.323Z",
-  "runPhase": "deployment_retry_after_build_fix",
-  "completed": false,
-  "mobileVerified": false,
-  "published": false,
+  "lastProgressAt": "2026-11-09T00:50:55.264Z",
+  "runPhase": "completed",
+  "completed": true,
+  "mobileVerified": true,
+  "published": true,
   "expectedReviewAt": "2026-11-09T06:25:00+08:00",
   "originalReportSha256": "dbf676d56049c8446b4562579e9ab3ea00569ff4a398b91ea80768cac1b0e7a5",
   "scheduleRepair": {
@@ -41,5 +41,7 @@
     "resolved": true,
     "resolvedAt": "2026-11-09T00:49:36.325Z",
     "resolution": "Explicit exclude-unissued-v1 validation against immutable issue status; copied original star evidence. Full check-build now passes."
-  }
+  },
+  "onlineVerifiedAt": "2026-11-09T00:50:55.264Z",
+  "publicationCommit": "c6146fa59dce8b9d50e3634c4723bc32d6241d75"
 }
