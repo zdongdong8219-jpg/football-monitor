@@ -1,4 +1,15 @@
 # 足球方案规则（2026-10-12用户修订）
+## 2026-11-09 梦想3串1新增类别（当天起正式生效）
+- 梦想区新增category=dream3，从2026-11-09起正式当天最终分析必须选择1–5张，至少1张最优组合，最多5张，不强制凑满5张。0张不得通过最终验证，也不能用infoOnly绕过；资料不足时继续研究并如实保留未完成状态，不得虚构证据或用测试样例冒充推荐。每张必须正好三场不同官方比赛，三个独立方向。高倍六串一、让球六串一与新梦想3串1均属于梦想，全部不跟踪、不累计、不自动下注。
+- 普通胜平负had及让球胜平负hhad可单选或有依据双选。双选用于主攻与防守覆盖同时自洽的情形，例如普通胜/平、普通负/平、主让1时让平/普通平；不机械称保险或保本。每个选项独立写market、key、selection、odds和qualification，跨玩法不能压成一个market或把普通平误标让平。
+- 每腿主选放options[0]并写primaryOption（market:key）、primaryJudgment、strongestCounterevidence和sources（url/collectedAt/evidence）。双选另写coverageReason、drawCounterevidence、netGoalBoundary（mainMargins、coverMargins、reason）；净胜值均按主队进球减客队进球。让球数必须与官方主队让球一致，覆盖要确实增加不同赛果边界；重叠或包含关系不是本类别防守双选，另行研究而不冒充互补。
+- 每选项qualification记录status=Selling、allUp=1、passSizes含3、market、officialMatchId、checkedAt、saleCloseAt及source（url/rawArtifact/sha256）。跨玩法双选需mixedAllUp=true。按真实采集时间、开赛和停售约束核验；资格未知、停售或缺少赔率不得发布。
+- 每张写qualityReason、strongestCounterevidence、assessedAt、trackingEligible=false、autoBet=false。不同梦想3串尽量不用相同比赛；共用时每张必须写sharedMatchIds和concentrationRisk，图中明确集中风险；完全重复组合禁止。
+- combinationCount为各腿选项数乘积（1–8），branches完整列出三场笛卡尔组合及各选项玩法/key与真实赔率乘积。分支赔率不是整组回报；不增加自动下注或资金配置。若以后授权实际成本方案，必须另按总投入核算，不复用最高分支赔率当整组收益。
+- 资料交接researchWorkflow.dream3Research必须明确candidateNumbers、qualificationArtifacts、coverageGaps、reason；handoff_ready缺该项失败。最终报告dream3Assessment写selectedCount（1–5）和reason，0张只可作为尚未完成的研究状态，不能交付最终版；不得拿未搜集冒充没有合格候选。
+- 图片只在2026-11-09及以后梦想区追加“梦想3串1 · 序号”票块，沿用MUSE人物、字体和配色。逐腿显示主攻/覆盖、普通/让球、各选项赔率，保留主判断、覆盖原因、净胜边界、平局反证、最强反证、集中风险与组合数；全部梦想禁止进入左右跟踪栏。历史日期保持旧类别与原图，不重画历史。
+- 规则从今天起生效，本次主线仅接入规则、校验、测试和契约，不发布真实推荐、渲染器或页面图片，不改历史票。今日交接补充契约见data/research/2026-11-09/dream3-analysis-contract.json；校验入口scripts/validate-dream-three.mjs已接入正式报告/信息报告/赔率核算检查。测试输入只在测试进程内构造，不生成报告或推荐数据文件。
+
 ## 2026-11-09 发布硬门槛与资料接管（优先覆盖以下旧职责）
 - 高倍六串一也属于梦想串；高倍与161.9782两张梦想均不进任何跟踪数组或累计。周六只保留4张core20、2张core30。普通最终正式正金额票才跟踪，新票必须记录issued=true、final=true、stake>0和publishedAt；撤销、草稿、零金额和重复ID禁止发布。
 - scripts/check-build.mjs已接入validate-delivery-workflow.mjs。任一当前finalLocked正式报告必须具备reviewSchedule四项，最后开赛必须与全表一致，reviewAt=estimatedEnd+bufferMinutes。历史赛前分析不回填；2026-11-09起逐行要求analysisAudit：availableEvidence（source、collectedAt、evidence）、gaps、counterevidence、decision（admit/reject）、reason。资料缺口只能限制准入，不能代替整场分析。

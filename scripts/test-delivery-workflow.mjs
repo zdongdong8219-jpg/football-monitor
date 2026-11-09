@@ -54,6 +54,18 @@ try {
     const result=spawnSync(process.execPath,['scripts/check-build.mjs'],{cwd:stage,encoding:'utf8'});
     assert.notEqual(result.status,0);assert.match(result.stderr,new RegExp('Delivery workflow:.*'+expected));
   });
+  test('check-build rejects zero dream3 in a new final report',()=>{
+    const r=clone(original);r.date='2026-11-09';r.finalLocked=true;r.infoOnly=true;r.recommendations=r.recommendations.filter(t=>t.category!=='dream3');r.dream3Assessment={selectedCount:0,reason:'negative test, never a recommendation'};
+    fs.writeFileSync(path.join(stage,'data/latest.json'),JSON.stringify(r));
+    const result=spawnSync(process.execPath,['scripts/check-build.mjs'],{cwd:stage,encoding:'utf8'});
+    assert.notEqual(result.status,0);assert.match(result.stderr,/Dream3: final reports require 1-5/);
+  });
+  test('check-build rejects synthetic fixture publication',()=>{
+    const r=clone(original);r.testOnly=true;
+    fs.writeFileSync(path.join(stage,'data/latest.json'),JSON.stringify(r));
+    const result=spawnSync(process.execPath,['scripts/check-build.mjs'],{cwd:stage,encoding:'utf8'});
+    assert.notEqual(result.status,0);assert.match(result.stderr,/synthetic test fixtures cannot be published/);
+  });
 } finally {
   if(path.dirname(stage)!==os.tmpdir() || !path.basename(stage).startsWith('football-workflow-test-'))throw Error('Unexpected test cleanup path');
   fs.rmSync(stage,{recursive:true,force:true});
