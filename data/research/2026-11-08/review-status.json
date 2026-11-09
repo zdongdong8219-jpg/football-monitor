@@ -1,10 +1,10 @@
 {
   "date": "2026-11-08",
   "startedAt": "2026-11-09T00:37:21.054Z",
-  "lastProgressAt": "2026-11-09T00:54:52.193Z",
-  "runPhase": "correcting_historical_settlement_overlay",
-  "completed": false,
-  "mobileVerified": false,
+  "lastProgressAt": "2026-11-09T01:01:02.314Z",
+  "runPhase": "completed",
+  "completed": true,
+  "mobileVerified": true,
   "published": true,
   "expectedReviewAt": "2026-11-09T06:25:00+08:00",
   "originalReportSha256": "dbf676d56049c8446b4562579e9ab3ea00569ff4a398b91ea80768cac1b0e7a5",
@@ -34,8 +34,10 @@
   },
   "lastError": {
     "message": "Verified Friday/Saturday settlements were not propagated into published tracking",
-    "resolved": false
+    "resolved": true,
+    "resolvedAt": "2026-11-09T01:01:02.314Z"
   },
   "onlineVerifiedAt": "2026-11-09T00:50:55.264Z",
-  "publicationCommit": "c6146fa59dce8b9d50e3634c4723bc32d6241d75"
+  "publicationCommit": "eaf3c1aae22e1864293b1815f672a6bb192e24e2",
+  "saturdayTrackedTickets": 6
 }

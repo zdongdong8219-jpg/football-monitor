@@ -1,8 +1,8 @@
 {
   "date": "2026-11-08",
   "infoOnly": true,
-  "completed": false,
-  "mobileVerified": false,
+  "completed": true,
+  "mobileVerified": true,
   "generatedAt": "2026-11-09T00:42:02.016Z",
   "reviewAt": "2026-11-09T06:25:00+08:00",
   "reviewSchedule": {
@@ -7091,12 +7091,12 @@
     "sources": true,
     "originalPicks": true,
     "visual": true,
-    "localPhone": false,
-    "onlinePhone": false
+    "localPhone": true,
+    "onlinePhone": true
   },
   "reviewReady": true,
   "evaluationPolicy": "exclude-unissued-v1",
-  "onlineVerifiedAt": "2026-11-09T00:50:55.264Z",
+  "onlineVerifiedAt": "2026-11-09T01:01:02.314Z",
   "publicationCommit": "c6146fa59dce8b9d50e3634c4723bc32d6241d75",
   "trackingCorrection": {
     "at": "2026-11-09T00:54:52.174Z",
@@ -7115,7 +7115,7 @@
     "saturdayTrackedTickets": 6
   },
   "trackingExclusion": {
-    "at": "2026-11-09T00:55:51.571Z",
+    "at": "2026-11-09T00:55:51.562Z",
     "userClarification": "梦想串不进跟踪；用户明确指出高倍六串一仍在图中，该行一并移出跟踪",
     "ids": [
       "2026-11-07-allday-r7-dream6",
