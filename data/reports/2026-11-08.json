@@ -17011,5 +17011,20 @@
   "allRequestedFieldsComplete": false,
   "earlyDeadlineMissed": true,
   "onlineVerifiedAt": "2026-11-08T05:56:51.069Z",
-  "deliveryVerified": true
+  "deliveryVerified": true,
+  "reviewSchedule": {
+    "lastScheduledKickoff": "2026-11-09T04:00:00+08:00",
+    "estimatedEnd": "2026-11-09T06:00:00+08:00",
+    "reviewAt": "2026-11-09T06:25:00+08:00",
+    "bufferMinutes": 25,
+    "estimatedDurationMinutes": 120,
+    "computedFromFixtures": 30,
+    "repair": {
+      "retrospective": true,
+      "repairedAt": "2026-11-09T00:37:21.054Z",
+      "previousValue": null,
+      "originalReportSha256": "757d1457b11a1e11181c30e1b2deaf54d8f4c0f40787b239e7775d951f68d7ee",
+      "reason": "Missing reviewSchedule skipped review entry; repaired after due time, not a prematch record"
+    }
+  }
 }

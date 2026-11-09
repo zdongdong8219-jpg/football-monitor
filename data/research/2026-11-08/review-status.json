@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-08",
+  "startedAt": "2026-11-09T00:37:21.054Z",
+  "lastProgressAt": "2026-11-09T00:42:02.041Z",
+  "runPhase": "visual_overlay",
+  "completed": false,
+  "mobileVerified": false,
+  "published": false,
+  "expectedReviewAt": "2026-11-09T06:25:00+08:00",
+  "originalReportSha256": "dbf676d56049c8446b4562579e9ab3ea00569ff4a398b91ea80768cac1b0e7a5",
+  "scheduleRepair": {
+    "retrospective": true,
+    "repairedAt": "2026-11-09T00:37:21.054Z",
+    "previousValue": null,
+    "originalReportSha256": "757d1457b11a1e11181c30e1b2deaf54d8f4c0f40787b239e7775d951f68d7ee",
+    "reason": "Missing reviewSchedule skipped review entry; repaired after due time, not a prematch record"
+  },
+  "resultsFetched": true,
+  "resultsVerified": 30,
+  "pendingFixtures": 0,
+  "settledTicketIds": [
+    "2026-11-08-core20-1"
+  ],
+  "completedSteps": [
+    "retrospective_schedule_repair",
+    "30_identity_FT_HT_verified",
+    "2_formal_legs_secondary_verified",
+    "single_ticket_settlement",
+    "saturday_seven_whitelist"
+  ],
+  "artifacts": {
+    "review": "data/reviews/2026-11-08.json",
+    "results": "data/research/2026-11-08/review-result-audit.json"
+  }
+}
