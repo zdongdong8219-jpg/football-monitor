@@ -1,0 +1,18 @@
+name: Dream3 required final validation
+on:
+  push:
+    branches:
+      - 'codex/dream3-required-*'
+permissions:
+  contents: read
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-build.mjs
+      - run: node scripts/test-delivery-workflow.mjs
+      - run: node scripts/test-dream-three.mjs

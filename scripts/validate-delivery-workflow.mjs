@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import {validateDreamThree} from './validate-dream-three.mjs';
 
 const fail = message => { throw Error(`Delivery workflow: ${message}`); };
 const text = x => typeof x === 'string' && x.trim().length > 0;
@@ -130,6 +131,7 @@ export function planReview(report, review, status, fixtures, now = Date.now()) {
 export function validateDeliveryWorkflow(root) {
   const read = p => JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
   const report = read('data/latest.json'), review = read('data/review-latest.json');
+  validateDreamThree(report,root);
   const legacy = read('data/workflow-legacy-tracking.json');
   validateTracking(report, legacy); validateTracking(review, legacy);
   if (report.finalLocked) {

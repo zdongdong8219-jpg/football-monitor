@@ -1,6 +1,8 @@
+import {validateDreamThree} from './validate-dream-three.mjs';
 import {validateSpeculativeNarrowing, normalizeDirection, inspectSpeculativeNarrowing} from './validate-speculative-narrowing.mjs';
 import fs from 'node:fs';
 export function validateInformationReport(report) {
+  validateDreamThree(report);
   validateSpeculativeNarrowing(report);
   if (report.infoOnly !== true) throw Error('Information report marker missing');
   const rows=report.scanTable||[],scenarios=report.recommendations||[];

@@ -1,3 +1,4 @@
+import {validateDreamThree} from './validate-dream-three.mjs';
 import {validateSpeculativeNarrowing} from './validate-speculative-narrowing.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -5,12 +6,13 @@ import crypto from 'node:crypto';
 export function validateFormalReport(root){
   const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
   const report=read('data/latest.json');
+  validateDreamThree(report,root);
   validateSpeculativeNarrowing(report);
   const keys=['direction','speculative','goals','halfFull','score'];
   const validateRow=(r)=>{for(const key of keys){const n=r.projectStars?.[key],color=r.projectStarColors?.[key];if(!Number.isInteger(n)||n<0||n>3||color===undefined||(n>0&&!['red','white'].includes(color))||(n===0&&color!=='none'))throw Error(`${r.number}: invalid ${key} stars`);if(n>0&&!r.projectStarAudit?.[key])throw Error(`${r.number}: missing ${key} evidence`);}};
   if(report.date>='2026-10-26'){
     for(const row of report.scanTable||[])validateRow(row);
-    for(const ticket of report.infoOnly?[]:report.recommendations||[]){const s=[ticket.category,ticket.name,ticket.type,ticket.passType].join(' '),legs=ticket.legs||[];const dream=/全进球数|进球数梦想|goals[34]/.test(s);if(report.date>='2026-10-28'&&ticket.category==='dream6'){if(legs.length!==6||JSON.stringify(ticket.passSizes)!=='[3,4,5,6]'||ticket.subTickets.length!==42||ticket.totalCost!==84)throw Error('Invalid six-leg split');}else if(dream){if(report.date>='2026-10-28'&&legs.length!==4)throw Error('Goals3 retired');if(![3,4].includes(legs.length)||legs.some(l=>!['goals','ttg','TTG'].includes(l.market)))throw Error('Dream ticket must use 3 or 4 total-goals legs');}else if(!/[23][.]0/.test(s)||legs.length!==2)throw Error('Only four formal ticket types are allowed');}
+    for(const ticket of report.infoOnly?[]:report.recommendations||[]){if(report.date>='2026-11-09'&&ticket.category==='dream3')continue;const s=[ticket.category,ticket.name,ticket.type,ticket.passType].join(' '),legs=ticket.legs||[];const dream=/全进球数|进球数梦想|goals[34]/.test(s);if(report.date>='2026-10-28'&&ticket.category==='dream6'){if(legs.length!==6||JSON.stringify(ticket.passSizes)!=='[3,4,5,6]'||ticket.subTickets.length!==42||ticket.totalCost!==84)throw Error('Invalid six-leg split');}else if(dream){if(report.date>='2026-10-28'&&legs.length!==4)throw Error('Goals3 retired');if(![3,4].includes(legs.length)||legs.some(l=>!['goals','ttg','TTG'].includes(l.market)))throw Error('Dream ticket must use 3 or 4 total-goals legs');}else if(!/[23][.]0/.test(s)||legs.length!==2)throw Error('Only four formal ticket types are allowed');}
     const rows=new Map((report.scanTable||[]).map(r=>[r.number,r]));
     for(const ticket of report.infoOnly?[]:report.recommendations||[]){if(report.publicationCorrection?.userRequestedRestore)break;if(!['core20','core30'].includes(ticket.category))continue;for(const leg of ticket.legs||[]){const row=rows.get(leg.number),first=String(row?.primaryPick||row?.buy||'').split('/')[0];if(first&&leg.selection!==String(row?.primaryPick||row?.buy||''))throw Error(`${ticket.category}: ${leg.number} uses ${leg.selection} instead of primary ${first}`);}}
     for(const row of report.scanTable||[]){const first=String(row.primaryPick||row.buy||'').split('/')[0];if(first==='胜'&&row.handicap===-1&&row.speculative==='让负')throw Error(`${row.number}: speculative pick directly opposes primary win`);if(first==='负'&&row.handicap===1&&row.speculative==='让胜')throw Error(`${row.number}: speculative pick directly opposes primary lose`);}

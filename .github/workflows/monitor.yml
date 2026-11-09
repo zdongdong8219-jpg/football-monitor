@@ -37,6 +37,7 @@ jobs:
         run: node scripts/collect.mjs
       - run: node scripts/check-build.mjs
       - run: node scripts/test-delivery-workflow.mjs
+      - run: node scripts/test-dream-three.mjs
       - if: github.event_name == 'schedule'
         name: Save monitoring snapshot
         run: |
