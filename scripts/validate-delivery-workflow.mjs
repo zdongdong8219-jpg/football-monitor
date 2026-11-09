@@ -131,6 +131,7 @@ export function planReview(report, review, status, fixtures, now = Date.now()) {
 export function validateDeliveryWorkflow(root) {
   const read = p => JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
   const report = read('data/latest.json'), review = read('data/review-latest.json');
+  if(report.testOnly===true||(report.recommendations||[]).some(t=>String(t.id||'').startsWith('synthetic-')))fail('synthetic test fixtures cannot be published as recommendations');
   validateDreamThree(report,root);
   const legacy = read('data/workflow-legacy-tracking.json');
   validateTracking(report, legacy); validateTracking(review, legacy);

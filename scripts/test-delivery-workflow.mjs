@@ -60,6 +60,12 @@ try {
     const result=spawnSync(process.execPath,['scripts/check-build.mjs'],{cwd:stage,encoding:'utf8'});
     assert.notEqual(result.status,0);assert.match(result.stderr,/Dream3: final reports require 1-5/);
   });
+  test('check-build rejects synthetic fixture publication',()=>{
+    const r=clone(original);r.testOnly=true;
+    fs.writeFileSync(path.join(stage,'data/latest.json'),JSON.stringify(r));
+    const result=spawnSync(process.execPath,['scripts/check-build.mjs'],{cwd:stage,encoding:'utf8'});
+    assert.notEqual(result.status,0);assert.match(result.stderr,/synthetic test fixtures cannot be published/);
+  });
 } finally {
   if(path.dirname(stage)!==os.tmpdir() || !path.basename(stage).startsWith('football-workflow-test-'))throw Error('Unexpected test cleanup path');
   fs.rmSync(stage,{recursive:true,force:true});
