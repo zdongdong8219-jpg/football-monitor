@@ -1,9 +1,9 @@
 {
   "date": "2026-11-10",
   "researchComplete": false,
-  "completed": false,
-  "finalLocked": false,
-  "mobileVerified": false,
+  "completed": true,
+  "finalLocked": true,
+  "mobileVerified": true,
   "totalMatches": 2,
   "weekendEarlyCheck": {
     "isWeekend": false,
@@ -13,12 +13,12 @@
     "noonNewEarlyDeliveryRequired": false
   },
   "researchWorkflow": {
-    "phase": "handoff_ready_with_documented_gaps",
+    "phase": "handoff_ready",
     "owner": "task6",
-    "failureReason": "Research gaps remain disclosed; zero dream3 is valid under official two-fixture exception. Deployment retry pending.",
+    "failureReason": "Remaining research gaps disclosed; official two-fixture dream3 skip valid; final scan delivered without ordinary tickets.",
     "lastRealProgressAt": "2026-11-10T05:44:59.007Z",
     "lastVerifiedAt": "2026-11-10T05:44:59.007Z",
-    "nextAction": "Final two-fixture scan prepared; official under-three dream3 skip valid. Await Pages deployment and online phone verification.",
+    "nextAction": null,
     "requiredArtifacts": [
       {
         "path": "data/research/2026-11-10/official-baseline.json",
@@ -10590,5 +10590,8 @@
       "reviewAt": "2026-11-11T05:55:00+08:00",
       "basis": "Planning estimate: kickoff plus120min then25min sync buffer; not a verified finish time; no new ticket issued, retained for scope audit only"
     }
-  }
+  },
+  "deliveryVerified": true,
+  "onlineVerifiedAt": "2026-11-10T08:14:01.283Z",
+  "publicationCommit": "865904905e1b81687e8ec659ea2117601a22922c"
 }

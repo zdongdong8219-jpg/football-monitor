@@ -11,8 +11,8 @@
   "batchLabel": "11月10日完整2场扫盘 · 无合格普通串",
   "batchFinal": true,
   "finalLocked": true,
-  "completed": false,
-  "mobileVerified": false,
+  "completed": true,
+  "mobileVerified": true,
   "researchComplete": false,
   "scanDecisionComplete": true,
   "deliveryDeadline": "2026-11-10T14:00:00+08:00",
@@ -5056,19 +5056,11 @@
     ]
   },
   "finalPublication": {
-    "status": "submitted_deployment_retry",
+    "status": "published_verified",
+    "commit": "865904905e1b81687e8ec659ea2117601a22922c",
     "publishedAt": "2026-11-10T07:54:37.014Z",
-    "lastSubmissionAt": "2026-11-10T08:12:40.097Z",
-    "priorCommit": "e025ac3f3cfbc571998134ff8753c8777592846e",
-    "deploymentFailures": [
-      {
-        "run": 42778800492,
-        "reason": "Pages syncing_files timeout; rerun duplicate artifacts"
-      },
-      {
-        "run": 42780494596,
-        "reason": "Deployment cancelled on reused Pages build identifier"
-      }
-    ]
-  }
+    "onlineVerifiedAt": "2026-11-10T08:14:01.283Z"
+  },
+  "deliveryVerified": true,
+  "onlineVerifiedAt": "2026-11-10T08:14:01.283Z"
 }
