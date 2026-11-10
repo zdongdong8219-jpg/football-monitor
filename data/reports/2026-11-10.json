@@ -5054,5 +5054,21 @@
         "outcome": "accepted_partial"
       }
     ]
+  },
+  "finalPublication": {
+    "status": "submitted_deployment_retry",
+    "publishedAt": "2026-11-10T07:54:37.014Z",
+    "lastSubmissionAt": "2026-11-10T08:12:40.097Z",
+    "priorCommit": "e025ac3f3cfbc571998134ff8753c8777592846e",
+    "deploymentFailures": [
+      {
+        "run": 42778800492,
+        "reason": "Pages syncing_files timeout; rerun duplicate artifacts"
+      },
+      {
+        "run": 42780494596,
+        "reason": "Deployment cancelled on reused Pages build identifier"
+      }
+    ]
   }
 }
