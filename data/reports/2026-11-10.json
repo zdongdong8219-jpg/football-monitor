@@ -6235,9 +6235,12 @@
     ]
   },
   "finalPublication": {
-    "status": "submitted",
+    "status": "submitted_deployment_retry",
     "revision": "2026-11-10-fullscan-r2",
-    "submittedAt": "2026-11-10T08:52:32.387Z"
+    "submittedAt": "2026-11-10T09:05:27.652Z",
+    "priorCommit": "a3938fd55920e73c7c95dc21610f790af1bc24cf",
+    "failure": "GitHub Pages file synchronization timed out",
+    "failedRun": 42786144651
   },
   "deliveryVerified": false,
   "derivedReassessment": {
