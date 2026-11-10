@@ -1,0 +1,67 @@
+{
+  "kind": "incremental_monitor",
+  "date": "2026-11-10",
+  "scheduledAt": "09:00 Asia/Shanghai",
+  "collectedAt": "2026-11-10T01:04:54.375Z",
+  "scope": [
+    {
+      "number": "周二001",
+      "officialMatchId": 2042684,
+      "home": "伯顿",
+      "away": "诺茨郡",
+      "kickoff": "2026-11-11T03:00:00+08:00"
+    },
+    {
+      "number": "周二002",
+      "officialMatchId": 2042685,
+      "home": "布罗姆利",
+      "away": "米尔顿凯恩斯",
+      "kickoff": "2026-11-11T03:30:00+08:00"
+    }
+  ],
+  "policy": {
+    "onlyUnstartedSellingMatches": true,
+    "successfulClubOrMediaSourcesRefetched": false,
+    "skippedSources": [
+      "cloud-state",
+      "club/news sources"
+    ],
+    "reason": "No targeted evidence change is available from a missing-field source; this run is limited to official price and qualification deltas."
+  },
+  "inputs": {
+    "baselineSha256": "756fe6cbd666b49f73ee2fe9d2aeda12bcc6225b191b71c6790303d8cf4e8227",
+    "packetSha256": "cd77aafe59f1cf3c0e1ab2daffca0c6f2040a838f295738aa254fd5b2a7a44d9",
+    "sha256": "222aff9d4cfb341d0deb18a1bd3c2ead2e50113fac4654ed526f5d93cb48b11e"
+  },
+  "sources": {
+    "calculator": {
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+      "http": 200,
+      "sha256": "4767f7f372a4a0c350e8dbcc2f7b618ef56937dc1e20f7e194175500a8df2b2b",
+      "collectedAt": "2026-11-10T01:04:54.375Z"
+    },
+    "list": {
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+      "http": 200,
+      "sha256": "e2660fab8b047410f39af532cfd0e91dd92168efb6f8352977780fb965336363",
+      "collectedAt": "2026-11-10T01:04:54.375Z"
+    }
+  },
+  "changes": [],
+  "affectedMatches": [],
+  "missingFieldsUnchanged": [
+    "recent_form",
+    "home_away_form",
+    "h2h",
+    "lineup",
+    "injuries",
+    "replacements",
+    "tactics",
+    "chance_quality",
+    "fitness",
+    "official_prematch_news",
+    "sale_close_at",
+    "official_allUp_confirmation"
+  ],
+  "result": "no_official_delta"
+}

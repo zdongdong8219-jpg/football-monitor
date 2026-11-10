@@ -1,0 +1,872 @@
+{
+  "date": "2026-11-10",
+  "run": "13:40",
+  "createdAt": "2026-11-10T05:44:59.007Z",
+  "analysisAsOf": "2026-11-10T05:44:59.007Z",
+  "deliveryDeadline": "2026-11-10T14:00:00+08:00",
+  "completed": false,
+  "finalLocked": false,
+  "mobileVerified": false,
+  "publicationAttempted": false,
+  "earlyDeliveryRequired": false,
+  "earlyDeliveryMissed": false,
+  "earlyReason": "Tuesday and zero current sale-day fixtures before18:00",
+  "inputValidation": {
+    "count": 43,
+    "artifacts": [
+      {
+        "path": "data/research/2026-11-10/official-baseline.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/source-catalog.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/source-audit.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/market-snapshots.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/match-dossiers.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/final-club-articles.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/research-execution.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/handoff.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/initial-route.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/official-calculator.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/official-list.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/cloud-state.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/burton.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/notts.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/bromley.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/mkdons.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/search-0.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/search-1.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/burton-payload.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/notts-payload.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/bromley-payload.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/mkdons-payload.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/alternate-search-0.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/alternate-search-1.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/burton-news-api.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/notts-news-api.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/bromley-news-api.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/mkdons-news-api.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/morning-packet-2026-11-10T00-14-47-945Z.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-0900-2026-11-10T01-04-54-375Z.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-1100-2026-11-10T03-05-06-700Z.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-1100-2026-11-10T03-05-57-173Z.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-1100-2026-11-10T03-07-40-998Z.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-fetches.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/analysis-1140-6.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/analysis-progress-6.json",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-calculator.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-list.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-bbc.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-preview001.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-preview002.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-bbc-detail001.txt",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-bbc-detail002.txt",
+        "passed": true
+      }
+    ]
+  },
+  "researchExecution": {
+    "owner": "task6",
+    "mode": "minimal_gap_collection",
+    "failureReason": "no_real_progress_15m; delivery_window_45m",
+    "fetches": [
+      {
+        "name": "calculator",
+        "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "gap": "current scope qualification and odds",
+        "evidenceUsed": [
+          "API success; current businessDate 2026-11-10 has two matches; HAD/HHAD Selling allUp=1 bettingAllup=1 single=0; close fields blank; HAD/HHAD odds unchanged from11:42"
+        ],
+        "startedAt": "2026-11-10T05:41:45.767Z",
+        "http": 200,
+        "collectedAt": "2026-11-10T05:41:45.959Z",
+        "sha256": "2673666ca07e85c70db39915d2e36350fae7e38cef5297f85d8afcc05de0b455",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-calculator.txt",
+        "outcome": "accepted"
+      },
+      {
+        "name": "list",
+        "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+        "gap": "current scope and exact close",
+        "evidenceUsed": [
+          "API success; current businessDate 2026-11-10 has two matches; HAD/HHAD Selling allUp=1 bettingAllup=1 single=0; close fields blank; HAD/HHAD odds unchanged from11:42"
+        ],
+        "startedAt": "2026-11-10T05:41:45.854Z",
+        "http": 200,
+        "collectedAt": "2026-11-10T05:41:45.957Z",
+        "sha256": "5a2fb3a7147238a6dea8ffd4ceae4912c3e6b9ab1828ef71d697f238bb485053",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-list.txt",
+        "outcome": "accepted"
+      },
+      {
+        "name": "search001",
+        "source": "https://www.bing.com/search?q=Burton+Notts+County+10+November+2026+preview+injuries+lineup",
+        "gap": "001 lineup replacements tactics fitness",
+        "evidenceUsed": [],
+        "startedAt": "2026-11-10T05:41:45.855Z",
+        "http": 200,
+        "collectedAt": "2026-11-10T05:41:47.501Z",
+        "sha256": "c694ac67edec9ac8f58ba0b769264c115a464490b9ee87cea07a82823d91c6d2",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-search001.txt",
+        "outcome": "no_usable_evidence",
+        "failureReason": "Search results unrelated to requested fixtures (snowboarding/Postman); excluded"
+      },
+      {
+        "name": "search002",
+        "source": "https://www.bing.com/search?q=Bromley+MK+Dons+10+November+2026+preview+injuries+lineup",
+        "gap": "002 lineup replacements tactics fitness",
+        "evidenceUsed": [],
+        "startedAt": "2026-11-10T05:41:45.858Z",
+        "http": 200,
+        "collectedAt": "2026-11-10T05:41:46.147Z",
+        "sha256": "443876f1a4e91242d76ec6871fd6d1b5fef084404bf9c342588e88a8511b1d1d",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-search002.txt",
+        "outcome": "no_usable_evidence",
+        "failureReason": "Search results unrelated to requested fixtures (snowboarding/Postman); excluded"
+      },
+      {
+        "name": "alternate001",
+        "source": "https://html.duckduckgo.com/html/?q=%22Burton%20Albion%22%20%22Notts%20County%22%20%22November%202026%22%20preview",
+        "gap": "lineup replacements tactical and fitness missing evidence",
+        "evidenceUsed": [
+          "Discovered identity-matched article URLs; snippets not used as substantive match evidence"
+        ],
+        "http": 200,
+        "collectedAt": "2026-11-10T05:42:29.825Z",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-alternate001.txt",
+        "sha256": "7db37e707cab426c3066ab49f52afe41d2af60011a551d204e0406d6f620fc52",
+        "outcome": "discovery_only"
+      },
+      {
+        "name": "alternate002",
+        "source": "https://html.duckduckgo.com/html/?q=%22Bromley%22%20%22MK%20Dons%22%20%22November%202026%22%20team%20news",
+        "gap": "lineup replacements tactical and fitness missing evidence",
+        "evidenceUsed": [
+          "Discovered identity-matched article URLs; snippets not used as substantive match evidence"
+        ],
+        "http": 200,
+        "collectedAt": "2026-11-10T05:42:30.656Z",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-alternate002.txt",
+        "sha256": "e873c0f1de89b8d9fddcd09aae06fc934060531e90249ed5dd634b4f88afb7e7",
+        "outcome": "discovery_only"
+      },
+      {
+        "name": "sportsmole001",
+        "source": "https://www.sportsmole.co.uk/football/efl-trophy/burton-albion-vs-notts-county_game_261989.html",
+        "gap": "home away form, injuries and match context",
+        "evidenceUsed": [
+          "Recent home/away results; model probabilities excluded as independent team evidence"
+        ],
+        "http": 200,
+        "collectedAt": "2026-11-10T05:42:49.544Z",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-sportsmole001.txt",
+        "sha256": "1602835d0ee6bfee7e81e7beb4023cc0146f3c02b534f113c0531ccecd507e46",
+        "outcome": "accepted_partial"
+      },
+      {
+        "name": "form002",
+        "source": "https://afootballreport.com/predictions/head-to-head/england/football-league-trophy/bromley/mk-dons/MTE3NTktMTA4NjI=",
+        "gap": "home away form, injuries and match context",
+        "evidenceUsed": [
+          "MK wins home three times then away Stevenage1-0; away Blackpool0-2; both latest games Nov7",
+          "Bromley recent home Rotherham0-2 and Peterborough1-1; site five-game sequence differs from BBC so not treated complete"
+        ],
+        "http": 200,
+        "collectedAt": "2026-11-10T05:42:50.484Z",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-form002.txt",
+        "sha256": "ad33bc4f1bac1bae8fc8c6ad47b11415b80b9b3ce22ffd5586f1e3101e43b3ad",
+        "outcome": "accepted_partial"
+      },
+      {
+        "name": "preview-body001",
+        "source": "https://www.sportsmole.co.uk/football/burton-albion/efl-trophy/preview/burton-albion-vs-notts-county-prediction-team-news-lineups_608726.html",
+        "gap": "lineup replacements tactics fitness",
+        "evidenceUsed": [
+          "Nov8 preview: predicted lineups, Scutt substitute goal; Burton needs win to guarantee progression, Notts already qualified; Saturday games and Notts penalties"
+        ],
+        "http": 200,
+        "collectedAt": "2026-11-10T05:43:16.092Z",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-preview-body001.txt",
+        "sha256": "a73704d541402a4c7b6402ea12aadb7153daf3ee7ddeaa5245ed7fb41396a6a9",
+        "outcome": "accepted_partial"
+      }
+    ]
+  },
+  "scanTable": [
+    {
+      "number": "周二001",
+      "officialMatchId": 2042684,
+      "kickoff": "2026-11-11T03:00:00+08:00",
+      "home": "伯顿",
+      "away": "诺茨郡",
+      "had": {
+        "a": "2.65",
+        "af": "0",
+        "d": "3.30",
+        "df": "0",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "2.18",
+        "hf": "0",
+        "updateDate": "2026-11-09",
+        "updateTime": "21:52:33"
+      },
+      "hhad": {
+        "a": "1.51",
+        "af": "0",
+        "d": "3.85",
+        "df": "0",
+        "goalLine": "-1",
+        "goalLineValue": "-1.00",
+        "h": "4.60",
+        "hf": "0",
+        "updateDate": "2026-11-09",
+        "updateTime": "21:52:24"
+      },
+      "qualification": {
+        "status": "Selling",
+        "allUp": 1,
+        "single": 0,
+        "passSizes": [
+          2,
+          3
+        ],
+        "saleCloseAt": null,
+        "checkedAt": "2026-11-10T05:41:45.959Z",
+        "source": {
+          "name": "calculator",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "gap": "current scope qualification and odds",
+          "evidenceUsed": [
+            "API success; current businessDate 2026-11-10 has two matches; HAD/HHAD Selling allUp=1 bettingAllup=1 single=0; close fields blank; HAD/HHAD odds unchanged from11:42"
+          ],
+          "startedAt": "2026-11-10T05:41:45.767Z",
+          "http": 200,
+          "collectedAt": "2026-11-10T05:41:45.959Z",
+          "sha256": "2673666ca07e85c70db39915d2e36350fae7e38cef5297f85d8afcc05de0b455",
+          "rawArtifact": "data/research/2026-11-10/task6-1340-calculator.txt",
+          "outcome": "accepted"
+        },
+        "pools": [
+          {
+            "allUp": 1,
+            "bettingAllup": 1,
+            "bettingSingle": 0,
+            "cbtAllUp": 1,
+            "cbtSingle": 0,
+            "cbtValue": 1,
+            "fixedOddsgoalLine": "",
+            "intAllUp": 0,
+            "intSingle": 0,
+            "intValue": 2,
+            "matchId": 0,
+            "matchNum": 0,
+            "poolCloseDate": "",
+            "poolCloseTime": "",
+            "poolCode": "HHAD",
+            "poolId": 2202716,
+            "poolOddsType": "F",
+            "poolStatus": "Selling",
+            "sellInitialDate": "",
+            "sellInitialTime": "",
+            "single": 0,
+            "updateDate": "",
+            "updateTime": "",
+            "vbtAllUp": 0,
+            "vbtSingle": 0,
+            "vbtValue": 0
+          },
+          {
+            "allUp": 1,
+            "bettingAllup": 1,
+            "bettingSingle": 0,
+            "cbtAllUp": 1,
+            "cbtSingle": 0,
+            "cbtValue": 1,
+            "fixedOddsgoalLine": "",
+            "intAllUp": 0,
+            "intSingle": 0,
+            "intValue": 2,
+            "matchId": 0,
+            "matchNum": 0,
+            "poolCloseDate": "",
+            "poolCloseTime": "",
+            "poolCode": "HAD",
+            "poolId": 2202709,
+            "poolOddsType": "F",
+            "poolStatus": "Selling",
+            "sellInitialDate": "",
+            "sellInitialTime": "",
+            "single": 0,
+            "updateDate": "",
+            "updateTime": "",
+            "vbtAllUp": 0,
+            "vbtSingle": 0,
+            "vbtValue": 0
+          }
+        ]
+      },
+      "direction": "研究倾向：让负（主-1），暂不入正式票",
+      "support": "诺茨郡杯赛两场7进球、32次射门16次射正，高于伯顿1进球、17次射门3次射正；伯顿两场均为90分钟平局。让负覆盖伯顿平或负，样本支持比伯顿净胜2球更强。仅两场杯赛，不能外推稳定胜率。",
+      "counter": "伯顿杯赛仅失1球，近期对莱顿东方取胜、对布拉德福德及彼得堡打平；普通胜2.18仍低于客胜2.65，市场并不认可诺茨郡稳胜。伯顿只要净胜1球让负就输，主队对低级别对手4:0不能直接证明此边界。 新增最强反证：伯顿已列三个主场不败、此战需胜确保出线；诺茨杯赛7球中5球来自U21，射门优势须降权。",
+      "markets": "普通胜/平/负2.18/3.30/2.65：主胜是报价首选但无阵容和对位支持，平有杯赛两平的有限样本，客胜获射门产量支持但面对低失球主队。主-1让胜4.60=净胜至少2球，当前进攻样本不足；让平3.85=恰赢1球，有低比分情景可能但无精确幅度证据；让负1.51=主队不胜，相对研究首选但低赔不构成核心资格。不得把主队赢1球算让负命中。",
+      "form": "伯顿最近五场2胜2平1负含足总杯4:0；诺茨郡2胜2平1负含足总杯2:2。BBC顺序与胜平负核验，完整主客拆分和比赛日期未取到，不能推断具体休息天数。杯赛2场双方对手序列未校正；主队杯赛失球少与客队射正多相互制约。 主客场补充：Sports Mole列出伯顿近三个主场4:0 Rushden、2:1 Leyton Orient、0:0 Bradford；诺茨近期客场2:2 Altrincham、2:0 Mansfield、0:2 Wycombe。只是已列样本，非完整主客场统计。",
+      "tactics": "由预计站位条件推演：伯顿3-4-2-1与诺茨3-4-1-2；不是已核实常用阵型。伯顿双前腰可在诺茨中场身后接应；诺茨双前锋可能牵制三中卫并由Roberts接第二点。翼卫压上后两侧回防是潜在风险，但实际压迫高度、速度、定位球效率和转换习惯无证据，均保留未知。",
+      "decisionReason": "继续拒绝正式准入：让负只是方向覆盖，伯顿主场和出线动机、诺茨对U21刷高的杯赛产量削弱原支持；已有预计阵容仍不能解释主场小胜这一明确失效路径。",
+      "lineupAndReplacements": "11月8日Sports Mole预计（非官方首发）：伯顿Addai；Tilt/Lewis/Sibbick；Rodrigues/Chauke/Collar/Adiele；Webster/Scutt；O’Mahony。诺茨Belshaw；Bedeau/Ness/McDonald；Tsaroulla/Robertson/Finneran/Samuels-Smith；Roberts；Kanu/Smyth。Scutt上场替补进球，作者预计先发；完整替补席、伤停排查仍未知，不能称全员健康。",
+      "scheduleFitness": "两队11月7日均参加足总杯，距本场约3个日历日；诺茨2:2后点球胜，额外消耗可能存在，但未验证是否踢加时及分钟。伯顿取胜可确保出线、诺茨已晋级；动机差异是让负反证，不等于已确认轮换。",
+      "chanceQuality": "射门/射正仅为机会产量代理，不能替代xG、大机会质量或比分预测。",
+      "analysisAudit": {
+        "availableEvidence": [
+          {
+            "source": "https://www.bbc.com/sport/football/live/cw1466nky882t",
+            "collectedAt": "2026-11-10T03:43:21.355Z",
+            "evidence": "诺茨郡杯赛两场7进球、32次射门16次射正，高于伯顿1进球、17次射门3次射正；伯顿两场均为90分钟平局。让负覆盖伯顿平或负，样本支持比伯顿净胜2球更强。仅两场杯赛，不能外推稳定胜率。"
+          },
+          {
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "collectedAt": "2026-11-10T03:42:09.941Z",
+            "evidence": "普通胜/平/负2.18/3.30/2.65：主胜是报价首选但无阵容和对位支持，平有杯赛两平的有限样本，客胜获射门产量支持但面对低失球主队。主-1让胜4.60=净胜至少2球，当前进攻样本不足；让平3.85=恰赢1球，有低比分情景可能但无精确幅度证据；让负1.51=主队不胜，相对研究首选但低赔不构成核心资格。不得把主队赢1球算让负命中。"
+          },
+          {
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "collectedAt": "2026-11-10T05:41:45.959Z",
+            "evidence": "13:41:45官方HAD/HHAD与11:42快照相同；不能将相同赔率解释为新增利好。"
+          },
+          {
+            "source": "https://www.sportsmole.co.uk/football/efl-trophy/burton-albion-vs-notts-county_game_261989.html",
+            "collectedAt": "2026-11-10T05:42:49.544Z",
+            "evidence": "Recent home/away results; model probabilities excluded as independent team evidence"
+          },
+          {
+            "source": "https://www.sportsmole.co.uk/football/burton-albion/efl-trophy/preview/burton-albion-vs-notts-county-prediction-team-news-lineups_608726.html",
+            "collectedAt": "2026-11-10T05:43:16.092Z",
+            "evidence": "Nov8 preview: predicted lineups, Scutt substitute goal; Burton needs win to guarantee progression, Notts already qualified; Saturday games and Notts penalties"
+          }
+        ],
+        "gaps": [
+          "官方伤停与完整替补能力",
+          "实际阵型及攻防转换",
+          "经对手强度校正的xG与机会质量",
+          "精确出场负荷及轮换计划",
+          "具体停售时刻"
+        ],
+        "counterevidence": "伯顿杯赛仅失1球，近期对莱顿东方取胜、对布拉德福德及彼得堡打平；普通胜2.18仍低于客胜2.65，市场并不认可诺茨郡稳胜。伯顿只要净胜1球让负就输，主队对低级别对手4:0不能直接证明此边界。 新增最强反证：伯顿已列三个主场不败、此战需胜确保出线；诺茨杯赛7球中5球来自U21，射门优势须降权。",
+        "decision": "reject",
+        "reason": "继续拒绝正式准入：让负只是方向覆盖，伯顿主场和出线动机、诺茨对U21刷高的杯赛产量削弱原支持；已有预计阵容仍不能解释主场小胜这一明确失效路径。"
+      },
+      "coreAdmission": {
+        "approved": false
+      },
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "marketMovement": "13:41:45官方HAD/HHAD与11:42快照相同；不能将相同赔率解释为新增利好。",
+      "homeAway": "Sports Mole列出伯顿近三个主场4:0 Rushden、2:1 Leyton Orient、0:0 Bradford；诺茨近期客场2:2 Altrincham、2:0 Mansfield、0:2 Wycombe。只是已列样本，非完整主客场统计。",
+      "strengthAdjustment": "伯顿4:0低级别对手降权；诺茨杯赛7球有5球来自Forest U21，进攻总数降权。双方其余对手未完成实力校正，不能按杯赛7比1推断巨大差距。"
+    },
+    {
+      "number": "周二002",
+      "officialMatchId": 2042685,
+      "kickoff": "2026-11-11T03:30:00+08:00",
+      "home": "布罗姆利",
+      "away": "米尔顿",
+      "had": {
+        "a": "1.57",
+        "af": "0",
+        "d": "3.92",
+        "df": "0",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "4.05",
+        "hf": "0",
+        "updateDate": "2026-11-10",
+        "updateTime": "10:48:11"
+      },
+      "hhad": {
+        "a": "2.69",
+        "af": "0",
+        "d": "3.67",
+        "df": "0",
+        "goalLine": "+1",
+        "goalLineValue": "+1.00",
+        "h": "2.02",
+        "hf": "0",
+        "updateDate": "2026-11-10",
+        "updateTime": "10:48:05"
+      },
+      "qualification": {
+        "status": "Selling",
+        "allUp": 1,
+        "single": 0,
+        "passSizes": [
+          2,
+          3
+        ],
+        "saleCloseAt": null,
+        "checkedAt": "2026-11-10T05:41:45.959Z",
+        "source": {
+          "name": "calculator",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "gap": "current scope qualification and odds",
+          "evidenceUsed": [
+            "API success; current businessDate 2026-11-10 has two matches; HAD/HHAD Selling allUp=1 bettingAllup=1 single=0; close fields blank; HAD/HHAD odds unchanged from11:42"
+          ],
+          "startedAt": "2026-11-10T05:41:45.767Z",
+          "http": 200,
+          "collectedAt": "2026-11-10T05:41:45.959Z",
+          "sha256": "2673666ca07e85c70db39915d2e36350fae7e38cef5297f85d8afcc05de0b455",
+          "rawArtifact": "data/research/2026-11-10/task6-1340-calculator.txt",
+          "outcome": "accepted"
+        },
+        "pools": [
+          {
+            "allUp": 1,
+            "bettingAllup": 1,
+            "bettingSingle": 0,
+            "cbtAllUp": 1,
+            "cbtSingle": 0,
+            "cbtValue": 1,
+            "fixedOddsgoalLine": "",
+            "intAllUp": 0,
+            "intSingle": 0,
+            "intValue": 2,
+            "matchId": 0,
+            "matchNum": 0,
+            "poolCloseDate": "",
+            "poolCloseTime": "",
+            "poolCode": "HHAD",
+            "poolId": 2202717,
+            "poolOddsType": "F",
+            "poolStatus": "Selling",
+            "sellInitialDate": "",
+            "sellInitialTime": "",
+            "single": 0,
+            "updateDate": "",
+            "updateTime": "",
+            "vbtAllUp": 0,
+            "vbtSingle": 0,
+            "vbtValue": 0
+          },
+          {
+            "allUp": 1,
+            "bettingAllup": 1,
+            "bettingSingle": 0,
+            "cbtAllUp": 1,
+            "cbtSingle": 0,
+            "cbtValue": 1,
+            "fixedOddsgoalLine": "",
+            "intAllUp": 0,
+            "intSingle": 0,
+            "intValue": 2,
+            "matchId": 0,
+            "matchNum": 0,
+            "poolCloseDate": "",
+            "poolCloseTime": "",
+            "poolCode": "HAD",
+            "poolId": 2202713,
+            "poolOddsType": "F",
+            "poolStatus": "Selling",
+            "sellInitialDate": "",
+            "sellInitialTime": "",
+            "single": 0,
+            "updateDate": "",
+            "updateTime": "",
+            "vbtAllUp": 0,
+            "vbtSingle": 0,
+            "vbtValue": 0
+          }
+        ]
+      },
+      "direction": "研究倾向：普通负，暂不升级让负或正式票",
+      "support": "MK Dons最近五场4胜1负，含对Doncaster6:1和10月27日对Bromley4:1；杯赛两场11进球39射门23射正，Bromley0进球且失5球，近期五场0胜1平4负。客胜具有实际产量与近期赛果支持。",
+      "counter": "杯赛仅两场、对手强度未校正，客队已6分可能影响用人但未查到轮换表态，不能声称必轮换；主队13射正却0进球提示转化波动及数据口径待核。客胜1.56升1.57、主胜4.11降4.05，市场轻微向主队移动，不支持进一步确信客队大胜。 新增最强反证：四连胜主要来自主场，已列两个客场仅1:0及0:2；0:0/1:1或仅小胜均使追让负失效。",
+      "markets": "普通胜/平/负4.05/3.92/1.57：客胜优先，主胜缺少独立支持，平局是客队终结下降/轮换后的失败情景，尚无充分平局证据授权双选。主+1让胜2.02=主队不败；让平3.67=客队恰赢1球；让负2.69=客队赢至少2球。以近期4:1直接升级让负忽略客场、轮换及样本，普通负比净胜边界更适配当前证据。",
+      "form": "MK Dons依次胜Swindon2:1、Doncaster6:1、Bromley4:1、Stevenage1:0，负Blackpool0:2；Bromley负Rotherham0:2、Wigan2:3、MK Dons1:4，平Peterborough1:1，负Leicester0:4。完整主客拆分、休息和对手质量尚未核实。 新来源显示米尔顿四连胜中三场主场：2:1 Swindon、6:1 Doncaster、4:1 Bromley；两场已列客场1:0 Stevenage、0:2 Blackpool。布罗姆利近两个已列联赛主场0:2 Rotherham、1:1 Peterborough。 AFootballReport第五场列9月22日Brentford U21，BBC第五场列Leicester；序列不一致，不能把新来源的五场当完整连续样本。",
+      "tactics": "条件推演：若客队保持当前进攻产量，普通客胜有支撑；主队若提高射正转化率、客队换人后推进下降，平局或小胜边界扩大。没有可验证阵型、压迫和回防资料，不编造具体战术克制。",
+      "decisionReason": "普通负仍列研究第1并给方向1星；近期攻击和对手弱势有支持，但客场进攻幅度、人员、出线后的用人无法确认，不能将主场四球胜同一对手重复算作两项独立证据；本轮不签发正式票。",
+      "lineupAndReplacements": "双方伤停、预计阵容与替补均未核实；主任务官网正文/API已失败，本轮BBC详情不提供此项，不按全员健康处理。",
+      "scheduleFitness": "新来源列双方最近一战均为11月7日，至本场约3个日历日；具体小时、旅行、上场分钟和轮换计划未知。",
+      "chanceQuality": "射门/射正仅为机会产量代理，不能替代xG、大机会质量或比分预测。",
+      "analysisAudit": {
+        "availableEvidence": [
+          {
+            "source": "https://www.bbc.com/sport/football/live/c6n0441gvpvqt",
+            "collectedAt": "2026-11-10T03:43:21.292Z",
+            "evidence": "MK Dons最近五场4胜1负，含对Doncaster6:1和10月27日对Bromley4:1；杯赛两场11进球39射门23射正，Bromley0进球且失5球，近期五场0胜1平4负。客胜具有实际产量与近期赛果支持。"
+          },
+          {
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "collectedAt": "2026-11-10T03:42:09.941Z",
+            "evidence": "普通胜/平/负4.05/3.92/1.57：客胜优先，主胜缺少独立支持，平局是客队终结下降/轮换后的失败情景，尚无充分平局证据授权双选。主+1让胜2.02=主队不败；让平3.67=客队恰赢1球；让负2.69=客队赢至少2球。以近期4:1直接升级让负忽略客场、轮换及样本，普通负比净胜边界更适配当前证据。"
+          },
+          {
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "collectedAt": "2026-11-10T05:41:45.959Z",
+            "evidence": "13:41:45官方HAD/HHAD与11:42快照相同；不能将相同赔率解释为新增利好。"
+          },
+          {
+            "source": "https://afootballreport.com/predictions/head-to-head/england/football-league-trophy/bromley/mk-dons/MTE3NTktMTA4NjI=",
+            "collectedAt": "2026-11-10T05:42:50.484Z",
+            "evidence": "MK wins home three times then away Stevenage1-0; away Blackpool0-2; both latest games Nov7; Bromley recent home Rotherham0-2 and Peterborough1-1; site five-game sequence differs from BBC so not treated complete"
+          }
+        ],
+        "gaps": [
+          "确认伤停预计阵容及替补",
+          "阵型压迫回防与具体战术对位",
+          "xG及完整对手强度校正",
+          "出场分钟旅行轮换计划",
+          "确切停售时刻"
+        ],
+        "counterevidence": "杯赛仅两场、对手强度未校正，客队已6分可能影响用人但未查到轮换表态，不能声称必轮换；主队13射正却0进球提示转化波动及数据口径待核。客胜1.56升1.57、主胜4.11降4.05，市场轻微向主队移动，不支持进一步确信客队大胜。 新增最强反证：四连胜主要来自主场，已列两个客场仅1:0及0:2；0:0/1:1或仅小胜均使追让负失效。",
+        "decision": "reject",
+        "reason": "普通负仍列研究第1并给方向1星；近期攻击和对手弱势有支持，但客场进攻幅度、人员、出线后的用人无法确认，不能将主场四球胜同一对手重复算作两项独立证据；本轮不签发正式票。"
+      },
+      "coreAdmission": {
+        "approved": false
+      },
+      "projectStars": {
+        "direction": 1,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      },
+      "marketMovement": "13:41:45官方HAD/HHAD与11:42快照相同；不能将相同赔率解释为新增利好。",
+      "homeAway": "新来源显示米尔顿四连胜中三场主场：2:1 Swindon、6:1 Doncaster、4:1 Bromley；两场已列客场1:0 Stevenage、0:2 Blackpool。布罗姆利近两个已列联赛主场0:2 Rotherham、1:1 Peterborough。",
+      "strengthAdjustment": "米尔顿主场三连胜不能原样外推客场让负，客队大胜倾向降权；主队主场样本仍偏弱，但对手实力未全核，双方总体赛程强度待核。"
+    }
+  ],
+  "reviewSchedule": {
+    "lastScheduledKickoff": "2026-11-11T03:30:00+08:00",
+    "estimatedEnd": "2026-11-11T05:30:00+08:00",
+    "bufferMinutes": 25,
+    "reviewAt": "2026-11-11T05:55:00+08:00",
+    "basis": "Planning estimate: kickoff plus120min then25min sync buffer; not a verified finish time; no new ticket issued, retained for scope audit only"
+  },
+  "candidateRanking": [
+    "002 ordinary away: stronger current independent evidence",
+    "001 handicap away(-1): weaker candidate with market/fundamental disagreement"
+  ],
+  "combinationAssessment": "候选第1：002普通负1.57；候选第2：001让负1.51。相乘2.3707仅作审阅算术，001未准入导致组合拒绝；不以改成001普通负×002普通负4.1605制造3.0票，净胜边界也不支持升级。没有第二组独立合格组合。双选无足够互补依据，未签发。",
+  "recommendations": [],
+  "dream3Assessment": {
+    "selectedCount": 0,
+    "completed": false,
+    "reason": "13:41官方仍仅两场当日比赛；第三场不存在，至少1张三场独立梦想串不可构造。0张是未完成状态，非最终版豁免。"
+  },
+  "nextAction": "本轮资料封存；13:50后禁止新采集。不得以零张梦想串通过最终验证，不得跨销售日凑腿。仅真实新增交接且在截止前才重开受影响字段。",
+  "researchRoute": {
+    "owner": "task6",
+    "action": "minimal_gap_collection",
+    "allowTask6Fetch": true,
+    "reasons": [
+      "no_real_progress_15m",
+      "delivery_window_45m"
+    ],
+    "reuseArtifacts": [
+      {
+        "path": "data/research/2026-11-10/official-baseline.json",
+        "sha256": "756fe6cbd666b49f73ee2fe9d2aeda12bcc6225b191b71c6790303d8cf4e8227"
+      },
+      {
+        "path": "data/research/2026-11-10/source-catalog.json",
+        "sha256": "4db135117bc67ac6f2e4635d37ae2d5ed01e31593cb49f0535bea8de0ea140aa"
+      },
+      {
+        "path": "data/research/2026-11-10/source-audit.json",
+        "sha256": "f2d18b6e38078ce79a34acc367b3b84ab0fd85a4ee68f4639ce321d472f6754b"
+      },
+      {
+        "path": "data/research/2026-11-10/market-snapshots.json",
+        "sha256": "7c8bfe5d68a6eccefff74706561ec3586bf0c6af267966be19061643c2706578"
+      },
+      {
+        "path": "data/research/2026-11-10/match-dossiers.json",
+        "sha256": "f060ee9ce2604e84fe30d08cacb4fd55149c3ff82566e23fdd53bd790e416e83"
+      },
+      {
+        "path": "data/research/2026-11-10/final-club-articles.json",
+        "sha256": "87b3144d0fbf2adb5cdb0df7791e1543ccc05d4a927f9c6a7f75a57620ea8dbc"
+      },
+      {
+        "path": "data/research/2026-11-10/research-execution.json",
+        "sha256": "984c23ce3683061bbcce299347f5ca13d5f6ab6bb7a0e158a47bfc5e3a6e0f04"
+      },
+      {
+        "path": "data/research/2026-11-10/handoff.json",
+        "sha256": "bba63e594aa61c8eb2dc128d21c114ea4765afc60ce08d19bc8a71af2e0922f4"
+      },
+      {
+        "path": "data/research/2026-11-10/initial-route.json",
+        "sha256": "ddc16101c15759f7cbb6979a82e96dde691adabf4abb08c18b803cee346e13b7"
+      },
+      {
+        "path": "data/research/2026-11-10/official-calculator.txt",
+        "sha256": "4767f7f372a4a0c350e8dbcc2f7b618ef56937dc1e20f7e194175500a8df2b2b"
+      },
+      {
+        "path": "data/research/2026-11-10/official-list.txt",
+        "sha256": "e2660fab8b047410f39af532cfd0e91dd92168efb6f8352977780fb965336363"
+      },
+      {
+        "path": "data/research/2026-11-10/cloud-state.txt",
+        "sha256": "ef15621ee94b6457809092e1d0645105e5d2c81151ebc5d4f15df284a7a24e35"
+      },
+      {
+        "path": "data/research/2026-11-10/burton.txt",
+        "sha256": "ad2c9c9bfc01c6975d8e44dd24aa7ef6abb02764c224bdf3faca57400523c51e"
+      },
+      {
+        "path": "data/research/2026-11-10/notts.txt",
+        "sha256": "d69c0bb52c3f08ffda3748d0027272d2cd820ef1f5add3b3093937c98ae04362"
+      },
+      {
+        "path": "data/research/2026-11-10/bromley.txt",
+        "sha256": "8aa0c7c0fba59ba93e5c90151b1b1e06a4ab10661e4a2a527a53110e25e84099"
+      },
+      {
+        "path": "data/research/2026-11-10/mkdons.txt",
+        "sha256": "e221ff2d29564b8d61fb288aad5e193f3610765494a0ad25c26e55a5b57d7205"
+      },
+      {
+        "path": "data/research/2026-11-10/search-0.txt",
+        "sha256": "1891d99ce45edfb9111b12c3cfc919e51eda46f7fb2b56a78a487b8419c9a8d2"
+      },
+      {
+        "path": "data/research/2026-11-10/search-1.txt",
+        "sha256": "ca4fca02da0bfa6db85372fe6d6e173b9ab413721d62c8651eac4507bae8b721"
+      },
+      {
+        "path": "data/research/2026-11-10/burton-payload.txt",
+        "sha256": "415f74d4365942b45bd1ae691fabd554b2ef314223129d30c9daa902f37c0967"
+      },
+      {
+        "path": "data/research/2026-11-10/notts-payload.txt",
+        "sha256": "d192d58adff4f9e4685846f5c810fc1e951cfcaa5cfa81da9ac698f00db5c6f4"
+      },
+      {
+        "path": "data/research/2026-11-10/bromley-payload.txt",
+        "sha256": "0b4e59a1157a74bdcb311df3217143c079e54c9c32f3e3e578878507fe467c34"
+      },
+      {
+        "path": "data/research/2026-11-10/mkdons-payload.txt",
+        "sha256": "47e8461954f2baecd0121a715bafd8189643ce02380153d22a306b431907106c"
+      },
+      {
+        "path": "data/research/2026-11-10/alternate-search-0.txt",
+        "sha256": "104bf633300b74da1be75046457e570c0572878633e57b9797ffbd4c0c651c09"
+      },
+      {
+        "path": "data/research/2026-11-10/alternate-search-1.txt",
+        "sha256": "cd18cd882a1698fa6a3526688aa75a9f6ddd065f097734c1c7f021493915c610"
+      },
+      {
+        "path": "data/research/2026-11-10/burton-news-api.txt",
+        "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c"
+      },
+      {
+        "path": "data/research/2026-11-10/notts-news-api.txt",
+        "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c"
+      },
+      {
+        "path": "data/research/2026-11-10/bromley-news-api.txt",
+        "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c"
+      },
+      {
+        "path": "data/research/2026-11-10/mkdons-news-api.txt",
+        "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c"
+      },
+      {
+        "path": "data/research/2026-11-10/morning-packet-2026-11-10T00-14-47-945Z.json",
+        "sha256": "cd77aafe59f1cf3c0e1ab2daffca0c6f2040a838f295738aa254fd5b2a7a44d9"
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-0900-2026-11-10T01-04-54-375Z.json",
+        "sha256": "521abca7cdafa81e3de97e901e025ea4f20883c84c284510c20350d88b577d25"
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-1100-2026-11-10T03-05-06-700Z.json",
+        "sha256": "0a33d8448257c2c8094a873a065cde80b4a330fbef5b23a0f55979a18ff72765"
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-1100-2026-11-10T03-05-57-173Z.json",
+        "sha256": "d72c60adf09eefc8349fcc275279f5a7389d3054bc43cb40dd78f1dc16738444"
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-1100-2026-11-10T03-07-40-998Z.json",
+        "sha256": "8e497ac4f1665552d4bc7197a28eb668160a23836b85537852b94fe6df02f463"
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-fetches.json",
+        "sha256": "a4fa6491290cda0a99f429b306b271695d7b46b364ef25fad7cdf593822c8166"
+      },
+      {
+        "path": "data/research/2026-11-10/analysis-1140-6.json",
+        "sha256": "46e5ee677b7a3339f421c9d7a8e796cd81c446ce669cb421f40c703f3fce5788"
+      },
+      {
+        "path": "data/research/2026-11-10/analysis-progress-6.json",
+        "sha256": "fe908e61c9f04a31a76d69a9790bf5e1e73616fd1e2e0e9aef2ed5444df4d2c1"
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-calculator.txt",
+        "sha256": "f62078e95bf56ff7f4452ebf5be9868ff4507b870ae8d9c89f5f7f23f6972224"
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-list.txt",
+        "sha256": "5a2fb3a7147238a6dea8ffd4ceae4912c3e6b9ab1828ef71d697f238bb485053"
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-bbc.txt",
+        "sha256": "555c9889f68e89d74ac20822db8fea9461ac57ff7f0cf2fa0c15feb9546e6980"
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-preview001.txt",
+        "sha256": "bd082c5d09a5d07c524058fcca35166c681b03d37c370a61c54b9b527791f762"
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-preview002.txt",
+        "sha256": "70670f07f055468793355695682727b5ae88bc8e2c9571c31d37b3ffd1d4ac81"
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-bbc-detail001.txt",
+        "sha256": "362b7f49b07f2ae31c0a7489c3c2619c66341b8e79da6ce01aa859dec65e2066"
+      },
+      {
+        "path": "data/research/2026-11-10/task6-1140-bbc-detail002.txt",
+        "sha256": "34c4befef411a8c018a12398c4bf61633607627667866bbc55295d08d5b8db51"
+      }
+    ],
+    "forbidFullRefetch": true
+  },
+  "analysisReviewed": true,
+  "failureReason": "Only two distinct current-sale-day fixtures; dream3 minimum three cannot be satisfied. No qualified formal core combination after substantive review."
+}

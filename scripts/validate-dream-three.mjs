@@ -23,7 +23,9 @@ export function validateDreamThreeHandoff(state) {
 export function validateDreamThree(report, root) {
   if(report.date<'2026-11-09')return true;
   const tickets=(report.recommendations||[]).filter(t=>t.category==='dream3');
-  if(tickets.length>5||(report.finalLocked===true&&tickets.length<1))fail('final reports require 1-5 dream3 combinations; drafts allow up to 5');
+  const skipped=report.finalLocked===true&&tickets.length===0;
+  if(tickets.length>5)fail('final reports require 1-5 dream3 combinations; drafts allow up to 5');
+  if(skipped)validateDreamThreeSkip(report,root);
   if(report.finalLocked&&(!report.dream3Assessment||report.dream3Assessment.selectedCount!==tickets.length||!present(report.dream3Assessment.reason)))fail('final analysis lacks dream3 quality decision');
   const ids=new Set(),signatures=new Set(),counts=new Map();
   for(const t of tickets)for(const l of t.legs||[])counts.set(String(l.officialMatchId),(counts.get(String(l.officialMatchId))||0)+1);
@@ -75,5 +77,27 @@ export function validateDreamThree(report, root) {
   // Every active tracking structure is checked, including aliases outside trackingHistory.
   function trackingCheck(value,active=false){if(!value||typeof value!=='object')return;for(const[k,v]of Object.entries(value)){if(k==='excludedTrackingArchive'||k==='priorDayHistory')continue;const tracked=active||/^tracking/i.test(k);if(tracked&&v&&typeof v==='object'&&/dream|梦想|六串一|highMultiple/i.test([v.category,v.id,v.name].join(' ')))fail('dream in tracking/cumulative');trackingCheck(v,tracked);}}
   trackingCheck(report);
+  return true;
+}
+
+// The exception is established by the complete official sale-day snapshot, not a candidate shortlist.
+export function validateDreamThreeSkip(report, root) {
+  const a=report.dream3Assessment,e=a?.officialFixtureEvidence;
+  if(a?.skipReason!=='eligible distinct fixtures < 3'||!e)fail('final reports require 1-5 dream3 combinations unless official evidence proves fewer than 3');
+  if(e.saleDate!==report.date||e.completeSaleDay!==true||!Array.isArray(e.fixtures)||!Number.isFinite(ms(e.collectedAt))||ms(e.collectedAt)>ms(report.analysisAsOf||report.publishedAt))fail('invalid official fixture evidence date/completeness');
+  let url;try{url=new URL(e.url);}catch{fail('missing official fixture source');}
+  if(url.protocol!=='https:'||url.hostname!=='webapi.sporttery.cn'||!present(e.rawArtifact)||!/^[a-f0-9]{64}$/.test(e.sha256||''))fail('invalid official fixture source/hash');
+  const ids=e.fixtures.map(f=>String(f.officialMatchId));
+  if(e.fixtures.some(f=>!f.officialMatchId||f.saleDate!==report.date||f.status!=='Selling')||new Set(ids).size!==ids.length||ids.length>=3||a.eligibleDistinctFixtureCount!==ids.length)fail('official eligible distinct fixtures must be < 3');
+  if((report.scanTable||[]).some(r=>!ids.includes(String(r.officialMatchId)))||new Set((report.scanTable||[]).map(r=>String(r.officialMatchId))).size!==ids.length)fail('skip evidence does not cover full scan');
+  if(root){
+    const file=path.resolve(root,e.rawArtifact);
+    if(!file.startsWith(path.resolve(root)+path.sep)||!fs.existsSync(file)||crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')!==e.sha256)fail('official snapshot hash mismatch');
+    const raw=JSON.parse(fs.readFileSync(file,'utf8'));
+    const batches=raw.value?.matchInfoList?.filter(b=>b.businessDate===report.date);
+    if(raw.success!==true||!batches?.length||batches.some(b=>!Array.isArray(b.subMatchList)))fail('official snapshot lacks complete sale day');
+    const actual=[...new Set(batches.flatMap(b=>b.subMatchList).filter(m=>m.businessDate===report.date&&m.matchStatus==='Selling').map(m=>String(m.matchId)))].sort();
+    if(JSON.stringify(actual)!==JSON.stringify([...ids].sort()))fail('official snapshot fixture set mismatch');
+  }
   return true;
 }

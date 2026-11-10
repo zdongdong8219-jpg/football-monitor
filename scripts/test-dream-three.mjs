@@ -32,7 +32,19 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 let count=0;const test=(name,fn)=>{fn();count++;console.log('PASS '+name);};
 const bad=(name,mutate,pattern)=>test(name,()=>{const r=dreamThreeFixture();mutate(r,r.recommendations[0],r.recommendations[0].legs[0]);assert.throws(()=>validateDreamThree(r,root),pattern);});
 for(const n of [1,5])test(n+' final combinations valid',()=>validateDreamThree(dreamThreeFixture(n),root));
-test('zero final combinations rejected',()=>assert.throws(()=>validateDreamThree(dreamThreeFixture(0),root),/1-5/));
+test('zero final combinations rejected without official exception',()=>assert.throws(()=>validateDreamThree(dreamThreeFixture(0),root),/1-5/));
+function smallDay(n=2){
+ const r=dreamThreeFixture(0);r.analysisAsOf=r.publishedAt;
+ const fixtures=Array.from({length:n},(_,i)=>({officialMatchId:i+1,saleDate:r.date,status:'Selling'}));r.scanTable=fixtures.map(f=>({officialMatchId:f.officialMatchId}));
+ r.dream3Assessment={selectedCount:0,reason:'Official complete sale day has fewer than three fixtures',skipReason:'eligible distinct fixtures < 3',eligibleDistinctFixtureCount:n,officialFixtureEvidence:{saleDate:r.date,completeSaleDay:true,fixtures,collectedAt:'2026-11-09T09:00:00+08:00',url:'https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry',rawArtifact:'test-only.json',sha256:'a'.repeat(64)}};return r;
+}
+test('2 fixtures + zero dream3 allows final delivery',()=>validateDreamThree(smallDay()));
+test('3 fixtures + zero dream3 fails',()=>assert.throws(()=>validateDreamThree(smallDay(3)),/< 3/));
+test('duplicate identities cannot establish exception',()=>{const r=smallDay();r.dream3Assessment.officialFixtureEvidence.fixtures[1].officialMatchId=1;assert.throws(()=>validateDreamThree(r),/< 3/);});
+test('cross-sale-day skip rejected',()=>{const r=smallDay();r.dream3Assessment.officialFixtureEvidence.fixtures[0].saleDate='2026-11-08';assert.throws(()=>validateDreamThree(r),/< 3/);});
+test('unofficial skip evidence rejected',()=>{const r=smallDay();r.dream3Assessment.officialFixtureEvidence.url='https://example.test/';assert.throws(()=>validateDreamThree(r),/official/);});
+test('skip requires full scan',()=>{const r=smallDay();r.scanTable.pop();assert.throws(()=>validateDreamThree(r),/full scan/);});
+test('skip snapshot must exist with matching hash',()=>assert.throws(()=>validateDreamThree(smallDay(),root),/hash/));
 test('infoOnly cannot bypass mandatory final combination',()=>{const r=dreamThreeFixture(0);r.infoOnly=true;assert.throws(()=>validateDreamThree(r,root),/1-5/);});
 test('unlocked research draft may still have zero',()=>{const r=dreamThreeFixture(0);r.finalLocked=false;validateDreamThree(r,root);});
 test('six rejected',()=>assert.throws(()=>validateDreamThree(dreamThreeFixture(6),root),/1-5/));

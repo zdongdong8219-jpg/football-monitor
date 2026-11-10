@@ -48,11 +48,13 @@ try {
   for(const name of fs.readdirSync(path.join(root,'scripts')).filter(n=>n.endsWith('.mjs')))fs.copyFileSync(path.join(root,'scripts',name),path.join(stage,'scripts',name));
   for(const name of ['review-latest.json','workflow-legacy-tracking.json'])fs.copyFileSync(path.join(root,'data',name),path.join(stage,'data',name));
   const original=JSON.parse(fs.readFileSync(path.join(root,'data/latest.json'),'utf8'));
+  const skipArtifact=original.dream3Assessment?.officialFixtureEvidence?.rawArtifact;
+  if(skipArtifact){fs.mkdirSync(path.dirname(path.join(stage,skipArtifact)),{recursive:true});fs.copyFileSync(path.join(root,skipArtifact),path.join(stage,skipArtifact));}
   const cases=[['missing schedule',r=>{r.reviewSchedule=null;},'reviewSchedule'],['dream',r=>{r.trackingHistory.dream.push({...t,id:'injected-dream6',category:'dream6'});},'dream/nonordinary'],['stake0',r=>{r.trackingHistory.two.push({...t,stake:0});},'nonpositive'],['duplicate',r=>{r.trackingHistory.two.push(clone(r.trackingHistory.two[0]));},'duplicate']];
   for(const [name,mutate,expected] of cases)test('check-build rejects '+name,()=>{
     const r=clone(original);mutate(r);fs.writeFileSync(path.join(stage,'data/latest.json'),JSON.stringify(r));
     const result=spawnSync(process.execPath,['scripts/check-build.mjs'],{cwd:stage,encoding:'utf8'});
-    assert.notEqual(result.status,0);assert.match(result.stderr,new RegExp('Delivery workflow:.*'+expected));
+    assert.notEqual(result.status,0);assert.match(result.stderr,name==='dream'?/(Delivery workflow:.*dream\/nonordinary|Dream3: dream in tracking)/:new RegExp('Delivery workflow:.*'+expected));
   });
   test('check-build rejects zero dream3 in a new final report',()=>{
     const r=clone(original);r.date='2026-11-09';r.finalLocked=true;r.infoOnly=true;r.recommendations=r.recommendations.filter(t=>t.category!=='dream3');r.dream3Assessment={selectedCount:0,reason:'negative test, never a recommendation'};

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-10",
+  "run": "13:40",
+  "updatedAt": "2026-11-10T05:44:59.007Z",
+  "status": "analysis_saved_final_delivery_blocked",
+  "completed": false,
+  "finalLocked": false,
+  "mobileVerified": false,
+  "analysisArtifact": "data/research/2026-11-10/analysis-1340-6.json",
+  "failureReason": "Only two distinct current-sale-day fixtures; dream3 minimum three cannot be satisfied. No qualified formal core combination after substantive review.",
+  "reviewSchedule": {
+    "lastScheduledKickoff": "2026-11-11T03:30:00+08:00",
+    "estimatedEnd": "2026-11-11T05:30:00+08:00",
+    "bufferMinutes": 25,
+    "reviewAt": "2026-11-11T05:55:00+08:00",
+    "basis": "Planning estimate: kickoff plus120min then25min sync buffer; not a verified finish time; no new ticket issued, retained for scope audit only"
+  }
+}

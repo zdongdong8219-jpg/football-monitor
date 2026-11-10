@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-10",
+  "status": "backup_required",
+  "packet": {
+    "path": "data/research/2026-11-10/morning-packet-2026-11-10T00-14-47-945Z.json",
+    "sha256": "cd77aafe59f1cf3c0e1ab2daffca0c6f2040a838f295738aa254fd5b2a7a44d9"
+  },
+  "researchComplete": false,
+  "missingFields": [
+    {
+      "officialMatchId": 2042684,
+      "fields": [
+        "recentFormAndOpponentStrength",
+        "homeAway",
+        "headToHead",
+        "injuriesAndExpectedLineups",
+        "substitutes",
+        "formationAndTransitions",
+        "tacticalMatchup",
+        "chanceQuality",
+        "scheduleFitness",
+        "officialPrematchNews",
+        "independentSupport",
+        "strongestCounterevidence",
+        "saleCloseAt",
+        "unambiguousAllUpAndSingle",
+        "marketMovementComparableBaseline"
+      ]
+    },
+    {
+      "officialMatchId": 2042685,
+      "fields": [
+        "recentFormAndOpponentStrength",
+        "homeAway",
+        "headToHead",
+        "injuriesAndExpectedLineups",
+        "substitutes",
+        "formationAndTransitions",
+        "tacticalMatchup",
+        "chanceQuality",
+        "scheduleFitness",
+        "officialPrematchNews",
+        "independentSupport",
+        "strongestCounterevidence",
+        "saleCloseAt",
+        "unambiguousAllUpAndSingle",
+        "marketMovementComparableBaseline"
+      ]
+    }
+  ],
+  "analysisMayFetch": true,
+  "mode": "minimal_gap_collection",
+  "reuseRequired": true
+}

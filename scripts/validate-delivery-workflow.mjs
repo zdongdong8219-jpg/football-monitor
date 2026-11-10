@@ -132,6 +132,8 @@ export function validateDeliveryWorkflow(root) {
   const read = p => JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
   const report = read('data/latest.json'), review = read('data/review-latest.json');
   if(report.testOnly===true||(report.recommendations||[]).some(t=>String(t.id||'').startsWith('synthetic-')))fail('synthetic test fixtures cannot be published as recommendations');
+  // Official fewer-than-three exception only affects dream3; every ordinary admission,
+  // analysis, tracking and delivery check below still runs for a zero-ticket final.
   validateDreamThree(report,root);
   const legacy = read('data/workflow-legacy-tracking.json');
   validateTracking(report, legacy); validateTracking(review, legacy);

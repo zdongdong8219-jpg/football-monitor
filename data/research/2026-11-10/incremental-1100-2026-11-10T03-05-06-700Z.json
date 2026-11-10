@@ -1,0 +1,82 @@
+{
+  "kind": "incremental_monitor",
+  "date": "2026-11-10",
+  "scheduledAt": "11:00 Asia/Shanghai",
+  "collectedAt": "2026-11-10T03:05:06.700Z",
+  "scope": [
+    {
+      "number": "周二001",
+      "officialMatchId": 2042684,
+      "home": "伯顿",
+      "away": "诺茨郡",
+      "kickoff": "2026-11-11T03:00:00+08:00"
+    },
+    {
+      "number": "周二002",
+      "officialMatchId": 2042685,
+      "home": "布罗姆利",
+      "away": "米尔顿凯恩斯",
+      "kickoff": "2026-11-11T03:30:00+08:00"
+    }
+  ],
+  "policy": {
+    "onlyUnstartedSellingMatches": true,
+    "successfulClubOrMediaSourcesRefetched": false,
+    "skippedSources": [
+      "cloud-state",
+      "club/news sources"
+    ],
+    "reason": "This run is limited to official price and qualification deltas; prior successful sources were reused."
+  },
+  "inputs": {
+    "baselineSha256": "756fe6cbd666b49f73ee2fe9d2aeda12bcc6225b191b71c6790303d8cf4e8227",
+    "packetSha256": "cd77aafe59f1cf3c0e1ab2daffca0c6f2040a838f295738aa254fd5b2a7a44d9",
+    "priorIncrementalSha256": "521abca7cdafa81e3de97e901e025ea4f20883c84c284510c20350d88b577d25",
+    "sha256": "7cc03680132788a56dc9c8a857c2840f3272ba5cdc72bab0d1104c2276adf4de"
+  },
+  "sources": {
+    "calculator": {
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+      "http": 200,
+      "sha256": "b311b87fc309253af52386c4009f7b0ac976def93d64fbc1c761de7dd914f144",
+      "collectedAt": "2026-11-10T03:05:06.700Z"
+    },
+    "list": {
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+      "http": 200,
+      "sha256": "5a2fb3a7147238a6dea8ffd4ceae4912c3e6b9ab1828ef71d697f238bb485053",
+      "collectedAt": "2026-11-10T03:05:06.700Z"
+    }
+  },
+  "changes": [
+    {
+      "matchId": 2042684,
+      "number": "周二001",
+      "type": "official_market_or_odds_delta"
+    },
+    {
+      "matchId": 2042685,
+      "number": "周二002",
+      "type": "official_market_or_odds_delta"
+    }
+  ],
+  "affectedMatches": [
+    "周二001",
+    "周二002"
+  ],
+  "missingFieldsUnchanged": [
+    "recent_form",
+    "home_away_form",
+    "h2h",
+    "lineup",
+    "injuries",
+    "replacements",
+    "tactics",
+    "chance_quality",
+    "fitness",
+    "official_prematch_news",
+    "sale_close_at",
+    "official_allUp_confirmation"
+  ],
+  "result": "official_delta_recorded"
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "calculator",
+    "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+    "gap": "current scope qualification and odds",
+    "evidenceUsed": [
+      "API success; current businessDate 2026-11-10 has two matches; HAD/HHAD Selling allUp=1 bettingAllup=1 single=0; close fields blank; HAD/HHAD odds unchanged from11:42"
+    ],
+    "startedAt": "2026-11-10T05:41:45.767Z",
+    "http": 200,
+    "collectedAt": "2026-11-10T05:41:45.959Z",
+    "sha256": "2673666ca07e85c70db39915d2e36350fae7e38cef5297f85d8afcc05de0b455",
+    "rawArtifact": "data/research/2026-11-10/task6-1340-calculator.txt",
+    "outcome": "accepted"
+  },
+  {
+    "name": "list",
+    "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+    "gap": "current scope and exact close",
+    "evidenceUsed": [
+      "API success; current businessDate 2026-11-10 has two matches; HAD/HHAD Selling allUp=1 bettingAllup=1 single=0; close fields blank; HAD/HHAD odds unchanged from11:42"
+    ],
+    "startedAt": "2026-11-10T05:41:45.854Z",
+    "http": 200,
+    "collectedAt": "2026-11-10T05:41:45.957Z",
+    "sha256": "5a2fb3a7147238a6dea8ffd4ceae4912c3e6b9ab1828ef71d697f238bb485053",
+    "rawArtifact": "data/research/2026-11-10/task6-1340-list.txt",
+    "outcome": "accepted"
+  },
+  {
+    "name": "search001",
+    "source": "https://www.bing.com/search?q=Burton+Notts+County+10+November+2026+preview+injuries+lineup",
+    "gap": "001 lineup replacements tactics fitness",
+    "evidenceUsed": [],
+    "startedAt": "2026-11-10T05:41:45.855Z",
+    "http": 200,
+    "collectedAt": "2026-11-10T05:41:47.501Z",
+    "sha256": "c694ac67edec9ac8f58ba0b769264c115a464490b9ee87cea07a82823d91c6d2",
+    "rawArtifact": "data/research/2026-11-10/task6-1340-search001.txt",
+    "outcome": "no_usable_evidence",
+    "failureReason": "Search results unrelated to requested fixtures (snowboarding/Postman); excluded"
+  },
+  {
+    "name": "search002",
+    "source": "https://www.bing.com/search?q=Bromley+MK+Dons+10+November+2026+preview+injuries+lineup",
+    "gap": "002 lineup replacements tactics fitness",
+    "evidenceUsed": [],
+    "startedAt": "2026-11-10T05:41:45.858Z",
+    "http": 200,
+    "collectedAt": "2026-11-10T05:41:46.147Z",
+    "sha256": "443876f1a4e91242d76ec6871fd6d1b5fef084404bf9c342588e88a8511b1d1d",
+    "rawArtifact": "data/research/2026-11-10/task6-1340-search002.txt",
+    "outcome": "no_usable_evidence",
+    "failureReason": "Search results unrelated to requested fixtures (snowboarding/Postman); excluded"
+  },
+  {
+    "name": "alternate001",
+    "source": "https://html.duckduckgo.com/html/?q=%22Burton%20Albion%22%20%22Notts%20County%22%20%22November%202026%22%20preview",
+    "gap": "lineup replacements tactical and fitness missing evidence",
+    "evidenceUsed": [
+      "Discovered identity-matched article URLs; snippets not used as substantive match evidence"
+    ],
+    "http": 200,
+    "collectedAt": "2026-11-10T05:42:29.825Z",
+    "rawArtifact": "data/research/2026-11-10/task6-1340-alternate001.txt",
+    "sha256": "7db37e707cab426c3066ab49f52afe41d2af60011a551d204e0406d6f620fc52",
+    "outcome": "discovery_only"
+  },
+  {
+    "name": "alternate002",
+    "source": "https://html.duckduckgo.com/html/?q=%22Bromley%22%20%22MK%20Dons%22%20%22November%202026%22%20team%20news",
+    "gap": "lineup replacements tactical and fitness missing evidence",
+    "evidenceUsed": [
+      "Discovered identity-matched article URLs; snippets not used as substantive match evidence"
+    ],
+    "http": 200,
+    "collectedAt": "2026-11-10T05:42:30.656Z",
+    "rawArtifact": "data/research/2026-11-10/task6-1340-alternate002.txt",
+    "sha256": "e873c0f1de89b8d9fddcd09aae06fc934060531e90249ed5dd634b4f88afb7e7",
+    "outcome": "discovery_only"
+  },
+  {
+    "name": "sportsmole001",
+    "source": "https://www.sportsmole.co.uk/football/efl-trophy/burton-albion-vs-notts-county_game_261989.html",
+    "gap": "home away form, injuries and match context",
+    "evidenceUsed": [
+      "Recent home/away results; model probabilities excluded as independent team evidence"
+    ],
+    "http": 200,
+    "collectedAt": "2026-11-10T05:42:49.544Z",
+    "rawArtifact": "data/research/2026-11-10/task6-1340-sportsmole001.txt",
+    "sha256": "1602835d0ee6bfee7e81e7beb4023cc0146f3c02b534f113c0531ccecd507e46",
+    "outcome": "accepted_partial"
+  },
+  {
+    "name": "form002",
+    "source": "https://afootballreport.com/predictions/head-to-head/england/football-league-trophy/bromley/mk-dons/MTE3NTktMTA4NjI=",
+    "gap": "home away form, injuries and match context",
+    "evidenceUsed": [
+      "MK wins home three times then away Stevenage1-0; away Blackpool0-2; both latest games Nov7",
+      "Bromley recent home Rotherham0-2 and Peterborough1-1; site five-game sequence differs from BBC so not treated complete"
+    ],
+    "http": 200,
+    "collectedAt": "2026-11-10T05:42:50.484Z",
+    "rawArtifact": "data/research/2026-11-10/task6-1340-form002.txt",
+    "sha256": "ad33bc4f1bac1bae8fc8c6ad47b11415b80b9b3ce22ffd5586f1e3101e43b3ad",
+    "outcome": "accepted_partial"
+  },
+  {
+    "name": "preview-body001",
+    "source": "https://www.sportsmole.co.uk/football/burton-albion/efl-trophy/preview/burton-albion-vs-notts-county-prediction-team-news-lineups_608726.html",
+    "gap": "lineup replacements tactics fitness",
+    "evidenceUsed": [
+      "Nov8 preview: predicted lineups, Scutt substitute goal; Burton needs win to guarantee progression, Notts already qualified; Saturday games and Notts penalties"
+    ],
+    "http": 200,
+    "collectedAt": "2026-11-10T05:43:16.092Z",
+    "rawArtifact": "data/research/2026-11-10/task6-1340-preview-body001.txt",
+    "sha256": "a73704d541402a4c7b6402ea12aadb7153daf3ee7ddeaa5245ed7fb41396a6a9",
+    "outcome": "accepted_partial"
+  }
+]

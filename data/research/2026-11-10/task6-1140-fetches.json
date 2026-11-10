@@ -1,0 +1,133 @@
+{
+  "owner": "task6",
+  "mode": "minimal_gap_collection",
+  "failureReason": "backup_required and no_real_progress_15m",
+  "fetches": [
+    {
+      "name": "calculator",
+      "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+      "gap": "current qualification and sale-day match count",
+      "startedAt": "2026-11-10T03:42:09.749Z",
+      "evidenceUsed": [
+        "Current businessDate 2026-11-10 has exactly IDs 2042684 and 2042685; identity and kickoff matched",
+        "HAD/HHAD allUp=1 bettingAllup=1 Selling; single=0; close fields empty; odds recorded"
+      ],
+      "collectedAt": "2026-11-10T03:42:09.941Z",
+      "http": 200,
+      "finalUrl": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+      "sha256": "f62078e95bf56ff7f4452ebf5be9868ff4507b870ae8d9c89f5f7f23f6972224",
+      "rawArtifact": "data/research/2026-11-10/task6-1140-calculator.txt",
+      "outcome": "accepted"
+    },
+    {
+      "name": "list",
+      "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+      "gap": "independent official identity and sales status",
+      "startedAt": "2026-11-10T03:42:09.804Z",
+      "evidenceUsed": [
+        "Current businessDate 2026-11-10 has exactly IDs 2042684 and 2042685; identity and kickoff matched"
+      ],
+      "collectedAt": "2026-11-10T03:42:09.935Z",
+      "http": 200,
+      "finalUrl": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+      "sha256": "5a2fb3a7147238a6dea8ffd4ceae4912c3e6b9ab1828ef71d697f238bb485053",
+      "rawArtifact": "data/research/2026-11-10/task6-1140-list.txt",
+      "outcome": "accepted"
+    },
+    {
+      "name": "bbc",
+      "source": "https://www.bbc.com/sport/football/scores-fixtures/2026-11-10",
+      "gap": "two fixture identities and prematch context",
+      "startedAt": "2026-11-10T03:42:09.805Z",
+      "evidenceUsed": [
+        "Both official identities and UK kickoff times independently matched; EFL Trophy group stage"
+      ],
+      "collectedAt": "2026-11-10T03:42:11.036Z",
+      "http": 200,
+      "finalUrl": "https://www.bbc.com/sport/football/scores-fixtures/2026-11-10",
+      "sha256": "555c9889f68e89d74ac20822db8fea9461ac57ff7f0cf2fa0c15feb9546e6980",
+      "rawArtifact": "data/research/2026-11-10/task6-1140-bbc.txt",
+      "outcome": "accepted_partial"
+    },
+    {
+      "name": "espn",
+      "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.trophy/scoreboard?dates=20261110",
+      "gap": "two fixture context; retry prior transport failure",
+      "startedAt": "2026-11-10T03:42:09.806Z",
+      "evidenceUsed": [],
+      "collectedAt": "2026-11-10T03:42:20.403Z",
+      "outcome": "failed",
+      "failureReason": "TypeError: fetch failed"
+    },
+    {
+      "name": "preview001",
+      "source": "https://www.google.com/search?q=Burton+Notts+County+10+November+2026+preview+team+news",
+      "gap": "001 missing lineup form and tactical evidence",
+      "startedAt": "2026-11-10T03:42:09.807Z",
+      "evidenceUsed": [],
+      "collectedAt": "2026-11-10T03:42:10.118Z",
+      "http": 200,
+      "finalUrl": "https://www.google.com/search?q=Burton+Notts+County+10+November+2026+preview+team+news",
+      "sha256": "bd082c5d09a5d07c524058fcca35166c681b03d37c370a61c54b9b527791f762",
+      "rawArtifact": "data/research/2026-11-10/task6-1140-preview001.txt",
+      "outcome": "no_usable_evidence",
+      "failureReason": "HTTP200 search redirect shell; no actual search results or article body"
+    },
+    {
+      "name": "preview002",
+      "source": "https://www.google.com/search?q=Bromley+MK+Dons+10+November+2026+preview+team+news",
+      "gap": "002 missing lineup form and tactical evidence",
+      "startedAt": "2026-11-10T03:42:09.809Z",
+      "evidenceUsed": [],
+      "collectedAt": "2026-11-10T03:42:10.099Z",
+      "http": 200,
+      "finalUrl": "https://www.google.com/search?q=Bromley+MK+Dons+10+November+2026+preview+team+news",
+      "sha256": "70670f07f055468793355695682727b5ae88bc8e2c9571c31d37b3ffd1d4ac81",
+      "rawArtifact": "data/research/2026-11-10/task6-1140-preview002.txt",
+      "outcome": "no_usable_evidence",
+      "failureReason": "HTTP200 search redirect shell; no actual search results or article body"
+    },
+    {
+      "name": "bbc-detail001",
+      "source": "https://www.bbc.com/sport/football/live/cw1466nky882t",
+      "gap": "lineup statistics and contextual reporting",
+      "evidenceUsed": [
+        "Burton 2 group games: 1 scored/1 conceded,17 shots/3 on target; Notts 7/2,32/16",
+        "Recent five results and group table; no verified lineup, tactical shape or xG"
+      ],
+      "http": 200,
+      "collectedAt": "2026-11-10T03:43:21.355Z",
+      "rawArtifact": "data/research/2026-11-10/task6-1140-bbc-detail001.txt",
+      "sha256": "362b7f49b07f2ae31c0a7489c3c2619c66341b8e79da6ce01aa859dec65e2066",
+      "outcome": "accepted_partial",
+      "remainingGaps": [
+        "lineups and substitutes",
+        "home-away splits",
+        "formation and phase transitions",
+        "xG and big chances",
+        "rest travel and rotation"
+      ]
+    },
+    {
+      "name": "bbc-detail002",
+      "source": "https://www.bbc.com/sport/football/live/c6n0441gvpvqt",
+      "gap": "lineup statistics and contextual reporting",
+      "evidenceUsed": [
+        "Bromley 2 group games:0 scored/5 conceded,21 shots/13 on target; MK Dons11/2,39/23",
+        "Recent form and October27 MK Dons4-1Bromley; no verified lineup, tactical shape or xG"
+      ],
+      "http": 200,
+      "collectedAt": "2026-11-10T03:43:21.292Z",
+      "rawArtifact": "data/research/2026-11-10/task6-1140-bbc-detail002.txt",
+      "sha256": "34c4befef411a8c018a12398c4bf61633607627667866bbc55295d08d5b8db51",
+      "outcome": "accepted_partial",
+      "remainingGaps": [
+        "lineups and substitutes",
+        "home-away splits",
+        "formation and phase transitions",
+        "xG and big chances",
+        "rest travel and rotation"
+      ]
+    }
+  ]
+}

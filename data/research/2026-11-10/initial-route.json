@@ -1,0 +1,12 @@
+{
+  "owner": "task6",
+  "action": "minimal_gap_collection",
+  "allowTask6Fetch": true,
+  "reasons": [
+    "missing_packet",
+    "missing_requiredArtifacts",
+    "no_real_progress_15m"
+  ],
+  "reuseArtifacts": [],
+  "forbidFullRefetch": true
+}

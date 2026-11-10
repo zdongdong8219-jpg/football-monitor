@@ -1,0 +1,544 @@
+{
+  "date": "2026-11-10",
+  "run": "11:40",
+  "createdAt": "2026-11-10T03:45:44.791Z",
+  "analysisAsOf": "2026-11-10T03:45:44.791Z",
+  "deliveryDeadline": "2026-11-10T14:00:00+08:00",
+  "completed": false,
+  "finalLocked": false,
+  "mobileVerified": false,
+  "publicationAttempted": false,
+  "earlyDeliveryRequired": false,
+  "earlyDeliveryMissed": false,
+  "earlyReason": "Tuesday and zero current sale-day fixtures before18:00",
+  "inputValidation": {
+    "count": 33,
+    "artifacts": [
+      {
+        "path": "data/research/2026-11-10/official-baseline.json",
+        "sha256": "756fe6cbd666b49f73ee2fe9d2aeda12bcc6225b191b71c6790303d8cf4e8227",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/source-catalog.json",
+        "sha256": "4db135117bc67ac6f2e4635d37ae2d5ed01e31593cb49f0535bea8de0ea140aa",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/source-audit.json",
+        "sha256": "f2d18b6e38078ce79a34acc367b3b84ab0fd85a4ee68f4639ce321d472f6754b",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/market-snapshots.json",
+        "sha256": "7c8bfe5d68a6eccefff74706561ec3586bf0c6af267966be19061643c2706578",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/match-dossiers.json",
+        "sha256": "f060ee9ce2604e84fe30d08cacb4fd55149c3ff82566e23fdd53bd790e416e83",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/final-club-articles.json",
+        "sha256": "87b3144d0fbf2adb5cdb0df7791e1543ccc05d4a927f9c6a7f75a57620ea8dbc",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/research-execution.json",
+        "sha256": "984c23ce3683061bbcce299347f5ca13d5f6ab6bb7a0e158a47bfc5e3a6e0f04",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/handoff.json",
+        "sha256": "bba63e594aa61c8eb2dc128d21c114ea4765afc60ce08d19bc8a71af2e0922f4",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/initial-route.json",
+        "sha256": "ddc16101c15759f7cbb6979a82e96dde691adabf4abb08c18b803cee346e13b7",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/official-calculator.txt",
+        "sha256": "4767f7f372a4a0c350e8dbcc2f7b618ef56937dc1e20f7e194175500a8df2b2b",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/official-list.txt",
+        "sha256": "e2660fab8b047410f39af532cfd0e91dd92168efb6f8352977780fb965336363",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/cloud-state.txt",
+        "sha256": "ef15621ee94b6457809092e1d0645105e5d2c81151ebc5d4f15df284a7a24e35",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/burton.txt",
+        "sha256": "ad2c9c9bfc01c6975d8e44dd24aa7ef6abb02764c224bdf3faca57400523c51e",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/notts.txt",
+        "sha256": "d69c0bb52c3f08ffda3748d0027272d2cd820ef1f5add3b3093937c98ae04362",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/bromley.txt",
+        "sha256": "8aa0c7c0fba59ba93e5c90151b1b1e06a4ab10661e4a2a527a53110e25e84099",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/mkdons.txt",
+        "sha256": "e221ff2d29564b8d61fb288aad5e193f3610765494a0ad25c26e55a5b57d7205",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/search-0.txt",
+        "sha256": "1891d99ce45edfb9111b12c3cfc919e51eda46f7fb2b56a78a487b8419c9a8d2",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/search-1.txt",
+        "sha256": "ca4fca02da0bfa6db85372fe6d6e173b9ab413721d62c8651eac4507bae8b721",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/burton-payload.txt",
+        "sha256": "415f74d4365942b45bd1ae691fabd554b2ef314223129d30c9daa902f37c0967",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/notts-payload.txt",
+        "sha256": "d192d58adff4f9e4685846f5c810fc1e951cfcaa5cfa81da9ac698f00db5c6f4",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/bromley-payload.txt",
+        "sha256": "0b4e59a1157a74bdcb311df3217143c079e54c9c32f3e3e578878507fe467c34",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/mkdons-payload.txt",
+        "sha256": "47e8461954f2baecd0121a715bafd8189643ce02380153d22a306b431907106c",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/alternate-search-0.txt",
+        "sha256": "104bf633300b74da1be75046457e570c0572878633e57b9797ffbd4c0c651c09",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/alternate-search-1.txt",
+        "sha256": "cd18cd882a1698fa6a3526688aa75a9f6ddd065f097734c1c7f021493915c610",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/burton-news-api.txt",
+        "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/notts-news-api.txt",
+        "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/bromley-news-api.txt",
+        "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/mkdons-news-api.txt",
+        "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/morning-packet-2026-11-10T00-14-47-945Z.json",
+        "sha256": "cd77aafe59f1cf3c0e1ab2daffca0c6f2040a838f295738aa254fd5b2a7a44d9",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-0900-2026-11-10T01-04-54-375Z.json",
+        "sha256": "521abca7cdafa81e3de97e901e025ea4f20883c84c284510c20350d88b577d25",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-1100-2026-11-10T03-05-06-700Z.json",
+        "sha256": "0a33d8448257c2c8094a873a065cde80b4a330fbef5b23a0f55979a18ff72765",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-1100-2026-11-10T03-05-57-173Z.json",
+        "sha256": "d72c60adf09eefc8349fcc275279f5a7389d3054bc43cb40dd78f1dc16738444",
+        "passed": true
+      },
+      {
+        "path": "data/research/2026-11-10/incremental-1100-2026-11-10T03-07-40-998Z.json",
+        "sha256": "8e497ac4f1665552d4bc7197a28eb668160a23836b85537852b94fe6df02f463",
+        "passed": true
+      }
+    ]
+  },
+  "researchExecution": {
+    "owner": "task6",
+    "mode": "minimal_gap_collection",
+    "failureReason": "backup_required and no_real_progress_15m",
+    "fetches": [
+      {
+        "name": "calculator",
+        "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "gap": "current qualification and sale-day match count",
+        "startedAt": "2026-11-10T03:42:09.749Z",
+        "evidenceUsed": [
+          "Current businessDate 2026-11-10 has exactly IDs 2042684 and 2042685; identity and kickoff matched",
+          "HAD/HHAD allUp=1 bettingAllup=1 Selling; single=0; close fields empty; odds recorded"
+        ],
+        "collectedAt": "2026-11-10T03:42:09.941Z",
+        "http": 200,
+        "finalUrl": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "sha256": "f62078e95bf56ff7f4452ebf5be9868ff4507b870ae8d9c89f5f7f23f6972224",
+        "rawArtifact": "data/research/2026-11-10/task6-1140-calculator.txt",
+        "outcome": "accepted"
+      },
+      {
+        "name": "list",
+        "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+        "gap": "independent official identity and sales status",
+        "startedAt": "2026-11-10T03:42:09.804Z",
+        "evidenceUsed": [
+          "Current businessDate 2026-11-10 has exactly IDs 2042684 and 2042685; identity and kickoff matched"
+        ],
+        "collectedAt": "2026-11-10T03:42:09.935Z",
+        "http": 200,
+        "finalUrl": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+        "sha256": "5a2fb3a7147238a6dea8ffd4ceae4912c3e6b9ab1828ef71d697f238bb485053",
+        "rawArtifact": "data/research/2026-11-10/task6-1140-list.txt",
+        "outcome": "accepted"
+      },
+      {
+        "name": "bbc",
+        "source": "https://www.bbc.com/sport/football/scores-fixtures/2026-11-10",
+        "gap": "two fixture identities and prematch context",
+        "startedAt": "2026-11-10T03:42:09.805Z",
+        "evidenceUsed": [
+          "Both official identities and UK kickoff times independently matched; EFL Trophy group stage"
+        ],
+        "collectedAt": "2026-11-10T03:42:11.036Z",
+        "http": 200,
+        "finalUrl": "https://www.bbc.com/sport/football/scores-fixtures/2026-11-10",
+        "sha256": "555c9889f68e89d74ac20822db8fea9461ac57ff7f0cf2fa0c15feb9546e6980",
+        "rawArtifact": "data/research/2026-11-10/task6-1140-bbc.txt",
+        "outcome": "accepted_partial"
+      },
+      {
+        "name": "espn",
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.trophy/scoreboard?dates=20261110",
+        "gap": "two fixture context; retry prior transport failure",
+        "startedAt": "2026-11-10T03:42:09.806Z",
+        "evidenceUsed": [],
+        "collectedAt": "2026-11-10T03:42:20.403Z",
+        "outcome": "failed",
+        "failureReason": "TypeError: fetch failed"
+      },
+      {
+        "name": "preview001",
+        "source": "https://www.google.com/search?q=Burton+Notts+County+10+November+2026+preview+team+news",
+        "gap": "001 missing lineup form and tactical evidence",
+        "startedAt": "2026-11-10T03:42:09.807Z",
+        "evidenceUsed": [],
+        "collectedAt": "2026-11-10T03:42:10.118Z",
+        "http": 200,
+        "finalUrl": "https://www.google.com/search?q=Burton+Notts+County+10+November+2026+preview+team+news",
+        "sha256": "bd082c5d09a5d07c524058fcca35166c681b03d37c370a61c54b9b527791f762",
+        "rawArtifact": "data/research/2026-11-10/task6-1140-preview001.txt",
+        "outcome": "no_usable_evidence",
+        "failureReason": "HTTP200 search redirect shell; no actual search results or article body"
+      },
+      {
+        "name": "preview002",
+        "source": "https://www.google.com/search?q=Bromley+MK+Dons+10+November+2026+preview+team+news",
+        "gap": "002 missing lineup form and tactical evidence",
+        "startedAt": "2026-11-10T03:42:09.809Z",
+        "evidenceUsed": [],
+        "collectedAt": "2026-11-10T03:42:10.099Z",
+        "http": 200,
+        "finalUrl": "https://www.google.com/search?q=Bromley+MK+Dons+10+November+2026+preview+team+news",
+        "sha256": "70670f07f055468793355695682727b5ae88bc8e2c9571c31d37b3ffd1d4ac81",
+        "rawArtifact": "data/research/2026-11-10/task6-1140-preview002.txt",
+        "outcome": "no_usable_evidence",
+        "failureReason": "HTTP200 search redirect shell; no actual search results or article body"
+      },
+      {
+        "name": "bbc-detail001",
+        "source": "https://www.bbc.com/sport/football/live/cw1466nky882t",
+        "gap": "lineup statistics and contextual reporting",
+        "evidenceUsed": [
+          "Burton 2 group games: 1 scored/1 conceded,17 shots/3 on target; Notts 7/2,32/16",
+          "Recent five results and group table; no verified lineup, tactical shape or xG"
+        ],
+        "http": 200,
+        "collectedAt": "2026-11-10T03:43:21.355Z",
+        "rawArtifact": "data/research/2026-11-10/task6-1140-bbc-detail001.txt",
+        "sha256": "362b7f49b07f2ae31c0a7489c3c2619c66341b8e79da6ce01aa859dec65e2066",
+        "outcome": "accepted_partial",
+        "remainingGaps": [
+          "lineups and substitutes",
+          "home-away splits",
+          "formation and phase transitions",
+          "xG and big chances",
+          "rest travel and rotation"
+        ]
+      },
+      {
+        "name": "bbc-detail002",
+        "source": "https://www.bbc.com/sport/football/live/c6n0441gvpvqt",
+        "gap": "lineup statistics and contextual reporting",
+        "evidenceUsed": [
+          "Bromley 2 group games:0 scored/5 conceded,21 shots/13 on target; MK Dons11/2,39/23",
+          "Recent form and October27 MK Dons4-1Bromley; no verified lineup, tactical shape or xG"
+        ],
+        "http": 200,
+        "collectedAt": "2026-11-10T03:43:21.292Z",
+        "rawArtifact": "data/research/2026-11-10/task6-1140-bbc-detail002.txt",
+        "sha256": "34c4befef411a8c018a12398c4bf61633607627667866bbc55295d08d5b8db51",
+        "outcome": "accepted_partial",
+        "remainingGaps": [
+          "lineups and substitutes",
+          "home-away splits",
+          "formation and phase transitions",
+          "xG and big chances",
+          "rest travel and rotation"
+        ]
+      }
+    ]
+  },
+  "scanTable": [
+    {
+      "number": "周二001",
+      "officialMatchId": 2042684,
+      "kickoff": "2026-11-11T03:00:00+08:00",
+      "home": "伯顿",
+      "away": "诺茨郡",
+      "had": {
+        "a": "2.65",
+        "af": "0",
+        "d": "3.30",
+        "df": "0",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "2.18",
+        "hf": "0",
+        "updateDate": "2026-11-09",
+        "updateTime": "21:52:33"
+      },
+      "hhad": {
+        "a": "1.51",
+        "af": "0",
+        "d": "3.85",
+        "df": "0",
+        "goalLine": "-1",
+        "goalLineValue": "-1.00",
+        "h": "4.60",
+        "hf": "0",
+        "updateDate": "2026-11-09",
+        "updateTime": "21:52:24"
+      },
+      "qualification": {
+        "status": "Selling",
+        "allUp": 1,
+        "single": 0,
+        "passSizes": [
+          2,
+          3
+        ],
+        "saleCloseAt": null,
+        "checkedAt": "2026-11-10T03:42:09.941Z",
+        "source": {
+          "name": "calculator",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "gap": "current qualification and sale-day match count",
+          "startedAt": "2026-11-10T03:42:09.749Z",
+          "evidenceUsed": [
+            "Current businessDate 2026-11-10 has exactly IDs 2042684 and 2042685; identity and kickoff matched",
+            "HAD/HHAD allUp=1 bettingAllup=1 Selling; single=0; close fields empty; odds recorded"
+          ],
+          "collectedAt": "2026-11-10T03:42:09.941Z",
+          "http": 200,
+          "finalUrl": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "sha256": "f62078e95bf56ff7f4452ebf5be9868ff4507b870ae8d9c89f5f7f23f6972224",
+          "rawArtifact": "data/research/2026-11-10/task6-1140-calculator.txt",
+          "outcome": "accepted"
+        }
+      },
+      "direction": "研究倾向：让负（主-1），暂不入正式票",
+      "support": "诺茨郡杯赛两场7进球、32次射门16次射正，高于伯顿1进球、17次射门3次射正；伯顿两场均为90分钟平局。让负覆盖伯顿平或负，样本支持比伯顿净胜2球更强。仅两场杯赛，不能外推稳定胜率。",
+      "counter": "伯顿杯赛仅失1球，近期对莱顿东方取胜、对布拉德福德及彼得堡打平；普通胜2.18仍低于客胜2.65，市场并不认可诺茨郡稳胜。伯顿只要净胜1球让负就输，主队对低级别对手4:0不能直接证明此边界。",
+      "markets": "普通胜/平/负2.18/3.30/2.65：主胜是报价首选但无阵容和对位支持，平有杯赛两平的有限样本，客胜获射门产量支持但面对低失球主队。主-1让胜4.60=净胜至少2球，当前进攻样本不足；让平3.85=恰赢1球，有低比分情景可能但无精确幅度证据；让负1.51=主队不胜，相对研究首选但低赔不构成核心资格。不得把主队赢1球算让负命中。",
+      "form": "伯顿最近五场2胜2平1负含足总杯4:0；诺茨郡2胜2平1负含足总杯2:2。BBC顺序与胜平负核验，完整主客拆分和比赛日期未取到，不能推断具体休息天数。杯赛2场双方对手序列未校正；主队杯赛失球少与客队射正多相互制约。",
+      "tactics": "条件推演：若诺茨延续更高射正产量且伯顿继续低产，主队不胜更合理；伯顿若限制禁区机会并通过反击/定位球先得分，则小胜直接击败让负。这是失效情景，不是已核实的球队打法。",
+      "decisionReason": "有有限射门和杯赛进失球证据可形成研究方向，但盘口与产量分歧尚无阵容/战术解释；不能仅靠方向覆盖宽和1.51低赔作为2.0腿。",
+      "lineupAndReplacements": "双方伤停、预计阵容与替补均未核实；主任务官网正文/API已失败，本轮BBC详情不提供此项，不按全员健康处理。",
+      "scheduleFitness": "双方休息、旅行和下一场重要性未核实；不能将杯赛自动等同轮换，也不能将未报道轮换视为不轮换。",
+      "chanceQuality": "射门/射正仅为机会产量代理，不能替代xG、大机会质量或比分预测。",
+      "analysisAudit": {
+        "availableEvidence": [
+          {
+            "source": "https://www.bbc.com/sport/football/live/cw1466nky882t",
+            "collectedAt": "2026-11-10T03:43:21.355Z",
+            "evidence": "诺茨郡杯赛两场7进球、32次射门16次射正，高于伯顿1进球、17次射门3次射正；伯顿两场均为90分钟平局。让负覆盖伯顿平或负，样本支持比伯顿净胜2球更强。仅两场杯赛，不能外推稳定胜率。"
+          },
+          {
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "collectedAt": "2026-11-10T03:42:09.941Z",
+            "evidence": "普通胜/平/负2.18/3.30/2.65：主胜是报价首选但无阵容和对位支持，平有杯赛两平的有限样本，客胜获射门产量支持但面对低失球主队。主-1让胜4.60=净胜至少2球，当前进攻样本不足；让平3.85=恰赢1球，有低比分情景可能但无精确幅度证据；让负1.51=主队不胜，相对研究首选但低赔不构成核心资格。不得把主队赢1球算让负命中。"
+          }
+        ],
+        "gaps": [
+          "近期完整主客场拆分及对手强度校正",
+          "已确认伤停、预计首发与替补能力",
+          "阵型及推进、压迫、回防、定位球和攻防转换",
+          "xG、大机会及对手校正后的机会质量",
+          "最近比赛准确时间、休息天数、旅行及轮换计划",
+          "具体停售时刻"
+        ],
+        "counterevidence": "伯顿杯赛仅失1球，近期对莱顿东方取胜、对布拉德福德及彼得堡打平；普通胜2.18仍低于客胜2.65，市场并不认可诺茨郡稳胜。伯顿只要净胜1球让负就输，主队对低级别对手4:0不能直接证明此边界。",
+        "decision": "reject",
+        "reason": "有有限射门和杯赛进失球证据可形成研究方向，但盘口与产量分歧尚无阵容/战术解释；不能仅靠方向覆盖宽和1.51低赔作为2.0腿。"
+      },
+      "coreAdmission": {
+        "approved": false
+      },
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      }
+    },
+    {
+      "number": "周二002",
+      "officialMatchId": 2042685,
+      "kickoff": "2026-11-11T03:30:00+08:00",
+      "home": "布罗姆利",
+      "away": "米尔顿",
+      "had": {
+        "a": "1.57",
+        "af": "1",
+        "d": "3.92",
+        "df": "0",
+        "goalLine": "",
+        "goalLineValue": "",
+        "h": "4.05",
+        "hf": "-1",
+        "updateDate": "2026-11-10",
+        "updateTime": "10:48:11"
+      },
+      "hhad": {
+        "a": "2.69",
+        "af": "1",
+        "d": "3.67",
+        "df": "0",
+        "goalLine": "+1",
+        "goalLineValue": "+1.00",
+        "h": "2.02",
+        "hf": "-1",
+        "updateDate": "2026-11-10",
+        "updateTime": "10:48:05"
+      },
+      "qualification": {
+        "status": "Selling",
+        "allUp": 1,
+        "single": 0,
+        "passSizes": [
+          2,
+          3
+        ],
+        "saleCloseAt": null,
+        "checkedAt": "2026-11-10T03:42:09.941Z",
+        "source": {
+          "name": "calculator",
+          "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "gap": "current qualification and sale-day match count",
+          "startedAt": "2026-11-10T03:42:09.749Z",
+          "evidenceUsed": [
+            "Current businessDate 2026-11-10 has exactly IDs 2042684 and 2042685; identity and kickoff matched",
+            "HAD/HHAD allUp=1 bettingAllup=1 Selling; single=0; close fields empty; odds recorded"
+          ],
+          "collectedAt": "2026-11-10T03:42:09.941Z",
+          "http": 200,
+          "finalUrl": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "sha256": "f62078e95bf56ff7f4452ebf5be9868ff4507b870ae8d9c89f5f7f23f6972224",
+          "rawArtifact": "data/research/2026-11-10/task6-1140-calculator.txt",
+          "outcome": "accepted"
+        }
+      },
+      "direction": "研究倾向：普通负，暂不升级让负或正式票",
+      "support": "MK Dons最近五场4胜1负，含对Doncaster6:1和10月27日对Bromley4:1；杯赛两场11进球39射门23射正，Bromley0进球且失5球，近期五场0胜1平4负。客胜具有实际产量与近期赛果支持。",
+      "counter": "杯赛仅两场、对手强度未校正，客队已6分可能影响用人但未查到轮换表态，不能声称必轮换；主队13射正却0进球提示转化波动及数据口径待核。客胜1.56升1.57、主胜4.11降4.05，市场轻微向主队移动，不支持进一步确信客队大胜。",
+      "markets": "普通胜/平/负4.05/3.92/1.57：客胜优先，主胜缺少独立支持，平局是客队终结下降/轮换后的失败情景，尚无充分平局证据授权双选。主+1让胜2.02=主队不败；让平3.67=客队恰赢1球；让负2.69=客队赢至少2球。以近期4:1直接升级让负忽略客场、轮换及样本，普通负比净胜边界更适配当前证据。",
+      "form": "MK Dons依次胜Swindon2:1、Doncaster6:1、Bromley4:1、Stevenage1:0，负Blackpool0:2；Bromley负Rotherham0:2、Wigan2:3、MK Dons1:4，平Peterborough1:1，负Leicester0:4。完整主客拆分、休息和对手质量尚未核实。",
+      "tactics": "条件推演：若客队保持当前进攻产量，普通客胜有支撑；主队若提高射正转化率、客队换人后推进下降，平局或小胜边界扩大。没有可验证阵型、压迫和回防资料，不编造具体战术克制。",
+      "decisionReason": "在两场中客胜方向支持相对较强，但预计阵容、替补与杯赛用人未知，杯赛大比分未校正；暂列候选第1，未达到正式准入。",
+      "lineupAndReplacements": "双方伤停、预计阵容与替补均未核实；主任务官网正文/API已失败，本轮BBC详情不提供此项，不按全员健康处理。",
+      "scheduleFitness": "双方休息、旅行和下一场重要性未核实；不能将杯赛自动等同轮换，也不能将未报道轮换视为不轮换。",
+      "chanceQuality": "射门/射正仅为机会产量代理，不能替代xG、大机会质量或比分预测。",
+      "analysisAudit": {
+        "availableEvidence": [
+          {
+            "source": "https://www.bbc.com/sport/football/live/c6n0441gvpvqt",
+            "collectedAt": "2026-11-10T03:43:21.292Z",
+            "evidence": "MK Dons最近五场4胜1负，含对Doncaster6:1和10月27日对Bromley4:1；杯赛两场11进球39射门23射正，Bromley0进球且失5球，近期五场0胜1平4负。客胜具有实际产量与近期赛果支持。"
+          },
+          {
+            "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+            "collectedAt": "2026-11-10T03:42:09.941Z",
+            "evidence": "普通胜/平/负4.05/3.92/1.57：客胜优先，主胜缺少独立支持，平局是客队终结下降/轮换后的失败情景，尚无充分平局证据授权双选。主+1让胜2.02=主队不败；让平3.67=客队恰赢1球；让负2.69=客队赢至少2球。以近期4:1直接升级让负忽略客场、轮换及样本，普通负比净胜边界更适配当前证据。"
+          }
+        ],
+        "gaps": [
+          "近期完整主客场拆分及对手强度校正",
+          "已确认伤停、预计首发与替补能力",
+          "阵型及推进、压迫、回防、定位球和攻防转换",
+          "xG、大机会及对手校正后的机会质量",
+          "最近比赛准确时间、休息天数、旅行及轮换计划",
+          "具体停售时刻"
+        ],
+        "counterevidence": "杯赛仅两场、对手强度未校正，客队已6分可能影响用人但未查到轮换表态，不能声称必轮换；主队13射正却0进球提示转化波动及数据口径待核。客胜1.56升1.57、主胜4.11降4.05，市场轻微向主队移动，不支持进一步确信客队大胜。",
+        "decision": "reject",
+        "reason": "在两场中客胜方向支持相对较强，但预计阵容、替补与杯赛用人未知，杯赛大比分未校正；暂列候选第1，未达到正式准入。"
+      },
+      "coreAdmission": {
+        "approved": false
+      },
+      "projectStars": {
+        "direction": 0,
+        "speculative": 0,
+        "goals": 0,
+        "halfFull": 0,
+        "score": 0
+      }
+    }
+  ],
+  "reviewSchedule": {
+    "lastScheduledKickoff": "2026-11-11T03:30:00+08:00",
+    "estimatedEnd": "2026-11-11T05:30:00+08:00",
+    "bufferMinutes": 25,
+    "reviewAt": "2026-11-11T05:55:00+08:00",
+    "basis": "Planning estimate: kickoff plus120min then25min sync buffer; not a verified finish time"
+  },
+  "candidateRanking": [
+    "002 ordinary away: stronger current independent evidence",
+    "001 handicap away(-1): weaker candidate with market/fundamental disagreement"
+  ],
+  "combinationAssessment": "001让负×002普通负=2.3707仅是算术，不是已签发票。两场均未正式准入；两档若用相同两场只变玩法将违反最多共用一场，不能包装两张独立票。",
+  "recommendations": [],
+  "dream3Assessment": {
+    "selectedCount": 0,
+    "completed": false,
+    "reason": "Current business date has only two official matches; cannot satisfy three distinct fixtures. Recheck real scope at13:00; never borrow future sales dates or repeat one fixture."
+  },
+  "nextAction": "13:00主任务增量先复用本轮BBC原文和资格快照，仅补剩余阵容/替补、主客与战术/体能、停售及真实赛程变化；13:40复核受影响结论，13:50停止新采集。"
+}
