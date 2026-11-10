@@ -5447,7 +5447,31 @@
       "coverageGaps": [
         "third distinct fixture absent"
       ],
-      "reason": "13:41官方仍仅两场当日比赛；第三场不存在，至少1张三场独立梦想串不可构造。0张是未完成状态，非最终版豁免。"
+      "reason": "官方销售日仅2场，不足3场，梦想3串1不出；不跨销售日凑腿。",
+      "skipReason": "eligible distinct fixtures < 3",
+      "eligibleDistinctFixtureCount": 2,
+      "officialFixtureEvidence": {
+        "saleDate": "2026-11-10",
+        "completeSaleDay": true,
+        "fixtures": [
+          {
+            "officialMatchId": 2042684,
+            "number": "周二001",
+            "saleDate": "2026-11-10",
+            "status": "Selling"
+          },
+          {
+            "officialMatchId": 2042685,
+            "number": "周二002",
+            "saleDate": "2026-11-10",
+            "status": "Selling"
+          }
+        ],
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+        "collectedAt": "2026-11-10T05:41:45.959Z",
+        "rawArtifact": "data/research/2026-11-10/task6-1340-calculator.txt",
+        "sha256": "2673666ca07e85c70db39915d2e36350fae7e38cef5297f85d8afcc05de0b455"
+      }
     },
     "stageStatus": {
       "officialSchedule": "saved_two_sources_matched",
@@ -10576,6 +10600,29 @@
   "analysisDelivery": {
     "date": "2026-11-10",
     "run": "13:40",
+    "updatedAt": "2026-11-10T08:14:01.283Z",
+    "status": "published_verified",
+    "completed": true,
+    "finalLocked": true,
+    "mobileVerified": true,
+    "analysisArtifact": "data/reports/2026-11-10.json",
+    "failureReason": null,
+    "reviewSchedule": {
+      "lastScheduledKickoff": "2026-11-11T03:30:00+08:00",
+      "estimatedEnd": "2026-11-11T05:30:00+08:00",
+      "bufferMinutes": 25,
+      "reviewAt": "2026-11-11T05:55:00+08:00",
+      "basis": "Planning estimate: kickoff plus120min then25min sync buffer; not a verified finish time; no new ticket issued, retained for scope audit only"
+    },
+    "deliveryMissed": true,
+    "originalDelayReason": "原最低梦想数量规则阻断交付，现按用户不足三场例外纠正；不回填按时完成。"
+  },
+  "deliveryVerified": true,
+  "onlineVerifiedAt": "2026-11-10T08:14:01.283Z",
+  "publicationCommit": "865904905e1b81687e8ec659ea2117601a22922c",
+  "priorAnalysisDelivery": {
+    "date": "2026-11-10",
+    "run": "13:40",
     "updatedAt": "2026-11-10T05:44:59.007Z",
     "status": "analysis_saved_final_delivery_blocked",
     "completed": false,
@@ -10590,8 +10637,5 @@
       "reviewAt": "2026-11-11T05:55:00+08:00",
       "basis": "Planning estimate: kickoff plus120min then25min sync buffer; not a verified finish time; no new ticket issued, retained for scope audit only"
     }
-  },
-  "deliveryVerified": true,
-  "onlineVerifiedAt": "2026-11-10T08:14:01.283Z",
-  "publicationCommit": "865904905e1b81687e8ec659ea2117601a22922c"
+  }
 }
