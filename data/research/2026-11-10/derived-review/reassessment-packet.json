@@ -1,0 +1,845 @@
+{
+  "date": "2026-11-10",
+  "createdAt": "2026-11-10T08:35:49.254Z",
+  "userAuthorizedPostDeadlineCollection": true,
+  "sourceAnalysis": "data/research/2026-11-10/analysis-1340-6.json",
+  "priorReportSha256": "82fc68aa3d334728133861700e7022e7a02666f81d7d9b20687f74db4b9a7050",
+  "fetches": [
+    {
+      "name": "calculator",
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+      "startedAt": "2026-11-10T08:25:55.360Z",
+      "collectedAt": "2026-11-10T08:25:55.602Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/calculator.txt",
+      "sha256": "c6697f202e643e2e1ba188a7e6b1f65b2fa2cbffa4fb0adcb2ada29f9120c479",
+      "bytes": 60331
+    },
+    {
+      "name": "list",
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+      "startedAt": "2026-11-10T08:25:55.433Z",
+      "collectedAt": "2026-11-10T08:25:55.597Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/list.txt",
+      "sha256": "0dbc1e5293fa2badac99365b6d3b18206f9b0087910f54ddbdc29edeaa8c226e",
+      "bytes": 23921
+    },
+    {
+      "name": "bbc001",
+      "url": "https://www.bbc.com/sport/football/live/cw1466nky882t",
+      "startedAt": "2026-11-10T08:25:55.434Z",
+      "collectedAt": "2026-11-10T08:25:56.824Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/bbc001.txt",
+      "sha256": "1dc5471a656bf9c6e5f0a930fd28c268e999e4af54a0b99ff9b768cd67a7f013",
+      "bytes": 817268
+    },
+    {
+      "name": "bbc002",
+      "url": "https://www.bbc.com/sport/football/live/c6n0441gvpvqt",
+      "startedAt": "2026-11-10T08:25:55.436Z",
+      "collectedAt": "2026-11-10T08:25:56.906Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/bbc002.txt",
+      "sha256": "f0f0627c445951ba7ee3c09dbaffb62e5fd4e5ba3cb2ff079f7c1a2841d4e1b3",
+      "bytes": 809457
+    },
+    {
+      "name": "preview001",
+      "url": "https://www.sportsmole.co.uk/football/burton-albion/efl-trophy/preview/burton-albion-vs-notts-county-prediction-team-news-lineups_608726.html",
+      "startedAt": "2026-11-10T08:25:55.437Z",
+      "collectedAt": "2026-11-10T08:25:56.203Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/preview001.txt",
+      "sha256": "a73704d541402a4c7b6402ea12aadb7153daf3ee7ddeaa5245ed7fb41396a6a9",
+      "bytes": 169905
+    },
+    {
+      "name": "stats001",
+      "url": "https://www.sportsmole.co.uk/football/efl-trophy/burton-albion-vs-notts-county_game_261989.html",
+      "startedAt": "2026-11-10T08:25:55.438Z",
+      "collectedAt": "2026-11-10T08:25:56.189Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/stats001.txt",
+      "sha256": "1602835d0ee6bfee7e81e7beb4023cc0146f3c02b534f113c0531ccecd507e46",
+      "bytes": 156903
+    },
+    {
+      "name": "form002",
+      "url": "https://afootballreport.com/predictions/head-to-head/england/football-league-trophy/bromley/mk-dons/MTE3NTktMTA4NjI=",
+      "startedAt": "2026-11-10T08:25:55.440Z",
+      "collectedAt": "2026-11-10T08:25:59.770Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/form002.txt",
+      "sha256": "67640aedc6e7d37ead6be443026d25c93dc3047b845080f7d1996437dc757b70",
+      "bytes": 247216
+    },
+    {
+      "name": "search002",
+      "url": "https://html.duckduckgo.com/html/?q=Bromley%20MK%20Dons%20November%2010%202026%20preview%20team%20news%20lineups",
+      "startedAt": "2026-11-10T08:25:55.441Z",
+      "collectedAt": "2026-11-10T08:25:56.534Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/search002.txt",
+      "sha256": "97fe5527aa0656bfa81697a59b7fbf2792fd8ef1bb3f62dc17c9efc38ba2473b",
+      "bytes": 34515
+    },
+    {
+      "name": "season001",
+      "url": "https://html.duckduckgo.com/html/?q=Burton%20Albion%20Notts%20County%202026%202027%20goals%20scored%20conceded%20home%20away%20statistics%20November",
+      "startedAt": "2026-11-10T08:25:55.443Z",
+      "collectedAt": "2026-11-10T08:25:56.927Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/season001.txt",
+      "sha256": "6e07f047c2dbdd9b8a2e5ea8a954033d1f62870fa50edf2c3bbd6333ae3139a0",
+      "bytes": 35024
+    },
+    {
+      "name": "season002",
+      "url": "https://html.duckduckgo.com/html/?q=Bromley%20Milton%20Keynes%20Dons%202026%202027%20goals%20scored%20conceded%20home%20away%20statistics%20November",
+      "startedAt": "2026-11-10T08:25:55.444Z",
+      "collectedAt": "2026-11-10T08:25:56.141Z",
+      "http": 202,
+      "rawArtifact": "data/research/2026-11-10/derived-review/season002.txt",
+      "sha256": "6b2d631c1afeabf314f3b045e6f4dff7621d652890c5f02d80c74f182328f912",
+      "bytes": 14401
+    },
+    {
+      "name": "preview002",
+      "url": "https://www.sportsmole.co.uk/football/bromley/efl-trophy/preview/bromley-vs-mk-dons-prediction-team-news-lineups_608746.html",
+      "startedAt": "2026-11-10T08:27:02.730Z",
+      "collectedAt": "2026-11-10T08:27:03.561Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/preview002.txt",
+      "sha256": "0682acb6b91ff4880a694d8717dbe6d5b547d7c9d8e233c20abcb4df26e6bbea",
+      "bytes": 165418
+    },
+    {
+      "name": "kent002",
+      "url": "https://www.kentsportsnews.com/bromley-vs-mk-dons-preview-2-10-11-2026/",
+      "startedAt": "2026-11-10T08:27:02.809Z",
+      "collectedAt": "2026-11-10T08:27:04.621Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/kent002.txt",
+      "sha256": "bd192fad22aaf88d7e5ec6895da654ea3de39745a09dbfd3e241481da37ba485",
+      "bytes": 55299
+    },
+    {
+      "name": "fotmob002",
+      "url": "https://www.fotmob.com/matches/milton-keynes-dons-vs-bromley/og54y2",
+      "startedAt": "2026-11-10T08:27:02.811Z",
+      "collectedAt": "2026-11-10T08:27:04.146Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/fotmob002.txt",
+      "sha256": "9a07b7d1f1028d926aa60c036fd7a9852d0eba5fc9e3aa6bf917d740feef4b07",
+      "bytes": 578715
+    },
+    {
+      "name": "footystats001",
+      "url": "https://footystats.org/england/burton-albion-fc-vs-notts-county-fc-h2h-stats",
+      "startedAt": "2026-11-10T08:27:02.812Z",
+      "collectedAt": "2026-11-10T08:27:03.725Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/footystats001.txt",
+      "sha256": "00d7cf90bad7a6d796945d9cdf4759eb88b3ee05637ae2912d43c35598962302",
+      "bytes": 615369
+    },
+    {
+      "name": "espn001",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.trophy/summary?event=401906336",
+      "startedAt": "2026-11-10T08:27:02.813Z",
+      "collectedAt": "2026-11-10T08:27:04.471Z",
+      "outcome": "failed",
+      "failureReason": "TypeError: fetch failed"
+    },
+    {
+      "name": "league-table",
+      "url": "https://www.bbc.com/sport/football/league-one/table",
+      "startedAt": "2026-11-10T08:27:02.816Z",
+      "collectedAt": "2026-11-10T08:27:04.047Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/league-table.txt",
+      "sha256": "9caeedb17f647ee596788acfb003dc300a749d0282f810fd3eb619786ee16ca6",
+      "bytes": 360944
+    },
+    {
+      "name": "footystats002",
+      "url": "https://footystats.org/england/milton-keynes-dons-fc-vs-bromley-fc-h2h-stats",
+      "startedAt": "2026-11-10T08:27:46.859Z",
+      "collectedAt": "2026-11-10T08:27:48.747Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/footystats002.txt",
+      "sha256": "294a2f8fe0e7a1d5aa0a788ad349f673422d7c80f25dc5b29e914514aa103d6d",
+      "bytes": 617020
+    },
+    {
+      "name": "burton-official",
+      "url": "https://www.burtonalbionfc.co.uk/news",
+      "startedAt": "2026-11-10T08:27:47.103Z",
+      "collectedAt": "2026-11-10T08:27:49.908Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/burton-official.txt",
+      "sha256": "f389e8a7d5b1ce4e255e93cf127eb7daf3a53a4d1174abecd73528f6ed6a8876",
+      "bytes": 1167538
+    },
+    {
+      "name": "notts-official",
+      "url": "https://www.nottscountyfc.co.uk/news",
+      "startedAt": "2026-11-10T08:27:47.105Z",
+      "collectedAt": "2026-11-10T08:27:49.425Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/notts-official.txt",
+      "sha256": "180bd2ad077597e60f2d919de54e159c56dc5328db306f930dd3e6c4dcc1e783",
+      "bytes": 1461510
+    },
+    {
+      "name": "bromley-official",
+      "url": "https://www.bromleyfc.co.uk/news/",
+      "startedAt": "2026-11-10T08:27:47.106Z",
+      "collectedAt": "2026-11-10T08:27:50.108Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/bromley-official.txt",
+      "sha256": "140ac4ab6544e392771e901ee4da9b3d9e689dde3a6c27cc23319116f07e8abd",
+      "bytes": 1141218
+    },
+    {
+      "name": "mkdons-official",
+      "url": "https://www.mkdons.com/news",
+      "startedAt": "2026-11-10T08:27:47.108Z",
+      "collectedAt": "2026-11-10T08:27:50.940Z",
+      "http": 200,
+      "rawArtifact": "data/research/2026-11-10/derived-review/mkdons-official.txt",
+      "sha256": "79b69335f9297a3fe1a74dedb26237a2273b933668ac73b288106f46893ecad2",
+      "bytes": 1300700
+    },
+    {
+      "name": "burton-api",
+      "url": "https://news.cms.admin.gc.burtonalbionfcservices.co.uk/v2/news?page.size=12&page.number=1&sort=publishedDate:desc",
+      "startedAt": "2026-11-10T08:30:24.239Z",
+      "collectedAt": "2026-11-10T08:30:25.097Z",
+      "http": 401,
+      "rawArtifact": "data/research/2026-11-10/derived-review/burton-api.txt",
+      "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+      "bytes": 26
+    },
+    {
+      "name": "notts-api",
+      "url": "https://news.cms.admin.gc.nottscountyfcservices.co.uk/v2/news?page.size=12&page.number=1&sort=publishedDate:desc",
+      "startedAt": "2026-11-10T08:30:24.344Z",
+      "collectedAt": "2026-11-10T08:30:25.090Z",
+      "http": 401,
+      "rawArtifact": "data/research/2026-11-10/derived-review/notts-api.txt",
+      "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+      "bytes": 26
+    },
+    {
+      "name": "bromley-api",
+      "url": "https://news.cms.admin.gc.bromleyfcservices.co.uk/v2/news?page.size=12&page.number=1&sort=publishedDate:desc",
+      "startedAt": "2026-11-10T08:30:24.345Z",
+      "collectedAt": "2026-11-10T08:30:25.095Z",
+      "http": 401,
+      "rawArtifact": "data/research/2026-11-10/derived-review/bromley-api.txt",
+      "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+      "bytes": 26
+    },
+    {
+      "name": "mkdons-api",
+      "url": "https://news.cms.admin.gc.miltonkeynesdonsfcservices.co.uk/v2/news?page.size=12&page.number=1&sort=publishedDate:desc",
+      "startedAt": "2026-11-10T08:30:24.361Z",
+      "collectedAt": "2026-11-10T08:30:25.132Z",
+      "http": 401,
+      "rawArtifact": "data/research/2026-11-10/derived-review/mkdons-api.txt",
+      "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+      "bytes": 26
+    }
+  ],
+  "scope": "Two official current-sale-day fixtures; goals, half/full and exact-score reassessment",
+  "rejectedSources": [
+    {
+      "name": "AFootballReport",
+      "reason": "Recent fifth fixture and win sequence conflict with BBC/FotMob; first-half scoring count exceeds full-match scoring count."
+    },
+    {
+      "name": "FootyStats AI summary",
+      "reason": "Generated narrative and mismatched generic Home/Away captions excluded; use labeled split table only."
+    },
+    {
+      "name": "club homepages/API",
+      "reason": "Homepages returned navigation shell, four news APIs returned401; not treated as evidence of healthy squads."
+    },
+    {
+      "name": "ESPN API",
+      "reason": "Fetch failed; use BBC/SportsMole/FotMob/FootyStats instead."
+    }
+  ],
+  "matches": [
+    {
+      "number": "周二001",
+      "officialMatchId": 2042684,
+      "kickoff": "2026-11-11T03:00:00+08:00",
+      "season": {
+        "home": {
+          "played": 14,
+          "goalsFor": 18,
+          "goalsAgainst": 21,
+          "rank": 15
+        },
+        "away": {
+          "played": 12,
+          "goalsFor": 13,
+          "goalsAgainst": 14,
+          "rank": 17
+        }
+      },
+      "recentVenue": {
+        "home": {
+          "scored": 1.6,
+          "conceded": 1,
+          "xG": 1.58,
+          "xGA": 1.38
+        },
+        "away": {
+          "scored": 1,
+          "conceded": 1.5,
+          "xG": 1.49,
+          "xGA": 1.66
+        }
+      },
+      "venueScope": "FootyStats last10 with home/away subsamples, not season totals",
+      "evidence": {
+        "season": "伯顿联赛14场18进21失、15位；诺茨12场13进14失、17位。伯顿场均进1.29失1.50、诺茨进1.08失1.17，不能用杯赛诺茨两场7球替代联赛基线。",
+        "venue": "FootyStats明确采用最近10场、主客子样本：伯顿主场进1.60失1.00，诺茨客场进1.00失1.50。页面的后续“at Home/at Away”图表却使用整体1.10/1.50值，本次只用标明Overall/Home/Away的分列表。Sports Mole列伯顿近期主场4比0、2比1、0比0；诺茨客场2比2、2比0、0比2，与总体分布相容。",
+        "strength": "伯顿4比0低级别Rushden降权；诺茨杯赛7球中5球来自U21降权。伯顿对联赛第7布拉德福德打平、对第14莱顿东方赢一球；诺茨战平第2斯托克港并击败第9谢周三，不能单按积分名次判主胜。不同比赛环境和比赛数量不作精确强度回归。",
+        "lineup": "11月8日Sports Mole预计伯顿Addai；Tilt/Lewis/Sibbick；Rodrigues/Chauke/Collar/Adiele；Webster/Scutt；O’Mahony，诺茨Belshaw；Bedeau/Ness/McDonald；Tsaroulla/Robertson/Finneran/Samuels-Smith；Roberts；Kanu/Smyth。Scutt替补进球后可能先发；FootyStats最近使用名单包含Dennis及替补Arubi、Adom、Sraha、Araujo，诺茨替补Ndlovu、Sanders、Palmer等。均是预计/上场名单，不是本场已确认首发，也不把没有列出伤情理解为全员健康。",
+        "tactics": "按预计人员推演伯顿3-4-2-1对诺茨3-4-1-2：伯顿双前腰可找双中场身后、诺茨双前锋牵制三中卫并由Roberts接应。翼卫压上可同时制造传中和身后反击；这是阵型条件推演，不宣称已经核实压迫强度。伯顿需胜才能确保出线、诺茨已经晋级，后段主动进攻和轮换使低比分与反击增球两条路径并存。",
+        "chance": "BBC杯赛仅2场样本：伯顿17射门3射正、诺茨32射门16射正，不能当长期xG。FootyStats最近10场整体每场射门13.0/14.3、射正3.9/4.5可作产量代理；其主场xG1.58/xGA1.38、客场xG1.49/xGA1.66为第三方估计，方法非公开Opta校准，不合并为精确胜率；不采用该站GPT摘要或Sports Mole模型概率作为独立事实。",
+        "fitness": "双方11月7日踢足总杯，约三日历日间隔；诺茨经历2比2及点球。不能据此虚构加时分钟。伯顿争取晋级、诺茨已晋级，对后程战术及换人方向的影响明确，但轮换幅度仍按情景处理。",
+        "goals": "新审阅主推研究范围为2/3球，1星，不构成正式串。联赛低均值、伯顿近期主场与诺茨近期客场合计2.60进球基线、双方近期多次两球或三球比赛，支持中低总进球；官方2球3.55、3球3.15为报价集中区。反证：伯顿杯赛0比0及1比1使0/1球路径存在，争胜后段反击及两队翼卫前压又可能达到4球以上；所以只一般看好，不升高星，不把两个选项赔率当整组收益。",
+        "halfFull": "比较胜胜4.05、负负4.40、平平/平胜均5.20、平负6.20。伯顿近10场上半场胜20%/平40%，诺茨胜50%/平30%；全场均势不等于半场必平。8月29日同对手交锋诺茨半场落后却全场取胜（Sports Mole），说明领先到全场的路径会反转。故不选半全场，具体拒绝理由是领先路径易反转。",
+        "score": "1比1报价6.25、2比1为7.25、1比2为8.00，主客一球胜紧邻平局。伯顿争胜与诺茨反击分别支持两侧小胜，平/负方向不能唯一确定进球分配。放弃精确比分三选，不把第三方1比1预测当独立结论。",
+        "display": {
+          "goals": "2/3球",
+          "halfFull": "不选：领先易反转",
+          "score": "不选：两侧小胜分流"
+        },
+        "reason": "普通串继续不出：伯顿近期主场表现及晋级动机反驳主队不胜；总进球2/3的分布判断不等于001普通方向已通过核心准入。"
+      },
+      "sources": [
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "collectedAt": "2026-11-10T08:25:55.602Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/calculator.txt",
+          "sha256": "c6697f202e643e2e1ba188a7e6b1f65b2fa2cbffa4fb0adcb2ada29f9120c479",
+          "evidence": "All five markets Selling; TTG/HAFU/CRS single=1/allUp=1; saved full odds snapshot"
+        },
+        {
+          "url": "https://www.bbc.com/sport/football/league-one/table",
+          "collectedAt": "2026-11-10T08:27:04.047Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/league-table.txt",
+          "sha256": "9caeedb17f647ee596788acfb003dc300a749d0282f810fd3eb619786ee16ca6",
+          "evidence": "伯顿联赛14场18进21失、15位；诺茨12场13进14失、17位。伯顿场均进1.29失1.50、诺茨进1.08失1.17，不能用杯赛诺茨两场7球替代联赛基线。"
+        },
+        {
+          "url": "https://footystats.org/england/burton-albion-fc-vs-notts-county-fc-h2h-stats",
+          "collectedAt": "2026-11-10T08:27:03.725Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/footystats001.txt",
+          "sha256": "00d7cf90bad7a6d796945d9cdf4759eb88b3ee05637ae2912d43c35598962302",
+          "evidence": "FootyStats明确采用最近10场、主客子样本：伯顿主场进1.60失1.00，诺茨客场进1.00失1.50。页面的后续“at Home/at Away”图表却使用整体1.10/1.50值，本次只用标明Overall/Home/Away的分列表。Sports Mole列伯顿近期主场4比0、2比1、0比0；诺茨客场2比2、2比0、0比2，与总体分布相容。 BBC杯赛仅2场样本：伯顿17射门3射正、诺茨32射门16射正，不能当长期xG。FootyStats最近10场整体每场射门13.0/14.3、射正3.9/4.5可作产量代理；其主场xG1.58/xGA1.38、客场xG1.49/xGA1.66为第三方估计，方法非公开Opta校准，不合并为精确胜率；不采用该站GPT摘要或Sports Mole模型概率作为独立事实。"
+        },
+        {
+          "url": "https://www.sportsmole.co.uk/football/burton-albion/efl-trophy/preview/burton-albion-vs-notts-county-prediction-team-news-lineups_608726.html",
+          "collectedAt": "2026-11-10T08:25:56.203Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/preview001.txt",
+          "sha256": "a73704d541402a4c7b6402ea12aadb7153daf3ee7ddeaa5245ed7fb41396a6a9",
+          "evidence": "11月8日Sports Mole预计伯顿Addai；Tilt/Lewis/Sibbick；Rodrigues/Chauke/Collar/Adiele；Webster/Scutt；O’Mahony，诺茨Belshaw；Bedeau/Ness/McDonald；Tsaroulla/Robertson/Finneran/Samuels-Smith；Roberts；Kanu/Smyth。Scutt替补进球后可能先发；FootyStats最近使用名单包含Dennis及替补Arubi、Adom、Sraha、Araujo，诺茨替补Ndlovu、Sanders、Palmer等。均是预计/上场名单，不是本场已确认首发，也不把没有列出伤情理解为全员健康。"
+        },
+        {
+          "url": "https://www.bbc.com/sport/football/live/cw1466nky882t",
+          "collectedAt": "2026-11-10T08:25:56.824Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/bbc001.txt",
+          "sha256": "1dc5471a656bf9c6e5f0a930fd28c268e999e4af54a0b99ff9b768cd67a7f013",
+          "evidence": "Identity, cup stats and recent results"
+        },
+        {
+          "url": "https://www.sportsmole.co.uk/football/efl-trophy/burton-albion-vs-notts-county_game_261989.html",
+          "collectedAt": "2026-11-10T08:25:56.189Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/stats001.txt",
+          "sha256": "1602835d0ee6bfee7e81e7beb4023cc0146f3c02b534f113c0531ccecd507e46",
+          "evidence": "Recent home/away results and August29 halftime/fulltime reversal"
+        }
+      ],
+      "odds": {
+        "had": {
+          "a": "2.52",
+          "af": "0",
+          "d": "3.25",
+          "df": "0",
+          "goalLine": "",
+          "goalLineValue": "",
+          "h": "2.30",
+          "hf": "0",
+          "updateDate": "2026-11-10",
+          "updateTime": "13:57:03"
+        },
+        "hhad": {
+          "a": "1.45",
+          "af": "0",
+          "d": "3.85",
+          "df": "0",
+          "goalLine": "-1",
+          "goalLineValue": "-1.00",
+          "h": "5.25",
+          "hf": "0",
+          "updateDate": "2026-11-10",
+          "updateTime": "13:57:13"
+        },
+        "ttg": {
+          "goalLine": "",
+          "goalLineValue": "",
+          "s0": "17.00",
+          "s0f": "0",
+          "s1": "6.25",
+          "s1f": "0",
+          "s2": "3.55",
+          "s2f": "0",
+          "s3": "3.15",
+          "s3f": "0",
+          "s4": "5.15",
+          "s4f": "0",
+          "s5": "8.30",
+          "s5f": "0",
+          "s6": "14.00",
+          "s6f": "0",
+          "s7": "20.00",
+          "s7f": "0",
+          "updateDate": "2026-11-10",
+          "updateTime": "12:45:19"
+        },
+        "hafu": {
+          "aa": "4.40",
+          "aaf": "0",
+          "ad": "14.00",
+          "adf": "0",
+          "ah": "21.00",
+          "ahf": "0",
+          "da": "6.20",
+          "daf": "0",
+          "dd": "5.20",
+          "ddf": "0",
+          "dh": "5.20",
+          "dhf": "0",
+          "goalLine": "",
+          "goalLineValue": "",
+          "ha": "23.00",
+          "haf": "0",
+          "hd": "14.00",
+          "hdf": "0",
+          "hh": "4.05",
+          "hhf": "0",
+          "id": 0,
+          "updateDate": "2026-11-10",
+          "updateTime": "13:57:23"
+        },
+        "crs": {
+          "goalLine": "",
+          "goalLineValue": "",
+          "s00s00": "17.00",
+          "s00s00f": "0",
+          "s00s01": "12.50",
+          "s00s01f": "0",
+          "s00s02": "15.00",
+          "s00s02f": "0",
+          "s00s03": "30.00",
+          "s00s03f": "0",
+          "s00s04": "70.00",
+          "s00s04f": "0",
+          "s00s05": "250.0",
+          "s00s05f": "0",
+          "s01s00": "10.00",
+          "s01s00f": "0",
+          "s01s01": "6.25",
+          "s01s01f": "0",
+          "s01s02": "8.00",
+          "s01s02f": "0",
+          "s01s03": "20.00",
+          "s01s03f": "0",
+          "s01s04": "45.00",
+          "s01s04f": "0",
+          "s01s05": "120.0",
+          "s01s05f": "0",
+          "s02s00": "12.50",
+          "s02s00f": "0",
+          "s02s01": "7.25",
+          "s02s01f": "0",
+          "s02s02": "10.50",
+          "s02s02f": "0",
+          "s02s03": "24.00",
+          "s02s03f": "0",
+          "s02s04": "65.00",
+          "s02s04f": "0",
+          "s02s05": "175.0",
+          "s02s05f": "0",
+          "s03s00": "22.00",
+          "s03s00f": "0",
+          "s03s01": "15.50",
+          "s03s01f": "0",
+          "s03s02": "22.00",
+          "s03s02f": "0",
+          "s03s03": "40.00",
+          "s03s03f": "0",
+          "s04s00": "55.00",
+          "s04s00f": "0",
+          "s04s01": "35.00",
+          "s04s01f": "0",
+          "s04s02": "55.00",
+          "s04s02f": "0",
+          "s05s00": "120.0",
+          "s05s00f": "0",
+          "s05s01": "100.0",
+          "s05s01f": "0",
+          "s05s02": "120.0",
+          "s05s02f": "0",
+          "s1sa": "65.00",
+          "s1saf": "0",
+          "s1sd": "200.0",
+          "s1sdf": "0",
+          "s1sh": "55.00",
+          "s1shf": "0",
+          "updateDate": "2026-11-10",
+          "updateTime": "12:45:24"
+        }
+      },
+      "poolAudit": [
+        {
+          "market": "HHAD",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 0,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        },
+        {
+          "market": "HAFU",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 1,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        },
+        {
+          "market": "CRS",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 1,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        },
+        {
+          "market": "TTG",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 1,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        },
+        {
+          "market": "HAD",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 0,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        }
+      ],
+      "decisions": {
+        "goals": "admit_low_confidence_research",
+        "halfFull": "reject",
+        "score": "reject",
+        "ordinaryTicket": "reject"
+      }
+    },
+    {
+      "number": "周二002",
+      "officialMatchId": 2042685,
+      "kickoff": "2026-11-11T03:30:00+08:00",
+      "season": {
+        "home": {
+          "played": 13,
+          "goalsFor": 13,
+          "goalsAgainst": 33,
+          "rank": 24
+        },
+        "away": {
+          "played": 13,
+          "goalsFor": 22,
+          "goalsAgainst": 20,
+          "rank": 12
+        }
+      },
+      "recentVenue": {
+        "home": {
+          "scored": 0.6,
+          "conceded": 1.8,
+          "xG": 1.31,
+          "xGA": 1.61
+        },
+        "away": {
+          "scored": 0.33,
+          "conceded": 0.67,
+          "xG": 1.33,
+          "xGA": 1.18
+        }
+      },
+      "venueScope": "FootyStats last10 with home/away subsamples, not season totals",
+      "evidence": {
+        "season": "布罗姆利联赛13场13进33失、24位；米尔顿13场22进20失、12位。主队场均失2.54且近期9场不胜，客队攻击占优有实际支持，但客队自身场均失1.54，不能只推零封大胜。",
+        "venue": "FootyStats最近10场中的主客子样本：布罗姆利主场进0.60失1.80；米尔顿客场进0.33失0.67，仅3个近期客场，而主场进3.71失1.57。BBC、FotMob一致列出客队近期主场2比1、6比1、4比1，客场1比0、0比2。这个分拆直接反驳把主场大比分照搬到本场。",
+        "strength": "米尔顿连续大胜面对第20唐卡斯特、第24布罗姆利，杯赛7比1对U21、4比1对克劳利，攻击数据需降权；客场1比0胜第16斯蒂夫尼奇但0比2负第19布莱克浦，不呈现稳定净胜两球。布罗姆利对第22彼得堡也仅1比1，主场进攻恢复不能只按换帅推定。",
+        "lineup": "Sports Mole：布罗姆利Ashley Charles受伤；Adam Jackson此前被换下并缺席上轮，Taylor可能搭Grant；George上轮回归。地方记者Kent Sports News在11月10日08:00英国时间报道Adeboyejo热身受伤、Mendy在第二个失球后退场，优先于旧预览仍把Mendy列入预计首发。米尔顿Barnett、Kane Wilson、Hepburn-Murphy被报道持续受伤；Collins近3场7球，预览预计他及Gilbey可能休息，Wiles、Barlaser、Paterson、Fullah可替换。轮换是有出处的预计，不是已确认阵容。",
+        "tactics": "预计布罗姆利4-2-3-1对米尔顿3-5-2；主队新帅Robinson第二战，边后卫伤情可能迫使翼侧调整，客队双前锋与翼卫能攻击这一侧，但主队可能收紧双后腰保护中卫。Collins若休息，换上Paterson/Fullah会改变终结与支点方式。双方均无晋级压力（主队出局、客队已晋级），新帅试阵与客队轮换共同增加上半场节奏及净胜幅度波动。",
+        "chance": "BBC杯赛2场：主队21射门13射正却0球，客队39射门23射正11球，样本转换差异极端，不直接外推。FootyStats主场xG1.31/xGA1.61、米尔顿客场xG1.33/xGA1.18仅作第三方机会代理；不用其GPT摘要“合计4.53”或整体进球均值替代主客拆分。AFootballReport的第五场和五连胜与BBC/FotMob不一致，其“上半场进球场数9>整场进球场数7”也自相矛盾，相关汇总全部排除。",
+        "fitness": "双方11月7日踢足总杯，约三日历日间隔。客队已晋级且媒体预计休息核心攻击手，主队新帅处于试阵期；同为短间隔不代表体能或首发负荷相同。",
+        "goals": "比较2球4.15、3球3.30、4球4.25。主队13场失33球与边后卫伤情支持偏多球；但米尔顿近期3个客场场均仅进0.33、预计轮休近3场7球的Collins，反对复制主场6比1和4比1。2球与3/4球两组情景的分界对阵容非常敏感，故不选总进球：主客产量反差大，不把粗略整体均值做成三星。",
+        "halfFull": "负负2.35、平负4.55、平平7.60。FootyStats最近10场上半场米尔顿胜50%/平40%，布罗姆利平50%/负40%；主队近期下半场负80%，失势更偏后程。客队半场领先和平局两条路径均常见，预计轮换又改变开场推进。只有全场客胜倾向不能区分负负与平负。故不选：轮换改变开场节奏；并不等于否定普通负研究方向。",
+        "score": "1比2为6.50、1比1为8.00、0比2为9.50、1比3为9.75、0比1为10.50。主队Mendy/Jackson伤情使失球上尾增加，客队Collins轮休情景则压低终结，无法把两个方向压成固定三个比分。故不选精确比分：伤情与轮换使胜幅分叉，不套用上次4比1。",
+        "display": {
+          "goals": "不选：主客产量反差",
+          "halfFull": "不选：轮换改变节奏",
+          "score": "不选：伤情轮换分叉"
+        },
+        "reason": "普通负仍为两场中第1研究方向；伯顿一腿未获核心准入，不用本场补强为两场串，不新增普通票。米尔顿预计轮换也反对把普通负升级让负。"
+      },
+      "sources": [
+        {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+          "collectedAt": "2026-11-10T08:25:55.602Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/calculator.txt",
+          "sha256": "c6697f202e643e2e1ba188a7e6b1f65b2fa2cbffa4fb0adcb2ada29f9120c479",
+          "evidence": "All five markets Selling; TTG/HAFU/CRS single=1/allUp=1; saved full odds snapshot"
+        },
+        {
+          "url": "https://www.bbc.com/sport/football/league-one/table",
+          "collectedAt": "2026-11-10T08:27:04.047Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/league-table.txt",
+          "sha256": "9caeedb17f647ee596788acfb003dc300a749d0282f810fd3eb619786ee16ca6",
+          "evidence": "布罗姆利联赛13场13进33失、24位；米尔顿13场22进20失、12位。主队场均失2.54且近期9场不胜，客队攻击占优有实际支持，但客队自身场均失1.54，不能只推零封大胜。"
+        },
+        {
+          "url": "https://footystats.org/england/milton-keynes-dons-fc-vs-bromley-fc-h2h-stats",
+          "collectedAt": "2026-11-10T08:27:48.747Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/footystats002.txt",
+          "sha256": "294a2f8fe0e7a1d5aa0a788ad349f673422d7c80f25dc5b29e914514aa103d6d",
+          "evidence": "FootyStats最近10场中的主客子样本：布罗姆利主场进0.60失1.80；米尔顿客场进0.33失0.67，仅3个近期客场，而主场进3.71失1.57。BBC、FotMob一致列出客队近期主场2比1、6比1、4比1，客场1比0、0比2。这个分拆直接反驳把主场大比分照搬到本场。 BBC杯赛2场：主队21射门13射正却0球，客队39射门23射正11球，样本转换差异极端，不直接外推。FootyStats主场xG1.31/xGA1.61、米尔顿客场xG1.33/xGA1.18仅作第三方机会代理；不用其GPT摘要“合计4.53”或整体进球均值替代主客拆分。AFootballReport的第五场和五连胜与BBC/FotMob不一致，其“上半场进球场数9>整场进球场数7”也自相矛盾，相关汇总全部排除。"
+        },
+        {
+          "url": "https://www.sportsmole.co.uk/football/bromley/efl-trophy/preview/bromley-vs-mk-dons-prediction-team-news-lineups_608746.html",
+          "collectedAt": "2026-11-10T08:27:03.561Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/preview002.txt",
+          "sha256": "0682acb6b91ff4880a694d8717dbe6d5b547d7c9d8e233c20abcb4df26e6bbea",
+          "evidence": "Sports Mole：布罗姆利Ashley Charles受伤；Adam Jackson此前被换下并缺席上轮，Taylor可能搭Grant；George上轮回归。地方记者Kent Sports News在11月10日08:00英国时间报道Adeboyejo热身受伤、Mendy在第二个失球后退场，优先于旧预览仍把Mendy列入预计首发。米尔顿Barnett、Kane Wilson、Hepburn-Murphy被报道持续受伤；Collins近3场7球，预览预计他及Gilbey可能休息，Wiles、Barlaser、Paterson、Fullah可替换。轮换是有出处的预计，不是已确认阵容。"
+        },
+        {
+          "url": "https://www.bbc.com/sport/football/live/c6n0441gvpvqt",
+          "collectedAt": "2026-11-10T08:25:56.906Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/bbc002.txt",
+          "sha256": "f0f0627c445951ba7ee3c09dbaffb62e5fd4e5ba3cb2ff079f7c1a2841d4e1b3",
+          "evidence": "Identity, cup stats and recent results"
+        },
+        {
+          "url": "https://www.kentsportsnews.com/bromley-vs-mk-dons-preview-2-10-11-2026/",
+          "collectedAt": "2026-11-10T08:27:04.621Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/kent002.txt",
+          "sha256": "bd192fad22aaf88d7e5ec6895da654ea3de39745a09dbfd3e241481da37ba485",
+          "evidence": "Local reporter: Adeboyejo warmup injury and Mendy forced off; published2026-11-10 08:00 UK"
+        },
+        {
+          "url": "https://www.fotmob.com/matches/milton-keynes-dons-vs-bromley/og54y2",
+          "collectedAt": "2026-11-10T08:27:04.146Z",
+          "rawArtifact": "data/research/2026-11-10/derived-review/fotmob002.txt",
+          "sha256": "9a07b7d1f1028d926aa60c036fd7a9852d0eba5fc9e3aa6bf917d740feef4b07",
+          "evidence": "Recent results cross-check; contradicts alternate summary"
+        }
+      ],
+      "odds": {
+        "had": {
+          "a": "1.53",
+          "af": "-1",
+          "d": "4.00",
+          "df": "1",
+          "goalLine": "",
+          "goalLineValue": "",
+          "h": "4.25",
+          "hf": "1",
+          "updateDate": "2026-11-10",
+          "updateTime": "16:16:42"
+        },
+        "hhad": {
+          "a": "2.60",
+          "af": "-1",
+          "d": "3.57",
+          "df": "-1",
+          "goalLine": "+1",
+          "goalLineValue": "+1.00",
+          "h": "2.11",
+          "hf": "1",
+          "updateDate": "2026-11-10",
+          "updateTime": "16:16:10"
+        },
+        "ttg": {
+          "goalLine": "",
+          "goalLineValue": "",
+          "s0": "21.00",
+          "s0f": "0",
+          "s1": "7.40",
+          "s1f": "0",
+          "s2": "4.15",
+          "s2f": "0",
+          "s3": "3.30",
+          "s3f": "0",
+          "s4": "4.25",
+          "s4f": "0",
+          "s5": "7.00",
+          "s5f": "0",
+          "s6": "12.00",
+          "s6f": "0",
+          "s7": "15.00",
+          "s7f": "0",
+          "updateDate": "2026-11-10",
+          "updateTime": "13:09:31"
+        },
+        "hafu": {
+          "aa": "2.35",
+          "aaf": "0",
+          "ad": "14.00",
+          "adf": "0",
+          "ah": "27.00",
+          "ahf": "0",
+          "da": "4.55",
+          "daf": "0",
+          "dd": "7.60",
+          "ddf": "0",
+          "dh": "10.50",
+          "dhf": "0",
+          "goalLine": "",
+          "goalLineValue": "",
+          "ha": "17.00",
+          "haf": "0",
+          "hd": "14.00",
+          "hdf": "0",
+          "hh": "7.00",
+          "hhf": "0",
+          "id": 0,
+          "updateDate": "2026-11-10",
+          "updateTime": "14:04:40"
+        },
+        "crs": {
+          "goalLine": "",
+          "goalLineValue": "",
+          "s00s00": "21.00",
+          "s00s00f": "0",
+          "s00s01": "10.50",
+          "s00s01f": "0",
+          "s00s02": "9.50",
+          "s00s02f": "-1",
+          "s00s03": "15.00",
+          "s00s03f": "0",
+          "s00s04": "25.00",
+          "s00s04f": "0",
+          "s00s05": "55.00",
+          "s00s05f": "0",
+          "s01s00": "17.50",
+          "s01s00f": "1",
+          "s01s01": "8.00",
+          "s01s01f": "0",
+          "s01s02": "6.50",
+          "s01s02f": "0",
+          "s01s03": "9.75",
+          "s01s03f": "0",
+          "s01s04": "21.00",
+          "s01s04f": "0",
+          "s01s05": "40.00",
+          "s01s05f": "0",
+          "s02s00": "28.00",
+          "s02s00f": "1",
+          "s02s01": "13.00",
+          "s02s01f": "0",
+          "s02s02": "12.00",
+          "s02s02f": "0",
+          "s02s03": "16.00",
+          "s02s03f": "0",
+          "s02s04": "30.00",
+          "s02s04f": "0",
+          "s02s05": "80.00",
+          "s02s05f": "0",
+          "s03s00": "60.00",
+          "s03s00f": "0",
+          "s03s01": "30.00",
+          "s03s01f": "0",
+          "s03s02": "26.00",
+          "s03s02f": "0",
+          "s03s03": "36.00",
+          "s03s03f": "0",
+          "s04s00": "125.0",
+          "s04s00f": "0",
+          "s04s01": "85.00",
+          "s04s01f": "0",
+          "s04s02": "85.00",
+          "s04s02f": "0",
+          "s05s00": "450.0",
+          "s05s00f": "0",
+          "s05s01": "300.0",
+          "s05s01f": "0",
+          "s05s02": "300.0",
+          "s05s02f": "0",
+          "s1sa": "23.00",
+          "s1saf": "0",
+          "s1sd": "175.0",
+          "s1sdf": "0",
+          "s1sh": "65.00",
+          "s1shf": "0",
+          "updateDate": "2026-11-10",
+          "updateTime": "15:33:22"
+        }
+      },
+      "poolAudit": [
+        {
+          "market": "HHAD",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 0,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        },
+        {
+          "market": "HAFU",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 1,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        },
+        {
+          "market": "CRS",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 1,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        },
+        {
+          "market": "TTG",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 1,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        },
+        {
+          "market": "HAD",
+          "status": "Selling",
+          "allUp": 1,
+          "single": 0,
+          "checkedAt": "2026-11-10T08:25:55.602Z"
+        }
+      ],
+      "decisions": {
+        "goals": "reject",
+        "halfFull": "reject",
+        "score": "reject",
+        "ordinaryTicket": "reject"
+      }
+    }
+  ]
+}

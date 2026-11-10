@@ -1,0 +1,60 @@
+[
+  {
+    "name": "preview002",
+    "url": "https://www.sportsmole.co.uk/football/bromley/efl-trophy/preview/bromley-vs-mk-dons-prediction-team-news-lineups_608746.html",
+    "startedAt": "2026-11-10T08:27:02.730Z",
+    "collectedAt": "2026-11-10T08:27:03.561Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/preview002.txt",
+    "sha256": "0682acb6b91ff4880a694d8717dbe6d5b547d7c9d8e233c20abcb4df26e6bbea",
+    "bytes": 165418
+  },
+  {
+    "name": "kent002",
+    "url": "https://www.kentsportsnews.com/bromley-vs-mk-dons-preview-2-10-11-2026/",
+    "startedAt": "2026-11-10T08:27:02.809Z",
+    "collectedAt": "2026-11-10T08:27:04.621Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/kent002.txt",
+    "sha256": "bd192fad22aaf88d7e5ec6895da654ea3de39745a09dbfd3e241481da37ba485",
+    "bytes": 55299
+  },
+  {
+    "name": "fotmob002",
+    "url": "https://www.fotmob.com/matches/milton-keynes-dons-vs-bromley/og54y2",
+    "startedAt": "2026-11-10T08:27:02.811Z",
+    "collectedAt": "2026-11-10T08:27:04.146Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/fotmob002.txt",
+    "sha256": "9a07b7d1f1028d926aa60c036fd7a9852d0eba5fc9e3aa6bf917d740feef4b07",
+    "bytes": 578715
+  },
+  {
+    "name": "footystats001",
+    "url": "https://footystats.org/england/burton-albion-fc-vs-notts-county-fc-h2h-stats",
+    "startedAt": "2026-11-10T08:27:02.812Z",
+    "collectedAt": "2026-11-10T08:27:03.725Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/footystats001.txt",
+    "sha256": "00d7cf90bad7a6d796945d9cdf4759eb88b3ee05637ae2912d43c35598962302",
+    "bytes": 615369
+  },
+  {
+    "name": "espn001",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.trophy/summary?event=401906336",
+    "startedAt": "2026-11-10T08:27:02.813Z",
+    "collectedAt": "2026-11-10T08:27:04.471Z",
+    "outcome": "failed",
+    "failureReason": "TypeError: fetch failed"
+  },
+  {
+    "name": "league-table",
+    "url": "https://www.bbc.com/sport/football/league-one/table",
+    "startedAt": "2026-11-10T08:27:02.816Z",
+    "collectedAt": "2026-11-10T08:27:04.047Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/league-table.txt",
+    "sha256": "9caeedb17f647ee596788acfb003dc300a749d0282f810fd3eb619786ee16ca6",
+    "bytes": 360944
+  }
+]

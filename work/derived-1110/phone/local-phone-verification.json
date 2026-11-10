@@ -1,0 +1,167 @@
+{
+  "expected": [
+    {
+      "title": "推荐扫盘",
+      "date": "2026-11-10",
+      "file": "2026-11-10-derived-r1-scan.png"
+    },
+    {
+      "title": "今日跟踪",
+      "date": "2026-11-10",
+      "file": "2026-11-10-final-s1-tracking.png"
+    },
+    {
+      "title": "复盘扫盘",
+      "date": "2026-11-08",
+      "file": "2026-11-08-review-scan.png"
+    },
+    {
+      "title": "复盘跟踪",
+      "date": "2026-11-08",
+      "file": "2026-11-08-review-tracking-mamlai-v2.png"
+    }
+  ],
+  "mode": "local",
+  "checkedAt": "2026-11-10T08:36:27.976Z",
+  "completed": true,
+  "buttons": [
+    {
+      "index": 1,
+      "title": "推荐扫盘",
+      "url": "http://127.0.0.1:9433/cards/2026-11-10-derived-r1-scan.png?v=20261110-derived-r1",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 1643,
+        "nonblackFraction": 0.9987054110491161,
+        "pixelHash": "bce9aa911e20f87e6182bbc741e1acec9c4559c4177baa452ef6135b6c9b20fb"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 2,
+      "title": "今日跟踪",
+      "url": "http://127.0.0.1:9433/cards/2026-11-10-final-s1-tracking.png?v=20261110-derived-r1",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 3539,
+        "nonblackFraction": 0.9860066380224399,
+        "pixelHash": "80b49a9a8856af100e5a254aa472f4e73144873f1dba1c55eddfa05500595078"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 3,
+      "title": "复盘扫盘",
+      "url": "http://127.0.0.1:9433/cards/2026-11-08-review-scan.png?v=20261110-derived-r1",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 3176,
+        "nonblackFraction": 0.9996805826658135,
+        "pixelHash": "be72cc891701b8f7d4e0955734d1a1680f3236a9a100b59ea03b4181a408c8de"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 4,
+      "title": "复盘跟踪",
+      "url": "http://127.0.0.1:9433/cards/2026-11-08-review-tracking-mamlai-v2.png?v=20261110-derived-r1",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 3539,
+        "nonblackFraction": 0.9860027765941112,
+        "pixelHash": "a37ed7e91ead6060d7e2ca340dc2c91477568775fed2a15b7c40ad2aedb9702e"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    }
+  ],
+  "images": [
+    {
+      "alt": "2026-11-10 推荐扫盘",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-10-derived-r1-scan-preview.jpg?v=20261108-final-s1",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-10-derived-r1-scan.png?v=20261110-derived-r1",
+      "png": {
+        "width": 1244,
+        "height": 1643,
+        "nonblackFraction": 0.9987054110491161,
+        "pixelHash": "bce9aa911e20f87e6182bbc741e1acec9c4559c4177baa452ef6135b6c9b20fb"
+      },
+      "bytes": 1578924,
+      "fileHash": "5de8388837878227ca429050c2264c5e4b9b7c5e3a048a8b00da31eaf1c220cb",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    },
+    {
+      "alt": "2026-11-10 今日跟踪",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-10-final-s1-tracking-preview.jpg?v=20261108-final-s1",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-10-final-s1-tracking.png?v=20261110-derived-r1",
+      "png": {
+        "width": 1244,
+        "height": 3539,
+        "nonblackFraction": 0.9860066380224399,
+        "pixelHash": "80b49a9a8856af100e5a254aa472f4e73144873f1dba1c55eddfa05500595078"
+      },
+      "bytes": 2639876,
+      "fileHash": "57940755057083564d4b007e0e8f91090f22fa2e41e205092e4fbbff141e8105",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    },
+    {
+      "alt": "2026-11-08 复盘扫盘",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-08-review-scan-preview.jpg?v=20261108-final-s1",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-08-review-scan.png?v=20261110-derived-r1",
+      "png": {
+        "width": 1244,
+        "height": 3176,
+        "nonblackFraction": 0.9996805826658135,
+        "pixelHash": "be72cc891701b8f7d4e0955734d1a1680f3236a9a100b59ea03b4181a408c8de"
+      },
+      "bytes": 1064363,
+      "fileHash": "f10cfcfa7f0f8b2964905ffb68bcbed9b382e30475f1b16ac7cf04864f6c8c40",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    },
+    {
+      "alt": "2026-11-08 复盘跟踪",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-08-review-tracking-mamlai-v2-preview.jpg?v=20261108-final-s1",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-08-review-tracking-mamlai-v2.png?v=20261110-derived-r1",
+      "png": {
+        "width": 1244,
+        "height": 3539,
+        "nonblackFraction": 0.9860027765941112,
+        "pixelHash": "a37ed7e91ead6060d7e2ca340dc2c91477568775fed2a15b7c40ad2aedb9702e"
+      },
+      "bytes": 1988739,
+      "fileHash": "7028a51b14c2b6122ad7e4076b6aa83eb218b8c2cfb19aac0a0a1a23d66f7394",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    }
+  ],
+  "page": {
+    "viewport": 430,
+    "scrollWidth": 430,
+    "dates": [
+      "2026-11-10",
+      "2026-11-10",
+      "2026-11-08",
+      "2026-11-08"
+    ],
+    "titles": [
+      "推荐扫盘",
+      "今日跟踪",
+      "复盘扫盘",
+      "复盘跟踪"
+    ]
+  }
+}

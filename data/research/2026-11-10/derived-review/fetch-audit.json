@@ -1,0 +1,102 @@
+[
+  {
+    "name": "calculator",
+    "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+    "startedAt": "2026-11-10T08:25:55.360Z",
+    "collectedAt": "2026-11-10T08:25:55.602Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/calculator.txt",
+    "sha256": "c6697f202e643e2e1ba188a7e6b1f65b2fa2cbffa4fb0adcb2ada29f9120c479",
+    "bytes": 60331
+  },
+  {
+    "name": "list",
+    "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001",
+    "startedAt": "2026-11-10T08:25:55.433Z",
+    "collectedAt": "2026-11-10T08:25:55.597Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/list.txt",
+    "sha256": "0dbc1e5293fa2badac99365b6d3b18206f9b0087910f54ddbdc29edeaa8c226e",
+    "bytes": 23921
+  },
+  {
+    "name": "bbc001",
+    "url": "https://www.bbc.com/sport/football/live/cw1466nky882t",
+    "startedAt": "2026-11-10T08:25:55.434Z",
+    "collectedAt": "2026-11-10T08:25:56.824Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/bbc001.txt",
+    "sha256": "1dc5471a656bf9c6e5f0a930fd28c268e999e4af54a0b99ff9b768cd67a7f013",
+    "bytes": 817268
+  },
+  {
+    "name": "bbc002",
+    "url": "https://www.bbc.com/sport/football/live/c6n0441gvpvqt",
+    "startedAt": "2026-11-10T08:25:55.436Z",
+    "collectedAt": "2026-11-10T08:25:56.906Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/bbc002.txt",
+    "sha256": "f0f0627c445951ba7ee3c09dbaffb62e5fd4e5ba3cb2ff079f7c1a2841d4e1b3",
+    "bytes": 809457
+  },
+  {
+    "name": "preview001",
+    "url": "https://www.sportsmole.co.uk/football/burton-albion/efl-trophy/preview/burton-albion-vs-notts-county-prediction-team-news-lineups_608726.html",
+    "startedAt": "2026-11-10T08:25:55.437Z",
+    "collectedAt": "2026-11-10T08:25:56.203Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/preview001.txt",
+    "sha256": "a73704d541402a4c7b6402ea12aadb7153daf3ee7ddeaa5245ed7fb41396a6a9",
+    "bytes": 169905
+  },
+  {
+    "name": "stats001",
+    "url": "https://www.sportsmole.co.uk/football/efl-trophy/burton-albion-vs-notts-county_game_261989.html",
+    "startedAt": "2026-11-10T08:25:55.438Z",
+    "collectedAt": "2026-11-10T08:25:56.189Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/stats001.txt",
+    "sha256": "1602835d0ee6bfee7e81e7beb4023cc0146f3c02b534f113c0531ccecd507e46",
+    "bytes": 156903
+  },
+  {
+    "name": "form002",
+    "url": "https://afootballreport.com/predictions/head-to-head/england/football-league-trophy/bromley/mk-dons/MTE3NTktMTA4NjI=",
+    "startedAt": "2026-11-10T08:25:55.440Z",
+    "collectedAt": "2026-11-10T08:25:59.770Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/form002.txt",
+    "sha256": "67640aedc6e7d37ead6be443026d25c93dc3047b845080f7d1996437dc757b70",
+    "bytes": 247216
+  },
+  {
+    "name": "search002",
+    "url": "https://html.duckduckgo.com/html/?q=Bromley%20MK%20Dons%20November%2010%202026%20preview%20team%20news%20lineups",
+    "startedAt": "2026-11-10T08:25:55.441Z",
+    "collectedAt": "2026-11-10T08:25:56.534Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/search002.txt",
+    "sha256": "97fe5527aa0656bfa81697a59b7fbf2792fd8ef1bb3f62dc17c9efc38ba2473b",
+    "bytes": 34515
+  },
+  {
+    "name": "season001",
+    "url": "https://html.duckduckgo.com/html/?q=Burton%20Albion%20Notts%20County%202026%202027%20goals%20scored%20conceded%20home%20away%20statistics%20November",
+    "startedAt": "2026-11-10T08:25:55.443Z",
+    "collectedAt": "2026-11-10T08:25:56.927Z",
+    "http": 200,
+    "rawArtifact": "data/research/2026-11-10/derived-review/season001.txt",
+    "sha256": "6e07f047c2dbdd9b8a2e5ea8a954033d1f62870fa50edf2c3bbd6333ae3139a0",
+    "bytes": 35024
+  },
+  {
+    "name": "season002",
+    "url": "https://html.duckduckgo.com/html/?q=Bromley%20Milton%20Keynes%20Dons%202026%202027%20goals%20scored%20conceded%20home%20away%20statistics%20November",
+    "startedAt": "2026-11-10T08:25:55.444Z",
+    "collectedAt": "2026-11-10T08:25:56.141Z",
+    "http": 202,
+    "rawArtifact": "data/research/2026-11-10/derived-review/season002.txt",
+    "sha256": "6b2d631c1afeabf314f3b045e6f4dff7621d652890c5f02d80c74f182328f912",
+    "bytes": 14401
+  }
+]

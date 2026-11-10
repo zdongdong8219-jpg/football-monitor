@@ -1,0 +1,42 @@
+[
+  {
+    "name": "burton-api",
+    "url": "https://news.cms.admin.gc.burtonalbionfcservices.co.uk/v2/news?page.size=12&page.number=1&sort=publishedDate:desc",
+    "startedAt": "2026-11-10T08:30:24.239Z",
+    "collectedAt": "2026-11-10T08:30:25.097Z",
+    "http": 401,
+    "rawArtifact": "data/research/2026-11-10/derived-review/burton-api.txt",
+    "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+    "bytes": 26
+  },
+  {
+    "name": "notts-api",
+    "url": "https://news.cms.admin.gc.nottscountyfcservices.co.uk/v2/news?page.size=12&page.number=1&sort=publishedDate:desc",
+    "startedAt": "2026-11-10T08:30:24.344Z",
+    "collectedAt": "2026-11-10T08:30:25.090Z",
+    "http": 401,
+    "rawArtifact": "data/research/2026-11-10/derived-review/notts-api.txt",
+    "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+    "bytes": 26
+  },
+  {
+    "name": "bromley-api",
+    "url": "https://news.cms.admin.gc.bromleyfcservices.co.uk/v2/news?page.size=12&page.number=1&sort=publishedDate:desc",
+    "startedAt": "2026-11-10T08:30:24.345Z",
+    "collectedAt": "2026-11-10T08:30:25.095Z",
+    "http": 401,
+    "rawArtifact": "data/research/2026-11-10/derived-review/bromley-api.txt",
+    "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+    "bytes": 26
+  },
+  {
+    "name": "mkdons-api",
+    "url": "https://news.cms.admin.gc.miltonkeynesdonsfcservices.co.uk/v2/news?page.size=12&page.number=1&sort=publishedDate:desc",
+    "startedAt": "2026-11-10T08:30:24.361Z",
+    "collectedAt": "2026-11-10T08:30:25.132Z",
+    "http": 401,
+    "rawArtifact": "data/research/2026-11-10/derived-review/mkdons-api.txt",
+    "sha256": "3e7db788e384631f8a9f299d1797e6f8af6d16d643a1c91f9e83ae15212de45c",
+    "bytes": 26
+  }
+]
