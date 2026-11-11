@@ -1,0 +1,443 @@
+{
+  "completed": true,
+  "commit": "7564ba75fdb1357c7c05e2724780fc94a78382a6",
+  "workflowRun": 42929600084,
+  "onlineVerifiedAt": "2026-11-11T00:14:40.834Z",
+  "url": "https://zdongdong8219-jpg.github.io/football-monitor/phone-v2.html?v=20261111-review-1110",
+  "statistics": {
+    "result": {
+      "hit": 2,
+      "total": 2,
+      "pending": 0
+    },
+    "handicap": {
+      "hit": 2,
+      "total": 2,
+      "pending": 0
+    },
+    "speculative": {
+      "hit": 1,
+      "total": 2,
+      "pending": 0
+    },
+    "goals": {
+      "hit": 2,
+      "total": 2,
+      "pending": 0
+    },
+    "halfFull": {
+      "hit": 1,
+      "total": 2,
+      "pending": 0
+    },
+    "score": {
+      "hit": 1,
+      "total": 2,
+      "pending": 0
+    }
+  },
+  "trackingCumulative": [
+    {
+      "category": "core20",
+      "net": 4727.57,
+      "pending": 0,
+      "dailyStake": 0,
+      "dailyReturned": 0,
+      "dailyNet": 0,
+      "tickets": 18
+    },
+    {
+      "category": "core30",
+      "net": 713.4,
+      "pending": 0,
+      "dailyStake": 0,
+      "dailyReturned": 0,
+      "dailyNet": 0,
+      "tickets": 15
+    }
+  ],
+  "ordinaryTickets": 0,
+  "immutableHashes": {
+    "data/reports/2026-11-10.json": "c11686b425617da8c4c9ab8268ce48d1766a3350fd59282fa5284063b71def54",
+    "public/cards/2026-11-10-fullscan-r2-scan.png": "ba85170a5d158d9a04731af3b301869c32e2a73a4be3c3fc8f3648aac180c921",
+    "public/cards/2026-11-10-final-s1-tracking.png": "57940755057083564d4b007e0e8f91090f22fa2e41e205092e4fbbff141e8105",
+    "data/review-template-lock.json": "eaa3f2807ccc94b8004e54f2463beb82a276390357f12a62d80ea10f985348c2"
+  },
+  "visual": {
+    "date": "2026-11-10",
+    "templateComparison": {
+      "scan": {
+        "outsideAllowedPixels": 0,
+        "changedPixels": 69965,
+        "allowed": [
+          [
+            455,
+            1301,
+            104,
+            66
+          ],
+          [
+            565,
+            1301,
+            94,
+            66
+          ],
+          [
+            750,
+            1301,
+            89,
+            66
+          ],
+          [
+            1120,
+            1301,
+            79,
+            66
+          ],
+          [
+            455,
+            1373,
+            104,
+            66
+          ],
+          [
+            565,
+            1373,
+            94,
+            66
+          ],
+          [
+            665,
+            1373,
+            79,
+            66
+          ],
+          [
+            750,
+            1373,
+            89,
+            66
+          ],
+          [
+            845,
+            1373,
+            104,
+            66
+          ],
+          [
+            955,
+            1373,
+            159,
+            66
+          ],
+          [
+            1120,
+            1373,
+            79,
+            66
+          ]
+        ]
+      },
+      "tracking": {
+        "outsideAllowedPixels": 0,
+        "changedPixels": 0
+      }
+    },
+    "markers": [
+      {
+        "number": "周二001",
+        "column": "result",
+        "shape": "rectangle",
+        "scope": "full-cell",
+        "x": 455,
+        "y": 1301,
+        "width": 104,
+        "height": 66
+      },
+      {
+        "number": "周二001",
+        "column": "handicap",
+        "shape": "rectangle",
+        "scope": "full-cell",
+        "x": 565,
+        "y": 1301,
+        "width": 94,
+        "height": 66
+      },
+      {
+        "number": "周二001",
+        "column": "goals",
+        "shape": "rectangle",
+        "scope": "full-cell",
+        "x": 750,
+        "y": 1301,
+        "width": 89,
+        "height": 66
+      },
+      {
+        "number": "周二002",
+        "column": "result",
+        "shape": "rectangle",
+        "scope": "full-cell",
+        "x": 455,
+        "y": 1373,
+        "width": 104,
+        "height": 66
+      },
+      {
+        "number": "周二002",
+        "column": "handicap",
+        "shape": "rectangle",
+        "scope": "full-cell",
+        "x": 565,
+        "y": 1373,
+        "width": 94,
+        "height": 66
+      },
+      {
+        "number": "周二002",
+        "column": "speculative",
+        "shape": "rectangle",
+        "scope": "full-cell",
+        "x": 665,
+        "y": 1373,
+        "width": 79,
+        "height": 66
+      },
+      {
+        "number": "周二002",
+        "column": "goals",
+        "shape": "rectangle",
+        "scope": "full-cell",
+        "x": 750,
+        "y": 1373,
+        "width": 89,
+        "height": 66
+      },
+      {
+        "number": "周二002",
+        "column": "halfFull",
+        "shape": "rectangle",
+        "scope": "full-cell",
+        "x": 845,
+        "y": 1373,
+        "width": 104,
+        "height": 66
+      },
+      {
+        "number": "周二002",
+        "column": "score",
+        "shape": "rectangle",
+        "scope": "full-cell",
+        "x": 955,
+        "y": 1373,
+        "width": 159,
+        "height": 66
+      }
+    ],
+    "geometry": {
+      "width": 1244,
+      "height": 1612,
+      "tableTop": 1230,
+      "widths": [
+        85,
+        95,
+        65,
+        165,
+        110,
+        100,
+        85,
+        95,
+        110,
+        165,
+        85
+      ],
+      "tableX": 42,
+      "headerHeight": 68,
+      "rowHeights": [
+        72,
+        72
+      ],
+      "numbers": [
+        "鍛ㄤ簩001",
+        "鍛ㄤ簩002"
+      ]
+    },
+    "geometryBasis": "Actual user-authorized fullscan-r2 columns, including added handicap; original image retained, full-cell rectangle inset3 stroke2",
+    "ordinaryTickets": 0,
+    "dailyNet": 0,
+    "manualInspection": {
+      "passed": true,
+      "checkedAt": "2026-11-11T00:12:45.161Z",
+      "evidence": "work/review-1110/scan-detail.png",
+      "notes": "Native full-cell boxes and FT/HT reviewed; all original content and stars retained, zero changes outside declared score/hit cells; no-ticket tracking pixels identical."
+    }
+  },
+  "phone": {
+    "expected": [
+      {
+        "title": "推荐扫盘",
+        "date": "2026-11-10",
+        "file": "2026-11-10-fullscan-r2-scan.png"
+      },
+      {
+        "title": "今日跟踪",
+        "date": "2026-11-10",
+        "file": "2026-11-10-final-s1-tracking.png"
+      },
+      {
+        "title": "复盘扫盘",
+        "date": "2026-11-10",
+        "file": "2026-11-10-review-scan.png"
+      },
+      {
+        "title": "复盘跟踪",
+        "date": "2026-11-10",
+        "file": "2026-11-10-review-tracking.png"
+      }
+    ],
+    "mode": "online",
+    "checkedAt": "2026-11-11T00:14:28.012Z",
+    "completed": true,
+    "buttons": [
+      {
+        "index": 1,
+        "title": "推荐扫盘",
+        "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-fullscan-r2-scan.png?v=20261111-review-1110",
+        "state": "success",
+        "clipboard": {
+          "width": 1244,
+          "height": 1612,
+          "nonblackFraction": 0.9986775230785189,
+          "pixelHash": "3ba7460d58bcf8b270df38f7082b6dcc141cdb775d173733b8226d1115d87fb3"
+        },
+        "matchesOwnPng": true,
+        "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+      },
+      {
+        "index": 2,
+        "title": "今日跟踪",
+        "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-final-s1-tracking.png?v=20261111-review-1110",
+        "state": "success",
+        "clipboard": {
+          "width": 1244,
+          "height": 3539,
+          "nonblackFraction": 0.9860066380224399,
+          "pixelHash": "80b49a9a8856af100e5a254aa472f4e73144873f1dba1c55eddfa05500595078"
+        },
+        "matchesOwnPng": true,
+        "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+      },
+      {
+        "index": 3,
+        "title": "复盘扫盘",
+        "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-review-scan.png?v=20261111-review-1110",
+        "state": "success",
+        "clipboard": {
+          "width": 1244,
+          "height": 1612,
+          "nonblackFraction": 0.9986775230785189,
+          "pixelHash": "753c71f85ef0e101bb128a734d2a761e96c375c1cb1878043e6d1bd3f3d98032"
+        },
+        "matchesOwnPng": true,
+        "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+      },
+      {
+        "index": 4,
+        "title": "复盘跟踪",
+        "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-review-tracking.png?v=20261111-review-1110",
+        "state": "success",
+        "clipboard": {
+          "width": 1244,
+          "height": 3539,
+          "nonblackFraction": 0.9860066380224399,
+          "pixelHash": "80b49a9a8856af100e5a254aa472f4e73144873f1dba1c55eddfa05500595078"
+        },
+        "matchesOwnPng": true,
+        "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+      }
+    ],
+    "images": [
+      {
+        "alt": "2026-11-10 推荐扫盘",
+        "previewUrl": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-fullscan-r2-scan-preview.jpg?v=20261108-final-s1",
+        "previewLoaded": true,
+        "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-fullscan-r2-scan.png?v=20261111-review-1110",
+        "png": {
+          "width": 1244,
+          "height": 1612,
+          "nonblackFraction": 0.9986775230785189,
+          "pixelHash": "3ba7460d58bcf8b270df38f7082b6dcc141cdb775d173733b8226d1115d87fb3"
+        },
+        "bytes": 1551501,
+        "fileHash": "ba85170a5d158d9a04731af3b301869c32e2a73a4be3c3fc8f3648aac180c921",
+        "matchesLocal": true,
+        "previewMatchesLocal": true
+      },
+      {
+        "alt": "2026-11-10 今日跟踪",
+        "previewUrl": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-final-s1-tracking-preview.jpg?v=20261108-final-s1",
+        "previewLoaded": true,
+        "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-final-s1-tracking.png?v=20261111-review-1110",
+        "png": {
+          "width": 1244,
+          "height": 3539,
+          "nonblackFraction": 0.9860066380224399,
+          "pixelHash": "80b49a9a8856af100e5a254aa472f4e73144873f1dba1c55eddfa05500595078"
+        },
+        "bytes": 2639876,
+        "fileHash": "57940755057083564d4b007e0e8f91090f22fa2e41e205092e4fbbff141e8105",
+        "matchesLocal": true,
+        "previewMatchesLocal": true
+      },
+      {
+        "alt": "2026-11-10 复盘扫盘",
+        "previewUrl": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-review-scan-preview.jpg?v=20261108-final-s1",
+        "previewLoaded": true,
+        "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-review-scan.png?v=20261111-review-1110",
+        "png": {
+          "width": 1244,
+          "height": 1612,
+          "nonblackFraction": 0.9986775230785189,
+          "pixelHash": "753c71f85ef0e101bb128a734d2a761e96c375c1cb1878043e6d1bd3f3d98032"
+        },
+        "bytes": 1094833,
+        "fileHash": "d9506beac86d94e3af01cfb33d9574caf87f9fddc744f9343e32385f89ecb97a",
+        "matchesLocal": true,
+        "previewMatchesLocal": true
+      },
+      {
+        "alt": "2026-11-10 复盘跟踪",
+        "previewUrl": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-review-tracking-preview.jpg?v=20261108-final-s1",
+        "previewLoaded": true,
+        "url": "https://zdongdong8219-jpg.github.io/football-monitor/cards/2026-11-10-review-tracking.png?v=20261111-review-1110",
+        "png": {
+          "width": 1244,
+          "height": 3539,
+          "nonblackFraction": 0.9860066380224399,
+          "pixelHash": "80b49a9a8856af100e5a254aa472f4e73144873f1dba1c55eddfa05500595078"
+        },
+        "bytes": 2024469,
+        "fileHash": "309d6a34dddf8b6a3a303ca8f85d23ec4575402e41d5bc26d99bfa01020e9550",
+        "matchesLocal": true,
+        "previewMatchesLocal": true
+      }
+    ],
+    "page": {
+      "viewport": 430,
+      "scrollWidth": 430,
+      "dates": [
+        "2026-11-10",
+        "2026-11-10",
+        "2026-11-10",
+        "2026-11-10"
+      ],
+      "titles": [
+        "推荐扫盘",
+        "今日跟踪",
+        "复盘扫盘",
+        "复盘跟踪"
+      ]
+    }
+  }
+}

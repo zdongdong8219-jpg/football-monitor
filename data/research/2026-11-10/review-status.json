@@ -1,11 +1,13 @@
 {
   "date": "2026-11-10",
-  "completed": false,
-  "mobileVerified": false,
-  "runPhase": "visual_overlay",
+  "completed": true,
+  "mobileVerified": true,
+  "runPhase": "completed",
   "reviewAt": "2026-11-11T05:55:00+08:00",
   "resultsVerified": 2,
   "pendingFixtures": 0,
   "lastProgressAt": "2026-11-11T00:11:03.406Z",
-  "nextAction": "Render immutable overlays, verify locally, publish and verify online"
+  "nextAction": null,
+  "onlineVerifiedAt": "2026-11-11T00:14:40.834Z",
+  "publicationCommit": "7564ba75fdb1357c7c05e2724780fc94a78382a6"
 }
