@@ -1,0 +1,102 @@
+{
+  "at": "2026-11-11T06:47:41.184Z",
+  "comparisons": [
+    {
+      "rank": 1,
+      "selection": "002[胜/平] × 003[负]",
+      "decision": "admit_core20",
+      "reason": "质量第1：002人员与进攻支点优势，保留町田防守反证对应的平局；003具体逼抢对位优于004—006泛化主场/体能优势。2.0非胆，防平未被删除。",
+      "math": {
+        "branchCount": 2,
+        "branches": [
+          {
+            "selection": [
+              "胜",
+              "负"
+            ],
+            "product": 4.4,
+            "weight": 0.5,
+            "wholeSetMultiple": 2.2
+          },
+          {
+            "selection": [
+              "平",
+              "负"
+            ],
+            "product": 5.6,
+            "weight": 0.5,
+            "wholeSetMultiple": 2.8
+          }
+        ],
+        "min": 2.2,
+        "max": 2.8,
+        "otherOutcomesMultiple": 0,
+        "formula": "互斥分支等额分配，命中分支赔率除以总分支数才是整套含本倍数。"
+      }
+    },
+    {
+      "rank": 2,
+      "selection": "001[让胜] × 003[负]",
+      "decision": "admit_core30",
+      "reason": "质量第2：001恢复差和回归人员支撑主不败，以主+1让胜等价表达平/胜；003只用普通负。相比002去平或003升让负，不人为收窄；风险高于第1组。",
+      "math": {
+        "branchCount": 1,
+        "branches": [
+          {
+            "selection": [
+              "让胜",
+              "负"
+            ],
+            "product": 3.2,
+            "weight": 1,
+            "wholeSetMultiple": 3.2
+          }
+        ],
+        "min": 3.2,
+        "max": 3.2,
+        "otherOutcomesMultiple": 0,
+        "formula": "互斥分支等额分配，命中分支赔率除以总分支数才是整套含本倍数。"
+      }
+    },
+    {
+      "selection": "001让胜 × 002胜/平",
+      "decision": "reject",
+      "reason": "两个分支等额的整套回报1.76/2.24，最小分支较低；同时失去003最具体的直接逼抢对位，不比第1组更优。并非仅因倍率淘汰，001定位球抗性也弱于002的人员优势。"
+    },
+    {
+      "selection": "002胜 × 003负",
+      "decision": "reject",
+      "reason": "删去002平局会背离原扫盘防守：町田三中卫、刚零封广岛和近期0:0是明确反证。不能为4.4倍移除该覆盖。"
+    },
+    {
+      "selection": "003负 × 004胜",
+      "decision": "reject",
+      "reason": "004此前0:4、上轮补时失守和左路人手风险，快攻改善不足证明稳定主胜；相比001让胜，多承担一个必须赢球的脆弱方向。"
+    },
+    {
+      "selection": "005胜 × 006胜",
+      "decision": "reject",
+      "reason": "005门将轮换、120分钟消耗和已出线，006弱队7:2不可替代此前11场不胜及近6主场失11球；两个低赔均缺长期控制证据，风险同向。"
+    },
+    {
+      "selection": "003让负 × 006让胜",
+      "decision": "reject",
+      "reason": "003高位逼抢支持普通客胜而不支持稳定净胜2球，006恢复优势也不消除防守失球；升级净胜仅放大尾部，不采用。"
+    },
+    {
+      "selection": "002平胜 × 003平负",
+      "decision": "reject",
+      "reason": "半场平来自节奏推演而无足够开局统计；神户武藤早进球、柏早抢断均可能让全场方向正确而半全场失败，普通核心优先宽方向。"
+    }
+  ],
+  "qualifiedSnapshot": {
+    "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had",
+    "rawArtifact": "work/reissue-1111/official-calculator.json",
+    "sha256": "0164598efe251e6ec318fde874b3faae48292471e43e1b0b721ab8a88ad6bfad",
+    "checkedAt": "2026-11-11T06:45:11.615Z"
+  },
+  "ordinaryTickets": 2,
+  "dream6": 1,
+  "unchangedScan": true,
+  "unchangedDream3": true
+}

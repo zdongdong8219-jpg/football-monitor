@@ -6,6 +6,19 @@ export function validateInformationReport(report) {
   validateSpeculativeNarrowing(report);
   if (report.infoOnly !== true) throw Error('Information report marker missing');
   const rows=report.scanTable||[],scenarios=report.recommendations||[];
+  const marketSet=(selection,handicap)=>Array.from({length:41},(_,i)=>i-20).filter(n=>String(selection).split('/').some(p=>p.startsWith('让')?p==='让'+(n+handicap>0?'胜':n+handicap<0?'负':'平'):p===(n>0?'胜':n<0?'负':'平'))).join(',');
+  const equivalentCore=(leg,row)=>{
+    const market=String(leg.market).toLowerCase(),field={ttg:'goals',hafu:'halfFull',crs:'score'}[market];
+    if(field)return String(leg.selection).replace(/[；;]/g,'/')===String(row[field]).replace(/[；;]/g,'/');
+    return market==='hhad'&&marketSet(leg.selection,row.handicap)===marketSet(row.primaryPick,row.handicap);
+  };
+  if(report.date>='2026-11-11')for(const t of scenarios.filter(t=>['dream3','dream6'].includes(t.category)))for(const l of t.legs||[])if(!['had','hhad'].includes(String(l.market).toLowerCase())||(l.options||[]).some(o=>o.market&&!['had','hhad'].includes(String(o.market).toLowerCase())))throw Error('Dream3/6 allow outcome markets only');
+  for(const ticket of scenarios.filter(t=>t.category==='dream6'&&t.construction==='mixed-outcome-sixfold')){
+    if(ticket.legs?.length!==6||new Set(ticket.legs.map(l=>l.number)).size!==6||ticket.trackingEligible!==false)throw Error('Dream6 distinct fixture/tracking gate');
+    let products=[1];
+    for(const leg of ticket.legs){const row=rows.find(r=>r.number===leg.number);if(!row||!['had','hhad'].includes(leg.market)||!leg.options?.length||!leg.primaryJudgment||!leg.strongestCounterevidence||!leg.sources?.length)throw Error('Dream6 outcome evidence missing');if(![row.primaryPick,row.handicapPick,row.speculative].includes(leg.selection))throw Error('Dream6 not an analyzed direction');for(const o of leg.options)if(!['h','d','a'].includes(o.key)||o.odds<=1||o.qualification?.status!=='Selling'||o.qualification.allUp!==1||!o.qualification.passSizes?.includes(6)||Date.parse(ticket.assessedAt)>=Date.parse(leg.kickoff))throw Error('Dream6 qualification');products=products.flatMap(p=>leg.options.map(o=>p*o.odds));}
+    if(ticket.branches?.length!==products.length||products.some((p,i)=>Math.abs(p-ticket.branches[i].odds)>1e-7))throw Error('Dream6 branch arithmetic');
+  }
   if (!rows.length||new Set(rows.map(r=>r.number)).size!==rows.length) throw Error('Missing or duplicate analysis rows');
   const forbidden=new Set(['stake','cost','totalCost','exampleStake','betCount','subTickets','passSizes','returned','net','breakEven']);
   function check(value, parentKey=''){if(!value||typeof value!=='object')return;for(const [key,v] of Object.entries(value)){const eligibilityPassSizes=key==='passSizes'&&parentKey==='qualification'&&value.status==='Selling'&&value.allUp===1;if(forbidden.has(key)&&!eligibilityPassSizes)throw Error('Information scenario contains financial configuration: '+key);check(v,key);}}
@@ -72,7 +85,7 @@ export function validateInformationReport(report) {
       }
       throw Error('Optional scenario missing without documented comparison '+category);
     }
-    for(const [category,count] of [['core20',2],['core30',2],['dream6',6],['goals4',4]]){let s=scenarios.find(x=>x.category===category);if(!s){const withheld=report.ticketClassStatus?.find(x=>x.category===category);if(withheld?.status==='withheld'&&withheld.reason?.length>=20&&report.coreComparison?.[category]?.selected===null&&report.coreComparison?.[category]?.compared?.length>=2)continue;throw Error('Scenario missing without documented rejection '+category);}if(s.legs?.length!==count)throw Error('Scenario size mismatch '+category);for(const leg of s.legs){let row=rows.find(r=>r.number===leg.number);if(!row)throw Error('Unknown scenario match');if(category==='goals4'&&leg.selection!==row.goals)throw Error('Goals scenario order mismatch');if(['core20','core30'].includes(category)&&leg.selection!==row.primaryPick&&!(authorizedCoreNarrowing&&category==='core30'&&leg.number==='周四005')&&!(november6Narrowing&&category==='core30'&&leg.number==='周五003'))throw Error('Main scenario differs from analysis');if(category==='dream6'&&s.construction!=='ordinary-sixfold'&&leg.selection!==(frozenRows?.find(r=>r.number===leg.number)||row).speculative)throw Error('High variance scenario differs from analysis');}}
+    for(const [category,count] of [['core20',2],['core30',2],['dream6',6],['goals4',4]]){let s=scenarios.find(x=>x.category===category);if(!s){const withheld=report.ticketClassStatus?.find(x=>x.category===category);if(withheld?.status==='withheld'&&withheld.reason?.length>=20&&report.coreComparison?.[category]?.selected===null&&report.coreComparison?.[category]?.compared?.length>=2)continue;throw Error('Scenario missing without documented rejection '+category);}if(s.legs?.length!==count)throw Error('Scenario size mismatch '+category);for(const leg of s.legs){let row=rows.find(r=>r.number===leg.number);if(!row)throw Error('Unknown scenario match');if(category==='goals4'&&leg.selection!==row.goals)throw Error('Goals scenario order mismatch');if(['core20','core30'].includes(category)&&leg.selection!==row.primaryPick&&!equivalentCore(leg,row)&&!(authorizedCoreNarrowing&&category==='core30'&&leg.number==='周四005')&&!(november6Narrowing&&category==='core30'&&leg.number==='周五003'))throw Error('Main scenario differs from analysis');if(category==='dream6'&&!['ordinary-sixfold','mixed-outcome-sixfold'].includes(s.construction)&&leg.selection!==(frozenRows?.find(r=>r.number===leg.number)||row).speculative)throw Error('High variance scenario differs from analysis');}}
   }
   return true;
 }

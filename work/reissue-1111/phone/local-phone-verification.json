@@ -1,0 +1,167 @@
+{
+  "expected": [
+    {
+      "title": "推荐扫盘",
+      "date": "2026-11-11",
+      "file": "2026-11-11-reissue-r2-scan.png"
+    },
+    {
+      "title": "今日跟踪",
+      "date": "2026-11-11",
+      "file": "2026-11-11-reissue-r2-tracking.png"
+    },
+    {
+      "title": "复盘扫盘",
+      "date": "2026-11-10",
+      "file": "2026-11-10-review-scan.png"
+    },
+    {
+      "title": "复盘跟踪",
+      "date": "2026-11-10",
+      "file": "2026-11-10-review-tracking.png"
+    }
+  ],
+  "mode": "local",
+  "checkedAt": "2026-11-11T06:49:58.991Z",
+  "completed": true,
+  "buttons": [
+    {
+      "index": 1,
+      "title": "推荐扫盘",
+      "url": "http://127.0.0.1:9433/cards/2026-11-11-reissue-r2-scan.png?v=20261111-reissue-r2",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 2494,
+        "nonblackFraction": 0.9991365128398187,
+        "pixelHash": "59f8b5860fd6f3e6d4d3f6190d8abf459ecd4135139e2d74153267b2bb08becb"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 2,
+      "title": "今日跟踪",
+      "url": "http://127.0.0.1:9433/cards/2026-11-11-reissue-r2-tracking.png?v=20261111-reissue-r2",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 3674,
+        "nonblackFraction": 0.9865208198044134,
+        "pixelHash": "6ee5eb1ee33fc6ea3591d08c158eda812762029c29c7dda998c3e887a5691efd"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 3,
+      "title": "复盘扫盘",
+      "url": "http://127.0.0.1:9433/cards/2026-11-10-review-scan.png?v=20261111-reissue-r2",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 1612,
+        "nonblackFraction": 0.9986775230785189,
+        "pixelHash": "753c71f85ef0e101bb128a734d2a761e96c375c1cb1878043e6d1bd3f3d98032"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    },
+    {
+      "index": 4,
+      "title": "复盘跟踪",
+      "url": "http://127.0.0.1:9433/cards/2026-11-10-review-tracking.png?v=20261111-reissue-r2",
+      "state": "success",
+      "clipboard": {
+        "width": 1244,
+        "height": 3539,
+        "nonblackFraction": 0.9860066380224399,
+        "pixelHash": "80b49a9a8856af100e5a254aa472f4e73144873f1dba1c55eddfa05500595078"
+      },
+      "matchesOwnPng": true,
+      "method": "Real input click, navigator.clipboard.read, decoded RGBA SHA256; no clipboard mocks"
+    }
+  ],
+  "images": [
+    {
+      "alt": "2026-11-11 推荐扫盘",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-11-reissue-r2-scan-preview.jpg?v=20261111-reissue-r2",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-11-reissue-r2-scan.png?v=20261111-reissue-r2",
+      "png": {
+        "width": 1244,
+        "height": 2494,
+        "nonblackFraction": 0.9991365128398187,
+        "pixelHash": "59f8b5860fd6f3e6d4d3f6190d8abf459ecd4135139e2d74153267b2bb08becb"
+      },
+      "bytes": 2197246,
+      "fileHash": "6d5d6b75c401024acdcb1912e36428e0a08f8dfa9fe078bb23e4b1324f479744",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    },
+    {
+      "alt": "2026-11-11 今日跟踪",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-11-reissue-r2-tracking-preview.jpg?v=20261111-reissue-r2",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-11-reissue-r2-tracking.png?v=20261111-reissue-r2",
+      "png": {
+        "width": 1244,
+        "height": 3674,
+        "nonblackFraction": 0.9865208198044134,
+        "pixelHash": "6ee5eb1ee33fc6ea3591d08c158eda812762029c29c7dda998c3e887a5691efd"
+      },
+      "bytes": 2661291,
+      "fileHash": "e039137b1394c93f7415fce20b6f0b7e2032c3f4ca81342163e062e9ed7818fe",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    },
+    {
+      "alt": "2026-11-10 复盘扫盘",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-10-review-scan-preview.jpg?v=20261111-reissue-r2",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-10-review-scan.png?v=20261111-reissue-r2",
+      "png": {
+        "width": 1244,
+        "height": 1612,
+        "nonblackFraction": 0.9986775230785189,
+        "pixelHash": "753c71f85ef0e101bb128a734d2a761e96c375c1cb1878043e6d1bd3f3d98032"
+      },
+      "bytes": 1094833,
+      "fileHash": "d9506beac86d94e3af01cfb33d9574caf87f9fddc744f9343e32385f89ecb97a",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    },
+    {
+      "alt": "2026-11-10 复盘跟踪",
+      "previewUrl": "http://127.0.0.1:9433/cards/2026-11-10-review-tracking-preview.jpg?v=20261111-reissue-r2",
+      "previewLoaded": true,
+      "url": "http://127.0.0.1:9433/cards/2026-11-10-review-tracking.png?v=20261111-reissue-r2",
+      "png": {
+        "width": 1244,
+        "height": 3539,
+        "nonblackFraction": 0.9860066380224399,
+        "pixelHash": "80b49a9a8856af100e5a254aa472f4e73144873f1dba1c55eddfa05500595078"
+      },
+      "bytes": 2024469,
+      "fileHash": "309d6a34dddf8b6a3a303ca8f85d23ec4575402e41d5bc26d99bfa01020e9550",
+      "matchesLocal": true,
+      "previewMatchesLocal": true
+    }
+  ],
+  "page": {
+    "viewport": 430,
+    "scrollWidth": 430,
+    "dates": [
+      "2026-11-11",
+      "2026-11-11",
+      "2026-11-10",
+      "2026-11-10"
+    ],
+    "titles": [
+      "推荐扫盘",
+      "今日跟踪",
+      "复盘扫盘",
+      "复盘跟踪"
+    ]
+  }
+}
