@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-10",
+  "templateComparison": {
+    "scan": {
+      "outsideAllowedPixels": 0,
+      "changedPixels": 69965,
+      "allowed": [
+        [
+          455,
+          1301,
+          104,
+          66
+        ],
+        [
+          565,
+          1301,
+          94,
+          66
+        ],
+        [
+          750,
+          1301,
+          89,
+          66
+        ],
+        [
+          1120,
+          1301,
+          79,
+          66
+        ],
+        [
+          455,
+          1373,
+          104,
+          66
+        ],
+        [
+          565,
+          1373,
+          94,
+          66
+        ],
+        [
+          665,
+          1373,
+          79,
+          66
+        ],
+        [
+          750,
+          1373,
+          89,
+          66
+        ],
+        [
+          845,
+          1373,
+          104,
+          66
+        ],
+        [
+          955,
+          1373,
+          159,
+          66
+        ],
+        [
+          1120,
+          1373,
+          79,
+          66
+        ]
+      ]
+    },
+    "tracking": {
+      "outsideAllowedPixels": 0,
+      "changedPixels": 0
+    }
+  },
+  "markers": [
+    {
+      "number": "周二001",
+      "column": "result",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 455,
+      "y": 1301,
+      "width": 104,
+      "height": 66
+    },
+    {
+      "number": "周二001",
+      "column": "handicap",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 565,
+      "y": 1301,
+      "width": 94,
+      "height": 66
+    },
+    {
+      "number": "周二001",
+      "column": "goals",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 750,
+      "y": 1301,
+      "width": 89,
+      "height": 66
+    },
+    {
+      "number": "周二002",
+      "column": "result",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 455,
+      "y": 1373,
+      "width": 104,
+      "height": 66
+    },
+    {
+      "number": "周二002",
+      "column": "handicap",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 565,
+      "y": 1373,
+      "width": 94,
+      "height": 66
+    },
+    {
+      "number": "周二002",
+      "column": "speculative",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 665,
+      "y": 1373,
+      "width": 79,
+      "height": 66
+    },
+    {
+      "number": "周二002",
+      "column": "goals",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 750,
+      "y": 1373,
+      "width": 89,
+      "height": 66
+    },
+    {
+      "number": "周二002",
+      "column": "halfFull",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 845,
+      "y": 1373,
+      "width": 104,
+      "height": 66
+    },
+    {
+      "number": "周二002",
+      "column": "score",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 955,
+      "y": 1373,
+      "width": 159,
+      "height": 66
+    }
+  ],
+  "geometry": {
+    "width": 1244,
+    "height": 1612,
+    "tableTop": 1230,
+    "widths": [
+      85,
+      95,
+      65,
+      165,
+      110,
+      100,
+      85,
+      95,
+      110,
+      165,
+      85
+    ],
+    "tableX": 42,
+    "headerHeight": 68,
+    "rowHeights": [
+      72,
+      72
+    ],
+    "numbers": [
+      "鍛ㄤ簩001",
+      "鍛ㄤ簩002"
+    ]
+  },
+  "geometryBasis": "Actual user-authorized fullscan-r2 columns, including added handicap; original image retained, full-cell rectangle inset3 stroke2",
+  "ordinaryTickets": 0,
+  "dailyNet": 0,
+  "manualInspection": {
+    "passed": true,
+    "checkedAt": "2026-11-11T00:12:45.161Z",
+    "evidence": "work/review-1110/scan-detail.png",
+    "notes": "Native full-cell boxes and FT/HT reviewed; all original content and stars retained, zero changes outside declared score/hit cells; no-ticket tracking pixels identical."
+  }
+}

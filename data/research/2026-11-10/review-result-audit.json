@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-10",
+  "checkedAt": "2026-11-11T00:10:01.887Z",
+  "fixtures": [
+    {
+      "number": "周二001",
+      "officialMatchId": 2042684,
+      "scheduledKickoff": "2026-11-11T03:00:00+08:00",
+      "sourceKickoff": "2026-11-10T19:00:00.000Z",
+      "sourceTeams": [
+        "Burton Albion",
+        "Notts County"
+      ],
+      "sourceLeague": "EFL Trophy Northern Grp. F",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "0:3",
+      "halfTime": "0:1",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=6015567",
+      "rawFile": "data/research/2026-11-10/review-results/fotmob-6015567.json",
+      "sha256": "c2b713dc61e0d2c8d76c15996447cf63536bd52d8fad861d089a0b6bc367ae0d",
+      "checkedAt": "2026-11-11T00:10:01.693Z",
+      "secondarySource": {
+        "name": "bbc001",
+        "url": "https://www.bbc.com/sport/football/live/cw1466nky882t",
+        "http": 200,
+        "checkedAt": "2026-11-11T00:09:20.892Z",
+        "rawFile": "data/research/2026-11-10/review-results/bbc001.txt",
+        "sha256": "77daebddb1ee8c0c887efe764c45d0e2eabbc4a3999d2f949bf4adc5eb328806",
+        "bytes": 1264189
+      }
+    },
+    {
+      "number": "周二002",
+      "officialMatchId": 2042685,
+      "scheduledKickoff": "2026-11-11T03:30:00+08:00",
+      "sourceKickoff": "2026-11-10T19:30:00.000Z",
+      "sourceTeams": [
+        "Bromley",
+        "Milton Keynes Dons"
+      ],
+      "sourceLeague": "EFL Trophy Southern Grp. H",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "1:2",
+      "halfTime": "1:1",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=6016333",
+      "rawFile": "data/research/2026-11-10/review-results/fotmob-6016333.json",
+      "sha256": "ed721415e03733fa324d509cbb710914b046dd85f8cb5b0285198b4ab15e08ff",
+      "checkedAt": "2026-11-11T00:10:01.887Z",
+      "secondarySource": {
+        "name": "bbc002",
+        "url": "https://www.bbc.com/sport/football/live/c6n0441gvpvqt",
+        "http": 200,
+        "checkedAt": "2026-11-11T00:09:20.850Z",
+        "rawFile": "data/research/2026-11-10/review-results/bbc002.txt",
+        "sha256": "7f950f8e19ded18854fdf37d19d7fdd4c784071dd00d8c109c2f9feac1250737",
+        "bytes": 1264209
+      }
+    }
+  ]
+}

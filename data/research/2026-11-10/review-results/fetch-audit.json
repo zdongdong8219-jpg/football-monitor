@@ -1,0 +1,50 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "fotmob",
+      "url": "https://www.fotmob.com/api/matches?date=20261110",
+      "http": 404,
+      "checkedAt": "2026-11-11T00:09:19.481Z",
+      "rawFile": "data/research/2026-11-10/review-results/fotmob.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "bbc001",
+      "url": "https://www.bbc.com/sport/football/live/cw1466nky882t",
+      "http": 200,
+      "checkedAt": "2026-11-11T00:09:20.892Z",
+      "rawFile": "data/research/2026-11-10/review-results/bbc001.txt",
+      "sha256": "77daebddb1ee8c0c887efe764c45d0e2eabbc4a3999d2f949bf4adc5eb328806",
+      "bytes": 1264189
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "bbc002",
+      "url": "https://www.bbc.com/sport/football/live/c6n0441gvpvqt",
+      "http": 200,
+      "checkedAt": "2026-11-11T00:09:20.850Z",
+      "rawFile": "data/research/2026-11-10/review-results/bbc002.txt",
+      "sha256": "7f950f8e19ded18854fdf37d19d7fdd4c784071dd00d8c109c2f9feac1250737",
+      "bytes": 1264209
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "name": "official",
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchResultV1.qry?matchPage=1&matchBeginDate=2026-11-10&matchEndDate=2026-11-10&pageSize=100&isFix=0&pcOrWap=1",
+      "http": 200,
+      "checkedAt": "2026-11-11T00:09:19.629Z",
+      "rawFile": "data/research/2026-11-10/review-results/official.txt",
+      "sha256": "24828b897edc52e6aa119684585ab30f7273a113094c5a57e9ec1055cfec036c",
+      "bytes": 97
+    }
+  }
+]

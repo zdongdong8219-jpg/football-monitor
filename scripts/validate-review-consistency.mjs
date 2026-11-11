@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const sign = (home, away) => home > away ? '胜' : home < away ? '负' : '平';
-const options = value => String(value ?? '').split('/').map(item => item.trim()).filter(Boolean);
+const options = value => String(value ?? '').split(/[\/；;]/).map(item => item.trim()).filter(Boolean);
 
 export function validateReviewConsistency(projectRoot) {
   const review = JSON.parse(fs.readFileSync(path.join(projectRoot, 'data/review-latest.json'), 'utf8'));
