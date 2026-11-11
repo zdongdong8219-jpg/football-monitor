@@ -25099,7 +25099,7 @@
   },
   "imageFiles": {
     "scan": "2026-11-11-reissue-r2-scan.png",
-    "tracking": "2026-11-11-reissue-r2-tracking.png"
+    "tracking": "2026-11-11-reissue-r2-tracking-v2.png"
   },
   "inputAudit": {
     "packet": {
@@ -25546,5 +25546,87 @@
         "reason": "真实比较9分支：002的0:0和2:0、003的0:2均与主要比赛剧本相容却未覆盖。精确比分需要同时确定双方进球分配，现有机会代理无法排除这些邻近比分；高赔率不补足该约束。"
       }
     ]
+  },
+  "trackingDisplayPairs": [
+    [
+      "2026-10-26-final-core20",
+      "2026-10-26-final-core30"
+    ],
+    [
+      "2026-10-27-user-correction-1505-core20",
+      "2026-10-27-user-correction-1505-core30"
+    ],
+    [
+      "2026-10-28-final-core20",
+      "2026-10-28-final-core30"
+    ],
+    [
+      "2026-10-29-final-core20",
+      "2026-10-29-final-core30"
+    ],
+    [
+      "2026-10-30-final-core20",
+      "2026-10-30-final-core30"
+    ],
+    [
+      "2026-10-31-early-1-core20",
+      "2026-10-31-early-1-core30"
+    ],
+    [
+      "2026-10-31-middle-late-core20",
+      "2026-10-31-middle-late-core30"
+    ],
+    [
+      "2026-11-01-middle-late-core20",
+      "2026-11-01-middle-late-core30"
+    ],
+    [
+      "2026-11-02-astra-core20",
+      "2026-11-02-astra-core30"
+    ],
+    [
+      "2026-11-03-final-core20",
+      "2026-11-03-core30-r1"
+    ],
+    [
+      "2026-11-04-final-core20",
+      "2026-11-04-final-core30"
+    ],
+    [
+      "2026-11-05-core-r1-core20",
+      "2026-11-05-core30-r2"
+    ],
+    [
+      "2026-11-06-final-core20",
+      "2026-11-06-core30-r2"
+    ],
+    [
+      "2026-11-07-early-core20-s1",
+      "2026-11-07-final-core30-s1"
+    ],
+    [
+      "2026-11-07-final-core20-s1",
+      "2026-11-07-extra-core30-s1"
+    ],
+    [
+      "2026-11-07-extra-core20-s1",
+      null
+    ],
+    [
+      "2026-11-07-product-r4-rank2",
+      null
+    ],
+    [
+      "2026-11-08-core20-1",
+      null
+    ],
+    [
+      "2026-11-11-reissue-r2-core20",
+      "2026-11-11-reissue-r2-core30"
+    ]
+  ],
+  "trackingDisplayCorrection": {
+    "at": "2026-11-11T06:53:57.092Z",
+    "reason": "Align both newly issued tickets on November11; preserve all historical pair positions and financial records"
   }
 }

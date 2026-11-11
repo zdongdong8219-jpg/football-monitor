@@ -9,7 +9,7 @@ for(const kind of ['scan','tracking']){
  await call('Page.navigate',{url:'http://127.0.0.1:9456/after'});
  for(let i=0;i<40;i++){if(await run('Boolean(window.testApi)'))break;await new Promise(r=>setTimeout(r,100));}
  const data=await run(`(async()=>{const blob=await testApi.${kind==='scan'?'poster':'tracking'}(false);return await new Promise(r=>{const f=new FileReader();f.onload=()=>r(f.result);f.readAsDataURL(blob)})})()`);
- const file='public/cards/2026-11-11-reissue-r2-'+kind;
+ const file='public/cards/'+report.imageFiles[kind].replace('.png','');
  fs.writeFileSync(file+'.png',Buffer.from(data.split(',')[1],'base64'));
  const jpg=await run(`(async()=>{const i=new Image();i.src=${JSON.stringify(data)};await i.decode();const c=document.createElement('canvas');c.width=720;c.height=Math.round(i.height*720/i.width);c.getContext('2d').drawImage(i,0,0,c.width,c.height);return c.toDataURL('image/jpeg',.88)})()`);
  fs.writeFileSync(file+'-preview.jpg',Buffer.from(jpg.split(',')[1],'base64'));

@@ -19,11 +19,20 @@ export function validateSchedule(report) {
 // Historical tracking has compact issued records without stake/publishedAt.
 // Only their exact committed fingerprints may use the old settlement stake.
 export function validateTracking(document, legacy = {}) {
-  const groups = [];
+  const groups = [], displayChecks = [];
   function walk(value, location = '') {
     if (!value || typeof value !== 'object') return;
     for (const [key, child] of Object.entries(value)) {
       if (key === 'excludedTrackingArchive' || key === 'priorDayHistory' || key === 'immutableHashes') continue;
+      if (key === 'trackingDisplayPairs') {
+        displayChecks.push(()=>{
+        const tickets=Object.values(value.trackingHistory||{}).flat(),byId=new Map(tickets.map(t=>[t.id,t])),seen=new Set();
+        if(!Array.isArray(child))fail('invalid tracking display pairs');
+        for(const pair of child){if(!Array.isArray(pair)||pair.length!==2)fail('invalid tracking display pair');for(let i=0;i<2;i++){const id=pair[i];if(id===null)continue;const t=byId.get(id);if(!t||seen.has(id)||t.category!==(i?'core30':'core20'))fail('tracking display id/tier mismatch');seen.add(id);}if(pair.every(Boolean)&&byId.get(pair[0]).date!==byId.get(pair[1]).date)fail('tracking display date mismatch');}
+        if(seen.size!==tickets.length)fail('tracking display omitted ticket');
+        });
+        continue;
+      }
       if (key === 'trackingCumulative') {
         if (!Array.isArray(child) || child.some(x => !['core20','core30'].includes(x.category))) fail('nonordinary cumulative');
       } else if (/^tracking(?:History|Tickets|Records)?$/.test(key) || (/^tracking/i.test(key) && Array.isArray(child))) {
@@ -46,6 +55,7 @@ export function validateTracking(document, legacy = {}) {
       if (!old && (!Number.isFinite(time(t.publishedAt)) || (t.date >= activationDate && (t.final !== true || t.issued !== true)))) fail('missing final issuance ' + t.id);
     }
   }
+  for(const check of displayChecks)check();
   if (document.trackingCumulative && document.trackingHistory) {
     const all = Object.values(document.trackingHistory).flat().filter(x => x && typeof x === 'object');
     for (const c of document.trackingCumulative) {
