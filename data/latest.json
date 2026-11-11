@@ -10,8 +10,8 @@
   "batchLabel": "11月11日赛前修订 · 普通2张＋梦想6/3串",
   "batchFinal": true,
   "finalLocked": true,
-  "completed": false,
-  "mobileVerified": false,
+  "completed": true,
+  "mobileVerified": true,
   "researchComplete": false,
   "scanDecisionComplete": true,
   "deliveryDeadline": "2026-11-11T14:00:00+08:00",
@@ -25134,10 +25134,12 @@
   ],
   "autoBet": false,
   "finalPublication": {
-    "status": "submitted",
-    "publishedAt": "2026-11-11T06:47:41.184Z"
+    "status": "published_verified",
+    "commit": "f7742ea739d72a08bb48c50e4d43045f3d866fb3",
+    "publishedAt": "2026-11-11T06:47:41.184Z",
+    "onlineVerifiedAt": "2026-11-11T06:57:26.390Z"
   },
-  "deliveryVerified": false,
+  "deliveryVerified": true,
   "revision": {
     "id": "2026-11-11-reissue-r2",
     "publishedAt": "2026-11-11T06:47:41.184Z",
@@ -25628,5 +25630,6 @@
   "trackingDisplayCorrection": {
     "at": "2026-11-11T06:53:57.092Z",
     "reason": "Align both newly issued tickets on November11; preserve all historical pair positions and financial records"
-  }
+  },
+  "onlineVerifiedAt": "2026-11-11T06:57:26.390Z"
 }
