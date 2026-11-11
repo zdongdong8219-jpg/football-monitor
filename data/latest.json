@@ -10,8 +10,8 @@
   "batchLabel": "11月11日六场全方向扫盘 · 梦想3串1一组",
   "batchFinal": true,
   "finalLocked": true,
-  "completed": false,
-  "mobileVerified": false,
+  "completed": true,
+  "mobileVerified": true,
   "researchComplete": false,
   "scanDecisionComplete": true,
   "deliveryDeadline": "2026-11-11T14:00:00+08:00",
@@ -19864,8 +19864,12 @@
   ],
   "autoBet": false,
   "finalPublication": {
-    "status": "submitted",
+    "status": "published_verified",
     "revision": "2026-11-11-final-s1",
-    "publishedAt": "2026-11-11T05:54:11.147Z"
-  }
+    "publishedAt": "2026-11-11T05:54:11.147Z",
+    "commit": "e06524d039b60818e67a7f7257f48065a989fd84",
+    "onlineVerifiedAt": "2026-11-11T05:56:33.918Z"
+  },
+  "deliveryVerified": true,
+  "onlineVerifiedAt": "2026-11-11T05:56:33.918Z"
 }

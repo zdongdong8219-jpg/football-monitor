@@ -1,10 +1,10 @@
 {
   "date": "2026-11-11",
   "runPhase": "final_analysis_materials_1300_saved",
-  "completed": false,
+  "completed": true,
   "researchComplete": false,
-  "finalLocked": false,
-  "mobileVerified": false,
+  "finalLocked": true,
+  "mobileVerified": true,
   "totalMatches": 6,
   "deliveryDeadline": "2026-11-11T14:00:00+08:00",
   "weekendEarlyCheck": {
@@ -16276,7 +16276,7 @@
     "phase": "handoff_1300_saved_with_explicit_pending_fields",
     "owner": "task6",
     "health": "qualification_unresolved",
-    "nextAction": "13:40 reuse this final-analysis materials packet; reassess six changed markets and resolved combination flags, retaining explicit sale-close and player-specific pending fields. At 13:50 Beijing freeze latest verified materials and prohibit new collection thereafter. Do not auto-bet.",
+    "nextAction": null,
     "requiredArtifacts": [
       {
         "path": "data/research/2026-11-11/official-baseline.json",
@@ -33341,13 +33341,16 @@
   },
   "analysisDelivery": {
     "owner": "task6",
-    "status": "submitted",
+    "status": "published_verified",
     "scanCount": 6,
     "marketCount": 36,
     "ordinaryTickets": 0,
     "dream3Count": 1,
     "analysisAsOf": "2026-11-11T05:50:08.739Z",
-    "completed": false,
-    "mobileVerified": false
-  }
+    "completed": true,
+    "mobileVerified": true,
+    "commit": "e06524d039b60818e67a7f7257f48065a989fd84"
+  },
+  "deliveryVerified": true,
+  "onlineVerifiedAt": "2026-11-11T05:56:33.918Z"
 }
