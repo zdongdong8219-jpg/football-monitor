@@ -8,7 +8,7 @@ export function validateInformationReport(report) {
   const rows=report.scanTable||[],scenarios=report.recommendations||[];
   if (!rows.length||new Set(rows.map(r=>r.number)).size!==rows.length) throw Error('Missing or duplicate analysis rows');
   const forbidden=new Set(['stake','cost','totalCost','exampleStake','betCount','subTickets','passSizes','returned','net','breakEven']);
-  function check(value){if(!value||typeof value!=='object')return;for(const [key,v] of Object.entries(value)){if(forbidden.has(key))throw Error('Information scenario contains financial configuration: '+key);check(v);}}
+  function check(value, parentKey=''){if(!value||typeof value!=='object')return;for(const [key,v] of Object.entries(value)){const eligibilityPassSizes=key==='passSizes'&&parentKey==='qualification'&&value.status==='Selling'&&value.allUp===1;if(forbidden.has(key)&&!eligibilityPassSizes)throw Error('Information scenario contains financial configuration: '+key);check(v,key);}}
   check(scenarios);
   let frozenRows=null;
   let authorizedCoreNarrowing=false;

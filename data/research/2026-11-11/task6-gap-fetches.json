@@ -1,0 +1,48 @@
+[
+  {
+    "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchDetailV1.qry?matchId=2042686",
+    "collectedAt": "2026-11-11T05:45:14.671Z",
+    "rawArtifact": "data/research/2026-11-11/task6-gap-detail001.txt",
+    "sha256": "5e7b75dcae74ae57d7c7e0a31270e4a89710eada38f5b95f6aed8c75ccc6125f",
+    "status": 200,
+    "bytes": 84,
+    "gap": "explicit sale cutoff",
+    "outcome": "body_saved"
+  },
+  {
+    "source": "https://www.sporttery.cn/jc/zq/",
+    "collectedAt": "2026-11-11T05:45:14.727Z",
+    "rawArtifact": "data/research/2026-11-11/task6-gap-official-page.txt",
+    "sha256": "c90ab39479fb60125e7e6c9abf973864f50c9ea4ec39fe272afb63e735feccde",
+    "status": 404,
+    "bytes": 2835,
+    "gap": "explicit sale cutoff",
+    "outcome": "http_failure"
+  },
+  {
+    "source": "https://info.sporttery.cn/football/calculator_hhad.html",
+    "collectedAt": "2026-11-11T05:45:14.729Z",
+    "outcome": "failed",
+    "failureReason": "fetch failed"
+  },
+  {
+    "source": "https://www.swfc.co.uk/news",
+    "collectedAt": "2026-11-11T05:45:14.731Z",
+    "rawArtifact": "data/research/2026-11-11/task6-gap-005club.txt",
+    "sha256": "23d572c5a416319b3c4277a0e779cc814a0eb5539222e47763de290e27e61fe6",
+    "status": 200,
+    "bytes": 1636801,
+    "gap": "lineup rotation official news",
+    "outcome": "body_saved"
+  },
+  {
+    "source": "https://www.barnsleyfc.co.uk/news",
+    "collectedAt": "2026-11-11T05:45:14.733Z",
+    "rawArtifact": "data/research/2026-11-11/task6-gap-006club.txt",
+    "sha256": "015723763e358ae526e604fa81de3f057a92f0fc8a626b0513854d8046f317c4",
+    "status": 200,
+    "bytes": 1291094,
+    "gap": "lineup rotation official news",
+    "outcome": "body_saved"
+  }
+]

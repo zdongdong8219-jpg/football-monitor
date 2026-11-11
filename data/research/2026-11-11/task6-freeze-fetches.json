@@ -1,0 +1,38 @@
+[
+  {
+    "source": "https://www.sporttery.cn/bzzx/20210207/3143831.html",
+    "collectedAt": "2026-11-11T05:47:10.755Z",
+    "rawArtifact": "data/research/2026-11-11/task6-sale-rule.txt",
+    "sha256": "ff63f4e7411133cb2e64b7ba19158682ddb386e8bd2b6b1c0404a84d179df22c",
+    "status": 200,
+    "gap": "official sale day cutoff and final odds",
+    "outcome": "accepted",
+    "evidenceUsed": [
+      "Official weekday closing 22:00; separate kickoff constraint applies"
+    ]
+  },
+  {
+    "source": "https://www.sporttery.cn/",
+    "collectedAt": "2026-11-11T05:47:10.818Z",
+    "rawArtifact": "data/research/2026-11-11/task6-sale-notice.txt",
+    "sha256": "81001b70ede15d39b66c6e639907d356ee90efbd88a4edc9e2d8a3e1874d142c",
+    "status": 200,
+    "gap": "official sale day cutoff and final odds",
+    "outcome": "accepted",
+    "evidenceUsed": [
+      "Official weekday closing 22:00; separate kickoff constraint applies"
+    ]
+  },
+  {
+    "source": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=hhad,had,crs,ttg,hafu",
+    "collectedAt": "2026-11-11T05:47:10.819Z",
+    "rawArtifact": "data/research/2026-11-11/task6-freeze-calculator.txt",
+    "sha256": "40836c61ca870d529a02e72b24b6bae3efcfbd6e3ec5dada2e778134ffc27791",
+    "status": 200,
+    "gap": "official sale day cutoff and final odds",
+    "outcome": "accepted",
+    "evidenceUsed": [
+      "Final prematch market snapshot"
+    ]
+  }
+]

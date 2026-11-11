@@ -1,0 +1,572 @@
+[
+  {
+    "path": "data/research/2026-11-11/handoff-1300-reconciled-2026-11-11T05-03-46-313Z.json",
+    "sha256": "fb161ce2ceb8f81ad3b2308244022088bc1926b9da8de3e2fdf16a0aef30a469",
+    "actual": "fb161ce2ceb8f81ad3b2308244022088bc1926b9da8de3e2fdf16a0aef30a469",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/official-baseline.json",
+    "sha256": "5d1a17c4ead823a7347c24ff99652579024fc8d31e0491da2cbfb6a7c19b4f51",
+    "actual": "5d1a17c4ead823a7347c24ff99652579024fc8d31e0491da2cbfb6a7c19b4f51",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/source-catalog.json",
+    "sha256": "0f41c467ec66a6a3bf406c11788f8388301f69ecbdca97539eb46096e6d25087",
+    "actual": "0f41c467ec66a6a3bf406c11788f8388301f69ecbdca97539eb46096e6d25087",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/source-audit.json",
+    "sha256": "d3e7ccfce2b97a8b80c0fbe2d3c4f60240b27a9a386c5a54c131e7db4afaaeb2",
+    "actual": "d3e7ccfce2b97a8b80c0fbe2d3c4f60240b27a9a386c5a54c131e7db4afaaeb2",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/market-snapshots.json",
+    "sha256": "c7a6c0765617e7057cca9f85e8c514cff9fe62823250862c0c989a80cfde00aa",
+    "actual": "c7a6c0765617e7057cca9f85e8c514cff9fe62823250862c0c989a80cfde00aa",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/match-dossiers.json",
+    "sha256": "f0aaadb68b98860ea6070fafd5201e177992c92a48c86a1661137862d95a1cd8",
+    "actual": "f0aaadb68b98860ea6070fafd5201e177992c92a48c86a1661137862d95a1cd8",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/final-club-articles.json",
+    "sha256": "e85e18d218ac90ed4a213f41222fb23874d62048bc990dbce6a4a66760087063",
+    "actual": "e85e18d218ac90ed4a213f41222fb23874d62048bc990dbce6a4a66760087063",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/research-execution.json",
+    "sha256": "96879746d9db0b9a6a30b26c8fe33ce06fff4c1389bd7ce80e4d6f2f646d3d2c",
+    "actual": "96879746d9db0b9a6a30b26c8fe33ce06fff4c1389bd7ce80e4d6f2f646d3d2c",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/initial-route.json",
+    "sha256": "ddc16101c15759f7cbb6979a82e96dde691adabf4abb08c18b803cee346e13b7",
+    "actual": "ddc16101c15759f7cbb6979a82e96dde691adabf4abb08c18b803cee346e13b7",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/candidate-assessment.json",
+    "sha256": "ee421e7da501c527a139058ae16c00437f0025e873911fd70df49f06beb2e16a",
+    "actual": "ee421e7da501c527a139058ae16c00437f0025e873911fd70df49f06beb2e16a",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/qualification-audit.json",
+    "sha256": "5e3bbacb9e3963affbffc23f8d4ce459955473ded4283816c58823b0eca683a2",
+    "actual": "5e3bbacb9e3963affbffc23f8d4ce459955473ded4283816c58823b0eca683a2",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/official-calculator.txt",
+    "sha256": "3d29a809f3d6cafaf5b3024751a0c76e22fcb5624df944957895e6992624bab4",
+    "actual": "3d29a809f3d6cafaf5b3024751a0c76e22fcb5624df944957895e6992624bab4",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/official-list.txt",
+    "sha256": "d96f20abd4023cfeb1b1546feee7cdcdb88148e86f222d054fed768f96db445a",
+    "actual": "d96f20abd4023cfeb1b1546feee7cdcdb88148e86f222d054fed768f96db445a",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/cloud-state.txt",
+    "sha256": "fbcf557a3256388f404fdd0edd058580cf2686c47a6cc133cafd0cb6aa76315a",
+    "actual": "fbcf557a3256388f404fdd0edd058580cf2686c47a6cc133cafd0cb6aa76315a",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-0.txt",
+    "sha256": "bf16b1f590f287e547a2551c7c0597699594957a6ec7c3afb3840859349a2f15",
+    "actual": "bf16b1f590f287e547a2551c7c0597699594957a6ec7c3afb3840859349a2f15",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-1.txt",
+    "sha256": "5ce0db8d71ee93cd6c4ae6de326367eeb5bbdfad9934eac2a70b9f8b9e287a02",
+    "actual": "5ce0db8d71ee93cd6c4ae6de326367eeb5bbdfad9934eac2a70b9f8b9e287a02",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-2.txt",
+    "sha256": "7789c9d66596899343867b57686d7ed326f180f6ca89c09987e8036bbe4586ec",
+    "actual": "7789c9d66596899343867b57686d7ed326f180f6ca89c09987e8036bbe4586ec",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-3.txt",
+    "sha256": "71d185304358a063131de4f2122e912301c0ca09ceba24ed898a754149c72e76",
+    "actual": "71d185304358a063131de4f2122e912301c0ca09ceba24ed898a754149c72e76",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-4.txt",
+    "sha256": "8f88dc544808587e2274cf9a7e53402be8e91cc26143a100dc73505c2e184358",
+    "actual": "8f88dc544808587e2274cf9a7e53402be8e91cc26143a100dc73505c2e184358",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-5.txt",
+    "sha256": "5439e663977b5656c9fa25a30470a194b58407ac296792ad2e33cbc0c0f20c66",
+    "actual": "5439e663977b5656c9fa25a30470a194b58407ac296792ad2e33cbc0c0f20c66",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-6.txt",
+    "sha256": "9fbea88898e384f79b8d8f49f49d6f92124207dd70fbde0d300d35c7fbc9c915",
+    "actual": "9fbea88898e384f79b8d8f49f49d6f92124207dd70fbde0d300d35c7fbc9c915",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-7.txt",
+    "sha256": "adaa6c72584fa48bd83e8344484305b7b765f1f1d178103a16c8241ba6e32614",
+    "actual": "adaa6c72584fa48bd83e8344484305b7b765f1f1d178103a16c8241ba6e32614",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-8.txt",
+    "sha256": "abd349eda09ba43747234e09cd363f42a48b78714f03aede280c1e5baa6fc711",
+    "actual": "abd349eda09ba43747234e09cd363f42a48b78714f03aede280c1e5baa6fc711",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-9.txt",
+    "sha256": "83fb196be84fd156e971cc68960b88b697c5945cba6277dc9aebadc22acf6592",
+    "actual": "83fb196be84fd156e971cc68960b88b697c5945cba6277dc9aebadc22acf6592",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-10.txt",
+    "sha256": "64b261255227acfeb8da8f948cd5fc166b5d68f53f32abf9689013ace740e2b4",
+    "actual": "64b261255227acfeb8da8f948cd5fc166b5d68f53f32abf9689013ace740e2b4",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/club-11.txt",
+    "sha256": "d38c6760ea0b9c930beea8999eba3287edd76a2508cc9f3eab5606e7b594c69d",
+    "actual": "d38c6760ea0b9c930beea8999eba3287edd76a2508cc9f3eab5606e7b594c69d",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/search-0.txt",
+    "sha256": "4653dcc563ab1f0b1b4aba1abac9f16f3b995c5030bd30a41cb11badc85cbe55",
+    "actual": "4653dcc563ab1f0b1b4aba1abac9f16f3b995c5030bd30a41cb11badc85cbe55",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/search-1.txt",
+    "sha256": "c0e2dbb220afbaf10453b690856717e6fb7d8b9de7e3a442ad58ff086e61bac7",
+    "actual": "c0e2dbb220afbaf10453b690856717e6fb7d8b9de7e3a442ad58ff086e61bac7",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/search-2.txt",
+    "sha256": "05a2e9ee1024572d39ce38b371961d490e7833baf93699af461e26e79d58eb0e",
+    "actual": "05a2e9ee1024572d39ce38b371961d490e7833baf93699af461e26e79d58eb0e",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/search-3.txt",
+    "sha256": "7395dd36750dbacd3e278d98e2220aba81a0115f09d2bd21797765d0297c3945",
+    "actual": "7395dd36750dbacd3e278d98e2220aba81a0115f09d2bd21797765d0297c3945",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/search-4.txt",
+    "sha256": "c736bef80ca71a1773cec4ba924457cd99baeb458c83846c5818b1a84be2c99e",
+    "actual": "c736bef80ca71a1773cec4ba924457cd99baeb458c83846c5818b1a84be2c99e",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/search-5.txt",
+    "sha256": "bc0a53f8cda81bc36256577ed7ed577b857715194ed99bc90276f6f46191f540",
+    "actual": "bc0a53f8cda81bc36256577ed7ed577b857715194ed99bc90276f6f46191f540",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-0.txt",
+    "sha256": "8f30005d42bde0c7636f3c0d88bf25476e08c621ee0a9d3a9161c4f072f5e9d5",
+    "actual": "8f30005d42bde0c7636f3c0d88bf25476e08c621ee0a9d3a9161c4f072f5e9d5",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-1.txt",
+    "sha256": "bc5b27c99b0fdc7adaeaffed50d4f595e24a73f5e6fb5041deed9fc354df0c08",
+    "actual": "bc5b27c99b0fdc7adaeaffed50d4f595e24a73f5e6fb5041deed9fc354df0c08",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-2.txt",
+    "sha256": "7b249fa6112c52ebbd053db3a956f6f912059890c71818905b2cfe7b58bb7255",
+    "actual": "7b249fa6112c52ebbd053db3a956f6f912059890c71818905b2cfe7b58bb7255",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-3.txt",
+    "sha256": "9b3fb64c24883f9f1a70e147790e68179ee606fff345dd5f82d44e3e7b1c1d15",
+    "actual": "9b3fb64c24883f9f1a70e147790e68179ee606fff345dd5f82d44e3e7b1c1d15",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-4.txt",
+    "sha256": "80f8227d363bf0eed7ff6e8b3bdc7ca3a988e64967273921d1bd6043f9ca4352",
+    "actual": "80f8227d363bf0eed7ff6e8b3bdc7ca3a988e64967273921d1bd6043f9ca4352",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-5.txt",
+    "sha256": "4510b00b80bf5ac972dc652f2b60281b504b054bd32d64031e60e3e797140485",
+    "actual": "4510b00b80bf5ac972dc652f2b60281b504b054bd32d64031e60e3e797140485",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-6.txt",
+    "sha256": "9b523b1cd9fd4d22aa9e84afc5983ac6895bfc5b4571b461c236ac090e82276c",
+    "actual": "9b523b1cd9fd4d22aa9e84afc5983ac6895bfc5b4571b461c236ac090e82276c",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-7.txt",
+    "sha256": "fb02eca63fff3535cbedcdb6aca13d2ca9993e04acc0439a5c95e0281825d019",
+    "actual": "fb02eca63fff3535cbedcdb6aca13d2ca9993e04acc0439a5c95e0281825d019",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-8.txt",
+    "sha256": "87347b65973c4e583de82f0e60183099e431bc305a71fc0e9285134b3f709dbd",
+    "actual": "87347b65973c4e583de82f0e60183099e431bc305a71fc0e9285134b3f709dbd",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-9.txt",
+    "sha256": "cd2e8c151a169d80a7c316fdb0bf82aa45ea024267945b4e211a81102e1e37cc",
+    "actual": "cd2e8c151a169d80a7c316fdb0bf82aa45ea024267945b4e211a81102e1e37cc",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-10.txt",
+    "sha256": "fc8f3253b5b57eec15efb33cfff2a2546f7f2934116df5ada24f04553ce8378f",
+    "actual": "fc8f3253b5b57eec15efb33cfff2a2546f7f2934116df5ada24f04553ce8378f",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-11.txt",
+    "sha256": "e906a23cd36bce3ef214d2f93d43ccf5f6e2671db6365b7655f5f907a7e77b29",
+    "actual": "e906a23cd36bce3ef214d2f93d43ccf5f6e2671db6365b7655f5f907a7e77b29",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/article-12.txt",
+    "sha256": "457da386c73fdbfd097f51dc914856ee1eaca7c14250bba6feac60c9fdfb20e2",
+    "actual": "457da386c73fdbfd097f51dc914856ee1eaca7c14250bba6feac60c9fdfb20e2",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/gap-search-0.txt",
+    "sha256": "aa566c9fddbd49d7358b17b222682eb3584a2d6ecfd98bda13c7f78d4cdaeea2",
+    "actual": "aa566c9fddbd49d7358b17b222682eb3584a2d6ecfd98bda13c7f78d4cdaeea2",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/gap-search-1.txt",
+    "sha256": "6899af5e53336da729c432169c0d81cdd4f8ac79a27b00a83653a0ca64be3b8d",
+    "actual": "6899af5e53336da729c432169c0d81cdd4f8ac79a27b00a83653a0ca64be3b8d",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/gap-search-2.txt",
+    "sha256": "779c5213cb05881f05f1909e64b4698e21bf74cf6bbcbe733112cc6cc1142669",
+    "actual": "779c5213cb05881f05f1909e64b4698e21bf74cf6bbcbe733112cc6cc1142669",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/gap-search-3.txt",
+    "sha256": "e1fce9e9362ffefa90f9e6a2b72fc80a2b2f8ce4206b54cc27f7507ebf8f4ce0",
+    "actual": "e1fce9e9362ffefa90f9e6a2b72fc80a2b2f8ce4206b54cc27f7507ebf8f4ce0",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/gap-search-4.txt",
+    "sha256": "9f0bf7860003178ff04e9e03506dce958bfa7aff61630b488455e7aee9570f97",
+    "actual": "9f0bf7860003178ff04e9e03506dce958bfa7aff61630b488455e7aee9570f97",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/gap-search-5.txt",
+    "sha256": "6b757042cc9cf02127041b6ab1b68eb859407a98cb127415165545326d71f721",
+    "actual": "6b757042cc9cf02127041b6ab1b68eb859407a98cb127415165545326d71f721",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/injury.txt",
+    "sha256": "1941fa7ae7a4a6afb874b35537c887ffd3686557845d4fcab940fff78359433f",
+    "actual": "1941fa7ae7a4a6afb874b35537c887ffd3686557845d4fcab940fff78359433f",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/lineup-kobe.txt",
+    "sha256": "6d5dda1dd9f8a194a41236a61b8bd14bdca8ca1812e59fec68dbe8f9420b5333",
+    "actual": "6d5dda1dd9f8a194a41236a61b8bd14bdca8ca1812e59fec68dbe8f9420b5333",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/lineup-kashiwa.txt",
+    "sha256": "7f4d9fd01556925c6c7d903576f531553cbe6520453bfeb6df153081235fc6fe",
+    "actual": "7f4d9fd01556925c6c7d903576f531553cbe6520453bfeb6df153081235fc6fe",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/barnsley-news.txt",
+    "sha256": "f8ed0a61098ed959951780ff2e49b7019dd90db1c87a56eadc83e0fab037f61e",
+    "actual": "f8ed0a61098ed959951780ff2e49b7019dd90db1c87a56eadc83e0fab037f61e",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/swfc-news.txt",
+    "sha256": "f9cdce014e06a335ff9acbdf98649406db6e671149e7e71f0833011206d0e9f0",
+    "actual": "f9cdce014e06a335ff9acbdf98649406db6e671149e7e71f0833011206d0e9f0",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/current-lineup-0.txt",
+    "sha256": "b0b0d222fce3b976cf38083cf354aefcf2e8e0ecd283c39b53c82184e109d703",
+    "actual": "b0b0d222fce3b976cf38083cf354aefcf2e8e0ecd283c39b53c82184e109d703",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/current-lineup-1.txt",
+    "sha256": "3dc4ad75c1d8dc9599b4682f47491b29172028a721955df4a28a497ce33cef33",
+    "actual": "3dc4ad75c1d8dc9599b4682f47491b29172028a721955df4a28a497ce33cef33",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/current-lineup-2.txt",
+    "sha256": "5f633e1495e0355ffbdefd39073421130210f69959ea86fb3436227e0050a070",
+    "actual": "5f633e1495e0355ffbdefd39073421130210f69959ea86fb3436227e0050a070",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/current-lineup-3.txt",
+    "sha256": "ab784e88baac2db1bf2cc28f818601bde5e40d718fd006d30e8e0b0c363bdff4",
+    "actual": "ab784e88baac2db1bf2cc28f818601bde5e40d718fd006d30e8e0b0c363bdff4",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/injury-detail-0.txt",
+    "sha256": "a9299e3d3bcbaa70f18abb73051724ab85f28874a608e21303b3066b05a94923",
+    "actual": "a9299e3d3bcbaa70f18abb73051724ab85f28874a608e21303b3066b05a94923",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/injury-detail-3.txt",
+    "sha256": "d9854901e93439f9c8a79ea2a665376470543c3d44f6cc086dee91126a4c1d3a",
+    "actual": "d9854901e93439f9c8a79ea2a665376470543c3d44f6cc086dee91126a4c1d3a",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/injury-detail-4.txt",
+    "sha256": "ee5a095363ea3412d1e79be9577c93bd9f5e1efabb696bc7e07cfb51beb536cb",
+    "actual": "ee5a095363ea3412d1e79be9577c93bd9f5e1efabb696bc7e07cfb51beb536cb",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/injury-detail-6.txt",
+    "sha256": "68c96a1a588ab87d0ebf0c584fecef466867b43604862b58b4786221e4a51d19",
+    "actual": "68c96a1a588ab87d0ebf0c584fecef466867b43604862b58b4786221e4a51d19",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/injury-detail-8.txt",
+    "sha256": "d2882a9e2b6e4bff9fc424900374c32514948444a73983cc856f57e50826ddca",
+    "actual": "d2882a9e2b6e4bff9fc424900374c32514948444a73983cc856f57e50826ddca",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/injury-detail-9.txt",
+    "sha256": "2547c4ef9ef44326cff46e7327bf6b8658f9962b23d2780efb1cb7c80ac60698",
+    "actual": "2547c4ef9ef44326cff46e7327bf6b8658f9962b23d2780efb1cb7c80ac60698",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/injury-detail-22.txt",
+    "sha256": "52915c597887017a88ff9bbfe1d3c1b73efb1f2b17e60baa8899a47da1ca17ab",
+    "actual": "52915c597887017a88ff9bbfe1d3c1b73efb1f2b17e60baa8899a47da1ca17ab",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/morning-packet-2026-11-11T00-18-22-157Z.json",
+    "sha256": "e12864d6e856c11f0bc891ea1bc7a21e5c41852fae0808219cc875919b221bc1",
+    "actual": "e12864d6e856c11f0bc891ea1bc7a21e5c41852fae0808219cc875919b221bc1",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/market-movement-summary.json",
+    "sha256": "c5645e64cf78f12f5e9901aad202b6212219d722435721de197f15f8828dab14",
+    "actual": "c5645e64cf78f12f5e9901aad202b6212219d722435721de197f15f8828dab14",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/morning-packet-2026-11-11T00-19-12-456Z.json",
+    "sha256": "52d2a48857cbae0dc6340b471d107ac731a39c2afb2b4be3ecac3ab392ced5b3",
+    "actual": "52d2a48857cbae0dc6340b471d107ac731a39c2afb2b4be3ecac3ab392ced5b3",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-0900-2026-11-11T01-05-12-133Z.json",
+    "sha256": "70a34f76e4c73cb81987c435feff8f6a2e51d0c2e064077d5a8fcb8e102dc0f0",
+    "actual": "70a34f76e4c73cb81987c435feff8f6a2e51d0c2e064077d5a8fcb8e102dc0f0",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-packet-0900-2026-11-11T01-05-12-133Z.json",
+    "sha256": "82d07aeabb3ebdf6d32a2ea81d51b473be2f717aff2cc9d91e446cddc9002492",
+    "actual": "82d07aeabb3ebdf6d32a2ea81d51b473be2f717aff2cc9d91e446cddc9002492",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-0900-calculator-2026-11-11T01-04-00-575Z.txt",
+    "sha256": "3d29a809f3d6cafaf5b3024751a0c76e22fcb5624df944957895e6992624bab4",
+    "actual": "3d29a809f3d6cafaf5b3024751a0c76e22fcb5624df944957895e6992624bab4",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-0900-list-2026-11-11T01-04-00-575Z.txt",
+    "sha256": "b1bfaaa1d4f0b5be8497e2b44a9681f313939dc10ca4928eb4a5f361761b140d",
+    "actual": "b1bfaaa1d4f0b5be8497e2b44a9681f313939dc10ca4928eb4a5f361761b140d",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-0900-thornton-2026-11-11T01-04-00-575Z.txt",
+    "sha256": "7964d41a3725341ff32ac0c18b0e76a91ba7a877d4d9baa680037ea1ee7cabcd",
+    "actual": "7964d41a3725341ff32ac0c18b0e76a91ba7a877d4d9baa680037ea1ee7cabcd",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-0900-barnsley-2026-11-11T01-04-00-575Z.txt",
+    "sha256": "292b085226bb01a170d425e0f510805e4a3d2b97608d56e0f2b53a9255a6b0d1",
+    "actual": "292b085226bb01a170d425e0f510805e4a3d2b97608d56e0f2b53a9255a6b0d1",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-0900-target-body-0.txt",
+    "sha256": "0e08ef046d4bbbd65b37fda8b1d6f9b0a623393de7eb4333967ed29fd5694d31",
+    "actual": "0e08ef046d4bbbd65b37fda8b1d6f9b0a623393de7eb4333967ed29fd5694d31",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-0900-target-body-1.txt",
+    "sha256": "46359957d491f05266f53932adb50ba91d9dc92216179cb5fb31c85d9e164e7d",
+    "actual": "46359957d491f05266f53932adb50ba91d9dc92216179cb5fb31c85d9e164e7d",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1100-2026-11-11T03-03-06-633Z.json",
+    "sha256": "f5060994fdab9ffd509bad3172b8dd5cb8ee5f964979dff6a1f0de16c1b396e3",
+    "actual": "f5060994fdab9ffd509bad3172b8dd5cb8ee5f964979dff6a1f0de16c1b396e3",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-packet-1100-2026-11-11T03-03-06-633Z.json",
+    "sha256": "0f4cd599cec80fb98e03b220364591b074b1a764a2c393dd12af3f868ab3f0c2",
+    "actual": "0f4cd599cec80fb98e03b220364591b074b1a764a2c393dd12af3f868ab3f0c2",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1100-calculator-2026-11-11T03-01-38-687Z.txt",
+    "sha256": "380b5c193459224640bb05d4389eaa6531a57d132f5f7b16c212cac3a67b3608",
+    "actual": "380b5c193459224640bb05d4389eaa6531a57d132f5f7b16c212cac3a67b3608",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1100-list-2026-11-11T03-01-38-687Z.txt",
+    "sha256": "5b3cd948f87fdc402f230b4e8e9967424b0bc0873c95734276f0fc61a2e7ee34",
+    "actual": "5b3cd948f87fdc402f230b4e8e9967424b0bc0873c95734276f0fc61a2e7ee34",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1100-gap0-2026-11-11T03-01-38-687Z.txt",
+    "sha256": "78b7d4731190079afda56381e8049a3918d2880b8622499294c7bb9fd04f2a1a",
+    "actual": "78b7d4731190079afda56381e8049a3918d2880b8622499294c7bb9fd04f2a1a",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1100-gap1-2026-11-11T03-01-38-687Z.txt",
+    "sha256": "ef26f0517b7fe1e7107ab6eb5b4802a74d99b2ce49b0aad08f0f0d0ff6d426fb",
+    "actual": "ef26f0517b7fe1e7107ab6eb5b4802a74d99b2ce49b0aad08f0f0d0ff6d426fb",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1100-gap2-2026-11-11T03-01-38-687Z.txt",
+    "sha256": "bb40aca0a86761bf772aad9dba92f477f8fcc5dd1b11e8b17f19f2e22631e75e",
+    "actual": "bb40aca0a86761bf772aad9dba92f477f8fcc5dd1b11e8b17f19f2e22631e75e",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1100-backup-0.txt",
+    "sha256": "a472d05b7a68dae4c70bc6b6a809a158903327852b34a1dc144ad4d5ae955f6b",
+    "actual": "a472d05b7a68dae4c70bc6b6a809a158903327852b34a1dc144ad4d5ae955f6b",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1100-backup-1.txt",
+    "sha256": "c6e3620f51b9035d396deeb23a5753d873c68ffca47a2f75e569935ae5309fc8",
+    "actual": "c6e3620f51b9035d396deeb23a5753d873c68ffca47a2f75e569935ae5309fc8",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1300-2026-11-11T05-03-46-313Z.json",
+    "sha256": "eec2582c1717aa6f2ed2f8a0e8e11ebf62612dba280d4b1499236917d9916173",
+    "actual": "eec2582c1717aa6f2ed2f8a0e8e11ebf62612dba280d4b1499236917d9916173",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/handoff-1300-reconciled-2026-11-11T05-03-46-313Z.json",
+    "sha256": "fb161ce2ceb8f81ad3b2308244022088bc1926b9da8de3e2fdf16a0aef30a469",
+    "actual": "fb161ce2ceb8f81ad3b2308244022088bc1926b9da8de3e2fdf16a0aef30a469",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/qualification-1300-2026-11-11T05-03-46-313Z.json",
+    "sha256": "b6b3667fbe402e6fe9b0b0f7c77f2825e5a8fed7115dcaf17e60decd075d7bd5",
+    "actual": "b6b3667fbe402e6fe9b0b0f7c77f2825e5a8fed7115dcaf17e60decd075d7bd5",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/handoff.json",
+    "sha256": "d95c4cf508fccfa293598cb45235a4ae968e014705b69f882e871edb215f6ccf",
+    "actual": "d95c4cf508fccfa293598cb45235a4ae968e014705b69f882e871edb215f6ccf",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1300-calculator-2026-11-11T05-02-26-998Z.txt",
+    "sha256": "f7fc5dbcd00f05cb4af948edf4a7c4027b48596143a0a910b3f8f89a8886f45f",
+    "actual": "f7fc5dbcd00f05cb4af948edf4a7c4027b48596143a0a910b3f8f89a8886f45f",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1300-list-2026-11-11T05-02-26-998Z.txt",
+    "sha256": "8c85608b654ae9f86f92ea8b8823fb5294ce4916457cf5493d7b29620f510976",
+    "actual": "8c85608b654ae9f86f92ea8b8823fb5294ce4916457cf5493d7b29620f510976",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1300-gap005-2026-11-11T05-02-26-998Z.txt",
+    "sha256": "d83b52af9453e4d0ad9e70bbd6a787c3d061ef587b770601aa0a9be749c96e32",
+    "actual": "d83b52af9453e4d0ad9e70bbd6a787c3d061ef587b770601aa0a9be749c96e32",
+    "passed": true
+  },
+  {
+    "path": "data/research/2026-11-11/incremental-1300-gap006-2026-11-11T05-02-26-998Z.txt",
+    "sha256": "0fdf94f8ebbb22e59f801a5a1308f3ffc4356927ead6eff46ff92f17a0bb4a98",
+    "actual": "0fdf94f8ebbb22e59f801a5a1308f3ffc4356927ead6eff46ff92f17a0bb4a98",
+    "passed": true
+  }
+]
