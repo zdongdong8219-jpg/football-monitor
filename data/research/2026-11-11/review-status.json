@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-11",
+  "completed": false,
+  "mobileVerified": false,
+  "runPhase": "visual_overlay",
+  "reviewAt": "2026-11-12T05:25:00+08:00",
+  "resultsVerified": 6,
+  "pendingFixtures": 0,
+  "lastProgressAt": "2026-11-12T00:15:28.014Z",
+  "failureReason": "At recovery, review file and review-status absent after scheduled reviewAt; prior scheduler used fixed 09:15. Exact scheduler invocation failure is not established.",
+  "nextAction": "immutable overlay, local phone, publish and online phone verification"
+}

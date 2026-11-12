@@ -1,0 +1,477 @@
+{
+  "date": "2026-11-11",
+  "templateLockVersion": "2026-11-02-final-v6",
+  "templateComparison": {
+    "scan": {
+      "outsideAllowedPixels": 0,
+      "changedPixels": 258252,
+      "allowed": [
+        [
+          1120,
+          1895,
+          79,
+          66
+        ],
+        [
+          565,
+          1967,
+          94,
+          66
+        ],
+        [
+          750,
+          1967,
+          89,
+          66
+        ],
+        [
+          1120,
+          1967,
+          79,
+          66
+        ],
+        [
+          455,
+          2039,
+          104,
+          66
+        ],
+        [
+          565,
+          2039,
+          94,
+          66
+        ],
+        [
+          665,
+          2039,
+          79,
+          66
+        ],
+        [
+          750,
+          2039,
+          89,
+          66
+        ],
+        [
+          845,
+          2039,
+          104,
+          66
+        ],
+        [
+          955,
+          2039,
+          159,
+          66
+        ],
+        [
+          1120,
+          2039,
+          79,
+          66
+        ],
+        [
+          455,
+          2111,
+          104,
+          66
+        ],
+        [
+          750,
+          2111,
+          89,
+          66
+        ],
+        [
+          845,
+          2111,
+          104,
+          66
+        ],
+        [
+          1120,
+          2111,
+          79,
+          66
+        ],
+        [
+          565,
+          2183,
+          94,
+          66
+        ],
+        [
+          750,
+          2183,
+          89,
+          66
+        ],
+        [
+          1120,
+          2183,
+          79,
+          66
+        ],
+        [
+          455,
+          2255,
+          104,
+          66
+        ],
+        [
+          845,
+          2255,
+          104,
+          66
+        ],
+        [
+          1120,
+          2255,
+          79,
+          66
+        ],
+        [
+          210,
+          94,
+          825,
+          76
+        ],
+        [
+          170,
+          1674,
+          900,
+          46
+        ],
+        [
+          340,
+          1724,
+          570,
+          60
+        ],
+        [
+          284,
+          322,
+          64,
+          48
+        ],
+        [
+          273,
+          374,
+          86,
+          28
+        ],
+        [
+          284,
+          564,
+          64,
+          48
+        ],
+        [
+          273,
+          616,
+          86,
+          28
+        ],
+        [
+          284,
+          862,
+          64,
+          48
+        ],
+        [
+          273,
+          914,
+          86,
+          28
+        ],
+        [
+          284,
+          1262,
+          64,
+          48
+        ],
+        [
+          273,
+          1314,
+          86,
+          28
+        ]
+      ]
+    },
+    "tracking": {
+      "outsideAllowedPixels": 0,
+      "changedPixels": 8711,
+      "allowed": [
+        [
+          364,
+          3411,
+          71,
+          131
+        ],
+        [
+          439,
+          3411,
+          106,
+          131
+        ],
+        [
+          549,
+          3411,
+          116,
+          131
+        ],
+        [
+          899,
+          3411,
+          71,
+          131
+        ],
+        [
+          974,
+          3411,
+          106,
+          131
+        ],
+        [
+          1084,
+          3411,
+          116,
+          131
+        ]
+      ]
+    }
+  },
+  "markers": [
+    {
+      "number": "周三002",
+      "column": "handicap",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 565,
+      "y": 1967,
+      "width": 94,
+      "height": 66
+    },
+    {
+      "number": "周三002",
+      "column": "goals",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 750,
+      "y": 1967,
+      "width": 89,
+      "height": 66
+    },
+    {
+      "number": "周三003",
+      "column": "result",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 455,
+      "y": 2039,
+      "width": 104,
+      "height": 66
+    },
+    {
+      "number": "周三003",
+      "column": "handicap",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 565,
+      "y": 2039,
+      "width": 94,
+      "height": 66
+    },
+    {
+      "number": "周三003",
+      "column": "speculative",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 665,
+      "y": 2039,
+      "width": 79,
+      "height": 66
+    },
+    {
+      "number": "周三003",
+      "column": "goals",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 750,
+      "y": 2039,
+      "width": 89,
+      "height": 66
+    },
+    {
+      "number": "周三003",
+      "column": "halfFull",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 845,
+      "y": 2039,
+      "width": 104,
+      "height": 66
+    },
+    {
+      "number": "周三003",
+      "column": "score",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 955,
+      "y": 2039,
+      "width": 159,
+      "height": 66
+    },
+    {
+      "number": "周三004",
+      "column": "result",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 455,
+      "y": 2111,
+      "width": 104,
+      "height": 66
+    },
+    {
+      "number": "周三004",
+      "column": "goals",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 750,
+      "y": 2111,
+      "width": 89,
+      "height": 66
+    },
+    {
+      "number": "周三004",
+      "column": "halfFull",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 845,
+      "y": 2111,
+      "width": 104,
+      "height": 66
+    },
+    {
+      "number": "周三005",
+      "column": "handicap",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 565,
+      "y": 2183,
+      "width": 94,
+      "height": 66
+    },
+    {
+      "number": "周三005",
+      "column": "goals",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 750,
+      "y": 2183,
+      "width": 89,
+      "height": 66
+    },
+    {
+      "number": "周三006",
+      "column": "result",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 455,
+      "y": 2255,
+      "width": 104,
+      "height": 66
+    },
+    {
+      "number": "周三006",
+      "column": "halfFull",
+      "shape": "rectangle",
+      "scope": "full-cell",
+      "x": 845,
+      "y": 2255,
+      "width": 104,
+      "height": 66
+    }
+  ],
+  "geometry": {
+    "width": 1244,
+    "height": 2494,
+    "tableTop": 1824,
+    "widths": [
+      85,
+      95,
+      65,
+      165,
+      110,
+      100,
+      85,
+      95,
+      110,
+      165,
+      85
+    ],
+    "tableX": 42,
+    "headerHeight": 68,
+    "rowHeights": [
+      72,
+      72,
+      72,
+      72,
+      72,
+      72
+    ],
+    "numbers": [
+      "周三001",
+      "周三002",
+      "周三003",
+      "周三004",
+      "周三005",
+      "周三006"
+    ],
+    "ticketBlocks": [
+      {
+        "id": "2026-11-11-reissue-r2-core20",
+        "h": 242,
+        "tier": "main"
+      },
+      {
+        "id": "2026-11-11-reissue-r2-core30",
+        "h": 242,
+        "tier": "main"
+      },
+      {
+        "id": "2026-11-11-reissue-r2-dream6",
+        "h": 248,
+        "tier": "bet"
+      },
+      {
+        "h": 152,
+        "tier": "bet"
+      },
+      {
+        "id": "2026-11-11-dream3-1",
+        "h": 314,
+        "tier": "bet"
+      }
+    ],
+    "scanTop": 1659,
+    "recommendEnd": 1514
+  },
+  "manualInspection": {
+    "passed": true,
+    "checkedAt": "2026-11-12T00:19:29.459Z",
+    "evidence": [
+      "work/review-1111/scan-detail-0.png",
+      "work/review-1111/scan-detail-1.png",
+      "work/review-1111/scan-detail-2.png",
+      "work/review-1111/tracking-detail-0.png",
+      "work/review-1111/tracking-detail-1.png",
+      "work/review-1111/tracking-detail-2.png",
+      "work/review-1111/tracking-last-row.png"
+    ],
+    "notes": "Native-sized segments inspected: full-cell yellow rectangles, FT/HT, 2中1/2中1/6中3/3中1 square stamps; exact original MUSE and prematch stars retained. Only November11 tracking result and money cells changed; November7 six ordinary tickets retained, dreams excluded."
+  },
+  "geometryBasis": "Original published six-market columns; full-cell inset3 height66 stroke2; original MUSE images retained"
+}

@@ -20708,7 +20708,7 @@
         "publishedAt": "2026-11-11T06:47:41.184Z",
         "issued": true,
         "final": true,
-        "status": "待定",
+        "status": "未中",
         "stars": 2,
         "starColor": "red",
         "starReason": "横向比较后相对优先，仍有具体反证及共享腿风险，不升3星。",
@@ -21131,7 +21131,8 @@
                   ]
                 }
               }
-            }
+            },
+            "occurred": false
           },
           {
             "number": "周三003",
@@ -21524,7 +21525,8 @@
                   ]
                 }
               }
-            }
+            },
+            "occurred": true
           }
         ],
         "selectionText": "002[胜/平] × 003[负]",
@@ -21570,8 +21572,8 @@
         "simulation": true,
         "trackingEligible": true,
         "totalLegs": 2,
-        "hitCount": 0,
-        "hit": null,
+        "hitCount": 1,
+        "hit": false,
         "allocation": [
           {
             "branch": 1,
@@ -21594,7 +21596,17 @@
             "returnIfWins": 2800
           }
         ],
-        "trackingPolicy": "每票1000元模拟本金，互斥分支等额；非自动下注"
+        "trackingPolicy": "每票1000元模拟本金，互斥分支等额；非自动下注",
+        "returned": 0,
+        "net": -1000,
+        "settledAt": "2026-11-12T00:15:27.870Z",
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 0,
+          "net": -1000,
+          "status": "未中"
+        }
       }
     ],
     "three": [
@@ -22992,7 +23004,7 @@
         "publishedAt": "2026-11-11T06:47:41.184Z",
         "issued": true,
         "final": true,
-        "status": "待定",
+        "status": "未中",
         "stars": 2,
         "starColor": "red",
         "starReason": "横向比较后相对优先，仍有具体反证及共享腿风险，不升3星。",
@@ -23389,7 +23401,8 @@
                   ]
                 }
               }
-            }
+            },
+            "occurred": false
           },
           {
             "number": "周三003",
@@ -23782,7 +23795,8 @@
                   ]
                 }
               }
-            }
+            },
+            "occurred": true
           }
         ],
         "selectionText": "001[让胜] × 003[负]",
@@ -23819,8 +23833,8 @@
         "simulation": true,
         "trackingEligible": true,
         "totalLegs": 2,
-        "hitCount": 0,
-        "hit": null,
+        "hitCount": 1,
+        "hit": false,
         "allocation": [
           {
             "branch": 1,
@@ -23833,7 +23847,17 @@
             "returnIfWins": 3200
           }
         ],
-        "trackingPolicy": "每票1000元模拟本金，互斥分支等额；非自动下注"
+        "trackingPolicy": "每票1000元模拟本金，互斥分支等额；非自动下注",
+        "returned": 0,
+        "net": -1000,
+        "settledAt": "2026-11-12T00:15:27.872Z",
+        "trackingSettlement": {
+          "simulation": true,
+          "stake": 1000,
+          "returned": 0,
+          "net": -1000,
+          "status": "未中"
+        }
       }
     ],
     "dream": [],
