@@ -1,0 +1,814 @@
+{
+  "saleDate": "2026-11-13",
+  "capturedAt": "2026-11-13T23:44:20.085Z",
+  "beijingTime": "2026-11-14 07:44",
+  "source": "haoyun999 accessible lottery JSON mirror",
+  "sourceScope": "竞彩胜平负、竞彩让球、总进球数、半全场",
+  "snapshotCount": 5,
+  "asianMarket": {
+    "status": "not-verified-this-run",
+    "note": "自动快照仅记录可核对的竞彩数据；同公司亚洲盘、阵容和伤停由综合研究任务另行核验。"
+  },
+  "matches": [
+    {
+      "number": "周五002",
+      "home": "摩尔多瓦",
+      "away": "哈萨克",
+      "kickoff": "2026-11-14T01:00:00",
+      "spfOpen": {
+        "win": 2.31,
+        "draw": 2.84,
+        "lose": 2.82
+      },
+      "spfNow": {
+        "win": 2.21,
+        "draw": 2.88,
+        "lose": 2.94
+      },
+      "spfDelta": {
+        "win": -0.1,
+        "draw": 0.04,
+        "lose": 0.12
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 5.6,
+        "draw": 3.7,
+        "lose": 1.45
+      },
+      "rqspfNow": {
+        "win": 5.7,
+        "draw": 3.52,
+        "lose": 1.47
+      },
+      "rqspfDelta": {
+        "win": 0.1,
+        "draw": -0.18,
+        "lose": 0.02
+      },
+      "goals": {
+        "0": 8,
+        "1": 3.8,
+        "2": 3.2,
+        "3": 3.6,
+        "4": 7,
+        "5": 14,
+        "6": 30,
+        "7+": 40
+      },
+      "halfFullOpen": {
+        "winWin": 3.85,
+        "winDraw": 14,
+        "winLose": 26,
+        "drawWin": 5.25,
+        "drawDraw": 4.7,
+        "drawLose": 6.1,
+        "loseWin": 24,
+        "loseDraw": 14,
+        "loseLose": 4.9
+      },
+      "halfFullNow": {
+        "winWin": 4.45,
+        "winDraw": 14.5,
+        "winLose": 35,
+        "drawWin": 4.7,
+        "drawDraw": 3.7,
+        "drawLose": 6.65,
+        "loseWin": 30,
+        "loseDraw": 14.5,
+        "loseLose": 5.1
+      },
+      "halfFullDelta": {
+        "winWin": 0.6,
+        "winDraw": 0.5,
+        "winLose": 9,
+        "drawWin": -0.55,
+        "drawDraw": -1,
+        "drawLose": 0.55,
+        "loseWin": 6,
+        "loseDraw": 0.5,
+        "loseLose": 0.2
+      }
+    },
+    {
+      "number": "周五003",
+      "home": "保加利亚",
+      "away": "冰岛",
+      "kickoff": "2026-11-14T03:45:00",
+      "spfOpen": {
+        "win": 4,
+        "draw": 3.25,
+        "lose": 1.72
+      },
+      "spfNow": {
+        "win": 5.15,
+        "draw": 3.85,
+        "lose": 1.46
+      },
+      "spfDelta": {
+        "win": 1.15,
+        "draw": 0.6,
+        "lose": -0.26
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 1.85,
+        "draw": 3.3,
+        "lose": 3.38
+      },
+      "rqspfNow": {
+        "win": 2.23,
+        "draw": 2.98,
+        "lose": 2.82
+      },
+      "rqspfDelta": {
+        "win": 0.38,
+        "draw": -0.32,
+        "lose": -0.56
+      },
+      "goals": {
+        "0": 10.5,
+        "1": 4.7,
+        "2": 3.05,
+        "3": 3.35,
+        "4": 6.2,
+        "5": 11,
+        "6": 25,
+        "7+": 36
+      },
+      "halfFullOpen": {
+        "winWin": 7,
+        "winDraw": 15,
+        "winLose": 22,
+        "drawWin": 8.75,
+        "drawDraw": 5.35,
+        "drawLose": 4.4,
+        "loseWin": 30,
+        "loseDraw": 15,
+        "loseLose": 2.7
+      },
+      "halfFullNow": {
+        "winWin": 8.5,
+        "winDraw": 15,
+        "winLose": 22,
+        "drawWin": 10,
+        "drawDraw": 5.45,
+        "drawLose": 4,
+        "loseWin": 32,
+        "loseDraw": 15,
+        "loseLose": 2.55
+      },
+      "halfFullDelta": {
+        "winWin": 1.5,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 1.25,
+        "drawDraw": 0.1,
+        "drawLose": -0.4,
+        "loseWin": 2,
+        "loseDraw": 0,
+        "loseLose": -0.15
+      }
+    },
+    {
+      "number": "周五004",
+      "home": "苏格兰",
+      "away": "北马其顿",
+      "kickoff": "2026-11-14T03:45:00",
+      "spfOpen": {
+        "win": 1.1,
+        "draw": 6.1,
+        "lose": 15
+      },
+      "spfNow": {
+        "win": 1.08,
+        "draw": 6.6,
+        "lose": 16
+      },
+      "spfDelta": {
+        "win": -0.02,
+        "draw": 0.5,
+        "lose": 1
+      },
+      "handicap": -2,
+      "rqspfOpen": {
+        "win": 2.64,
+        "draw": 3.52,
+        "lose": 2.1
+      },
+      "rqspfNow": {
+        "win": 2.33,
+        "draw": 3.3,
+        "lose": 2.46
+      },
+      "rqspfDelta": {
+        "win": -0.31,
+        "draw": -0.22,
+        "lose": 0.36
+      },
+      "goals": {
+        "0": 18,
+        "1": 6.75,
+        "2": 4.05,
+        "3": 3.15,
+        "4": 4.1,
+        "5": 8,
+        "6": 15,
+        "7+": 20
+      },
+      "halfFullOpen": {
+        "winWin": 1.5,
+        "winDraw": 27,
+        "winLose": 100,
+        "drawWin": 3.55,
+        "drawDraw": 8.5,
+        "drawLose": 30,
+        "loseWin": 29,
+        "loseDraw": 27,
+        "loseLose": 27
+      },
+      "halfFullNow": {
+        "winWin": 1.39,
+        "winDraw": 33,
+        "winLose": 100,
+        "drawWin": 3.65,
+        "drawDraw": 10,
+        "drawLose": 36,
+        "loseWin": 29,
+        "loseDraw": 33,
+        "loseLose": 37
+      },
+      "halfFullDelta": {
+        "winWin": -0.11,
+        "winDraw": 6,
+        "winLose": 0,
+        "drawWin": 0.1,
+        "drawDraw": 1.5,
+        "drawLose": 6,
+        "loseWin": 0,
+        "loseDraw": 6,
+        "loseLose": 10
+      }
+    },
+    {
+      "number": "周五005",
+      "home": "塞尔维亚",
+      "away": "德国",
+      "kickoff": "2026-11-14T03:45:00",
+      "spfOpen": {
+        "win": 9,
+        "draw": 5.55,
+        "lose": 1.18
+      },
+      "spfNow": {
+        "win": 11.5,
+        "draw": 6.25,
+        "lose": 1.12
+      },
+      "spfDelta": {
+        "win": 2.5,
+        "draw": 0.7,
+        "lose": -0.06
+      },
+      "handicap": 2,
+      "rqspfOpen": {
+        "win": 1.97,
+        "draw": 3.95,
+        "lose": 2.64
+      },
+      "rqspfNow": {
+        "win": 2.18,
+        "draw": 3.78,
+        "lose": 2.4
+      },
+      "rqspfDelta": {
+        "win": 0.21,
+        "draw": -0.17,
+        "lose": -0.24
+      },
+      "goals": {
+        "0": 27,
+        "1": 8,
+        "2": 4.8,
+        "3": 3.7,
+        "4": 3.85,
+        "5": 6.3,
+        "6": 10,
+        "7+": 10.5
+      },
+      "halfFullOpen": {
+        "winWin": 16,
+        "winDraw": 19,
+        "winLose": 21,
+        "drawWin": 22,
+        "drawDraw": 9.75,
+        "drawLose": 4.05,
+        "loseWin": 65,
+        "loseDraw": 19,
+        "loseLose": 1.59
+      },
+      "halfFullNow": {
+        "winWin": 21,
+        "winDraw": 21,
+        "winLose": 19,
+        "drawWin": 26,
+        "drawDraw": 11.5,
+        "drawLose": 3.95,
+        "loseWin": 75,
+        "loseDraw": 21,
+        "loseLose": 1.5
+      },
+      "halfFullDelta": {
+        "winWin": 5,
+        "winDraw": 2,
+        "winLose": -2,
+        "drawWin": 4,
+        "drawDraw": 1.75,
+        "drawLose": -0.1,
+        "loseWin": 10,
+        "loseDraw": 2,
+        "loseLose": -0.09
+      }
+    },
+    {
+      "number": "周五006",
+      "home": "卢森堡",
+      "away": "爱沙尼亚",
+      "kickoff": "2026-11-14T03:45:00",
+      "spfOpen": {
+        "win": 1.89,
+        "draw": 2.94,
+        "lose": 3.7
+      },
+      "spfNow": {
+        "win": 2.44,
+        "draw": 2.62,
+        "lose": 2.88
+      },
+      "spfDelta": {
+        "win": 0.55,
+        "draw": -0.32,
+        "lose": -0.82
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 4.18,
+        "draw": 3.28,
+        "lose": 1.68
+      },
+      "rqspfNow": {
+        "win": 6.05,
+        "draw": 4,
+        "lose": 1.38
+      },
+      "rqspfDelta": {
+        "win": 1.87,
+        "draw": 0.72,
+        "lose": -0.3
+      },
+      "goals": {
+        "0": 7.5,
+        "1": 3.6,
+        "2": 3.1,
+        "3": 3.9,
+        "4": 7.2,
+        "5": 15,
+        "6": 28,
+        "7+": 45
+      },
+      "halfFullOpen": {
+        "winWin": 3.2,
+        "winDraw": 15,
+        "winLose": 29,
+        "drawWin": 4.45,
+        "drawDraw": 4.5,
+        "drawLose": 8,
+        "loseWin": 23,
+        "loseDraw": 15,
+        "loseLose": 6.3
+      },
+      "halfFullNow": {
+        "winWin": 4.6,
+        "winDraw": 15.5,
+        "winLose": 37,
+        "drawWin": 4.3,
+        "drawDraw": 3.45,
+        "drawLose": 6.8,
+        "loseWin": 34,
+        "loseDraw": 15.5,
+        "loseLose": 5.5
+      },
+      "halfFullDelta": {
+        "winWin": 1.4,
+        "winDraw": 0.5,
+        "winLose": 8,
+        "drawWin": -0.15,
+        "drawDraw": -1.05,
+        "drawLose": -1.2,
+        "loseWin": 11,
+        "loseDraw": 0.5,
+        "loseLose": -0.8
+      }
+    },
+    {
+      "number": "周五007",
+      "home": "斯洛伐克",
+      "away": "法罗群岛",
+      "kickoff": "2026-11-14T03:45:00",
+      "spfOpen": {
+        "win": 1.21,
+        "draw": 4.7,
+        "lose": 10
+      },
+      "spfNow": {
+        "win": 1.2,
+        "draw": 4.75,
+        "lose": 10.5
+      },
+      "spfDelta": {
+        "win": -0.01,
+        "draw": 0.05,
+        "lose": 0.5
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 1.82,
+        "draw": 3.43,
+        "lose": 3.35
+      },
+      "rqspfNow": {
+        "win": 1.8,
+        "draw": 3.43,
+        "lose": 3.42
+      },
+      "rqspfDelta": {
+        "win": -0.02,
+        "draw": 0,
+        "lose": 0.07
+      },
+      "goals": {
+        "0": 13,
+        "1": 5.1,
+        "2": 3.35,
+        "3": 3.2,
+        "4": 5.2,
+        "5": 10.5,
+        "6": 20,
+        "7+": 30
+      },
+      "halfFullOpen": {
+        "winWin": 1.7,
+        "winDraw": 23,
+        "winLose": 80,
+        "drawWin": 3.55,
+        "drawDraw": 6.9,
+        "drawLose": 20,
+        "loseWin": 29,
+        "loseDraw": 23,
+        "loseLose": 18
+      },
+      "halfFullNow": {
+        "winWin": 1.7,
+        "winDraw": 23,
+        "winLose": 80,
+        "drawWin": 3.55,
+        "drawDraw": 6.9,
+        "drawLose": 20,
+        "loseWin": 29,
+        "loseDraw": 23,
+        "loseLose": 18
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周五008",
+      "home": "斯洛文尼",
+      "away": "瑞士",
+      "kickoff": "2026-11-14T03:45:00",
+      "spfOpen": {
+        "win": 5.2,
+        "draw": 3.41,
+        "lose": 1.53
+      },
+      "spfNow": {
+        "win": 6.3,
+        "draw": 3.62,
+        "lose": 1.42
+      },
+      "spfDelta": {
+        "win": 1.1,
+        "draw": 0.21,
+        "lose": -0.11
+      },
+      "handicap": 1,
+      "rqspfOpen": {
+        "win": 2.14,
+        "draw": 3.2,
+        "lose": 2.78
+      },
+      "rqspfNow": {
+        "win": 2.33,
+        "draw": 2.83,
+        "lose": 2.8
+      },
+      "rqspfDelta": {
+        "win": 0.19,
+        "draw": -0.37,
+        "lose": 0.02
+      },
+      "goals": {
+        "0": 7.5,
+        "1": 3.65,
+        "2": 3.05,
+        "3": 3.8,
+        "4": 7.4,
+        "5": 16,
+        "6": 28,
+        "7+": 44
+      },
+      "halfFullOpen": {
+        "winWin": 9,
+        "winDraw": 17,
+        "winLose": 22,
+        "drawWin": 11,
+        "drawDraw": 5.5,
+        "drawLose": 3.85,
+        "loseWin": 36,
+        "loseDraw": 17,
+        "loseLose": 2.38
+      },
+      "halfFullNow": {
+        "winWin": 11,
+        "winDraw": 17,
+        "winLose": 29,
+        "drawWin": 12,
+        "drawDraw": 5,
+        "drawLose": 3.8,
+        "loseWin": 50,
+        "loseDraw": 17,
+        "loseLose": 2.25
+      },
+      "halfFullDelta": {
+        "winWin": 2,
+        "winDraw": 0,
+        "winLose": 7,
+        "drawWin": 1,
+        "drawDraw": -0.5,
+        "drawLose": -0.05,
+        "loseWin": 14,
+        "loseDraw": 0,
+        "loseLose": -0.13
+      }
+    },
+    {
+      "number": "周五009",
+      "home": "荷兰",
+      "away": "希腊",
+      "kickoff": "2026-11-14T03:45:00",
+      "spfOpen": {
+        "win": 1.37,
+        "draw": 4.25,
+        "lose": 5.75
+      },
+      "spfNow": {
+        "win": 1.36,
+        "draw": 4.35,
+        "lose": 5.75
+      },
+      "spfDelta": {
+        "win": -0.01,
+        "draw": 0.1,
+        "lose": 0
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.16,
+        "draw": 3.52,
+        "lose": 2.55
+      },
+      "rqspfNow": {
+        "win": 2.36,
+        "draw": 3.09,
+        "lose": 2.55
+      },
+      "rqspfDelta": {
+        "win": 0.2,
+        "draw": -0.43,
+        "lose": 0
+      },
+      "goals": {
+        "0": 22,
+        "1": 7.3,
+        "2": 4.35,
+        "3": 3.1,
+        "4": 3.95,
+        "5": 7.45,
+        "6": 13,
+        "7+": 18
+      },
+      "halfFullOpen": {
+        "winWin": 1.95,
+        "winDraw": 18,
+        "winLose": 38,
+        "drawWin": 4.1,
+        "drawDraw": 7.5,
+        "drawLose": 13.5,
+        "loseWin": 20,
+        "loseDraw": 18,
+        "loseLose": 9.75
+      },
+      "halfFullNow": {
+        "winWin": 2.02,
+        "winDraw": 18,
+        "winLose": 36,
+        "drawWin": 3.8,
+        "drawDraw": 7.85,
+        "drawLose": 12.5,
+        "loseWin": 21,
+        "loseDraw": 18,
+        "loseLose": 9.75
+      },
+      "halfFullDelta": {
+        "winWin": 0.07,
+        "winDraw": 0,
+        "winLose": -2,
+        "drawWin": -0.3,
+        "drawDraw": 0.35,
+        "drawLose": -1,
+        "loseWin": 1,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周五010",
+      "home": "阿根廷",
+      "away": "乌拉圭",
+      "kickoff": "2026-11-14T07:00:00",
+      "spfOpen": {
+        "win": 1.37,
+        "draw": 3.85,
+        "lose": 6.7
+      },
+      "spfNow": {
+        "win": 1.37,
+        "draw": 3.85,
+        "lose": 6.7
+      },
+      "spfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 2.41,
+        "draw": 3.05,
+        "lose": 2.52
+      },
+      "rqspfNow": {
+        "win": 2.41,
+        "draw": 3.05,
+        "lose": 2.52
+      },
+      "rqspfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "goals": {
+        "0": 11,
+        "1": 4.65,
+        "2": 3.3,
+        "3": 3.35,
+        "4": 6.1,
+        "5": 10,
+        "6": 20,
+        "7+": 31
+      },
+      "halfFullOpen": {
+        "winWin": 2,
+        "winDraw": 18,
+        "winLose": 60,
+        "drawWin": 3.95,
+        "drawDraw": 5.95,
+        "drawLose": 13,
+        "loseWin": 27,
+        "loseDraw": 18,
+        "loseLose": 11
+      },
+      "halfFullNow": {
+        "winWin": 2,
+        "winDraw": 18,
+        "winLose": 60,
+        "drawWin": 3.95,
+        "drawDraw": 5.95,
+        "drawLose": 13,
+        "loseWin": 27,
+        "loseDraw": 18,
+        "loseLose": 11
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    },
+    {
+      "number": "周五011",
+      "home": "哥伦比亚",
+      "away": "智利",
+      "kickoff": "2026-11-14T08:00:00",
+      "spfOpen": {
+        "win": 1.23,
+        "draw": 4.65,
+        "lose": 9
+      },
+      "spfNow": {
+        "win": 1.23,
+        "draw": 4.65,
+        "lose": 9
+      },
+      "spfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "handicap": -1,
+      "rqspfOpen": {
+        "win": 1.84,
+        "draw": 3.48,
+        "lose": 3.24
+      },
+      "rqspfNow": {
+        "win": 1.84,
+        "draw": 3.48,
+        "lose": 3.24
+      },
+      "rqspfDelta": {
+        "win": 0,
+        "draw": 0,
+        "lose": 0
+      },
+      "goals": {
+        "0": 13.5,
+        "1": 5,
+        "2": 3.3,
+        "3": 3.4,
+        "4": 5.3,
+        "5": 9.45,
+        "6": 18,
+        "7+": 30
+      },
+      "halfFullOpen": {
+        "winWin": 1.8,
+        "winDraw": 20,
+        "winLose": 70,
+        "drawWin": 3.6,
+        "drawDraw": 7,
+        "drawLose": 17.5,
+        "loseWin": 28,
+        "loseDraw": 20,
+        "loseLose": 14
+      },
+      "halfFullNow": {
+        "winWin": 1.8,
+        "winDraw": 20,
+        "winLose": 70,
+        "drawWin": 3.6,
+        "drawDraw": 7,
+        "drawLose": 17.5,
+        "loseWin": 28,
+        "loseDraw": 20,
+        "loseLose": 14
+      },
+      "halfFullDelta": {
+        "winWin": 0,
+        "winDraw": 0,
+        "winLose": 0,
+        "drawWin": 0,
+        "drawDraw": 0,
+        "drawLose": 0,
+        "loseWin": 0,
+        "loseDraw": 0,
+        "loseLose": 0
+      }
+    }
+  ]
+}
