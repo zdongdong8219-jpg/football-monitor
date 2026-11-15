@@ -9,7 +9,7 @@
   "edition": "2026-11-15-noon-s1",
   "publicationChannel": "current_chat_and_phone",
   "mobileUpload": true,
-  "mobileVerified": false,
+  "mobileVerified": true,
   "chatVerified": false,
   "finalLocked": true,
   "completed": false,
@@ -36,7 +36,7 @@
       "primaryPick": "胜/平",
       "handicapPick": "让平/让负",
       "speculative": "胜",
-      "goals": "1/2",
+      "goals": "2/1",
       "halfFull": "平平/平胜",
       "score": "1:0;1:1;2:1",
       "projectStars": {
@@ -712,7 +712,7 @@
           "market": "ttg",
           "name": "总进球",
           "key": "s2",
-          "direction": "1/2",
+          "direction": "2/1",
           "stars": 1,
           "support": "连续零封及首回合0:0保持到85分钟，条件上2球主1球副。",
           "strongestCounterevidence": "神户加强首发和必须追分会打开3+；0球也是实际漏项。",
@@ -10417,7 +10417,7 @@
       "primaryPick": "胜",
       "handicapPick": "让负/让平",
       "speculative": "让平",
-      "goals": "3/4/5",
+      "goals": "4/3/5",
       "halfFull": "胜胜",
       "score": "3:0;4:0;4:1",
       "projectStars": {
@@ -10802,7 +10802,7 @@
           "market": "ttg",
           "name": "总进球",
           "key": "s4",
-          "direction": "3/4/5",
+          "direction": "4/3/5",
           "stars": 1,
           "support": "实力差与低位对手，4主3/5副形成单方持续产出情景。",
           "strongestCounterevidence": "Finland创造受缺员影响，0/1/2与6/7+尾都明确；7:0不能删。",
@@ -12455,7 +12455,7 @@
       "primaryPick": "胜",
       "handicapPick": "让平/让负",
       "speculative": "让平",
-      "goals": "2/3",
+      "goals": "3/2",
       "halfFull": "平胜/胜胜",
       "score": "2:1;1:1;2:2",
       "projectStars": {
@@ -12875,7 +12875,7 @@
           "market": "ttg",
           "name": "总进球",
           "key": "s3",
-          "direction": "2/3",
+          "direction": "3/2",
           "stars": 1,
           "support": "西队创造和英队14球链均支持双方得分，3球主2球副。",
           "strongestCounterevidence": "不同对手强度不等价，守平可1/0，双方打开也会4+。",
@@ -30199,7 +30199,7 @@
       "date": "2026-11-15",
       "file": "2026-11-15-noon-scan.png",
       "path": "C:/Users/Administrator/Documents/Codex/2026-11-15/11-40-13-40-c-users/outputs/2026-11-15-noon-scan.png",
-      "sha256": "f674bff1135f2f55e170efb8feed780484a684d2b0d526b81f9175dd2088528c"
+      "sha256": "85b7e07d8493960b05635eac3e1473e9687f45f577b69d1dc3fa4c77bc08439c"
     },
     {
       "title": "今日跟踪",
@@ -30222,5 +30222,15 @@
       "path": "C:/Users/Administrator/Documents/Codex/2026-11-15/11-40-13-40-c-users/outputs/2026-11-14-review-tracking.png",
       "sha256": "8b04346526c1ebc62a4c3bd671b09685674f02ee56c5a1c8366b0c0a4f0ca943"
     }
-  ]
+  ],
+  "onlineVerifiedAt": "2026-11-15T03:56:24.884Z",
+  "finalPublication": {
+    "commit": "cd6902157a8eec21fdef223e9a12cb2dc291b5b2",
+    "status": "phone_verified",
+    "url": "https://zdongdong8219-jpg.github.io/football-monitor/phone-v2.html?v=20261115-noon"
+  },
+  "displayCorrection": {
+    "at": "2026-11-15T03:58:02.797Z",
+    "scope": "页脚11:45与总球主次顺序；正式票/赔率/星级未变"
+  }
 }
