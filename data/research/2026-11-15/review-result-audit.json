@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-15",
+  "checkedAt": "2026-11-15T22:11:58.056Z",
+  "fixtures": [
+    {
+      "number": "周日001",
+      "officialMatchId": 2042767,
+      "scheduledKickoff": "2026-11-15T13:00:00+08:00",
+      "sourceKickoff": "2026-11-15T05:00:00.000Z",
+      "sourceTeams": [
+        "Machida Zelvia",
+        "Vissel Kobe"
+      ],
+      "sourceLeague": "League Cup",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "1:1",
+      "halfTime": "0:0",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=6538692",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-6538692.json",
+      "sha256": "b169605af7a2dae562643c1ab44d4216c94ade61ad718b4253805e2a98c4a62b",
+      "checkedAt": "2026-11-15T22:11:52.179Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeVerified": true,
+      "halfTimeSecondaryVerified": false,
+      "halfTimeVerificationNote": "FotMob explicit HT event; secondary source verifies identity, kickoff and FT only.",
+      "secondarySource": {
+        "url": "https://odds.zgzcw.com/odds/oyzs_ajax.action",
+        "rawFile": "data/research/2026-11-15/review-results/zg-results.json",
+        "sha256": "b7dac38789fe3dffa6d28d4f70e0530532eb62e12302dffd085b3e38c47c6118",
+        "checkedAt": "2026-11-15T22:12:16.674Z",
+        "eventId": 4665767,
+        "fullTime": "1:1",
+        "halfTime": null
+      }
+    },
+    {
+      "number": "周日002",
+      "officialMatchId": 2042768,
+      "scheduledKickoff": "2026-11-15T14:00:00+08:00",
+      "sourceKickoff": "2026-11-15T06:00:00.000Z",
+      "sourceTeams": [
+        "Kashima Antlers",
+        "Yokohama F.Marinos"
+      ],
+      "sourceLeague": "League Cup",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "3:2",
+      "halfTime": "1:0",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=6538694",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-6538694.json",
+      "sha256": "d77ad1cca230f3f13c47baa98e7354147950c33d315d121508678b501fef1a3c",
+      "checkedAt": "2026-11-15T22:11:52.550Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeVerified": true,
+      "halfTimeSecondaryVerified": false,
+      "halfTimeVerificationNote": "FotMob explicit HT event; secondary source verifies identity, kickoff and FT only.",
+      "secondarySource": {
+        "url": "https://odds.zgzcw.com/odds/oyzs_ajax.action",
+        "rawFile": "data/research/2026-11-15/review-results/zg-results.json",
+        "sha256": "b7dac38789fe3dffa6d28d4f70e0530532eb62e12302dffd085b3e38c47c6118",
+        "checkedAt": "2026-11-15T22:12:16.674Z",
+        "eventId": 4665769,
+        "fullTime": "3:2",
+        "halfTime": null
+      }
+    },
+    {
+      "number": "周日003",
+      "officialMatchId": 2042769,
+      "scheduledKickoff": "2026-11-15T14:00:00+08:00",
+      "sourceKickoff": "2026-11-15T06:00:00.000Z",
+      "sourceTeams": [
+        "Cerezo Osaka",
+        "Urawa Red Diamonds"
+      ],
+      "sourceLeague": "League Cup",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "1:1",
+      "halfTime": "0:0",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=6538693",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-6538693.json",
+      "sha256": "ef0a4431964febc152685c942cae8ebef8e170cb22d025641cacb2161c476e2e",
+      "checkedAt": "2026-11-15T22:11:53.092Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeVerified": true,
+      "halfTimeSecondaryVerified": false,
+      "halfTimeVerificationNote": "FotMob explicit HT event; secondary source verifies identity, kickoff and FT only.",
+      "secondarySource": {
+        "url": "https://odds.zgzcw.com/odds/oyzs_ajax.action",
+        "rawFile": "data/research/2026-11-15/review-results/zg-results.json",
+        "sha256": "b7dac38789fe3dffa6d28d4f70e0530532eb62e12302dffd085b3e38c47c6118",
+        "checkedAt": "2026-11-15T22:12:16.674Z",
+        "eventId": 4665771,
+        "fullTime": "1:1",
+        "halfTime": null
+      }
+    },
+    {
+      "number": "周日004",
+      "officialMatchId": 2042770,
+      "scheduledKickoff": "2026-11-15T16:00:00+08:00",
+      "sourceKickoff": "2026-11-15T08:00:00.000Z",
+      "sourceTeams": [
+        "Kashiwa Reysol",
+        "Kawasaki Frontale"
+      ],
+      "sourceLeague": "League Cup",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "5:4",
+      "halfTime": "1:3",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=6538695",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-6538695.json",
+      "sha256": "277f27511d3b3e2cb4149bcc61cbb010bc0ea56308d26193a2b2304a2320dca9",
+      "checkedAt": "2026-11-15T22:11:53.749Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeVerified": true,
+      "halfTimeSecondaryVerified": false,
+      "halfTimeVerificationNote": "FotMob explicit HT event; secondary source verifies identity, kickoff and FT only.",
+      "secondarySource": {
+        "url": "https://odds.zgzcw.com/odds/oyzs_ajax.action",
+        "rawFile": "data/research/2026-11-15/review-results/zg-results.json",
+        "sha256": "b7dac38789fe3dffa6d28d4f70e0530532eb62e12302dffd085b3e38c47c6118",
+        "checkedAt": "2026-11-15T22:12:16.674Z",
+        "eventId": 4665765,
+        "fullTime": "5:4",
+        "halfTime": null
+      }
+    },
+    {
+      "number": "周日005",
+      "officialMatchId": 2042771,
+      "scheduledKickoff": "2026-11-15T21:30:00+08:00",
+      "sourceKickoff": "2026-11-15T13:30:00.000Z",
+      "sourceTeams": [
+        "MVV Maastricht",
+        "Vitesse"
+      ],
+      "sourceLeague": "Eerste Divisie",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "2:1",
+      "halfTime": "1:0",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5832952",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-5832952.json",
+      "sha256": "54091582459d27b1474bcfc6c125a1aaca9eb2c14cb7c1c9e059d691ee4aac5f",
+      "checkedAt": "2026-11-15T22:11:54.090Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeVerified": true,
+      "halfTimeSecondaryVerified": false,
+      "halfTimeVerificationNote": "FotMob explicit HT event; secondary source verifies identity, kickoff and FT only.",
+      "secondarySource": {
+        "url": "https://odds.zgzcw.com/odds/oyzs_ajax.action",
+        "rawFile": "data/research/2026-11-15/review-results/zg-results.json",
+        "sha256": "b7dac38789fe3dffa6d28d4f70e0530532eb62e12302dffd085b3e38c47c6118",
+        "checkedAt": "2026-11-15T22:12:16.674Z",
+        "eventId": 4551914,
+        "fullTime": "2:1",
+        "halfTime": null
+      }
+    },
+    {
+      "number": "周日006",
+      "officialMatchId": 2042772,
+      "scheduledKickoff": "2026-11-15T22:00:00+08:00",
+      "sourceKickoff": "2026-11-15T14:00:00.000Z",
+      "sourceTeams": [
+        "Latvia",
+        "Armenia"
+      ],
+      "sourceLeague": "UEFA Nations League C Grp. 2",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "0:0",
+      "halfTime": "0:0",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5181932",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-5181932.json",
+      "sha256": "e5d06a6d68307f447dcca6e8ac9612444b28b0f837e9a9a3e36c486071246b03",
+      "checkedAt": "2026-11-15T22:11:54.360Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeSecondaryVerified": true,
+      "secondarySource": {
+        "url": "https://www.bbc.com/sport/football/live/c61wr7jglnwpt",
+        "rawFile": "data/research/2026-11-15/review-results/bbc-6.html",
+        "sha256": "6a18bf5d44bff2819cd60b6387a31243733501771dcd4862f2b6a6dbe57324e1",
+        "checkedAt": "2026-11-15T22:11:56.449Z",
+        "boardEvidence": "Latvia 0 , Armenia 0 at Full time",
+        "halfTimeEvidence": "HT 0-0"
+      }
+    },
+    {
+      "number": "周日007",
+      "officialMatchId": 2042773,
+      "scheduledKickoff": "2026-11-15T22:00:00+08:00",
+      "sourceKickoff": "2026-11-15T14:00:00.000Z",
+      "sourceTeams": [
+        "Cyprus",
+        "Montenegro"
+      ],
+      "sourceLeague": "UEFA Nations League C Grp. 2",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "1:4",
+      "halfTime": "0:1",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5181931",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-5181931.json",
+      "sha256": "ffa686a73aac5fcf422dc96644f622b606e36028bbcdf8a2d47667698cd5399e",
+      "checkedAt": "2026-11-15T22:11:54.524Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeSecondaryVerified": true,
+      "secondarySource": {
+        "url": "https://www.bbc.com/sport/football/live/ckedq195688qt",
+        "rawFile": "data/research/2026-11-15/review-results/bbc-7.html",
+        "sha256": "6b2b62ff624faa357aec2cbbad0b36cdcac597441a4b0b60f70cb9e365bcb9f5",
+        "checkedAt": "2026-11-15T22:11:56.982Z",
+        "boardEvidence": "Cyprus 1 , Montenegro 4 at Full time",
+        "halfTimeEvidence": "HT 0-1"
+      }
+    },
+    {
+      "number": "周日008",
+      "officialMatchId": 2042785,
+      "scheduledKickoff": "2026-11-16T01:00:00+08:00",
+      "sourceKickoff": "2026-11-15T17:00:00.000Z",
+      "sourceTeams": [
+        "Finland",
+        "San Marino"
+      ],
+      "sourceLeague": "UEFA Nations League C Grp. 1",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "7:2",
+      "halfTime": "5:1",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5181905",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-5181905.json",
+      "sha256": "944110b20cd53eae8c5064bdfb2ed2353624c4969e9197bb21f8c3b2b0967bee",
+      "checkedAt": "2026-11-15T22:11:54.701Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeSecondaryVerified": true,
+      "secondarySource": {
+        "url": "https://www.bbc.com/sport/football/live/cv702341je34t",
+        "rawFile": "data/research/2026-11-15/review-results/bbc-8.html",
+        "sha256": "cba64756c6d28bcf5964b3d8aabc02e355f37f7f51f4fbcd25878d98385c36cc",
+        "checkedAt": "2026-11-15T22:11:57.501Z",
+        "boardEvidence": "Finland 7 , San Marino 2 at Full time",
+        "halfTimeEvidence": "HT 5-1"
+      }
+    },
+    {
+      "number": "周日009",
+      "officialMatchId": 2042774,
+      "scheduledKickoff": "2026-11-16T03:45:00+08:00",
+      "sourceKickoff": "2026-11-15T19:45:00.000Z",
+      "sourceTeams": [
+        "Croatia",
+        "Czechia"
+      ],
+      "sourceLeague": "UEFA Nations League A Grp. 3",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "2:1",
+      "halfTime": "1:0",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5181859",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-5181859.json",
+      "sha256": "ad31de49d4ea8db8be5b6a050ec415716db42f8b69a5dd29ba77d5aed906208a",
+      "checkedAt": "2026-11-15T22:11:54.796Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeSecondaryVerified": true,
+      "secondarySource": {
+        "url": "https://www.bbc.com/sport/football/live/c6x298lxn51yt",
+        "rawFile": "data/research/2026-11-15/review-results/bbc-009.html",
+        "sha256": "78573876f5c900b65fac786b3bdceb2a691b3b38fdf0bb79f100e6431d97e19d",
+        "checkedAt": "2026-11-15T22:12:16.596Z",
+        "boardEvidence": "Croatia 2 , Czech Republic 1 at Full time",
+        "halfTimeEvidence": "HT 1-0"
+      }
+    },
+    {
+      "number": "周日010",
+      "officialMatchId": 2042775,
+      "scheduledKickoff": "2026-11-16T03:45:00+08:00",
+      "sourceKickoff": "2026-11-15T19:45:00.000Z",
+      "sourceTeams": [
+        "Spain",
+        "England"
+      ],
+      "sourceLeague": "UEFA Nations League A Grp. 3",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "2:3",
+      "halfTime": "0:1",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5181860",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-5181860.json",
+      "sha256": "25ae7b4a7c463bac96fb07a7f7f14028e8b0662796e01433e7dc4c3bd5b881b6",
+      "checkedAt": "2026-11-15T22:11:54.889Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeSecondaryVerified": true,
+      "secondarySource": {
+        "url": "https://www.bbc.com/sport/football/live/c65y1lrepr5zt",
+        "rawFile": "data/research/2026-11-15/review-results/bbc-10.html",
+        "sha256": "a3d5507bfe42b18748ed49e8f2232abc73ede3c65b862fdf2cf2882180795bae",
+        "checkedAt": "2026-11-15T22:11:57.799Z",
+        "boardEvidence": "Spain 2 , England 3 at Full time",
+        "halfTimeEvidence": "HT 0-1"
+      }
+    },
+    {
+      "number": "周日011",
+      "officialMatchId": 2042776,
+      "scheduledKickoff": "2026-11-16T03:45:00+08:00",
+      "sourceKickoff": "2026-11-15T19:45:00.000Z",
+      "sourceTeams": [
+        "Belgium",
+        "Italy"
+      ],
+      "sourceLeague": "UEFA Nations League A Grp. 1",
+      "identityVerified": true,
+      "finished": true,
+      "fullTime": "4:1",
+      "halfTime": "3:1",
+      "sourceUrl": "https://www.fotmob.com/api/data/matchDetails?matchId=5181798",
+      "rawFile": "data/research/2026-11-15/review-results/fotmob-5181798.json",
+      "sha256": "7302b7453bb36c1da7890b2521c3e49257fd30b21de4a30df944ec2a2cd8d4ae",
+      "checkedAt": "2026-11-15T22:11:54.983Z",
+      "boardAgreement": true,
+      "secondaryVerified": true,
+      "halfTimeSecondaryVerified": true,
+      "secondarySource": {
+        "url": "https://www.bbc.com/sport/football/live/cmx27n430548t",
+        "rawFile": "data/research/2026-11-15/review-results/bbc-11.html",
+        "sha256": "77cec3c52a5e04349ae9d2ae1e0769e1eebdccba17b7bd2cfcfc8b582ab8186e",
+        "checkedAt": "2026-11-15T22:11:58.056Z",
+        "boardEvidence": "Belgium 4 , Italy 1 at Full time",
+        "halfTimeEvidence": "HT 3-1"
+      }
+    }
+  ]
+}
