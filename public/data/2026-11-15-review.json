@@ -1,8 +1,8 @@
 {
   "date": "2026-11-15",
-  "completed": false,
-  "chatVerified": false,
-  "mobileVerified": false,
+  "completed": true,
+  "chatVerified": true,
+  "mobileVerified": true,
   "publicationChannel": "current_chat_and_phone",
   "generatedAt": "2026-11-15T22:12:43.217Z",
   "reviewAt": "2026-11-15T22:10:00.000Z",
@@ -28933,5 +28933,8 @@
     "11场身份与全场双源；001至005半场仅FotMob明确HT事件，006至011半场双源。",
     "普通3串与梦想原票零金额，仅记命中关数，不跟踪。",
     "主聊天及手机交付，未验收前不标完成；不自动下注。"
-  ]
+  ],
+  "chatDeliveredAt": "2026-11-15T22:15:34.175Z",
+  "chatVerifiedAt": "2026-11-15T22:17:59.171Z",
+  "deliveryEvidence": "data/research/2026-11-15/review-final-chat-message-evidence.json"
 }

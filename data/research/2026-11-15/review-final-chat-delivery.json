@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-15",
+  "status": "sent_verified",
+  "preparedAt": "2026-11-15T22:13:28.848Z",
+  "targetThreadId": "01a1b370-6fb6-7d83-9b61-a9d45acc18ef",
+  "images": [
+    {
+      "path": "C:/Users/Administrator/Documents/Codex/2026-11-15/new-chat/outputs/2026-11-15-original-scan.png",
+      "sha256": "85b7e07d8493960b05635eac3e1473e9687f45f577b69d1dc3fa4c77bc08439c"
+    },
+    {
+      "path": "C:/Users/Administrator/Documents/Codex/2026-11-15/new-chat/outputs/2026-11-15-current-tracking.png",
+      "sha256": "d2c96699d364c578ab784f63b3b6c513e2b861765155560698765f5eb7906cf5"
+    },
+    {
+      "path": "C:/Users/Administrator/Documents/Codex/2026-11-15/new-chat/outputs/2026-11-15-review-scan.png",
+      "sha256": "4d5acb96c4527fe549bb2e78e3fca52ad57f5edb802e75177739f8b343df94d7"
+    },
+    {
+      "path": "C:/Users/Administrator/Documents/Codex/2026-11-15/new-chat/outputs/2026-11-15-review-tracking.png",
+      "sha256": "d2c96699d364c578ab784f63b3b6c513e2b861765155560698765f5eb7906cf5"
+    }
+  ],
+  "report": {
+    "path": "C:/Users/Administrator/Documents/Codex/2026-11-15/new-chat/outputs/2026-11-15-review.json",
+    "sha256": "e79a52c870ce6d216706a5af3cfa9c26381b5bbf27ea19251b09522dcc3e96d0"
+  },
+  "sources": {
+    "path": "data/research/2026-11-15/review-result-audit.json",
+    "sha256": "03edd5f48c7d5949fb66c56201b79cd7045ce4de21eca0ef8e7deddcdeb9ca38"
+  },
+  "completed": true,
+  "chatVerified": true,
+  "mobileVerified": true,
+  "chatDeliveredAt": "2026-11-15T22:15:34.175Z",
+  "chatVerifiedAt": "2026-11-15T22:17:59.171Z",
+  "deliveryEvidence": "data/research/2026-11-15/review-final-chat-message-evidence.json",
+  "turnId": "01a1e147-63db-7c73-949a-b7a8b3f87521",
+  "messageId": "msg_01e5e2e89aab9dcc016afa2eec2b5c87d1bbee946f75e6ec9c",
+  "reportHashAtSend": "ff8b0c1ea39f2356768782f1d12b514f0b3e1072dff3e744a23c9d1bce0d1851",
+  "evidenceSha256": "51f57b564d69b472dcd7e4fda46329649e16879c3e679173eb2d7ac1a3d612e3",
+  "scheduleReadback": {
+    "reviewAt": "2026-11-15T22:10:00.000Z",
+    "configuredTimeBeijing": "06:10",
+    "targetThreadId": "01a1b446-fe24-7e23-af5e-069de3cba38b",
+    "verifiedAt": "2026-11-15T22:17:59.171Z",
+    "newSaleDayScheduleNotOverwritten": true
+  }
+}

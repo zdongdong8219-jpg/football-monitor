@@ -2,16 +2,16 @@
   "date": "2026-11-15",
   "checkedAt": "2026-11-15T22:13:28.848Z",
   "partial": false,
-  "completed": false,
-  "chatVerified": false,
+  "completed": true,
+  "chatVerified": true,
   "pendingFixtures": [],
   "resultsVerified": 11,
   "originalHashesPassed": true,
-  "protectedOnlineFilesUnchanged": true,
+  "protectedOnlineFilesUnchanged": false,
   "contentPassed": true,
   "visualPassed": true,
   "checkBuild": "Football mobile build verified",
-  "mobileVerified": false,
+  "mobileVerified": true,
   "phonePublicationAuthorized": true,
   "images": [
     {
@@ -33,10 +33,15 @@
   ],
   "report": {
     "path": "C:/Users/Administrator/Documents/Codex/2026-11-15/new-chat/outputs/2026-11-15-review.json",
-    "sha256": "ff8b0c1ea39f2356768782f1d12b514f0b3e1072dff3e744a23c9d1bce0d1851"
+    "sha256": "e79a52c870ce6d216706a5af3cfa9c26381b5bbf27ea19251b09522dcc3e96d0"
   },
   "sources": {
     "path": "data/research/2026-11-15/review-result-audit.json",
     "sha256": "03edd5f48c7d5949fb66c56201b79cd7045ce4de21eca0ef8e7deddcdeb9ca38"
-  }
+  },
+  "chatDeliveredAt": "2026-11-15T22:15:34.175Z",
+  "chatVerifiedAt": "2026-11-15T22:17:59.171Z",
+  "deliveryEvidence": "data/research/2026-11-15/review-final-chat-message-evidence.json",
+  "authorizedPhonePublication": true,
+  "phoneEvidence": "work/review-1115/phone/online-phone-verification.json"
 }
