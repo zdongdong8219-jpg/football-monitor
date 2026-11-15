@@ -1,0 +1,1026 @@
+{
+  "at": "2026-11-15T05:43:59.669Z",
+  "kind": "incremental_advisory_not_new_ticket",
+  "quoteAt": "2026-11-15T05:42:07.256Z",
+  "sourcePacket": {
+    "path": "data/research/2026-11-15/handoff-1300-reconciled-2026-11-15T05-04-50-147Z.json",
+    "sha256": "60aef2f7774804bea4a5a8b8bd2425d957986fff21cfdb76d283ccc2f1931465"
+  },
+  "sources": [
+    {
+      "name": "inc1300-dresaj",
+      "url": "https://fscg.me/vijesti/14477/poziv-za-dresaja/",
+      "startedAt": "2026-11-15T05:03:08.587Z",
+      "retrievedAt": "2026-11-15T05:03:09.975Z",
+      "http": 200,
+      "sha256": "9a5e9d6a38a9b3e5dbe63515172f93c24b110ca7fb6f4afa4228f0310430663c",
+      "rawArtifact": "data/research/2026-11-15/inc1300-dresaj.txt",
+      "error": null,
+      "source": "https://fscg.me/vijesti/14477/poziv-za-dresaja/",
+      "collectedAt": "2026-11-15T05:03:09.975Z",
+      "affectedMatches": [
+        "周日007"
+      ],
+      "gap": "Montenegro defensive replacement",
+      "outcome": "official_callup_confirmed",
+      "evidenceUsed": [
+        "13 November official announcement: Decic right-back Dzonatan Dresaj called up for Cyprus; previously called up but had not made senior debut."
+      ],
+      "useConclusion": "Confirms right-back replacement option only; does not confirm starting XI or equivalent replacement for centre-back Savic."
+    },
+    {
+      "name": "inc1300-tuchel",
+      "url": "https://www.englandfootball.com/articles/2026/Nov/14/spain-england-uefa-nations-league-thomas-tuchel-press-conference-20261411",
+      "startedAt": "2026-11-15T05:03:31.566Z",
+      "retrievedAt": "2026-11-15T05:03:33.335Z",
+      "http": 200,
+      "sha256": "d83e4c366a5812a7ea08ad5d4f48c90010fa00d791371ab691d917e5a61257b9",
+      "rawArtifact": "data/research/2026-11-15/inc1300-tuchel.txt",
+      "error": null,
+      "source": "https://www.englandfootball.com/articles/2026/Nov/14/spain-england-uefa-nations-league-thomas-tuchel-press-conference-20261411",
+      "collectedAt": "2026-11-15T05:03:33.335Z",
+      "affectedMatches": [
+        "周日010"
+      ],
+      "gap": "England goalkeeper and defensive availability",
+      "outcome": "official_coach_quotes_reviewed",
+      "evidenceUsed": [
+        "14 November Tuchel: James Trafford will play tomorrow; Ezri Konsa and Djed Spence are back and available; full choice in back four.",
+        "Both teams want to dominate and create chances; match is a high-pressure test for Trafford."
+      ],
+      "failureReason": null,
+      "useConclusion": "Promote goalkeeper intention and two defenders availability to official coach confirmation, not complete official XI. Article says both7:0 and2:1 about prior Croatia win; neither historical score is used."
+    }
+  ],
+  "changes": [
+    {
+      "number": "周日002",
+      "market": "had",
+      "key": "a",
+      "old": "4.60",
+      "new": "3.75"
+    },
+    {
+      "number": "周日002",
+      "market": "had",
+      "key": "d",
+      "old": "4.06",
+      "new": "3.80"
+    },
+    {
+      "number": "周日002",
+      "market": "had",
+      "key": "h",
+      "old": "1.48",
+      "new": "1.64"
+    },
+    {
+      "number": "周日002",
+      "market": "hhad",
+      "key": "a",
+      "old": "2.25",
+      "new": "1.92"
+    },
+    {
+      "number": "周日002",
+      "market": "hhad",
+      "key": "d",
+      "old": "3.24",
+      "new": "3.32"
+    },
+    {
+      "number": "周日002",
+      "market": "hhad",
+      "key": "h",
+      "old": "2.59",
+      "new": "3.15"
+    },
+    {
+      "number": "周日002",
+      "market": "ttg",
+      "key": "s1",
+      "old": "6.95",
+      "new": "7.00"
+    },
+    {
+      "number": "周日002",
+      "market": "ttg",
+      "key": "s2",
+      "old": "4.30",
+      "new": "4.35"
+    },
+    {
+      "number": "周日002",
+      "market": "ttg",
+      "key": "s3",
+      "old": "3.45",
+      "new": "3.35"
+    },
+    {
+      "number": "周日002",
+      "market": "ttg",
+      "key": "s7",
+      "old": "14.00",
+      "new": "15.00"
+    },
+    {
+      "number": "周日002",
+      "market": "hafu",
+      "key": "aa",
+      "old": "7.60",
+      "new": "6.50"
+    },
+    {
+      "number": "周日002",
+      "market": "hafu",
+      "key": "ad",
+      "old": "14.00",
+      "new": "13.50"
+    },
+    {
+      "number": "周日002",
+      "market": "hafu",
+      "key": "da",
+      "old": "10.00",
+      "new": "9.25"
+    },
+    {
+      "number": "周日002",
+      "market": "hafu",
+      "key": "dd",
+      "old": "6.75",
+      "new": "6.60"
+    },
+    {
+      "number": "周日002",
+      "market": "hafu",
+      "key": "dh",
+      "old": "4.30",
+      "new": "4.60"
+    },
+    {
+      "number": "周日002",
+      "market": "hafu",
+      "key": "hd",
+      "old": "14.00",
+      "new": "13.50"
+    },
+    {
+      "number": "周日002",
+      "market": "hafu",
+      "key": "hh",
+      "old": "2.45",
+      "new": "2.60"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s00s02",
+      "old": "28.00",
+      "new": "26.00"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s00s03",
+      "old": "55.00",
+      "new": "50.00"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s00s05",
+      "old": "500.0",
+      "new": "300.0"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s01s00",
+      "old": "9.00",
+      "new": "9.50"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s01s03",
+      "old": "27.00",
+      "new": "25.00"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s01s04",
+      "old": "80.00",
+      "new": "70.00"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s01s05",
+      "old": "300.0",
+      "new": "200.0"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s02s00",
+      "old": "10.00",
+      "new": "10.50"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s02s01",
+      "old": "6.50",
+      "new": "7.00"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s02s03",
+      "old": "31.00",
+      "new": "25.00"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s02s04",
+      "old": "90.00",
+      "new": "80.00"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s02s05",
+      "old": "300.0",
+      "new": "200.0"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s03s00",
+      "old": "14.00",
+      "new": "15.00"
+    },
+    {
+      "number": "周日002",
+      "market": "crs",
+      "key": "s1sa",
+      "old": "80.00",
+      "new": "65.00"
+    },
+    {
+      "number": "周日003",
+      "market": "hhad",
+      "key": "a",
+      "old": "4.60",
+      "new": "4.72"
+    },
+    {
+      "number": "周日003",
+      "market": "hhad",
+      "key": "d",
+      "old": "3.98",
+      "new": "4.05"
+    },
+    {
+      "number": "周日003",
+      "market": "hhad",
+      "key": "h",
+      "old": "1.49",
+      "new": "1.47"
+    },
+    {
+      "number": "周日003",
+      "market": "ttg",
+      "key": "s0",
+      "old": "15.00",
+      "new": "17.00"
+    },
+    {
+      "number": "周日003",
+      "market": "ttg",
+      "key": "s1",
+      "old": "6.25",
+      "new": "6.50"
+    },
+    {
+      "number": "周日003",
+      "market": "ttg",
+      "key": "s2",
+      "old": "3.95",
+      "new": "3.70"
+    },
+    {
+      "number": "周日003",
+      "market": "ttg",
+      "key": "s3",
+      "old": "3.40",
+      "new": "3.30"
+    },
+    {
+      "number": "周日003",
+      "market": "ttg",
+      "key": "s4",
+      "old": "4.65",
+      "new": "4.75"
+    },
+    {
+      "number": "周日003",
+      "market": "ttg",
+      "key": "s5",
+      "old": "7.50",
+      "new": "7.75"
+    },
+    {
+      "number": "周日003",
+      "market": "ttg",
+      "key": "s6",
+      "old": "13.00",
+      "new": "13.50"
+    },
+    {
+      "number": "周日003",
+      "market": "ttg",
+      "key": "s7",
+      "old": "18.00",
+      "new": "19.00"
+    },
+    {
+      "number": "周日003",
+      "market": "crs",
+      "key": "s00s00",
+      "old": "15.00",
+      "new": "17.00"
+    },
+    {
+      "number": "周日003",
+      "market": "crs",
+      "key": "s00s01",
+      "old": "10.50",
+      "new": "11.00"
+    },
+    {
+      "number": "周日003",
+      "market": "crs",
+      "key": "s00s03",
+      "old": "24.00",
+      "new": "25.00"
+    },
+    {
+      "number": "周日003",
+      "market": "crs",
+      "key": "s01s00",
+      "old": "11.50",
+      "new": "12.00"
+    },
+    {
+      "number": "周日003",
+      "market": "crs",
+      "key": "s01s02",
+      "old": "7.80",
+      "new": "7.25"
+    },
+    {
+      "number": "周日003",
+      "market": "crs",
+      "key": "s02s01",
+      "old": "8.00",
+      "new": "7.75"
+    },
+    {
+      "number": "周日003",
+      "market": "crs",
+      "key": "s02s02",
+      "old": "10.50",
+      "new": "10.00"
+    },
+    {
+      "number": "周日003",
+      "market": "crs",
+      "key": "s03s00",
+      "old": "27.00",
+      "new": "29.00"
+    },
+    {
+      "number": "周日003",
+      "market": "crs",
+      "key": "s1sd",
+      "old": "150.0",
+      "new": "125.0"
+    },
+    {
+      "number": "周日004",
+      "market": "had",
+      "key": "a",
+      "old": "3.45",
+      "new": "3.48"
+    },
+    {
+      "number": "周日004",
+      "market": "had",
+      "key": "d",
+      "old": "3.88",
+      "new": "3.95"
+    },
+    {
+      "number": "周日004",
+      "market": "had",
+      "key": "h",
+      "old": "1.69",
+      "new": "1.67"
+    },
+    {
+      "number": "周日004",
+      "market": "hhad",
+      "key": "a",
+      "old": "1.89",
+      "new": "1.87"
+    },
+    {
+      "number": "周日004",
+      "market": "hhad",
+      "key": "d",
+      "old": "3.50",
+      "new": "3.31"
+    },
+    {
+      "number": "周日004",
+      "market": "hhad",
+      "key": "h",
+      "old": "3.08",
+      "new": "3.30"
+    },
+    {
+      "number": "周日004",
+      "market": "ttg",
+      "key": "s3",
+      "old": "3.45",
+      "new": "3.55"
+    },
+    {
+      "number": "周日004",
+      "market": "ttg",
+      "key": "s4",
+      "old": "4.40",
+      "new": "4.30"
+    },
+    {
+      "number": "周日004",
+      "market": "ttg",
+      "key": "s7",
+      "old": "12.50",
+      "new": "12.00"
+    },
+    {
+      "number": "周日004",
+      "market": "hafu",
+      "key": "aa",
+      "old": "5.30",
+      "new": "5.90"
+    },
+    {
+      "number": "周日004",
+      "market": "hafu",
+      "key": "dd",
+      "old": "6.70",
+      "new": "7.00"
+    },
+    {
+      "number": "周日004",
+      "market": "hafu",
+      "key": "dh",
+      "old": "4.70",
+      "new": "4.30"
+    },
+    {
+      "number": "周日004",
+      "market": "hafu",
+      "key": "hh",
+      "old": "3.00",
+      "new": "2.95"
+    },
+    {
+      "number": "周日005",
+      "market": "had",
+      "key": "a",
+      "old": "1.98",
+      "new": "2.00"
+    },
+    {
+      "number": "周日005",
+      "market": "had",
+      "key": "d",
+      "old": "3.45",
+      "new": "3.38"
+    },
+    {
+      "number": "周日005",
+      "market": "had",
+      "key": "h",
+      "old": "2.90",
+      "new": "2.91"
+    },
+    {
+      "number": "周日005",
+      "market": "hhad",
+      "key": "a",
+      "old": "3.98",
+      "new": "4.10"
+    },
+    {
+      "number": "周日005",
+      "market": "hhad",
+      "key": "d",
+      "old": "3.70",
+      "new": "3.65"
+    },
+    {
+      "number": "周日005",
+      "market": "hhad",
+      "key": "h",
+      "old": "1.62",
+      "new": "1.61"
+    },
+    {
+      "number": "周日006",
+      "market": "had",
+      "key": "a",
+      "old": "2.28",
+      "new": "2.20"
+    },
+    {
+      "number": "周日006",
+      "market": "had",
+      "key": "d",
+      "old": "3.00",
+      "new": "3.02"
+    },
+    {
+      "number": "周日006",
+      "market": "had",
+      "key": "h",
+      "old": "2.72",
+      "new": "2.83"
+    },
+    {
+      "number": "周日006",
+      "market": "hhad",
+      "key": "a",
+      "old": "5.35",
+      "new": "5.12"
+    },
+    {
+      "number": "周日006",
+      "market": "hhad",
+      "key": "d",
+      "old": "3.75",
+      "new": "3.60"
+    },
+    {
+      "number": "周日006",
+      "market": "hhad",
+      "key": "h",
+      "old": "1.46",
+      "new": "1.50"
+    },
+    {
+      "number": "周日006",
+      "market": "ttg",
+      "key": "s0",
+      "old": "9.75",
+      "new": "9.00"
+    },
+    {
+      "number": "周日006",
+      "market": "ttg",
+      "key": "s1",
+      "old": "4.30",
+      "new": "4.00"
+    },
+    {
+      "number": "周日006",
+      "market": "ttg",
+      "key": "s3",
+      "old": "3.55",
+      "new": "3.75"
+    },
+    {
+      "number": "周日006",
+      "market": "ttg",
+      "key": "s4",
+      "old": "6.00",
+      "new": "6.50"
+    },
+    {
+      "number": "周日006",
+      "market": "hafu",
+      "key": "aa",
+      "old": "3.95",
+      "new": "3.85"
+    },
+    {
+      "number": "周日006",
+      "market": "hafu",
+      "key": "ah",
+      "old": "35.00",
+      "new": "37.00"
+    },
+    {
+      "number": "周日006",
+      "market": "hafu",
+      "key": "da",
+      "old": "5.60",
+      "new": "5.25"
+    },
+    {
+      "number": "周日006",
+      "market": "hafu",
+      "key": "dd",
+      "old": "4.40",
+      "new": "4.20"
+    },
+    {
+      "number": "周日006",
+      "market": "hafu",
+      "key": "dh",
+      "old": "6.00",
+      "new": "6.20"
+    },
+    {
+      "number": "周日006",
+      "market": "hafu",
+      "key": "hh",
+      "old": "4.30",
+      "new": "4.75"
+    },
+    {
+      "number": "周日006",
+      "market": "crs",
+      "key": "s00s00",
+      "old": "9.75",
+      "new": "9.00"
+    },
+    {
+      "number": "周日006",
+      "market": "crs",
+      "key": "s00s01",
+      "old": "7.75",
+      "new": "7.25"
+    },
+    {
+      "number": "周日006",
+      "market": "crs",
+      "key": "s02s02",
+      "old": "13.00",
+      "new": "14.00"
+    },
+    {
+      "number": "周日006",
+      "market": "crs",
+      "key": "s03s01",
+      "old": "21.00",
+      "new": "25.00"
+    },
+    {
+      "number": "周日006",
+      "market": "crs",
+      "key": "s04s01",
+      "old": "60.00",
+      "new": "80.00"
+    },
+    {
+      "number": "周日006",
+      "market": "crs",
+      "key": "s1sh",
+      "old": "130.0",
+      "new": "150.0"
+    },
+    {
+      "number": "周日007",
+      "market": "had",
+      "key": "a",
+      "old": "2.11",
+      "new": "2.06"
+    },
+    {
+      "number": "周日007",
+      "market": "had",
+      "key": "d",
+      "old": "3.18",
+      "new": "3.22"
+    },
+    {
+      "number": "周日007",
+      "market": "had",
+      "key": "h",
+      "old": "2.85",
+      "new": "2.91"
+    },
+    {
+      "number": "周日007",
+      "market": "hhad",
+      "key": "a",
+      "old": "4.65",
+      "new": "4.45"
+    },
+    {
+      "number": "周日007",
+      "market": "hhad",
+      "key": "d",
+      "old": "3.65",
+      "new": "3.60"
+    },
+    {
+      "number": "周日007",
+      "market": "hhad",
+      "key": "h",
+      "old": "1.54",
+      "new": "1.57"
+    },
+    {
+      "number": "周日010",
+      "market": "had",
+      "key": "a",
+      "old": "3.88",
+      "new": "3.80"
+    },
+    {
+      "number": "周日010",
+      "market": "had",
+      "key": "d",
+      "old": "3.83",
+      "new": "3.75"
+    },
+    {
+      "number": "周日010",
+      "market": "had",
+      "key": "h",
+      "old": "1.61",
+      "new": "1.64"
+    },
+    {
+      "number": "周日010",
+      "market": "hhad",
+      "key": "a",
+      "old": "2.00",
+      "new": "1.96"
+    },
+    {
+      "number": "周日010",
+      "market": "hhad",
+      "key": "d",
+      "old": "3.45",
+      "new": "3.29"
+    },
+    {
+      "number": "周日010",
+      "market": "hhad",
+      "key": "h",
+      "old": "2.86",
+      "new": "3.07"
+    },
+    {
+      "number": "周日011",
+      "market": "had",
+      "key": "a",
+      "old": "3.12",
+      "new": "3.02"
+    },
+    {
+      "number": "周日011",
+      "market": "had",
+      "key": "h",
+      "old": "1.86",
+      "new": "1.90"
+    },
+    {
+      "number": "周日011",
+      "market": "hhad",
+      "key": "a",
+      "old": "1.71",
+      "new": "1.65"
+    },
+    {
+      "number": "周日011",
+      "market": "hhad",
+      "key": "d",
+      "old": "3.65",
+      "new": "3.75"
+    },
+    {
+      "number": "周日011",
+      "market": "hhad",
+      "key": "h",
+      "old": "3.56",
+      "new": "3.75"
+    },
+    {
+      "number": "周日011",
+      "market": "ttg",
+      "key": "s0",
+      "old": "19.00",
+      "new": "17.00"
+    },
+    {
+      "number": "周日011",
+      "market": "ttg",
+      "key": "s1",
+      "old": "6.25",
+      "new": "6.20"
+    },
+    {
+      "number": "周日011",
+      "market": "ttg",
+      "key": "s2",
+      "old": "3.90",
+      "new": "3.95"
+    },
+    {
+      "number": "周日011",
+      "market": "ttg",
+      "key": "s3",
+      "old": "3.35",
+      "new": "3.25"
+    },
+    {
+      "number": "周日011",
+      "market": "ttg",
+      "key": "s5",
+      "old": "7.25",
+      "new": "7.50"
+    },
+    {
+      "number": "周日011",
+      "market": "ttg",
+      "key": "s6",
+      "old": "14.00",
+      "new": "15.00"
+    },
+    {
+      "number": "周日011",
+      "market": "ttg",
+      "key": "s7",
+      "old": "17.50",
+      "new": "19.00"
+    },
+    {
+      "number": "周日011",
+      "market": "hafu",
+      "key": "aa",
+      "old": "5.60",
+      "new": "5.20"
+    },
+    {
+      "number": "周日011",
+      "market": "hafu",
+      "key": "da",
+      "old": "8.25",
+      "new": "8.00"
+    },
+    {
+      "number": "周日011",
+      "market": "hafu",
+      "key": "dh",
+      "old": "4.75",
+      "new": "4.80"
+    },
+    {
+      "number": "周日011",
+      "market": "hafu",
+      "key": "hh",
+      "old": "2.78",
+      "new": "2.90"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s00s00",
+      "old": "19.00",
+      "new": "17.00"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s00s01",
+      "old": "14.00",
+      "new": "13.00"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s00s02",
+      "old": "22.00",
+      "new": "20.00"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s01s01",
+      "old": "7.75",
+      "new": "7.50"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s04s00",
+      "old": "31.00",
+      "new": "34.00"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s04s01",
+      "old": "25.00",
+      "new": "29.00"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s05s00",
+      "old": "80.00",
+      "new": "90.00"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s05s01",
+      "old": "65.00",
+      "new": "75.00"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s05s02",
+      "old": "90.00",
+      "new": "120.0"
+    },
+    {
+      "number": "周日011",
+      "market": "crs",
+      "key": "s1sh",
+      "old": "31.00",
+      "new": "38.00"
+    }
+  ],
+  "assessments": [
+    {
+      "number": "002",
+      "assessment": "普通主胜仍有铃木支点与转换支持，但主胜1.48升1.64、平及客胜同时下降，不解释成利好。平即可晋级、首回合红牌前落后两球仍是主要反证；本轮不追加或加码该腿，不把回报上升当作更稳。让球穿盘/胜胜不能因回报升高升级；3/4球与2:1仍为中午条件场景。"
+    },
+    {
+      "number": "003",
+      "assessment": "让胜+1由1.49至1.47，覆盖主队不败边界未变；含001的普通3串已无法整套新出票，仅保留赛前原票。"
+    },
+    {
+      "number": "004",
+      "assessment": "普通主胜1.69至1.67变化较小，仍用主场组织及川崎追分留空间支持；平局晋级、定位球和反击失球风险未消失。保留原方向，不升级穿盘或半全场。"
+    },
+    {
+      "number": "005",
+      "assessment": "客胜1.98至2.00、主+1让胜1.62至1.61未改变主队不败覆盖判断；历史伤缺不能视为本场确认缺席，梦想腿保持原有低星。"
+    },
+    {
+      "number": "006",
+      "assessment": "客胜2.28至2.20但平3.00至3.02，保留客/平次序与覆盖；0/1球降赔、3/4球升赔只表市场偏低总球，不证明半全场或精确总球更可靠。不删除平局覆盖。"
+    },
+    {
+      "number": "007",
+      "assessment": "Dresaj补招增加右后卫选择，不能代替Savic中卫作用；客胜2.11至2.06而主+1让胜1.54至1.57，反向风险仍在。普通平为条件主场景、+1让胜为不败覆盖；总球2/3、平平与1:1不因补招升星，客胜是最强反证。"
+    },
+    {
+      "number": "008",
+      "assessment": "仍无HAD/HAFU销售，其他市场报价无变化；资格限制只影响对应市场，原扫盘保留。"
+    },
+    {
+      "number": "009",
+      "assessment": "报价无变化；原主胜腿及其风险不变，不能仅凭低赔当作强度证明。"
+    },
+    {
+      "number": "010",
+      "assessment": "Trafford将出场、Konsa与Spence可用为主帅明确表述，完整首发未公布。加强英格兰防线可用性的反证，不能把Trafford出场自动当利好西班牙。主胜1.61至1.64、平客同时下调，保留中午西班牙条件主方向但不升星、不追加票；让球穿盘与胜胜更不应升级，进球3/2及2:1仍须防1:1和客反击，官方文章矛盾历史比分不采用。"
+    },
+    {
+      "number": "011",
+      "assessment": "主-1让负1.71至1.65仍严格覆盖意大利不败；比利时普通主胜1.86至1.90变化同向但不是独立实力证据。意大利两名伤退、比利时必须赢仍是最强反证，保留原一星，不换成意大利单胜/平平/窄总球。"
+    }
+  ],
+  "formalOriginalsPreserved": true,
+  "newTickets": 0,
+  "reason": "No replacement of already delivered noon tickets; already-started001 prohibits new use. This is not a zero-ticket sales day.",
+  "currentReferenceOnly": {
+    "core20": 2.1976,
+    "core30": 2.7554999999999996,
+    "ordinary3": "closed as full combination because001 started",
+    "dream6": "closed as full combination because001 started"
+  },
+  "protectedHashes": {
+    "data/reports/2026-11-15.json": "8c8dc63c4e2a7f26d5bec58377a40d0557ea923ad7c049f64887f3f09e48191d",
+    "C:/Users/Administrator/Documents/Codex/2026-11-15/11-40-13-40-c-users/outputs/2026-11-15-noon-scan.png": "85b7e07d8493960b05635eac3e1473e9687f45f577b69d1dc3fa4c77bc08439c",
+    "C:/Users/Administrator/Documents/Codex/2026-11-15/11-40-13-40-c-users/outputs/2026-11-15-noon-tracking.png": "0d674362a009951e6e8d8447cbbe6daeda464e0cc6ae3f1a3822bcb81a998bcd",
+    "C:/Users/Administrator/Documents/Codex/2026-11-15/11-40-13-40-c-users/outputs/2026-11-14-review-scan.png": "f8a9b5120aeafa23b9c9e2dd09646edf95d77ab17e609c3ada0e5e25e6389150",
+    "C:/Users/Administrator/Documents/Codex/2026-11-15/11-40-13-40-c-users/outputs/2026-11-14-review-tracking.png": "8b04346526c1ebc62a4c3bd671b09685674f02ee56c5a1c8366b0c0a4f0ca943"
+  },
+  "autoBet": false
+}
