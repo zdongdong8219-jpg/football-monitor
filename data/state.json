@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "ready",
-  "checkedAt": "2026-11-16T06:52:58.635Z",
+  "checkedAt": "2026-11-16T16:33:26.246Z",
   "currentDate": "2026-11-16",
   "days": {
     "2026-10-08": {
@@ -546077,10 +546077,415 @@
               }
             }
           ]
+        },
+        {
+          "checkedAt": "2026-11-16T16:33:26.246Z",
+          "matches": [
+            {
+              "id": 2981567,
+              "number": "周一001",
+              "league": "欧国联",
+              "kickoff": "2026-11-16T23:00:00",
+              "home": "法罗群岛",
+              "away": "摩尔多瓦",
+              "homeRank": "124",
+              "awayRank": "157",
+              "saleDate": "2026-11-16",
+              "spf": {
+                "win": 1.63,
+                "draw": 3.1,
+                "lose": 4.92
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 3.57,
+                "draw": 2.95,
+                "lose": 1.92
+              },
+              "goals": {
+                "0": 9.5,
+                "1": 4.25,
+                "2": 3.3,
+                "3": 3.5,
+                "4": 6.2,
+                "5": 11.5,
+                "6": 23,
+                "7+": 30
+              },
+              "halfFull": {
+                "winWin": 2.65,
+                "winDraw": 15.5,
+                "winLose": 50,
+                "drawWin": 3.9,
+                "drawDraw": 4.6,
+                "drawLose": 10,
+                "loseWin": 27,
+                "loseDraw": 15.5,
+                "loseLose": 8.5
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 2981568,
+              "number": "周一002",
+              "league": "欧国联",
+              "kickoff": "2026-11-16T23:00:00",
+              "home": "哈萨克",
+              "away": "斯洛伐克",
+              "homeRank": "118",
+              "awayRank": "47",
+              "saleDate": "2026-11-16",
+              "spf": {
+                "win": 4,
+                "draw": 3.45,
+                "lose": 1.67
+              },
+              "handicap": 1,
+              "rqspf": {
+                "win": 1.87,
+                "draw": 3.27,
+                "lose": 3.35
+              },
+              "goals": {
+                "0": 13,
+                "1": 5.1,
+                "2": 3.25,
+                "3": 3.25,
+                "4": 5.75,
+                "5": 10,
+                "6": 18,
+                "7+": 27
+              },
+              "halfFull": {
+                "winWin": 6.5,
+                "winDraw": 16,
+                "winLose": 23,
+                "drawWin": 10,
+                "drawDraw": 5.95,
+                "drawLose": 4.35,
+                "loseWin": 40,
+                "loseDraw": 16,
+                "loseLose": 2.45
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 2981570,
+              "number": "周一003",
+              "league": "欧国联",
+              "kickoff": "2026-11-17T01:00:00",
+              "home": "爱沙尼亚",
+              "away": "保加利亚",
+              "homeRank": "120",
+              "awayRank": "91",
+              "saleDate": "2026-11-16",
+              "spf": {
+                "win": 1.71,
+                "draw": 2.98,
+                "lose": 4.56
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 4.08,
+                "draw": 2.9,
+                "lose": 1.82
+              },
+              "goals": {
+                "0": 7.5,
+                "1": 3.7,
+                "2": 3,
+                "3": 3.95,
+                "4": 7,
+                "5": 15,
+                "6": 30,
+                "7+": 51
+              },
+              "halfFull": {
+                "winWin": 3.35,
+                "winDraw": 15,
+                "winLose": 42,
+                "drawWin": 3.75,
+                "drawDraw": 3.9,
+                "drawLose": 9,
+                "loseWin": 30,
+                "loseDraw": 15,
+                "loseLose": 7.6
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 2981569,
+              "number": "周一004",
+              "league": "欧国联",
+              "kickoff": "2026-11-17T01:00:00",
+              "home": "冰岛",
+              "away": "卢森堡",
+              "homeRank": "71",
+              "awayRank": "102",
+              "saleDate": "2026-11-16",
+              "spf": {
+                "win": 1.08,
+                "draw": 6.6,
+                "lose": 16
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 1.42,
+                "draw": 4.15,
+                "lose": 5.14
+              },
+              "goals": {
+                "0": 16,
+                "1": 6,
+                "2": 3.95,
+                "3": 3.2,
+                "4": 4.45,
+                "5": 8.5,
+                "6": 15.5,
+                "7+": 19
+              },
+              "halfFull": {
+                "winWin": 1.4,
+                "winDraw": 31,
+                "winLose": 100,
+                "drawWin": 3.8,
+                "drawDraw": 9,
+                "drawLose": 36,
+                "loseWin": 30,
+                "loseDraw": 31,
+                "loseLose": 33
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 2981515,
+              "number": "周一005",
+              "league": "欧国联",
+              "kickoff": "2026-11-17T03:45:00",
+              "home": "瑞士",
+              "away": "苏格兰",
+              "homeRank": "14",
+              "awayRank": "42",
+              "saleDate": "2026-11-16",
+              "spf": {
+                "win": 1.5,
+                "draw": 3.65,
+                "lose": 5.05
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 2.7,
+                "draw": 3.3,
+                "lose": 2.15
+              },
+              "goals": {
+                "0": 13.5,
+                "1": 5.45,
+                "2": 3.2,
+                "3": 3.2,
+                "4": 5.5,
+                "5": 10,
+                "6": 18,
+                "7+": 29
+              },
+              "halfFull": {
+                "winWin": 2.26,
+                "winDraw": 16.5,
+                "winLose": 45,
+                "drawWin": 4.25,
+                "drawDraw": 6.25,
+                "drawLose": 10,
+                "loseWin": 25,
+                "loseDraw": 16.5,
+                "loseLose": 7.5
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 2981469,
+              "number": "周一006",
+              "league": "欧国联",
+              "kickoff": "2026-11-17T03:45:00",
+              "home": "德国",
+              "away": "荷兰",
+              "homeRank": "13",
+              "awayRank": "9",
+              "saleDate": "2026-11-16",
+              "spf": {
+                "win": 1.69,
+                "draw": 3.85,
+                "lose": 3.47
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 3.3,
+                "draw": 3.32,
+                "lose": 1.87
+              },
+              "goals": {
+                "0": 28,
+                "1": 9.3,
+                "2": 5.25,
+                "3": 3.6,
+                "4": 4,
+                "5": 5.75,
+                "6": 9,
+                "7+": 9.25
+              },
+              "halfFull": {
+                "winWin": 2.75,
+                "winDraw": 13.5,
+                "winLose": 26,
+                "drawWin": 4.35,
+                "drawDraw": 7.6,
+                "drawLose": 9,
+                "loseWin": 17,
+                "loseDraw": 13.5,
+                "loseLose": 5.8
+              },
+              "single": {
+                "spf": true,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 2981516,
+              "number": "周一007",
+              "league": "欧国联",
+              "kickoff": "2026-11-17T03:45:00",
+              "home": "北马其顿",
+              "away": "斯洛文尼",
+              "homeRank": "73",
+              "awayRank": "51",
+              "saleDate": "2026-11-16",
+              "spf": {
+                "win": 7.6,
+                "draw": 4.3,
+                "lose": 1.29
+              },
+              "handicap": 1,
+              "rqspf": {
+                "win": 2.8,
+                "draw": 3,
+                "lose": 2.23
+              },
+              "goals": {
+                "0": 9.5,
+                "1": 4.1,
+                "2": 2.9,
+                "3": 3.65,
+                "4": 6.55,
+                "5": 14,
+                "6": 27,
+                "7+": 40
+              },
+              "halfFull": {
+                "winWin": 13.5,
+                "winDraw": 20,
+                "winLose": 28,
+                "drawWin": 15.5,
+                "drawDraw": 5.65,
+                "drawLose": 3.65,
+                "loseWin": 60,
+                "loseDraw": 20,
+                "loseLose": 1.95
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            },
+            {
+              "id": 2981470,
+              "number": "周一008",
+              "league": "欧国联",
+              "kickoff": "2026-11-17T03:45:00",
+              "home": "希腊",
+              "away": "塞尔维亚",
+              "homeRank": "41",
+              "awayRank": "44",
+              "saleDate": "2026-11-16",
+              "spf": {
+                "win": 1.24,
+                "draw": 4.85,
+                "lose": 7.9
+              },
+              "handicap": -1,
+              "rqspf": {
+                "win": 1.9,
+                "draw": 3.5,
+                "lose": 3.05
+              },
+              "goals": {
+                "0": 19,
+                "1": 6.4,
+                "2": 4.15,
+                "3": 3.15,
+                "4": 4.25,
+                "5": 7.95,
+                "6": 14,
+                "7+": 18.5
+              },
+              "halfFull": {
+                "winWin": 1.8,
+                "winDraw": 19,
+                "winLose": 55,
+                "drawWin": 4,
+                "drawDraw": 7.75,
+                "drawLose": 16,
+                "loseWin": 19,
+                "loseDraw": 19,
+                "loseLose": 12.5
+              },
+              "single": {
+                "spf": false,
+                "rqspf": false,
+                "score": true,
+                "goals": true,
+                "halfFull": true
+              }
+            }
+          ]
         }
       ],
       "latest": {
-        "checkedAt": "2026-11-16T06:52:58.635Z",
+        "checkedAt": "2026-11-16T16:33:26.246Z",
         "matches": [
           {
             "id": 2981567,
@@ -546093,36 +546498,36 @@
             "awayRank": "157",
             "saleDate": "2026-11-16",
             "spf": {
-              "win": 1.58,
-              "draw": 3.2,
-              "lose": 5.15
+              "win": 1.63,
+              "draw": 3.1,
+              "lose": 4.92
             },
             "handicap": -1,
             "rqspf": {
-              "win": 3.23,
-              "draw": 2.92,
-              "lose": 2.05
+              "win": 3.57,
+              "draw": 2.95,
+              "lose": 1.92
             },
             "goals": {
               "0": 9.5,
-              "1": 4,
-              "2": 3.15,
-              "3": 3.65,
+              "1": 4.25,
+              "2": 3.3,
+              "3": 3.5,
               "4": 6.2,
-              "5": 12,
-              "6": 27,
-              "7+": 38
+              "5": 11.5,
+              "6": 23,
+              "7+": 30
             },
             "halfFull": {
-              "winWin": 2.45,
-              "winDraw": 17,
-              "winLose": 60,
-              "drawWin": 4,
-              "drawDraw": 4.9,
+              "winWin": 2.65,
+              "winDraw": 15.5,
+              "winLose": 50,
+              "drawWin": 3.9,
+              "drawDraw": 4.6,
               "drawLose": 10,
               "loseWin": 27,
-              "loseDraw": 17,
-              "loseLose": 8.25
+              "loseDraw": 15.5,
+              "loseLose": 8.5
             },
             "single": {
               "spf": false,
@@ -546143,36 +546548,36 @@
             "awayRank": "47",
             "saleDate": "2026-11-16",
             "spf": {
-              "win": 4.5,
-              "draw": 3.52,
-              "lose": 1.58
+              "win": 4,
+              "draw": 3.45,
+              "lose": 1.67
             },
             "handicap": 1,
             "rqspf": {
-              "win": 2.05,
-              "draw": 3.25,
-              "lose": 2.91
+              "win": 1.87,
+              "draw": 3.27,
+              "lose": 3.35
             },
             "goals": {
               "0": 13,
-              "1": 4.95,
-              "2": 3.4,
-              "3": 3.35,
-              "4": 5.25,
-              "5": 9.4,
-              "6": 19,
-              "7+": 30
+              "1": 5.1,
+              "2": 3.25,
+              "3": 3.25,
+              "4": 5.75,
+              "5": 10,
+              "6": 18,
+              "7+": 27
             },
             "halfFull": {
-              "winWin": 8,
+              "winWin": 6.5,
               "winDraw": 16,
-              "winLose": 22,
-              "drawWin": 10.5,
+              "winLose": 23,
+              "drawWin": 10,
               "drawDraw": 5.95,
-              "drawLose": 4.1,
-              "loseWin": 38,
+              "drawLose": 4.35,
+              "loseWin": 40,
               "loseDraw": 16,
-              "loseLose": 2.35
+              "loseLose": 2.45
             },
             "single": {
               "spf": false,
@@ -546193,36 +546598,36 @@
             "awayRank": "91",
             "saleDate": "2026-11-16",
             "spf": {
-              "win": 1.87,
-              "draw": 3,
-              "lose": 3.68
+              "win": 1.71,
+              "draw": 2.98,
+              "lose": 4.56
             },
             "handicap": -1,
             "rqspf": {
-              "win": 4.2,
-              "draw": 3.2,
-              "lose": 1.7
+              "win": 4.08,
+              "draw": 2.9,
+              "lose": 1.82
             },
             "goals": {
-              "0": 8.5,
+              "0": 7.5,
               "1": 3.7,
-              "2": 3.05,
-              "3": 3.65,
-              "4": 6.75,
-              "5": 14.5,
-              "6": 34,
-              "7+": 55
+              "2": 3,
+              "3": 3.95,
+              "4": 7,
+              "5": 15,
+              "6": 30,
+              "7+": 51
             },
             "halfFull": {
               "winWin": 3.35,
               "winDraw": 15,
-              "winLose": 35,
-              "drawWin": 4.2,
-              "drawDraw": 4.2,
-              "drawLose": 7.75,
-              "loseWin": 28,
+              "winLose": 42,
+              "drawWin": 3.75,
+              "drawDraw": 3.9,
+              "drawLose": 9,
+              "loseWin": 30,
               "loseDraw": 15,
-              "loseLose": 6.55
+              "loseLose": 7.6
             },
             "single": {
               "spf": false,
@@ -546243,36 +546648,36 @@
             "awayRank": "102",
             "saleDate": "2026-11-16",
             "spf": {
-              "win": 1.11,
-              "draw": 6.2,
-              "lose": 13
+              "win": 1.08,
+              "draw": 6.6,
+              "lose": 16
             },
             "handicap": -1,
             "rqspf": {
-              "win": 1.5,
-              "draw": 4.05,
-              "lose": 4.42
+              "win": 1.42,
+              "draw": 4.15,
+              "lose": 5.14
             },
             "goals": {
               "0": 16,
-              "1": 5.6,
-              "2": 3.65,
-              "3": 3.45,
-              "4": 4.95,
-              "5": 8.15,
-              "6": 14.5,
-              "7+": 18
+              "1": 6,
+              "2": 3.95,
+              "3": 3.2,
+              "4": 4.45,
+              "5": 8.5,
+              "6": 15.5,
+              "7+": 19
             },
             "halfFull": {
-              "winWin": 1.5,
-              "winDraw": 26,
+              "winWin": 1.4,
+              "winDraw": 31,
               "winLose": 100,
-              "drawWin": 3.7,
-              "drawDraw": 8.75,
-              "drawLose": 28,
-              "loseWin": 25,
-              "loseDraw": 26,
-              "loseLose": 25
+              "drawWin": 3.8,
+              "drawDraw": 9,
+              "drawLose": 36,
+              "loseWin": 30,
+              "loseDraw": 31,
+              "loseLose": 33
             },
             "single": {
               "spf": false,
@@ -546293,36 +546698,36 @@
             "awayRank": "42",
             "saleDate": "2026-11-16",
             "spf": {
-              "win": 1.45,
-              "draw": 3.75,
-              "lose": 5.45
+              "win": 1.5,
+              "draw": 3.65,
+              "lose": 5.05
             },
             "handicap": -1,
             "rqspf": {
-              "win": 2.55,
+              "win": 2.7,
               "draw": 3.3,
-              "lose": 2.25
+              "lose": 2.15
             },
             "goals": {
-              "0": 11,
-              "1": 4.65,
-              "2": 3.05,
-              "3": 3.45,
-              "4": 5.85,
-              "5": 11,
-              "6": 23,
-              "7+": 40
+              "0": 13.5,
+              "1": 5.45,
+              "2": 3.2,
+              "3": 3.2,
+              "4": 5.5,
+              "5": 10,
+              "6": 18,
+              "7+": 29
             },
             "halfFull": {
-              "winWin": 2.1,
-              "winDraw": 18,
-              "winLose": 55,
-              "drawWin": 4,
+              "winWin": 2.26,
+              "winDraw": 16.5,
+              "winLose": 45,
+              "drawWin": 4.25,
               "drawDraw": 6.25,
-              "drawLose": 11.5,
-              "loseWin": 23,
-              "loseDraw": 18,
-              "loseLose": 9.3
+              "drawLose": 10,
+              "loseWin": 25,
+              "loseDraw": 16.5,
+              "loseLose": 7.5
             },
             "single": {
               "spf": false,
@@ -546343,32 +546748,32 @@
             "awayRank": "9",
             "saleDate": "2026-11-16",
             "spf": {
-              "win": 1.72,
-              "draw": 3.75,
-              "lose": 3.45
+              "win": 1.69,
+              "draw": 3.85,
+              "lose": 3.47
             },
             "handicap": -1,
             "rqspf": {
-              "win": 3.18,
-              "draw": 3.52,
-              "lose": 1.85
+              "win": 3.3,
+              "draw": 3.32,
+              "lose": 1.87
             },
             "goals": {
-              "0": 33,
-              "1": 10,
-              "2": 5.5,
-              "3": 3.7,
-              "4": 4.05,
-              "5": 5.4,
-              "6": 8.25,
-              "7+": 8.4
+              "0": 28,
+              "1": 9.3,
+              "2": 5.25,
+              "3": 3.6,
+              "4": 4,
+              "5": 5.75,
+              "6": 9,
+              "7+": 9.25
             },
             "halfFull": {
-              "winWin": 2.65,
+              "winWin": 2.75,
               "winDraw": 13.5,
-              "winLose": 28,
-              "drawWin": 4.6,
-              "drawDraw": 7.5,
+              "winLose": 26,
+              "drawWin": 4.35,
+              "drawDraw": 7.6,
               "drawLose": 9,
               "loseWin": 17,
               "loseDraw": 13.5,
@@ -546393,36 +546798,36 @@
             "awayRank": "51",
             "saleDate": "2026-11-16",
             "spf": {
-              "win": 7.3,
-              "draw": 3.9,
-              "lose": 1.34
+              "win": 7.6,
+              "draw": 4.3,
+              "lose": 1.29
             },
             "handicap": 1,
             "rqspf": {
-              "win": 2.63,
+              "win": 2.8,
               "draw": 3,
-              "lose": 2.35
+              "lose": 2.23
             },
             "goals": {
               "0": 9.5,
-              "1": 4,
-              "2": 3.1,
+              "1": 4.1,
+              "2": 2.9,
               "3": 3.65,
-              "4": 6.25,
-              "5": 12.5,
+              "4": 6.55,
+              "5": 14,
               "6": 27,
               "7+": 40
             },
             "halfFull": {
-              "winWin": 13,
+              "winWin": 13.5,
               "winDraw": 20,
               "winLose": 28,
-              "drawWin": 15,
-              "drawDraw": 5.3,
+              "drawWin": 15.5,
+              "drawDraw": 5.65,
               "drawLose": 3.65,
               "loseWin": 60,
               "loseDraw": 20,
-              "loseLose": 2.02
+              "loseLose": 1.95
             },
             "single": {
               "spf": false,
@@ -546444,22 +546849,22 @@
             "saleDate": "2026-11-16",
             "spf": {
               "win": 1.24,
-              "draw": 4.75,
-              "lose": 8.2
+              "draw": 4.85,
+              "lose": 7.9
             },
             "handicap": -1,
             "rqspf": {
               "win": 1.9,
-              "draw": 3.4,
-              "lose": 3.15
+              "draw": 3.5,
+              "lose": 3.05
             },
             "goals": {
               "0": 19,
-              "1": 6.1,
-              "2": 3.9,
-              "3": 3.35,
-              "4": 4.5,
-              "5": 7.4,
+              "1": 6.4,
+              "2": 4.15,
+              "3": 3.15,
+              "4": 4.25,
+              "5": 7.95,
               "6": 14,
               "7+": 18.5
             },
